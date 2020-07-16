@@ -24,14 +24,9 @@ INCLUDE "audio/music/titlescreen.asm"
 INCLUDE "audio/music/ruinsofalphinterior.asm"
 INCLUDE "audio/music/lookpokemaniac.asm"
 INCLUDE "audio/music/trainervictory.asm"
-INCLUDE "audio/music/newbarktown.asm"
-INCLUDE "audio/music/azaleatown.asm"
 
 SECTION "Songs 2", ROMX
 
-INCLUDE "audio/music/route1.asm"
-INCLUDE "audio/music/route3.asm"
-INCLUDE "audio/music/route12.asm"
 INCLUDE "audio/music/kantogymbattle.asm"
 INCLUDE "audio/music/kantotrainerbattle.asm"
 INCLUDE "audio/music/kantowildbattle.asm"
@@ -54,29 +49,23 @@ INCLUDE "audio/music/lookbeauty.asm"
 INCLUDE "audio/music/ecruteakcity.asm"
 INCLUDE "audio/music/lakeofragerocketradio.asm"
 INCLUDE "audio/music/magnettrain.asm"
-INCLUDE "audio/music/lavendertown.asm"
 INCLUDE "audio/music/dancinghall.asm"
 INCLUDE "audio/music/contestresults.asm"
 
 SECTION "Songs 3", ROMX
 
-INCLUDE "audio/music/violetcity.asm"
 INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
 INCLUDE "audio/music/printer.asm"
 
-
 SECTION "Songs 4", ROMX
 
-INCLUDE "audio/music/viridiancity.asm"
-INCLUDE "audio/music/celadoncity.asm"
 INCLUDE "audio/music/wildpokemonvictory.asm"
 INCLUDE "audio/music/successfulcapture.asm"
 INCLUDE "audio/music/gymleadervictory.asm"
 INCLUDE "audio/music/mtmoonsquare.asm"
 INCLUDE "audio/music/gym.asm"
-INCLUDE "audio/music/pallettown.asm"
 INCLUDE "audio/music/profoakspokemontalk.asm"
 INCLUDE "audio/music/profoak.asm"
 INCLUDE "audio/music/lookrival.asm"
@@ -130,30 +119,40 @@ SECTION "Night Songs 1", ROMX
 
 INCLUDE "audio/music/cherrygrovecity.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
-INCLUDE "audio/music/custom/pkmncenternight.asm"
-INCLUDE "audio/music/custom/friendlyshop.asm"
+INCLUDE "audio/music/route36.asm"
+INCLUDE "audio/music/newbarktown.asm"
+INCLUDE "audio/music/azaleatown.asm"
 
 SECTION "Night Songs 2", ROMX
-INCLUDE "audio/music/route36.asm"
-INCLUDE "audio/music/route37.asm"
-INCLUDE "audio/music/route26.asm"
-
-SECTION "Night Songs 3", ROMX
 INCLUDE "audio/music/route30.asm"
 INCLUDE "audio/music/route29.asm"
 INCLUDE "audio/music/lakeofrage.asm"
-;INCLUDE "audio/music/custom/route201.asm"
+INCLUDE "audio/music/route1.asm"
+INCLUDE "audio/music/violetcity.asm"
 
+SECTION "Night Songs 4", ROMX
+INCLUDE "audio/music/route3.asm"
+INCLUDE "audio/music/route12.asm"
+INCLUDE "audio/music/lavendertown.asm"
+INCLUDE "audio/music/pallettown.asm"
+
+SECTION "Night Songs 3", ROMX
+INCLUDE "audio/music/route37.asm"
+INCLUDE "audio/music/route26.asm"
+INCLUDE "audio/music/viridiancity.asm"
+INCLUDE "audio/music/celadoncity.asm"
+
+SECTION "Custom Songs 1", ROMX
+INCLUDE "audio/music/custom/pkmncenternight.asm"
+INCLUDE "audio/music/custom/friendlyshop.asm"
 
 SECTION "Sound Effects", ROMX
 
 INCLUDE "audio/sfx.asm"
 
-
 SECTION "Crystal Sound Effects", ROMX
 
 INCLUDE "audio/sfx_crystal.asm"
-
 
 SECTION "Cries", ROMX
 

@@ -1,20 +1,6 @@
 ; Pokémon Center (Night)
 ; Demixed by TriteHexagon
 
-; dw Drum00
-; dw Drum00
-; dw Kick1 
-; dw Crash1 
-; dw Snare6
-; dw HiHat2
-; dw HiHat3 
-; dw Snare14
-; dw Drum27 
-; dw Snare10
-; dw Drum00 
-; dw Snare13 
-; dw Snare11
-
 Music_PKMN_Center_Night:
 	musicheader 4, 1, Music_PKMN_Center_Night_Ch1
 	musicheader 1, 2, Music_PKMN_Center_Night_Ch2

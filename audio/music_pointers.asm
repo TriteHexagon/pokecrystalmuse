@@ -106,9 +106,10 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
-
+;custom
+	dba Music_PKMN_Center_Night
+	dba Music_FriendlyShop
 ;night
-
 	dba Music_NewBarkTownNight
 	dba Music_Route29Night
 	dba Music_CherrygroveCityNight
@@ -121,14 +122,12 @@ Music:
 	dba Music_Route38Night
 	dba Music_Route42Night
 	dba Music_Route26Night
-	dba Music_PKMN_Center_Night
-	dba Music_FriendlyShop
-	;dba Music_GSCViridianCity_Night
-	;dba Music_GSCRoute3_Night
-	;dba Music_GSCRoute12_Night
-	;dba Music_GSCCeladonCity_Night
-	;dba Music_GSCVermilionCityNight
-	;dba Music_GSCPalletTownNight
-	;dba Music_GSCRoute1Night
-	;dba Music_GSCLavenderTownNight
-	;dba Music_GSCKantoWildBattleNight
+	dba Music_ViridianCity_Night
+	dba Music_Route3_Night
+	dba Music_Route12_Night
+	dba Music_CeladonCity_Night
+	dba Music_VermilionCityNight
+	dba Music_PalletTownNight
+	dba Music_Route1Night
+	dba Music_LavenderTownNight
+	dba Music_KantoWildBattleNight
