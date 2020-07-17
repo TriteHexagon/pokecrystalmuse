@@ -847,7 +847,7 @@ Music_ViridianCity_Night_loop: ; f4246
 	loopchannel 0, Music_ViridianCity_Night_loop
 
 Music_ViridianCity_Night_Ch4:
-	togglenoise $3 ;was8
+	togglenoise $9
 	notetype $c
 	callchannel Music_ViridianCity_branch_f431d
 	callchannel Music_ViridianCity_branch_f432c

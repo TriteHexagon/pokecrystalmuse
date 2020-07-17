@@ -126,7 +126,7 @@ INCLUDE "audio/music/azaleatown.asm"
 SECTION "Night Songs 2", ROMX
 INCLUDE "audio/music/route30.asm"
 INCLUDE "audio/music/route29.asm"
-INCLUDE "audio/music/lakeofrage.asm"
+INCLUDE "audio/music/route42.asm"
 INCLUDE "audio/music/route1.asm"
 INCLUDE "audio/music/violetcity.asm"
 

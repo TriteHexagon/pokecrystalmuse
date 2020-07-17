@@ -767,7 +767,7 @@ Music_Route30Night_Ch3:
 	
 ; ============================================================================================================
 Music_Route30Night_Ch4:
-	togglenoise $3
+	togglenoise $9
 	notetype $c
 	callchannel Music_Route30_branch_efeb8
 	callchannel Music_Route30_branch_efec1

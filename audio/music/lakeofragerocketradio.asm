@@ -1,10 +1,10 @@
-Music_LakeOfRageRocketRadio:
+Music_Route42RocketRadio:
 	channel_count 3
-	channel 1, Music_LakeOfRageRocketRadio_Ch1
-	channel 2, Music_LakeOfRageRocketRadio_Ch2
-	channel 3, Music_LakeOfRageRocketRadio_Ch3
+	channel 1, Music_Route42RocketRadio_Ch1
+	channel 2, Music_Route42RocketRadio_Ch2
+	channel 3, Music_Route42RocketRadio_Ch3
 
-Music_LakeOfRageRocketRadio_Ch1:
+Music_Route42RocketRadio_Ch1:
 	tempo 160
 	volume 7, 7
 	duty_cycle 1
@@ -21,16 +21,16 @@ Music_LakeOfRageRocketRadio_Ch1:
 	rest 16
 	sound_loop 0, .mainloop
 
-Music_LakeOfRageRocketRadio_Ch2:
+Music_Route42RocketRadio_Ch2:
 	duty_cycle 1
 	vibrato 19, 14, 8
 	note_type 12, 10, 7
 	rest 2
 	stereo_panning FALSE, TRUE
-	sound_loop 0, Music_LakeOfRageRocketRadio_Ch1.mainloop
+	sound_loop 0, Music_Route42RocketRadio_Ch1.mainloop
 
-Music_LakeOfRageRocketRadio_Ch3:
+Music_Route42RocketRadio_Ch3:
 	note_type 12, 2, 6
 	vibrato 16, 4, 4
 	rest 4
-	sound_loop 0, Music_LakeOfRageRocketRadio_Ch1.mainloop
+	sound_loop 0, Music_Route42RocketRadio_Ch1.mainloop

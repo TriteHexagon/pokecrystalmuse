@@ -71,7 +71,7 @@
 	const MUSIC_SPROUT_TOWER                 ; 42
 	const MUSIC_BURNED_TOWER                 ; 43
 	const MUSIC_LIGHTHOUSE                   ; 44
-	const MUSIC_ROUTE_42                 ; 45
+	const MUSIC_ROUTE_42                     ; 45
 	const MUSIC_INDIGO_PLATEAU               ; 46
 	const MUSIC_ROUTE_38                     ; 47
 	const MUSIC_ROCKET_HIDEOUT               ; 48

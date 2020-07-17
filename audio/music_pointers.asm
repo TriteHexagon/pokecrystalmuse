@@ -71,7 +71,7 @@ Music:
 	dba Music_SproutTower
 	dba Music_BurnedTower
 	dba Music_Lighthouse
-	dba Music_LakeOfRage
+	dba Music_Route42
 	dba Music_IndigoPlateau
 	dba Music_Route37
 	dba Music_RocketHideout
@@ -92,7 +92,7 @@ Music:
 	dba Music_DancingHall
 	dba Music_ContestResults
 	dba Music_BugCatchingContest
-	dba Music_LakeOfRageRocketRadio
+	dba Music_Route42RocketRadio
 	dba Music_Printer
 	dba Music_PostCredits
 ; new to Crystal

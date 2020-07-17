@@ -615,7 +615,7 @@ Music_Route34Night_Ch3:
 	
 ; ============================================================================================================
 Music_Route34Night_Ch4:
-	togglenoise $1
+	togglenoise $7
 	notetype $c
 	callchannel Music_Route36_branch_e9734
 	callchannel Music_Route36_branch_e9741

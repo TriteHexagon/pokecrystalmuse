@@ -567,7 +567,7 @@ Music_Route29Night_Ch3:
 ; ============================================================================================================
 Music_Route29Night_Ch4:
 	stereopanning $f
-	togglenoise $0
+	togglenoise $6
 	notetype $c
 	note __, 2
 
