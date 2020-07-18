@@ -251,22 +251,20 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
-	dw MoveFCDescription
-	dw MoveFDDescription
+	dw DazzlingGleamDescription
+	dw MoonblastDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFCDescription:
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"
 
 PoundDescription:
-	db   "Pounds with fore-"
-	next "legs or tail.@"
+	db   "Cutely pounds with"
+	next "limbs or tail.@"
 
 KarateChopDescription:
 	db   "Has a high criti-"
@@ -1249,8 +1247,8 @@ AncientpowerDescription:
 	next "raise all stats.@"
 
 ShadowBallDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "An attack that"
+	next "may lower SP.DEF.@"
 
 FutureSightDescription:
 	db   "An attack that"
@@ -1267,3 +1265,11 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+DazzlingGleamDescription:
+	db   "User attacks with"
+	next "a powerful flash.@"
+
+MoonblastDescription:
+	db   "A moon attack that"
+	next "may lower SP.Atk.@"

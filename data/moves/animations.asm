@@ -252,8 +252,8 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
-	dw BattleAnim_252
-	dw BattleAnim_253
+	dw BattleAnim_DazzlingGleam
+	dw BattleAnim_Moonblast
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
 ; $100
@@ -4592,6 +4592,48 @@ BattleAnim_BeatUp:
 	anim_obj ANIM_OBJ_00, 136, 48, $0
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+BattleAnim_DazzlingGleam: ;new - animation equal to Flash
+	anim_1gfx ANIM_GFX_SPEED
+	anim_sound 0, 1, SFX_FLASH
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $6, $20
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $0
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $8
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $10
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $18
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $20
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $28
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $30
+	anim_wait 4
+	anim_obj ANIM_OBJ_FLASH, 136, 56, $38
+	anim_wait 32
+	anim_ret
+
+BattleAnim_Moonblast:
+	anim_1gfx ANIM_GFX_SHINE
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_07, $0, $0, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 0, 40, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 16, 56, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 32, 72, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 48, 88, $0
+	anim_obj ANIM_OBJ_MOONLIGHT, 64, 104, $0
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 63
+	anim_if_param_equal $3, .three
+	anim_call BattleAnimSub_Glimmer
+	anim_ret
+.three
+	anim_call BattleAnimSub_Glimmer2
 	anim_ret
 
 BattleAnimSub_Drain:

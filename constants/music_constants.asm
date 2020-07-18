@@ -92,7 +92,7 @@
 	const MUSIC_DANCING_HALL                 ; 57
 	const MUSIC_BUG_CATCHING_CONTEST_RANKING ; 58
 	const MUSIC_BUG_CATCHING_CONTEST         ; 59
-	const MUSIC_ROUTE_42_ROCKET_RADIO    ; 5a
+	const MUSIC_ROUTE_42_ROCKET_RADIO        ; 5a
 	const MUSIC_PRINTER                      ; 5b
 	const MUSIC_POST_CREDITS                 ; 5c
 

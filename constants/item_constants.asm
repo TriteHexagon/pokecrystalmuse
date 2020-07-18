@@ -109,7 +109,7 @@
 	const PNK_APRICORN ; 65
 	const BLACKGLASSES ; 66
 	const SLOWPOKETAIL ; 67
-	const PINK_BOW     ; 68
+	const SILK_SCARF     ; 68
 	const STICK        ; 69
 	const SMOKE_BALL   ; 6a
 	const NEVERMELTICE ; 6b
@@ -175,7 +175,7 @@
 	const NORMAL_BOX   ; a7
 	const GORGEOUS_BOX ; a8
 	const SUN_STONE    ; a9
-	const POLKADOT_BOW ; aa
+	const PINK_BOW     ; aa
 	const ITEM_AB      ; ab
 	const UP_GRADE     ; ac
 	const BERRY        ; ad
