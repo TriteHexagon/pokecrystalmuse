@@ -10,7 +10,7 @@ StallMoves:
 	db COUNTER
 	db LEECH_SEED
 	db GROWTH
-	db MEDITATE
+	db CALM_MIND
 	db AGILITY
 	db MIMIC
 	db SCREECH

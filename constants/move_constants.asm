@@ -85,7 +85,6 @@
 	const CONFUSION    ; 5d
 	const PSYCHIC_M    ; 5e
 	const HYPNOSIS     ; 5f
-	const MEDITATE     ; 60 Calm Mind
 	const AGILITY      ; 61
 	const QUICK_ATTACK ; 62
 	const TELEPORT     ; 64
@@ -108,9 +107,7 @@
 	const LICK         ; 7a
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
-	const CLAMP        ; 80 Razor Shell
 	const SWIFT        ; 81
-	const SPIKE_CANNON ; 83 Pin Missile
 	const AMNESIA      ; 85
 	const SOFTBOILED   ; 87
 	const HI_JUMP_KICK ; 88
@@ -124,9 +121,8 @@
 	const DIZZY_PUNCH  ; 92
 	const SPORE        ; 93
 	const FLASH        ; 94
-	const PSYWAVE      ; 95 Night Shade
 	const SPLASH       ; 96
-	const ACID_ARMOR   ; 97 Iron Defense
+	const ACID_ARMOR   ; 97
 	const CRABHAMMER   ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
@@ -142,16 +138,11 @@
 	const SKETCH       ; a6
 	const TRIPLE_KICK  ; a7
 	const THIEF        ; a
-	const MIND_READER  ; aa
 	const FLAME_WHEEL  ; ac
-	const SNORE        ; ad Sleep Talk
 	const CURSE        ; ae
 	const FLAIL        ; af
-	const CONVERSION2  ; b0 REM
 	const AEROBLAST    ; b1
-	const REVERSAL     ; b3 Flail
 	const SPITE        ; b4
-	const POWDER_SNOW  ; b5 Ice Shard
 	const PROTECT      ; b6
 	const MACH_PUNCH   ; b7
 	const SCARY_FACE   ; b8
@@ -162,13 +153,10 @@
 	const MUD_SLAP     ; bd
 	const OCTAZOOKA    ; be
 	const SPIKES       ; bf
-	const ZAP_CANNON   ; c0 Thunder
 	const FORESIGHT    ; c1
 	const DESTINY_BOND ; c2
 	const PERISH_SONG  ; c3
 	const ICY_WIND     ; c4
-	const DETECT       ; c5 Protect
-	const BONE_RUSH    ; c6 REM
 	const LOCK_ON      ; c7 Mind Reader
 	const OUTRAGE      ; c8
 	const SANDSTORM    ; c9
@@ -201,7 +189,6 @@
 	const SWEET_SCENT  ; e6
 	const IRON_TAIL    ; e7
 	const METAL_CLAW   ; e8
-	const VITAL_THROW  ; e9 Submission
 	const MORNING_SUN  ; ea
 	const SYNTHESIS    ; eb
 	const MOONLIGHT    ; ec
@@ -257,23 +244,23 @@
 	const ICICLE_CRASH
 	const ICE_SHARD
 	const ICE_FANG
-	;const HYPER_VOICE
+	const HYPER_VOICE
 	const POISON_JAB
-	;const POISON_FANG
+	const POISON_FANG
 	const VENOSHOCK
-	;const GUNK_SHOT
-	;const ZEN_HEADBUTT
-	;const CALM_MIND
-	;const POWER_GEM
-	;const STONE_EDGE
-	;const FLASH_CANNON
-	;const IRON_HEAD
-	;const IRON_DEFENSE
+	const GUNK_SHOT
+	const ZEN_HEADBUTT
+	const CALM_MIND
+	const POWER_GEM
+	const STONE_EDGE
+	const FLASH_CANNON
+	const IRON_HEAD
+	const IRON_DEFENSE
 	const SMART_STRIKE
-	;const AQUA_JET
+	const AQUA_JET
 	const WATER_PULSE
-	;const RAZOR_SHELL
-	;const SCALD
+	const RAZOR_SHELL
+	const SCALD
 	const STRUGGLE     
 NUM_ATTACKS EQU const_value - 1
 

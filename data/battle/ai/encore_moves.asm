@@ -9,7 +9,7 @@ EncoreMoves:
 	db LEECH_SEED
 	db GROWTH
 	db POISONPOWDER
-	db MEDITATE
+	db CALM_MIND
 	db AGILITY
 	db TELEPORT
 	db SCREECH
@@ -23,8 +23,7 @@ EncoreMoves:
 	db SUPER_FANG
 	db SUBSTITUTE
 	db TRIPLE_KICK
-	db MIND_READER
+	db LOCK_ON
 	db FLAME_WHEEL
 	db AEROBLAST
-	db POWDER_SNOW
 	db -1 ; end

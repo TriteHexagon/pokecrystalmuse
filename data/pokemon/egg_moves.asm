@@ -51,7 +51,7 @@ RattataEggMoves:
 	db FURY_SWIPES
 	db BITE
 	db COUNTER
-	db REVERSAL
+	db FLAIL
 	db -1 ; end
 
 SpearowEggMoves:
@@ -166,9 +166,9 @@ PsyduckEggMoves:
 MankeyEggMoves:
 	db ROCK_SLIDE
 	db FORESIGHT
-	db MEDITATE
+	db BULK_UP
 	db COUNTER
-	db REVERSAL
+	db FLAIL
 	db BEAT_UP
 	db -1 ; end
 
@@ -185,7 +185,7 @@ PoliwagEggMoves:
 	db SPLASH
 	db WATER_PULSE
 	db HAZE
-	db MIND_READER
+	db LOCK_ON
 	db -1 ; end
 
 AbraEggMoves:
@@ -196,7 +196,7 @@ AbraEggMoves:
 
 MachopEggMoves:
 	db LIGHT_SCREEN
-	db MEDITATE
+	db BULK_UP
 	db DOUBLE_KICK
 	db ENCORE
 	db -1 ; end
@@ -278,7 +278,7 @@ ShellderEggMoves:
 	db -1 ; end
 
 GastlyEggMoves:
-	db PSYWAVE
+	db NIGHT_SHADE
 	db PERISH_SONG
 	db HAZE
 	db -1 ; end
@@ -327,7 +327,7 @@ LickitungEggMoves:
 
 KoffingEggMoves:
 	db SCREECH
-	db PSYWAVE
+	db NIGHT_SHADE
 	db PSYBEAM
 	db DESTINY_BOND
 	db PAIN_SPLIT
@@ -335,7 +335,7 @@ KoffingEggMoves:
 
 RhyhornEggMoves:
 	db CRUNCH
-	db REVERSAL
+	db FLAIL
 	db ROCK_SLIDE
 	db THRASH
 	db PURSUIT
@@ -391,7 +391,7 @@ ScytherEggMoves:
 	db SAFEGUARD
 	db BATON_PASS
 	db RAZOR_WIND
-	db REVERSAL
+	db FLAIL
 	db LIGHT_SCREEN
 	db -1 ; end
 
@@ -455,7 +455,7 @@ ChikoritaEggMoves:
 CyndaquilEggMoves:
 	db FURY_SWIPES
 	db QUICK_ATTACK
-	db REVERSAL
+	db FLAIL
 	db THRASH
 	db FORESIGHT
 	db SUBMISSION
@@ -475,7 +475,7 @@ SentretEggMoves:
 	db PURSUIT
 	db SLASH
 	db FOCUS_ENERGY
-	db REVERSAL
+	db FLAIL
 	db -1 ; end
 
 HoothootEggMoves:
@@ -508,7 +508,7 @@ ChinchouEggMoves:
 	db -1 ; end
 
 PichuEggMoves:
-	db REVERSAL
+	db FLAIL
 	db TRANSFORM
 	db PRESENT
 	db ENCORE
@@ -593,7 +593,7 @@ AipomEggMoves:
 
 YanmaEggMoves:
 	db WHIRLWIND
-	db REVERSAL
+	db FLAIL
 	db LEECH_LIFE
 	db -1 ; end
 
@@ -748,7 +748,7 @@ HoundourEggMoves:
 	db PURSUIT
 	db COUNTER
 	db SPITE
-	db REVERSAL
+	db FLAIL
 	db BEAT_UP
 	db -1 ; end
 
@@ -771,18 +771,18 @@ TyrogueEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK
 	db MACH_PUNCH
-	db MIND_READER
+	db LOCK_ON
 	db -1 ; end
 
 SmoochumEggMoves:
-	db MEDITATE
+	db BULK_UP
 	db -1 ; end
 
 ElekidEggMoves:
 	db TRANSFORM
 	db REFLECT
 	db DOUBLE_KICK
-	db MEDITATE
+	db BULK_UP
 	db CROSS_CHOP
 	db -1 ; end
 
@@ -796,7 +796,7 @@ MagbyEggMoves:
 
 MiltankEggMoves:
 	db PRESENT
-	db REVERSAL
+	db FLAIL
 	db SEISMIC_TOSS
 	db -1 ; end
 

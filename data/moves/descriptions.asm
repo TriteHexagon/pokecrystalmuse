@@ -79,7 +79,6 @@ MoveDescriptions::
 	dw ConfusionDescription
 	dw PsychicMDescription
 	dw HypnosisDescription
-	dw MeditateDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
 	dw TeleportDescription
@@ -102,9 +101,7 @@ MoveDescriptions::
 	dw LickDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
-	dw ClampDescription
 	dw SwiftDescription
-	dw SpikeCannonDescription
 	dw AmnesiaDescription
 	dw SoftboiledDescription
 	dw HiJumpKickDescription
@@ -118,7 +115,6 @@ MoveDescriptions::
 	dw DizzyPunchDescription
 	dw SporeDescription
 	dw FlashDescription
-	dw PsywaveDescription
 	dw SplashDescription
 	dw AcidArmorDescription
 	dw CrabhammerDescription
@@ -136,16 +132,11 @@ MoveDescriptions::
 	dw SketchDescription
 	dw TripleKickDescription
 	dw ThiefDescription
-	dw MindReaderDescription
 	dw FlameWheelDescription
-	dw SnoreDescription
 	dw CurseDescription
 	dw FlailDescription
-	dw Conversion2Description
 	dw AeroblastDescription
-	dw ReversalDescription
 	dw SpiteDescription
-	dw PowderSnowDescription
 	dw ProtectDescription
 	dw MachPunchDescription
 	dw ScaryFaceDescription
@@ -156,13 +147,10 @@ MoveDescriptions::
 	dw MudSlapDescription
 	dw OctazookaDescription
 	dw SpikesDescription
-	dw ZapCannonDescription
 	dw ForesightDescription
 	dw DestinyBondDescription
 	dw PerishSongDescription
 	dw IcyWindDescription
-	dw DetectDescription
-	dw BoneRushDescription
 	dw LockOnDescription
 	dw OutrageDescription
 	dw SandstormDescription
@@ -182,12 +170,10 @@ MoveDescriptions::
 	dw HealBellDescription
 	dw ReturnDescription
 	dw PresentDescription
-	;dw FrustrationDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
 	dw SacredFireDescription
 	dw MagnitudeDescription
-	;dw DynamicpunchDescription
 	dw MegahornDescription
 	dw DragonbreathDescription
 	dw BatonPassDescription
@@ -197,7 +183,6 @@ MoveDescriptions::
 	dw SweetScentDescription
 	dw IronTailDescription
 	dw MetalClawDescription
-	dw VitalThrowDescription
 	dw MorningSunDescription
 	dw SynthesisDescription
 	dw MoonlightDescription
@@ -252,23 +237,23 @@ MoveDescriptions::
 	dw IcicleCrashDescription
 	dw IceShardDescription
 	dw IceFangDescription
-	; dw HyperVoiceDescription
+	dw HyperVoiceDescription
 	dw PoisonJabDescription
-	; dw PoisonFangDescription
+	dw PoisonFangDescription
 	dw VenoshockDescription
-	; dw GunkShotDescription
-	; dw ZenHeadbuttDescription
-	; dw CalmMindDescription
-	; dw PowerGemDescription
-	; dw StoneEdgeDescription
-	; dw FlashCannonDescription
-	; dw IronHeadDescription
-	; dw IronDefenseDescription
+	dw GunkShotDescription
+	dw ZenHeadbuttDescription
+	dw CalmMindDescription
+	dw PowerGemDescription
+	dw StoneEdgeDescription
+	dw FlashCannonDescription
+	dw IronHeadDescription
+	dw IronDefenseDescription
 	dw SmartStrikeDescription
-	; dw AquaJetDescription
+	dw AquaJetDescription
 	dw WaterPulseDescription
-	; dw RazorShellDescription
-	; dw ScaldDescription
+	dw RazorShellDescription
+	dw ScaldDescription
 	dw StruggleDescription
 	dw Move00Description
 
@@ -596,10 +581,6 @@ HypnosisDescription:
 	db   "May put the foe to"
 	next "sleep.@"
 
-MeditateDescription:
-	db   "Raises the user's"
-	next "ATK.@"
-
 AgilityDescription:
 	db   "Sharply increases"
 	next "the user's SPE.@"
@@ -688,17 +669,9 @@ WaterfallDescription:
 	db   "An aquatic charge"
 	next "attack.@"
 
-ClampDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
-
 SwiftDescription:
 	db   "An attack that"
 	next "never misses.@"
-
-SpikeCannonDescription:
-	db   "Fires spikes to"
-	next "hit 2-5 times.@"
 
 AmnesiaDescription:
 	db   "Sharply raises the"
@@ -755,10 +728,6 @@ SporeDescription:
 FlashDescription:
 	db   "Blinds the foe to"
 	next "reduce accuracy.@"
-
-PsywaveDescription:
-	db   "An attack with"
-	next "variable power.@"
 
 SplashDescription:
 	db   "Has no effect"
@@ -828,17 +797,9 @@ ThiefDescription:
 	db   "An attack that may"
 	next "steal a held item.@"
 
-MindReaderDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
-
 FlameWheelDescription:
 	db   "An attack that may"
 	next "cause a burn.@"
-
-SnoreDescription:
-	db   "An attack useable"
-	next "only while asleep.@"
 
 CurseDescription:
 	db   "Works differently"
@@ -848,25 +809,13 @@ FlailDescription:
 	db   "Stronger if the"
 	next "user's HP is low.@"
 
-Conversion2Description:
-	db   "The user's type is"
-	next "made resistant.@"
-
 AeroblastDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
-ReversalDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
-
 SpiteDescription:
 	db   "Cuts the PP of the"
 	next "foe's last move.@"
-
-PowderSnowDescription:
-	db   "An attack that may"
-	next "cause freezing.@"
 
 ProtectDescription:
 	db   "Foils attack that"
@@ -908,10 +857,6 @@ SpikesDescription:
 	db   "Hurts foes when"
 	next "they switch out.@"
 
-ZapCannonDescription:
-	db   "An attack that"
-	next "always paralyzes.@"
-
 ForesightDescription:
 	db   "Negates accuracy"
 	next "reduction moves.@"
@@ -927,14 +872,6 @@ PerishSongDescription:
 IcyWindDescription:
 	db   "An icy attack that"
 	next "lowers SPE.@"
-
-DetectDescription:
-	db   "Evades attack that"
-	next "turn. It may fail.@"
-
-BoneRushDescription:
-	db   "An attack that"
-	next "hits 2-5 times.@"
 
 LockOnDescription:
 	db   "Ensures the next"
@@ -1063,10 +1000,6 @@ IronTailDescription:
 MetalClawDescription:
 	db   "An attack that may"
 	next "up user's ATK.@"
-
-VitalThrowDescription:
-	db   "A 2nd-strike move"
-	next "that never misses.@"
 
 MorningSunDescription:
 	db   "Restores HP"
@@ -1285,73 +1218,73 @@ IceFangDescription:
 	db   "An icy bite. May"
 	next "cause freezing.@"
 
-;HyperVoiceDescription:
-	;db   "Loud soundwaves"
-	;next "injure target.@"
+HyperVoiceDescription:
+	db   "Loud soundwaves"
+	next "injure target.@"
 
 PoisonJabDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
-;PoisonFangDescription:
-	;db   "May leave the foe"
-	;next "badly poisoned.@"
+PoisonFangDescription:
+	db   "May leave the foe"
+	next "badly poisoned.@"
 
 VenoshockDescription:
 	db   "Doubles power if"
 	next "foe is unhealthy.@"
 
-;GunkShotDescription:
-	;db   "An attack that may"
-	;next "poison the target.@"
+GunkShotDescription:
+	db   "An attack that may"
+	next "poison the target.@"
 
-;ZenHeadbuttDescription:
-	;db   "An attack that may"
-	;next "cause flinching.@"
+ZenHeadbuttDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
 
-;CalmMindDescription:
-	;db   "Focusing the mind,"
-	;next "raises SPA, SPD.@"
+CalmMindDescription:
+	db   "Focusing the mind,"
+	next "raises SPA, SPD.@"
 
-;PowerGemDescription:
-	;db   "A sparkling ray of"
-	;next "gemstone light.@"
+PowerGemDescription:
+	db   "A sparkling ray of"
+	next "gem-like light.@"
 
-;StoneEdgeDescription:
-	;db   "Has a high criti-"
-	;next "cal hit ratio.@"
+StoneEdgeDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
-;FlashCannonDescription:
-	;db   "An attack that"
-	;next "may lower SPD.@"
+FlashCannonDescription:
+	db   "An attack that"
+	next "may lower SPD.@"
 
-;IronHeadDescription:
-	;db   "An attack that may"
-	;next "cause flinching.@"
+IronHeadDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
 
-;IronDefenseDescription:
-	;db   "Sharply increases"
-	;next "user's DEF.@"
+IronDefenseDescription:
+	db   "Sharply increases"
+	next "user's DEF.@"
 
 SmartStrikeDescription:
 	db   "An attack that"
 	next "never misses.@"
 
-;AquaJetDescription:
-	;db   "Lets the user get"
-	;next "in the first hit.@"
+AquaJetDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
 
 WaterPulseDescription:
 	db   "Ultrasonic waves"
 	next "that may confuse.@"
 
-;RazorShellDescription:
-	;db   "An attack that"
-	;next "may lower DEF.@"
+RazorShellDescription:
+	db   "An attack that"
+	next "may lower DEF.@"
 
-;ScaldDescription:
-	;db   "An attack that"
-	;next "may cause a burn.@"
+ScaldDescription:
+	db   "An attack that"
+	next "may cause a burn.@"
 
 ;last must be struggle
 StruggleDescription:

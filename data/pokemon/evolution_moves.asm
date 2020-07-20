@@ -137,7 +137,7 @@ EvolutionMoves::
     db EMBER        ;Flareon
     db NO_MOVE      ;Porygon
     db NO_MOVE      ;Omanyte
-    db SPIKE_CANNON ;Omastar
+    db PIN_MISSILE ;Omastar
     db NO_MOVE      ;Kabuto
     db SLASH        ;Kabutops
     db NO_MOVE      ;Aerodactyl

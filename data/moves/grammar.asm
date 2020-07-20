@@ -19,8 +19,7 @@ MoveGrammar:
 	db REST
 	db SHARPEN
 	db SUBSTITUTE
-	db MIND_READER
-	db SNORE
+	db LOCK_ON
 	db PROTECT
 	db SPIKES
 	db ENDURE
@@ -40,7 +39,6 @@ MoveGrammar:
 	db 0 ; end set
 
 ; 2: originally "[mon]の¯[move]¯した!" ("[mon]¯did¯[move]!")
-	db MEDITATE
 	db AGILITY
 	db MIMIC
 	db DOUBLE_TEAM
@@ -71,7 +69,6 @@ MoveGrammar:
 	db SCREECH
 	db METRONOME
 	db LICK
-	db CLAMP
 	db POISON_GAS
 	db SLASH
 	db CURSE

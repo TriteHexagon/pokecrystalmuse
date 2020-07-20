@@ -182,8 +182,8 @@ CheckPlayerTurn:
 
 	; Snore and Sleep Talk bypass sleep.
 	ld a, [wCurPlayerMove]
-	cp SNORE
-	jr z, .not_asleep
+	;cp SNORE
+	;jr z, .not_asleep
 	cp SLEEP_TALK
 	jr z, .not_asleep
 
@@ -410,8 +410,8 @@ CheckEnemyTurn:
 .fast_asleep
 	; Snore and Sleep Talk bypass sleep.
 	ld a, [wCurEnemyMove]
-	cp SNORE
-	jr z, .not_asleep
+	;cp SNORE
+	;jr z, .not_asleep
 	cp SLEEP_TALK
 	jr z, .not_asleep
 	call CantMove
@@ -919,8 +919,8 @@ IgnoreSleepOnly:
 	call GetBattleVar
 
 	; Snore and Sleep Talk bypass sleep.
-	cp SNORE
-	jr z, .CheckSleep
+	;cp SNORE
+	;jr z, .CheckSleep
 	cp SLEEP_TALK
 	jr z, .CheckSleep
 	and a
@@ -5867,7 +5867,6 @@ BattleCommand_TrapTarget:
 	;dbw WRAP,      UsedBindText      ; 'used WRAP on'
 	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
-	dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'
 	dbw WHIRLPOOL, WhirlpoolTrapText ; 'was trapped!'
 
 INCLUDE "engine/battle/move_effects/mist.asm"
