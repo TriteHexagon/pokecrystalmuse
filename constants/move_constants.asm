@@ -80,7 +80,6 @@
 	const THUNDER      ; 57
 	const ROCK_THROW   ; 58
 	const EARTHQUAKE   ; 59
-	const FISSURE      ; 5a Earth Power
 	const DIG          ; 5b
 	const TOXIC        ; 5c
 	const CONFUSION    ; 5d
@@ -89,7 +88,6 @@
 	const MEDITATE     ; 60 Calm Mind
 	const AGILITY      ; 61
 	const QUICK_ATTACK ; 62
-	const RAGE         ; 63 Fury Attack
 	const TELEPORT     ; 64
 	const NIGHT_SHADE  ; 65
 	const MIMIC        ; 66
@@ -100,24 +98,18 @@
 	const MINIMIZE     ; 6b
 	const SMOKESCREEN  ; 6c
 	const CONFUSE_RAY  ; 6d
-	const WITHDRAW     ; 6e Defense Curl
 	const DEFENSE_CURL ; 6f
-	const BARRIER      ; 70 Reflect
 	const LIGHT_SCREEN ; 71
 	const HAZE         ; 72
 	const REFLECT      ; 73
 	const FOCUS_ENERGY ; 74
 	const METRONOME    ; 76
 	const MIRROR_MOVE  ; 77
-	const SELFDESTRUCT ; 78 Explosion
 	const LICK         ; 7a
-	const SMOG         ; 7b Poison Gas
-	const SLUDGE       ; 7c Venoshock
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
 	const CLAMP        ; 80 Razor Shell
 	const SWIFT        ; 81
-	const SKULL_BASH   ; 82 Headbutt
 	const SPIKE_CANNON ; 83 Pin Missile
 	const AMNESIA      ; 85
 	const SOFTBOILED   ; 87
@@ -215,7 +207,6 @@
 	const MOONLIGHT    ; ec
 	const HIDDEN_POWER ; ed
 	const CROSS_CHOP   ; ee
-	const TWISTER      ; ef Gust
 	const RAIN_DANCE   ; f0
 	const SUNNY_DAY    ; f1
 	const CRUNCH       ; f2
@@ -259,17 +250,17 @@
 	const SHADOW_SNEAK
 	const SHADOW_CLAW
 	const SEED_BOMB
-	;const ENERGY_BALL
-	;const EARTH_POWER
-	;const MUD_SHOT
-	;const DRILL_RUN
-	;const ICICLE_CRASH
-	;const ICE_SHARD
-	;const ICE_FANG
+	const ENERGY_BALL
+	const EARTH_POWER
+	const MUD_SHOT
+	const DRILL_RUN
+	const ICICLE_CRASH
+	const ICE_SHARD
+	const ICE_FANG
 	;const HYPER_VOICE
-	;const POISON_JAB
+	const POISON_JAB
 	;const POISON_FANG
-	;const VENOSHOCK
+	const VENOSHOCK
 	;const GUNK_SHOT
 	;const ZEN_HEADBUTT
 	;const CALM_MIND
@@ -283,7 +274,7 @@
 	const WATER_PULSE
 	;const RAZOR_SHELL
 	;const SCALD
-	const STRUGGLE     ; ff
+	const STRUGGLE     
 NUM_ATTACKS EQU const_value - 1
 
 ; Battle animations use the same constants as the moves up to this point

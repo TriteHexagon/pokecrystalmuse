@@ -105,15 +105,15 @@ JackGustTriviaText:
 	line "more powerful."
 	done
 
-JackTwisterTriviaText:
-	text "Did you know…?"
+; JackTwisterTriviaText:
+; 	text "Did you know…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+; 	para "If your opponent"
+; 	line "is FLYing, your"
 
-	para "TWISTER becomes"
-	line "more powerful."
-	done
+; 	para "TWISTERX becomes"
+; 	line "more powerful."
+; 	done
 
 JackEarthquakeTriviaText:
 	text "Did you know…?"

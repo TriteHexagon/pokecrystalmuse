@@ -10,10 +10,8 @@ MoveGrammar:
 	db HARDEN
 	db MINIMIZE
 	db SMOKESCREEN
-	db WITHDRAW
 	db DEFENSE_CURL
 	db TRANSFORM
-	db SMOG
 	db FLASH
 	db SPLASH
 	db ACID_ARMOR
@@ -36,7 +34,7 @@ MoveGrammar:
 ; 1: originally "[mon]の¯[move]した!" ("[mon]¯did [move]!")
 	db RECOVER
 	db TELEPORT
-	db SELFDESTRUCT
+	db EXPLOSION
 	db AMNESIA
 	db FLAIL
 	db 0 ; end set
@@ -68,7 +66,6 @@ MoveGrammar:
 	db PECK
 	db ABSORB
 	db EARTHQUAKE
-	db FISSURE
 	db DIG
 	db TOXIC
 	db SCREECH

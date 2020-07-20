@@ -1693,8 +1693,8 @@ BattleCommand_CheckHit:
 
 	cp EARTHQUAKE
 	ret z
-	cp FISSURE
-	ret z
+	;cp FISSUREX - maybe add EARTH_POWER?
+	;ret z
 	cp MAGNITUDE
 	ret z
 
@@ -1741,8 +1741,8 @@ BattleCommand_CheckHit:
 	cp WHIRLWIND
 	ret z
 	cp THUNDER
-	ret z
-	cp TWISTER
+	;ret z
+	;cp TWISTERX
 	ret
 
 .DigMoves:
@@ -1751,8 +1751,8 @@ BattleCommand_CheckHit:
 
 	cp EARTHQUAKE
 	ret z
-	cp FISSURE
-	ret z
+	;cp FISSUREX - maybe add EARTH_POWER?
+	;ret z
 	cp MAGNITUDE
 	ret
 
@@ -5676,9 +5676,9 @@ BattleCommand_Charge:
 	ld hl, .BattleTookSunlightText
 	jr z, .done
 
-	cp SKULL_BASH
-	ld hl, .BattleLoweredHeadText
-	jr z, .done
+	; cp SKULL_BASHX
+	; ld hl, .BattleLoweredHeadText
+	; jr z, .done
 
 	cp SKY_ATTACK
 	ld hl, .BattleGlowingText

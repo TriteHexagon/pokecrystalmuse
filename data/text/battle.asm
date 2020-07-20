@@ -631,6 +631,7 @@ TookDownWithItText:
 	cont "<USER>!"
 	prompt
 
+;unused
 RageBuildingText:
 	text "<USER>'s"
 	line "RAGE is building!"

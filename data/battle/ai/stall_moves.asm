@@ -12,13 +12,10 @@ StallMoves:
 	db GROWTH
 	db MEDITATE
 	db AGILITY
-	db RAGE
 	db MIMIC
 	db SCREECH
 	db HARDEN
-	db WITHDRAW
 	db DEFENSE_CURL
-	db BARRIER
 	db LIGHT_SCREEN
 	db HAZE
 	db REFLECT

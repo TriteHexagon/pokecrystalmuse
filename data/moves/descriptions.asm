@@ -74,7 +74,6 @@ MoveDescriptions::
 	dw ThunderDescription
 	dw RockThrowDescription
 	dw EarthquakeDescription
-	dw FissureDescription
 	dw DigDescription
 	dw ToxicDescription
 	dw ConfusionDescription
@@ -83,7 +82,6 @@ MoveDescriptions::
 	dw MeditateDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
-	dw RageDescription
 	dw TeleportDescription
 	dw NightShadeDescription
 	dw MimicDescription
@@ -94,24 +92,18 @@ MoveDescriptions::
 	dw MinimizeDescription
 	dw SmokescreenDescription
 	dw ConfuseRayDescription
-	dw WithdrawDescription
 	dw DefenseCurlDescription
-	dw BarrierDescription
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
 	dw FocusEnergyDescription
 	dw MetronomeDescription
 	dw MirrorMoveDescription
-	dw SelfdestructDescription
 	dw LickDescription
-	dw SmogDescription
-	dw SludgeDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
 	dw ClampDescription
 	dw SwiftDescription
-	dw SkullBashDescription
 	dw SpikeCannonDescription
 	dw AmnesiaDescription
 	dw SoftboiledDescription
@@ -211,7 +203,6 @@ MoveDescriptions::
 	dw MoonlightDescription
 	dw HiddenPowerDescription
 	dw CrossChopDescription
-	dw TwisterDescription
 	dw RainDanceDescription
 	dw SunnyDayDescription
 	dw CrunchDescription
@@ -254,17 +245,17 @@ MoveDescriptions::
 	dw ShadowSneakDescription
 	dw ShadowClawDescription
 	dw SeedBombDescription
-	; dw EnergyBallDescription
-	; dw EarthPowerDescription
-	; dw MudShotDescription
-	; dw DrillRunDescription
-	; dw IcicleCrashDescription
-	; dw IceShardDescription
-	; dw IceFangDescription
+	dw EnergyBallDescription
+	dw EarthPowerDescription
+	dw MudShotDescription
+	dw DrillRunDescription
+	dw IcicleCrashDescription
+	dw IceShardDescription
+	dw IceFangDescription
 	; dw HyperVoiceDescription
-	; dw PoisonJabDescription
+	dw PoisonJabDescription
 	; dw PoisonFangDescription
-	; dw VenoshockDescription
+	dw VenoshockDescription
 	; dw GunkShotDescription
 	; dw ZenHeadbuttDescription
 	; dw CalmMindDescription
@@ -585,10 +576,6 @@ EarthquakeDescription:
 	db   "Tough but useless"
 	next "vs. flying foes.@"
 
-FissureDescription:
-	db   "A ground-type,"
-	next "one-hit KO attack.@"
-
 DigDescription:
 	db   "1st turn: Burrow"
 	next "2nd turn: Attack@"
@@ -620,10 +607,6 @@ AgilityDescription:
 QuickAttackDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
-
-RageDescription:
-	db   "Raises ATK if"
-	next "the user is hit.@"
 
 TeleportDescription:
 	db   "A move for fleeing"
@@ -665,16 +648,8 @@ ConfuseRayDescription:
 	db   "A move that causes"
 	next "confusion.@"
 
-WithdrawDescription:
-	db   "Heightens the"
-	next "user's DEF.@"
-
 DefenseCurlDescription:
 	db   "Heightens the"
-	next "user's DEF.@"
-
-BarrierDescription:
-	db   "Sharply increases"
 	next "user's DEF.@"
 
 LightScreenDescription:
@@ -701,21 +676,9 @@ MirrorMoveDescription:
 	db   "Counters with the"
 	next "same move.@"
 
-SelfdestructDescription:
-	db   "Powerful but makes"
-	next "the user faint.@"
-
 LickDescription:
 	db   "An attack that may"
 	next "cause paralysis.@"
-
-SmogDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
-
-SludgeDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
 
 FireBlastDescription:
 	db   "An attack that"
@@ -732,10 +695,6 @@ ClampDescription:
 SwiftDescription:
 	db   "An attack that"
 	next "never misses.@"
-
-SkullBashDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
 
 SpikeCannonDescription:
 	db   "Fires spikes to"
@@ -1129,10 +1088,6 @@ CrossChopDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
-TwisterDescription:
-	db   "Whips up a tornado"
-	next "to attack.@"
-
 RainDanceDescription:
 	db   "Boosts water-type"
 	next "moves for 5 turns.@"
@@ -1302,49 +1257,49 @@ SeedBombDescription:
 	db   "A barrage of hard-"
 	next "shelled seeds.@"
 
-;EnergyBallDescription:
-	;db   "An attack that"
-	;next "may lower SPD.@"
+EnergyBallDescription:
+	db   "An attack that"
+	next "may lower SPD.@"
 
-;EarthPowerDescription:
-	;db   "An attack that"
-	;next "may lower SPD.@"
+EarthPowerDescription:
+	db   "An attack that"
+	next "may lower SPD.@"
 
-;MudShotDescription:
-	;db   "An attack that"
-	;next "lowers foe's SPE.@"
+MudShotDescription:
+	db   "An attack that"
+	next "lowers foe's SPE.@"
 
-;DrillRunDescription:
-	;db   "Has a high criti-"
-	;next "cal hit ratio.@"
+DrillRunDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
-;IcicleCrashDescription:
-	;db   "An attack that may"
-	;next "cause flinching.@"
+IcicleCrashDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
 
-;IceShardDescription:
-	;db   "Lets the user get"
-	;next "in the first hit.@"
+IceShardDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
 
-;IceFangDescription:
-	;db   "An icy bite. May"
-	;next "cause freezing.@"
+IceFangDescription:
+	db   "An icy bite. May"
+	next "cause freezing.@"
 
 ;HyperVoiceDescription:
 	;db   "Loud soundwaves"
 	;next "injure target.@"
 
-;PoisonJabDescription:
-	;db   "An attack that may"
-	;next "poison the target.@"
+PoisonJabDescription:
+	db   "An attack that may"
+	next "poison the target.@"
 
 ;PoisonFangDescription:
 	;db   "May leave the foe"
 	;next "badly poisoned.@"
 
-;VenoshockDescription:
-	;db   "Doubles power if"
-	;next "foe is unhealthy.@"
+VenoshockDescription:
+	db   "Doubles power if"
+	next "foe is unhealthy.@"
 
 ;GunkShotDescription:
 	;db   "An attack that may"

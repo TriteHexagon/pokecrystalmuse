@@ -1,16 +1,16 @@
 JackTriviaScript:
-	random 11
+	random 10
 	ifequal  0, .Thunder
 	ifequal  1, .Rollout
 	ifequal  2, .Solarbeam
 	ifequal  3, .Stomp
 	ifequal  4, .Gust
-	ifequal  5, .Twister
-	ifequal  6, .Earthquake
-	ifequal  7, .Magnitude
-	ifequal  8, .Sandstorm
-	ifequal  9, .SunnyDay
-	ifequal 10, .RainDance
+	;ifequal  5, .Twister
+	ifequal  5, .Earthquake
+	ifequal  6, .Magnitude
+	ifequal  7, .Sandstorm
+	ifequal  8, .SunnyDay
+	ifequal 9, .RainDance
 
 .Thunder:
 	farwritetext JackThunderTriviaText
@@ -37,10 +37,10 @@ JackTriviaScript:
 	promptbutton
 	sjump PhoneScript_HangUpText_Male
 
-.Twister:
-	farwritetext JackTwisterTriviaText
-	promptbutton
-	sjump PhoneScript_HangUpText_Male
+; .Twister:
+; 	farwritetext JackTwisterTriviaText
+; 	promptbutton
+; 	sjump PhoneScript_HangUpText_Male
 
 .Earthquake:
 	farwritetext JackEarthquakeTriviaText

@@ -15,7 +15,7 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
 	db LIGHT_SCREEN
-	db SKULL_BASH
+	db HEADBUTT
 	db SAFEGUARD
 	db RAZOR_WIND
 	db PETAL_DANCE
@@ -191,7 +191,7 @@ PoliwagEggMoves:
 AbraEggMoves:
 	db LIGHT_SCREEN
 	db ENCORE
-	db BARRIER
+	db REFLECT
 	db -1 ; end
 
 MachopEggMoves:
@@ -272,7 +272,7 @@ GrimerEggMoves:
 ShellderEggMoves:
 	db WATER_PULSE
 	db TAKE_DOWN
-	db BARRIER
+	db REFLECT
 	db RAPID_SPIN
 	db SCREECH
 	db -1 ; end
@@ -290,7 +290,7 @@ OnixEggMoves:
 
 DrowzeeEggMoves:
 	db LIGHT_SCREEN
-	db BARRIER
+	db REFLECT
 	db -1 ; end
 
 KrabbyEggMoves:
@@ -314,7 +314,7 @@ CuboneEggMoves:
 	db ANCIENTPOWER
 	db BELLY_DRUM
 	db SCREECH
-	db SKULL_BASH
+	db HEADBUTT
 	db PERISH_SONG
 	db SWORDS_DANCE
 	db -1 ; end
@@ -567,7 +567,7 @@ MarillEggMoves:
 	db -1 ; end
 
 SudowoodoEggMoves:
-	db SELFDESTRUCT
+	db EXPLOSION
 	db -1 ; end
 
 HoppipEggMoves:
@@ -637,7 +637,7 @@ DunsparceEggMoves:
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE
-	db RAGE
+	db FURY_ATTACK
 	db -1 ; end
 
 GligarEggMoves:
@@ -729,7 +729,7 @@ DelibirdEggMoves:
 	db -1 ; end
 
 MantineEggMoves:
-	db TWISTER
+	db GUST
 	db HYDRO_PUMP
 	db HAZE
 	db SLAM
@@ -744,7 +744,7 @@ SkarmoryEggMoves:
 
 HoundourEggMoves:
 	db FIRE_SPIN
-	db RAGE
+	db FURY_ATTACK
 	db PURSUIT
 	db COUNTER
 	db SPITE
@@ -780,7 +780,7 @@ SmoochumEggMoves:
 
 ElekidEggMoves:
 	db TRANSFORM
-	db BARRIER
+	db REFLECT
 	db DOUBLE_KICK
 	db MEDITATE
 	db CROSS_CHOP
@@ -789,7 +789,7 @@ ElekidEggMoves:
 MagbyEggMoves:
 	db TRANSFORM
 	db TRANSFORM
-	db BARRIER
+	db REFLECT
 	db SCREECH
 	db CROSS_CHOP
 	db -1 ; end

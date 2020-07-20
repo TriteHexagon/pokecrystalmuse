@@ -55,7 +55,7 @@ EvolutionMoves::
     db NO_MOVE      ;Psyduck
     db NO_MOVE      ;Golduck
     db NO_MOVE      ;Mankey
-    db RAGE         ;Primeape
+    db FURY_ATTACK  ;Primeape
     db NO_MOVE      ;Growlithe
     db NO_MOVE      ;Arcanine
     db NO_MOVE      ;Poliwag
@@ -78,7 +78,7 @@ EvolutionMoves::
     db NO_MOVE      ;Ponyta
     db FURY_ATTACK  ;Rapidash
     db NO_MOVE      ;Slowpoke
-    db WITHDRAW     ;Slowbro
+    db POISON_JAB   ;Slowbro
     db NO_MOVE      ;Magnemite
     db TRI_ATTACK   ;Magneton
     db NO_MOVE      ;Farfetch'd
