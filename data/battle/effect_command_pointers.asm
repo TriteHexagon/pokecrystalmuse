@@ -96,7 +96,7 @@ BattleCommandPointers:
 	dw BattleCommand_Endure
 	dw BattleCommand_CheckCurl
 	dw BattleCommand_RolloutPower
-	dw BattleCommand5d
+	dw BattleCommand5d ;unused
 	dw BattleCommand_FuryCutter
 	dw BattleCommand_Attract
 	dw BattleCommand_HappinessPower
@@ -183,3 +183,6 @@ BattleCommandPointers:
 	dw BattleCommand_ShellSmash
 	dw BattleCommand_BulkUp
 	dw BattleCommand_WorkUp
+	dw BattleCommand_Hex
+	dw BattleCommand_Venoshock
+	dw BattleCommand_DragonDance

@@ -8,5 +8,7 @@ SunnyDayMoves:
 	db FIRE_BLAST
 	db SACRED_FIRE
 	db MORNING_SUN
+	db FLARE_BLITZ
+	db FIRE_FANG
 	db SYNTHESIS
 	db -1 ; end

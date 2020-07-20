@@ -2067,7 +2067,7 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, QUIVER_DANCE ;TESTING
+	db 1, FAKE_OUT
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER

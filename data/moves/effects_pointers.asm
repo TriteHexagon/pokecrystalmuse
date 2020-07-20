@@ -43,7 +43,7 @@ MoveEffectsPointers:
 	dw SuperFang
 	dw StaticDamage
 	dw TrapTarget
-	dw NormalHit
+	dw Hex
 	dw MultiHit
 	dw NormalHit
 	dw Mist
@@ -78,7 +78,7 @@ MoveEffectsPointers:
 	dw SkyAttack
 	dw ConfuseHit
 	dw PoisonMultiHit
-	dw NormalHit
+	dw Venoshock
 	dw Substitute
 	dw HyperBeam
 	dw Rage
@@ -130,8 +130,8 @@ MoveEffectsPointers:
 	dw BatonPass
 	dw Pursuit
 	dw RapidSpin
-	dw NormalHit
-	dw NormalHit
+	dw DoBurn
+	dw DragonDance
 	dw MorningSun
 	dw Synthesis
 	dw Moonlight
@@ -161,3 +161,6 @@ MoveEffectsPointers:
 	dw ShellSmash
 	dw BulkUp
 	dw WorkUp
+	dw FlareBlitz
+	dw NormalHit
+

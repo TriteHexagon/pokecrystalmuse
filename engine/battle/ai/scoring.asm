@@ -318,7 +318,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_ALWAYS_HIT,       AI_Smart_AlwaysHit
 	dbw EFFECT_ACCURACY_DOWN,    AI_Smart_AccuracyDown
 	dbw EFFECT_RESET_STATS,      AI_Smart_ResetStats
-	dbw EFFECT_BIDE,             AI_Smart_Bide
+	dbw EFFECT_BIDE,             AI_Smart_Bide ;unused
 	dbw EFFECT_FORCE_SWITCH,     AI_Smart_ForceSwitch
 	dbw EFFECT_HEAL,             AI_Smart_Heal
 	dbw EFFECT_TOXIC,            AI_Smart_Toxic
@@ -327,7 +327,6 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_RAZOR_WIND,       AI_Smart_RazorWind
 	dbw EFFECT_SUPER_FANG,       AI_Smart_SuperFang
 	dbw EFFECT_TRAP_TARGET,      AI_Smart_TrapTarget
-	dbw EFFECT_UNUSED_2B,        AI_Smart_Unused2B
 	dbw EFFECT_CONFUSE,          AI_Smart_Confuse
 	dbw EFFECT_SP_DEF_UP_2,      AI_Smart_SpDefenseUp2
 	dbw EFFECT_REFLECT,          AI_Smart_Reflect
@@ -354,7 +353,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_PRIORITY_HIT,     AI_Smart_PriorityHit
 	dbw EFFECT_THIEF,            AI_Smart_Thief
 	dbw EFFECT_MEAN_LOOK,        AI_Smart_MeanLook
-	dbw EFFECT_NIGHTMARE,        AI_Smart_Nightmare
+	dbw EFFECT_NIGHTMARE,        AI_Smart_Nightmare ;unused
 	dbw EFFECT_FLAME_WHEEL,      AI_Smart_FlameWheel
 	dbw EFFECT_CURSE,            AI_Smart_Curse
 	dbw EFFECT_PROTECT,          AI_Smart_Protect
@@ -378,7 +377,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_RAIN_DANCE,       AI_Smart_RainDance
 	dbw EFFECT_SUNNY_DAY,        AI_Smart_SunnyDay
 	dbw EFFECT_BELLY_DRUM,       AI_Smart_BellyDrum
-	dbw EFFECT_PSYCH_UP,         AI_Smart_PsychUp
+	dbw EFFECT_PSYCH_UP,         AI_Smart_PsychUp ;unused
 	dbw EFFECT_MIRROR_COAT,      AI_Smart_MirrorCoat
 	dbw EFFECT_SKULL_BASH,       AI_Smart_SkullBash
 	dbw EFFECT_TWISTER,          AI_Smart_Twister
@@ -389,6 +388,10 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_SOLARBEAM,        AI_Smart_Solarbeam
 	dbw EFFECT_THUNDER,          AI_Smart_Thunder
 	dbw EFFECT_FLY,              AI_Smart_Fly
+	dbw EFFECT_HEX,              AI_Smart_Hex
+	dbw EFFECT_VENOSHOCK,        AI_Smart_Venoshock
+	dbw EFFECT_SACRED_FIRE,      AI_Smart_Defrost
+	dbw EFFECT_FLARE_BLITZ,      AI_Smart_Defrost
 	db -1 ; end
 
 AI_Smart_Sleep:
@@ -1036,7 +1039,6 @@ AI_Smart_TrapTarget:
 	ret
 
 AI_Smart_RazorWind:
-AI_Smart_Unused2B:
 	ld a, [wEnemySubStatus1]
 	bit SUBSTATUS_PERISH, a
 	jr z, .asm_38aaa
@@ -1512,6 +1514,38 @@ AI_Smart_DefrostOpponent:
 	dec [hl]
 	dec [hl]
 	dec [hl]
+	ret
+
+AI_Smart_Hex:
+; Greatly encourage this move if the player has a status condition.
+
+	ld a, [wBattleMonStatus]
+	and a
+	ret z
+	dec [hl]
+	dec [hl]
+	dec [hl]
+	ret
+
+AI_Smart_Venoshock:
+; Greatly encourage this move if the player is poisoned.
+
+	ld a, [wBattleMonStatus]
+	bit PSN, a
+	ret z
+	dec [hl]
+	dec [hl]
+	dec [hl]
+	ret
+
+AI_Smart_Defrost:
+; Use this move if the enemy is frozen.
+	ld a, [wEnemyMonStatus]
+	bit FRZ, a
+	ret z
+rept 5
+	dec [hl]
+endr
 	ret
 
 AI_Smart_Spite:

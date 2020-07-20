@@ -229,7 +229,7 @@ BattleAnimations::
 	dw BattleAnim_AirSlash
 	dw BattleAnim_Roost
 	dw BattleAnim_Hex
-	dw BattleAnim_PhantomForce
+	dw BattleAnim_FakeOut
 	dw BattleAnim_ShadowSneak
 	dw BattleAnim_ShadowClaw
 	dw BattleAnim_SeedBomb
@@ -677,7 +677,7 @@ BattleAnim_EarthPower:
 BattleAnim_EnergyBall:
 BattleAnim_ShadowClaw:
 BattleAnim_ShadowSneak:
-BattleAnim_PhantomForce:
+BattleAnim_FakeOut:
 BattleAnim_Hex:
 BattleAnim_FireFang:
 BattleAnim_FlareBlitz:

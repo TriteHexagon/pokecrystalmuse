@@ -408,6 +408,17 @@ WorkUp:
 	;statupfailtext
 	endmove
 
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	dragondance
+	;statupfailtext
+	endmove
+
 AttackDown:
 	checkobedience
 	usedmovetext
@@ -1107,6 +1118,16 @@ DoParalyze:
 	checkhit
 	checksafeguard
 	paralyze
+	endmove
+
+DoBurn:
+	checkobedience
+	usedmovetext
+	doturn
+	stab
+	checkhit
+	;checksafeguard unecessary
+	burntarget
 	endmove
 
 SkyAttack:
@@ -2139,3 +2160,69 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+Hex:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	hex
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+Venoshock:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	venoshock
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
+
+FlareBlitz:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defrost
+	recoil
+	checkfaint
+	buildopponentrage
+	burntarget
+	endmove
+	

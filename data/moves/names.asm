@@ -226,7 +226,7 @@ MoveNames::
     db "Air Slash@"
     db "Roost@"
     db "Hex@"
-    db "PhantomForce@"
+    db "Fake Out@"
     db "Shadow Sneak@"
     db "Shadow Claw@"
     db "Seed Bomb@"

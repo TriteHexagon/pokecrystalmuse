@@ -180,10 +180,13 @@ ENDM
 	command supereffectivelooptext  ; ad
 	command startloop               ; ae
 	command curl                    ; af
-	command coil
-	command shellsmash
-	command bulkup
-	command workup
+	command coil ;new
+	command shellsmash ;new
+	command bulkup ;new
+	command workup ;new
+	command hex ;new
+	command venoshock ;new
+	command dragondance ;new
 
 	const_def -1, -1
 	command endmove                 ; ff

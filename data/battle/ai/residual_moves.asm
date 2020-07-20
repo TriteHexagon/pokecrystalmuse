@@ -10,5 +10,6 @@ ResidualMoves:
 	db TRANSFORM
 	db CONVERSION
 	db SUBSTITUTE
+	db WILL_O_WISP ; new
 	db SPIKES
 	db -1 ; end

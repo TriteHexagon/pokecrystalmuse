@@ -17,6 +17,7 @@ EncoreMoves:
 	db FOCUS_ENERGY
 	db DREAM_EATER
 	db POISON_GAS
+	db WILL_O_WISP
 	db SPLASH
 	db SHARPEN
 	db CONVERSION

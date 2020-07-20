@@ -233,7 +233,7 @@
 	const AIR_SLASH
 	const ROOST
 	const HEX
-	const PHANTOM_FORCE
+	const FAKE_OUT
 	const SHADOW_SNEAK
 	const SHADOW_CLAW
 	const SEED_BOMB

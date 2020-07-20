@@ -226,7 +226,7 @@ MoveDescriptions::
 	dw AirSlashDescription
 	dw RoostDescription
 	dw HexDescription
-	dw PhantomForceDescription
+	dw FakeOutDescription
 	dw ShadowSneakDescription
 	dw ShadowClawDescription
 	dw SeedBombDescription
@@ -1174,9 +1174,9 @@ HexDescription:
 	db   "Doubles power if"
 	next "foe is poisoned.@"
 
-PhantomForceDescription:
-	db   "1st turn: Vanish"
-	next "2nd turn: Attack@"
+FakeOutDescription:
+	db   "Test"
+	next "Test@"
 
 ShadowSneakDescription:
 	db   "Lets the user get"

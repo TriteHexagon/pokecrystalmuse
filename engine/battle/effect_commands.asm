@@ -196,11 +196,13 @@ CheckPlayerTurn:
 	bit FRZ, [hl]
 	jr z, .not_frozen
 
-	; Flame Wheel and Sacred Fire thaw the user.
+	; Flame Wheel, Sacred Fire and Flare Blitz thaw the user.
 	ld a, [wCurPlayerMove]
 	cp FLAME_WHEEL
 	jr z, .not_frozen
 	cp SACRED_FIRE
+	jr z, .not_frozen
+	cp FLARE_BLITZ
 	jr z, .not_frozen
 
 	ld hl, FrozenSolidText
@@ -428,6 +430,8 @@ CheckEnemyTurn:
 	cp FLAME_WHEEL
 	jr z, .not_frozen
 	cp SACRED_FIRE
+	jr z, .not_frozen
+	cp FLARE_BLITZ
 	jr z, .not_frozen
 
 	ld hl, FrozenSolidText
@@ -5440,26 +5444,8 @@ BattleCommand_EndLoop:
 	ld [wBattleScriptBufferAddress], a
 	ret
 
-BattleCommand_FakeOut:
-	ld a, [wAttackMissed]
-	and a
-	ret nz
+INCLUDE "engine/battle/move_effects/fake_out.asm"
 
-	call CheckSubstituteOpp
-	jr nz, .fail
-
-	ld a, BATTLE_VARS_STATUS_OPP
-	call GetBattleVar
-	and 1 << FRZ | SLP
-	jr nz, .fail
-
-	call CheckOpponentWentFirst
-	jr z, FlinchTarget
-
-.fail
-	ld a, 1
-	ld [wAttackMissed], a
-	ret
 
 BattleCommand_FlinchTarget:
 	call CheckSubstituteOpp
@@ -5787,6 +5773,7 @@ BattleCommand_ShellSmash: ;not working right
 	;jp BattleCommand_StatUpFailText
 	ret
 
+;Maybe rework and compile into the same Battle Command? TH-Note
 BattleCommand_BulkUp:
 ; Attack
 	call ResetMiss
@@ -5812,6 +5799,19 @@ BattleCommand_WorkUp:
 	call BattleCommand_SpecialAttackUp
 	jp BattleCommand_StatUpMessage
 	;call BattleCommand_StatUpFailText
+	ret
+
+BattleCommand_DragonDance:
+; Attack
+	call ResetMiss
+	call BattleCommand_AttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Defense
+	call ResetMiss
+	call BattleCommand_SpeedUp
+	jp BattleCommand_StatUpMessage
 	ret
 
 BattleCommand_TrapTarget:
@@ -6174,6 +6174,24 @@ EndRechargeOpp:
 	ret
 
 INCLUDE "engine/battle/move_effects/rage.asm"
+
+BattleCommand_Hex:
+	; get the opponent's status condition
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVar
+; return if it's 0 (no condition)
+	and a
+	ret z
+	jp DoubleDamage
+	
+BattleCommand_Venoshock:
+	; get the opponent's status condition
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVar
+	; tests if a is PSN
+	bit PSN, a
+	ret z
+	jp DoubleDamage
 
 BattleCommand_DoubleFlyingDamage:
 ; doubleflyingdamage

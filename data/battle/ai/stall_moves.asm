@@ -27,5 +27,9 @@ StallMoves:
 	db SHARPEN
 	db CONVERSION
 	db SUBSTITUTE
-	db FLAME_WHEEL
+	db BULK_UP
+	db WORK_UP
+	db DRAGON_DANCE
+	db QUIVER_DANCE
+	db SHELL_SMASH
 	db -1 ; end
