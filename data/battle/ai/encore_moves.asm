@@ -9,7 +9,6 @@ EncoreMoves:
 	db LEECH_SEED
 	db GROWTH
 	db POISONPOWDER
-	db STRING_SHOT
 	db MEDITATE
 	db AGILITY
 	db TELEPORT

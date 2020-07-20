@@ -48,13 +48,11 @@ MoveDescriptions::
 	dw IceBeamDescription
 	dw BlizzardDescription
 	dw PsybeamDescription
-	dw BubblebeamDescription
 	dw AuroraBeamDescription
 	dw HyperBeamDescription
 	dw PeckDescription
 	dw DrillPeckDescription
 	dw SubmissionDescription
-	dw LowKickDescription
 	dw CounterDescription
 	dw SeismicTossDescription
 	dw StrengthDescription
@@ -68,7 +66,6 @@ MoveDescriptions::
 	dw StunSporeDescription
 	dw SleepPowderDescription
 	dw PetalDanceDescription
-	dw StringShotDescription
 	dw DragonRageDescription
 	dw FireSpinDescription
 	dw ThundershockDescription
@@ -104,14 +101,12 @@ MoveDescriptions::
 	dw HazeDescription
 	dw ReflectDescription
 	dw FocusEnergyDescription
-	dw BideDescription
 	dw MetronomeDescription
 	dw MirrorMoveDescription
 	dw SelfdestructDescription
 	dw LickDescription
 	dw SmogDescription
 	dw SludgeDescription
-	dw BoneClubDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
 	dw ClampDescription
@@ -128,7 +123,6 @@ MoveDescriptions::
 	dw LovelyKissDescription
 	dw SkyAttackDescription
 	dw TransformDescription
-	dw BubbleDescription
 	dw DizzyPunchDescription
 	dw SporeDescription
 	dw FlashDescription
@@ -222,7 +216,6 @@ MoveDescriptions::
 	dw SunnyDayDescription
 	dw CrunchDescription
 	dw MirrorCoatDescription
-	dw PsychUpDescription
 	dw ExtremespeedDescription
 	dw AncientpowerDescription
 	dw ShadowBallDescription
@@ -255,12 +248,12 @@ MoveDescriptions::
 	dw FireFangDescription
 	dw WilloWispDescription
 	dw AirSlashDescription
-	; dw RoostDescription
-	; dw HexDescription
-	; dw PhantomForceDescription
-	; dw ShadowSneakDescription
-	; dw ShadowClawDescription
-	; dw SeedBombDescription
+	dw RoostDescription
+	dw HexDescription
+	dw PhantomForceDescription
+	dw ShadowSneakDescription
+	dw ShadowClawDescription
+	dw SeedBombDescription
 	; dw EnergyBallDescription
 	; dw EarthPowerDescription
 	; dw MudShotDescription
@@ -282,7 +275,7 @@ MoveDescriptions::
 	; dw IronDefenseDescription
 	dw SmartStrikeDescription
 	; dw AquaJetDescription
-	; dw WaterPulseDescription
+	dw WaterPulseDescription
 	; dw RazorShellDescription
 	; dw ScaldDescription
 	dw StruggleDescription
@@ -508,10 +501,6 @@ SubmissionDescription:
 	db   "An attack that al-"
 	next "so hurts the user.@"
 
-LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
-
 CounterDescription:
 	db   "Returns a physical"
 	next "blow double.@"
@@ -563,10 +552,6 @@ SleepPowderDescription:
 PetalDanceDescription:
 	db   "Works 2-3 turns"
 	next "and confuses user.@"
-
-StringShotDescription:
-	db   "A move that lowers"
-	next "the foe's SPE.@"
 
 DragonRageDescription:
 	db   "Always inflicts"
@@ -708,10 +693,6 @@ FocusEnergyDescription:
 	db   "Raises the criti-"
 	next "cal hit ratio.@"
 
-BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
-
 MetronomeDescription:
 	db   "Randomly uses any"
 	next "#MON move.@"
@@ -735,10 +716,6 @@ SmogDescription:
 SludgeDescription:
 	db   "An attack that may"
 	next "poison the foe.@"
-
-BoneClubDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
 
 FireBlastDescription:
 	db   "An attack that"
@@ -1172,10 +1149,6 @@ MirrorCoatDescription:
 	db   "Counters SPA move"
 	next "with double power.@"
 
-PsychUpDescription:
-	db   "Copies the foe's"
-	next "stat changes.@"
-
 ExtremespeedDescription:
 	db   "A powerful first-"
 	next "strike move.@"
@@ -1305,29 +1278,29 @@ AirSlashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
-;RoostDescription:
-	;db   "Restores HP by 1/2"
-	;next "the max HP.@"
+RoostDescription:
+	db   "Restores HP by 1/2"
+	next "the max HP.@"
 
-;HexDescription:
-	;db   "Doubles power if"
-	;next "foe is poisoned.@"
+HexDescription:
+	db   "Doubles power if"
+	next "foe is poisoned.@"
 
-;PhantomForceDescription:
-	;db   "1st turn: Vanish"
-	;next "2nd turn: Attack@"
+PhantomForceDescription:
+	db   "1st turn: Vanish"
+	next "2nd turn: Attack@"
 
-;ShadowSneakDescription:
-	;db   "Lets the user get"
-	;next "in the first hit.@"
+ShadowSneakDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
 
-;ShadowClawDescription:
-	;db   "Has a high criti-"
-	;next "cal hit ratio.@"
+ShadowClawDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
-;SeedBombDescription:
-	;db   "A barrage of hard-"
-	;next "shelled seeds.@"
+SeedBombDescription:
+	db   "A barrage of hard-"
+	next "shelled seeds.@"
 
 ;EnergyBallDescription:
 	;db   "An attack that"
@@ -1413,9 +1386,9 @@ SmartStrikeDescription:
 	;db   "Lets the user get"
 	;next "in the first hit.@"
 
-;WaterPulseDescription:
-	;db   "Ultrasonic waves"
-	;next "that may confuse.@"
+WaterPulseDescription:
+	db   "Ultrasonic waves"
+	next "that may confuse.@"
 
 ;RazorShellDescription:
 	;db   "An attack that"

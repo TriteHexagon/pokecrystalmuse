@@ -54,13 +54,11 @@
 	const ICE_BEAM     ; 3a
 	const BLIZZARD     ; 3b
 	const PSYBEAM      ; 3c
-	const BUBBLEBEAM   ; 3d Replace
 	const AURORA_BEAM  ; 3e
 	const HYPER_BEAM   ; 3f
 	const PECK         ; 40
 	const DRILL_PECK   ; 41
 	const SUBMISSION   ; 42
-	const LOW_KICK     ; 43 Replace
 	const COUNTER      ; 44
 	const SEISMIC_TOSS ; 45
 	const STRENGTH     ; 46
@@ -74,7 +72,6 @@
 	const STUN_SPORE   ; 4e
 	const SLEEP_POWDER ; 4f
 	const PETAL_DANCE  ; 50
-	const STRING_SHOT  ; 51 Replace
 	const DRAGON_RAGE  ; 52
 	const FIRE_SPIN    ; 53
 	const THUNDERSHOCK ; 54
@@ -83,16 +80,16 @@
 	const THUNDER      ; 57
 	const ROCK_THROW   ; 58
 	const EARTHQUAKE   ; 59
-	const FISSURE      ; 5a Replace
+	const FISSURE      ; 5a Earth Power
 	const DIG          ; 5b
 	const TOXIC        ; 5c
 	const CONFUSION    ; 5d
 	const PSYCHIC_M    ; 5e
 	const HYPNOSIS     ; 5f
-	const MEDITATE     ; 60 Replace
+	const MEDITATE     ; 60 Calm Mind
 	const AGILITY      ; 61
 	const QUICK_ATTACK ; 62
-	const RAGE         ; 63 Replace
+	const RAGE         ; 63 Fury Attack
 	const TELEPORT     ; 64
 	const NIGHT_SHADE  ; 65
 	const MIMIC        ; 66
@@ -103,27 +100,25 @@
 	const MINIMIZE     ; 6b
 	const SMOKESCREEN  ; 6c
 	const CONFUSE_RAY  ; 6d
-	const WITHDRAW     ; 6e Replace
+	const WITHDRAW     ; 6e Defense Curl
 	const DEFENSE_CURL ; 6f
-	const BARRIER      ; 70 Replace
+	const BARRIER      ; 70 Reflect
 	const LIGHT_SCREEN ; 71
 	const HAZE         ; 72
 	const REFLECT      ; 73
 	const FOCUS_ENERGY ; 74
-	const BIDE         ; 75 Replace
 	const METRONOME    ; 76
 	const MIRROR_MOVE  ; 77
-	const SELFDESTRUCT ; 78 Replace
+	const SELFDESTRUCT ; 78 Explosion
 	const LICK         ; 7a
-	const SMOG         ; 7b Replace
-	const SLUDGE       ; 7c Replace
-	const BONE_CLUB    ; 7d Replace
+	const SMOG         ; 7b Poison Gas
+	const SLUDGE       ; 7c Venoshock
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
-	const CLAMP        ; 80 Replace
+	const CLAMP        ; 80 Razor Shell
 	const SWIFT        ; 81
-	const SKULL_BASH   ; 82 Replace
-	const SPIKE_CANNON ; 83 Replace
+	const SKULL_BASH   ; 82 Headbutt
+	const SPIKE_CANNON ; 83 Pin Missile
 	const AMNESIA      ; 85
 	const SOFTBOILED   ; 87
 	const HI_JUMP_KICK ; 88
@@ -134,13 +129,12 @@
 	const LOVELY_KISS  ; 8e
 	const SKY_ATTACK   ; 8f
 	const TRANSFORM    ; 90
-	const BUBBLE       ; 91 Replace
 	const DIZZY_PUNCH  ; 92
 	const SPORE        ; 93
 	const FLASH        ; 94
-	const PSYWAVE      ; 95 Replace
+	const PSYWAVE      ; 95 Night Shade
 	const SPLASH       ; 96
-	const ACID_ARMOR   ; 97 Replace
+	const ACID_ARMOR   ; 97 Iron Defense
 	const CRABHAMMER   ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
@@ -158,14 +152,14 @@
 	const THIEF        ; a
 	const MIND_READER  ; aa
 	const FLAME_WHEEL  ; ac
-	const SNORE        ; ad Replace
+	const SNORE        ; ad Sleep Talk
 	const CURSE        ; ae
 	const FLAIL        ; af
-	const CONVERSION2  ; b0 Replace
+	const CONVERSION2  ; b0 REM
 	const AEROBLAST    ; b1
-	const REVERSAL     ; b3 Replace
+	const REVERSAL     ; b3 Flail
 	const SPITE        ; b4
-	const POWDER_SNOW  ; b5 Replace
+	const POWDER_SNOW  ; b5 Ice Shard
 	const PROTECT      ; b6
 	const MACH_PUNCH   ; b7
 	const SCARY_FACE   ; b8
@@ -176,14 +170,14 @@
 	const MUD_SLAP     ; bd
 	const OCTAZOOKA    ; be
 	const SPIKES       ; bf
-	const ZAP_CANNON   ; c0 Replace
+	const ZAP_CANNON   ; c0 Thunder
 	const FORESIGHT    ; c1
 	const DESTINY_BOND ; c2
 	const PERISH_SONG  ; c3
 	const ICY_WIND     ; c4
-	const DETECT       ; c5 Replace
-	const BONE_RUSH    ; c6 Replace
-	const LOCK_ON      ; c7 Replace
+	const DETECT       ; c5 Protect
+	const BONE_RUSH    ; c6 REM
+	const LOCK_ON      ; c7 Mind Reader
 	const OUTRAGE      ; c8
 	const SANDSTORM    ; c9
 	const GIGA_DRAIN   ; ca
@@ -215,18 +209,17 @@
 	const SWEET_SCENT  ; e6
 	const IRON_TAIL    ; e7
 	const METAL_CLAW   ; e8
-	const VITAL_THROW  ; e9 Replace
+	const VITAL_THROW  ; e9 Submission
 	const MORNING_SUN  ; ea
 	const SYNTHESIS    ; eb
 	const MOONLIGHT    ; ec
 	const HIDDEN_POWER ; ed
 	const CROSS_CHOP   ; ee
-	const TWISTER      ; ef Replace
+	const TWISTER      ; ef Gust
 	const RAIN_DANCE   ; f0
 	const SUNNY_DAY    ; f1
 	const CRUNCH       ; f2
 	const MIRROR_COAT  ; f3
-	const PSYCH_UP     ; f4 Replace
 	const EXTREMESPEED ; f5
 	const ANCIENTPOWER ; f6
 	const SHADOW_BALL  ; f7
@@ -260,12 +253,12 @@
 	const FIRE_FANG
 	const WILL_O_WISP
 	const AIR_SLASH
-	;const ROOST
-	;const HEX
-	;const PHANTOM_FORCE
-	;const SHADOW_SNEAK
-	;const SHADOW_CLAW
-	;const SEED_BOMB
+	const ROOST
+	const HEX
+	const PHANTOM_FORCE
+	const SHADOW_SNEAK
+	const SHADOW_CLAW
+	const SEED_BOMB
 	;const ENERGY_BALL
 	;const EARTH_POWER
 	;const MUD_SHOT
@@ -287,7 +280,7 @@
 	;const IRON_DEFENSE
 	const SMART_STRIKE
 	;const AQUA_JET
-	;const WATER_PULSE
+	const WATER_PULSE
 	;const RAZOR_SHELL
 	;const SCALD
 	const STRUGGLE     ; ff

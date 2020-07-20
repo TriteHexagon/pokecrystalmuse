@@ -82,7 +82,7 @@
 	const SFX_SUPERSONIC                  ; 4e
 	const SFX_LEER                        ; 4f
 	const SFX_EMBER                       ; 50
-	const SFX_BUBBLEBEAM                  ; 51
+	const SFX_BUBBLEBEAMX                  ; 51
 	const SFX_HYDRO_PUMP                  ; 52
 	const SFX_SURF                        ; 53
 	const SFX_PSYBEAM                     ; 54

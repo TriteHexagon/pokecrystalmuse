@@ -31,7 +31,7 @@ BattleTowerMons1:
 
 	db ESPEON
 	db LEFTOVERS
-	db MUD_SLAP, PSYCHIC_M, PSYCH_UP, TOXIC
+	db MUD_SLAP, PSYCHIC_M, TOXIC
 	dw 0 ; OT ID
 	dt 1000 ; Exp
 	; Stat exp
@@ -57,7 +57,7 @@ BattleTowerMons1:
 
 	db UMBREON
 	db GOLD_BERRY
-	db SHADOW_BALL, IRON_TAIL, PSYCH_UP, TOXIC
+	db SHADOW_BALL, IRON_TAIL, TOXIC
 	dw 0 ; OT ID
 	dt 1000 ; Exp
 	; Stat exp
@@ -525,7 +525,7 @@ BattleTowerMons1:
 
 	db MR__MIME
 	db QUICK_CLAW
-	db TOXIC, PSYCH_UP, FIRE_PUNCH, HEADBUTT
+	db TOXIC, FIRE_PUNCH, HEADBUTT
 	dw 0 ; OT ID
 	dt 1000 ; Exp
 	; Stat exp
@@ -580,7 +580,7 @@ BattleTowerMons2:
 
 	db STARMIE
 	db GOLD_BERRY
-	db RECOVER, PSYCHIC_M, SURF, PSYCH_UP
+	db RECOVER, PSYCHIC_M, SURF
 	dw 0 ; OT ID
 	dt 8000 ; Exp
 	; Stat exp
@@ -658,7 +658,7 @@ BattleTowerMons2:
 
 	db ALAKAZAM
 	db BERRY_JUICE
-	db PSYCHIC_M, PSYCH_UP, TOXIC, THUNDERPUNCH
+	db PSYCHIC_M, TOXIC, THUNDERPUNCH
 	dw 0 ; OT ID
 	dt 8000 ; Exp
 	; Stat exp
@@ -1022,7 +1022,7 @@ BattleTowerMons2:
 
 	db WIGGLYTUFF
 	db SILK_SCARF
-	db PSYCHIC_M, SWAGGER, PSYCH_UP, HEADBUTT
+	db PSYCHIC_M, SWAGGER, HEADBUTT
 	dw 0 ; OT ID
 	dt 8000 ; Exp
 	; Stat exp
@@ -1493,7 +1493,7 @@ BattleTowerMons3:
 
 	db ESPEON
 	db MIRACLEBERRY
-	db CONFUSION, SWIFT, TOXIC, PSYCH_UP
+	db CONFUSION, SWIFT, TOXIC
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp
@@ -1519,7 +1519,7 @@ BattleTowerMons3:
 
 	db TENTACRUEL
 	db KINGS_ROCK
-	db WRAP, TOXIC, SLUDGE_BOMB, BUBBLEBEAM
+	db WRAP, TOXIC, SLUDGE_BOMB, WATER_PULSE
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp
@@ -1623,7 +1623,7 @@ BattleTowerMons3:
 
 	db PRIMEAPE
 	db MIRACLEBERRY
-	db LOW_KICK, TRANSFORM, REVERSAL, FOCUS_ENERGY
+	db DOUBLE_KICK, TRANSFORM, REVERSAL, FOCUS_ENERGY
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp
@@ -1704,7 +1704,7 @@ BattleTowerMons4:
 
 	db SNORLAX
 	db QUICK_CLAW
-	db ATTRACT, BODY_SLAM, PSYCH_UP, EARTHQUAKE
+	db ATTRACT, BODY_SLAM, EARTHQUAKE
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp
@@ -2094,7 +2094,7 @@ BattleTowerMons4:
 
 	db EXEGGUTOR
 	db BRIGHTPOWDER
-	db TRANSFORM, STOMP, PSYCH_UP, CONFUSION
+	db TRANSFORM, STOMP, CONFUSION
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp
@@ -2279,7 +2279,7 @@ BattleTowerMons5:
 
 	db SNORLAX
 	db LEFTOVERS
-	db HYPER_BEAM, EARTHQUAKE, SURF, PSYCH_UP
+	db HYPER_BEAM, EARTHQUAKE, SURF
 	dw 0 ; OT ID
 	dt 125000 ; Exp
 	; Stat exp
@@ -3351,7 +3351,7 @@ BattleTowerMons7:
 
 	db UMBREON
 	db GOLD_BERRY
-	db FAINT_ATTACK, MOONLIGHT, PSYCH_UP, TOXIC
+	db FAINT_ATTACK, MOONLIGHT, TOXIC
 	dw 0 ; OT ID
 	dt 343000 ; Exp
 	; Stat exp

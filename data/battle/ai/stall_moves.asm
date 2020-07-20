@@ -10,7 +10,6 @@ StallMoves:
 	db COUNTER
 	db LEECH_SEED
 	db GROWTH
-	db STRING_SHOT
 	db MEDITATE
 	db AGILITY
 	db RAGE
@@ -24,7 +23,6 @@ StallMoves:
 	db HAZE
 	db REFLECT
 	db FOCUS_ENERGY
-	db BIDE
 	db AMNESIA
 	db TRANSFORM
 	db SPLASH

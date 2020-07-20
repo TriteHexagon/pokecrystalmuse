@@ -14,7 +14,6 @@ MoveGrammar:
 	db DEFENSE_CURL
 	db TRANSFORM
 	db SMOG
-	db BONE_CLUB
 	db FLASH
 	db SPLASH
 	db ACID_ARMOR
@@ -31,14 +30,12 @@ MoveGrammar:
 	db SWAGGER
 	db SLEEP_TALK
 	db HIDDEN_POWER
-	db PSYCH_UP
 	db EXTREMESPEED
 	db 0 ; end set
 
 ; 1: originally "[mon]の¯[move]した!" ("[mon]¯did [move]!")
 	db RECOVER
 	db TELEPORT
-	db BIDE
 	db SELFDESTRUCT
 	db AMNESIA
 	db FLAIL
@@ -70,7 +67,6 @@ MoveGrammar:
 	db SING
 	db PECK
 	db ABSORB
-	db STRING_SHOT
 	db EARTHQUAKE
 	db FISSURE
 	db DIG
@@ -80,7 +76,6 @@ MoveGrammar:
 	db LICK
 	db CLAMP
 	db POISON_GAS
-	db BUBBLE
 	db SLASH
 	db CURSE
 	db FORESIGHT

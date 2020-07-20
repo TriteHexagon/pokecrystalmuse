@@ -183,7 +183,7 @@ GrowlitheEggMoves:
 PoliwagEggMoves:
 	db TRANSFORM
 	db SPLASH
-	db BUBBLEBEAM
+	db WATER_PULSE
 	db HAZE
 	db MIND_READER
 	db -1 ; end
@@ -270,7 +270,7 @@ GrimerEggMoves:
 	db -1 ; end
 
 ShellderEggMoves:
-	db BUBBLEBEAM
+	db WATER_PULSE
 	db TAKE_DOWN
 	db BARRIER
 	db RAPID_SPIN
@@ -411,7 +411,7 @@ EeveeEggMoves:
 	db -1 ; end
 
 OmanyteEggMoves:
-	db BUBBLEBEAM
+	db WATER_PULSE
 	db AURORA_BEAM
 	db SLAM
 	db SUPERSONIC
@@ -419,7 +419,7 @@ OmanyteEggMoves:
 	db -1 ; end
 
 KabutoEggMoves:
-	db BUBBLEBEAM
+	db WATER_PULSE
 	db AURORA_BEAM
 	db RAPID_SPIN
 	db DIG
@@ -489,7 +489,7 @@ HoothootEggMoves:
 
 LedybaEggMoves:
 	db PSYBEAM
-	db BIDE
+	db TRANSFORM
 	db LIGHT_SCREEN
 	db -1 ; end
 
@@ -509,7 +509,7 @@ ChinchouEggMoves:
 
 PichuEggMoves:
 	db REVERSAL
-	db BIDE
+	db TRANSFORM
 	db PRESENT
 	db ENCORE
 	db DOUBLESLAP
@@ -633,7 +633,7 @@ PinecoEggMoves:
 	db -1 ; end
 
 DunsparceEggMoves:
-	db BIDE
+	db TRANSFORM
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE
@@ -661,7 +661,7 @@ SnubbullEggMoves:
 QwilfishEggMoves:
 	db FLAIL
 	db HAZE
-	db BUBBLEBEAM
+	db WATER_PULSE
 	db SUPERSONIC
 	db -1 ; end
 
@@ -671,7 +671,7 @@ ShuckleEggMoves:
 
 HeracrossEggMoves:
 	db HARDEN
-	db BIDE
+	db TRANSFORM
 	db FLAIL
 	db -1 ; end
 
