@@ -813,7 +813,7 @@ Music_PKMN_Center_Night_Ch3_end:
 Music_PKMN_Center_Night_Ch4:
 	notetype 8
 	stereopanning $ff
-	togglenoise 6
+	togglenoise $8
 
 Music_PKMN_Center_Night_Ch4_master:
 ;Ch4_Bar1:

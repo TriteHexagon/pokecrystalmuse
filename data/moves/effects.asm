@@ -353,6 +353,61 @@ EvasionUp2:
 	statupfailtext
 	endmove
 
+QuiverDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	quiverdance
+	;statupfailtext
+	endmove
+
+Coil:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	coil
+	;statupfailtext
+	endmove
+
+ShellSmash:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	shellsmash
+	;statupfailtext
+	endmove
+
+BulkUp:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	bulkup
+	;statupfailtext
+	endmove
+
+WorkUp:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	workup
+	;statupfailtext
+	endmove
+
 AttackDown:
 	checkobedience
 	usedmovetext
@@ -1823,10 +1878,20 @@ FakeOut:
 	checkobedience
 	usedmovetext
 	doturn
+	critical ;
+	damagestats ;
+	damagecalc ;
+	stab ;
+	damagevariation ;
 	checkhit
 	fakeout
 	moveanim
 	failuretext
+	applydamage ;
+	criticaltext ;
+	supereffectivetext ;
+	checkfaint ;
+	buildopponentrage ;
 	endmove
 
 BellyDrum:

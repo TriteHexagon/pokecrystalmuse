@@ -1,11 +1,11 @@
-Music_Route36: ; e94e9
-	musicheader 4, 1, Music_Route36_Ch1
-	musicheader 1, 2, Music_Route36_Ch2
-	musicheader 1, 3, Music_Route36_Ch3
-	musicheader 1, 4, Music_Route36_Ch4
+Route32: ; e94e9
+	musicheader 4, 1, Route32_Ch1
+	musicheader 1, 2, Route32_Ch2
+	musicheader 1, 3, Route32_Ch3
+	musicheader 1, 4, Route32_Ch4
 ; e94f5
 
-Music_Route36_Ch1: ; e94f5
+Route32_Ch1: ; e94f5
 	tempo 144
 	volume $77
 	dutycycle $3
@@ -26,7 +26,7 @@ Music_Route36_Ch1: ; e94f5
 	note A_, 1
 	intensity $5d
 	note A#, 4
-Music_Route36_branch_e9517: ; e9517
+Route32_branch_e9517: ; e9517
 	intensity $b5
 	note F_, 4
 	note A_, 2
@@ -162,10 +162,10 @@ Music_Route36_branch_e9517: ; e9517
 	intensity $b5
 	note D#, 2
 	note E_, 2
-	loopchannel 0, Music_Route36_branch_e9517
+	loopchannel 0, Route32_branch_e9517
 ; e95af
 
-Music_Route36_Ch2: ; e95af
+Route32_Ch2: ; e95af
 	dutycycle $3
 	vibrato $10, $36
 	stereopanning $f0
@@ -188,7 +188,7 @@ Music_Route36_Ch2: ; e95af
 	note F_, 8
 	octave 3
 	note G_, 4
-Music_Route36_branch_e95ce: ; e95ce
+Route32_branch_e95ce: ; e95ce
 	intensity $c7
 	octave 4
 	note C_, 10
@@ -310,10 +310,10 @@ Music_Route36_branch_e95ce: ; e95ce
 	note G_, 1
 	note A_, 1
 	note B_, 1
-	loopchannel 0, Music_Route36_branch_e95ce
+	loopchannel 0, Route32_branch_e95ce
 ; e966b
 
-Music_Route36_Ch3: ; e966b
+Route32_Ch3: ; e966b
 	notetype $c, $25
 	octave 3
 	note F_, 1
@@ -337,7 +337,7 @@ Music_Route36_Ch3: ; e966b
 	octave 3
 	note D#, 2
 	note E_, 2
-Music_Route36_branch_e9684: ; e9684
+Route32_branch_e9684: ; e9684
 	note F_, 4
 	note C_, 2
 	note F_, 4
@@ -467,33 +467,33 @@ Music_Route36_branch_e9684: ; e9684
 	note D_, 2
 	note D#, 2
 	note E_, 2
-	loopchannel 0, Music_Route36_branch_e9684
+	loopchannel 0, Route32_branch_e9684
 ; e9709
 
-Music_Route36_Ch4: ; e9709
+Route32_Ch4: ; e9709
 	togglenoise $1
 	notetype $c
-	callchannel Music_Route36_branch_e9734
-	callchannel Music_Route36_branch_e9741
-Music_Route36_branch_e9713: ; e9713
-	callchannel Music_Route36_branch_e9734
-	callchannel Music_Route36_branch_e973b
-	callchannel Music_Route36_branch_e9734
-	callchannel Music_Route36_branch_e9741
-	loopchannel 2, Music_Route36_branch_e9713
-Music_Route36_branch_e9723: ; e9723
+	callchannel Route32_branch_e9734
+	callchannel Route32_branch_e9741
+Route32_branch_e9713: ; e9713
+	callchannel Route32_branch_e9734
+	callchannel Route32_branch_e973b
+	callchannel Route32_branch_e9734
+	callchannel Route32_branch_e9741
+	loopchannel 2, Route32_branch_e9713
+Route32_branch_e9723: ; e9723
 	note A#, 4
 	note A_, 2
 	note F_, 4
 	note B_, 1
 	note B_, 1
 	note A_, 4
-	loopchannel 11, Music_Route36_branch_e9723
-	callchannel Music_Route36_branch_e9741
-	loopchannel 0, Music_Route36_branch_e9713
+	loopchannel 11, Route32_branch_e9723
+	callchannel Route32_branch_e9741
+	loopchannel 0, Route32_branch_e9713
 ; e9734
 
-Music_Route36_branch_e9734: ; e9734
+Route32_branch_e9734: ; e9734
 	note A_, 4
 	note A_, 6
 	note A#, 1
@@ -503,7 +503,7 @@ Music_Route36_branch_e9734: ; e9734
 	endchannel
 ; e973b
 
-Music_Route36_branch_e973b: ; e973b
+Route32_branch_e973b: ; e973b
 	note A_, 4
 	note A_, 6
 	note B_, 1
@@ -512,7 +512,7 @@ Music_Route36_branch_e973b: ; e973b
 	endchannel
 ; e9741
 
-Music_Route36_branch_e9741: ; e9741
+Route32_branch_e9741: ; e9741
 	note A_, 4
 	note A_, 6
 	note A#, 1
@@ -556,7 +556,7 @@ Music_Route34Night_Ch1:
 	intensity $5d
 	note A#, 4
 	
-	loopchannel 0, Music_Route36_branch_e9517
+	loopchannel 0, Route32_branch_e9517
 
 ; ============================================================================================================
 Music_Route34Night_Ch2:
@@ -583,7 +583,7 @@ Music_Route34Night_Ch2:
 	octave 3
 	note G_, 4
 	
-	loopchannel 0, Music_Route36_branch_e95ce
+	loopchannel 0, Route32_branch_e95ce
 
 ; ============================================================================================================
 Music_Route34Night_Ch3:
@@ -611,14 +611,14 @@ Music_Route34Night_Ch3:
 	note D#, 2
 	note E_, 2
 
-	loopchannel 0, Music_Route36_branch_e9684
+	loopchannel 0, Route32_branch_e9684
 	
 ; ============================================================================================================
 Music_Route34Night_Ch4:
 	togglenoise $7
 	notetype $c
-	callchannel Music_Route36_branch_e9734
-	callchannel Music_Route36_branch_e9741
+	callchannel Route32_branch_e9734
+	callchannel Route32_branch_e9741
 
-	loopchannel 0, Music_Route36_branch_e9713
+	loopchannel 0, Route32_branch_e9713
 	

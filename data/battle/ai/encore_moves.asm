@@ -6,7 +6,6 @@ EncoreMoves:
 	db LEER
 	db ROAR
 	db DISABLE
-	db MIST
 	db LEECH_SEED
 	db GROWTH
 	db POISONPOWDER
@@ -25,10 +24,8 @@ EncoreMoves:
 	db SUPER_FANG
 	db SUBSTITUTE
 	db TRIPLE_KICK
-	db SPIDER_WEB
 	db MIND_READER
 	db FLAME_WHEEL
 	db AEROBLAST
-	db COTTON_SPORE
 	db POWDER_SNOW
 	db -1 ; end

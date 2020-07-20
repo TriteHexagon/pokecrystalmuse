@@ -24,6 +24,7 @@ INCLUDE "audio/music/titlescreen.asm"
 INCLUDE "audio/music/ruinsofalphinterior.asm"
 INCLUDE "audio/music/lookpokemaniac.asm"
 INCLUDE "audio/music/trainervictory.asm"
+INCLUDE "audio/music/violetcity.asm"
 
 SECTION "Songs 2", ROMX
 
@@ -51,6 +52,13 @@ INCLUDE "audio/music/lakeofragerocketradio.asm"
 INCLUDE "audio/music/magnettrain.asm"
 INCLUDE "audio/music/dancinghall.asm"
 INCLUDE "audio/music/contestresults.asm"
+INCLUDE "audio/music/goldenrodcity.asm"
+INCLUDE "audio/music/azaleatown.asm"
+INCLUDE "audio/music/newbarktown.asm"
+INCLUDE "audio/music/route30.asm"
+INCLUDE "audio/music/route29.asm"
+INCLUDE "audio/music/route42.asm"
+INCLUDE "audio/music/cherrygrovecity.asm"
 
 SECTION "Songs 3", ROMX
 
@@ -58,6 +66,8 @@ INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
 INCLUDE "audio/music/printer.asm"
+INCLUDE "audio/music/mobileadapter.asm"
+INCLUDE "audio/music/route1.asm"
 
 SECTION "Songs 4", ROMX
 
@@ -104,39 +114,23 @@ INCLUDE "audio/music/battletowertheme.asm"
 INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
+; has space
 
 SECTION "Extra Songs 1", ROMX
 
 INCLUDE "audio/music/credits.asm"
 INCLUDE "audio/music/clair.asm"
-INCLUDE "audio/music/mobileadapter.asm"
 
 SECTION "Extra Songs 2", ROMX
 
 INCLUDE "audio/music/postcredits.asm"
 
-SECTION "Night Songs 1", ROMX
-
-INCLUDE "audio/music/cherrygrovecity.asm"
-INCLUDE "audio/music/goldenrodcity.asm"
-INCLUDE "audio/music/route36.asm"
-INCLUDE "audio/music/newbarktown.asm"
-INCLUDE "audio/music/azaleatown.asm"
-
-SECTION "Night Songs 2", ROMX
-INCLUDE "audio/music/route30.asm"
-INCLUDE "audio/music/route29.asm"
-INCLUDE "audio/music/route42.asm"
-INCLUDE "audio/music/route1.asm"
-INCLUDE "audio/music/violetcity.asm"
-
-SECTION "Night Songs 4", ROMX
-INCLUDE "audio/music/route3.asm"
-INCLUDE "audio/music/route12.asm"
+SECTION "Alt Songs 1", ROMX
 INCLUDE "audio/music/lavendertown.asm"
 INCLUDE "audio/music/pallettown.asm"
-
-SECTION "Night Songs 3", ROMX
+INCLUDE "audio/music/route32.asm"
+INCLUDE "audio/music/route3.asm"
+INCLUDE "audio/music/route12.asm"
 INCLUDE "audio/music/route37.asm"
 INCLUDE "audio/music/route26.asm"
 INCLUDE "audio/music/viridiancity.asm"

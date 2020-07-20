@@ -12,7 +12,7 @@ MoveGrammar:
 	db SMOKESCREEN
 	db WITHDRAW
 	db DEFENSE_CURL
-	db EGG_BOMB
+	db TRANSFORM
 	db SMOG
 	db BONE_CLUB
 	db FLASH
@@ -49,7 +49,6 @@ MoveGrammar:
 	db AGILITY
 	db MIMIC
 	db DOUBLE_TEAM
-	db BARRAGE
 	db TRANSFORM
 	db STRUGGLE
 	db SCARY_FACE
@@ -58,12 +57,9 @@ MoveGrammar:
 ; 3: originally "[mon]の¯[move]　こうげき!" ("[mon]'s¯[move] attack!")
 	db POUND
 	db SCRATCH
-	db VICEGRIP
 	db WING_ATTACK
 	db FLY
-	db BIND
 	db SLAM
-	db HORN_ATTACK
 	db WRAP
 	db THRASH
 	db TAIL_WHIP
@@ -83,12 +79,9 @@ MoveGrammar:
 	db METRONOME
 	db LICK
 	db CLAMP
-	db CONSTRICT
 	db POISON_GAS
 	db BUBBLE
 	db SLASH
-	db SPIDER_WEB
-	db NIGHTMARE
 	db CURSE
 	db FORESIGHT
 	db CHARM

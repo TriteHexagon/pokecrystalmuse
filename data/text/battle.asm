@@ -69,6 +69,7 @@ LeechSeedSapsText:
 	line "<USER>!"
 	prompt
 
+;unused
 HasANightmareText:
 	text "<USER>"
 	line "has a NIGHTMARE!"
@@ -446,7 +447,7 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "used BIND on"
+	line "used WRAP on"
 	cont "<TARGET>!"
 	prompt
 
@@ -956,6 +957,7 @@ CantEscapeNowText:
 	line "can't escape now!"
 	prompt
 
+;unused
 StartedNightmareText:
 	text "<TARGET>"
 	line "started to have a"

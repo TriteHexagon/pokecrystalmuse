@@ -33,7 +33,7 @@ CharmanderEggMoves:
 SquirtleEggMoves:
 	db MIRROR_COAT
 	db HAZE
-	db MIST
+	db TRANSFORM
 	db CONFUSION
 	db FORESIGHT
 	db FLAIL
@@ -181,7 +181,7 @@ GrowlitheEggMoves:
 	db -1 ; end
 
 PoliwagEggMoves:
-	db MIST
+	db TRANSFORM
 	db SPLASH
 	db BUBBLEBEAM
 	db HAZE
@@ -197,7 +197,7 @@ AbraEggMoves:
 MachopEggMoves:
 	db LIGHT_SCREEN
 	db MEDITATE
-	db ROLLING_KICK
+	db DOUBLE_KICK
 	db ENCORE
 	db -1 ; end
 
@@ -218,7 +218,7 @@ TentacoolEggMoves:
 	db -1 ; end
 
 GeodudeEggMoves:
-	db MEGA_PUNCH
+	db TRANSFORM
 	db ROCK_SLIDE
 	db -1 ; end
 
@@ -438,7 +438,7 @@ SnorlaxEggMoves:
 
 DratiniEggMoves:
 	db LIGHT_SCREEN
-	db MIST
+	db TRANSFORM
 	db HAZE
 	db SUPERSONIC
 	db -1 ; end
@@ -496,7 +496,7 @@ LedybaEggMoves:
 SpinarakEggMoves:
 	db PSYBEAM
 	db DISABLE
-	db SONICBOOM
+	db TRANSFORM
 	db BATON_PASS
 	db PURSUIT
 	db -1 ; end
@@ -708,7 +708,7 @@ CorsolaEggMoves:
 	db ROCK_SLIDE
 	db SAFEGUARD
 	db SCREECH
-	db MIST
+	db TRANSFORM
 	db AMNESIA
 	db -1 ; end
 
@@ -779,16 +779,16 @@ SmoochumEggMoves:
 	db -1 ; end
 
 ElekidEggMoves:
-	db KARATE_CHOP
+	db TRANSFORM
 	db BARRIER
-	db ROLLING_KICK
+	db DOUBLE_KICK
 	db MEDITATE
 	db CROSS_CHOP
 	db -1 ; end
 
 MagbyEggMoves:
-	db KARATE_CHOP
-	db MEGA_PUNCH
+	db TRANSFORM
+	db TRANSFORM
 	db BARRIER
 	db SCREECH
 	db CROSS_CHOP

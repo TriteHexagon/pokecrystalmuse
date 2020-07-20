@@ -25,3 +25,4 @@
 * Rock Smash to 60 Power
 * Beat Up to 20 BP / 90% Acc; effect equal to Triple Kick
 * Changed Pound to Fairy-type; changed description
+* Tri Attack's animation similar to the current gens

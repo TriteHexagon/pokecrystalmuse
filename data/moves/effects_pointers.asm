@@ -37,7 +37,7 @@ MoveEffectsPointers:
 	dw PayDay
 	dw LightScreen
 	dw TriAttack
-	dw NormalHit
+	dw QuiverDance
 	dw OHKOHit
 	dw RazorWind
 	dw SuperFang
@@ -157,3 +157,7 @@ MoveEffectsPointers:
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	dw Coil
+	dw ShellSmash
+	dw BulkUp
+	dw WorkUp

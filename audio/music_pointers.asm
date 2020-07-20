@@ -55,7 +55,7 @@ Music:
 	dba Music_ElmsLab
 	dba Music_DarkCave
 	dba Music_Route29
-	dba Music_Route36
+	dba Route32
 	dba Music_SSAqua
 	dba Music_LookYoungster
 	dba Music_LookBeauty

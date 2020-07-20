@@ -7,7 +7,6 @@ StallMoves:
 	db LEER
 	db GROWL
 	db DISABLE
-	db MIST
 	db COUNTER
 	db LEECH_SEED
 	db GROWTH

@@ -113,10 +113,10 @@ BattleCommand_CheckTurn:
 
 ; Repurposed as hardcoded turn handling. Useless as a command.
 
-; Move $ff immediately ends the turn.
+; Move NO_MOVE immediately ends the turn.
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	inc a
+	and a ; NO_MOVE?
 	jp z, EndTurn
 
 	xor a
@@ -5718,8 +5718,100 @@ BattleCommand_Charge:
 	text_far _BattleDugText
 	text_end
 
-BattleCommand3c:
-; unused
+;new effects
+BattleCommand_QuiverDance:
+; Special Attack
+	call ResetMiss
+	call BattleCommand_SpecialAttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Special Defense
+	call ResetMiss
+	call BattleCommand_SpecialDefenseUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Speed
+	call ResetMiss
+	call BattleCommand_SpeedUp
+	jp BattleCommand_StatUpMessage
+	;jp BattleCommand_StatUpFailText
+	ret
+
+BattleCommand_Coil:
+; Attack
+	call ResetMiss
+	call BattleCommand_AttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Defense
+	call ResetMiss
+	call BattleCommand_DefenseUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Accuracy
+	call ResetMiss
+	call BattleCommand_AccuracyUp
+	jp BattleCommand_StatUpMessage
+	;jp BattleCommand_StatUpFailText
+	ret
+
+BattleCommand_ShellSmash: ;not working right
+; Down Defense
+	call ResetMiss
+	call BattleCommand_DefenseDown
+	call BattleCommand_StatDownMessage
+	;call BattleCommand_StatDownFailText
+; Down Special Defense
+	call ResetMiss
+	call BattleCommand_SpecialDefenseDown
+	call BattleCommand_StatDownMessage
+	;call BattleCommand_StatDownFailText
+; Up Attack
+	call ResetMiss
+	call BattleCommand_AttackUp2
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+; Up Special Attack
+	call ResetMiss
+	call BattleCommand_SpecialAttackUp2
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+; Up Speed
+	call ResetMiss
+	call BattleCommand_SpeedUp2
+	jp BattleCommand_StatUpMessage
+	;jp BattleCommand_StatUpFailText
+	ret
+
+BattleCommand_BulkUp:
+; Attack
+	call ResetMiss
+	call BattleCommand_AttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Defense
+	call ResetMiss
+	call BattleCommand_DefenseUp
+	jp BattleCommand_StatUpMessage
+	ret
+
+BattleCommand_WorkUp:
+; Attack
+	call ResetMiss
+	call BattleCommand_AttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Defense
+	call ResetMiss
+	call BattleCommand_SpecialAttackUp
+	jp BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
 	ret
 
 BattleCommand_TrapTarget:
@@ -5772,7 +5864,7 @@ BattleCommand_TrapTarget:
 	jp StdBattleTextbox
 
 .Traps:
-	dbw BIND,      UsedBindText      ; 'used BIND on'
+	;dbw WRAP,      UsedBindText      ; 'used WRAP on'
 	dbw WRAP,      WrappedByText     ; 'was WRAPPED by'
 	dbw FIRE_SPIN, FireSpinTrapText  ; 'was trapped!'
 	dbw CLAMP,     ClampedByText     ; 'was CLAMPED by'

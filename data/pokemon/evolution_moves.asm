@@ -152,7 +152,7 @@ EvolutionMoves::
     db NO_MOVE      ;Mew
     db NO_MOVE      ;Chikorita
     db NO_MOVE      ;Bayleef
-    db DAZZLINGLEAM ;Meganium
+    db MOONBLAST    ;Meganium
     db NO_MOVE      ;Cyndaquil
     db NO_MOVE      ;Quilava
     db NO_MOVE      ;Typhlosion

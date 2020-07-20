@@ -1,9 +1,12 @@
 CriticalHitMoves:
-	db KARATE_CHOP
+	db TRANSFORM
 	db RAZOR_WIND
 	db RAZOR_LEAF
 	db CRABHAMMER
 	db SLASH
+	;db SHADOW_CLAW
+	;db DRILL_RUN
+	;db STONE_EDGE
 	db AEROBLAST
 	db CROSS_CHOP
 	db -1

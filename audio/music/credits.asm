@@ -1673,3 +1673,20 @@ Music_Credits_Ch4:
 	drum_note 11, 1
 	drum_note 3, 1
 	sound_ret
+
+.newsub1
+	drum_note 9, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 3, 1
+	drum_note 8, 1
+	sound_ret
