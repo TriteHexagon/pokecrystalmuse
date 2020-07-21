@@ -186,3 +186,4 @@ BattleCommandPointers:
 	dw BattleCommand_Hex
 	dw BattleCommand_Venoshock
 	dw BattleCommand_DragonDance
+	dw BattleCommand_CalmMind

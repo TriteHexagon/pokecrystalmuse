@@ -143,7 +143,7 @@ MoveEffectsPointers:
 	dw AllUpHit
 	dw FakeOut
 	dw BellyDrum
-	dw PsychUp
+	;dw PsychUp
 	dw MirrorCoat
 	dw SkullBash
 	dw Twister
@@ -161,6 +161,10 @@ MoveEffectsPointers:
 	dw ShellSmash
 	dw BulkUp
 	dw WorkUp
+	dw CalmMind
 	dw FlareBlitz
 	dw NormalHit
+	dw ThunderFang
+	dw IceFang
+	dw FireFang
 

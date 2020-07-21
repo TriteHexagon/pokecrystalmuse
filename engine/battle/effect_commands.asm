@@ -5801,6 +5801,19 @@ BattleCommand_WorkUp:
 	;call BattleCommand_StatUpFailText
 	ret
 
+BattleCommand_CalmMind:
+; Attack
+	call ResetMiss
+	call BattleCommand_SpecialAttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+
+; Defense
+	call ResetMiss
+	call BattleCommand_SpecialDefenseUp
+	jp BattleCommand_StatUpMessage
+	ret
+
 BattleCommand_DragonDance:
 ; Attack
 	call ResetMiss

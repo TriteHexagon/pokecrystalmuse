@@ -230,11 +230,11 @@ Moves:
     move DRAGON_DANCE,  EFFECT_DRAGON_DANCE,        0, DRAGON,        STATUS,   100, 20,   0
     move DRAGON_PULSE,  EFFECT_NORMAL_HIT,         85, DRAGON,        SPECIAL,  100, 10,   0
     move WILD_CHARGE,   EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,   0
-    move THUNDER_FANG,  EFFECT_PARALYZE_HIT,       65, ELECTRIC,      PHYSICAL,  65, 15,  10
+    move THUNDER_FANG,  EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  65, 15,  10
     move DRAINING_KISS, EFFECT_LEECH_HIT,          50, FAIRY,         SPECIAL,  100, 10,   0
     move FOCUS_BLAST,   EFFECT_SP_DEF_DOWN_HIT,   100, FIGHTING,      SPECIAL,  80,   5,  10
-    move FLARE_BLITZ,   EFFECT_FLARE_BLITZ,       120, FIRE,          PHYSICAL, 100, 15,  10
-    move FIRE_FANG,     EFFECT_BURN_HIT,           65, FIRE,          PHYSICAL,  95, 15,  10
+    move FLARE_BLITZ,   EFFECT_RECOIL_HIT,        120, FIRE,          PHYSICAL, 100, 15,   0
+    move FIRE_FANG,     EFFECT_FIRE_FANG,          65, FIRE,          PHYSICAL,  95, 15,  10
     move WILL_O_WISP,   EFFECT_BURN,                0, FIRE,          STATUS,    85, 15, 100
     move AIR_SLASH,     EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,   95, 15,  30
     move ROOST,         EFFECT_HEAL,                0, FLYING,        STATUS,   100, 10,   0
@@ -249,14 +249,14 @@ Moves:
     move DRILL_RUN,     EFFECT_NORMAL_HIT,         80, GROUND,        PHYSICAL,  95, 10,   0
     move ICICLE_CRASH,  EFFECT_FLINCH_HIT,         85, ICE,           PHYSICAL,  90, 10,  30
     move ICE_SHARD,     EFFECT_PRIORITY_HIT,       40, ICE,           PHYSICAL, 100, 30,   0
-    move ICE_FANG,      EFFECT_FREEZE_HIT,         65, ICE,           PHYSICAL,  95, 15,  10
+    move ICE_FANG,      EFFECT_ICE_FANG,           65, ICE,           PHYSICAL,  95, 15,  10
     move HYPER_VOICE,   EFFECT_NORMAL_HIT,         90, NORMAL,        SPECIAL,  100, 10,   0
     move POISON_JAB,    EFFECT_POISON_HIT,         80, POISON,        PHYSICAL, 100, 20,  30
-    move POISON_FANG,   EFFECT_TOXIC,              50, POISON,        PHYSICAL, 100, 15,  30
+    move POISON_FANG,   EFFECT_POISON_HIT,         50, POISON,        PHYSICAL, 100, 15,  30
     move VENOSHOCK,     EFFECT_VENOSHOCK,          65, POISON,        SPECIAL,  100, 10,   0
     move GUNK_SHOT,     EFFECT_POISON_HIT,        120, POISON,        PHYSICAL,  80,  5,  30
     move ZEN_HEADBUTT,  EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  PHYSICAL,  90, 15,  20
-    move CALM_MIND,     EFFECT_BULK_UP,             0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
+    move CALM_MIND,     EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
     move POWER_GEM,     EFFECT_NORMAL_HIT,         80, ROCK,          SPECIAL,  100, 20,   0
     move STONE_EDGE,    EFFECT_NORMAL_HIT,        100, ROCK,          PHYSICAL,  80,  5,   0
     move FLASH_CANNON,  EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         SPECIAL,  100, 10,  10

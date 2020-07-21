@@ -27,16 +27,16 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 ; BattleAnimObjects indexes (see data/battle_anims/objects.asm)
 	const_def
 	const ANIM_OBJ_00
-	const ANIM_OBJ_01
+	const ANIM_OBJ_GENERIC_HIT
 	const ANIM_OBJ_02
 	const ANIM_OBJ_03
 	const ANIM_OBJ_04
 	const ANIM_OBJ_05
 	const ANIM_OBJ_06
 	const ANIM_OBJ_07
-	const ANIM_OBJ_08
+	const ANIM_OBJ_PAW
 	const ANIM_OBJ_FANG
-	const ANIM_OBJ_0A
+	const ANIM_OBJ_PUNCH
 	const ANIM_OBJ_EMBER
 	const ANIM_OBJ_DRAGON_RAGE
 	const ANIM_OBJ_FLAMETHROWER
@@ -73,7 +73,7 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_RECOVER
 	const ANIM_OBJ_2D
 	const ANIM_OBJ_2E
-	const ANIM_OBJ_2F
+	const ANIM_OBJ_THUNDER
 	const ANIM_OBJ_THUNDER_WAVE
 	const ANIM_OBJ_31
 	const ANIM_OBJ_LIGHTNING_BOLT
@@ -179,8 +179,8 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_LOVELY_KISS
 	const ANIM_OBJ_SWEET_KISS
 	const ANIM_OBJ_SKETCH
-	const ANIM_OBJ_99
-	const ANIM_OBJ_9A
+	const ANIM_OBJ_HANDS
+	const ANIM_OBJ_STAR
 	const ANIM_OBJ_DESTINY_BOND
 	const ANIM_OBJ_MORNING_SUN
 	const ANIM_OBJ_GLIMMER
@@ -214,6 +214,12 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_PLAYERHEAD_1ROW
 	const ANIM_OBJ_ENEMYFEET_2ROW
 	const ANIM_OBJ_PLAYERHEAD_2ROW
+	;new
+	const ANIM_OBJ_EARTH_POWER
+	const ANIM_OBJ_SOUL_EMBER
+	const ANIM_OBJ_SMALL_ROCK_UP
+	const ANIM_OBJ_FIRE_PARTICLES
+	const ANIM_OBJ_WATER_WAVE
 
 ; DoBattleAnimFrame arguments (see engine/battle_anims/functions.asm)
 	const_def

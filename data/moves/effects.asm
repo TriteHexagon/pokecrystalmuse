@@ -408,6 +408,17 @@ WorkUp:
 	;statupfailtext
 	endmove
 
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	calmmind
+	;statupfailtext
+	endmove
+
 DragonDance:
 	checkobedience
 	usedmovetext
@@ -1126,7 +1137,9 @@ DoBurn:
 	doturn
 	stab
 	checkhit
-	;checksafeguard unecessary
+	moveanim
+	failuretext
+	checksafeguard
 	burntarget
 	endmove
 
@@ -2213,16 +2226,86 @@ FlareBlitz:
 	stab
 	damagevariation
 	checkhit
+	;defrost
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	recoil
+	checkfaint
+	; effectchance
+	; burntarget
+	buildopponentrage
+	kingsrock
+	endmove
+
+
+ThunderFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
 	effectchance
 	moveanim
 	failuretext
 	applydamage
 	criticaltext
 	supereffectivetext
-	defrost
-	recoil
 	checkfaint
 	buildopponentrage
+	flinchtarget
+	effectchance
+	paralyzetarget
+	endmove
+
+IceFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	flinchtarget
+	effectchance
+	freezetarget
+	endmove
+
+FireFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	flinchtarget
+	effectchance
 	burntarget
 	endmove
-	

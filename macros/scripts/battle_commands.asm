@@ -187,6 +187,7 @@ ENDM
 	command hex ;new
 	command venoshock ;new
 	command dragondance ;new
+	command calmmind
 
 	const_def -1, -1
 	command endmove                 ; ff

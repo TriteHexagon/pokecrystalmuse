@@ -2067,7 +2067,6 @@ ChikoritaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, FAKE_OUT
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
 	db 15, POISONPOWDER
@@ -2114,8 +2113,12 @@ MeganiumEvosAttacks:
 CyndaquilEvosAttacks:
 	db EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
+	; db 1, TACKLE
+	; db 1, LEER
+	db 1, WATER_PULSE
+	db 1, FLARE_BLITZ
+	db 1, WILD_CHARGE
+	db 1, POISON_JAB
 	db 6, SMOKESCREEN
 	db 12, EMBER
 	db 19, QUICK_ATTACK
