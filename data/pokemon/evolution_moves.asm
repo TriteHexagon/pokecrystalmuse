@@ -1,7 +1,7 @@
 EvolutionMoves::
     db NO_MOVE      ;Bulbasaur
-    db NO_MOVE      ;Ivysaur
-    db PETAL_DANCE  ;Venusaur
+    db TAKE_DOWN    ;Ivysaur
+    db SLUDGE_BOMB  ;Venusaur
     db NO_MOVE      ;Charmander
     db NO_MOVE      ;Charmeleon
     db WING_ATTACK  ;Charizard
