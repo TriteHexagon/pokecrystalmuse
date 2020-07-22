@@ -233,7 +233,7 @@ Moves:
     move THUNDER_FANG,  EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  65, 15,  10
     move DRAINING_KISS, EFFECT_LEECH_HIT,          50, FAIRY,         SPECIAL,  100, 10,   0
     move FOCUS_BLAST,   EFFECT_SP_DEF_DOWN_HIT,   100, FIGHTING,      SPECIAL,  80,   5,  10
-    move FLARE_BLITZ,   EFFECT_RECOIL_HIT,        120, FIRE,          PHYSICAL, 100, 15,   0
+    move FLARE_BLITZ,   EFFECT_FLARE_BLITZ,       120, FIRE,          PHYSICAL, 100, 15,   0
     move FIRE_FANG,     EFFECT_FIRE_FANG,          65, FIRE,          PHYSICAL,  95, 15,  10
     move WILL_O_WISP,   EFFECT_BURN,                0, FIRE,          STATUS,    85, 15, 100
     move AIR_SLASH,     EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,   95, 15,  30

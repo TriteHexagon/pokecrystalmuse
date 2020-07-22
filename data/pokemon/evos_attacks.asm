@@ -2115,11 +2115,11 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	; db 1, TACKLE
 	; db 1, LEER
-	db 1, WATER_PULSE
-	db 1, FLARE_BLITZ
-	db 1, WILD_CHARGE
-	db 1, POISON_JAB
-	db 6, SMOKESCREEN
+	db 1, WORK_UP
+	db 1, BULK_UP
+	db 1, ROOST
+	db 1, FAIRY_WIND
+	db 8, SMOKESCREEN ;6
 	db 12, EMBER
 	db 19, QUICK_ATTACK
 	db 27, FLAME_WHEEL

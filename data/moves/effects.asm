@@ -2226,7 +2226,7 @@ FlareBlitz:
 	stab
 	damagevariation
 	checkhit
-	;defrost
+	defrost
 	moveanim
 	failuretext
 	applydamage
@@ -2234,8 +2234,8 @@ FlareBlitz:
 	supereffectivetext
 	recoil
 	checkfaint
-	; effectchance
-	; burntarget
+	effectchance
+	burntarget
 	buildopponentrage
 	kingsrock
 	endmove
