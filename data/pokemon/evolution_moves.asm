@@ -7,7 +7,7 @@ EvolutionMoves::
     db WING_ATTACK  ;Charizard
     db NO_MOVE      ;Squirtle
     db NO_MOVE      ;Wartortle
-    db NO_MOVE      ;Blastoise Flash Cannon
+    db FLASH_CANNON ;Blastoise
     db NO_MOVE      ;Caterpie
     db HARDEN       ;Metapod
     db CONFUSION    ;Butterfree
