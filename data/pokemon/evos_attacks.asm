@@ -2115,10 +2115,10 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	; db 1, TACKLE
 	; db 1, LEER
-	db 1, WORK_UP
-	db 1, BULK_UP
-	db 1, ROOST
-	db 1, FAIRY_WIND
+	db 1, SHADOW_CLAW
+	db 1, FOCUS_BLAST
+	db 1, ENERGY_BALL
+	db 1, PLAY_ROUGH
 	db 8, SMOKESCREEN ;6
 	db 12, EMBER
 	db 19, QUICK_ATTACK

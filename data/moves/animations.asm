@@ -665,14 +665,10 @@ BattleAnim_HyperVoice:
 BattleAnim_IceShard:
 BattleAnim_IcicleCrash:
 BattleAnim_MudShot:
-BattleAnim_EnergyBall:
-BattleAnim_ShadowClaw:
 BattleAnim_ShadowSneak:
-BattleAnim_FocusBlast:
 BattleAnim_DragonPulse:
 BattleAnim_DarkPulse:
 BattleAnim_BugBuzz:
-BattleAnim_PlayRough:
 BattleAnim_Pound:
 	anim_1gfx ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POUND
@@ -5361,10 +5357,10 @@ BattleAnim_Roost:
 ;  	anim_wait 8
 ;  	anim_loop 3, .loop
 	anim_wait 48
+	anim_call BattleAnimSub_Glimmer
+	anim_wait 16
 	anim_incbgeffect ANIM_BG_WITHDRAW
 	anim_call BattleAnim_ShowMon_0
-	anim_wait 32
-	anim_call BattleAnimSub_Glimmer
 	anim_ret
 
 BattleAnim_WorkUp:
@@ -5418,4 +5414,87 @@ BattleAnim_FairyWind:
 	anim_wait 4
 	anim_incobj 7
 	anim_wait 1
+	anim_ret
+
+BattleAnim_ShadowClaw:
+	anim_1gfx ANIM_GFX_CUT
+	anim_bgp $1b
+	;anim_obp1 $1b
+	anim_wait 32
+	anim_sound 0, 1, SFX_SCRATCH
+	anim_obj ANIM_OBJ_37, 144, 48, $0
+	anim_obj ANIM_OBJ_37, 140, 44, $0
+	anim_obj ANIM_OBJ_37, 136, 40, $0
+	anim_wait 32
+	anim_ret
+
+BattleAnim_PlayRough:
+	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_OBJECTS
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect ANIM_BG_BOUNCE_DOWN, $0, $1, $0
+	anim_sound 0, 0, SFX_RETURN
+	anim_wait 64
+	anim_incbgeffect ANIM_BG_BOUNCE_DOWN
+	anim_call BattleAnim_ShowMon_0
+	anim_wait 32
+	anim_obj ANIM_OBJ_HEART, 110, 50, $0
+	anim_obj ANIM_OBJ_HEART, 126, 65, $0
+	anim_obj ANIM_OBJ_HEART, 157, 60, $0
+	anim_obj ANIM_OBJ_HEART, 149, 45, $0
+.loop
+	anim_wait 4
+	anim_sound 0, 1, SFX_POUND
+	anim_obj ANIM_OBJ_02, 120, 32, $0
+	anim_wait 3
+	anim_sound 0, 1, SFX_POUND
+	anim_obj ANIM_OBJ_02, 152, 56, $0
+	anim_wait 3
+	anim_sound 0, 1, SFX_POUND
+	anim_obj ANIM_OBJ_02, 116, 60, $0
+	anim_wait 3
+	anim_sound 0, 1, SFX_POUND
+	anim_obj ANIM_OBJ_02, 148, 48, $0
+	anim_loop 3, .loop
+	anim_wait 40
+	anim_ret
+
+BattleAnim_EnergyBall:
+	anim_1gfx ANIM_GFX_SPEED
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $0
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $80
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $88
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $90
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $98
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $a0
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $a8
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $b0
+	anim_obj ANIM_OBJ_ENERGY_BALL, 64, 88, $b8
+.loop
+	anim_sound 6, 2, SFX_WHIRLWIND
+	anim_wait 16
+	anim_loop 8, .loop
+	anim_wait 32
+	anim_ret
+
+BattleAnim_FocusBlast:
+	anim_2gfx ANIM_GFX_SPEED, ANIM_GFX_EXPLOSION
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $0
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $80
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $88
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $90
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $98
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $a0
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $a8
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $b0
+	anim_obj ANIM_OBJ_FOCUS_BLAST, 64, 88, $b8
+.loop
+	anim_sound 6, 2, SFX_WHIRLWIND
+	anim_wait 16
+	anim_loop 8, .loop
+	anim_wait 32
+.loop2
+	anim_call BattleAnimSub_Explosion2
+	anim_wait 5
+	anim_loop 2, .loop2
+	anim_wait 16
 	anim_ret
