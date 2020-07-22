@@ -29,11 +29,11 @@ BulbasaurEvosAttacks:
 	db 13, SLEEP_POWDER
 	db 15, RAZOR_LEAF
 	db 19, TAKE_DOWN
-	db 21, SWEET_SCENT
-	db 25, GROWTH
+	db 21, GROWTH
+	db 25, SWEET_SCENT
 	db 27, DOUBLE_EDGE
-	db 31, SYNTHESIS
-	db 33, SEED_BOMB
+	db 31, SEED_BOMB
+	db 33, SYNTHESIS
 	db 37, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -50,10 +50,11 @@ IvysaurEvosAttacks:
 	db 13, SLEEP_POWDER
 	db 15, TAKE_DOWN
 	db 19, RAZOR_LEAF
-	db 23, SWEET_SCENT
-	db 28, GROWTH
+	db 23, GROWTH
+	db 28, SWEET_SCENT
 	db 31, DOUBLE_EDGE
-	db 36, SYNTHESIS
+	db 36, SEED_BOMB
+	db 39, SYNTHESIS
 	db 44, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -70,12 +71,14 @@ VenusaurEvosAttacks:
 	db 13, SLEEP_POWDER
 	db 15, TAKE_DOWN
 	db 19, RAZOR_LEAF
-	db 23, SWEET_SCENT
-	db 28, GROWTH
+	db 23, GROWTH
+	db 28, SWEET_SCENT
 	db 31, DOUBLE_EDGE
-	db 35, PETAL_DANCE
-	db 39, SYNTHESIS
-	db 45, SOLARBEAM
+	db 31, SLUDGE_BOMB
+	db 39, SEED_BOMB
+	db 45, SYNTHESIS
+	db 49, PETAL_DANCE
+	db 53, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:
