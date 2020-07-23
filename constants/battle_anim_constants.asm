@@ -51,7 +51,7 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_POKE_BALL_BLOCKED
 	const ANIM_OBJ_17
 	const ANIM_OBJ_18
-	const ANIM_OBJ_19
+	const ANIM_OBJ_ACID
 	const ANIM_OBJ_1A
 	const ANIM_OBJ_1B
 	const ANIM_OBJ_BALL_POOF
@@ -114,7 +114,7 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_SKULL
 	const ANIM_OBJ_56
 	const ANIM_OBJ_57
-	const ANIM_OBJ_58
+	const ANIM_OBJ_SAND_MUD
 	const ANIM_OBJ_PARALYZED
 	const ANIM_OBJ_STRING_SHOT
 	const ANIM_OBJ_HAZE
@@ -234,6 +234,16 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_QUIVER_DANCE
 	const ANIM_OBJ_ENERGY_BALL
 	const ANIM_OBJ_FOCUS_BLAST
+	const ANIM_OBJ_BUG_WAVE_1
+	const ANIM_OBJ_BUG_WAVE_2
+	const ANIM_OBJ_MUD_SHOT
+	const ANIM_OBJ_BIG_ICICLE
+	const ANIM_OBJ_SMALL_ICICLE
+	const ANIM_OBJ_SCALD
+	const ANIM_OBJ_ICE_SHARD
+	const ANIM_OBJ_VAPOR
+	const ANIM_OBJ_GUNK_SHOT
+	const ANIM_OBJ_POWER_GEM
 
 ; DoBattleAnimFrame arguments (see engine/battle_anims/functions.asm)
 	const_def
