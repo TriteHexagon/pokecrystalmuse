@@ -1,15 +1,16 @@
 # Miscelaneous
 * Item maniacs (Nuggets, Mushrooms, Star Stuff)
-
-* Residual Moves, Stall Moves, Encore Moves, Rain Dance moves, etc
 * Remove unused effects (bide)
 * Different animations for different types for some attacks (Lock-On / Mind Reader | Protect / Detect)
+* Update trapping moves' effect.
+* Smarter double stat rise.
+* Shell Smash reducing stats properly.
 
 # Missing Maps
 * Viridian Forest
 * Seafoam Islands
 * Cerulean Cave - With Green battle
-* Shortened Kanto routes
+* Longer Kanto routes
 
 * Route 47 / 48
 * Safari Gate
