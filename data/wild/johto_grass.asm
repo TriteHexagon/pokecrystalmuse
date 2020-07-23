@@ -1,4 +1,12 @@
 ; Johto Pokémon in grass
+;slots percentages:
+;30%
+;30%
+;20%
+;10%
+;5%
+;4%
+;1%
 
 JohtoGrassWildMons:
 
@@ -1355,13 +1363,13 @@ JohtoGrassWildMons:
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, SNUBBULL
-	db 14, PIDGEY
-	db 13, GROWLITHE
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, YANMA
+	db 12, SNUBBULL ;30%
+	db 14, PIDGEY ;30%
+	db 13, GROWLITHE ;20%
+	db 10, ABRA ;10%
+	db 12, JIGGLYPUFF ;5%
+	db 10, DITTO ;4%
+	db 12, YANMA ;1%
 	; day
 	db 12, SNUBBULL
 	db 14, PIDGEY
