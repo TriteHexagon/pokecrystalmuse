@@ -5,6 +5,7 @@
 * Update trapping moves' effect.
 * Smarter double stat rise.
 * Shell Smash reducing stats properly.
+* Pokédex Weight / Height in metric units.
 
 # Missing Maps
 * Viridian Forest
