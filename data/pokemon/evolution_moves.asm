@@ -13,7 +13,7 @@ EvolutionMoves::
     db CONFUSION    ;Butterfree
     db NO_MOVE      ;Weedle
     db HARDEN       ;Kakuna
-    db FURY_ATTACK  ;Beedrill
+    db TWINEEDLE    ;Beedrill
     db NO_MOVE      ;Pidgey
     db NO_MOVE      ;Pidgeotto
     db NO_MOVE      ;Pidgeot
