@@ -202,39 +202,47 @@ CaterpieEvosAttacks:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TRANSFORM
+	db 1, SCARY_FACE
 	db 0 ; no more level-up moves
 
 MetapodEvosAttacks:
 	db EVOLVE_LEVEL, 10, BUTTERFREE
 	db 0 ; no more evolutions
 	db 1, HARDEN
+	db 6, HARDEN
 	db 0 ; no more level-up moves
 
 ButterfreeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
+	db 9, CONFUSION
+	db 11, GUST
 	db 13, POISONPOWDER
-	db 14, STUN_SPORE
-	db 15, SLEEP_POWDER
-	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, GUST
-	db 34, PSYBEAM
-	db 40, SAFEGUARD
+	db 13, STUN_SPORE
+	db 13, SLEEP_POWDER
+	db 16, SUPERSONIC
+	db 18, SIGNAL_BEAM
+	db 22, PSYBEAM
+	db 24, SAFEGUARD
+	db 28, WHIRLWIND
+	db 30, BUG_BUZZ
+	db 34, AIR_SLASH
+	db 36, PSYCHIC
+	db 40, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
 	db EVOLVE_LEVEL, 7, KAKUNA
 	db 0 ; no more evolutions
 	db 1, POISON_STING
-	db 1, TRANSFORM
+	db 1, SCARY_FACE
 	db 0 ; no more level-up moves
 
 KakunaEvosAttacks:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0 ; no more evolutions
 	db 1, HARDEN
+	db 6, HARDEN
 	db 0 ; no more level-up moves
 
 BeedrillEvosAttacks:
