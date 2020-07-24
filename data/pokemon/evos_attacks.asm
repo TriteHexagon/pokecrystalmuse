@@ -141,13 +141,16 @@ SquirtleEvosAttacks:
 	db 4, TAIL_WHIP
 	db 7, WATER_GUN
 	db 10, DEFENSE_CURL
-	db 13, WATER_GUN
-	db 18, BITE
-	db 23, RAPID_SPIN
-	db 28, PROTECT
-	db 33, RAIN_DANCE
-	db 40, HEADBUTT
-	db 47, HYDRO_PUMP
+	db 13, BITE
+	db 17, WATER_PULSE
+	db 19, RAPID_SPIN
+	db 22, PROTECT
+	db 25, AQUA_JET
+	db 28, RAZOR_SHELL
+	db 31, REFLECT
+	db 34, BODY_SLAM
+	db 37, RAIN_DANCE
+	db 40, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
@@ -159,13 +162,17 @@ WartortleEvosAttacks:
 	db 4, TAIL_WHIP
 	db 7, WATER_GUN
 	db 10, DEFENSE_CURL
-	db 13, WATER_GUN
-	db 19, BITE
-	db 25, RAPID_SPIN
-	db 31, PROTECT
-	db 37, RAIN_DANCE
-	db 45, HEADBUTT
-	db 53, HYDRO_PUMP
+	db 13, BITE
+	db 15, IRON_DEFENSE
+	db 17, WATER_PULSE
+	db 20, RAPID_SPIN
+	db 24, PROTECT
+	db 28, AQUA_JET
+	db 32, RAZOR_SHELL
+	db 36, BODY_SLAM
+	db 40, REFLECT
+	db 44, RAIN_DANCE
+	db 48, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 BlastoiseEvosAttacks:
@@ -177,13 +184,18 @@ BlastoiseEvosAttacks:
 	db 4, TAIL_WHIP
 	db 7, WATER_GUN
 	db 10, DEFENSE_CURL
-	db 13, WATER_GUN
-	db 19, BITE
-	db 25, RAPID_SPIN
-	db 31, PROTECT
-	db 42, RAIN_DANCE
-	db 55, HEADBUTT
-	db 68, HYDRO_PUMP
+	db 13, BITE
+	db 15, IRON_DEFENSE
+	db 17, WATER_PULSE
+	db 20, RAPID_SPIN
+	db 24, PROTECT
+	db 28, AQUA_JET
+	db 32, RAZOR_SHELL
+	db 35, FLASH_CANNON
+	db 39, BODY_SLAM
+	db 45, REFLECT
+	db 50, RAIN_DANCE
+	db 54, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 CaterpieEvosAttacks:
