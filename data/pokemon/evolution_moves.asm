@@ -3,10 +3,10 @@ EvolutionMoves::
     db TAKE_DOWN    ;Ivysaur
     db SLUDGE_BOMB  ;Venusaur
     db NO_MOVE      ;Charmander
-    db NO_MOVE      ;Charmeleon
-    db WING_ATTACK  ;Charizard
+    db DRAGON_RAGE  ;Charmeleon
+    db DRAGON_CLAW  ;Charizard
     db NO_MOVE      ;Squirtle
-    db NO_MOVE      ;Wartortle
+    db IRON_DEFENSE ;Wartortle
     db FLASH_CANNON ;Blastoise
     db NO_MOVE      ;Caterpie
     db HARDEN       ;Metapod
