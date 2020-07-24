@@ -28,7 +28,7 @@ BulbasaurEvosAttacks:
 	db 13, POISONPOWDER
 	db 13, SLEEP_POWDER
 	db 15, RAZOR_LEAF
-	db 19, TAKE_DOWN
+	db 17, TAKE_DOWN
 	db 21, GROWTH
 	db 25, SWEET_SCENT
 	db 27, DOUBLE_EDGE
@@ -87,13 +87,14 @@ CharmanderEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 19, FURY_ATTACK
+	db 10, SMOKESCREEN
+	db 17, DRAGON_RAGE
+	db 19, FIRE_FANG
 	db 25, SCARY_FACE
-	db 31, FLAMETHROWER
-	db 37, SLASH
-	db 43, DRAGON_RAGE
-	db 49, FIRE_SPIN
+	db 28, SLASH
+	db 34, FLAMETHROWER
+	db 37, FIRE_SPIN
+	db 46, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 CharmeleonEvosAttacks:
@@ -103,13 +104,14 @@ CharmeleonEvosAttacks:
 	db 1, GROWL
 	db 1, EMBER
 	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 20, FURY_ATTACK
-	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
-	db 41, SLASH
-	db 48, DRAGON_RAGE
-	db 55, FIRE_SPIN
+	db 10, SMOKESCREEN
+	db 15, DRAGON_RAGE
+	db 20, FIRE_FANG
+	db 28, SCARY_FACE
+	db 32, SLASH
+	db 39, FLAMETHROWER
+	db 43, FIRE_SPIN
+	db 50, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 CharizardEvosAttacks:
@@ -119,14 +121,17 @@ CharizardEvosAttacks:
 	db 1, EMBER
 	db 1, SMOKESCREEN
 	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 20, FURY_ATTACK
-	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
-	db 36, WING_ATTACK
-	db 44, SLASH
-	db 54, DRAGON_RAGE
-	db 64, FIRE_SPIN
+	db 10, SMOKESCREEN
+	db 15, DRAGON_RAGE
+	db 20, FIRE_FANG
+	db 28, SCARY_FACE
+	db 32, SLASH
+	db 35, DRAGON_CLAW
+	db 41, FLAMETHROWER
+	db 47, FIRE_SPIN
+	db 56, FLARE_BLITZ
+	db 62, SKY_ATTACK
+	db 71, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:
