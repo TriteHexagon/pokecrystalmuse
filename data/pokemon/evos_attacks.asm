@@ -129,9 +129,9 @@ CharizardEvosAttacks:
 	db 35, DRAGON_CLAW
 	db 41, FLAMETHROWER
 	db 47, FIRE_SPIN
+	db 51, WING_ATTACK
 	db 56, FLARE_BLITZ
-	db 62, SKY_ATTACK
-	db 71, DRAGON_DANCE
+	db 62, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 SquirtleEvosAttacks:
