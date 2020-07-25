@@ -247,13 +247,19 @@ KakunaEvosAttacks:
 
 BeedrillEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
-	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, FURY_ATTACK
-	db 30, PURSUIT
-	db 35, PIN_MISSILE
-	db 40, AGILITY
+	db 1, TWINEEDLE
+	db 9, TWINEEDLE
+	db 11, FURY_ATTACK
+	db 13, FOCUS_ENERGY
+	db 16, PURSUIT
+	db 19, VENOSHOCK
+	db 22, AGILITY
+	db 25, TOXIC
+	db 28, PIN_MISSILE
+	db 31, BEAT_UP
+	db 34, POISON_JAB
+	db 37, OUTRAGE
+	db 40, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
