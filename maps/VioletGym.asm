@@ -30,7 +30,7 @@ VioletGymFalknerScript:
 	readvar VAR_BADGES
 	scall VioletGymActivateRockets
 .FightDone:
-	checkevent EVENT_GOT_TM31_MUD_SLAP
+	checkevent EVENT_GOT_TM09_ROOST
 	iftrue .SpeechAfterTM
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
@@ -38,10 +38,10 @@ VioletGymFalknerScript:
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
-	verbosegiveitem TM_MUD_SLAP
-	iffalse .NoRoomForMudSlap
-	setevent EVENT_GOT_TM31_MUD_SLAP
-	writetext FalknerTMMudSlapText
+	verbosegiveitem TM_ROOST
+	iffalse .NoRoomForRoost
+	setevent EVENT_GOT_TM09_ROOST
+	writetext FalknerTMRoostText
 	waitbutton
 	closetext
 	end
@@ -49,7 +49,7 @@ VioletGymFalknerScript:
 .SpeechAfterTM:
 	writetext FalknerFightDoneText
 	waitbutton
-.NoRoomForMudSlap:
+.NoRoomForRoost:
 	closetext
 	end
 
@@ -166,7 +166,7 @@ FalknerZephyrBadgeText:
 	line "too."
 	done
 
-FalknerTMMudSlapText:
+FalknerTMRoostText:
 	text "By using a TM, a"
 	line "#MON will"
 
@@ -177,18 +177,17 @@ FalknerTMMudSlapText:
 	line "as many times as"
 	cont "you like."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "TM09 contains"
+	line "Roost."
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "It lets Flying-"
+	line "type #MON heal up"
 
-	para "while it causes"
-	line "damage."
+	para "to 50% of their"
+	line "HP. It's a great"
 
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "resource in a"
+	cont "battle."
 	done
 
 FalknerFightDoneText:

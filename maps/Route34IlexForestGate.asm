@@ -1,6 +1,6 @@
 	object_const_def ; object_event constants
 	const ROUTE34ILEXFORESTGATE_TEACHER1
-	const ROUTE34ILEXFORESTGATE_BUTTERFREE
+	const ROUTE34ILEXFORESTGATE_LEDIAN
 	const ROUTE34ILEXFORESTGATE_LASS
 	const ROUTE34ILEXFORESTGATE_TEACHER2
 
@@ -45,13 +45,13 @@ Route34IlexForestGateTeacherScript:
 	opentext
 	checkevent EVENT_FOREST_IS_RESTLESS
 	iftrue .ForestIsRestless
-	checkevent EVENT_GOT_TM12_SWEET_SCENT
+	checkevent EVENT_GOT_TM08_ROCK_SMASH
 	iftrue .GotSweetScent
 	writetext Route34IlexForestGateTeacherText
 	promptbutton
-	verbosegiveitem TM_SWEET_SCENT
+	verbosegiveitem TM_ROCK_SMASH
 	iffalse .NoRoom
-	setevent EVENT_GOT_TM12_SWEET_SCENT
+	setevent EVENT_GOT_TM08_ROCK_SMASH
 .GotSweetScent:
 	writetext Route34IlexForestGateTeacher_GotSweetScent
 	waitbutton
@@ -65,10 +65,10 @@ Route34IlexForestGateTeacherScript:
 	closetext
 	end
 
-Route34IlexForestGateButterfreeScript:
+Route34IlexForestGateLedianScript:
 	opentext
-	writetext Route34IlexForestGateButterfreeText
-	cry BUTTERFREE
+	writetext Route34IlexForestGateLedianText
+	cry LEDIAN
 	waitbutton
 	closetext
 	end
@@ -88,23 +88,24 @@ MovementData_0x62d9a:
 
 Route34IlexForestGateTeacherText:
 	text "Oh, honey. You're"
-	line "making a #DEX?"
+	line "adventuring?"
 
-	para "It must be hard if"
-	line "#MON won't"
+	para "You look like you"
+	line "want to break some"
 
-	para "appear. Try using"
+	para "rocks. Try using"
 	line "this TM."
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's SWEET SCENT."
+	text "It's Rock Smash."
 
-	para "Use it wherever"
-	line "#MON appear."
+	para "Use it on rocks"
+	line "to break them."
 
-	para "#MON will be"
-	line "enticed by it."
+	para "You might find"
+	line "items or #MON."
+	cont "underneath!"
 	done
 
 Route34IlexForestGateTeacher_ForestIsRestless:
@@ -115,8 +116,8 @@ Route34IlexForestGateTeacher_ForestIsRestless:
 	line "away right now."
 	done
 
-Route34IlexForestGateButterfreeText:
-	text "BUTTERFREE: Freeh!"
+Route34IlexForestGateLedianText:
+	text "LEDIAN: Freeh!"
 	done
 
 Route34IlexForestGateLassText:
@@ -149,6 +150,6 @@ Route34IlexForestGate_MapEvents:
 
 	db 4 ; object events
 	object_event  9,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateTeacherScript, EVENT_ROUTE_34_ILEX_FOREST_GATE_TEACHER_BEHIND_COUNTER
-	object_event  9,  4, SPRITE_BUTTERFREE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateButterfreeScript, -1
+	object_event  9,  4, SPRITE_BUTTERFREE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateLedianScript, -1
 	object_event  3,  4, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateLassScript, EVENT_ROUTE_34_ILEX_FOREST_GATE_LASS
 	object_event  5,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route34IlexForestGateTeacherScript, EVENT_ROUTE_34_ILEX_FOREST_GATE_TEACHER_IN_WALKWAY

@@ -33,7 +33,7 @@ MahoganyGymPryceScript:
 	readvar VAR_BADGES
 	scall MahoganyGymActivateRockets
 .FightDone:
-	checkevent EVENT_GOT_TM16_ICY_WIND
+	checkevent EVENT_GOT_TM14_BLIZZARD
 	iftrue PryceScript_Defeat
 	setevent EVENT_BEAT_SKIER_ROXANNE
 	setevent EVENT_BEAT_SKIER_CLARISSA
@@ -42,10 +42,10 @@ MahoganyGymPryceScript:
 	setevent EVENT_BEAT_BOARDER_DOUGLAS
 	writetext PryceText_GlacierBadgeSpeech
 	promptbutton
-	verbosegiveitem TM_ICY_WIND
-	iffalse MahoganyGym_NoRoomForIcyWind
-	setevent EVENT_GOT_TM16_ICY_WIND
-	writetext PryceText_IcyWindSpeech
+	verbosegiveitem TM_BLIZZARD
+	iffalse MahoganyGym_NoRoomForBlizzard
+	setevent EVENT_GOT_TM14_BLIZZARD
+	writetext PryceText_BlizzardSpeech
 	waitbutton
 	closetext
 	end
@@ -53,7 +53,7 @@ MahoganyGymPryceScript:
 PryceScript_Defeat:
 	writetext PryceText_CherishYourPokemon
 	waitbutton
-MahoganyGym_NoRoomForIcyWind:
+MahoganyGym_NoRoomForBlizzard:
 	closetext
 	end
 
@@ -198,25 +198,22 @@ Text_ReceivedGlacierBadge:
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
-	line "raise the SPECIAL"
-	cont "stats of #MON."
-
-	para "It also lets your"
+	text "That BADGE lets"
 	line "#MON use WHIRL-"
-	cont "POOL to get across"
-	cont "real whirlpools."
+	para "POOL to get across"
+	line "real whirlpools."
 
 	para "And this… This is"
 	line "a gift from me!"
 	done
 
-PryceText_IcyWindSpeech:
+PryceText_BlizzardSpeech:
 	text "That TM contains"
-	line "ICY WIND."
+	line "Blizzard."
 
-	para "It inflicts damage"
-	line "and lowers speed."
+	para "It's powerful move" 
+	line "that inflicts"
+	cont "great damage."
 
 	para "It demonstrates"
 	line "the harshness of"

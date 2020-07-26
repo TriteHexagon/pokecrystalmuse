@@ -8,9 +8,36 @@ ViridianGym_MapScripts:
 	db 0 ; callbacks
 
 ViridianGymBlueScript:
+; 	faceplayer
+; 	opentext
+; 	checkflag EVENT_BEAT_BLUE
+; 	iftrue .FightDone
+; 	writetext LeaderBlueBeforeText
+; 	waitbutton
+; 	closetext
+; 	winlosstext LeaderBlueWinText, 0
+; 	loadtrainer BLUE, BLUE1
+; 	startbattle
+; 	reloadmapafterbattle
+; 	setevent EVENT_BEAT_BLUE
+; 	opentext
+; 	writetext Text_ReceivedEarthBadge
+; 	playsound SFX_GET_BADGE
+; 	waitsfx
+; 	setflag ENGINE_EARTHBADGE
+; 	writetext LeaderBlueAfterText
+; 	waitbutton
+; 	closetext
+; 	end
+
+; .FightDone:
+; 	writetext LeaderBlueEpilogueText
+; 	waitbutton
+; 	closetext
+; 	end
 	faceplayer
 	opentext
-	checkflag ENGINE_EARTHBADGE
+	checkevent EVENT_BEAT_BLUE
 	iftrue .FightDone
 	writetext LeaderBlueBeforeText
 	waitbutton
@@ -25,14 +52,23 @@ ViridianGymBlueScript:
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_EARTHBADGE
+.FightDone:
+	checkevent EVENT_GOT_TM16_HYPER_BEAM
+	iftrue LeaderBlueScript_Defeat
 	writetext LeaderBlueAfterText
+	promptbutton
+	verbosegiveitem TM_HYPER_BEAM
+	iffalse ViridianGym_NoRoom
+	setevent EVENT_GOT_TM16_HYPER_BEAM
+	writetext LeaderBlue_HyperBeamSpeech
 	waitbutton
 	closetext
 	end
 
-.FightDone:
+LeaderBlueScript_Defeat:
 	writetext LeaderBlueEpilogueText
 	waitbutton
+ViridianGym_NoRoom:
 	closetext
 	end
 
@@ -125,7 +161,25 @@ LeaderBlueAfterText:
 	line "beat you someday."
 
 	para "Don't you forget"
-	line "it!"
+	line "it! Since I'm so"
+	
+	para "generous, I'll"
+	line "give you a little"
+
+	para "help for next the" 
+	line "we battle."
+
+	done
+
+LeaderBlue_HyperBeamSpeech:
+	text "That is Hyper Beam!"
+	line "It's the most"
+
+	para "powerful move out" 
+	line "there. I like to"
+
+	para "use it to vaporize"
+	line "my opponents."
 	done
 
 LeaderBlueEpilogueText:

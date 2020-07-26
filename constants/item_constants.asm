@@ -223,56 +223,56 @@ __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
 ; see data/moves/tmhm_moves.asm for moves
-	add_tm BULK_UP      ; bf Cianwood Gym
-	add_tm WORK_UP      ; c0 Union Cave B1F
-	add_tm HEX          ; c1 Ecruteak Gym
-	add_tm VENOSHOCK    ; c2 Slowpoke Well
-	add_tm DAZZLINGLEAM ; c4 Feed the sick Miltanks berries.
-	add_tm TOXIC        ; c5 Goldenrod Department Store
-	add_tm WILD_CHARGE  ; c6 Power Plant
-	add_tm ROCK_SMASH   ; c7
-	add_tm DRAGON_PULSE ; c8
-	add_tm HIDDEN_POWER ; c9
-	add_tm SUNNY_DAY    ; ca
-	add_tm SWEET_SCENT  ; cb
-	add_tm ICE_BEAM     ; cc
-	add_tm BLIZZARD     ; cd
-	add_tm HYPER_BEAM   ; ce
-	add_tm ICY_WIND     ; cf
-	add_tm PROTECT      ; d0
-	add_tm RAIN_DANCE   ; d1
-	add_tm GIGA_DRAIN   ; d2
-	add_tm ENDURE       ; d3
-	add_tm DRAGON_CLAW  ; d4 altered
-	add_tm SOLARBEAM    ; d5
-	add_tm IRON_TAIL    ; d6
-	add_tm THUNDERBOLT  ; d7
-	add_tm THUNDER      ; d8 altered
-	add_tm EARTHQUAKE   ; d9
-	add_tm RETURN       ; da
-	add_tm DIG          ; db
-	add_tm PSYCHIC_M    ; dd
-	add_tm SHADOW_BALL  ; de
-	add_tm MUD_SLAP     ; df
-	add_tm DOUBLE_TEAM  ; e0
-	add_tm ICE_PUNCH    ; e1
-	add_tm SWAGGER      ; e2
-	add_tm FLAMETHROWER ; e3
-	add_tm SLUDGE_BOMB  ; e4
-	add_tm SANDSTORM    ; e5
-	add_tm FIRE_BLAST   ; e6
-	add_tm SWIFT        ; e7
-	add_tm SLEEP_TALK   ; e8
-	add_tm THUNDERPUNCH ; e9
-	add_tm DREAM_EATER  ; ea
-	add_tm STONE_EDGE   ; eb altered
-	add_tm REST         ; ec
-	add_tm ATTRACT      ; ed
-	add_tm THIEF        ; ee
-	add_tm STEEL_WING   ; ef
-	add_tm FIRE_PUNCH   ; f0
-	add_tm FURY_CUTTER  ; f1
-	add_tm DARK_PULSE   ; f2 altered
+	add_tm BULK_UP      ; bf TM01 - Cianwood Gym
+	add_tm WORK_UP      ; c0 TM02 - Union Cave B1F
+	add_tm HEX          ; c1 TM03 - Ecruteak Gym
+	add_tm VENOSHOCK    ; c2 TM04 - Slowpoke Well
+	add_tm DAZZLINGLEAM ; c4 TM05 - Feed the sick Miltanks berries.
+	add_tm TOXIC        ; c5 TM06 - Goldenrod Department Store (Low Happiness)
+	add_tm WILD_CHARGE  ; c6 TM07 - Power Plant
+	add_tm ROCK_SMASH   ; c7 TM08 - Gate to Ilex Forest from Route 34
+	add_tm ROOST        ; c8 TM09 - Violet Gym
+	add_tm HIDDEN_POWER ; c9 TM10 - Lake of Rage, northwestern house
+	add_tm SUNNY_DAY    ; ca TM11 - Celadon City Department Store
+	add_tm WATER_PULSE  ; cb TM12 - Goldenrod City Department Store
+	add_tm ICE_BEAM     ; cc TM13 - Goldenrod City Department Store
+	add_tm BLIZZARD     ; cd TM14 - Mahogany Gym
+	add_tm HYPER_BEAM   ; ce TM15 - 
+	add_tm ICY_WIND     ; cf TM -
+	add_tm PROTECT      ; d0 TM -
+	add_tm RAIN_DANCE   ; d1 TM -
+	add_tm GIGA_DRAIN   ; d2 TM -
+	add_tm ENDURE       ; d3 TM -
+	add_tm DRAGON_CLAW  ; d4 TM - altered
+	add_tm SOLARBEAM    ; d5 TM -
+	add_tm IRON_TAIL    ; d6 TM -
+	add_tm THUNDERBOLT  ; d7 TM -
+	add_tm THUNDER      ; d8 TM -altered
+	add_tm EARTHQUAKE   ; d9 TM -
+	add_tm RETURN       ; da TM -
+	add_tm DIG          ; db TM -
+	add_tm PSYCHIC_M    ; dd TM -
+	add_tm SHADOW_BALL  ; de TM -
+	add_tm MUD_SLAP     ; df TM -
+	add_tm DOUBLE_TEAM  ; e0 TM -
+	add_tm ICE_PUNCH    ; e1 TM -
+	add_tm SWAGGER      ; e2 TM -
+	add_tm FLAMETHROWER ; e3 TM -
+	add_tm SLUDGE_BOMB  ; e4 TM -
+	add_tm SANDSTORM    ; e5 TM -
+	add_tm FIRE_BLAST   ; e6 TM -
+	add_tm SWIFT        ; e7 TM -
+	add_tm SLEEP_TALK   ; e8 TM -
+	add_tm THUNDERPUNCH ; e9 TM -
+	add_tm DREAM_EATER  ; ea TM -
+	add_tm STONE_EDGE   ; eb TM - altered
+	add_tm REST         ; ec TM -
+	add_tm ATTRACT      ; ed TM -
+	add_tm THIEF        ; ee TM -
+	add_tm STEEL_WING   ; ef TM -
+	add_tm FIRE_PUNCH   ; f0 TM -
+	add_tm FURY_CUTTER  ; f1 TM -
+	add_tm DARK_PULSE   ; f2 TM -altered
 NUM_TMS EQU __tmhm_value__ - 1
 
 add_hm: MACRO
@@ -334,7 +334,7 @@ ENDM
 	;add_mt ICY_WIND
 	add_mt ROAR
 	;add_mt ENDURE
-	;add_mt SWEET_SCENT
+	add_mt SWEET_SCENT
 	;add_mt SWAGGER
 	;add_mt FIRE_PUNCH
 	;add_mt ICE_PUNCH
