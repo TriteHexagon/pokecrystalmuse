@@ -237,42 +237,42 @@ ENDM
 	add_tm WATER_PULSE  ; cb TM12 - Goldenrod City Department Store
 	add_tm ICE_BEAM     ; cc TM13 - Goldenrod City Department Store
 	add_tm BLIZZARD     ; cd TM14 - Mahogany Gym
-	add_tm HYPER_BEAM   ; ce TM15 - 
-	add_tm ICY_WIND     ; cf TM -
-	add_tm PROTECT      ; d0 TM -
-	add_tm RAIN_DANCE   ; d1 TM -
-	add_tm GIGA_DRAIN   ; d2 TM -
-	add_tm ENDURE       ; d3 TM -
-	add_tm DRAGON_CLAW  ; d4 TM - altered
-	add_tm SOLARBEAM    ; d5 TM -
-	add_tm IRON_TAIL    ; d6 TM -
-	add_tm THUNDERBOLT  ; d7 TM -
-	add_tm THUNDER      ; d8 TM -altered
-	add_tm EARTHQUAKE   ; d9 TM -
-	add_tm RETURN       ; da TM -
-	add_tm DIG          ; db TM -
-	add_tm PSYCHIC_M    ; dd TM -
-	add_tm SHADOW_BALL  ; de TM -
-	add_tm MUD_SLAP     ; df TM -
-	add_tm DOUBLE_TEAM  ; e0 TM -
-	add_tm ICE_PUNCH    ; e1 TM -
-	add_tm SWAGGER      ; e2 TM -
-	add_tm FLAMETHROWER ; e3 TM -
-	add_tm SLUDGE_BOMB  ; e4 TM -
-	add_tm SANDSTORM    ; e5 TM -
-	add_tm FIRE_BLAST   ; e6 TM -
-	add_tm SWIFT        ; e7 TM -
-	add_tm SLEEP_TALK   ; e8 TM -
-	add_tm THUNDERPUNCH ; e9 TM -
-	add_tm DREAM_EATER  ; ea TM -
-	add_tm STONE_EDGE   ; eb TM - altered
-	add_tm REST         ; ec TM -
-	add_tm ATTRACT      ; ed TM -
-	add_tm THIEF        ; ee TM -
-	add_tm STEEL_WING   ; ef TM -
-	add_tm FIRE_PUNCH   ; f0 TM -
-	add_tm FURY_CUTTER  ; f1 TM -
-	add_tm DARK_PULSE   ; f2 TM -altered
+	add_tm HYPER_BEAM   ; ce TM15 - Viridian Gym
+	add_tm ENERGY_BALL  ; cf TM16 - Lake of Rage
+	add_tm PROTECT      ; d0 TM17 - Route 26 (after Sudowoodo)
+	add_tm RAIN_DANCE   ; d1 TM18 - Celadon City Department Store
+	add_tm GIGA_DRAIN   ; d2 TM19 - Goldenrod City Department Store
+	add_tm WILL_O_WISP  ; d3 TM20 - Burnt Tower
+	add_tm DRAGON_CLAW  ; d4 TM21 - 
+	add_tm SOLARBEAM    ; d5 TM22 - Celadon Gym
+	add_tm IRON_TAIL    ; d6 TM23 -
+	add_tm THUNDERBOLT  ; d7 TM24 -
+	add_tm THUNDER      ; d8 TM25 -altered
+	add_tm EARTHQUAKE   ; d9 TM26 -
+	add_tm RETURN       ; da TM27 -
+	add_tm DIG          ; db TM28 -
+	add_tm PSYCHIC_M    ; dd TM29 -
+	add_tm SHADOW_BALL  ; de TM30 -
+	add_tm MUD_SLAP     ; df TM31 -
+	add_tm DOUBLE_TEAM  ; e0 TM32 -
+	add_tm ICE_PUNCH    ; e1 TM33 -
+	add_tm SWAGGER      ; e2 TM34 -
+	add_tm FLAMETHROWER ; e3 TM35 -
+	add_tm SLUDGE_BOMB  ; e4 TM36 -
+	add_tm SANDSTORM    ; e5 TM37 -
+	add_tm FIRE_BLAST   ; e6 TM38 -
+	add_tm SWIFT        ; e7 TM39 -
+	add_tm SLEEP_TALK   ; e8 TM40 -
+	add_tm THUNDERPUNCH ; e9 TM41 -
+	add_tm DREAM_EATER  ; ea TM42 -
+	add_tm STONE_EDGE   ; eb TM43 - altered
+	add_tm REST         ; ec TM44 -
+	add_tm ATTRACT      ; ed TM45 -
+	add_tm THIEF        ; ee TM46 -
+	add_tm STEEL_WING   ; ef TM47 -
+	add_tm FIRE_PUNCH   ; f0 TM48 -
+	add_tm FURY_CUTTER  ; f1 TM49 -
+	add_tm DARK_PULSE   ; f2 TM50 -altered
 NUM_TMS EQU __tmhm_value__ - 1
 
 add_hm: MACRO
@@ -331,9 +331,9 @@ ENDM
 	add_mt DEFENSE_CURL
 	add_mt DRAGONBREATH
 	add_mt CURSE
-	;add_mt ICY_WIND
+	add_mt ICY_WIND
 	add_mt ROAR
-	;add_mt ENDURE
+	add_mt ENDURE
 	add_mt SWEET_SCENT
 	;add_mt SWAGGER
 	;add_mt FIRE_PUNCH

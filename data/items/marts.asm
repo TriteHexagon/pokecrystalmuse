@@ -130,8 +130,10 @@ MartGoldenrod4F:
 	db -1 ; end
 
 MartGoldenrod5F:
-	db 3 ; # items
+	db 4 ; # items
 	db TM_WATER_PULSE
+	db TM_GIGA_DRAIN
+	db TM_SWIFT
 	db TM_ICE_BEAM
 	db TM_ICE_PUNCH
 	db -1 ; end

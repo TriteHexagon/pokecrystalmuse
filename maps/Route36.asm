@@ -123,26 +123,26 @@ Route36FloriaScript:
 	closetext
 	end
 
-Route36RockSmashGuyScript:
+Route36ProtectGuyScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM08_ROCK_SMASH
-	iftrue .AlreadyGotRockSmash
+	checkevent EVENT_GOT_TM17_PROTECT
+	iftrue .AlreadyGotProtect
 	checkevent EVENT_FOUGHT_SUDOWOODO
 	iftrue .ClearedSudowoodo
-	writetext RockSmashGuyText1
+	writetext ProtectGuyText1
 	waitbutton
 	closetext
 	end
 
 .ClearedSudowoodo:
-	writetext RockSmashGuyText2
+	writetext ProtectGuyText2
 	promptbutton
-	verbosegiveitem TM_ROCK_SMASH
+	verbosegiveitem TM_PROTECT
 	iffalse .NoRoomForTM
-	setevent EVENT_GOT_TM08_ROCK_SMASH
-.AlreadyGotRockSmash:
-	writetext RockSmashGuyText3
+	setevent EVENT_GOT_TM17_PROTECT
+.AlreadyGotProtect:
+	writetext ProtectGuyText3
 	waitbutton
 .NoRoomForTM:
 	closetext
@@ -467,7 +467,7 @@ FloriaText2:
 	line "bottle…"
 	done
 
-RockSmashGuyText1:
+ProtectGuyText1:
 	text "Wa-hey!"
 
 	para "I was going to"
@@ -477,49 +477,63 @@ RockSmashGuyText1:
 	line "arm punch."
 
 	para "But I couldn't!"
-	line "I'm a failure!"
+	line "Maybe it's using"
+
+	para "an attack to"
+	line "protect itself..."
+
+	para "That has to be it!"
+	line "Right, kiddo?"
 	done
 
-RockSmashGuyText2:
+ProtectGuyText2:
 	text "Did you clear that"
 	line "wretched tree?"
 
 	para "I'm impressed!"
+	line "Actually, some-"
+
+	para "thing came out of"
+	line "it and landed next"
+
+	para "to me. As thanks,"
 	line "I want you to"
-	cont "have this."
+	cont "have it."
 	done
 
 UnusedReceivedTM08Text:
 	text "<PLAYER> received"
-	line "TM08."
+	line "TM17."
 	done
 
-RockSmashGuyText3:
-	text "That happens to be"
-	line "ROCK SMASH."
+ProtectGuyText3:
+	text "Huh? Is that..."
+	line "Protect?!"
 
-	para "You can shatter"
-	line "rocks with just a"
+	para "No wonder I could"
+	line "not break through."
 
-	para "single well-aimed"
-	line "smack."
+	para "Protect blocks"
+	line "all attacks."
+	
+	para "AH! So it wasn't"
+	line "actually me being"
 
-	para "If any rocks are"
-	line "in your way, just"
-	cont "smash 'em up!"
+	para "weak. I'm still"
+	line "the strongest!"
 	done
 
-UnusedOddTreeText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+; UnusedOddTreeText:
+; 	text "An odd tree is"
+; 	line "blocking the way"
+; 	cont "to GOLDENROD CITY."
 
-	para "I wanted to go see"
-	line "the huge #MON"
+; 	para "I wanted to go see"
+; 	line "the huge #MON"
 
-	para "CENTER they just"
-	line "opened…"
-	done
+; 	para "CENTER they just"
+; 	line "opened…"
+; 	done
 
 Route36LassText:
 	text "An odd tree is"
@@ -681,7 +695,7 @@ Route36_MapEvents:
 	object_event 31, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
 	object_event 35,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_SUDOWOODO, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SudowoodoScript, EVENT_ROUTE_36_SUDOWOODO
 	object_event 51,  8, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36LassScript, -1
-	object_event 44,  9, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36RockSmashGuyScript, -1
+	object_event 44,  9, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36ProtectGuyScript, -1
 	object_event 21,  4, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36FruitTree, -1
 	object_event 46,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ArthurScript, EVENT_ROUTE_36_ARTHUR_OF_THURSDAY
 	object_event 33, 12, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route36FloriaScript, EVENT_FLORIA_AT_SUDOWOODO
