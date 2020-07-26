@@ -223,7 +223,7 @@ __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
 ; see data/moves/tmhm_moves.asm for moves
-	add_tm DAZZLINGLEAM ; bf
+	add_tm BULK_UP      ; bf
 	add_tm WORK_UP      ; c0
 	add_tm CURSE        ; c1
 	add_tm ROLLOUT      ; c2
@@ -330,6 +330,17 @@ ENDM
 	add_mt HEADBUTT
 	add_mt DEFENSE_CURL
 	add_mt DRAGONBREATH
+	;add_mt CURSE
+	;add_mt ICY_WIND
+	;add_mt ROAR
+	;add_mt ENDURE
+	;add_mt SWEET_SCENT
+	;add_mt SWAGGER
+	;add_mt FIRE_PUNCH
+	;add_mt ICE_PUNCH
+	;add_mt FIRE_PUNCH
+	;add_mt ROLLOUT
+	;add_mt DOUBLE_TEAM
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1
