@@ -223,13 +223,13 @@ __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
 ; see data/moves/tmhm_moves.asm for moves
-	add_tm BULK_UP      ; bf
-	add_tm WORK_UP      ; c0
-	add_tm CURSE        ; c1
-	add_tm ROLLOUT      ; c2
-	add_tm ROAR         ; c4
-	add_tm TOXIC        ; c5
-	add_tm THUNDER      ; c6
+	add_tm BULK_UP      ; bf Cianwood Gym
+	add_tm WORK_UP      ; c0 Union Cave B1F
+	add_tm HEX          ; c1 Ecruteak Gym
+	add_tm VENOSHOCK    ; c2 Slowpoke Well
+	add_tm DAZZLINGLEAM ; c4 Feed the sick Miltanks berries.
+	add_tm TOXIC        ; c5 Goldenrod Department Store
+	add_tm WILD_CHARGE  ; c6 Power Plant
 	add_tm ROCK_SMASH   ; c7
 	add_tm DRAGON_PULSE ; c8
 	add_tm HIDDEN_POWER ; c9
@@ -247,7 +247,7 @@ ENDM
 	add_tm SOLARBEAM    ; d5
 	add_tm IRON_TAIL    ; d6
 	add_tm THUNDERBOLT  ; d7
-	add_tm ENERGY_BALL  ; d8 altered
+	add_tm THUNDER      ; d8 altered
 	add_tm EARTHQUAKE   ; d9
 	add_tm RETURN       ; da
 	add_tm DIG          ; db
@@ -262,7 +262,7 @@ ENDM
 	add_tm SANDSTORM    ; e5
 	add_tm FIRE_BLAST   ; e6
 	add_tm SWIFT        ; e7
-	add_tm SLEEP_TALK ; e8
+	add_tm SLEEP_TALK   ; e8
 	add_tm THUNDERPUNCH ; e9
 	add_tm DREAM_EATER  ; ea
 	add_tm STONE_EDGE   ; eb altered
@@ -330,16 +330,16 @@ ENDM
 	add_mt HEADBUTT
 	add_mt DEFENSE_CURL
 	add_mt DRAGONBREATH
-	;add_mt CURSE
+	add_mt CURSE
 	;add_mt ICY_WIND
-	;add_mt ROAR
+	add_mt ROAR
 	;add_mt ENDURE
 	;add_mt SWEET_SCENT
 	;add_mt SWAGGER
 	;add_mt FIRE_PUNCH
 	;add_mt ICE_PUNCH
 	;add_mt FIRE_PUNCH
-	;add_mt ROLLOUT
+	add_mt ROLLOUT
 	;add_mt DOUBLE_TEAM
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 

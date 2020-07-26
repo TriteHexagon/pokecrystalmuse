@@ -65,28 +65,28 @@ FarmerMScript_Milking:
 	closetext
 	end
 
-PokefanF_SnoreFarmer:
+PokefanF_DazzlingGleamFarmer:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
-	iftrue FarmerFScript_GotSnore
+	checkevent EVENT_GOT_TM05_DAZZLINGLEAM_FROM_MOOMOO_FARM
+	iftrue FarmerFScript_GotDazzlingGleam
 	checkevent EVENT_HEALED_MOOMOO
-	iftrue FarmerFScript_GiveSnore
+	iftrue FarmerFScript_GiveDazzlingGleam
 	writetext FarmerFText_InTrouble
 	waitbutton
 	closetext
 	end
 
-FarmerFScript_GiveSnore:
+FarmerFScript_GiveDazzlingGleam:
 	writetext FarmerFText_HealedMiltank
 	promptbutton
-	verbosegiveitem TM_ICE_BEAM
-	iffalse FarmerFScript_NoRoomForSnore
-	setevent EVENT_GOT_TM13_SNORE_FROM_MOOMOO_FARM
-FarmerFScript_GotSnore:
-	writetext FarmerFText_SnoreSpeech
+	verbosegiveitem TM_DAZZLINGLEAM
+	iffalse FarmerFScript_NoRoomForDazzlingGleam
+	setevent EVENT_GOT_TM05_DAZZLINGLEAM_FROM_MOOMOO_FARM
+FarmerFScript_GotDazzlingGleam:
+	writetext FarmerFText_DazzlingGleamSpeech
 	waitbutton
-FarmerFScript_NoRoomForSnore:
+FarmerFScript_NoRoomForDazzlingGleam:
 	closetext
 	end
 
@@ -172,20 +172,20 @@ FarmerFText_HealedMiltank:
 	line "fer your trouble."
 	done
 
-Text_ReceivedTM13:
-	text "<PLAYER> received"
-	line "TM13."
-	done
+; Text_ReceivedTM13:
+; 	text "<PLAYER> received"
+; 	line "TM05."
+; 	done
 
-FarmerFText_SnoreSpeech:
+FarmerFText_DazzlingGleamSpeech:
 	text "That there's"
-	line "SNORE."
+	line "DazzlingGleam."
 
-	para "It's a rare move"
-	line "that only works"
+	para "It's a rare Fairy-"
+	line "type move that"
 
-	para "while the #MON"
-	line "is asleep."
+	para "inflicts great"
+	line "damage."
 
 	para "You best think how"
 	line "you ought to use"
@@ -207,4 +207,4 @@ Route39Farmhouse_MapEvents:
 
 	db 2 ; object events
 	object_event  3,  2, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PokefanM_DairyFarmer, -1
-	object_event  5,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PokefanF_SnoreFarmer, -1
+	object_event  5,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PokefanF_DazzlingGleamFarmer, -1

@@ -9,8 +9,8 @@ CeladonMansionRoofHouse_MapScripts:
 CeladonMansionRoofHousePharmacistScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM03_CURSE
-	iftrue .GotCurse
+	checkevent EVENT_CELADON_MANSION_STORY
+	iftrue .GotSpellTag
 	writetext CeladonMansionRoofHousePharmacistIntroText
 	promptbutton
 	checktime NITE
@@ -23,10 +23,10 @@ CeladonMansionRoofHousePharmacistScript:
 .Night:
 	writetext CeladonMansionRoofHousePharmacistStoryText
 	promptbutton
-	verbosegiveitem TM_CURSE
+	verbosegiveitem SPELL_TAG
 	iffalse .NoRoom
-	setevent EVENT_GOT_TM03_CURSE
-.GotCurse:
+	setevent EVENT_CELADON_MANSION_STORY
+.GotSpellTag:
 	writetext CeladonMansionRoofHousePharmacistCurseText
 	waitbutton
 .NoRoom:
@@ -101,17 +101,15 @@ CeladonMansionRoofHousePharmacistStoryText:
 
 	para "For listening so"
 	line "patiently, you may"
-	cont "take this--TM03!"
+	cont "take this."
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
+	text "That is a"
 
-	para "It's a terrifying"
-	line "move that slowly"
-
-	para "whittles down the"
-	line "victim's HP."
+	para "Spell Tag. It"
+	line "boosts the power"
+	cont "of Ghost-type moves"
 	done
 
 CeladonMansionRoofHouse_MapEvents:

@@ -45,26 +45,26 @@ EcruteakGymMortyScript:
 	setevent EVENT_RANG_CLEAR_BELL_1
 	setevent EVENT_RANG_CLEAR_BELL_2
 .FightDone:
-	checkevent EVENT_GOT_TM30_SHADOW_BALL
-	iftrue .GotShadowBall
+	checkevent EVENT_GOT_TM03_HEX
+	iftrue .GotHex
 	setevent EVENT_BEAT_SAGE_JEFFREY
 	setevent EVENT_BEAT_SAGE_PING
 	setevent EVENT_BEAT_MEDIUM_MARTHA
 	setevent EVENT_BEAT_MEDIUM_GRACE
 	writetext MortyText_FogBadgeSpeech
 	promptbutton
-	verbosegiveitem TM_SHADOW_BALL
-	iffalse .NoRoomForShadowBall
-	setevent EVENT_GOT_TM30_SHADOW_BALL
-	writetext MortyText_ShadowBallSpeech
+	verbosegiveitem TM_HEX
+	iffalse .NoRoomForHex
+	setevent EVENT_GOT_TM03_HEX
+	writetext MortyText_HexSpeech
 	waitbutton
 	closetext
 	end
 
-.GotShadowBall:
+.GotHex:
 	writetext MortyFightDoneText
 	waitbutton
-.NoRoomForShadowBall:
+.NoRoomForHex:
 	closetext
 	end
 
@@ -248,15 +248,16 @@ MortyText_FogBadgeSpeech:
 	line "this too."
 	done
 
-MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+MortyText_HexSpeech:
+	text "It's Hex. It"
+	line "causes double"
 
-	para "and may reduce"
-	line "SPCL.DEF."
+	para "damage is the"
+	line "opponent has a"
 
-	para "Use it if it"
-	line "appeals to you."
+	para "status condition."
+	line "Use it if it"
+	cont "appeals to you."
 	done
 
 MortyFightDoneText:

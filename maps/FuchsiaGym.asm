@@ -48,7 +48,7 @@ FuchsiaGymJanineScript:
 	iftrue .AfterTM
 	writetext JanineText_ToxicSpeech
 	promptbutton
-	verbosegiveitem TM_TOXIC
+	verbosegiveitem TM_BULK_UP
 	iffalse .AfterTM
 	setevent EVENT_GOT_TM06_TOXIC
 .AfterTM:
