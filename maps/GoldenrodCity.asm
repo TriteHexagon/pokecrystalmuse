@@ -60,33 +60,33 @@ MoveTutorScript:
 	writetext GoldenrodCityMoveTutorAsk4000CoinsOkayText
 	yesorno
 	iffalse .Refused2
-	checkcoins 4000
+	checkcoins 500
 	ifequal HAVE_LESS, .NotEnoughMoney
 	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
-	ifequal MOVETUTOR_FLAMETHROWER, .Flamethrower
-	ifequal MOVETUTOR_THUNDERBOLT, .Thunderbolt
-	ifequal MOVETUTOR_ICE_BEAM, .IceBeam
+	ifequal MOVETUTOR_FLAMETHROWER, .FireFang
+	ifequal MOVETUTOR_THUNDERBOLT, .ThunderFang
+	ifequal MOVETUTOR_ICE_BEAM, .IceFang
 	sjump .Incompatible
 
-.Flamethrower:
-	setval MOVETUTOR_FLAMETHROWER
+.FireFang:
+	setval FIRE_FANG
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
-.Thunderbolt:
-	setval MOVETUTOR_THUNDERBOLT
+.ThunderFang:
+	setval THUNDER_FANG
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
-.IceBeam:
-	setval MOVETUTOR_ICE_BEAM
+.IceFang:
+	setval ICE_FANG
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
@@ -101,9 +101,9 @@ MoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FLAMETHROWER@"
-	db "THUNDERBOLT@"
-	db "ICE BEAM@"
+	db "Fire Fang@"
+	db "Thunder Fang@"
+	db "Ice Fang@"
 	db "CANCEL@"
 
 .Refused:
@@ -121,7 +121,7 @@ MoveTutorScript:
 .TeachMove:
 	writetext GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText
 	promptbutton
-	takecoins 4000
+	takecoins 500
 	waitsfx
 	playsound SFX_TRANSACTION
 	special DisplayCoinCaseBalance

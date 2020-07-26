@@ -224,7 +224,7 @@ ENDM
 
 ; see data/moves/tmhm_moves.asm for moves
 	add_tm DAZZLINGLEAM ; bf
-	add_tm HEADBUTT     ; c0
+	add_tm WORK_UP      ; c0
 	add_tm CURSE        ; c1
 	add_tm ROLLOUT      ; c2
 	add_tm ROAR         ; c4
@@ -235,7 +235,7 @@ ENDM
 	add_tm HIDDEN_POWER ; c9
 	add_tm SUNNY_DAY    ; ca
 	add_tm SWEET_SCENT  ; cb
-	add_tm POISON_JAB   ; cc
+	add_tm ICE_BEAM     ; cc
 	add_tm BLIZZARD     ; cd
 	add_tm HYPER_BEAM   ; ce
 	add_tm ICY_WIND     ; cf
@@ -246,7 +246,7 @@ ENDM
 	add_tm DRAGON_CLAW  ; d4 altered
 	add_tm SOLARBEAM    ; d5
 	add_tm IRON_TAIL    ; d6
-	add_tm DRAGONBREATH ; d7
+	add_tm THUNDERBOLT  ; d7
 	add_tm ENERGY_BALL  ; d8 altered
 	add_tm EARTHQUAKE   ; d9
 	add_tm RETURN       ; da
@@ -257,12 +257,12 @@ ENDM
 	add_tm DOUBLE_TEAM  ; e0
 	add_tm ICE_PUNCH    ; e1
 	add_tm SWAGGER      ; e2
-	add_tm SLEEP_TALK   ; e3
+	add_tm FLAMETHROWER ; e3
 	add_tm SLUDGE_BOMB  ; e4
 	add_tm SANDSTORM    ; e5
 	add_tm FIRE_BLAST   ; e6
 	add_tm SWIFT        ; e7
-	add_tm DEFENSE_CURL ; e8
+	add_tm SLEEP_TALK ; e8
 	add_tm THUNDERPUNCH ; e9
 	add_tm DREAM_EATER  ; ea
 	add_tm STONE_EDGE   ; eb altered
@@ -324,9 +324,12 @@ PURGE MT_VALUE
 __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
-	add_mt FLAMETHROWER
-	add_mt THUNDERBOLT
-	add_mt ICE_BEAM
+	add_mt FIRE_FANG
+	add_mt THUNDER_FANG
+	add_mt ICE_FANG
+	add_mt HEADBUTT
+	add_mt DEFENSE_CURL
+	add_mt DRAGONBREATH
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1
