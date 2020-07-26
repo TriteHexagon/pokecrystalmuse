@@ -227,7 +227,7 @@ ButterfreeEvosAttacks:
 	db 28, WHIRLWIND
 	db 30, BUG_BUZZ
 	db 34, AIR_SLASH
-	db 36, PSYCHIC
+	db 36, PSYCHIC_M
 	db 40, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
