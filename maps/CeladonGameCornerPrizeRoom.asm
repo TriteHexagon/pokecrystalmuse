@@ -1,6 +1,8 @@
-CELADONGAMECORNERPRIZEROOM_TM32_COINS EQU 1500
-CELADONGAMECORNERPRIZEROOM_TM29_COINS EQU 3500
-CELADONGAMECORNERPRIZEROOM_TM15_COINS EQU 7500
+CELADONGAMECORNER_NUGGET_COINS     EQU 325
+CELADONGAMECORNER_STAR_PIECE_COINS EQU 300
+CELADONGAMECORNER_BIG_PEARL_COINS  EQU 275
+CELADONGAMECORNER_STARDUST_COINS   EQU 100
+CELADONGAMECORNER_PEARL_COINS      EQU 375
 CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS  EQU 2222
 CELADONGAMECORNERPRIZEROOM_PORYGON_COINS  EQU 5555
 CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS EQU 8888
@@ -28,47 +30,71 @@ CeladonGameCornerPrizeRoomTMVendor:
 	checkitem COIN_CASE
 	iffalse CeladonPrizeRoom_NoCoinCase
 	writetext CeladonPrizeRoom_AskWhichPrizeText
-CeladonPrizeRoom_tmcounterloop:
+CeladonPrizeRoom_ItemCounterloop:
 	special DisplayCoinCaseBalance
-	loadmenu CeladonPrizeRoom_TMMenuHeader
+	loadmenu CeladonPrizeRoom_ItemMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .DoubleTeam
-	ifequal 2, .Psychic
-	ifequal 3, .HyperBeam
+	ifequal 1, .Nugget
+	ifequal 2, .StarPiece
+	ifequal 3, .BigPearl
+	ifequal 4, .Stardust
+	ifequal 5, .Pearl
 	sjump CeladonPrizeRoom_CancelPurchaseScript
 
-.DoubleTeam:
-	checkcoins CELADONGAMECORNERPRIZEROOM_TM32_COINS
+.Nugget:
+	checkcoins CELADONGAMECORNER_NUGGET_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_DOUBLE_TEAM
+	getitemname STRING_BUFFER_3, NUGGET
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_DOUBLE_TEAM
+	giveitem NUGGET
 	iffalse CeladonPrizeRoom_notenoughroom
-	takecoins CELADONGAMECORNERPRIZEROOM_TM32_COINS
+	takecoins CELADONGAMECORNER_NUGGET_COINS
 	sjump CeladonPrizeRoom_purchased
 
-.Psychic:
-	checkcoins CELADONGAMECORNERPRIZEROOM_TM29_COINS
+.StarPiece:
+	checkcoins CELADONGAMECORNER_STAR_PIECE_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_PSYCHIC_M
+	getitemname STRING_BUFFER_3, STAR_PIECE
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_PSYCHIC_M
+	giveitem STAR_PIECE
 	iffalse CeladonPrizeRoom_notenoughroom
-	takecoins CELADONGAMECORNERPRIZEROOM_TM29_COINS
+	takecoins CELADONGAMECORNER_STAR_PIECE_COINS
 	sjump CeladonPrizeRoom_purchased
 
-.HyperBeam:
-	checkcoins CELADONGAMECORNERPRIZEROOM_TM15_COINS
+.BigPearl:
+	checkcoins CELADONGAMECORNER_BIG_PEARL_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_HYPER_BEAM
+	getitemname STRING_BUFFER_3, BIG_PEARL
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_HYPER_BEAM
+	giveitem BIG_PEARL
 	iffalse CeladonPrizeRoom_notenoughroom
-	takecoins CELADONGAMECORNERPRIZEROOM_TM15_COINS
+	takecoins CELADONGAMECORNER_BIG_PEARL_COINS
+	sjump CeladonPrizeRoom_purchased
+
+.Stardust:
+	checkcoins CELADONGAMECORNER_STARDUST_COINS
+	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
+	getitemname STRING_BUFFER_3, STARDUST
+	scall CeladonPrizeRoom_askbuy
+	iffalse CeladonPrizeRoom_CancelPurchaseScript
+	giveitem STARDUST
+	iffalse CeladonPrizeRoom_notenoughroom
+	takecoins CELADONGAMECORNER_STARDUST_COINS
+	sjump CeladonPrizeRoom_purchased
+
+.Pearl:
+	checkcoins CELADONGAMECORNER_PEARL_COINS
+	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
+	getitemname STRING_BUFFER_3, PEARL
+	scall CeladonPrizeRoom_askbuy
+	iffalse CeladonPrizeRoom_CancelPurchaseScript
+	giveitem PEARL
+	iffalse CeladonPrizeRoom_notenoughroom
+	takecoins CELADONGAMECORNER_PEARL_COINS
 	sjump CeladonPrizeRoom_purchased
 
 CeladonPrizeRoom_askbuy:
@@ -81,7 +107,7 @@ CeladonPrizeRoom_purchased:
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	sjump CeladonPrizeRoom_tmcounterloop
+	sjump CeladonPrizeRoom_ItemCounterloop
 
 CeladonPrizeRoom_notenoughcoins:
 	writetext CeladonPrizeRoom_NotEnoughCoinsText
@@ -107,7 +133,7 @@ CeladonPrizeRoom_NoCoinCase:
 	closetext
 	end
 
-CeladonPrizeRoom_TMMenuHeader:
+CeladonPrizeRoom_ItemMenuHeader:
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 0, 2, 15, TEXTBOX_Y - 1
 	dw .MenuData
@@ -115,12 +141,14 @@ CeladonPrizeRoom_TMMenuHeader:
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 4 ; items
-	db "TM32    1500@"
-	db "TM29    3500@"
-	db "TM15    7500@"
+	db 6 ; items
+	db "Nugget     325@"
+	db "Star Piece 300@"
+	db "Big Pearl  275@"
+	db "Stardust   100@"
+	db "Pearl       75@"
 	db "CANCEL@"
-
+	
 CeladonGameCornerPrizeRoomPokemonVendor:
 	faceplayer
 	opentext

@@ -2240,7 +2240,6 @@ FlareBlitz:
 	kingsrock
 	endmove
 
-
 ThunderFang:
 	checkobedience
 	usedmovetext

@@ -5567,14 +5567,14 @@ BattleAnim_BugBuzz:
 	anim_sound 6, 2, SFX_SCREECH
 .loop
 	anim_obj ANIM_OBJ_BUG_WAVE_1, 64, 88, $2
-	anim_wait 2
-	anim_obj ANIM_OBJ_BUG_WAVE_2, 64, 88, $2
-	anim_wait 6
-	anim_obj ANIM_OBJ_BUG_WAVE_1, 64, 88, $2
 	anim_wait 3
 	anim_obj ANIM_OBJ_BUG_WAVE_2, 64, 88, $2
-	anim_wait 4
-	anim_loop 4, .loop
+	anim_wait 5
+	;anim_obj ANIM_OBJ_BUG_WAVE_1, 64, 88, $2
+	;anim_wait 3
+	;anim_obj ANIM_OBJ_BUG_WAVE_2, 64, 88, $2
+	;anim_wait 4
+	anim_loop 8, .loop
 	anim_wait 64
 	anim_ret
 
@@ -5692,7 +5692,17 @@ BattleAnim_IcicleCrash:
 	anim_ret
 
 BattleAnim_ShellSmash:
-	anim_1gfx ANIM_GFX_CUT
+	anim_2gfx ANIM_GFX_REFLECT, ANIM_GFX_ROCKS
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect ANIM_BG_WITHDRAW, $0, $1, $50
+	anim_wait 32
+	anim_sound 0, 1, SFX_SHINE
+	anim_obj ANIM_OBJ_WITHDRAW, 48, 88, $0
+	anim_wait 32
+	anim_incobj 2
+	anim_incbgeffect ANIM_BG_WITHDRAW
+	anim_call BattleAnim_ShowMon_0
+	anim_wait 16
 	anim_sound 0, 1, SFX_SPARK
 	anim_obj ANIM_OBJ_CLAMP, 48, 92, $28
 	anim_obj ANIM_OBJ_CLAMP, 48, 92, $5c
@@ -5708,8 +5718,8 @@ BattleAnim_ShellSmash:
 	anim_obj ANIM_OBJ_CLAMP, 48, 92, $50
 	anim_sound 0, 1, SFX_SPARK
 	anim_obj ANIM_OBJ_CLAMP, 48, 92, $dc
-	anim_obj ANIM_OBJ_CLAMP, 48, 92, $90
-	anim_wait 32
+	anim_obj ANIM_OBJ_CLAMP, 48, 92, $9
+	anim_wait 16
 	anim_ret
 
 BattleAnim_PowerGem:

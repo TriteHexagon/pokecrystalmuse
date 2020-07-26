@@ -29,8 +29,8 @@ DarkCaveBlackthornEntranceRevive:
 	itemball REVIVE
 
 DarkCaveBlackthornEntranceTMSnore:
-	itemball TM_POISON_JAB
-
+	itemball AWAKENING
+	
 DarkCaveBlackthornEntrancePharmacistText1:
 	text "Whoa! You startled"
 	line "me there!"

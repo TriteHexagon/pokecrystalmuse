@@ -1,9 +1,11 @@
-GOLDENRODGAMECORNER_TM25_COINS EQU 5500
-GOLDENRODGAMECORNER_TM14_COINS EQU 5500
-GOLDENRODGAMECORNER_TM38_COINS EQU 5500
-GOLDENRODGAMECORNER_ABRA_COINS      EQU 100
-GOLDENRODGAMECORNER_CUBONE_COINS    EQU 800
-GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 1500
+GOLDENRODGAMECORNER_NUGGET_COINS     EQU 325
+GOLDENRODGAMECORNER_STAR_PIECE_COINS EQU 300
+GOLDENRODGAMECORNER_BIG_PEARL_COINS  EQU 275
+GOLDENRODGAMECORNER_STARDUST_COINS   EQU 100
+GOLDENRODGAMECORNER_PEARL_COINS      EQU 375
+GOLDENRODGAMECORNER_ABRA_COINS       EQU 100
+GOLDENRODGAMECORNER_CUBONE_COINS     EQU 800
+GOLDENRODGAMECORNER_WOBBUFFET_COINS  EQU 1500
 
 	object_const_def ; object_event constants
 	const GOLDENRODGAMECORNER_CLERK
@@ -56,7 +58,7 @@ MoveTutorInsideScript:
 GoldenrodGameCornerCoinVendorScript:
 	jumpstd GameCornerCoinVendorScript
 
-GoldenrodGameCornerTMVendorScript:
+GoldenrodGameCornerItemVendorScript:
 	faceplayer
 	opentext
 	writetext GoldenrodGameCornerPrizeVendorIntroText
@@ -64,60 +66,84 @@ GoldenrodGameCornerTMVendorScript:
 	checkitem COIN_CASE
 	iffalse GoldenrodGameCornerPrizeVendor_NoCoinCaseScript
 	writetext GoldenrodGameCornerPrizeVendorWhichPrizeText
-GoldenrodGameCornerTMVendor_LoopScript:
+GoldenrodGameCornerItemVendor_LoopScript:
 	special DisplayCoinCaseBalance
-	loadmenu GoldenrodGameCornerTMVendorMenuHeader
+	loadmenu GoldenrodGameCornerItemVendorMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .Thunder
-	ifequal 2, .Blizzard
-	ifequal 3, .FireBlast
+	ifequal 1, .Nugget
+	ifequal 2, .StarPiece
+	ifequal 3, .BigPearl
+	ifequal 4, .Stardust
+	ifequal 5, .Pearl
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
-.Thunder:
-	checkcoins GOLDENRODGAMECORNER_TM25_COINS
+.Nugget:
+	checkcoins GOLDENRODGAMECORNER_NUGGET_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, TM_THUNDER
+	getitemname STRING_BUFFER_3, NUGGET
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem TM_THUNDER
+	giveitem NUGGET
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_TM25_COINS
-	sjump GoldenrodGameCornerTMVendor_FinishScript
+	takecoins GOLDENRODGAMECORNER_NUGGET_COINS
+	sjump GoldenrodGameCornerItemVendor_FinishScript
 
-.Blizzard:
-	checkcoins GOLDENRODGAMECORNER_TM14_COINS
+.StarPiece:
+	checkcoins GOLDENRODGAMECORNER_STAR_PIECE_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, TM_BLIZZARD
+	getitemname STRING_BUFFER_3, STAR_PIECE
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem TM_BLIZZARD
+	giveitem STAR_PIECE
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_TM14_COINS
-	sjump GoldenrodGameCornerTMVendor_FinishScript
+	takecoins GOLDENRODGAMECORNER_STAR_PIECE_COINS
+	sjump GoldenrodGameCornerItemVendor_FinishScript
 
-.FireBlast:
-	checkcoins GOLDENRODGAMECORNER_TM38_COINS
+.BigPearl:
+	checkcoins GOLDENRODGAMECORNER_BIG_PEARL_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, TM_FIRE_BLAST
+	getitemname STRING_BUFFER_3, BIG_PEARL
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem TM_FIRE_BLAST
+	giveitem BIG_PEARL
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_TM38_COINS
-	sjump GoldenrodGameCornerTMVendor_FinishScript
+	takecoins GOLDENRODGAMECORNER_BIG_PEARL_COINS
+	sjump GoldenrodGameCornerItemVendor_FinishScript
+
+.Stardust:
+	checkcoins GOLDENRODGAMECORNER_STARDUST_COINS
+	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
+	getitemname STRING_BUFFER_3, STARDUST
+	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
+	giveitem STARDUST
+	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
+	takecoins GOLDENRODGAMECORNER_STARDUST_COINS
+	sjump GoldenrodGameCornerItemVendor_FinishScript
+
+.Pearl:
+	checkcoins GOLDENRODGAMECORNER_PEARL_COINS
+	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
+	getitemname STRING_BUFFER_3, PEARL
+	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
+	giveitem PEARL
+	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
+	takecoins GOLDENRODGAMECORNER_PEARL_COINS
+	sjump GoldenrodGameCornerItemVendor_FinishScript
 
 GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript:
 	writetext GoldenrodGameCornerPrizeVendorConfirmPrizeText
 	yesorno
 	end
 
-GoldenrodGameCornerTMVendor_FinishScript:
+GoldenrodGameCornerItemVendor_FinishScript:
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	sjump GoldenrodGameCornerTMVendor_LoopScript
+	sjump GoldenrodGameCornerItemVendor_LoopScript
 
 GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript:
 	writetext GoldenrodGameCornerPrizeVendorNeedMoreCoinsText
@@ -143,7 +169,7 @@ GoldenrodGameCornerPrizeVendor_NoCoinCaseScript:
 	closetext
 	end
 
-GoldenrodGameCornerTMVendorMenuHeader:
+GoldenrodGameCornerItemVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 0, 2, 15, TEXTBOX_Y - 1
 	dw .MenuData
@@ -151,10 +177,12 @@ GoldenrodGameCornerTMVendorMenuHeader:
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 4 ; items
-	db "TM25    5500@"
-	db "TM14    5500@"
-	db "TM38    5500@"
+	db 6 ; items
+	db "Nugget     325@"
+	db "Star Piece 300@"
+	db "Big Pearl  275@"
+	db "Stardust   100@"
+	db "Pearl       75@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
@@ -520,7 +548,7 @@ GoldenrodGameCorner_MapEvents:
 
 	db 12 ; object events
 	object_event  3,  2, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerCoinVendorScript, -1
-	object_event 16,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerTMVendorScript, -1
+	object_event 16,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerItemVendorScript, -1
 	object_event 18,  2, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPrizeMonVendorScript, -1
 	object_event  8,  7, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, DAY, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPharmacistScript, -1
 	object_event  8,  7, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, NITE, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoldenrodGameCornerPharmacistScript, -1
