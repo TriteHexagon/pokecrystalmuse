@@ -12,7 +12,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/nidoqueen/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

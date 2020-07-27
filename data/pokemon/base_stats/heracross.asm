@@ -12,7 +12,7 @@
 	db 25 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/heracross/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_SLOW ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

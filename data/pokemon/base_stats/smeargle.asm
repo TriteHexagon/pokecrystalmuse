@@ -12,7 +12,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/smeargle/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

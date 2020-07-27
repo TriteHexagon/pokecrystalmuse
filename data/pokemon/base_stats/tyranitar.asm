@@ -12,7 +12,7 @@
 	db 40 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/tyranitar/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_MONSTER ; egg groups
 

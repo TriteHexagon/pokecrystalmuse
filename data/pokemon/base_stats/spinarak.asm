@@ -12,7 +12,7 @@
 	db 15 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/spinarak/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

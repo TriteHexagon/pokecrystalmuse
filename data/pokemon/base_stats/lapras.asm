@@ -12,7 +12,7 @@
 	db 40 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/lapras/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
 

@@ -12,7 +12,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/chinchou/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 

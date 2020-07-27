@@ -12,7 +12,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/tangela/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 

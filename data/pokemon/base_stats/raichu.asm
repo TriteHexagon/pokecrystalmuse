@@ -12,7 +12,7 @@
 	db 10 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/raichu/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 
