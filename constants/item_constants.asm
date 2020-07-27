@@ -324,25 +324,25 @@ PURGE MT_VALUE
 __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
-	add_mt FIRE_FANG    ;MT01
-	add_mt THUNDER_FANG ;MT02
-	add_mt ICE_FANG     ;MT03
-	add_mt HEADBUTT     ;MT04
-	add_mt DEFENSE_CURL ;MT05
-	add_mt DRAGONBREATH ;MT06
-	add_mt CURSE        ;MT07
-	add_mt ICY_WIND     ;MT08
-	add_mt ROAR         ;MT09
-	add_mt ENDURE       ;MT10
-	add_mt SWEET_SCENT  ;MT11
-	add_mt SWAGGER      ;MT12
-	add_mt FIRE_PUNCH   ;MT13
-	add_mt ICE_PUNCH    ;MT14
-	add_mt THUNDERPUNCH ;MT15
-	add_mt ROLLOUT      ;MT16
-	add_mt MUD_SLAP     ;MT17
-	add_mt DOUBLE_TEAM  ;MT18
-	add_mt DREAM_EATER  ;MT19
+	add_mt FIRE_FANG
+	add_mt THUNDER_FANG
+	add_mt ICE_FANG
+	add_mt HEADBUTT
+	add_mt DEFENSE_CURL
+	add_mt DRAGONBREATH
+	add_mt CURSE
+	add_mt ICY_WIND
+	add_mt ROAR
+	add_mt ENDURE
+	add_mt SWEET_SCENT
+	add_mt SWAGGER
+	add_mt FIRE_PUNCH
+	add_mt ICE_PUNCH
+	add_mt THUNDERPUNCH
+	add_mt ROLLOUT
+	add_mt MUD_SLAP
+	add_mt DOUBLE_TEAM
+	add_mt DREAM_EATER
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1
