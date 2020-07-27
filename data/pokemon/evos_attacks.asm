@@ -266,43 +266,56 @@ PidgeyEvosAttacks:
 	db EVOLVE_LEVEL, 18, PIDGEOTTO
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
+	db 3, MUD_SLAP
+	db 5, GUST
+	db 9, QUICK_ATTACK
+	db 11, FAIRY_WIND
+	db 15, WING_ATTACK
+	db 17, ROOST
 	db 21, WHIRLWIND
-	db 29, WING_ATTACK
-	db 37, AGILITY
-	db 47, MIRROR_MOVE
+	db 23, MIRROR_MOVE
+	db 27, AGILITY
+	db 29, AIR_SLASH
+	db 31, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 PidgeottoEvosAttacks:
 	db EVOLVE_LEVEL, 36, PIDGEOT
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SAND_ATTACK
+	db 1, MUD_SLAP
 	db 1, GUST
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
+	db 3, MUD_SLAP
+	db 5, GUST
+	db 9, QUICK_ATTACK
+	db 11, FAIRY_WIND
+	db 15, WING_ATTACK
+	db 17, ROOST
 	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 43, AGILITY
-	db 55, MIRROR_MOVE
+	db 27, MIRROR_MOVE
+	db 32, AGILITY
+	db 37, AIR_SLASH
+	db 42, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 PidgeotEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SAND_ATTACK
+	db 1, MUD_SLAP
 	db 1, GUST
 	db 1, QUICK_ATTACK
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
+	db 3, MUD_SLAP
+	db 5, GUST
+	db 9, QUICK_ATTACK
+	db 11, FAIRY_WIND
+	db 15, WING_ATTACK
+	db 17, ROOST
 	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 46, AGILITY
-	db 61, MIRROR_MOVE
+	db 27, MIRROR_MOVE
+	db 32, AGILITY
+	db 38, AIR_SLASH
+	db 45, RAZOR_WIND
+	db 50, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 RattataEvosAttacks:
@@ -310,23 +323,34 @@ RattataEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, TRANSFORM
-	db 20, FOCUS_ENERGY
-	db 27, PURSUIT
-	db 34, SUPER_FANG
+	db 3, PURSUIT
+	db 6, QUICK_ATTACK
+	db 9, FOCUS_ENERGY
+	db 12, BITE
+	db 15, TAKE_DOWN
+	db 18, CRUNCH
+	db 21, SUPER_FANG
+	db 24, FAKE_OUT
+	db 27, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 RaticateEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, PURSUIT
 	db 1, QUICK_ATTACK
-	db 7, QUICK_ATTACK
-	db 13, TRANSFORM
-	db 20, SCARY_FACE
-	db 30, PURSUIT
-	db 40, SUPER_FANG
+	db 3, PURSUIT
+	db 6, QUICK_ATTACK
+	db 9, FOCUS_ENERGY
+	db 12, BITE
+	db 15, TAKE_DOWN
+	db 18, CRUNCH
+	db 19, SCARY_FACE
+	db 24, SUPER_FANG
+	db 30, FAKE_OUT
+	db 35, DOUBLE_EDGE
+	db 40, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 SpearowEvosAttacks:
