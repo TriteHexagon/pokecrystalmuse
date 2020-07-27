@@ -18,7 +18,7 @@ EvolutionMoves::
     db NO_MOVE      ;Pidgeotto
     db NO_MOVE      ;Pidgeot
     db NO_MOVE      ;Rattata
-    db CRUNCH       ;Raticate
+    db SCARY_FACE   ;Raticate
     db NO_MOVE      ;Spearow
     db NO_MOVE      ;Fearow
     db NO_MOVE      ;Ekans
