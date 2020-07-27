@@ -2303,9 +2303,7 @@ wBaseItems::
 wBaseItem1:: db
 wBaseItem2:: db
 wBaseGender:: db
-wBaseUnknown1:: db
 wBaseEggSteps:: db
-wBaseUnknown2:: db
 wBasePicSize:: db
 wBaseUnusedFrontpic:: dw
 wBaseUnusedBackpic:: dw
