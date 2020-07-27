@@ -12,7 +12,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/rhyhorn/front.dimensions"
-	
+	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 

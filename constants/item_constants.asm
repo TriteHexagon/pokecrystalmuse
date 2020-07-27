@@ -324,9 +324,9 @@ PURGE MT_VALUE
 __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
-	add_mt FIRE_FANG    ;MT01
-	add_mt THUNDER_FANG ;MT0
-	add_mt ICE_FANG     ;MT0
+	add_mt FIRE_FANG
+	add_mt THUNDER_FANG
+	add_mt ICE_FANG
 	add_mt HEADBUTT
 	add_mt DEFENSE_CURL
 	add_mt DRAGONBREATH
@@ -342,7 +342,7 @@ ENDM
 	add_mt ROLLOUT
 	add_mt MUD_SLAP
 	add_mt DOUBLE_TEAM
-	add_mt DREAM_EATER  ;MT19
+	add_mt DREAM_EATER
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1
