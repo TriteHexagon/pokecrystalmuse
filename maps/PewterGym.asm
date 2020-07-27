@@ -27,12 +27,15 @@ PewterGymBrockScript:
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_BOULDERBADGE
-	writetext BrockBoulderBadgeText
-	waitbutton
-	closetext
-	end
-
 .FightDone:
+	checkevent EVENT_GOT_TM42_STONE_EDGE
+	iftrue .GotStoneEdge
+	writetext BrockExplainTMText
+	promptbutton
+	verbosegiveitem TM_STONE_EDGE
+	iffalse .GotStoneEdge
+	setevent EVENT_GOT_TM42_STONE_EDGE
+.GotStoneEdge:
 	writetext BrockFightDoneText
 	waitbutton
 	closetext
@@ -116,7 +119,7 @@ ReceivedBoulderBadgeText:
 	line "BOULDERBADGE."
 	done
 
-BrockBoulderBadgeText:
+BrockExplainTMText:
 	text "BROCK: <PLAY_G>,"
 	line "thanks. I enjoyed"
 
@@ -124,11 +127,13 @@ BrockBoulderBadgeText:
 	line "though I am a bit"
 	cont "upset."
 
-	para "That BOULDERBADGE"
-	line "will make your"
-
-	para "#MON even more"
-	line "powerful."
+	para "I'll give you the" 
+	line "move Stone Edge,"
+	cont "too."
+	
+	para "It's somewhat un-"
+	line "reliable, but it's"
+	cont "extremely powerful!"
 	done
 
 BrockFightDoneText:

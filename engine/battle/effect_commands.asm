@@ -4808,8 +4808,8 @@ CalcPlayerStats:
 	call CalcBattleStats
 
 	;TH - Removed this check - does it matter?
-	;ld hl, BadgeStatBoosts
-	;call CallBattleCore
+	ld hl, BadgeStatBoosts
+	call CallBattleCore
 
 	call BattleCommand_SwitchTurn
 
@@ -5669,16 +5669,20 @@ BattleCommand_Coil:
 BattleCommand_ShellSmash: ;not working right
 ; Down Defense
 	call ResetMiss
-	call BattleCommand_DefenseDown
+	ld a, DEFENSE
+	call LowerStat
+	call BattleCommand_SwitchTurn
 	call BattleCommand_StatDownMessage
 	;call BattleCommand_StatDownFailText
 ; Down Special Defense
 	call ResetMiss
-	call BattleCommand_SpecialDefenseDown
+	ld a, SP_DEFENSE
+	call LowerStat
 	call BattleCommand_StatDownMessage
 	;call BattleCommand_StatDownFailText
 ; Up Attack
 	call ResetMiss
+	call BattleCommand_SwitchTurn
 	call BattleCommand_AttackUp2
 	call BattleCommand_StatUpMessage
 	;call BattleCommand_StatUpFailText

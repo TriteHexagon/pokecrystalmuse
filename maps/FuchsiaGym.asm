@@ -44,13 +44,13 @@ FuchsiaGymJanineScript:
 	faceplayer
 	opentext
 .AfterBattle:
-	checkevent EVENT_GOT_TM06_TOXIC
+	checkevent EVENT_GOT_TM43_POISON_JAB
 	iftrue .AfterTM
 	writetext JanineText_ToxicSpeech
 	promptbutton
-	verbosegiveitem TM_BULK_UP
+	verbosegiveitem TM_POISON_JAB
 	iffalse .AfterTM
-	setevent EVENT_GOT_TM06_TOXIC
+	setevent EVENT_GOT_TM43_POISON_JAB
 .AfterTM:
 	writetext JanineText_ApplyMyself
 	waitbutton
@@ -266,11 +266,11 @@ JanineText_ToxicSpeech:
 	line "tough! I have a"
 	cont "special gift!"
 
-	para "It's TOXIC, a pow-"
-	line "erful poison that"
+	para "It's Poison Jab,"
+	line "a powerful attack"
 
-	para "steadily saps the"
-	line "victim's HP."
+	para "that might inflict"
+	line "poison to the foe."
 	done
 
 JanineText_ApplyMyself:

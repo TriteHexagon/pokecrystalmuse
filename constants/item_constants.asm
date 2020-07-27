@@ -262,17 +262,17 @@ ENDM
 	add_tm SANDSTORM    ; e5 TM37 - Celadon City Department Store
 	add_tm FIRE_BLAST   ; e6 TM38 - Seafoam Gym
 	add_tm SWIFT        ; e7 TM39 - Goldenrod Department Store
-	add_tm SLEEP_TALK   ; e8 TM40 - 
-	add_tm THUNDERPUNCH ; e9 TM41 -
-	add_tm DREAM_EATER  ; ea TM42 -
-	add_tm STONE_EDGE   ; eb TM43 - altered
-	add_tm REST         ; ec TM44 -
-	add_tm ATTRACT      ; ed TM45 -
-	add_tm THIEF        ; ee TM46 -
+	add_tm SLEEP_TALK   ; e8 TM40 - Route 31 after delivering Spearow
+	add_tm SCALD        ; e9 TM41 - Cerulean Gym
+	add_tm STONE_EDGE   ; ea TM42 - Pewter Gym
+	add_tm POISON_JAB   ; eb TM43 - Fuchsia Gym
+	add_tm REST         ; ec TM44 - Ice Path
+	add_tm ATTRACT      ; ed TM45 - Goldenrod Gym
+	add_tm THIEF        ; ee TM46 - Route 35
 	add_tm STEEL_WING   ; ef TM47 - Lighthouse
-	add_tm FIRE_PUNCH   ; f0 TM48 -
-	add_tm FURY_CUTTER  ; f1 TM49 -
-	add_tm DARK_PULSE   ; f2 TM50 -altered
+	add_tm DARK_PULSE   ; f0 TM48 - Team Rocket Base 
+	add_tm FURY_CUTTER  ; f1 TM49 - Azalea Gym
+	add_tm CALM_MIND    ; f2 TM50 - Saffron Gym
 NUM_TMS EQU __tmhm_value__ - 1
 
 add_hm: MACRO
@@ -336,12 +336,13 @@ ENDM
 	add_mt ENDURE
 	add_mt SWEET_SCENT
 	add_mt SWAGGER
-	;add_mt FIRE_PUNCH
+	add_mt FIRE_PUNCH
 	add_mt ICE_PUNCH
-	;add_mt FIRE_PUNCH
+	add_mt THUNDERPUNCH
 	add_mt ROLLOUT
 	add_mt MUD_SLAP
 	add_mt DOUBLE_TEAM
+	add_mt DREAM_EATER
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1

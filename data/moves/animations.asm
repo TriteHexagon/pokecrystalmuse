@@ -2963,6 +2963,7 @@ BattleAnim_Agility:
 
 BattleAnim_Waterfall:
 	anim_1gfx ANIM_GFX_HIT
+	anim_bgeffect ANIM_BG_WHIRLPOOL, $0, $0, $0
 	anim_call BattleAnim_TargetObj_2Row
 	anim_bgeffect ANIM_BG_25, $0, $1, $0
 	anim_wait 16
@@ -2982,6 +2983,7 @@ BattleAnim_Waterfall:
 	anim_sound 0, 1, SFX_LICK
 	anim_obj ANIM_OBJ_GENERIC_HIT, 136, 24, $0
 	anim_wait 8
+	anim_incbgeffect ANIM_BG_WHIRLPOOL
 	anim_ret
 
 BattleAnim_PsychicM:
@@ -3001,7 +3003,9 @@ BattleAnim_PsychicM:
 BattleAnim_Venoshock:
 ;BattleAnim_Sludge:
 	anim_1gfx ANIM_GFX_POISON
+.loop
 	anim_call BattleAnimSub_Sludge
+	anim_loop 5, .loop
 	anim_wait 56
 	anim_ret
 
@@ -3010,7 +3014,9 @@ BattleAnim_Toxic:
 	anim_bgeffect ANIM_BG_BLACK_HUES, $0, $8, $0
 	anim_call BattleAnimSub_Acid
 	anim_wait 32
+.loop
 	anim_call BattleAnimSub_Sludge
+	anim_loop 5, .loop
 	anim_wait 64
 	anim_ret
 
@@ -3517,7 +3523,9 @@ BattleAnim_SludgeBomb:
 	anim_sound 6, 2, SFX_SLUDGE_BOMB
 	anim_obj ANIM_OBJ_SLUDGE_BOMB, 64, 92, $10
 	anim_wait 36
+.loop
 	anim_call BattleAnimSub_Sludge
+	anim_loop 5, .loop
 	anim_wait 64
 	anim_ret
 
@@ -4729,7 +4737,6 @@ BattleAnimSub_Ice:
 	anim_ret
 
 BattleAnimSub_Sludge:
-.loop
 	anim_sound 0, 1, SFX_TOXIC
 	anim_obj ANIM_OBJ_1A, 132, 72, $0
 	anim_wait 8
@@ -4739,21 +4746,6 @@ BattleAnimSub_Sludge:
 	anim_sound 0, 1, SFX_TOXIC
 	anim_obj ANIM_OBJ_1A, 148, 72, $0
 	anim_wait 8
-	anim_loop 5, .loop
-	anim_ret
-
-BattleAnimSub_Short_Sludge:
-.loop
-	anim_sound 0, 1, SFX_TOXIC
-	anim_obj ANIM_OBJ_1A, 132, 72, $0
-	anim_wait 8
-	anim_sound 0, 1, SFX_TOXIC
-	anim_obj ANIM_OBJ_1A, 116, 72, $0
-	anim_wait 8
-	anim_sound 0, 1, SFX_TOXIC
-	anim_obj ANIM_OBJ_1A, 148, 72, $0
-	anim_wait 8
-	anim_loop 2, .loop
 	anim_ret
 
 BattleAnimSub_Acid:
@@ -5019,7 +5011,9 @@ BattleAnim_PoisonFang:
 	anim_obj ANIM_OBJ_BITE, 136, 56, $18
 	anim_sound 0, 1, SFX_BITE
 	anim_wait 4
-	anim_call BattleAnimSub_Short_Sludge
+.loop
+	anim_call BattleAnimSub_Sludge
+	anim_loop 2, .loop
 	anim_wait 12
 	anim_ret
 
@@ -5073,7 +5067,6 @@ BattleAnim_PoisonJab:
 	anim_sound 0, 1, SFX_TOXIC
 	anim_obj ANIM_OBJ_1A, 152, 46, $0
 	anim_loop 2, .loop
-	;anim_call BattleAnimSub_Short_Sludge
 	anim_wait 12
 	anim_ret
 
@@ -5777,7 +5770,9 @@ BattleAnim_GunkShot:
 	anim_wait 2
 	anim_loop 5, .loop
 	anim_wait 32
-	anim_call BattleAnimSub_Short_Sludge
+.loop2
+	anim_call BattleAnimSub_Sludge
+	anim_loop 2, .loop2
 	anim_wait 32
 	anim_ret
 

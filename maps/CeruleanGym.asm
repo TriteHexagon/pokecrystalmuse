@@ -78,10 +78,19 @@ CeruleanGymMistyScript:
 	waitsfx
 	setflag ENGINE_CASCADEBADGE
 .FightDone:
+	checkevent EVENT_GOT_TM41_SCALD
+	iftrue .GotScald
+	writetext MistyExplainTMText
+	promptbutton
+	verbosegiveitem TM_SCALD
+	iffalse .GotScald
+	setevent EVENT_GOT_TM41_SCALD
+.GotScald:
 	writetext MistyFightDoneText
 	waitbutton
 	closetext
 	end
+
 
 TrainerSwimmerfDiana:
 	trainer SWIMMERF, DIANA, EVENT_BEAT_SWIMMERF_DIANA, SwimmerfDianaSeenText, SwimmerfDianaBeatenText, 0, .Script
@@ -269,6 +278,20 @@ ReceivedCascadeBadgeText:
 	text "<PLAYER> received"
 	line "CASCADEBADGE."
 	done
+
+MistyExplainTMText:
+	para "MISTY: Here is"
+	line "another memento"
+
+	para "from this battle."
+	line "Take it!"
+
+	para "It contains the"
+	line "move Scald."
+
+	para "It's a powerful"
+	line "attack that may"
+	cont "burn your foes."
 
 MistyFightDoneText:
 	text "MISTY: Are there"

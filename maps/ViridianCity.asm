@@ -50,13 +50,13 @@ ViridianCityGrampsNearGym:
 ViridianCityDreamEaterFisher:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM42_DREAM_EATER
+	checkevent EVENT_GOT_AWAKENING_VIRIDIAN_CITY
 	iftrue .GotDreamEater
 	writetext ViridianCityDreamEaterFisherText
 	promptbutton
-	verbosegiveitem TM_DREAM_EATER
+	verbosegiveitem AWAKENING
 	iffalse .NoRoomForDreamEater
-	setevent EVENT_GOT_TM42_DREAM_EATER
+	setevent EVENT_GOT_AWAKENING_VIRIDIAN_CITY
 .GotDreamEater:
 	writetext ViridianCityDreamEaterFisherGotDreamEaterText
 	waitbutton
@@ -159,17 +159,17 @@ ViridianCityDreamEaterFisherText:
 	para "Huh?"
 	line "What's this?"
 
-	para "Where did this TM"
-	line "come from?"
+	para "Where did this"
+	line "item come from?"
 
 	para "This is spooky!"
 	line "Here, you can have"
-	cont "this TM."
+	cont "this item."
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 contains"
-	line "DREAM EATER…"
+	text "That is an"
+	line "Awakening..."
 
 	para "…Zzzzz…"
 	done
