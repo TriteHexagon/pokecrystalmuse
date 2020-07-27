@@ -9,7 +9,7 @@ Route27SandstormHouse_MapScripts:
 SandstormHouseWoman:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM37_SANDSTORM
+	checkevent EVENT_GOT_TM34_FOCUS_BLAST
 	iftrue .AlreadyGotItem
 	special GetFirstPokemonHappiness
 	writetext SandstormHouseWomanText1
@@ -20,9 +20,9 @@ SandstormHouseWoman:
 .Loyal:
 	writetext SandstormHouseWomanLoyalText
 	promptbutton
-	verbosegiveitem TM_SANDSTORM
+	verbosegiveitem TM_FOCUS_BLAST
 	iffalse .Done
-	setevent EVENT_GOT_TM37_SANDSTORM
+	setevent EVENT_GOT_TM34_FOCUS_BLAST
 .AlreadyGotItem:
 	writetext SandstormHouseSandstormDescription
 	waitbutton
@@ -65,12 +65,15 @@ SandstormHouseWomanLoyalText:
 	done
 
 SandstormHouseSandstormDescription:
-	text "TM37 happens to be"
-	line "SANDSTORM."
+	text "TM34 happens to be"
+	line "Focus Blast."
 
 	para "It's a move that"
-	line "inflicts damage on"
-	cont "both battlers."
+	line "inflicts great"
+	
+	para "damage... But it"
+	line "tends to miss"
+	cont "a lot."
 
 	para "It's for advanced"
 	line "trainers only."

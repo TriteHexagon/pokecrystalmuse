@@ -31,12 +31,15 @@ VermilionGymSurgeScript:
 	playsound SFX_GET_BADGE
 	waitsfx
 	setflag ENGINE_THUNDERBADGE
-	writetext LtSurgeThunderBadgeText
-	waitbutton
-	closetext
-	end
-
 .FightDone:
+	checkevent EVENT_GOT_TM_THUNDER
+	iftrue .GotThunder
+	writetext LtSurgeThunderText
+	promptbutton
+	verbosegiveitem TM_THUNDER
+	iffalse .GotThunder
+	setevent EVENT_GOT_TM_THUNDER
+.GotThunder:
 	writetext LtSurgeFightDoneText
 	waitbutton
 	closetext
@@ -130,7 +133,13 @@ LtSurgeWinLossText:
 	line "You are strong!"
 
 	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	line "ThunderBadge!"
+
+	para "Consider it proof"
+	line "that you defeated"
+
+	para "me. You wear it"
+	line "proudly, hear?"
 	done
 
 ReceivedThunderBadgeText:
@@ -138,16 +147,24 @@ ReceivedThunderBadgeText:
 	line "THUNDERBADGE."
 	done
 
-LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
-	line "BADGE increases"
-	cont "#MON's speed. "
+LtSurgeThunderText:
+	text "SURGE: And here's"
+	line "another prize"
 
-	para "Consider it proof"
-	line "that you defeated"
+	para "from me. It's TM25"
+	line "Thunder, a power-"
 
-	para "me. You wear it"
-	line "proudly, hear?"
+	para "ful Electric-type"
+	line "attack. It was my"
+
+	para "favorite during"
+	line "the war. Zzzap!"
+
+	para "That's where my"
+	line "nickname 'Light-"
+
+	para "'ning Lieutenant"
+	line "came from!"
 	done
 
 LtSurgeFightDoneText:

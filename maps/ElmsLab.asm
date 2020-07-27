@@ -1020,7 +1020,7 @@ ElmAfterTheftText5:
 
 	para "The closest GYM"
 	line "would be the one"
-	cont "in VIOLET CITY."
+	cont "in Violet City."
 	done
 
 ElmAfterTheftText6:
@@ -1051,7 +1051,7 @@ ElmAideHasEggText:
 	para "He should have met"
 	line "you with the EGG"
 
-	para "at VIOLET CITY's"
+	para "at Violet City's"
 	line "#MON CENTER."
 
 	para "You must have just"

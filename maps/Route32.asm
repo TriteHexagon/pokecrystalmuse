@@ -100,18 +100,18 @@ Route32CooltrainerMStopsYouScene:
 	applymovement ROUTE32_COOLTRAINER_M, Movement_Route32CooltrainerMReset2
 	end
 
-Route32RoarTMGuyScript:
+Route32MudShotTMGuyScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM05_ROAR
-	iftrue .AlreadyHaveRoar
-	writetext Text_RoarIntro
+	checkevent EVENT_GOT_TM31_MUD_SHOT
+	iftrue .AlreadyHaveMudShot
+	writetext Text_MudShotIntro
 	promptbutton
-	verbosegiveitem TM_BULK_UP
+	verbosegiveitem TM_MUD_SHOT
 	iffalse .Finish
-	setevent EVENT_GOT_TM05_ROAR
-.AlreadyHaveRoar:
-	writetext Text_RoarOutro
+	setevent EVENT_GOT_TM31_MUD_SHOT
+.AlreadyHaveMudShot:
+	writetext Text_MudShotOutro
 	waitbutton
 .Finish:
 	closetext
@@ -547,7 +547,7 @@ Route32CooltrainerMText_UnusedSproutTower:
 	line "SPROUT TOWER?"
 
 	para "If you ever visit"
-	line "VIOLET CITY, "
+	line "Violet City, "
 
 	para "they'll expect you"
 	line "to train there."
@@ -578,7 +578,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "the training you"
 
 	para "gave them around"
-	line "VIOLET CITY."
+	line "Violet City."
 
 	para "The training at"
 	line "the GYM must have"
@@ -587,7 +587,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "helpful."
 
 	para "As a souvenir of"
-	line "VIOLET CITY, take"
+	line "Violet City, take"
 	cont "this."
 
 	para "It increases the"
@@ -597,7 +597,7 @@ Route32CooltrainerMText_HaveThisSeed:
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Your experiences"
-	line "in VIOLET CITY"
+	line "in Violet City"
 
 	para "should be useful"
 	line "for your journey."
@@ -681,44 +681,44 @@ FisherRalphSwarmText:
 
 ; --- start a segment of unused text
 
-Route32UnusedFisher1SeenText:
-	text "I keep catching"
-	line "the same #MON…"
+; Route32UnusedFisher1SeenText:
+; 	text "I keep catching"
+; 	line "the same #MON…"
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
-	done
+; 	para "Maybe a battle"
+; 	line "will turn things"
+; 	cont "around for me."
+; 	done
 
-Route32UnusedFisher1BeatenText:
-	text "Nothing ever goes"
-	line "right for me now…"
-	done
+; Route32UnusedFisher1BeatenText:
+; 	text "Nothing ever goes"
+; 	line "right for me now…"
+; 	done
 
-Route32UnusedFisher1AfterText:
-	text "How come the guy"
-	line "next to me catches"
-	cont "good #MON?"
-	done
+; Route32UnusedFisher1AfterText:
+; 	text "How come the guy"
+; 	line "next to me catches"
+; 	cont "good #MON?"
+; 	done
 
-Route32UnusedFisher2SeenText:
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
-	done
+; Route32UnusedFisher2SeenText:
+; 	text "Heh, I'm on a roll"
+; 	line "today. How about a"
+; 	cont "battle, kid?"
+; 	done
 
-Route32UnusedFisher2BeatenText:
-	text "Oof. I wasn't"
-	line "lucky that time."
-	done
+; Route32UnusedFisher2BeatenText:
+; 	text "Oof. I wasn't"
+; 	line "lucky that time."
+; 	done
 
-Route32UnusedFisher2AfterText:
-	text "You have to have a"
-	line "good ROD if you"
+; Route32UnusedFisher2AfterText:
+; 	text "You have to have a"
+; 	line "good ROD if you"
 
-	para "want to catch good"
-	line "#MON."
-	done
+; 	para "want to catch good"
+; 	line "#MON."
+; 	done
 
 ; --- end a segment of unused texts
 
@@ -819,7 +819,7 @@ PicnickerLiz1AfterText:
 
 BirdKeeperPeterSeenText:
 	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	line "from Violet City!"
 
 	para "You beat FALKNER?"
 	done
@@ -832,7 +832,7 @@ BirdKeeperPeterBeatenText:
 BirdKeeperPeterAfterText:
 	text "I should train"
 	line "again at the GYM"
-	cont "in VIOLET CITY."
+	cont "in Violet City."
 	done
 
 Route32UnusedText:
@@ -842,23 +842,30 @@ Route32UnusedText:
 	cont "bugging them…"
 	done
 
-Text_RoarIntro:
-	text "WROOOOAR!"
+Text_MudShotIntro:
+	text "SWOOSH!"
 	line "PEOPLE RUN WHEN I"
 
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
+	para "THROW MUD AT THEM!"
+	line "BUT YOU CAME"
+	cont "LOOKING!"
 
 	para "THAT PLEASES ME!"
 	line "NOW TAKE THIS!"
 	done
 
-Text_RoarOutro:
-	text "WROOOAR!"
-	line "IT'S ROAR!"
+Text_MudShotOutro:
+	text "SWOOSH!"
+	line "IT'S MUD-SHOT!"
 
-	para "EVEN #MON RUN"
-	line "FROM A GOOD ROAR!"
+	para "IT INFLICTS"
+	line "DAMAGE AND LOWERS"
+
+	para "THE FOE'S SPEED!"
+	line "...Wait, wouldn't"
+
+	para "people run away"
+	line "more slowly then?"
 	done
 
 MeetFriedaText:
@@ -912,7 +919,7 @@ FriedaNotFridayText:
 Route32SignText:
 	text "ROUTE 32"
 
-	para "VIOLET CITY -"
+	para "Violet City -"
 	line "AZALEA TOWN"
 	done
 
@@ -959,6 +966,6 @@ Route32_MapEvents:
 	object_event 11, 82, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperPeter, -1
 	object_event  7, 70, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeTailSalesmanScript, EVENT_SLOWPOKE_WELL_ROCKETS
 	object_event  6, 53, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route32GreatBall, EVENT_ROUTE_32_GREAT_BALL
-	object_event 15, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32RoarTMGuyScript, -1
+	object_event 15, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32MudShotTMGuyScript, -1
 	object_event 12, 67, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FriedaScript, EVENT_ROUTE_32_FRIEDA_OF_FRIDAY
 	object_event  3, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route32Repel, EVENT_ROUTE_32_REPEL

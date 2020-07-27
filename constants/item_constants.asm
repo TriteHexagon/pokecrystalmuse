@@ -243,33 +243,33 @@ ENDM
 	add_tm RAIN_DANCE   ; d1 TM18 - Celadon City Department Store
 	add_tm GIGA_DRAIN   ; d2 TM19 - Goldenrod City Department Store
 	add_tm WILL_O_WISP  ; d3 TM20 - Burnt Tower
-	add_tm DRAGON_CLAW  ; d4 TM21 - 
+	add_tm SHADOW_CLAW  ; d4 TM21 - Goldenrod Department Store Basement
 	add_tm SOLARBEAM    ; d5 TM22 - Celadon Gym
-	add_tm IRON_TAIL    ; d6 TM23 -
-	add_tm THUNDERBOLT  ; d7 TM24 -
-	add_tm THUNDER      ; d8 TM25 -altered
-	add_tm EARTHQUAKE   ; d9 TM26 -
-	add_tm RETURN       ; da TM27 -
-	add_tm DIG          ; db TM28 -
-	add_tm PSYCHIC_M    ; dd TM29 -
-	add_tm SHADOW_BALL  ; de TM30 -
-	add_tm MUD_SLAP     ; df TM31 -
-	add_tm DOUBLE_TEAM  ; e0 TM32 -
-	add_tm ICE_PUNCH    ; e1 TM33 -
-	add_tm SWAGGER      ; e2 TM34 -
-	add_tm FLAMETHROWER ; e3 TM35 -
-	add_tm SLUDGE_BOMB  ; e4 TM36 -
-	add_tm SANDSTORM    ; e5 TM37 -
-	add_tm FIRE_BLAST   ; e6 TM38 -
-	add_tm SWIFT        ; e7 TM39 -
-	add_tm SLEEP_TALK   ; e8 TM40 -
+	add_tm IRON_TAIL    ; d6 TM23 - Olivine Gym
+	add_tm THUNDERBOLT  ; d7 TM24 - Goldenrod City Department Store
+	add_tm THUNDER      ; d8 TM25 - Vermilion City
+	add_tm EARTHQUAKE   ; d9 TM26 - Victory Road
+	add_tm RETURN       ; da TM27 - Goldenrod Department Store (High Happiness)
+	add_tm DIG          ; db TM28 - Outside National Park
+	add_tm PSYCHIC_M    ; dd TM29 - Mr. Psychic House
+	add_tm SHADOW_BALL  ; de TM30 - Route 27
+	add_tm MUD_SHOT     ; df TM31 - Route 32 (requires Cut)
+	add_tm IRON_HEAD    ; e0 TM32 - Mt. Mortar
+	add_tm DRAGON_PULSE ; e1 TM33 - Blackthorn Gym
+	add_tm FOCUS_BLAST  ; e2 TM34 - Route 27 (House)
+	add_tm FLAMETHROWER ; e3 TM35 - Goldenrod Department Store
+	add_tm SLUDGE_BOMB  ; e4 TM36 - Route 43
+	add_tm SANDSTORM    ; e5 TM37 - Celadon City Department Store
+	add_tm FIRE_BLAST   ; e6 TM38 - Seafoam Gym
+	add_tm SWIFT        ; e7 TM39 - Goldenrod Department Store
+	add_tm SLEEP_TALK   ; e8 TM40 - 
 	add_tm THUNDERPUNCH ; e9 TM41 -
 	add_tm DREAM_EATER  ; ea TM42 -
 	add_tm STONE_EDGE   ; eb TM43 - altered
 	add_tm REST         ; ec TM44 -
 	add_tm ATTRACT      ; ed TM45 -
 	add_tm THIEF        ; ee TM46 -
-	add_tm STEEL_WING   ; ef TM47 -
+	add_tm STEEL_WING   ; ef TM47 - Lighthouse
 	add_tm FIRE_PUNCH   ; f0 TM48 -
 	add_tm FURY_CUTTER  ; f1 TM49 -
 	add_tm DARK_PULSE   ; f2 TM50 -altered
@@ -335,12 +335,13 @@ ENDM
 	add_mt ROAR
 	add_mt ENDURE
 	add_mt SWEET_SCENT
-	;add_mt SWAGGER
+	add_mt SWAGGER
 	;add_mt FIRE_PUNCH
-	;add_mt ICE_PUNCH
+	add_mt ICE_PUNCH
 	;add_mt FIRE_PUNCH
 	add_mt ROLLOUT
-	;add_mt DOUBLE_TEAM
+	add_mt MUD_SLAP
+	add_mt DOUBLE_TEAM
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1

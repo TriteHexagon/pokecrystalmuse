@@ -401,13 +401,13 @@ Route31YoungsterText:
 	cont "FALKNER."
 
 	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	line "Violet City's GYM."
 	done
 
 Route31SignText:
 	text "ROUTE 31"
 
-	para "VIOLET CITY -"
+	para "Violet City -"
 	line "CHERRYGROVE CITY"
 	done
 

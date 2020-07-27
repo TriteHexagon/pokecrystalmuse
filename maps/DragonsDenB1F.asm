@@ -53,14 +53,14 @@ DragonsDenB1F_ClairScene:
 	opentext
 	writetext ClairText_GiveDragonbreathDragonDen
 	promptbutton
-	giveitem TM_THUNDERBOLT
+	giveitem TM_DRAGON_PULSE
 	iffalse .BagFull
-	getitemname STRING_BUFFER_3, TM_THUNDERBOLT
+	getitemname STRING_BUFFER_3, TM_DRAGON_PULSE
 	writetext NotifyReceiveDragonbreath
 	playsound SFX_ITEM
 	waitsfx
 	itemnotify
-	setevent EVENT_GOT_TM24_DRAGONBREATH
+	setevent EVENT_GOT_TM33_DRAGON_PULSE
 	writetext ClairText_DescribeDragonbreathDragonDen
 	promptbutton
 	writetext ClairText_WhatsTheMatterDragonDen
@@ -216,17 +216,20 @@ ClairText_GiveDragonbreathDragonDen:
 
 NotifyReceiveDragonbreath:
 	text "<PLAYER> received"
-	line "TM24."
+	line "TM33."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
 	text "That contains"
-	line "DRAGONBREATH."
+	line "Dragon Pulse."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Well, Dragon Pulse"
+	line "is kind of...umm."
 
+	para "Never mind! It's"
+	line "a huge energy of"
+	cont "some kind."
+ 
 	para "If you don't want"
 	line "it, you don't have"
 	cont "to take it."

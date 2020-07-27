@@ -14,13 +14,13 @@ Route28SteelWingHouse_MapScripts:
 Celebrity:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM47_STEEL_WING
+	checkevent EVENT_GOT_NUGGET_ROUTE_28
 	iftrue .AlreadyGotItem
 	writetext CelebrityText1
 	promptbutton
-	verbosegiveitem TM_STEEL_WING
+	verbosegiveitem NUGGET
 	iffalse .Done
-	setevent EVENT_GOT_TM47_STEEL_WING
+	setevent EVENT_GOT_NUGGET_ROUTE_28
 .Done:
 	closetext
 	end
