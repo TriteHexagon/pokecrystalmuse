@@ -315,7 +315,6 @@ PidgeotEvosAttacks:
 	db 32, AGILITY
 	db 38, AIR_SLASH
 	db 45, RAZOR_WIND
-	db 50, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 RattataEvosAttacks:
@@ -358,12 +357,16 @@ SpearowEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 25, PURSUIT
-	db 31, MIRROR_MOVE
-	db 37, DRILL_PECK
-	db 43, AGILITY
+	db 4, LEER
+	db 8, PURSUIT
+	db 11, FURY_ATTACK
+	db 15, WING_ATTACK
+	db 18, MIRROR_MOVE
+	db 22, FEINT_ATTACK
+	db 25, DRILL_PECK
+	db 29, FOCUS_ENERGY
+	db 32, ROOST
+	db 36, AGILITY
 	db 0 ; no more level-up moves
 
 FearowEvosAttacks:
@@ -372,12 +375,18 @@ FearowEvosAttacks:
 	db 1, GROWL
 	db 1, LEER
 	db 1, FURY_ATTACK
-	db 7, LEER
-	db 13, FURY_ATTACK
-	db 26, PURSUIT
-	db 32, MIRROR_MOVE
-	db 40, DRILL_PECK
-	db 47, AGILITY
+	db 4, LEER
+	db 8, PURSUIT
+	db 11, FURY_ATTACK
+	db 15, WING_ATTACK
+	db 18, MIRROR_MOVE
+	db 23, FEINT_ATTACK
+	db 27, DRILL_PECK
+	db 32, FOCUS_ENERGY
+	db 36, ROOST
+	db 41, DRILL_RUN
+	db 45, AGILITY
+	db 49, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -385,12 +394,17 @@ EkansEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 9, POISON_STING
-	db 15, BITE
-	db 23, GLARE
-	db 29, SCREECH
-	db 37, ACID
-	db 43, HAZE
+	db 4, POISON_STING
+	db 9, BITE
+	db 12, GLARE
+	db 15, MUD_SHOT
+	db 18, POISON_FANG
+	db 20, SCREECH
+	db 25, COIL
+	db 28, SLAM
+	db 33, POISON_JAB
+	db 36, HAZE
+	db 41, GUNK_SHOT
 	db 0 ; no more level-up moves
 
 ArbokEvosAttacks:
@@ -399,12 +413,18 @@ ArbokEvosAttacks:
 	db 1, LEER
 	db 1, POISON_STING
 	db 1, BITE
-	db 9, POISON_STING
-	db 15, BITE
-	db 25, GLARE
-	db 33, SCREECH
-	db 43, ACID
-	db 51, HAZE
+	db 4, POISON_STING
+	db 9, BITE
+	db 12, GLARE
+	db 15, MUD_SHOT
+	db 18, POISON_FANG
+	db 20, SCREECH
+	db 21, CRUNCH
+	db 27, COIL
+	db 32, SLAM
+	db 37, POISON_JAB
+	db 43, HAZE
+	db 48, GUNK_SHOT
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
@@ -2181,10 +2201,10 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	; db 1, TACKLE
 	; db 1, LEER
-	db 1, WATERFALL
-	db 1, HI_JUMP_KICK
-	db 1, RAZOR_WIND
-	db 1, SKY_ATTACK
+	db 1, POWER_GEM
+	db 1, GUNK_SHOT
+	db 1, ZEN_HEADBUTT
+	db 1, SHELL_SMASH
 	db 8, SMOKESCREEN ;6
 	db 12, EMBER
 	db 19, QUICK_ATTACK
