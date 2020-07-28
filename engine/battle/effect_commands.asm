@@ -5776,9 +5776,10 @@ BattleCommand_TrapTarget:
 	ret nz
 	call BattleRandom
 	; trapped for 2-5 turns
-	and %11
-	inc a
-	inc a
+	;and %11 ; bitmasks 3
+	and %101 ;bitmasks 5
+	; inc a
+	; inc a
 	inc a
 	ld [hl], a
 	ld a, BATTLE_VARS_MOVE_ANIM

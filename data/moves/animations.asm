@@ -1243,6 +1243,7 @@ BattleAnim_Solarbeam:
 BattleAnim_Thunderpunch:
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_LIGHTNING
 	anim_obj ANIM_OBJ_PUNCH, 136, 56, $43
+BattleAnim_SmallThunder:	
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $2
 	anim_sound 0, 1, SFX_THUNDER
 	anim_obj ANIM_OBJ_THUNDER, 152, 68, $0
@@ -1296,7 +1297,7 @@ BattleAnim_Thunder:
 	anim_ret
 
 BattleAnim_RazorWind:
-	anim_if_param_equal $1, BattleAnim_FocusEnergy
+	;anim_if_param_equal $1, BattleAnim_FocusEnergy
 	anim_1gfx ANIM_GFX_WHIP
 	anim_bgeffect ANIM_BG_06, $0, $1, $0
 .loop
@@ -2615,7 +2616,7 @@ BattleAnim_Minimize:
 	anim_ret
 
 BattleAnim_SkyAttack:
-	anim_if_param_equal $1, BattleAnim_FocusEnergy
+	;anim_if_param_equal $1, BattleAnim_FocusEnergy
 	anim_1gfx ANIM_GFX_SKY_ATTACK
 	anim_bgeffect ANIM_BG_27, $0, $1, $0
 	anim_wait 32
@@ -4866,10 +4867,7 @@ BattleAnim_ThunderFang:
 	anim_obj ANIM_OBJ_BITE, 136, 56, $18
 	anim_sound 0, 1, SFX_BITE
 	anim_wait 4
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $2
-	anim_sound 0, 1, SFX_THUNDER
-	anim_obj ANIM_OBJ_THUNDER, 152, 68, $0
-	anim_wait 64
+	anim_call BattleAnim_SmallThunder
 	anim_ret
 
 BattleAnim_FireFang:
