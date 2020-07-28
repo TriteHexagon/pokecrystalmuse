@@ -2181,10 +2181,10 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	; db 1, TACKLE
 	; db 1, LEER
-	db 1, POWER_GEM
-	db 1, GUNK_SHOT
-	db 1, ZEN_HEADBUTT
-	db 1, SHELL_SMASH
+	db 1, WATERFALL
+	db 1, HI_JUMP_KICK
+	db 1, RAZOR_WIND
+	db 1, SKY_ATTACK
 	db 8, SMOKESCREEN ;6
 	db 12, EMBER
 	db 19, QUICK_ATTACK

@@ -1302,6 +1302,13 @@ BattleAnim_RazorWind:
 	anim_bgeffect ANIM_BG_06, $0, $1, $0
 .loop
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $2
+	anim_call BattleAnim_CuttingWinds
+	anim_wait 4
+	anim_loop 3, .loop
+	anim_wait 24
+	anim_ret
+
+BattleAnim_CuttingWinds:
 	anim_sound 0, 1, SFX_RAZOR_WIND
 	anim_obj ANIM_OBJ_42, 152, 40, $3
 	anim_wait 4
@@ -1316,9 +1323,6 @@ BattleAnim_RazorWind:
 	anim_wait 4
 	anim_sound 0, 1, SFX_RAZOR_WIND
 	anim_obj ANIM_OBJ_41, 120, 64, $83
-	anim_wait 4
-	anim_loop 3, .loop
-	anim_wait 24
 	anim_ret
 
 BattleAnim_AirSlash:
@@ -2965,9 +2969,9 @@ BattleAnim_Agility:
 BattleAnim_Waterfall:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_WHIRLPOOL, $0, $0, $0
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect ANIM_BG_25, $0, $1, $0
-	anim_wait 16
+	;anim_call BattleAnim_TargetObj_2Row
+	;anim_bgeffect ANIM_BG_25, $0, $1, $0
+	anim_wait 32
 	anim_call BattleAnim_ShowMon_0
 	anim_sound 0, 1, SFX_LICK
 	anim_obj ANIM_OBJ_GENERIC_HIT, 136, 56, $0
@@ -5735,20 +5739,7 @@ BattleAnim_PowerGem:
 	anim_wait 2
 	anim_loop 3, .loop
 	anim_wait 36
-	anim_sound 0, 1, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_42, 152, 40, $3
-	anim_wait 4
-	anim_sound 0, 1, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_42, 136, 56, $3
-	anim_wait 4
-	anim_sound 0, 1, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_42, 152, 64, $3
-	anim_wait 4
-	anim_sound 0, 1, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_41, 120, 40, $83
-	anim_wait 4
-	anim_sound 0, 1, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_41, 120, 64, $83
+	anim_call BattleAnim_CuttingWinds
 	anim_wait 24
 	anim_ret
 

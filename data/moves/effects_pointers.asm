@@ -46,7 +46,7 @@ MoveEffectsPointers:
 	dw Hex
 	dw MultiHit
 	dw NormalHit
-	dw Mist
+	dw Mist ;unused
 	dw FocusEnergy
 	dw RecoilHit
 	dw DoConfuse
