@@ -776,7 +776,7 @@ MeowthEvosAttacks:
 	db 1, GROWL
 	db 11, BITE
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
+	db 28, FEINT_ATTACK
 	db 35, SCREECH
 	db 41, FURY_SWIPES
 	db 46, SLASH
@@ -789,7 +789,7 @@ PersianEvosAttacks:
 	db 1, BITE
 	db 11, BITE
 	db 20, PAY_DAY
-	db 29, FAINT_ATTACK
+	db 29, FEINT_ATTACK
 	db 38, SCREECH
 	db 46, FURY_SWIPES
 	db 53, SLASH
@@ -2602,7 +2602,7 @@ SudowoodoEvosAttacks:
 	db 10, FLAIL
 	db 19, DOUBLE_KICK
 	db 28, ROCK_SLIDE
-	db 37, FAINT_ATTACK
+	db 37, FEINT_ATTACK
 	db 46, SLAM
 	db 0 ; no more level-up moves
 
@@ -2759,7 +2759,7 @@ UmbreonEvosAttacks:
 	db 16, PURSUIT
 	db 23, QUICK_ATTACK
 	db 30, CONFUSE_RAY
-	db 36, FAINT_ATTACK
+	db 36, FEINT_ATTACK
 	db 42, MEAN_LOOK
 	db 47, SCREECH
 	db 52, MOONLIGHT
@@ -2771,7 +2771,7 @@ MurkrowEvosAttacks:
 	db 11, PURSUIT
 	db 16, HAZE
 	db 26, NIGHT_SHADE
-	db 31, FAINT_ATTACK
+	db 31, FEINT_ATTACK
 	db 41, MEAN_LOOK
 	db 0 ; no more level-up moves
 
@@ -2872,7 +2872,7 @@ GligarEvosAttacks:
 	db 6, SAND_ATTACK
 	db 13, HARDEN
 	db 20, QUICK_ATTACK
-	db 28, FAINT_ATTACK
+	db 28, FEINT_ATTACK
 	db 36, SLASH
 	db 44, SCREECH
 	db 52, TRANSFORM
@@ -2975,7 +2975,7 @@ SneaselEvosAttacks:
 	db 1, LEER
 	db 9, QUICK_ATTACK
 	db 17, SCREECH
-	db 25, FAINT_ATTACK
+	db 25, FEINT_ATTACK
 	db 33, FURY_SWIPES
 	db 41, AGILITY
 	db 49, SLASH
@@ -2990,7 +2990,7 @@ TeddiursaEvosAttacks:
 	db 1, LEER
 	db 8, LICK
 	db 15, FURY_SWIPES
-	db 22, FAINT_ATTACK
+	db 22, FEINT_ATTACK
 	db 29, REST
 	db 36, SLASH
 	db 43, SLEEP_TALK
@@ -3005,7 +3005,7 @@ UrsaringEvosAttacks:
 	db 1, FURY_SWIPES
 	db 8, LICK
 	db 15, FURY_SWIPES
-	db 22, FAINT_ATTACK
+	db 22, FEINT_ATTACK
 	db 29, REST
 	db 39, SLASH
 	db 49, SLEEP_TALK
@@ -3139,7 +3139,7 @@ HoundourEvosAttacks:
 	db 7, ROAR
 	db 13, POISON_GAS
 	db 20, BITE
-	db 27, FAINT_ATTACK
+	db 27, FEINT_ATTACK
 	db 35, FLAMETHROWER
 	db 43, CRUNCH
 	db 0 ; no more level-up moves
@@ -3151,7 +3151,7 @@ HoundoomEvosAttacks:
 	db 7, ROAR
 	db 13, POISON_GAS
 	db 20, BITE
-	db 30, FAINT_ATTACK
+	db 30, FEINT_ATTACK
 	db 41, FLAMETHROWER
 	db 52, CRUNCH
 	db 0 ; no more level-up moves

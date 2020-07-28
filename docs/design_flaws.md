@@ -356,7 +356,7 @@ NUM_TMS EQU const_value - TM01 - 2 ; discount ITEM_C3 and ITEM_DC
 > - $1E = 30: `LUCKY_PUNCH` is for Chansey
 > - $23 = 35: `METAL_POWDER` is for Ditto
 > - $3C = 60: `SILVER_LEAF` is for 10 Pokémon
-> - $4B = 75: `GOLD_LEAF` is for 13 Pokémon
+> - $4B = 75: `BIG_NUGGET` is for 13 Pokémon
 > - $96 = 150: `MYSTERYBERRY` is for Clefairy
 > - $AA = 170: `PINK_BOW` is for Jigglypuff
 > - $B4 = 180: `BRICK_PIECE` is for Machop
