@@ -4,7 +4,6 @@
 * Different animations for different types for some attacks (Lock-On / Mind Reader | Protect / Detect)
 * Update trapping moves' effect.
 * Smarter double stat rise.
-* Shell Smash reducing stats properly.
 * Pokédex Weight / Height in metric units.
 
 # Missing Maps
