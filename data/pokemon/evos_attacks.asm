@@ -432,15 +432,17 @@ PikachuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, GROWL
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
-	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
-	db 41, THUNDER
-	db 50, LIGHT_SCREEN
+	db 5, TAIL_WHIP
+	db 10, THUNDER_WAVE
+	db 13, QUICK_ATTACK
+	db 18, DOUBLE_TEAM
+	db 21, SLAM
+	db 25, THUNDERBOLT
+	db 29, FAKE_OUT
+	db 34, AGILITY
+	db 37, SUBMISSION
+	db 42, LIGHT_SCREEN
+	db 45, THUNDER
 	db 0 ; no more level-up moves
 
 RaichuEvosAttacks:
@@ -455,13 +457,20 @@ SandshrewEvosAttacks:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 6, DEFENSE_CURL
-	db 11, SAND_ATTACK
-	db 17, POISON_STING
-	db 23, SLASH
-	db 30, SWIFT
-	db 37, FURY_SWIPES
-	db 45, SANDSTORM
+	db 3, DEFENSE_CURL
+	db 7, SAND_ATTACK
+	db 9, POISON_STING
+	db 11, SWIFT
+	db 13, FURY_SWIPES
+	db 15, ROLLOUT
+	db 19, DIG
+	db 21, RAPID_SPIN
+	db 25, SLASH
+	db 27, FURY_CUTTER
+	db 31, DRILL_RUN
+	db 33, SANDSTORM
+	db 37, SWORDS_DANCE
+	db 40, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
@@ -469,13 +478,20 @@ SandslashEvosAttacks:
 	db 1, SCRATCH
 	db 1, DEFENSE_CURL
 	db 1, SAND_ATTACK
-	db 6, DEFENSE_CURL
-	db 11, SAND_ATTACK
-	db 17, POISON_STING
+	db 3, DEFENSE_CURL
+	db 7, SAND_ATTACK
+	db 9, POISON_STING
+	db 11, SWIFT
+	db 13, FURY_SWIPES
+	db 15, ROLLOUT
+	db 19, DIG
+	db 20, RAPID_SPIN
 	db 21, SLASH
-	db 33, SWIFT
-	db 42, FURY_SWIPES
-	db 52, SANDSTORM
+	db 28, FURY_CUTTER
+	db 33, DRILL_RUN
+	db 37, SANDSTORM
+	db 41, SWORDS_DANCE
+	db 48, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
