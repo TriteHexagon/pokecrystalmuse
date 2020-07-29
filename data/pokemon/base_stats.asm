@@ -13,7 +13,7 @@ _tms2 = _tms2 | (1 << ((\1_TMNUM) - 1 - 24))
 	elif \1_TMNUM < 72 + 1
 _tms3 = _tms3 | (1 << ((\1_TMNUM) - 1 - 48))
 	else
-_tms4 = _tms3 | (1 << ((\1_TMNUM) - 1 - 72))
+_tms4 = _tms4 | (1 << ((\1_TMNUM) - 1 - 72))
 	endc
 	else
 		fail "\1 is not a TM, HM, or move tutor move"
@@ -32,7 +32,7 @@ rept 3 ; TM49-TM50 + HM01-HM07 + MT01-MT15
 	db _tms3 & $ff
 _tms3 = _tms3 >> 8
 endr
-rept 1 ; MT16-MT31
+rept 1 ; MT16-MT31 adding the next byte corrupts the pokémon pics
 	db _tms4 & $ff
 _tms4 = _tms4 >> 8
 endr
