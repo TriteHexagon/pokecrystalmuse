@@ -410,7 +410,13 @@ RestartMapMusic::
 	ld de, MUSIC_NONE
 	call PlayMusic
 	call DelayFrame
+	;new code
 	ld a, [wMapMusic]
+	ld c, a
+	call ChangeMusicIfNight
+	ld a, c
+	;old code
+	;ld a, [wMapMusic]
 	ld e, a
 	ld d, 0
 	call PlayMusic
@@ -464,7 +470,6 @@ GetMapMusic_MaybeSpecial::
 	call SpecialMapMusic
 	ret c
 	jp GetMapMusic ; puts music name into [wMapMusic]
-	;call ChangeToNightMusic
 
 PlaceBCDNumberSprite:: ; unreferenced
 ; Places a BCD number at the upper center of the screen.

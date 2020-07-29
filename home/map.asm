@@ -2200,9 +2200,7 @@ GetMapMusic::
 	ld de, MAP_MUSIC
 	call GetMapField
 	;new code
- 	ld a, [wTimeOfDay]
-  	cp NITE_F
- 	call z, ChangeMusicIfNight
+ 	call ChangeMusicIfNight
 	;end new code
 	ld a, c
 	cp MUSIC_MAHOGANY_MART
@@ -2250,6 +2248,9 @@ ChangeMusicIfNight::
 
 ; inputs: c -> music constant to be changed
 ; outputs: c -> changed music constant
+	ld a, [wTimeOfDay]
+  	cp NITE_F
+	ret nz
 	ld hl, NightMusicTable
 .loop
     ld a, [hli]
