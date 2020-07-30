@@ -498,61 +498,78 @@ NidoranFEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
+	db 1, SCRATCH
+	db 3, TAIL_WHIP
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_SWIPES
+	db 15, BITE
+	db 18, POISON_FANG
+	db 21, TOXIC
+	db 24, CRUNCH
+	db 27, SUPER_FANG
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, TAIL_WHIP
-	db 36, BITE
-	db 46, FURY_SWIPES
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 1, POISON_STING
+	db 3, TAIL_WHIP
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_SWIPES
+	db 15, BITE
+	db 21, POISON_FANG
+	db 24, TOXIC
+	db 27, CRUNCH
+	db 30, SUPER_FANG
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, BODY_SLAM
 	db 1, SCRATCH
 	db 1, DOUBLE_KICK
 	db 1, TAIL_WHIP
-	db 23, BODY_SLAM
+	db 36, EARTH_POWER
+	db 46, SUBMISSION
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, TACKLE
-	db 8, SMART_STRIKE
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 30, FURY_ATTACK
-	db 38, TRANSFORM
+	db 1, PECK
+	db 3, FOCUS_ENERGY
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_ATTACK
+	db 15, SMART_STRIKE
+	db 18, COUNTER
+	db 21, TOXIC
+	db 24, POISON_JAB
+	db 27, DRILL_PECK
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, TACKLE
-	db 8, SMART_STRIKE
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, FOCUS_ENERGY
-	db 36, FURY_ATTACK
-	db 46, TRANSFORM
+	db 1, PECK
+	db 1, FOCUS_ENERGY
+	db 1, POISON_STING
+	db 3, FOCUS_ENERGY
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_ATTACK
+	db 15, SMART_STRIKE
+	db 21, COUNTER
+	db 24, TOXIC
+	db 27, POISON_JAB
+	db 30, DRILL_PECK
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:
