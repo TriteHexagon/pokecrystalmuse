@@ -534,6 +534,7 @@ NidoqueenEvosAttacks:
 	db 1, SCRATCH
 	db 1, DOUBLE_KICK
 	db 1, TAIL_WHIP
+	db 1, POISON_STING
 	db 36, EARTH_POWER
 	db 46, SUBMISSION
 	db 0 ; no more level-up moves
@@ -574,11 +575,13 @@ NidorinoEvosAttacks:
 
 NidokingEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SMART_STRIKE
-	db 1, DOUBLE_KICK
+	db 1, THRASH
+	db 1, PECK
+	db 1, FOCUS_ENERGY
 	db 1, POISON_STING
-	db 23, THRASH
+	db 1, DOUBLE_KICK
+	db 36, DRILL_RUN
+	db 46, MEGAHORN
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
@@ -586,15 +589,17 @@ ClefairyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
-	db 4, ENCORE
-	db 8, SING
-	db 13, DOUBLESLAP
-	db 19, MINIMIZE
-	db 26, DEFENSE_CURL
-	db 34, METRONOME
-	db 43, MOONLIGHT
-	db 46, MOONBLAST
-	db 53, LIGHT_SCREEN
+	db 4, DEFENSE_CURL
+	db 6, SING
+	db 10, DOUBLESLAP
+	db 12, MINIMIZE
+	db 16, DRAINING_KISS
+	db 18, METRONOME
+	db 22, ENCORE
+	db 24, BODY_SLAM
+	db 28, MOONLIGHT
+	db 31, MOONBLAST
+	db 34, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 ClefableEvosAttacks:
@@ -603,7 +608,6 @@ ClefableEvosAttacks:
 	db 1, SING
 	db 1, DOUBLESLAP
 	db 1, MOONLIGHT
-	db 1, MOONBLAST
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
