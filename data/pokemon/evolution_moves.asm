@@ -29,12 +29,12 @@ EvolutionMoves::
     db SLASH        ;Sandslash
     db NO_MOVE      ;Nidoran♀
     db NO_MOVE      ;Nidorina
-    db NO_MOVE      ;Nidoqueen
+    db BODY_SLAM    ;Nidoqueen
     db NO_MOVE      ;Nidoran♂
     db NO_MOVE      ;Nidorino
-    db NO_MOVE      ;Nidoking
+    db THRASH       ;Nidoking
     db NO_MOVE      ;Clefairy
-    db MOONBLAST    ;Clefable
+    db METRONOME    ;Clefable
     db NO_MOVE      ;Vulpix
     db SHADOW_BALL  ;Ninetales
     db NO_MOVE      ;Jigglypuff
@@ -137,7 +137,7 @@ EvolutionMoves::
     db EMBER        ;Flareon
     db NO_MOVE      ;Porygon
     db NO_MOVE      ;Omanyte
-    db PIN_MISSILE ;Omastar
+    db PIN_MISSILE  ;Omastar
     db NO_MOVE      ;Kabuto
     db SLASH        ;Kabutops
     db NO_MOVE      ;Aerodactyl
