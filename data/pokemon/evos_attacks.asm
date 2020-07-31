@@ -615,12 +615,16 @@ VulpixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, ROAR
-	db 19, CONFUSE_RAY
-	db 25, SAFEGUARD
-	db 31, FLAMETHROWER
-	db 37, FIRE_SPIN
+	db 4, QUICK_ATTACK
+	db 7, ROAR
+	db 14, WILL_O_WISP
+	db 17, CONFUSE_RAY
+	db 21, FIRE_SPIN
+	db 24, HEX
+	db 27, FLAMETHROWER
+	db 31, SPITE
+	db 34, FUTURE_SIGHT
+	db 37, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -629,21 +633,24 @@ NinetalesEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, CONFUSE_RAY
 	db 1, SAFEGUARD
-	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
 	db 0 ; no more evolutions
 	db 1, SING
-	db 4, DEFENSE_CURL
-	db 9, POUND
-	db 14, DISABLE
-	db 19, ROLLOUT
-	db 24, DOUBLESLAP
-	db 29, REST
-	db 34, BODY_SLAM
-	db 39, DOUBLE_EDGE
+	db 3, POUND
+	db 5, DEFENSE_CURL
+	db 9, FAIRY_WIND
+	db 11, DISABLE
+	db 14, DOUBLESLAP
+	db 17, ROLLOUT
+	db 22, SWIFT
+	db 25, REST
+	db 27, BODY_SLAM
+	db 30, MIMIC
+	db 32, HYPER_VOICE
+	db 35, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 WigglytuffEvosAttacks:
@@ -652,6 +659,7 @@ WigglytuffEvosAttacks:
 	db 1, DISABLE
 	db 1, DEFENSE_CURL
 	db 1, DOUBLESLAP
+	db 36, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
