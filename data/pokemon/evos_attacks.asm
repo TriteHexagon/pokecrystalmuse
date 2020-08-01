@@ -665,40 +665,55 @@ WigglytuffEvosAttacks:
 ZubatEvosAttacks:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0 ; no more evolutions
-	db 1, LEECH_LIFE
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 27, WING_ATTACK
-	db 36, MEAN_LOOK
-	db 46, HAZE
+	db 1, ABSORB
+	db 5, SUPERSONIC
+	db 10, BITE
+	db 13, WING_ATTACK
+	db 17, CONFUSE_RAY
+	db 19, SWIFT
+	db 23, POISON_FANG
+	db 25, MEAN_LOOK 
+	db 29, LEECH_LIFE
+	db 31, HAZE
+	db 35, VENOSHOCK
+	db 37, AIR_SLASH
 	db 0 ; no more level-up moves
 
 GolbatEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
 	db 0 ; no more evolutions
-	db 1, SCREECH
-	db 1, LEECH_LIFE
+	db 1, ABSORB
 	db 1, SUPERSONIC
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 30, WING_ATTACK
-	db 42, MEAN_LOOK
-	db 55, HAZE
+	db 1, BITE
+	db 5, SUPERSONIC
+	db 10, BITE
+	db 13, WING_ATTACK
+	db 17, CONFUSE_RAY
+	db 19, SWIFT
+	db 21, SCREECH
+	db 24, POISON_FANG
+	db 27, MEAN_LOOK 
+	db 31, LEECH_LIFE
+	db 36, HAZE
+	db 40, VENOSHOCK
+	db 45, AIR_SLASH
 	db 0 ; no more level-up moves
 
 OddishEvosAttacks:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 7, SWEET_SCENT
-	db 14, POISONPOWDER
-	db 16, STUN_SPORE
-	db 18, SLEEP_POWDER
-	db 23, ACID
-	db 32, MOONLIGHT
-	db 39, PETAL_DANCE
+	db 1, GROWTH
+	db 4, SWEET_SCENT
+	db 8, ACID
+	db 10, MEGA_DRAIN
+	db 12, POISONPOWDER
+	db 13, STUN_SPORE
+	db 14, SLEEP_POWDER
+	db 18, RAZOR_LEAF
+	db 22, GIGA_DRAIN
+	db 26, MOONLIGHT
+	db 30, MOONBLAST
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -706,23 +721,31 @@ GloomEvosAttacks:
 	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
+	db 1, GROWTH
 	db 1, SWEET_SCENT
 	db 1, POISONPOWDER
-	db 7, SWEET_SCENT
-	db 14, POISONPOWDER
-	db 16, STUN_SPORE
-	db 18, SLEEP_POWDER
-	db 24, ACID
-	db 35, MOONLIGHT
-	db 44, PETAL_DANCE
+	db 4, SWEET_SCENT
+	db 8, ACID
+	db 10, MEGA_DRAIN
+	db 12, POISONPOWDER
+	db 13, STUN_SPORE
+	db 14, SLEEP_POWDER
+	db 18, RAZOR_LEAF
+	db 26, GIGA_DRAIN
+	db 30, TOXIC
+	db 35, MOONBLAST
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DARK_PULSE
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 36, NIGHT_SHADE
+	db 40, MOONLIGHT
+	db 45, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -2449,14 +2472,20 @@ AriadosEvosAttacks:
 CrobatEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCREECH
-	db 1, LEECH_LIFE
+	db 1, ABSORB
 	db 1, SUPERSONIC
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 30, WING_ATTACK
-	db 42, MEAN_LOOK
-	db 55, HAZE
+	db 1, BITE
+	db 5, SUPERSONIC
+	db 10, BITE
+	db 13, WING_ATTACK
+	db 17, CONFUSE_RAY
+	db 19, SWIFT
+	db 24, POISON_FANG
+	db 27, MEAN_LOOK 
+	db 31, LEECH_LIFE
+	db 36, HAZE
+	db 40, VENOSHOCK
+	db 45, AIR_SLASH
 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:
@@ -2605,11 +2634,16 @@ AmpharosEvosAttacks:
 
 BellossomEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DAZZLINGLEAM
+	db 1, SUNNY_DAY
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
-	db 1, PETAL_DANCE
-	db 55, SOLARBEAM
+	db 1, SOLARBEAM
+	db 36, SUNNY_DAY
+	db 40, MORNING_SUN
+	db 45, SOLARBEAM
+	db 49, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
