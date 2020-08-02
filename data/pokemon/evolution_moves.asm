@@ -49,7 +49,7 @@ EvolutionMoves::
     db NO_MOVE      ;Venonat
     db GUST         ;Venomoth
     db NO_MOVE      ;Diglett
-    db NO_MOVE      ;Dugtrio
+    db TRI_ATTACK   ;Dugtrio
     db NO_MOVE      ;Meowth
     db CRUNCH       ;Persian
     db NO_MOVE      ;Psyduck
