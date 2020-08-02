@@ -752,27 +752,39 @@ ParasEvosAttacks:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 7, STUN_SPORE
-	db 13, POISONPOWDER
-	db 19, LEECH_LIFE
-	db 25, SPORE
-	db 31, SLASH
-	db 37, GROWTH
-	db 43, GIGA_DRAIN
+	db 2, ABSORB
+	db 4, STUN_SPORE
+	db 6, POISONPOWDER
+	db 9, MEGA_DRAIN
+	db 12, FURY_SWIPES
+	db 15, GROWTH
+	db 19, FURY_CUTTER
+	db 24, SPORE
+	db 27, SLASH
+	db 31, GIGA_DRAIN
+	db 35, LEECH_LIFE
+	db 39, SEED_BOMB
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LEECH_SEED
 	db 1, SCRATCH
+	db 1, ABSORB
 	db 1, STUN_SPORE
 	db 1, POISONPOWDER
-	db 7, STUN_SPORE
-	db 13, POISONPOWDER
-	db 19, LEECH_LIFE
-	db 28, SPORE
-	db 37, SLASH
-	db 46, GROWTH
-	db 55, GIGA_DRAIN
+	db 2, ABSORB
+	db 4, STUN_SPORE
+	db 6, POISONPOWDER
+	db 9, MEGA_DRAIN
+	db 12, FURY_SWIPES
+	db 15, GROWTH
+	db 19, FURY_CUTTER
+	db 24, SPORE
+	db 28, SLASH
+	db 33, GIGA_DRAIN
+	db 38, LEECH_LIFE
+	db 43, SEED_BOMB
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
@@ -781,13 +793,16 @@ VenonatEvosAttacks:
 	db 1, TACKLE
 	db 1, DISABLE
 	db 1, FORESIGHT
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 33, PSYBEAM
-	db 36, SLEEP_POWDER
+	db 5, SUPERSONIC
+	db 9, CONFUSION
+	db 13, POISONPOWDER
+	db 17, PSYBEAM
+	db 20, POISON_FANG
+	db 23, STUN_SPORE
+	db 25, ZEN_HEADBUTT
+	db 29, LEECH_LIFE
+	db 33, SIGNAL_BEAM
+	db 37, SLEEP_POWDER
 	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
@@ -797,43 +812,60 @@ VenomothEvosAttacks:
 	db 1, DISABLE
 	db 1, FORESIGHT
 	db 1, SUPERSONIC
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
+	db 5, SUPERSONIC
+	db 9, CONFUSION
+	db 13, POISONPOWDER
+	db 17, PSYBEAM
+	db 20, POISON_FANG
+	db 23, STUN_SPORE
+	db 25, ZEN_HEADBUTT
+	db 29, LEECH_LIFE
 	db 30, GUST
-	db 36, PSYBEAM
-	db 42, SLEEP_POWDER
-	db 52, PSYCHIC_M
+	db 34, SIGNAL_BEAM
+	db 39, SLEEP_POWDER
+	db 44, PSYCHIC_M
+	db 48, BUG_BUZZ
+	db 53, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:
 	db EVOLVE_LEVEL, 26, DUGTRIO
 	db 0 ; no more evolutions
+	db 1, SAND_ATTACK
 	db 1, SCRATCH
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 33, SLASH
-	db 41, EARTHQUAKE
-	db 49, TRANSFORM
+	db 4, GROWL
+	db 7, PURSUIT
+	db 9, MUD_SLAP
+	db 12, MAGNITUDE
+	db 14, FURY_SWIPES
+	db 16, METAL_CLAW
+	db 18, DIG
+	db 21, SLASH
+	db 25, EARTH_POWER
+	db 29, BEAT_UP
+	db 33, IRON_HEAD
+	db 37, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 DugtrioEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRI_ATTACK
+	db 1, SAND_ATTACK
 	db 1, SCRATCH
 	db 1, GROWL
 	db 1, MAGNITUDE
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 37, SLASH
-	db 49, EARTHQUAKE
-	db 61, TRANSFORM
+	db 4, GROWL
+	db 7, PURSUIT
+	db 9, MUD_SLAP
+	db 12, MAGNITUDE
+	db 14, FURY_SWIPES
+	db 16, METAL_CLAW
+	db 18, DIG
+	db 21, SLASH
+	db 25, EARTH_POWER
+	db 25, TRI_ATTACK
+	db 31, BEAT_UP
+	db 36, IRON_HEAD
+	db 41, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
