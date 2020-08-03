@@ -51,11 +51,11 @@ EvolutionMoves::
     db NO_MOVE      ;Diglett
     db TRI_ATTACK   ;Dugtrio
     db NO_MOVE      ;Meowth
-    db CRUNCH       ;Persian
+    db NO_MOVE      ;Persian
     db NO_MOVE      ;Psyduck
     db NO_MOVE      ;Golduck
     db NO_MOVE      ;Mankey
-    db FURY_ATTACK  ;Primeape
+    db THRASH       ;Primeape
     db NO_MOVE      ;Growlithe
     db NO_MOVE      ;Arcanine
     db NO_MOVE      ;Poliwag
