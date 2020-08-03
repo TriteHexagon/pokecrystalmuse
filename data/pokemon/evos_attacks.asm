@@ -950,14 +950,20 @@ MankeyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, DOUBLE_KICK
-	db 15, TRANSFORM
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 33, SEISMIC_TOSS
-	db 39, CROSS_CHOP
-	db 45, SCREECH
-	db 51, THRASH
+	db 1, DOUBLE_KICK
+	db 1, FOCUS_ENERGY
+	db 5, FURY_SWIPES
+	db 9, SEISMIC_TOSS
+	db 12, PURSUIT
+	db 15, ROCK_SMASH
+	db 19, WORK_UP
+	db 22, THIEF
+	db 26, SWAGGER
+	db 29, BEAT_UP
+	db 33, CROSS_CHOP
+	db 36, SCREECH
+	db 40, BONEMERANG
+	db 43, OUTRAGE
 	db 0 ; no more level-up moves
 
 PrimeapeEvosAttacks:
@@ -965,16 +971,20 @@ PrimeapeEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, DOUBLE_KICK
-	db 1, FURY_ATTACK
-	db 9, DOUBLE_KICK
-	db 15, TRANSFORM
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 27, FURY_ATTACK
-	db 36, SEISMIC_TOSS
-	db 45, CROSS_CHOP
-	db 54, SCREECH
-	db 63, THRASH
+	db 1, FOCUS_ENERGY
+	db 5, FURY_SWIPES
+	db 9, SEISMIC_TOSS
+	db 12, PURSUIT
+	db 15, ROCK_SMASH
+	db 19, WORK_UP
+	db 22, THIEF
+	db 26, SWAGGER
+	db 27, THRASH
+	db 30, BEAT_UP
+	db 35, CROSS_CHOP
+	db 39, SCREECH
+	db 43, BONEMERANG
+	db 48, OUTRAGE
 	db 0 ; no more level-up moves
 
 GrowlitheEvosAttacks:
