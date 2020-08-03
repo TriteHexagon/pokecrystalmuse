@@ -2241,27 +2241,6 @@ GetMapMusic::
 	ld de, MUSIC_CHERRYGROVE_CITY
 	jr .done
 
-ChangeMusicIfNight::
-; changes the music constant in c to another according to a table
-; each table row has 2 elements: 1st is original music constant, 2nd is modified song
-; called only if wTimeofDay is NITE
-
-; inputs: c -> music constant to be changed
-; outputs: c -> changed music constant
-	ld a, [wTimeOfDay]
-  	cp NITE_F
-	ret nz
-	ld hl, NightMusicTable
-.loop
-    ld a, [hli]
-    cp -1
-    ret z
-    cp c
-    ld a, [hli]
-    jr nz, .loop
-    ld c, a
-    ret
-
 GetMapTimeOfDay::
 	call GetPhoneServiceTimeOfDayByte
 	and $f
@@ -2326,3 +2305,24 @@ rept 16
 	nop
 endr
 	ret
+
+ChangeMusicIfNight::
+; changes the music constant in c to another according to a table
+; each table row has 2 elements: 1st is original music constant, 2nd is modified song
+; called only if wTimeofDay is NITE
+
+; inputs: c -> music constant to be changed
+; outputs: c -> changed music constant
+	ld a, [wTimeOfDay]
+  	cp NITE_F
+	ret nz
+	ld hl, NightMusicTable
+.loop
+    ld a, [hli]
+    cp -1
+    ret z
+    cp c
+    ld a, [hli]
+    jr nz, .loop
+    ld c, a
+    ret
