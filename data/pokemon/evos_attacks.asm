@@ -498,70 +498,90 @@ NidoranFEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
+	db 1, SCRATCH
+	db 3, TAIL_WHIP
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_SWIPES
+	db 15, BITE
+	db 18, POISON_FANG
+	db 21, TOXIC
+	db 24, CRUNCH
+	db 27, SUPER_FANG
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, TAIL_WHIP
-	db 36, BITE
-	db 46, FURY_SWIPES
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 1, POISON_STING
+	db 3, TAIL_WHIP
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_SWIPES
+	db 15, BITE
+	db 21, POISON_FANG
+	db 24, TOXIC
+	db 27, CRUNCH
+	db 30, SUPER_FANG
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, BODY_SLAM
 	db 1, SCRATCH
 	db 1, DOUBLE_KICK
 	db 1, TAIL_WHIP
-	db 23, BODY_SLAM
+	db 1, POISON_STING
+	db 36, EARTH_POWER
+	db 46, SUBMISSION
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, TACKLE
-	db 8, SMART_STRIKE
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 30, FURY_ATTACK
-	db 38, TRANSFORM
+	db 1, PECK
+	db 3, FOCUS_ENERGY
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_ATTACK
+	db 15, SMART_STRIKE
+	db 18, COUNTER
+	db 21, TOXIC
+	db 24, POISON_JAB
+	db 27, DRILL_PECK
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, TACKLE
-	db 8, SMART_STRIKE
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, FOCUS_ENERGY
-	db 36, FURY_ATTACK
-	db 46, TRANSFORM
+	db 1, PECK
+	db 1, FOCUS_ENERGY
+	db 1, POISON_STING
+	db 3, FOCUS_ENERGY
+	db 6, POISON_STING
+	db 9, DOUBLE_KICK
+	db 12, FURY_ATTACK
+	db 15, SMART_STRIKE
+	db 21, COUNTER
+	db 24, TOXIC
+	db 27, POISON_JAB
+	db 30, DRILL_PECK
 	db 0 ; no more level-up moves
 
 NidokingEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SMART_STRIKE
-	db 1, DOUBLE_KICK
+	db 1, THRASH
+	db 1, PECK
+	db 1, FOCUS_ENERGY
 	db 1, POISON_STING
-	db 23, THRASH
+	db 1, DOUBLE_KICK
+	db 36, DRILL_RUN
+	db 46, MEGAHORN
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
@@ -569,15 +589,17 @@ ClefairyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
-	db 4, ENCORE
-	db 8, SING
-	db 13, DOUBLESLAP
-	db 19, MINIMIZE
-	db 26, DEFENSE_CURL
-	db 34, METRONOME
-	db 43, MOONLIGHT
-	db 46, MOONBLAST
-	db 53, LIGHT_SCREEN
+	db 4, DEFENSE_CURL
+	db 6, SING
+	db 10, DOUBLESLAP
+	db 12, MINIMIZE
+	db 16, DRAINING_KISS
+	db 18, METRONOME
+	db 22, ENCORE
+	db 24, BODY_SLAM
+	db 28, MOONLIGHT
+	db 31, MOONBLAST
+	db 34, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
 ClefableEvosAttacks:
@@ -586,7 +608,6 @@ ClefableEvosAttacks:
 	db 1, SING
 	db 1, DOUBLESLAP
 	db 1, MOONLIGHT
-	db 1, MOONBLAST
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -594,12 +615,16 @@ VulpixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, ROAR
-	db 19, CONFUSE_RAY
-	db 25, SAFEGUARD
-	db 31, FLAMETHROWER
-	db 37, FIRE_SPIN
+	db 4, QUICK_ATTACK
+	db 7, ROAR
+	db 14, WILL_O_WISP
+	db 17, CONFUSE_RAY
+	db 21, FIRE_SPIN
+	db 24, HEX
+	db 27, FLAMETHROWER
+	db 31, SPITE
+	db 34, FUTURE_SIGHT
+	db 37, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -608,21 +633,24 @@ NinetalesEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, CONFUSE_RAY
 	db 1, SAFEGUARD
-	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, WIGGLYTUFF
 	db 0 ; no more evolutions
 	db 1, SING
-	db 4, DEFENSE_CURL
-	db 9, POUND
-	db 14, DISABLE
-	db 19, ROLLOUT
-	db 24, DOUBLESLAP
-	db 29, REST
-	db 34, BODY_SLAM
-	db 39, DOUBLE_EDGE
+	db 3, POUND
+	db 5, DEFENSE_CURL
+	db 9, FAIRY_WIND
+	db 11, DISABLE
+	db 14, DOUBLESLAP
+	db 17, ROLLOUT
+	db 22, SWIFT
+	db 25, REST
+	db 27, BODY_SLAM
+	db 30, MIMIC
+	db 32, HYPER_VOICE
+	db 35, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 WigglytuffEvosAttacks:
@@ -631,45 +659,61 @@ WigglytuffEvosAttacks:
 	db 1, DISABLE
 	db 1, DEFENSE_CURL
 	db 1, DOUBLESLAP
+	db 36, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0 ; no more evolutions
-	db 1, LEECH_LIFE
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 27, WING_ATTACK
-	db 36, MEAN_LOOK
-	db 46, HAZE
+	db 1, ABSORB
+	db 5, SUPERSONIC
+	db 10, BITE
+	db 13, WING_ATTACK
+	db 17, CONFUSE_RAY
+	db 19, SWIFT
+	db 23, POISON_FANG
+	db 25, MEAN_LOOK 
+	db 29, LEECH_LIFE
+	db 31, HAZE
+	db 35, VENOSHOCK
+	db 37, AIR_SLASH
 	db 0 ; no more level-up moves
 
 GolbatEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
 	db 0 ; no more evolutions
-	db 1, SCREECH
-	db 1, LEECH_LIFE
+	db 1, ABSORB
 	db 1, SUPERSONIC
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 30, WING_ATTACK
-	db 42, MEAN_LOOK
-	db 55, HAZE
+	db 1, BITE
+	db 5, SUPERSONIC
+	db 10, BITE
+	db 13, WING_ATTACK
+	db 17, CONFUSE_RAY
+	db 19, SWIFT
+	db 21, SCREECH
+	db 24, POISON_FANG
+	db 27, MEAN_LOOK 
+	db 31, LEECH_LIFE
+	db 36, HAZE
+	db 40, VENOSHOCK
+	db 45, AIR_SLASH
 	db 0 ; no more level-up moves
 
 OddishEvosAttacks:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 7, SWEET_SCENT
-	db 14, POISONPOWDER
-	db 16, STUN_SPORE
-	db 18, SLEEP_POWDER
-	db 23, ACID
-	db 32, MOONLIGHT
-	db 39, PETAL_DANCE
+	db 1, GROWTH
+	db 4, SWEET_SCENT
+	db 8, ACID
+	db 10, MEGA_DRAIN
+	db 12, POISONPOWDER
+	db 13, STUN_SPORE
+	db 14, SLEEP_POWDER
+	db 18, RAZOR_LEAF
+	db 22, GIGA_DRAIN
+	db 26, MOONLIGHT
+	db 30, MOONBLAST
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -677,50 +721,70 @@ GloomEvosAttacks:
 	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
 	db 0 ; no more evolutions
 	db 1, ABSORB
+	db 1, GROWTH
 	db 1, SWEET_SCENT
 	db 1, POISONPOWDER
-	db 7, SWEET_SCENT
-	db 14, POISONPOWDER
-	db 16, STUN_SPORE
-	db 18, SLEEP_POWDER
-	db 24, ACID
-	db 35, MOONLIGHT
-	db 44, PETAL_DANCE
+	db 4, SWEET_SCENT
+	db 8, ACID
+	db 10, MEGA_DRAIN
+	db 12, POISONPOWDER
+	db 13, STUN_SPORE
+	db 14, SLEEP_POWDER
+	db 18, RAZOR_LEAF
+	db 26, GIGA_DRAIN
+	db 30, TOXIC
+	db 35, MOONBLAST
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DARK_PULSE
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
 	db 1, PETAL_DANCE
+	db 36, NIGHT_SHADE
+	db 40, MOONLIGHT
+	db 45, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 7, STUN_SPORE
-	db 13, POISONPOWDER
-	db 19, LEECH_LIFE
-	db 25, SPORE
-	db 31, SLASH
-	db 37, GROWTH
-	db 43, GIGA_DRAIN
+	db 2, ABSORB
+	db 4, STUN_SPORE
+	db 6, POISONPOWDER
+	db 9, MEGA_DRAIN
+	db 12, FURY_SWIPES
+	db 15, GROWTH
+	db 19, FURY_CUTTER
+	db 24, SPORE
+	db 27, SLASH
+	db 31, GIGA_DRAIN
+	db 35, LEECH_LIFE
+	db 39, SEED_BOMB
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LEECH_SEED
 	db 1, SCRATCH
+	db 1, ABSORB
 	db 1, STUN_SPORE
 	db 1, POISONPOWDER
-	db 7, STUN_SPORE
-	db 13, POISONPOWDER
-	db 19, LEECH_LIFE
-	db 28, SPORE
-	db 37, SLASH
-	db 46, GROWTH
-	db 55, GIGA_DRAIN
+	db 2, ABSORB
+	db 4, STUN_SPORE
+	db 6, POISONPOWDER
+	db 9, MEGA_DRAIN
+	db 12, FURY_SWIPES
+	db 15, GROWTH
+	db 19, FURY_CUTTER
+	db 24, SPORE
+	db 28, SLASH
+	db 33, GIGA_DRAIN
+	db 38, LEECH_LIFE
+	db 43, SEED_BOMB
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
@@ -729,13 +793,16 @@ VenonatEvosAttacks:
 	db 1, TACKLE
 	db 1, DISABLE
 	db 1, FORESIGHT
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 33, PSYBEAM
-	db 36, SLEEP_POWDER
+	db 5, SUPERSONIC
+	db 9, CONFUSION
+	db 13, POISONPOWDER
+	db 17, PSYBEAM
+	db 20, POISON_FANG
+	db 23, STUN_SPORE
+	db 25, ZEN_HEADBUTT
+	db 29, LEECH_LIFE
+	db 33, SIGNAL_BEAM
+	db 37, SLEEP_POWDER
 	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
@@ -745,43 +812,60 @@ VenomothEvosAttacks:
 	db 1, DISABLE
 	db 1, FORESIGHT
 	db 1, SUPERSONIC
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
+	db 5, SUPERSONIC
+	db 9, CONFUSION
+	db 13, POISONPOWDER
+	db 17, PSYBEAM
+	db 20, POISON_FANG
+	db 23, STUN_SPORE
+	db 25, ZEN_HEADBUTT
+	db 29, LEECH_LIFE
 	db 30, GUST
-	db 36, PSYBEAM
-	db 42, SLEEP_POWDER
-	db 52, PSYCHIC_M
+	db 34, SIGNAL_BEAM
+	db 39, SLEEP_POWDER
+	db 44, PSYCHIC_M
+	db 48, BUG_BUZZ
+	db 53, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
 DiglettEvosAttacks:
 	db EVOLVE_LEVEL, 26, DUGTRIO
 	db 0 ; no more evolutions
+	db 1, SAND_ATTACK
 	db 1, SCRATCH
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 33, SLASH
-	db 41, EARTHQUAKE
-	db 49, TRANSFORM
+	db 4, GROWL
+	db 7, PURSUIT
+	db 9, MUD_SLAP
+	db 12, MAGNITUDE
+	db 14, FURY_SWIPES
+	db 16, METAL_CLAW
+	db 18, DIG
+	db 21, SLASH
+	db 25, EARTH_POWER
+	db 29, BEAT_UP
+	db 33, IRON_HEAD
+	db 37, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 DugtrioEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRI_ATTACK
+	db 1, SAND_ATTACK
 	db 1, SCRATCH
 	db 1, GROWL
 	db 1, MAGNITUDE
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 37, SLASH
-	db 49, EARTHQUAKE
-	db 61, TRANSFORM
+	db 4, GROWL
+	db 7, PURSUIT
+	db 9, MUD_SLAP
+	db 12, MAGNITUDE
+	db 14, FURY_SWIPES
+	db 16, METAL_CLAW
+	db 18, DIG
+	db 21, SLASH
+	db 25, EARTH_POWER
+	db 25, TRI_ATTACK
+	db 31, BEAT_UP
+	db 36, IRON_HEAD
+	db 41, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
@@ -2420,14 +2504,20 @@ AriadosEvosAttacks:
 CrobatEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCREECH
-	db 1, LEECH_LIFE
+	db 1, ABSORB
 	db 1, SUPERSONIC
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 30, WING_ATTACK
-	db 42, MEAN_LOOK
-	db 55, HAZE
+	db 1, BITE
+	db 5, SUPERSONIC
+	db 10, BITE
+	db 13, WING_ATTACK
+	db 17, CONFUSE_RAY
+	db 19, SWIFT
+	db 24, POISON_FANG
+	db 27, MEAN_LOOK 
+	db 31, LEECH_LIFE
+	db 36, HAZE
+	db 40, VENOSHOCK
+	db 45, AIR_SLASH
 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:
@@ -2576,11 +2666,16 @@ AmpharosEvosAttacks:
 
 BellossomEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DAZZLINGLEAM
+	db 1, SUNNY_DAY
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
-	db 1, PETAL_DANCE
-	db 55, SOLARBEAM
+	db 1, SOLARBEAM
+	db 36, SUNNY_DAY
+	db 40, MORNING_SUN
+	db 45, SOLARBEAM
+	db 49, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:

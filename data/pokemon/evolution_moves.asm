@@ -29,27 +29,27 @@ EvolutionMoves::
     db SLASH        ;Sandslash
     db NO_MOVE      ;Nidoran♀
     db NO_MOVE      ;Nidorina
-    db NO_MOVE      ;Nidoqueen
+    db BODY_SLAM    ;Nidoqueen
     db NO_MOVE      ;Nidoran♂
     db NO_MOVE      ;Nidorino
-    db NO_MOVE      ;Nidoking
+    db THRASH       ;Nidoking
     db NO_MOVE      ;Clefairy
-    db MOONBLAST    ;Clefable
+    db METRONOME    ;Clefable
     db NO_MOVE      ;Vulpix
-    db SHADOW_BALL  ;Ninetales
+    db NO_MOVE      ;Ninetales
     db NO_MOVE      ;Jigglypuff
     db NO_MOVE      ;Wigglytuff
     db NO_MOVE      ;Zubat
-    db NO_MOVE      ;Golbat
+    db SCREECH      ;Golbat
     db NO_MOVE      ;Oddish
     db NO_MOVE      ;Gloom
-    db NO_MOVE      ;Vileplume
+    db DARK_PULSE   ;Vileplume
     db NO_MOVE      ;Paras
     db NO_MOVE      ;Parasect
     db NO_MOVE      ;Venonat
     db GUST         ;Venomoth
     db NO_MOVE      ;Diglett
-    db NO_MOVE      ;Dugtrio
+    db TRI_ATTACK   ;Dugtrio
     db NO_MOVE      ;Meowth
     db CRUNCH       ;Persian
     db NO_MOVE      ;Psyduck
@@ -137,7 +137,7 @@ EvolutionMoves::
     db EMBER        ;Flareon
     db NO_MOVE      ;Porygon
     db NO_MOVE      ;Omanyte
-    db PIN_MISSILE ;Omastar
+    db PIN_MISSILE  ;Omastar
     db NO_MOVE      ;Kabuto
     db SLASH        ;Kabutops
     db NO_MOVE      ;Aerodactyl
@@ -180,7 +180,7 @@ EvolutionMoves::
     db NO_MOVE      ;Mareep
     db NO_MOVE      ;Flaaffy
     db THUNDERPUNCH ;Ampharos
-    db MOONBLAST    ;Bellossom
+    db DAZZLINGLEAM ;Bellossom
     db NO_MOVE      ;Marill
     db NO_MOVE      ;Azumarill
     db NO_MOVE      ;Sudowoodo
