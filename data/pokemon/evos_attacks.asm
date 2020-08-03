@@ -872,14 +872,18 @@ MeowthEvosAttacks:
 	db EVOLVE_LEVEL, 28, PERSIAN
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, SWIFT
 	db 1, GROWL
-	db 11, BITE
-	db 20, PAY_DAY
-	db 28, FEINT_ATTACK
-	db 35, SCREECH
-	db 41, FURY_SWIPES
-	db 46, SLASH
+	db 3, BITE
+	db 6, FAKE_OUT
+	db 9, SWIFT
+	db 12, PAY_DAY
+	db 15, SNARL
+	db 19, FURY_SWIPES
+	db 23, SCREECH
+	db 27, SLASH
+	db 31, NASTY_PLOT
+	db 35, PLAY_ROUGH
+	db 39, DARK_PULSE
 	db 0 ; no more level-up moves
 
 PersianEvosAttacks:
@@ -887,40 +891,58 @@ PersianEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 1, BITE
-	db 11, BITE
-	db 20, PAY_DAY
-	db 29, FEINT_ATTACK
-	db 38, SCREECH
-	db 46, FURY_SWIPES
-	db 53, SLASH
+	db 3, BITE
+	db 6, FAKE_OUT
+	db 9, SWIFT
+	db 12, PAY_DAY
+	db 15, SNARL
+	db 19, FURY_SWIPES
+	db 23, SCREECH
+	db 27, SLASH
+	db 33, NASTY_PLOT
+	db 36, POWER_GEM
+	db 39, PLAY_ROUGH
+	db 43, DARK_PULSE
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:
 	db EVOLVE_LEVEL, 33, GOLDUCK
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 5, TAIL_WHIP
-	db 10, DISABLE
-	db 16, CONFUSION
-	db 23, SCREECH
-	db 31, TRANSFORM
-	db 40, FURY_SWIPES
-	db 50, HYDRO_PUMP
+	db 4, TAIL_WHIP
+	db 7, WATER_GUN
+	db 10, CONFUSION
+	db 13, FURY_SWIPES
+	db 16, WATER_PULSE
+	db 19, DISABLE
+	db 22, SCREECH
+	db 25, PSYBEAM
+	db 28, AMNESIA
+	db 31, ZEN_HEADBUTT
+	db 34, ENCORE
+	db 37, CALM_MIND
+	db 40, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 GolduckEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
-	db 1, DISABLE
+	db 1, WATER_GUN
 	db 1, CONFUSION
-	db 5, TAIL_WHIP
-	db 10, DISABLE
-	db 16, CONFUSION
-	db 23, SCREECH
-	db 31, TRANSFORM
-	db 44, FURY_SWIPES
-	db 58, HYDRO_PUMP
+	db 4, TAIL_WHIP
+	db 7, WATER_GUN
+	db 10, CONFUSION
+	db 13, FURY_SWIPES
+	db 16, WATER_PULSE
+	db 19, DISABLE
+	db 22, SCREECH
+	db 25, PSYBEAM
+	db 28, AMNESIA
+	db 31, ZEN_HEADBUTT
+	db 36, ENCORE
+	db 41, CALM_MIND
+	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 MankeyEvosAttacks:
