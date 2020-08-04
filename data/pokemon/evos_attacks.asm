@@ -992,12 +992,20 @@ GrowlitheEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, ROAR
-	db 9, EMBER
-	db 18, LEER
-	db 26, TAKE_DOWN
-	db 34, FLAME_WHEEL
-	db 42, AGILITY
-	db 50, FLAMETHROWER
+	db 6, EMBER
+	db 8, LEER
+	db 10, FORESIGHT
+	db 14, QUICK_ATTACK
+	db 17, FLAME_WHEEL
+	db 19, DOUBLE_KICK
+	db 21, FIRE_FANG
+	db 23, TAKE_DOWN
+	db 26, AGILITY
+	db 30, CRUNCH
+	db 34, FLAMETHROWER
+	db 39, PLAY_ROUGH
+	db 41, OUTRAGE
+	db 43, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 ArcanineEvosAttacks:
@@ -1006,7 +1014,7 @@ ArcanineEvosAttacks:
 	db 1, LEER
 	db 1, TAKE_DOWN
 	db 1, FLAME_WHEEL
-	db 50, EXTREMESPEED
+	db 45, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 PoliwagEvosAttacks:
