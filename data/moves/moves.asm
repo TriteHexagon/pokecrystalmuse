@@ -64,7 +64,7 @@ Moves:
     move HYPER_BEAM,    EFFECT_HYPER_BEAM,        150, NORMAL,        SPECIAL,   90,  5,   0
     move PECK,          EFFECT_NORMAL_HIT,         35, FLYING,        PHYSICAL, 100, 35,   0
     move DRILL_PECK,    EFFECT_NORMAL_HIT,         80, FLYING,        PHYSICAL, 100, 20,   0
-    move SUBMISSION,    EFFECT_RECOIL_HIT,        120, FIGHTING,      PHYSICAL,  95, 10,   0
+    move SUBMISSION,    EFFECT_THIRD_RECOIL_HIT,  120, FIGHTING,      PHYSICAL,  95, 10,   0
     move COUNTER,       EFFECT_COUNTER,             1, FIGHTING,      PHYSICAL, 100, 20,   0
     move SEISMIC_TOSS,  EFFECT_LEVEL_DAMAGE,        1, FIGHTING,      PHYSICAL, 100, 20,   0
     move STRENGTH,      EFFECT_NORMAL_HIT,         80, FIGHTING,      PHYSICAL, 100, 15,   0 ;altered
@@ -122,7 +122,7 @@ Moves:
     move POISON_GAS,    EFFECT_POISON,              0, POISON,        STATUS,    55, 40,   0
     move LEECH_LIFE,    EFFECT_LEECH_HIT,          20, BUG,           PHYSICAL, 100, 15,   0
     move LOVELY_KISS,   EFFECT_SLEEP,               0, NORMAL,        STATUS,    75, 10,   0
-    move SKY_ATTACK,    EFFECT_RECOIL_HIT,        120, FLYING,        PHYSICAL,  90,  5,   0 ;altered
+    move SKY_ATTACK,    EFFECT_THIRD_RECOIL_HIT,  120, FLYING,        PHYSICAL,  90,  5,   0 ;altered
     move TRANSFORM,     EFFECT_TRANSFORM,           0, NORMAL,        STATUS,   100, 10,   0
     move DIZZY_PUNCH,   EFFECT_CONFUSE_HIT,        70, NORMAL,        PHYSICAL, 100, 10,  20
     move SPORE,         EFFECT_SLEEP,               0, GRASS,         STATUS,   100, 15,   0

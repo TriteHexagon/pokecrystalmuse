@@ -2232,7 +2232,7 @@ FlareBlitz:
 	applydamage
 	criticaltext
 	supereffectivetext
-	recoil
+	thirdRecoil
 	checkfaint
 	effectchance
 	burntarget
@@ -2307,4 +2307,25 @@ FireFang:
 	flinchtarget
 	effectchance
 	burntarget
+	endmove
+
+ThirdRecoilHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	thirdRecoil
+	checkfaint
+	buildopponentrage
+	kingsrock
 	endmove

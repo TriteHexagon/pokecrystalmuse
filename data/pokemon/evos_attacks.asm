@@ -2341,7 +2341,7 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	; db 1, TACKLE
 	; db 1, LEER
-	db 1, POWER_GEM
+	db 1, FLARE_BLITZ
 	db 1, GUNK_SHOT
 	db 1, ZEN_HEADBUTT
 	db 1, SHELL_SMASH

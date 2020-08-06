@@ -5812,9 +5812,24 @@ INCLUDE "engine/battle/move_effects/mist.asm"
 
 INCLUDE "engine/battle/move_effects/focus_energy.asm"
 
+BattleCommand_ThirdRecoil:
+	ld hl, wBattleMonMaxHP
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .got_hp
+	ld hl, wEnemyMonMaxHP
+.got_hp
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	ld d, a
+;gets a third of the current damage
+	ld c, 3
+	ld a, [wCurDamage]
+	call SimpleDivide
+	ld a, b
+	call nz, BattleCommand_RecoilNext
 BattleCommand_Recoil:
 ; recoil
-
 	ld hl, wBattleMonMaxHP
 	ldh a, [hBattleTurn]
 	and a
@@ -5835,9 +5850,9 @@ BattleCommand_Recoil:
 	rr c
 	ld a, b
 	or c
-	jr nz, .min_damage
+	call nz, BattleCommand_RecoilNext
 	inc c
-.min_damage
+BattleCommand_RecoilNext:
 	ld a, [hli]
 	ld [wBuffer2], a
 	ld a, [hl]

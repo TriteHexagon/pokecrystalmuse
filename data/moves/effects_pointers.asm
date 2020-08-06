@@ -167,4 +167,5 @@ MoveEffectsPointers:
 	dw ThunderFang
 	dw IceFang
 	dw FireFang
+	dw ThirdRecoilHit
 
