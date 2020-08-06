@@ -295,7 +295,7 @@ CeruleanCity_MapEvents:
 	bg_event 14, 29, BGEVENT_READ, CeruleanLockedDoor
 	bg_event 20, 21, BGEVENT_READ, CeruleanCityPokecenterSign
 	bg_event 26, 29, BGEVENT_READ, CeruleanCityMartSign
-	bg_event  2, 12, BGEVENT_ITEM, CeruleanCityHiddenBerserkGene
+	bg_event  3, 16, BGEVENT_ITEM, CeruleanCityHiddenBerserkGene
 
 	db 6 ; object events
 	object_event 15, 23, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeruleanCityCooltrainerMScript, -1
