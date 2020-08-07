@@ -1,15 +1,24 @@
 	object_const_def ; object_event constants
 	const MOVEDELETERSHOUSE_SUPER_NERD
+	const MOVEDELETERSHOUSE_MOVE_REMINDER
 
 MoveDeletersHouse_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-MoveDeleter:
+MoveDeleterScript:
 	faceplayer
 	opentext
 	special MoveDeletion
+	waitbutton
+	closetext
+	end
+
+MoveReminderScript:
+	faceplayer
+	opentext
+	special MoveReminder
 	waitbutton
 	closetext
 	end
@@ -31,4 +40,5 @@ MoveDeletersHouse_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, MoveDeletersHouseBookshelf
 
 	db 1 ; object events
-	object_event  2,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoveDeleter, -1
+	object_event  2,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoveDeleterScript, -1
+	object_event  3,  5, SPRITE_HEX_MANIAC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoveReminderScript, -1

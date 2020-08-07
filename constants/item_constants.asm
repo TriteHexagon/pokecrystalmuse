@@ -80,7 +80,7 @@
 	const MOOMOO_MILK  ; 48
 	const QUICK_CLAW   ; 49
 	const PSNCUREBERRY ; 4a
-	const BIG_NUGGET    ; 4b
+	const GOLD_LEAF   ; 4b
 	const SOFT_SAND    ; 4c
 	const SHARP_BEAK   ; 4d
 	const PRZCUREBERRY ; 4e
@@ -95,7 +95,7 @@
 	const BIG_MUSHROOM ; 57
 	const SILVERPOWDER ; 58
 	const BLU_APRICORN ; 59
-	const ITEM_5A      ; 5a
+	const BIG_NUGGET   ; 5a
 	const AMULET_COIN  ; 5b
 	const YLW_APRICORN ; 5c
 	const GRN_APRICORN ; 5d
@@ -109,7 +109,7 @@
 	const PNK_APRICORN ; 65
 	const BLACKGLASSES ; 66
 	const SLOWPOKETAIL ; 67
-	const SILK_SCARF     ; 68
+	const SILK_SCARF    ; 68
 	const STICK        ; 69
 	const SMOKE_BALL   ; 6a
 	const NEVERMELTICE ; 6b
