@@ -2697,9 +2697,6 @@ TruncateHL_BC:
 	inc l
 
 .finish
-	ld a, [wLinkMode]
-	cp LINK_COLOSSEUM
-	jr z, .done
 ; If we go back to the loop point,
 ; it's the same as doing this exact
 ; same check twice.
@@ -2707,7 +2704,6 @@ TruncateHL_BC:
 	or b
 	jr nz, .loop
 
-.done
 	ld b, l
 	ret
 
@@ -4824,7 +4820,6 @@ CalcPlayerStats:
 	ld a, 5
 	call CalcBattleStats
 
-	;TH - Removed this check - does it matter?
 	ld hl, BadgeStatBoosts
 	call CallBattleCore
 
