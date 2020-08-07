@@ -2257,6 +2257,12 @@ GetFailureResultText:
 	cp EFFECT_JUMP_KICK
 	ret nz
 
+	;call GetHalfMaxHP
+	; ld hl, wCurDamage
+	; ld a, b
+	; ld [hli], a
+	; ld [hl], c
+
 	ld a, [wTypeModifier]
 	and $7f
 	ret z
@@ -2264,10 +2270,10 @@ GetFailureResultText:
 	ld hl, wCurDamage
 	ld a, [hli]
 	ld b, [hl]
-rept 3
+;rept 3
 	srl a
 	rr b
-endr
+;endr
 	ld [hl], b
 	dec hl
 	ld [hli], a
@@ -5827,7 +5833,8 @@ BattleCommand_ThirdRecoil:
 	ld a, [wCurDamage]
 	call SimpleDivide
 	ld a, b
-	call nz, BattleCommand_RecoilNext
+	jp BattleCommand_RecoilNext
+
 BattleCommand_Recoil:
 ; recoil
 	ld hl, wBattleMonMaxHP
@@ -5850,7 +5857,7 @@ BattleCommand_Recoil:
 	rr c
 	ld a, b
 	or c
-	call nz, BattleCommand_RecoilNext
+	jp nz, BattleCommand_RecoilNext
 	inc c
 BattleCommand_RecoilNext:
 	ld a, [hli]
@@ -5893,7 +5900,6 @@ BattleCommand_RecoilNext:
 
 BattleCommand_ConfuseTarget:
 ; confusetarget
-
 	call GetOpponentItem
 	ld a, b
 	cp HELD_PREVENT_CONFUSE
