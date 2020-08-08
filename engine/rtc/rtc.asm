@@ -47,17 +47,11 @@ GetTimeOfDay::
 
 TimesOfDay:
 ; hours for the time of day
-; 0400-0959 morn | 1000-1759 day | 1800-0359 nite
+; 0600-1159 morn | 1200-1959 day | 2000-0559 nite
 	db MORN_HOUR, NITE_F
 	db DAY_HOUR,  MORN_F
 	db NITE_HOUR, DAY_F
 	db MAX_HOUR,  NITE_F
-	db -1, MORN_F
-
-BetaTimesOfDay: ; unreferenced
-	db 20, NITE_F
-	db 40, MORN_F
-	db 60, DAY_F
 	db -1, MORN_F
 
 StageRTCTimeForSave:
