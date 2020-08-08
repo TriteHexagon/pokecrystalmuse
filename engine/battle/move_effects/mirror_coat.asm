@@ -41,7 +41,7 @@ BattleCommand_MirrorCoat:
 	ld hl, wCurDamage
 	ld a, [hli]
 	or [hl]
-	ret z
+	jr z, .failed
 
 	ld a, [hl]
 	add a
@@ -57,4 +57,10 @@ BattleCommand_MirrorCoat:
 
 	xor a
 	ld [wAttackMissed], a
+	ret
+
+.failed
+	ld a, 1
+	ld [wEffectFailed], a
+	and a
 	ret
