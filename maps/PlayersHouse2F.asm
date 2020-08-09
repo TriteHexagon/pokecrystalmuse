@@ -81,12 +81,14 @@ PlayersHouseRadioScript:
 	end
 
 PlayersHouseBookshelfScript:
+	opentext
+	writetext DebugTest
 	givemoney $0, 999999
 	giveitem COIN_CASE
 	givecoins 9999
 	; good party
 	givepoke MEWTWO, 100, LEFTOVERS
-	givepoke MEWTWO, 100, LEFTOVERS
+	givepoke CELEBI, 100, LEFTOVERS
 	; hm slaves
 	givepoke MEW, 100, LEFTOVERS
 	givepoke MEW, 100, LEFTOVERS
@@ -196,7 +198,7 @@ PlayersHouseBookshelfScript:
 	giveitem LEVEL_BALL, 99
 	giveitem MOON_BALL, 99
 	giveitem HEAVY_BALL, 99
-	writetext DebugTest
+	closetext
 	end
 	;jumpstd PictureBookshelfScript
 

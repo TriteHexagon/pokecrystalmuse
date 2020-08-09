@@ -73,7 +73,7 @@ BlaineIntroText:
 	para "My GYM in CINNABAR"
 	line "burned down."
 
-	para "My fire-breathing"
+	para "My Fire-breathing"
 	line "#MON and I are"
 
 	para "homeless because"

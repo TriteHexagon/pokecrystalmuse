@@ -1,11 +1,9 @@
 CELADONGAMECORNER_NUGGET_COINS     EQU 325
 CELADONGAMECORNER_STAR_PIECE_COINS EQU 300
-CELADONGAMECORNER_BIG_PEARL_COINS  EQU 275
 CELADONGAMECORNER_STARDUST_COINS   EQU 100
-CELADONGAMECORNER_PEARL_COINS      EQU 375
-CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS  EQU 2222
-CELADONGAMECORNERPRIZEROOM_PORYGON_COINS  EQU 5555
-CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS EQU 8888
+CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS  EQU 222
+CELADONGAMECORNERPRIZEROOM_PORYGON_COINS  EQU 555
+CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS EQU 888
 
 	object_const_def ; object_event constants
 	const CELADONGAMECORNERPRIZEROOM_GENTLEMAN
@@ -22,7 +20,7 @@ CeladonGameCornerPrizeRoomGentlemanScript:
 CeladonGameCornerPrizeRoomPharmacistScript:
 	jumptextfaceplayer CeladonGameCornerPrizeRoomPharmacistText
 
-CeladonGameCornerPrizeRoomTMVendor:
+CeladonGameCornerPrizeRoomItemVendor:
 	faceplayer
 	opentext
 	writetext CeladonPrizeRoom_PrizeVendorIntroText
@@ -37,9 +35,7 @@ CeladonPrizeRoom_ItemCounterloop:
 	closewindow
 	ifequal 1, .Nugget
 	ifequal 2, .StarPiece
-	ifequal 3, .BigPearl
-	ifequal 4, .Stardust
-	ifequal 5, .Pearl
+	ifequal 3, .Stardust
 	sjump CeladonPrizeRoom_CancelPurchaseScript
 
 .Nugget:
@@ -64,17 +60,6 @@ CeladonPrizeRoom_ItemCounterloop:
 	takecoins CELADONGAMECORNER_STAR_PIECE_COINS
 	sjump CeladonPrizeRoom_purchased
 
-.BigPearl:
-	checkcoins CELADONGAMECORNER_BIG_PEARL_COINS
-	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, BIG_PEARL
-	scall CeladonPrizeRoom_askbuy
-	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem BIG_PEARL
-	iffalse CeladonPrizeRoom_notenoughroom
-	takecoins CELADONGAMECORNER_BIG_PEARL_COINS
-	sjump CeladonPrizeRoom_purchased
-
 .Stardust:
 	checkcoins CELADONGAMECORNER_STARDUST_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
@@ -84,17 +69,6 @@ CeladonPrizeRoom_ItemCounterloop:
 	giveitem STARDUST
 	iffalse CeladonPrizeRoom_notenoughroom
 	takecoins CELADONGAMECORNER_STARDUST_COINS
-	sjump CeladonPrizeRoom_purchased
-
-.Pearl:
-	checkcoins CELADONGAMECORNER_PEARL_COINS
-	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, PEARL
-	scall CeladonPrizeRoom_askbuy
-	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem PEARL
-	iffalse CeladonPrizeRoom_notenoughroom
-	takecoins CELADONGAMECORNER_PEARL_COINS
 	sjump CeladonPrizeRoom_purchased
 
 CeladonPrizeRoom_askbuy:
@@ -135,18 +109,16 @@ CeladonPrizeRoom_NoCoinCase:
 
 CeladonPrizeRoom_ItemMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	menu_coords 0, 2, 16, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 6 ; items
+	db 4 ; items
 	db "Nugget     325@"
 	db "Star Piece 300@"
-	db "Big Pearl  275@"
 	db "Stardust   100@"
-	db "Pearl       75@"
 	db "CANCEL@"
 	
 CeladonGameCornerPrizeRoomPokemonVendor:
@@ -223,16 +195,16 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 17, TEXTBOX_Y - 1
+	menu_coords 0, 2, 16, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "PIKACHU    2222@"
-	db "PORYGON    5555@"
-	db "LARVITAR   8888@"
+	db "PIKACHU    222@"
+	db "PORYGON    555@"
+	db "LARVITAR   888@"
 	db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
@@ -312,7 +284,7 @@ CeladonGameCornerPrizeRoom_MapEvents:
 	db 0 ; coord events
 
 	db 2 ; bg events
-	bg_event  2,  1, BGEVENT_READ, CeladonGameCornerPrizeRoomTMVendor
+	bg_event  2,  1, BGEVENT_READ, CeladonGameCornerPrizeRoomItemVendor
 	bg_event  4,  1, BGEVENT_READ, CeladonGameCornerPrizeRoomPokemonVendor
 
 	db 2 ; object events

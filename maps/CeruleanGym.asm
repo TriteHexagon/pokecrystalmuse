@@ -259,7 +259,7 @@ MistyIntroText:
 	line "better not take me"
 	cont "too lightly."
 
-	para "My water-type"
+	para "My Water-type"
 	line "#MON are tough!"
 	done
 

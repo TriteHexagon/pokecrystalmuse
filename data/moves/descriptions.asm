@@ -434,11 +434,11 @@ WaterGunDescription:
 	next "attack.@"
 
 HydroPumpDescription:
-	db   "A powerful water-"
+	db   "A powerful Water-"
 	next "type attack.@"
 
 SurfDescription:
-	db   "A strong water-"
+	db   "A strong Water-"
 	next "type attack.@"
 
 IceBeamDescription:
@@ -1022,11 +1022,11 @@ CrossChopDescription:
 	next "cal hit ratio.@"
 
 RainDanceDescription:
-	db   "Boosts water-type"
+	db   "Boosts Water-type"
 	next "moves for 5 turns.@"
 
 SunnyDayDescription:
-	db   "Boosts fire-type"
+	db   "Boosts Fire-type"
 	next "moves for 5 turns.@"
 
 CrunchDescription:

@@ -218,7 +218,7 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 
 RadioTower3FCooltrainerFItsSunnyDayText:
 	text "It's SUNNY DAY."
-	line "It powers up fire-"
+	line "It powers up Fire-"
 	cont "type moves for a"
 	cont "while."
 	done
