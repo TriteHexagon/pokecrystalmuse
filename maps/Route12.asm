@@ -117,7 +117,7 @@ FisherBarneyBeatenText:
 	done
 
 FisherBarneyAfterBattleText:
-	text "I think electric-"
+	text "I think Electric-"
 	line "ity is the most"
 
 	para "important thing in"

@@ -116,7 +116,7 @@ FalknerIntroText:
 	cont "leader!"
 
 	para "People say you can"
-	line "clip flying-type"
+	line "clip Flying-type"
 
 	para "#MON's wings"
 	line "with a jolt of"
@@ -263,10 +263,10 @@ VioletGymGuyText:
 	para "You believe?"
 	line "Then listen."
 
-	para "The grass-type is"
+	para "The Grass-type is"
 	line "weak against the"
 
-	para "flying-type. Keep"
+	para "Flying-type. Keep"
 	line "this in mind."
 	done
 

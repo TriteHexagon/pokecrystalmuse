@@ -803,7 +803,7 @@ FlameWheelDescription:
 
 CurseDescription:
 	db   "Works differently"
-	next "for ghost-types.@"
+	next "for Ghost-types.@"
 
 FlailDescription:
 	db   "Stronger if the"

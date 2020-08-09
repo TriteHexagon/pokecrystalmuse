@@ -85,7 +85,7 @@ KarenScript_KarenBeforeText:
 	para "You're <PLAYER>?"
 	line "How amusing."
 
-	para "I love dark-type"
+	para "I love Dark-type"
 	line "#MON."
 
 	para "I find their wild,"

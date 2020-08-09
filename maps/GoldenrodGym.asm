@@ -363,11 +363,11 @@ GoldenrodGymGuyText:
 	line "making!"
 
 	para "This GYM is home"
-	line "to normal-type"
+	line "to Normal-type"
 	cont "#MON trainers."
 
 	para "I recommend you"
-	line "use fighting-type"
+	line "use Fighting-type"
 	cont "#MON."
 	done
 

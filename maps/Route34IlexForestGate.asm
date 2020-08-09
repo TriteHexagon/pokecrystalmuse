@@ -130,7 +130,7 @@ Route34IlexForestGateLassText:
 	cont "across time."
 
 	para "I think that it"
-	line "must be a grass-"
+	line "must be a Grass-"
 	cont "type #MON."
 	done
 

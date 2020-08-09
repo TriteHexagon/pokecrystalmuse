@@ -115,7 +115,7 @@ MountMortarB1FReceiveMonText:
 
 MountMortarB1FKiyoGotTyrogueText:
 	text "TYROGUE is a"
-	line "fighting-type."
+	line "Fighting-type."
 
 	para "It evolves into a"
 	line "tougher #MON."

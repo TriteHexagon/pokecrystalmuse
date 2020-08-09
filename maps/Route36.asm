@@ -608,12 +608,12 @@ ArthurGivesGiftText:
 
 ArthurGaveGiftText:
 	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	line "that uses Rock-"
 
 	para "type moves should"
 	line "hold on to that."
 
-	para "It pumps up rock-"
+	para "It pumps up Rock-"
 	line "type attacks."
 	done
 

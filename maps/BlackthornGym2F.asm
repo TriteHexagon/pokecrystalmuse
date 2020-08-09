@@ -80,7 +80,7 @@ TrainerCooltrainerfFran:
 
 CooltrainermCodySeenText:
 	text "It's not as if we"
-	line "all use dragon-"
+	line "all use Dragon-"
 	cont "type #MON."
 	done
 
@@ -91,7 +91,7 @@ CooltrainermCodyBeatenText:
 
 CooltrainermCodyAfterBattleText:
 	text "Members of our"
-	line "dragon-user clan"
+	line "Dragon-user clan"
 
 	para "can use dragon"
 	line "#MON only after"

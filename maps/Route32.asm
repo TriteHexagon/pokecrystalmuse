@@ -591,7 +591,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	cont "this."
 
 	para "It increases the"
-	line "power of grass-"
+	line "power of Grass-"
 	cont "type moves."
 	done
 
@@ -886,7 +886,7 @@ FriedaGivesGiftText:
 FriedaGaveGiftText:
 	text "FRIEDA: Give it to"
 	line "a #MON that has"
-	cont "poison-type moves."
+	cont "Poison-type moves."
 
 	para "Oh!"
 

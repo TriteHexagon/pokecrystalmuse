@@ -132,7 +132,7 @@ RadioTower4FDJMaryText_GiveSilkScarf:
 	text "MARY: It's just"
 	line "right for #MON"
 
-	para "that know normal-"
+	para "that know Normal-"
 	line "type moves."
 	done
 

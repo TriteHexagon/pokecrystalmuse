@@ -375,7 +375,7 @@ TuscanyGaveGiftText:
 	cont "is most adorable?"
 
 	para "It strengthens"
-	line "normal-type moves."
+	line "Normal-type moves."
 
 	para "I am certain it"
 	line "will be of use."

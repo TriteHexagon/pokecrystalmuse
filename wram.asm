@@ -1728,7 +1728,7 @@ wBufferMon:: party_struct wBufferMon
 wMonOrItemNameBuffer::
 
 NEXTU
-; bug-catching contest
+; Bug-catching contest
 wBugContestResults::
 	bugcontestwinner wBugContestFirstPlace
 	bugcontestwinner wBugContestSecondPlace

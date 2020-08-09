@@ -207,7 +207,7 @@ VioletCityLassText:
 	line "to appear in"
 	cont "SPROUT TOWER."
 
-	para "They said normal-"
+	para "They said Normal-"
 	line "type #MON moves"
 
 	para "had no effect on"

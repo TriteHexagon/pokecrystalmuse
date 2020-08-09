@@ -105,10 +105,10 @@ Jasmine_SteelTypeIntro:
 
 	para "I am JASMINE, a"
 	line "GYM LEADER. I use"
-	cont "the steel-type."
+	cont "the Steel-type."
 
 	para "…Do you know about"
-	line "the steel-type?"
+	line "the Steel-type?"
 
 	para "It's a type that"
 	line "was only recently"
@@ -165,7 +165,7 @@ Jasmine_GoodLuck:
 OlivineGymGuyText:
 	text "JASMINE uses the"
 	line "newly discovered"
-	cont "steel-type."
+	cont "Steel-type."
 
 	para "I don't know very"
 	line "much about it."
@@ -174,7 +174,7 @@ OlivineGymGuyText:
 OlivineGymGuyWinText:
 	text "That was awesome."
 
-	para "The steel-type,"
+	para "The Steel-type,"
 	line "huh?"
 
 	para "That was a close"

@@ -759,7 +759,7 @@ BugCatchingContestant7BStillCompetingText:
 BugCatchingContestant8BText:
 	text "JOSH: I… I can't"
 	line "believe I lost at"
-	cont "bug-catching…"
+	cont "Bug-catching…"
 	done
 
 BugCatchingContestant8BStillCompetingText:

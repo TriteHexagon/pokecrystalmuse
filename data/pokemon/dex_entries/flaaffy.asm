@@ -2,9 +2,9 @@
 	dw 207, 290 ; height, weight
 
 	db   "Because of its"
-	next "rubbery, electric-"
+	next "rubbery, Electric-"
 	next "ity-resistant"
 
 	page "skin, it can store"
-	next "lots of electric-"
+	next "lots of Electric-"
 	next "ity in its fur.@"

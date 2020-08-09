@@ -345,7 +345,7 @@ CooltrainerfLolaBeatenText:
 
 CooltrainerfLolaAfterBattleText:
 	text "Dragons are weak"
-	line "against dragon-"
+	line "against Dragon-"
 	cont "type moves."
 	done
 
@@ -361,7 +361,7 @@ BlackthornGymGuyText:
 
 	para "CLAIR uses the"
 	line "mythical and sac-"
-	cont "red dragon-type"
+	cont "red Dragon-type"
 	cont "#MON."
 
 	para "You can't damage"
@@ -371,7 +371,7 @@ BlackthornGymGuyText:
 	line "they're supposed"
 
 	para "to be weak against"
-	line "ice-type moves."
+	line "Ice-type moves."
 	done
 
 BlackthornGymGuyWinText:

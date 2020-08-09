@@ -57,7 +57,7 @@ CianwoodGymGuyText:
 	line "vice: the GYM"
 
 	para "LEADER uses the"
-	line "fighting-type."
+	line "Fighting-type."
 
 	para "So you should"
 	line "confound him with"

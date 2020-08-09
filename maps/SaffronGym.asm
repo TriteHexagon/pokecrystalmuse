@@ -281,7 +281,7 @@ SaffronGymGuyText:
 	para "doesn't need to be"
 	line "told how to deal"
 
-	para "with psychic-type"
+	para "with Psychic-type"
 	line "#MON, right?"
 
 	para "I expect great"

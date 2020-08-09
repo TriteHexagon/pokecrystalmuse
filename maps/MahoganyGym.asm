@@ -346,7 +346,7 @@ MahoganyGymGuyText:
 	line "good at freezing"
 
 	para "opponents with"
-	line "ice-type moves."
+	line "Ice-type moves."
 
 	para "That means you"
 	line "should melt him"

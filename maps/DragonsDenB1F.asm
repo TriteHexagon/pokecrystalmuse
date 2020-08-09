@@ -332,7 +332,7 @@ CooltrainermDarinAfterBattleText:
 	line "is home to the"
 
 	para "MASTER of our"
-	line "dragon-user clan."
+	line "Dragon-user clan."
 
 	para "You're not allowed"
 	line "to just go in!"

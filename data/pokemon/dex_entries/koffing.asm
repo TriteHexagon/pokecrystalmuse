@@ -3,7 +3,7 @@
 
 	db   "If one gets close"
 	next "enough to it when"
-	next "it expels poison-"
+	next "it expels Poison-"
 
 	page "ous gas, the gas"
 	next "swirling inside it"

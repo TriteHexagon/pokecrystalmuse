@@ -5,6 +5,6 @@
 	next "docile, it pro-"
 	next "tects itself with"
 
-	page "its small, poison-"
+	page "its small, Poison-"
 	next "ous horn when"
 	next "attacked.@"

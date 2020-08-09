@@ -71,7 +71,7 @@ PewterCityCooltrainerFText:
 	line "PEWTER GYM?"
 
 	para "The LEADER uses"
-	line "rock-type #MON."
+	line "Rock-type #MON."
 	done
 
 PewterCityBugCatcherText:
