@@ -157,7 +157,7 @@ WiseTriosRoomSage3BlocksExitText:
 	text "TIN TOWER may be"
 	line "entered by those"
 
-	para "bearing ECRUTEAK's"
+	para "bearing Ecruteak's"
 	line "GYM BADGE."
 
 	para "However, now that"

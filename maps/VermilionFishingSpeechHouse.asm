@@ -23,7 +23,7 @@ FishingDudeText:
 
 	para "Have you met the"
 	line "FISHING GURU at"
-	cont "LAKE OF RAGE?"
+	cont "Lake of Rage?"
 
 	para "He dreams about"
 	line "seeing the world's"

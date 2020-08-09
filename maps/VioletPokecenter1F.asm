@@ -172,7 +172,7 @@ VioletPokecenterFarawayLinkText:
 ; unused
 VioletPokecenterMobileAdapterText:
 	text "I just battled a"
-	line "friend in CIANWOOD"
+	line "friend in Cianwood"
 	cont "over a link."
 
 	para "If you connect a"

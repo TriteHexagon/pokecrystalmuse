@@ -353,7 +353,7 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	line "Question 4:"
 
 	para "Is FALKNER the"
-	line "VIOLET Gym Leader"
+	line "Violet Gym Leader"
 
 	para "who uses bird"
 	line "#MON?"
@@ -364,7 +364,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
+	para "Do Goldenrod GAME"
 	line "CORNER's slots"
 
 	para "have CHARMANDER"

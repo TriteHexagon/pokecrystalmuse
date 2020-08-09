@@ -411,7 +411,7 @@ if DEF(_CRYSTAL_AU)
 	line "seem different"
 
 	para "from the ones at"
-	line "Celadon CITY!"
+	line "Celadon City!"
 	done
 else
 	text "I just love this"

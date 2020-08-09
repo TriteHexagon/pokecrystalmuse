@@ -251,7 +251,7 @@ OaksLabPCText:
 	line "hear that."
 
 	para "ELM in New Bark"
-	line "TOWN 8-)"
+	line "Town 8-)"
 	done
 
 OaksLab_MapEvents:

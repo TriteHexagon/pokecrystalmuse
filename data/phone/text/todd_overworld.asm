@@ -1,6 +1,6 @@
 ToddAskNumber1Text:
 	text "From here, I can"
-	line "see GOLDENROD's"
+	line "see Goldenrod's"
 
 	para "DEPT.STORE. They"
 	line "have bargain sales"
@@ -24,7 +24,7 @@ ToddAskNumber2Text:
 	done
 
 ToddNumberAcceptedText:
-	text "I check GOLDENROD"
+	text "I check Goldenrod"
 	line "DEPT.STORE every"
 
 	para "day, so I know"

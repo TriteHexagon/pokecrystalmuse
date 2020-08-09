@@ -81,7 +81,7 @@ BirdKeeperDenisBeatenText:
 BirdKeeperDenisAfterBattleText:
 	text "My #MON learned"
 	line "how to use FLY in"
-	cont "CIANWOOD."
+	cont "Cianwood."
 
 	para "Well, since I'm a"
 	line "loser, I'll FLY"

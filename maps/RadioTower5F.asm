@@ -240,7 +240,7 @@ FakeDirectorTextAfter:
 Executivef1SeenText:
 	text "Remember me from"
 	line "the HIDEOUT in"
-	cont "MAHOGANY TOWN?"
+	cont "Mahogany Town?"
 
 	para "I lost then, but I"
 	line "won't this time."
@@ -338,7 +338,7 @@ RadioTower5FDirectorThankYouText:
 RadioTower5FDirectorDescribeClearBellText:
 	text "There used to be a"
 	line "tower right here"
-	cont "in GOLDENROD CITY."
+	cont "in Goldenrod City."
 
 	para "But it was old and"
 	line "creaky."
@@ -354,7 +354,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "I heard that all"
 	line "sorts of #MON"
 
-	para "lived in GOLDENROD"
+	para "lived in Goldenrod"
 	line "in the past."
 
 	para "Perhaps…"
@@ -363,7 +363,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "connection to the"
 
 	para "TIN TOWER in"
-	line "ECRUTEAK CITY…"
+	line "Ecruteak City…"
 
 	para "Ah!"
 

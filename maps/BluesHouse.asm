@@ -68,7 +68,7 @@ DaisyHelloText:
 	line "brother is the GYM"
 
 	para "LEADER in Viridian"
-	line "CITY."
+	line "City."
 
 	para "But he goes out"
 	line "of town so often,"

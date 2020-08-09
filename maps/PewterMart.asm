@@ -39,7 +39,7 @@ PewterMartSuperNerdText:
 	para "He was saying the"
 	line "MAGIKARP from the"
 
-	para "LAKE OF RAGE were"
+	para "Lake of Rage were"
 	line "excellent."
 	done
 

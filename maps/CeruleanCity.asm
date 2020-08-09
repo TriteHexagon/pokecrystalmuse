@@ -227,14 +227,14 @@ CeruleanCityYoungsterText2:
 	done
 
 CeruleanCitySignText:
-	text "Cerulean CITY"
+	text "Cerulean City"
 
 	para "A Mysterious Blue"
 	line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "Cerulean CITY"
+	text "Cerulean City"
 	line "#MON GYM"
 	cont "LEADER: MISTY"
 
@@ -247,8 +247,8 @@ CeruleanBikeShopSignText:
 	line "here…"
 
 	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
-	cont "CITY in JOHTO…"
+	line "moved to Goldenrod"
+	cont "City in JOHTO…"
 	done
 
 CeruleanPoliceSignText:

@@ -161,7 +161,7 @@ MahoganyMart1FRageCandyBarText: ; unreferenced
 	line "some RAGECANDYBAR?"
 
 	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	line "eat in Mahogany!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:

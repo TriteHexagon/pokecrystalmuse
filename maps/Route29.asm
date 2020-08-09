@@ -402,14 +402,14 @@ TuscanyNotTuesdayText:
 Route29Sign1Text:
 	text "ROUTE 29"
 
-	para "Cherrygrove CITY -"
+	para "Cherrygrove City -"
 	line "New Bark Town"
 	done
 
 Route29Sign2Text:
 	text "ROUTE 29"
 
-	para "Cherrygrove CITY -"
+	para "Cherrygrove City -"
 	line "New Bark Town"
 	done
 

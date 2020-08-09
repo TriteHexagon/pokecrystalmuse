@@ -20,7 +20,7 @@ Route2GateScientistText:
 
 	para "PROF.OAK's LAB is"
 	line "nearby in Pallet"
-	cont "TOWN."
+	cont "Town."
 	done
 
 Route2Gate_MapEvents:

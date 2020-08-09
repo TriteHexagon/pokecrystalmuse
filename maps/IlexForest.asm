@@ -812,7 +812,7 @@ Text_CharcoalMasterOutro:
 	line "have to have the"
 
 	para "GYM BADGE from"
-	line "AZALEA to use it."
+	line "Azalea to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:

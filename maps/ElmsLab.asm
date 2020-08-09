@@ -1196,7 +1196,7 @@ ElmGiveTicketText1:
 
 ElmGiveTicketText2:
 	text "The ship departs"
-	line "from OLIVINE CITY."
+	line "from Olivine City."
 
 	para "But you knew that"
 	line "already, <PLAY_G>."

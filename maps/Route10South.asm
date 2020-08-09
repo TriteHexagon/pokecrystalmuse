@@ -69,8 +69,8 @@ PokefanmRobertAfterBattleText:
 Route10SignText:
 	text "ROUTE 10"
 
-	para "Cerulean CITY -"
-	line "Lavender TOWN"
+	para "Cerulean City -"
+	line "Lavender Town"
 	done
 
 Route10South_MapEvents:

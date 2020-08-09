@@ -186,7 +186,7 @@ Route39MiltankText:
 
 SailorEugeneSeenText:
 	text "I just got back to"
-	line "OLIVINE."
+	line "Olivine."
 
 	para "So how about a"
 	line "#MON battle?"
@@ -315,8 +315,8 @@ PokefanfJaimeAfterBattleText:
 Route39SignText:
 	text "ROUTE 39"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "Olivine City -"
+	line "Ecruteak City"
 	done
 
 MoomooFarmSignText:

@@ -164,11 +164,11 @@ SwimmermGeorgeBeatenText:
 
 SwimmermGeorgeAfterBattleText:
 	text "It's so far to"
-	line "CIANWOOD."
+	line "Cianwood."
 
 	para "But it's no easy"
 	line "return trip to"
-	cont "OLIVINE either."
+	cont "Olivine either."
 
 	para "What should I do?"
 	done

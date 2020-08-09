@@ -76,7 +76,7 @@ LavenderTownYoungsterText:
 	done
 
 LavenderTownSignText:
-	text "Lavender TOWN"
+	text "Lavender Town"
 
 	para "The Noble Purple"
 	line "Town"

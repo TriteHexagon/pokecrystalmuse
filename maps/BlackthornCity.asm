@@ -221,7 +221,7 @@ BlackthornCooltrainerF1Text:
 BlackthornYoungsterText:
 	text "Dragon masters all"
 	line "come from the city"
-	cont "of BLACKTHORN."
+	cont "of Blackthorn."
 	done
 
 MeetSantosText:
@@ -274,14 +274,14 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "Blackthorn City"
 
 	para "A Quiet Mountain"
 	line "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
+	text "Blackthorn City"
 	line "#MON GYM"
 	cont "LEADER: CLAIR"
 

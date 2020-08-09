@@ -59,7 +59,7 @@ GinaRocketTakeoverRumorText:
 
 	para "They've taken over"
 	line "the RADIO TOWER in"
-	cont "GOLDENROD."
+	cont "Goldenrod."
 
 	para "Are the people"
 	line "inside safe?"

@@ -518,7 +518,7 @@ YoungsterSamuelBeatenText:
 
 YoungsterSamuelMobileText:
 	text "Have you been to"
-	line "GOLDENROD CITY?"
+	line "Goldenrod City?"
 
 	para "Weren't you amazed"
 	line "by how they've"
@@ -734,8 +734,8 @@ Route34IlexForestSignText:
 Route34SignText:
 	text "ROUTE 34"
 
-	para "GOLDENROD CITY -"
-	line "AZALEA TOWN"
+	para "Goldenrod City -"
+	line "Azalea Town"
 
 	para "ILEX FOREST"
 	line "SOMEWHERE BETWEEN"

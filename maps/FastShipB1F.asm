@@ -330,8 +330,8 @@ SailorGarrettAfterBattleText:
 	text "We get different"
 	line "passengers from"
 
-	para "Vermilion CITY to"
-	line "OLIVINE CITY."
+	para "Vermilion City to"
+	line "Olivine City."
 	done
 
 FisherJonahSeenText:
@@ -412,7 +412,7 @@ TeacherShirleyBeatenText:
 TeacherShirleyAfterBattleText:
 	text "We're on a field"
 	line "trip to the RUINS"
-	cont "outside VIOLET."
+	cont "outside Violet."
 	done
 
 SchoolboyNateSeenText:

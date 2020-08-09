@@ -208,7 +208,7 @@ ChucksWifeBeatChuckText:
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
+	text "That's Cianwood's"
 	line "GYM BADGE!"
 
 	para "Then you should"
@@ -240,7 +240,7 @@ CianwoodCityYoungsterText:
 	text "If you use FLY,"
 	line "you can get back"
 
-	para "to OLIVINE in-"
+	para "to Olivine in-"
 	line "stantly."
 	done
 
@@ -269,7 +269,7 @@ CianwoodCityUnusedText:
 ; unused
 	text "There are several"
 	line "islands between"
-	cont "here and OLIVINE."
+	cont "here and Olivine."
 
 	para "A mythical sea"
 	line "creature supposed-"
@@ -339,14 +339,14 @@ EusineAfterText:
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "Cianwood City"
 
 	para "A Port Surrounded"
 	line "by Rough Seas"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
+	text "Cianwood City"
 	line "#MON GYM"
 
 	para "LEADER: CHUCK"
@@ -359,7 +359,7 @@ CianwoodPharmacySignText:
 	text "500 Years of"
 	line "Tradition"
 
-	para "CIANWOOD CITY"
+	para "Cianwood City"
 	line "PHARMACY"
 
 	para "We Await Your"
@@ -367,7 +367,7 @@ CianwoodPharmacySignText:
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
+	text "Cianwood City"
 	line "PHOTO STUDIO"
 
 	para "Take a Snapshot as"

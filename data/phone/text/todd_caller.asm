@@ -17,7 +17,7 @@ ToddDefeatedMonText:
 	text " easily."
 
 	para "I should challenge"
-	line "the GOLDENROD GYM."
+	line "the Goldenrod GYM."
 	done
 
 ToddLostAMonText:
@@ -61,7 +61,7 @@ ToddDepartmentStoreBargainSaleText:
 	line "one we've all been"
 	cont "waiting for!"
 
-	para "GOLDENROD DEPT."
+	para "Goldenrod DEPT."
 	line "STORE's bargain"
 	cont "sale is on now!"
 
@@ -69,7 +69,7 @@ ToddDepartmentStoreBargainSaleText:
 	line "Want it lots?"
 
 	para "Don't miss this"
-	line "GOLDENROD chance!"
+	line "Goldenrod chance!"
 
 	para "Huh? I sound like"
 	line "a huckster?"
@@ -104,7 +104,7 @@ ToddLookingForwardToBattleText:
 
 ToddHaveYouGoneToDepartmentStoreText:
 	text "Haven't you gone"
-	line "to GOLDENROD DEPT."
+	line "to Goldenrod DEPT."
 
 	para "STORE? I've scoped"
 	line "it out already!"

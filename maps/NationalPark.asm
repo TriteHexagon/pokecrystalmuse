@@ -489,7 +489,7 @@ LassKriseAfterBattleText:
 
 NationalParkRelaxationSquareText:
 	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	line "National Park"
 	done
 
 NationalParkBattleNoticeText:
@@ -499,7 +499,7 @@ NationalParkBattleNoticeText:
 	para "Please battle only"
 	line "in the grass."
 
-	para "NATIONAL PARK"
+	para "National Park"
 	line "WARDEN'S OFFICE"
 	done
 

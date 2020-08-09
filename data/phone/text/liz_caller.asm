@@ -97,7 +97,7 @@ LizFalknerGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "FALKNER of VIOLET"
+	line "FALKNER of Violet"
 
 	para "GYM is cool and"
 	line "handsome?"
@@ -122,7 +122,7 @@ LizEarlGossipText:
 	line "the teacher who"
 
 	para "runs the #MON"
-	line "ACADEMY in VIOLET?"
+	line "ACADEMY in Violet?"
 
 	para "I saw him doing"
 	line "pirouettes while"
@@ -174,7 +174,7 @@ LizSalonGossipText:
 	text "Listen, listen!"
 
 	para "There's a #MON"
-	line "SALON in GOLDENROD"
+	line "SALON in Goldenrod"
 
 	para "that's run by two"
 	line "brothers."
@@ -201,7 +201,7 @@ LizSalonGossipText:
 LizWhitneyGossipText:
 	text "Listen, listen!"
 
-	para "GOLDENROD GYM's"
+	para "Goldenrod GYM's"
 	line "WHITNEY began"
 
 	para "battling only a"
@@ -223,7 +223,7 @@ LizBugCatchingContestGossipText:
 
 	para "Bug-Catching"
 	line "Contest at the"
-	cont "NATIONAL PARK?"
+	cont "National Park?"
 
 	para "I did once, but"
 	line "all I could catch"

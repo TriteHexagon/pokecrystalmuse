@@ -319,7 +319,7 @@ MrPokemonsHouse_OakText2:
 	line "too long."
 
 	para "I have to get to"
-	line "GOLDENROD for my"
+	line "Goldenrod for my"
 	cont "usual radio show."
 
 	para "<PLAY_G>, I'm"

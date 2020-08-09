@@ -327,7 +327,7 @@ HikerErikBeatenText:
 
 HikerErikAfterBattleText:
 	text "I'll head back to"
-	line "BLACKTHORN's ICE"
+	line "Blackthorn's ICE"
 
 	para "PATH and train"
 	line "some more."

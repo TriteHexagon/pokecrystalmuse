@@ -27,7 +27,7 @@ OlivineLighthouse1FPokefanFText:
 	line "MON used to light"
 
 	para "the sea around"
-	line "OLIVINE at night."
+	line "Olivine at night."
 
 	para "The LIGHTHOUSE was"
 	line "made in honor of"

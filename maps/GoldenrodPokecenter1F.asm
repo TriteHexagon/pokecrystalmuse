@@ -675,7 +675,7 @@ UnknownText_0x62173:
 	text "I came over here"
 	line "when I got word"
 
-	para "that GOLDENROD's"
+	para "that Goldenrod's"
 	line "#MON CENTER has"
 
 	para "new machines that"

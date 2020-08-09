@@ -87,7 +87,7 @@ UnionCave1FUnusedSign:
 
 HikerRussellSeenText:
 	text "You're headed to"
-	line "AZALEA, are you?"
+	line "Azalea, are you?"
 
 	para "Let my #MON see"
 	line "if you are good"
@@ -195,7 +195,7 @@ FirebreatherRayAfterBattleText:
 	done
 
 UnionCave1FUnusedSignText:
-	text "UNION CAVE"
+	text "Union Cave"
 	done
 
 UnionCave1F_MapEvents:

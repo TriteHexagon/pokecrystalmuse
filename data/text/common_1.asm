@@ -319,7 +319,7 @@ _AlreadySetUpText::
 	prompt
 
 _LookTownMapText::
-	text "It's the TOWN MAP."
+	text "It's the Town MAP."
 	done
 
 _LookPikachuPosterText::
@@ -1042,7 +1042,7 @@ _BuenaRadioText5::
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "I'm in Goldenrod's"
 	done
 
 _BuenaRadioText7::

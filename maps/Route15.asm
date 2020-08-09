@@ -196,7 +196,7 @@ Route15SignText:
 	text "ROUTE 15"
 
 	para "Fuchsia City -"
-	line "Lavender TOWN"
+	line "Lavender Town"
 	done
 
 Route15_MapEvents:

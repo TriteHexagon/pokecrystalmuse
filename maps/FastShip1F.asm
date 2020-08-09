@@ -208,7 +208,7 @@ MovementData_0x75238:
 FastShip1FSailor1Text_ToVermilion:
 	text "FAST SHIP S.S.AQUA"
 	line "is en route to"
-	cont "Vermilion CITY."
+	cont "Vermilion City."
 
 	para "We will make an"
 	line "announcement when"
@@ -218,7 +218,7 @@ FastShip1FSailor1Text_ToVermilion:
 FastShip1FSailor1Text_ToOlivine:
 	text "FAST SHIP S.S.AQUA"
 	line "is en route to"
-	cont "OLIVINE CITY."
+	cont "Olivine City."
 
 	para "We will make an"
 	line "announcement when"
@@ -274,13 +274,13 @@ FastShip1FGrandpaText:
 FastShip1FSailor1Text_InOlivine:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "OLIVINE CITY."
+	cont "Olivine City."
 	done
 
 FastShip1FSailor1Text_InVermilion:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "Vermilion CITY."
+	cont "Vermilion City."
 	done
 
 FastShip1F_MapEvents:

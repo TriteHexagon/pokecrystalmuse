@@ -142,7 +142,7 @@ GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 	text "We have arrived in"
-	line "GOLDENROD."
+	line "Goldenrod."
 
 	para "We hope to see you"
 	line "again."

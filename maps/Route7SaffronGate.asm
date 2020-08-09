@@ -29,7 +29,7 @@ Route7SaffronGuardPowerPlantText:
 
 	para "It's located in"
 	line "the East, close to"
-	cont "Lavender TOWN."
+	cont "Lavender Town."
 	done
 
 Route7SaffronGuardSeriousText:

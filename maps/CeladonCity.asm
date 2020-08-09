@@ -171,7 +171,7 @@ CeladonCityTeacher2Text:
 ; 	cont "buildings!"
 
 ; 	para "Isn't it true that"
-; 	line "GOLDENROD #MON"
+; 	line "Goldenrod #MON"
 
 ; 	para "CENTER was made"
 ; 	line "much, much bigger?"
@@ -192,14 +192,14 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "Celadon CITY"
+	text "Celadon City"
 
 	para "The City of"
 	line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "Celadon CITY"
+	text "Celadon City"
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 

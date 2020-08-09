@@ -110,7 +110,7 @@ UnusedMissingDaughterText:
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
+	text "Ecruteak used to"
 	line "have two towers:"
 
 	para "one each in the"
@@ -158,7 +158,7 @@ EcruteakCityLass2Text_ReleasedBeasts:
 
 EcruteakCityFisherText:
 	text "I heard a rumor"
-	line "about OLIVINE"
+	line "about Olivine"
 	cont "LIGHTHOUSE."
 
 	para "The #MON that"
@@ -171,7 +171,7 @@ EcruteakCityFisherText:
 
 EcruteakCityFisherText_JasmineReturned:
 	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
+	line "Olivine LIGHTHOUSE"
 	cont "has been cured."
 
 	para "Boats can safely"
@@ -183,7 +183,7 @@ EcruteakCityYoungsterText:
 	text "I hear #MON are"
 	line "rampaging at the"
 
-	para "LAKE OF RAGE. I'd"
+	para "Lake of Rage. I'd"
 	line "like to see that."
 	done
 
@@ -206,7 +206,7 @@ EcruteakCityGramps3Text:
 	para "It's a legend that"
 	line "has been passed"
 
-	para "down by ECRUTEAK"
+	para "down by Ecruteak"
 	line "GYM LEADERS."
 
 	para "Me?"
@@ -217,7 +217,7 @@ EcruteakCityGramps3Text:
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
+	text "Ecruteak City"
 	line "A Historical City"
 
 	para "Where the Past"
@@ -233,7 +233,7 @@ TinTowerSignText:
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
+	text "Ecruteak City"
 	line "#MON GYM"
 	cont "LEADER: MORTY"
 
@@ -242,7 +242,7 @@ EcruteakGymSignText:
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
+	text "Ecruteak DANCE"
 	line "THEATER"
 	done
 

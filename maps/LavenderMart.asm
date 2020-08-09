@@ -41,7 +41,7 @@ LavenderMartRockerText:
 	para "makes custom BALLS"
 	line "in the JOHTO town"
 
-	para "of AZALEA. I wish"
+	para "of Azalea. I wish"
 	line "I had some."
 	done
 

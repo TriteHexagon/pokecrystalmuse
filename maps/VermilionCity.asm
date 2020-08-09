@@ -234,14 +234,14 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 VermilionCitySignText:
-	text "Vermilion CITY"
+	text "Vermilion City"
 
 	para "The Port of"
 	line "Exquisite Sunsets"
 	done
 
 VermilionGymSignText:
-	text "Vermilion CITY"
+	text "Vermilion City"
 	line "#MON GYM"
 	cont "LEADER: LT.SURGE"
 

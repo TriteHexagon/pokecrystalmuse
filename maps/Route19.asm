@@ -194,7 +194,7 @@ Route19Fisher1Text:
 	line "to Cinnabar, you'd"
 
 	para "better go south"
-	line "from Pallet TOWN."
+	line "from Pallet Town."
 	done
 
 Route19Fisher1Text_RocksCleared:

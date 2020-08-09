@@ -356,7 +356,7 @@ AzaleaTownTeacherText:
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
+	text "Cut through Azalea"
 	line "and you'll be in"
 	cont "ILEX FOREST."
 
@@ -404,7 +404,7 @@ AzaleaTownKurtText3:
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
+	text "Azalea Town"
 	line "Where People and"
 
 	para "#MON Live in"
@@ -416,7 +416,7 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
+	text "Azalea Town"
 	line "#MON GYM"
 	cont "LEADER: BUGSY"
 

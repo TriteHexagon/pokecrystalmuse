@@ -132,7 +132,7 @@ SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 	text "We'll soon depart"
-	line "for GOLDENROD."
+	line "for Goldenrod."
 
 	para "Are you coming on"
 	line "board?"

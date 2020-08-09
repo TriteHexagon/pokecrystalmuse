@@ -920,7 +920,7 @@ Route32SignText:
 	text "ROUTE 32"
 
 	para "Violet City -"
-	line "AZALEA TOWN"
+	line "Azalea Town"
 	done
 
 Route32RuinsSignText:
@@ -929,7 +929,7 @@ Route32RuinsSignText:
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
+	text "Union Cave"
 	line "AHEAD"
 	done
 

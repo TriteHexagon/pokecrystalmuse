@@ -82,7 +82,7 @@ BrentGrandpaGossipText:
 BrentGoldenrodGossipText:
 	text "Did you know…?"
 	line "BILL's originally"
-	cont "from GOLDENROD."
+	cont "from Goldenrod."
 	done
 
 BrentRoute25GossipText:

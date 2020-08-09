@@ -173,7 +173,7 @@ SwimmermSimonBeatenText:
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
+	text "Cianwood City is"
 	line "a good distance"
 	cont "away from here."
 	done
@@ -198,7 +198,7 @@ SwimmermRandallAfterBattleText:
 
 SwimmerfElaineSeenText:
 	text "Are you going to"
-	line "CIANWOOD?"
+	line "Cianwood?"
 
 	para "How about a quick"
 	line "battle first?"
@@ -237,7 +237,7 @@ Route40Lass1Text:
 	text "Although you can't"
 	line "see it from here,"
 
-	para "CIANWOOD is across"
+	para "Cianwood is across"
 	line "the sea."
 	done
 
@@ -258,7 +258,7 @@ Route40PokefanMText_Mobile:
 	done
 
 Route40Lass2Text:
-	text "I came to OLIVINE"
+	text "I came to Olivine"
 	line "by ship to see the"
 
 	para "sights and soak up"
@@ -331,8 +331,8 @@ MonicaNotMondayText:
 Route40SignText:
 	text "ROUTE 40"
 
-	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	para "Cianwood City -"
+	line "Olivine City"
 	done
 
 Route40_MapEvents:

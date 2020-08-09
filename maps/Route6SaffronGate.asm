@@ -28,7 +28,7 @@ Route6SaffronGuardScript:
 
 Route6SaffronGuardWelcomeText:
 	text "Welcome to Saffron"
-	line "CITY, home of the"
+	line "City, home of the"
 	cont "MAGNET TRAIN!"
 
 	para "…That's what I'd"

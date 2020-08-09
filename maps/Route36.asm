@@ -526,7 +526,7 @@ ProtectGuyText3:
 ; UnusedOddTreeText:
 ; 	text "An odd tree is"
 ; 	line "blocking the way"
-; 	cont "to GOLDENROD CITY."
+; 	cont "to Goldenrod City."
 
 ; 	para "I wanted to go see"
 ; 	line "the huge #MON"
@@ -538,7 +538,7 @@ ProtectGuyText3:
 Route36LassText:
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to Goldenrod City."
 
 	para "It's preventing"
 	line "me from shopping."

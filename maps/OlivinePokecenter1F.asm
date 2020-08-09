@@ -23,7 +23,7 @@ OlivinePokecenter1FTeacherScript:
 
 OlivinePokecenter1FFisherText:
 	text "The SAILOR in the"
-	line "OLIVINE CAFE next"
+	line "Olivine CAFE next"
 
 	para "door is really"
 	line "generous."
@@ -37,7 +37,7 @@ OlivinePokecenter1FFisherText:
 
 OlivinePokecenter1FTeacherText:
 	text "There's a person"
-	line "in CIANWOOD CITY"
+	line "in Cianwood City"
 	cont "across the sea."
 
 	para "I heard him brag-"

@@ -171,7 +171,7 @@ GuitaristClydeSeenText:
 	text "I'm going to audi-"
 	line "tion my songs at"
 
-	para "GOLDENROD's RADIO"
+	para "Goldenrod's RADIO"
 	line "STATION."
 	done
 
@@ -211,13 +211,13 @@ FastShipBedText2:
 FastShipArrivedOlivineText:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "OLIVINE CITY."
+	cont "Olivine City."
 	done
 
 FastShipArrivedVermilionText:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "Vermilion CITY."
+	cont "Vermilion City."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:

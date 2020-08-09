@@ -75,7 +75,7 @@ WadeBugCatchingContestText:
 	text "The Bug-Catching"
 	line "Contest is at the"
 
-	para "NATIONAL PARK"
+	para "National Park"
 	line "today."
 
 	para "Are you going,"

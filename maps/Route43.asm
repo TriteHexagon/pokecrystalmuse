@@ -431,7 +431,7 @@ CamperSpencerBeatenText:
 
 CamperSpencerAfterBattleText:
 	text "What is going on"
-	line "at LAKE OF RAGE?"
+	line "at Lake of Rage?"
 
 	para "We were planning"
 	line "to camp there."
@@ -439,7 +439,7 @@ CamperSpencerAfterBattleText:
 
 PicnickerTiffanySeenText:
 	text "Are you going to"
-	line "LAKE OF RAGE too?"
+	line "Lake of Rage too?"
 
 	para "Let's play for a "
 	line "little while!"
@@ -465,15 +465,15 @@ PicnickerTiffanyClefairyText:
 Route43Sign1Text:
 	text "ROUTE 43"
 
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	para "Lake of Rage -"
+	line "Mahogany Town"
 	done
 
 Route43Sign2Text:
 	text "ROUTE 43"
 
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	para "Lake of Rage -"
+	line "Mahogany Town"
 	done
 
 Route43TrainerTipsText:

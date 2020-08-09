@@ -87,7 +87,7 @@ TiffanyHangUpText:
 
 TiffanyFoundItemText:
 	text "I bought some PINK"
-	line "BOWS at GOLDENROD"
+	line "BOWS at Goldenrod"
 
 	para "DEPT.STORE for my"
 	line "CLEFAIRY."

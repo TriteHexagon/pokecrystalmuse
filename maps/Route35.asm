@@ -403,7 +403,7 @@ BugCatcherArnieAfterBattleText:
 	line "the Bug-Catching"
 
 	para "Contest at the"
-	line "NATIONAL PARK."
+	line "National Park."
 	done
 
 BugCatcherArnieYanmaText:

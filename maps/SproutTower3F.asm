@@ -250,7 +250,7 @@ SageLiFlashExplanationText:
 	line "of battle, you"
 
 	para "need the BADGE"
-	line "from VIOLET's GYM."
+	line "from Violet's GYM."
 	done
 
 SageLiAfterBattleText:

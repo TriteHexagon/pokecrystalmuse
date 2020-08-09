@@ -292,7 +292,7 @@ LakeOfRageLanceRadioSignalText:
 	para "A mysterious radio"
 	line "broadcast coming"
 
-	para "from MAHOGANY is"
+	para "from Mahogany is"
 	line "the cause."
 
 	para "I'll be waiting"
@@ -481,7 +481,7 @@ WesleyNotWednesdayText:
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
+	text "Lake of Rage,"
 	line "also known as"
 	cont "GYARADOS LAKE."
 	done

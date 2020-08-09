@@ -451,7 +451,7 @@ BuenaPhoneGoingShoppingText:
 	cont "soon."
 
 	para "It'll be great if"
-	line "GOLDENROD DEPT."
+	line "Goldenrod DEPT."
 
 	para "STORE has a sale"
 	line "on when we go…"

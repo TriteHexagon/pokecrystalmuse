@@ -457,7 +457,7 @@ SupernerdShawnAfterBattleText:
 SSAquaHasArrivedVermilionText:
 	text "FAST SHIP S.S.AQUA"
 	line "has arrived in"
-	cont "Vermilion CITY."
+	cont "Vermilion City."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:
