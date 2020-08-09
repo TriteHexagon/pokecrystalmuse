@@ -113,7 +113,7 @@ FastShipCabinsNorthwestCabinTrashcan:
 
 FirebreatherLyleSeenText:
 	text "I'm going to KANTO"
-	line "to put on fire-"
+	line "to put on Fire-"
 	cont "breathing shows!"
 	done
 

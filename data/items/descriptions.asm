@@ -623,7 +623,7 @@ CleanseTagDesc:
 	next "#MON. (HOLD)@"
 
 MysticWaterDesc:
-	db   "Powers up water-"
+	db   "Powers up Water-"
 	next "type moves. (HOLD)@"
 
 TwistedSpoonDesc:
@@ -788,7 +788,7 @@ TeruSama11Desc:
 	db   "?@"
 
 CharcoalDesc:
-	db   "Powers up fire-"
+	db   "Powers up Fire-"
 	next "type moves. (HOLD)@"
 
 BerryJuiceDesc:
