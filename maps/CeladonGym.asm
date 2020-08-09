@@ -122,7 +122,7 @@ ErikaBeforeBattleText:
 
 	para "My name is ERIKA."
 	line "I am the LEADER of"
-	cont "CELADON GYM."
+	cont "Celadon GYM."
 
 	para "…Oh? All the way"
 	line "from JOHTO, you"

@@ -116,7 +116,7 @@ GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	text "We'll soon depart"
-	line "for SAFFRON."
+	line "for Saffron."
 
 	para "Are you coming"
 	line "aboard?"

@@ -411,7 +411,7 @@ if DEF(_CRYSTAL_AU)
 	line "seem different"
 
 	para "from the ones at"
-	line "CELADON CITY!"
+	line "Celadon CITY!"
 	done
 else
 	text "I just love this"
@@ -419,7 +419,7 @@ else
 
 	para "It's more of a"
 	line "challenge than the"
-	cont "ones in CELADON."
+	cont "ones in Celadon."
 	done
 endc
 

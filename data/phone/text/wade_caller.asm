@@ -87,7 +87,7 @@ WadeBugCatchingContestText:
 
 WadeFoundItemText:
 	text "I found all kinds"
-	line "of BERRIES. If you"
+	line "of Berries. If you"
 
 	para "want, I'll share"
 	line "some with you."
@@ -99,7 +99,7 @@ WadeFoundItemText:
 	done
 
 WadeNoBerriesText:
-	text "Huh? BERRIES?"
+	text "Huh? Berries?"
 
 	para "Sorry, I haven't"
 	line "found any yet."

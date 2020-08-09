@@ -7,7 +7,7 @@ WadeAskNumber1Text:
 
 	para "When I'm in the"
 	line "grass, I find all"
-	cont "kinds of BERRIES."
+	cont "kinds of Berries."
 
 	para "If you'd like,"
 	line "I'll share some."
@@ -19,7 +19,7 @@ WadeAskNumber1Text:
 WadeAskNumber2Text:
 	text "When I'm in the"
 	line "grass, I find all"
-	cont "kinds of BERRIES."
+	cont "kinds of Berries."
 
 	para "If you'd like,"
 	line "I'll share some."

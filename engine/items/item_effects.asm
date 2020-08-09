@@ -86,17 +86,17 @@ ItemEffects:
 	dw NoEffect            ; SILVER_WING
 	dw RestoreHPEffect     ; MOOMOO_MILK
 	dw NoEffect            ; QUICK_CLAW
-	dw StatusHealingEffect ; PSNCUREBERRY
+	dw StatusHealingEffect ; PECHA_BERRY
 	dw NoEffect            ; BIG_NUGGET
 	dw NoEffect            ; SOFT_SAND
 	dw NoEffect            ; SHARP_BEAK
-	dw StatusHealingEffect ; PRZCUREBERRY
-	dw StatusHealingEffect ; BURNT_BERRY
-	dw StatusHealingEffect ; ICE_BERRY
+	dw StatusHealingEffect ; CHERI_BERRY
+	dw StatusHealingEffect ; ASPEAR_BERRY
+	dw StatusHealingEffect ; RAWST_BERRY
 	dw NoEffect            ; POISON_BARB
 	dw NoEffect            ; KINGS_ROCK
-	dw BitterBerryEffect   ; BITTER_BERRY
-	dw StatusHealingEffect ; MINT_BERRY
+	dw BitterBerryEffect   ; PERSIM_BERRY
+	dw StatusHealingEffect ; CHESTO_BERRY
 	dw NoEffect            ; RED_APRICORN
 	dw NoEffect            ; TINYMUSHROOM
 	dw NoEffect            ; BIG_MUSHROOM
@@ -121,7 +121,7 @@ ItemEffects:
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; NEVERMELTICE
 	dw NoEffect            ; MAGNET
-	dw StatusHealingEffect ; MIRACLEBERRY
+	dw StatusHealingEffect ; LUM_BERRY
 	dw NoEffect            ; PEARL
 	dw NoEffect            ; BIG_PEARL
 	dw NoEffect            ; EVERSTONE
@@ -162,7 +162,7 @@ ItemEffects:
 	dw NoEffect            ; ITEM_93
 	dw NoEffect            ; ITEM_94
 	dw NoEffect            ; ITEM_95
-	dw RestorePPEffect     ; MYSTERYBERRY
+	dw RestorePPEffect     ; LEPPA_BERRY
 	dw NoEffect            ; DRAGON_SCALE
 	dw NoEffect            ; BERSERK_GENE
 	dw NoEffect            ; ITEM_99
@@ -185,8 +185,8 @@ ItemEffects:
 	dw NoEffect            ; PINK_BOW
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
-	dw RestoreHPEffect     ; BERRY
-	dw RestoreHPEffect     ; GOLD_BERRY
+	dw RestoreHPEffect     ; ORAN_BERRY
+	dw RestoreHPEffect     ; SITRUS_BERRY
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; ITEM_B0
 	dw PokeBallEffect      ; PARK_BALL
@@ -2480,7 +2480,7 @@ RestorePP:
 	jr z, .restore_all
 
 	ld c, 5
-	cp MYSTERYBERRY
+	cp LEPPA_BERRY
 	jr z, .restore_some
 
 	ld c, 10

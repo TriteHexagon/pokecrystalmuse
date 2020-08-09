@@ -158,7 +158,7 @@ SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
 	text "We have arrived in"
-	line "SAFFRON."
+	line "Saffron."
 
 	para "We hope to see you"
 	line "again."
@@ -207,7 +207,7 @@ SaffronMagnetTrainStationLassText:
 	line "rail PASS? I have"
 
 	para "one. All the peo-"
-	line "ple in SAFFRON who"
+	line "ple in Saffron who"
 
 	para "ride the MAGNET"
 	line "TRAIN have PASSES."

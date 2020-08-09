@@ -13,7 +13,7 @@ Route30BerryHousePokefanMScript:
 	iftrue .GotBerry
 	writetext Route30BerrySpeechHouseMonEatBerriesText
 	promptbutton
-	verbosegiveitem BERRY
+	verbosegiveitem ORAN_BERRY
 	iffalse .NoRoom
 	setevent EVENT_GOT_BERRY_FROM_ROUTE_30_HOUSE
 .GotBerry:
@@ -28,11 +28,12 @@ Route30BerryHouseBookshelf:
 
 Route30BerrySpeechHouseMonEatBerriesText:
 	text "You know, #MON"
-	line "eat BERRIES."
+	line "eat Berries."
 
 	para "Well, my #MON"
 	line "got healthier by"
-	cont "eating a BERRY."
+	para "eating a Oran"
+	line "Berry."
 
 	para "Here. I'll share"
 	line "one with you!"
@@ -40,7 +41,7 @@ Route30BerrySpeechHouseMonEatBerriesText:
 
 Route30BerrySpeechHouseCheckTreesText:
 	text "Check trees for"
-	line "BERRIES. They just"
+	line "Berries. They just"
 	cont "drop right off."
 	done
 

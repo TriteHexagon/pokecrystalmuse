@@ -744,13 +744,13 @@ Route34SignText:
 Route34TrainerTipsText:
 	text "TRAINER TIPS"
 
-	para "BERRY trees grow"
-	line "new BERRIES"
+	para "Berry trees grow"
+	line "new Berries"
 	cont "every day."
 
 	para "Make a note of"
 	line "which trees bear"
-	cont "which BERRIES."
+	cont "which Berries."
 	done
 
 DayCareSignText:

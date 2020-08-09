@@ -106,7 +106,7 @@ SaffronPokecenter1FYoungsterText:
 	line "TION--they're the"
 
 	para "places to see in"
-	line "SAFFRON."
+	line "Saffron."
 	done
 
 SaffronPokecenter1F_MapEvents:

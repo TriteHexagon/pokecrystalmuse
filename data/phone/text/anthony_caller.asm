@@ -5,7 +5,7 @@ AnthonyMonAteSomeBerriesText:
 	para "@"
 	text_ram wStringBuffer4
 	text " eat"
-	line "some BERRIES."
+	line "some Berries."
 
 	para "It looked like it"
 	line "was enjoying its"

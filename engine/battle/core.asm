@@ -1421,7 +1421,7 @@ HandleMysteryberry:
 	cp SKETCH
 	ld b, 1
 	jr z, .sketch
-	ld b, 5
+	ld b, 10
 .sketch
 	ld a, [de]
 	add b

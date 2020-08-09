@@ -291,7 +291,7 @@ PicnickerDebraBeatenText:
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON…"
+	text "Saffron, Celadon…"
 	line "I hear there are"
 
 	para "many big cities"

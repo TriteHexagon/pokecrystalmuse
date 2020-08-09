@@ -31,7 +31,7 @@ VermilionMartSuperNerdText:
 VermilionMartBeautyText:
 	text "I'm thinking about"
 	line "going shopping in"
-	cont "SAFFRON."
+	cont "Saffron."
 	done
 
 VermilionMart_MapEvents:

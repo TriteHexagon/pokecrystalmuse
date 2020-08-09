@@ -357,7 +357,7 @@ NUM_TMS EQU const_value - TM01 - 2 ; discount ITEM_C3 and ITEM_DC
 > - $23 = 35: `METAL_POWDER` is for Ditto
 > - $3C = 60: `SILVER_LEAF` is for 10 Pokémon
 > - $4B = 75: `BIG_NUGGET` is for 13 Pokémon
-> - $96 = 150: `MYSTERYBERRY` is for Clefairy
+> - $96 = 150: `LEPPA_BERRY` is for Clefairy
 > - $AA = 170: `PINK_BOW` is for Jigglypuff
 > - $B4 = 180: `BRICK_PIECE` is for Machop
 >
@@ -368,13 +368,13 @@ NUM_TMS EQU const_value - TM01 - 2 ; discount ITEM_C3 and ITEM_DC
 > - Wild Dragonair's catch rate became 27 = $1B for `PROTEIN`
 > - Wild Dragonite's catch rate became 9 = $09 for `ANTIDOTE`
 >
-> Most catch rates were left as gaps in the item list, and transformed into held items via the `TimeCapsule_CatchRateItems` table in [data/items/catch_rate_items.asm](https://github.com/pret/pokecrystal/blob/master/data/items/catch_rate_items.asm). For example, the 52 Pokémon with catch rate 45 would hold the gap `ITEM_2D`, except that gets transformed into `BITTER_BERRY`.
+> Most catch rates were left as gaps in the item list, and transformed into held items via the `TimeCapsule_CatchRateItems` table in [data/items/catch_rate_items.asm](https://github.com/pret/pokecrystal/blob/master/data/items/catch_rate_items.asm). For example, the 52 Pokémon with catch rate 45 would hold the gap `ITEM_2D`, except that gets transformed into `PERSIM_BERRY`.
 >
 > But a few Pokémon end up with weird items. Abra has a catch rate of 200, or $C8; and Krabby, Horsea, Goldeen, and Staryu have a catch rate of 225, or $E1. Those indexes correspond to the items `TM_PSYCH_UP` and `TM_ICE_PUNCH`, which seem like random choices—because they are.
 >
 > The TMs and HMs span from indexes $BF to $F9. However, as we can see in [pokegold-spaceworld](https://github.com/pret/pokegold-spaceworld/blob/master/constants/item_constants.asm), they *originally* spanned $C4 to $FF. For some reason they were shifted down by 5 during development.
 >
-> Before the index shift, the gap `ITEM_C3` would have been at index $C8, and `ITEM_DC` at $E1. In other words, they would have neatly corresponded to the catch rates for those five Pokémon! Then they would have held `BERRY` when traded through the Time Capsule (since the gap items get transformed via `TimeCapsule_CatchRateItems`).
+> Before the index shift, the gap `ITEM_C3` would have been at index $C8, and `ITEM_DC` at $E1. In other words, they would have neatly corresponded to the catch rates for those five Pokémon! Then they would have held `ORAN_BERRY` when traded through the Time Capsule (since the gap items get transformed via `TimeCapsule_CatchRateItems`).
 
 **Fix:**
 

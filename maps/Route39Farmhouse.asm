@@ -108,7 +108,7 @@ FarmerMText_SickCow:
 	line "o' milk if'n I"
 
 	para "feed it lots o'"
-	line "BERRIES, I reckon."
+	line "Berries, I reckon."
 	done
 
 FarmerMText_BuyMilk:

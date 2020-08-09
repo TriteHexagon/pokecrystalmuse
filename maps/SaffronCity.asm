@@ -227,14 +227,14 @@ SaffronCityLass2Text:
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "Saffron CITY"
 
 	para "Shining, Golden"
 	line "Land of Commerce"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
+	text "Saffron CITY"
 	line "#MON GYM"
 	cont "LEADER: SABRINA"
 
@@ -258,7 +258,7 @@ MrPsychicsHouseSignText:
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
+	text "Saffron CITY"
 	line "MAGNET TRAIN"
 	cont "STATION"
 	done

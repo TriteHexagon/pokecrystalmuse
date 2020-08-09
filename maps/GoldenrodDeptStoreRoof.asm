@@ -137,7 +137,7 @@ GoldenrodDeptStoreRoofPokefanMText:
 	line "necessary cash…"
 
 	para "Maybe I'll sell"
-	line "off the BERRIES"
+	line "off the Berries"
 	cont "I've collected…"
 	done
 

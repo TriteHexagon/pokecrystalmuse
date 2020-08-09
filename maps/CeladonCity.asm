@@ -132,7 +132,7 @@ CeladonCityYoungster1Text:
 	text "Want to know a"
 	line "secret?"
 
-	para "CELADON MANSION"
+	para "Celadon Cond."
 	line "has a hidden back"
 	cont "door."
 	done
@@ -148,7 +148,7 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON DEPT.STORE"
+	text "Celadon DEPT.STORE"
 	line "has the biggest"
 
 	para "and best selection"
@@ -192,14 +192,14 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "CELADON CITY"
+	text "Celadon CITY"
 
 	para "The City of"
 	line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "CELADON CITY"
+	text "Celadon CITY"
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
@@ -209,23 +209,23 @@ CeladonGymSignText:
 
 CeladonCityDeptStoreSignText:
 	text "Find What You"
-	line "Need at CELADON"
+	line "Need at Celadon"
 	cont "DEPT.STORE!"
 	done
 
 CeladonCityMansionSignText:
-	text "CELADON MANSION"
+	text "Celadon Cond."
 	done
 
 CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
 	text "The Game Area for"
-	line "Grown-ups--CELADON"
+	line "Grown-ups--Celadon"
 	cont "GAME CORNER"
 	done
 else
 	text "The Playground for"
-	line "Everybody--CELADON"
+	line "Everybody--Celadon"
 	cont "GAME CORNER"
 	done
 endc
@@ -241,7 +241,7 @@ CeladonCityTrainerTipsText:
 	cont "fire and water."
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "Celadon DEPT."
 	cont "STORE!"
 	done
 
