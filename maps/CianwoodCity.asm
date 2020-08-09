@@ -200,7 +200,7 @@ ChucksWifeBeatChuckText:
 	cont "city's GYM BADGE."
 
 	para "If you beat the"
-	line "GYM LEADER here,"
+	line "Gym Leader here,"
 	cont "come see me."
 
 	para "I'll have a nice"

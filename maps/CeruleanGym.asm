@@ -238,7 +238,7 @@ CeruleanGymGruntByeText:
 CeruleanGymNote1Text:
 	text "Sorry, I'll be out"
 	line "for a while."
-	cont "MISTY, GYM LEADER"
+	cont "MISTY, Gym Leader"
 	done
 
 CeruleanGymNote2Text:

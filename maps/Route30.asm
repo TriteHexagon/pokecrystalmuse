@@ -366,7 +366,7 @@ Route30SignText:
 	text "ROUTE 30"
 
 	para "Violet City -"
-	line "CHERRYGROVE CITY"
+	line "Cherrygrove CITY"
 	done
 
 MrPokemonsHouseDirectionsSignText:

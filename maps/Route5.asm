@@ -26,8 +26,8 @@ Route5PokefanMText:
 Route5UndergroundPathSignText:
 	text "UNDERGROUND PATH"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "Cerulean CITY -"
+	line "Vermilion CITY"
 	done
 
 HouseForSaleSignText:

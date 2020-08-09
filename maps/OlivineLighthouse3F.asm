@@ -85,7 +85,7 @@ SailorTerrellAfterBattleText:
 	line "back to OLIVINE, I"
 	cont "visit the GYM."
 
-	para "The GYM LEADER's"
+	para "The Gym Leader's"
 	line "#MON type has"
 
 	para "changed without me"

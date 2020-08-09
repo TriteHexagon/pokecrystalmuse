@@ -239,7 +239,7 @@ MortyText_FogBadgeSpeech:
 	line "you."
 
 	para "Also, #MON that"
-	line "know SURF will be"
+	line "know Surf will be"
 
 	para "able to use that"
 	line "move anytime."

@@ -33,7 +33,7 @@ CherrygroveGymSpeechHousePokefanMText:
 CherrygroveGymSpeechHouseBugCatcherText:
 	text "When I get older,"
 	line "I'm going to be a"
-	cont "GYM LEADER!"
+	cont "Gym Leader!"
 
 	para "I make my #MON"
 	line "battle with my"

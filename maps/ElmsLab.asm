@@ -899,7 +899,7 @@ ElmDirectionsText1:
 	text "MR.#MON lives a"
 	line "little bit beyond"
 
-	para "CHERRYGROVE, the"
+	para "Cherrygrove, the"
 	line "next city over."
 
 	para "It's almost a"

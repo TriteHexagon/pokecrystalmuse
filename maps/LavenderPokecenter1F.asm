@@ -36,7 +36,7 @@ LavenderPokecenter1FYoungsterScript:
 
 LavenderPokecenter1FGentlemanText:
 	text "To the north of"
-	line "LAVENDER is ROCK"
+	line "Lavender is ROCK"
 
 	para "TUNNEL. Go through"
 	line "it to get to the"

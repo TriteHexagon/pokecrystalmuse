@@ -79,7 +79,7 @@ SwimmerfLoriBeatenText:
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is no longer"
+	text "Surf is no longer"
 	line "the only HM move"
 	cont "you use in water."
 	done
@@ -106,7 +106,7 @@ CinnabarGymSignText:
 	text "What does this"
 	line "sign say?"
 
-	para "CINNABAR GYM"
+	para "Cinnabar GYM"
 	line "LEADER: BLAINE"
 	done
 

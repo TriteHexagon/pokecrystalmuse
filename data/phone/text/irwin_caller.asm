@@ -86,7 +86,7 @@ IrwinRisingBadgeGossipText:
 
 IrwinEliteFourGossipText:
 	text "Yesterday, I went"
-	line "out to NEW BARK"
+	line "out to New Bark"
 
 	para "TOWN.  There was a"
 	line "lady who looked a"

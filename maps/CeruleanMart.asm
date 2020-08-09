@@ -40,7 +40,7 @@ CeruleanMart_CooltrainerFText:
 
 	para "town who can beat"
 	line "the trainers at"
-	cont "CERULEAN's CAPE."
+	cont "Cerulean's CAPE."
 	done
 
 CeruleanMart_MapEvents:

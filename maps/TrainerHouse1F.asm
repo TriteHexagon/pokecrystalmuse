@@ -39,7 +39,7 @@ TrainerHouse1FReceptionistText:
 	line "HOUSE, the newest"
 
 	para "and most happening"
-	line "place in VIRIDIAN."
+	line "place in Viridian."
 
 	para "We're open to"
 	line "trainers only."
@@ -52,7 +52,7 @@ TrainerHouse1FReceptionistText:
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "VIRIDIAN is the"
+	text "Viridian is the"
 	line "town closest to"
 	cont "INDIGO PLATEAU."
 
@@ -89,7 +89,7 @@ TrainerHouse1FYoungsterText:
 	line "of people."
 
 	para "The CHAMPION from"
-	line "PALLET traveled to"
+	line "Pallet traveled to"
 
 	para "all the cities and"
 	line "towns in KANTO."

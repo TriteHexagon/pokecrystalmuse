@@ -17,7 +17,7 @@ Route16FuchsiaSpeechHouseSuperNerdText:
 	line "CYCLING ROAD, you"
 
 	para "will end up in"
-	line "FUCHSIA CITY."
+	line "Fuchsia City."
 	done
 
 Route16FuchsiaSpeechHouse_MapEvents:

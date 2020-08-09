@@ -206,7 +206,7 @@ SaffronCityYoungster2Text:
 	text "There's a place"
 	line "called TRAINER"
 
-	para "HOUSE in VIRIDIAN"
+	para "HOUSE in Viridian"
 	line "where trainers"
 
 	para "gather from all"

@@ -165,7 +165,7 @@ ClairIntroText:
 	para "…Fine."
 	line "Let's do it!"
 
-	para "As a GYM LEADER,"
+	para "As a Gym Leader,"
 	line "I will use my full"
 
 	para "power against any"
@@ -266,9 +266,9 @@ BlackthornGymClairText_League:
 	line "where it is?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "New Bark Town."
 
-	para "Then SURF east."
+	para "Then Surf east."
 	line "The route there is"
 	cont "very tough."
 

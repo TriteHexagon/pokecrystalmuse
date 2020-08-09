@@ -209,7 +209,7 @@ LizWhitneyGossipText:
 
 	para "But the #MON"
 	line "LEAGUE chose her"
-	cont "as a GYM LEADER!"
+	cont "as a Gym Leader!"
 
 	para "I bet she must be"
 	line "totally talented."

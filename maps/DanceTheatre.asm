@@ -278,7 +278,7 @@ SurfGuyLikeADanceText:
 	done
 
 SurfGuySurfExplanationText:
-	text "That's SURF."
+	text "That's Surf."
 
 	para "It's a move that"
 	line "lets #MON swim"
@@ -298,11 +298,11 @@ RhydonText:
 
 DanceTheatreCooltrainerMText:
 	text "That man's always"
-	line "with his RHYDON."
+	line "with his Rhydon."
 
 	para "Says he wants a"
 	line "#MON that can"
-	cont "SURF and dance."
+	cont "Surf and dance."
 
 	para "Is he trying to"
 	line "make a synchro-"

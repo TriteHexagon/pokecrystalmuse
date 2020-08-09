@@ -243,7 +243,7 @@ JanineText_DisappointYou:
 
 	para "I'm the real deal!"
 
-	para "JANINE of FUCHSIA"
+	para "JANINE of Fuchsia"
 	line "GYM, that's me!"
 	done
 
@@ -289,7 +289,7 @@ LassAliceBeforeText:
 	text "Fufufu!"
 
 	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	line "Gym Leader!"
 
 	para "No, I'm not!"
 	line "Gotcha, sucker!"

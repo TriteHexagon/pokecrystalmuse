@@ -330,7 +330,7 @@ SailorGarrettAfterBattleText:
 	text "We get different"
 	line "passengers from"
 
-	para "VERMILION CITY to"
+	para "Vermilion CITY to"
 	line "OLIVINE CITY."
 	done
 
@@ -350,7 +350,7 @@ FisherJonahBeatenText:
 
 FisherJonahAfterBattleText:
 	text "I plan to fish off"
-	line "VERMILION's pier."
+	line "Vermilion's pier."
 	done
 
 BlackbeltWaiSeenText:

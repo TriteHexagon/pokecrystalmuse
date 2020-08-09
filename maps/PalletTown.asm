@@ -48,7 +48,7 @@ PalletTownFisherText:
 	done
 
 PalletTownSignText:
-	text "PALLET TOWN"
+	text "Pallet TOWN"
 
 	para "A Tranquil Setting"
 	line "of Peace & Purity"

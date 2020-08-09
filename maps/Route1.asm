@@ -74,8 +74,8 @@ CooltrainerfQuinnAfterBattleText:
 Route1SignText:
 	text "ROUTE 1"
 
-	para "PALLET TOWN -"
-	line "VIRIDIAN CITY"
+	para "Pallet TOWN -"
+	line "Viridian City"
 	done
 
 Route1_MapEvents:

@@ -84,7 +84,7 @@ BrockIntroText:
 	line "from JOHTO."
 
 	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	line "Pewter Gym Leader."
 
 	para "I'm an expert on"
 	line "Rock-type #MON."

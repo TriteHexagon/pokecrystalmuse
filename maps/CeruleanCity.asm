@@ -201,14 +201,14 @@ CeruleanCityCooltrainerFText3:
 
 CeruleanCityFisherText:
 	text "I'm a huge fan of"
-	line "CERULEAN GYM's"
+	line "Cerulean GYM's"
 	cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
 	text "I saw this shady"
 	line "guy go off toward"
-	cont "CERULEAN's CAPE."
+	cont "Cerulean's CAPE."
 	done
 
 CeruleanCityYoungsterText1:
@@ -227,14 +227,14 @@ CeruleanCityYoungsterText2:
 	done
 
 CeruleanCitySignText:
-	text "CERULEAN CITY"
+	text "Cerulean CITY"
 
 	para "A Mysterious Blue"
 	line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "CERULEAN CITY"
+	text "Cerulean CITY"
 	line "#MON GYM"
 	cont "LEADER: MISTY"
 
@@ -261,11 +261,11 @@ CeruleanPoliceSignText:
 	para "a friendlier, more"
 	line "cheerful place!"
 
-	para "CERULEAN POLICE"
+	para "Cerulean Police"
 	done
 
 CeruleanCapeSignText:
-	text "CERULEAN CAPE"
+	text "Cerulean CAPE"
 	line "AHEAD"
 	done
 

@@ -300,7 +300,7 @@ BoarderDouglasAfterBattleText:
 
 SkierRoxanneSeenText:
 	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	line "our Gym Leader,"
 
 	para "you need to think"
 	line "before you skate."

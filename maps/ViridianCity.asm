@@ -130,7 +130,7 @@ ViridianCityGrampsNearGymText:
 	cont "until recently."
 
 	para "A young man from"
-	line "PALLET became the"
+	line "Pallet became the"
 
 	para "LEADER, but he's"
 	line "often away."
@@ -179,18 +179,18 @@ ViridianCityYoungsterText:
 	line "are many items on"
 
 	para "the ground in"
-	line "VIRIDIAN FOREST."
+	line "Viridian Forest."
 	done
 
 ViridianCitySignText:
-	text "VIRIDIAN CITY"
+	text "Viridian City"
 
 	para "The Eternally"
 	line "Green Paradise"
 	done
 
 ViridianGymSignText:
-	text "VIRIDIAN CITY"
+	text "Viridian City"
 	line "#MON GYM"
 	cont "LEADER: …"
 
@@ -200,7 +200,7 @@ ViridianGymSignText:
 
 ViridianCityWelcomeSignText:
 	text "WELCOME TO"
-	line "VIRIDIAN CITY,"
+	line "Viridian City,"
 
 	para "THE GATEWAY TO"
 	line "INDIGO PLATEAU"

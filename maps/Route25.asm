@@ -259,14 +259,14 @@ Route25MistyDateText:
 	line "you must be good."
 
 	para "OK, then. Come to"
-	line "CERULEAN GYM."
+	line "Cerulean GYM."
 
 	para "I'll be happy to"
 	line "take you on."
 
 	para "I'm MISTY, the"
-	line "GYM LEADER in"
-	cont "CERULEAN."
+	line "Gym Leader in"
+	cont "Cerulean."
 	done
 
 SchoolboyDudleySeenText:

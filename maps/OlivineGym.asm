@@ -104,7 +104,7 @@ Jasmine_SteelTypeIntro:
 	line "duce myself."
 
 	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
+	line "Gym Leader. I use"
 	cont "the Steel-type."
 
 	para "…Do you know about"

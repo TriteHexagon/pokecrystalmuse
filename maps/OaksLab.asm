@@ -250,7 +250,7 @@ OaksLabPCText:
 	para "I'm delighted to"
 	line "hear that."
 
-	para "ELM in NEW BARK"
+	para "ELM in New Bark"
 	line "TOWN 8-)"
 	done
 

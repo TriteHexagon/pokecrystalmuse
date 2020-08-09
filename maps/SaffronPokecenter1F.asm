@@ -91,7 +91,7 @@ SaffronPokecenter1FFisherReturnedMachinePartText:
 
 	para "past few years,"
 	line "like the one out-"
-	cont "side CERULEAN."
+	cont "side Cerulean."
 
 	para "As a pro HIKER,"
 	line "that's common"

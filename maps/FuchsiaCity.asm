@@ -55,14 +55,14 @@ FuchsiaCityYoungsterText:
 	line "FOUR used to be"
 
 	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	line "Fuchsia's GYM."
 	done
 
 FuchsiaCityPokefanMText:
 	text "KOGA's daughter"
 	line "succeeded him as"
 
-	para "the GYM LEADER"
+	para "the Gym Leader"
 	line "after he joined"
 	cont "the ELITE FOUR."
 	done
@@ -72,19 +72,19 @@ FuchsiaCityTeacherText:
 	line "closed… It's sad,"
 
 	para "considering it's"
-	line "FUCHSIA's main"
+	line "Fuchsia's main"
 	cont "attraction."
 	done
 
 FuchsiaCitySignText:
-	text "FUCHSIA CITY"
+	text "Fuchsia City"
 
 	para "Behold! It's"
 	line "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
-	text "FUCHSIA CITY"
+	text "Fuchsia City"
 	line "#MON GYM"
 	cont "LEADER: JANINE"
 

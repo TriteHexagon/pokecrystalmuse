@@ -102,7 +102,7 @@ LeaderBlueBeforeText:
 	line "got here, huh?"
 
 	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	line "mood at Cinnabar,"
 
 	para "but now I'm ready"
 	line "to battle you."
@@ -198,7 +198,7 @@ ViridianGymGuyText:
 	line "Looks like you're"
 	cont "on a roll."
 
-	para "The GYM LEADER is"
+	para "The Gym Leader is"
 	line "a guy who battled"
 
 	para "the CHAMPION three"

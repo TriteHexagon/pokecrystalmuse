@@ -5483,7 +5483,7 @@ Text_CancelBattleRoomChallenge:
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit GYM LEADER"
+	text "Exit Gym Leader"
 	line "HONOR ROLL?"
 	done
 

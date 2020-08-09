@@ -233,7 +233,7 @@ CopycatText_Male_2:
 
 	para "You think you lost"
 	line "it when you went"
-	cont "to VERMILION CITY?"
+	cont "to Vermilion CITY?"
 	done
 
 CopycatText_Worried:
@@ -323,7 +323,7 @@ CopycatText_Female_2:
 
 	para "You think you lost"
 	line "it when you were"
-	cont "in VERMILION?"
+	cont "in Vermilion?"
 	done
 
 CopycatText_Female_3:

@@ -72,7 +72,7 @@ Route18SignText:
 	text "ROUTE 18"
 
 	para "Celadon CITY -"
-	line "FUCHSIA CITY"
+	line "Fuchsia City"
 	done
 
 Route18_MapEvents:

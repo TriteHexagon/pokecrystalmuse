@@ -70,7 +70,7 @@ SeafoamGymGuyScript:
 BlaineIntroText:
 	text "BLAINE: Waaah!"
 
-	para "My GYM in CINNABAR"
+	para "My GYM in Cinnabar"
 	line "burned down."
 
 	para "My Fire-breathing"
@@ -130,7 +130,7 @@ BlaineAfterBattleText:
 	line "next time."
 
 	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	line "Cinnabar GYM,"
 
 	para "we'll have to have"
 	line "a rematch."
@@ -152,7 +152,7 @@ SeafoamGymGuyWinText:
 
 	para "Sorry, sorry!"
 
-	para "CINNABAR GYM was"
+	para "Cinnabar GYM was"
 	line "gone, so I didn't"
 
 	para "know where to find"

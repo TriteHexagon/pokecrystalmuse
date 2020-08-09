@@ -181,7 +181,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	text "Hello!"
 	line "You are trainer?"
 
-	para "Battle GYM LEADER,"
+	para "Battle Gym Leader,"
 	line "win you did?"
 	done
 
@@ -219,7 +219,7 @@ VioletCitySuperNerdText:
 	line "#MON trainer?"
 
 	para "If you beat the"
-	line "GYM LEADER here,"
+	line "Gym Leader here,"
 
 	para "you'll be ready"
 	line "for prime time!"

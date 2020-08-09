@@ -395,7 +395,7 @@ BuenaPhoneCompanyVacationText:
 	line "a company vacation"
 
 	para "to the RADIO TOWER"
-	line "in LAVENDER."
+	line "in Lavender."
 
 	para "We're wasting our"
 	line "vacation on a trip"

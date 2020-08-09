@@ -129,7 +129,7 @@ SwimmermTuckerSeenText:
 	line "Just… a little…"
 
 	para "farther… to…"
-	line "FUCHSIA…"
+	line "Fuchsia…"
 	done
 
 SwimmermTuckerBeatenText:
@@ -139,7 +139,7 @@ SwimmermTuckerBeatenText:
 SwimmermTuckerAfterBattleText:
 	text "I… asked my girl-"
 	line "friend to swim to"
-	cont "FUCHSIA… Gasp…"
+	cont "Fuchsia… Gasp…"
 	done
 
 SwimmerfDawnSeenText:
@@ -154,7 +154,7 @@ SwimmerfDawnBeatenText:
 
 SwimmerfDawnAfterBattleText:
 	text "It's a quick swim"
-	line "between FUCHSIA"
+	line "between Fuchsia"
 
 	para "and SEAFOAM IS-"
 	line "LANDS…"
@@ -191,10 +191,10 @@ Route19Fisher1Text:
 	cont "construction."
 
 	para "If you want to get"
-	line "to CINNABAR, you'd"
+	line "to Cinnabar, you'd"
 
 	para "better go south"
-	line "from PALLET TOWN."
+	line "from Pallet TOWN."
 	done
 
 Route19Fisher1Text_RocksCleared:
@@ -219,7 +219,7 @@ Route19Fisher2Text_RocksCleared:
 Route19SignText:
 	text "ROUTE 19"
 
-	para "FUCHSIA CITY -"
+	para "Fuchsia City -"
 	line "SEAFOAM ISLANDS"
 	done
 
@@ -229,7 +229,7 @@ CarefulSwimmingSignText:
 	cont "ming to SEAFOAM"
 	cont "ISLANDS."
 
-	para "FUCHSIA POLICE"
+	para "Fuchsia Police"
 	done
 
 Route19_MapEvents:

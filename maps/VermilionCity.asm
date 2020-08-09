@@ -124,7 +124,7 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "VERMILION PORT is"
+	text "Vermilion PORT is"
 	line "KANTO's seaside"
 	cont "gateway."
 
@@ -159,7 +159,7 @@ VermilionCitySuperNerdText:
 	line "GYMS in KANTO."
 
 	para "That big building"
-	line "is VERMILION's"
+	line "is Vermilion's"
 	cont "#MON GYM."
 	done
 
@@ -234,14 +234,14 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 VermilionCitySignText:
-	text "VERMILION CITY"
+	text "Vermilion CITY"
 
 	para "The Port of"
 	line "Exquisite Sunsets"
 	done
 
 VermilionGymSignText:
-	text "VERMILION CITY"
+	text "Vermilion CITY"
 	line "#MON GYM"
 	cont "LEADER: LT.SURGE"
 
@@ -261,7 +261,7 @@ VermilionCityDiglettsCaveSignText:
 	done
 
 VermilionCityPortSignText:
-	text "VERMILION PORT"
+	text "Vermilion PORT"
 	line "ENTRANCE"
 	done
 

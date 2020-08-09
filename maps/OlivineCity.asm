@@ -179,7 +179,7 @@ OlivineCityRivalText:
 	para "Speaking of weak-"
 	line "lings, the city's"
 
-	para "GYM LEADER isn't"
+	para "Gym Leader isn't"
 	line "here."
 
 	para "Supposedly taking"
