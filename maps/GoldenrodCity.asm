@@ -32,13 +32,15 @@ GoldenrodCity_MapScripts:
 	return
 
 .MoveTutor:
-	checkevent EVENT_BEAT_ELITE_FOUR
+	checkevent EVENT_BEAT_WHITNEY
 	iffalse .MoveTutorDone
 	checkitem COIN_CASE
 	iffalse .MoveTutorDisappear
-	readvar VAR_WEEKDAY
-	ifequal WEDNESDAY, .MoveTutorAppear
-	ifequal SATURDAY, .MoveTutorAppear
+	checktime NITE
+	iftrue .MoveTutorAppear
+	; readvar VAR_WEEKDAY
+	; ifequal WEDNESDAY, .MoveTutorAppear
+	; ifequal SATURDAY, .MoveTutorAppear
 .MoveTutorDisappear:
 	disappear GOLDENRODCITY_MOVETUTOR
 	return
@@ -57,36 +59,40 @@ MoveTutorScript:
 	yesorno
 	iffalse .Refused
 	special DisplayCoinCaseBalance
-	writetext GoldenrodCityMoveTutorAsk4000CoinsOkayText
-	yesorno
-	iffalse .Refused2
 	checkcoins 500
 	ifequal HAVE_LESS, .NotEnoughMoney
 	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
-	ifequal MOVETUTOR_FLAMETHROWER, .FireFang
-	ifequal MOVETUTOR_THUNDERBOLT, .ThunderFang
-	ifequal MOVETUTOR_ICE_BEAM, .IceFang
+	ifequal MOVETUTOR_FIRE_FANG, .FireFang
+	ifequal MOVETUTOR_THUNDER_FANG, .ThunderFang
+	ifequal MOVETUTOR_ICE_FANG, .IceFang
+	; ifequal MOVETUTOR_FIRE_PUNCH, .FirePunch
+	; ifequal MOVETUTOR_THUNDERPUNCH, .ThunderPunch
+	; ifequal MOVETUTOR_ICE_PUNCH, .IcePunch
 	sjump .Incompatible
 
 .FireFang:
 	setval FIRE_FANG
-	writetext GoldenrodCityMoveTutorMoveText
-	special MoveTutor
-	ifequal FALSE, .TeachMove
-	sjump .Incompatible
-
+	sjump .TryTeachMove
 .ThunderFang:
 	setval THUNDER_FANG
-	writetext GoldenrodCityMoveTutorMoveText
-	special MoveTutor
-	ifequal FALSE, .TeachMove
-	sjump .Incompatible
-
+	sjump .TryTeachMove
 .IceFang:
 	setval ICE_FANG
+	sjump .TryTeachMove
+; .FirePunch:
+; 	setval FIRE_PUNCH
+; 	sjump .TryTeachMove
+; .ThunderPunch:
+; 	setval THUNDERPUNCH
+; 	sjump .TryTeachMove
+; .IcePunch:
+; 	setval ICE_PUNCH
+; 	sjump .TryTeachMove
+
+.TryTeachMove
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
@@ -104,6 +110,9 @@ MoveTutorScript:
 	db "Fire Fang@"
 	db "Thunder Fang@"
 	db "Ice Fang@"
+	; db "Fire Punch@"
+	; db "ThunderPunch@"
+	; db "Ice Punch@"
 	db "CANCEL@"
 
 .Refused:
@@ -496,11 +505,9 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 
 	para "Should I teach a"
 	line "new move?"
-	done
 
-GoldenrodCityMoveTutorAsk4000CoinsOkayText:
-	text "It will cost you"
-	line "4000 coins. Okay?"
+	para "It will cost you"
+	line "500 coins."
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
