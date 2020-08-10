@@ -1022,28 +1022,35 @@ PoliwagEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 25, RAIN_DANCE
-	db 31, BODY_SLAM
-	db 37, BELLY_DRUM
-	db 43, HYDRO_PUMP
+	db 11, SWIFT
+	db 15, DOUBLESLAP
+	db 18, RAIN_DANCE
+	db 21, BODY_SLAM
+	db 25, WATER_PULSE
+	db 27, MUD_SHOT
+	db 31, BELLY_DRUM
+	db 35, AMNESIA
+	db 38, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 PoliwhirlEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
+	db EVOLVE_ITEM, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, WATER_GUN
 	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 27, RAIN_DANCE
-	db 35, BODY_SLAM
-	db 43, BELLY_DRUM
-	db 51, HYDRO_PUMP
+	db 11, SWIFT
+	db 15, DOUBLESLAP
+	db 18, RAIN_DANCE
+	db 21, BODY_SLAM
+	db 25, WATER_PULSE
+	db 29, MUD_SHOT
+	db 34, BELLY_DRUM
+	db 38, AMNESIA
+	db 42, HYDRO_PUMP
+	db 44, ENCORE
 	db 0 ; no more level-up moves
 
 PoliwrathEvosAttacks:
