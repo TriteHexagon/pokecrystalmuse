@@ -36,7 +36,7 @@ GoldenrodCity_MapScripts:
 	iffalse .MoveTutorDone
 	checkitem COIN_CASE
 	iffalse .MoveTutorDisappear
-	checktime NITE
+	checktime MORN
 	iftrue .MoveTutorAppear
 	; readvar VAR_WEEKDAY
 	; ifequal WEDNESDAY, .MoveTutorAppear

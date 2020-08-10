@@ -1463,6 +1463,7 @@
 	const EVENT_GOT_TM41_SCALD
 	const EVENT_GOT_TM42_STONE_EDGE
 	const EVENT_GOT_TM50_CALM_MIND
+	const EVENT_MT_MOON_ITEM_MANIAC
 ; Unused: next 48 events
 
 	const_next 2048

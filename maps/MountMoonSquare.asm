@@ -2,14 +2,16 @@
 	const MOUNTMOONSQUARE_FAIRY1
 	const MOUNTMOONSQUARE_FAIRY2
 	const MOUNTMOONSQUARE_ROCK
+	const MOUNTMOONSQUARE_STAR_MANIAC
 
 MountMoonSquare_MapScripts:
 	db 1 ; scene scripts
 	scene_script .DummyScene ; SCENE_DEFAULT
 
-	db 2 ; callbacks
+	db 3 ; callbacks
 	callback MAPCALLBACK_NEWMAP, .DisappearMoonStone
 	callback MAPCALLBACK_OBJECTS, .DisappearRock
+	callback MAPCALLBACK_OBJECTS, .StarManiac
 
 .DummyScene:
 	end
@@ -20,6 +22,18 @@ MountMoonSquare_MapScripts:
 
 .DisappearRock:
 	disappear MOUNTMOONSQUARE_ROCK
+	return
+
+.StarManiac:
+	checktime NITE
+	iffalse .DisappearStarManiac
+	;checkflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
+	;iftrue .DisappearStarManiac
+	appear MOUNTMOONSQUARE_STAR_MANIAC
+	return
+
+.DisappearStarManiac
+	disappear MOUNTMOONSQUARE_STAR_MANIAC
 	return
 
 ClefairyDance:
@@ -125,9 +139,122 @@ ClefairyFleeMovement:
 	step RIGHT
 	step_end
 
+; Star Maniac
+
+MtMoonStarManiacScript:
+	faceplayer
+	opentext
+	writetext MtMoonStarManiacIntroText
+	waitbutton
+.CheckItems
+	checkitem STARDUST
+	iftrue .GotSmallItem
+	checkitem STAR_PIECE
+	iftrue .GotBigItem
+	writetext MtMoonStarManiacNoItems
+	waitbutton
+	closetext
+	end
+
+.GotBigItem
+	writetext MtMoonStarManiacGotItem
+	waitbutton
+	writetext MtMoonStarManiacGotBigItem
+	yesorno
+	iffalse .Refused
+	takeitem STAR_PIECE
+	givemoney $0, 9800
+	sjump .TransactionComplete
+
+.GotSmallItem
+	writetext MtMoonStarManiacGotItem
+	waitbutton
+	writetext MtMoonStarManiacGotSmallItem
+	yesorno
+	iffalse .Refused
+	takeitem STARDUST
+	givemoney $0, 2000	
+
+.TransactionComplete
+	playsound SFX_TRANSACTION
+	waitsfx
+	writetext MtMoonStarManiacThanksForBusiness
+	waitbutton
+	sjump .CheckItems
+	
+.Refused
+	writetext MtMoonStarManiacRefusedSelling
+	waitbutton
+	closetext
+	end
+
+MtMoonStarManiacIntroText:
+	text "Ah! Look at that"
+	line "sky! This is the"
+
+	para "best place in"
+	line "Kanto for"
+	cont "stargazing!"
+
+	para "Sometimes I wish I"
+	line "could hold a piece"
+	cont "of the stars…"
+	done
+
+MtMoonStarManiacGotItem:
+	text "…What did you say?"
+	line "You have a piece"
+
+	para "of the stars for"
+	line "me? I insist, you"
+
+	para "must let me buy them"
+	line "from you!"
+	done 
+
+MtMoonStarManiacGotBigItem:
+	text "You got a"
+	line "Star Piece?"
+
+	para "I'll buy it for"
+	line "9800¥!"
+	done
+
+MtMoonStarManiacGotSmallItem:
+	text "You got some"
+	line "Stardust?"
+
+	para "I'll buy it for"
+	line "2000¥!"
+	done
+
+MtMoonStarManiacRefusedSelling:
+	text "You are just"
+	line "making me sad…"
+	done
+
+MtMoonStarManiacNoItems:
+	text "I wonder if anyone"
+	line "will ever come"
+
+	para "here with a piece"
+	line "of the stars…"
+
+	para "I'd be willing to"
+	line "buy them for a"
+	cont "premium."
+	done
+
+MtMoonStarManiacThanksForBusiness:
+	text "You just made my"
+	line "day!"
+	done
+
+; End Star Maniac
+
 DontLitterSignText:
-	text "MT.MOON SQUARE"
-	line "DON'T LITTER"
+	text "Mt.Moon Square"
+	line "Don't litter."
 	done
 
 MountMoonSquare_MapEvents:
@@ -145,7 +272,8 @@ MountMoonSquare_MapEvents:
 	bg_event  7,  7, BGEVENT_ITEM, MountMoonSquareHiddenMoonStone
 	bg_event 17,  7, BGEVENT_READ, DontLitterSign
 
-	db 3 ; object events
+	db 4 ; object events
 	object_event  6,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY
 	object_event  7,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY
 	object_event  7,  7, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MtMoonSquareRock, EVENT_MT_MOON_SQUARE_ROCK
+	object_event  24,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MtMoonStarManiacScript, EVENT_MT_MOON_ITEM_MANIAC
