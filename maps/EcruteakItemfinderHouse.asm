@@ -171,7 +171,7 @@ EcruteakRetroMoveTutorScript:
 	checkitem MAX_REPEL
 	iffalse RetroMoveTutorNoSilverLeaf
 	writetext RetroMoveTutorWhichMoveShouldITeachText
-	loadmenu .MoveMenuHeader2
+	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
 	ifequal 1, .TutorMove1
@@ -181,26 +181,26 @@ EcruteakRetroMoveTutorScript:
 
 .TutorMove1:
 	setval ROLLOUT
-	sjump .TryTeachMove2
+	sjump .TryTeachMove
 .TutorMove2:
 	setval DEFENSE_CURL
-	sjump .TryTeachMove2
+	sjump .TryTeachMove
 .TutorMove3:
 	setval SWEET_SCENT
 
-.TryTeachMove2
+.TryTeachMove
 	writetext RetroMoveTutorMoveText
 	special MoveTutor
-	ifequal FALSE, .TeachMove2
+	ifequal FALSE, .TeachMove
 	sjump RetroMoveTutorRefused
 
-.MoveMenuHeader2:
+.MoveMenuHeader:
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 0, 2, 15, TEXTBOX_Y - 1
-	dw .MenuData2
+	dw .MenuData
 	db 1 ; default option
 
-.MenuData2:
+.MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Rollout@"
@@ -208,7 +208,7 @@ EcruteakRetroMoveTutorScript:
 	db "Sweet Scent@"
 	db "CANCEL@"
 
-.TeachMove2:
+.TeachMove:
 	takeitem MAX_REPEL
 	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
@@ -218,7 +218,7 @@ EcruteakRetroMoveTutorScript:
 	sjump .EcruteakRetroMoveTutorBeginTeachMove
 
 RetroMoveTutorRefused:
-	writetext RetroMoveTutorRetroMoveTutorRefusedText
+	writetext RetroMoveTutorRefusedText
 	waitbutton
 	closetext
 	end
@@ -228,6 +228,66 @@ RetroMoveTutorNoSilverLeaf:
 	waitbutton
 	closetext
 	end
+
+RetroMoveTutorAskTeachAMoveText:
+	text "Hello, I'm a"
+	line "member of the"
+
+	para "Retro Game Club!"
+	line "I can teach you"
+
+	para "some moves from"
+	line "an older game."
+
+	para "You'll need a"
+	line "Silver Leaf for"
+	cont "it though."
+
+	para "Are you"
+	line "interested?"
+	done
+
+RetroMoveTutorWhichMoveShouldITeachText:
+	text "Which move should"
+	line "I teach?"
+	done
+
+RetroMoveTutorMoveText:
+	text_start
+	done
+
+RetroMoveTutorRefusedText:
+	text "A shame you don't"
+	line "see the appeal of"
+	
+	para "of retro games."
+	line "You can always"
+
+	para "come back if you"
+	line "change your mind."
+	done
+
+RetroMoveTutorAfterTeachingText:
+	text "And... poof!"
+	line "Your #mon now"
+	
+	para "has a definite"
+	line "retro appeal!"
+	done
+
+RetroMoveTutorTeachAnotherMoveText:
+	text "Want me to teach"
+	line "another move?"
+	done
+
+RetroMoveTutorNoSilverLeafText:
+	text "You don't have a"
+	line "Silver Leaf?"
+
+	para "Sorry, but I need"
+	line "one to teach you"
+	cont "a move."
+	done
 
 EcruteakItemfinderHouse_MapEvents:
 	db 0, 0 ; filler
@@ -241,7 +301,7 @@ EcruteakItemfinderHouse_MapEvents:
 	db 1 ; bg events
 	bg_event  2,  1, BGEVENT_READ, ItemFinderHouseRadio
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event  2,  3, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakItemfinderGuy, -1
 	object_event  3,  3, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakHistoryBook, -1
-	object_event  5,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, EcruteakRetroClubMoveTutorScript, -1
+	object_event  5,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, EcruteakRetroMoveTutorScript, -1
