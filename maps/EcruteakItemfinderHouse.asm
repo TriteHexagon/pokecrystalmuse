@@ -164,20 +164,20 @@ EcruteakThreeMonText:
 EcruteakRetroMoveTutorScript:
 	faceplayer
 	opentext
-	writetext RetroMoveTutorAskTeachAMoveText
+	writetext EcruteakRetroMoveTutorAskTeachAMoveText
 	yesorno
-	iffalse RetroMoveTutorRefused
+	iffalse EcruteakRetroMoveTutorRefused
 .EcruteakRetroMoveTutorBeginTeachMove
-	checkitem MAX_REPEL
-	iffalse RetroMoveTutorNoSilverLeaf
-	writetext RetroMoveTutorWhichMoveShouldITeachText
+	checkitem SILVER_LEAF
+	iffalse EcruteakRetroMoveTutorNoSilverLeaf
+	writetext EcruteakRetroMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
 	ifequal 1, .TutorMove1
 	ifequal 2, .TutorMove2
 	ifequal 3, .TutorMove3
-	sjump RetroMoveTutorRefused
+	sjump EcruteakRetroMoveTutorRefused
 
 .TutorMove1:
 	setval ROLLOUT
@@ -189,10 +189,10 @@ EcruteakRetroMoveTutorScript:
 	setval SWEET_SCENT
 
 .TryTeachMove
-	writetext RetroMoveTutorMoveText
+	writetext EcruteakRetroMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
-	sjump RetroMoveTutorRefused
+	sjump EcruteakRetroMoveTutorRefused
 
 .MoveMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -209,28 +209,28 @@ EcruteakRetroMoveTutorScript:
 	db "CANCEL@"
 
 .TeachMove:
-	takeitem MAX_REPEL
-	writetext RetroMoveTutorAfterTeachingText
+	takeitem SILVER_LEAF
+	writetext EcruteakRetroMoveTutorAfterTeachingText
 	promptbutton
-	writetext RetroMoveTutorTeachAnotherMoveText
+	writetext EcruteakRetroMoveTutorTeachAnotherMoveText
 	yesorno
-	iffalse RetroMoveTutorRefused
+	iffalse EcruteakRetroMoveTutorRefused
 	sjump .EcruteakRetroMoveTutorBeginTeachMove
 
-RetroMoveTutorRefused:
-	writetext RetroMoveTutorRefusedText
+EcruteakRetroMoveTutorRefused:
+	writetext EcruteakRetroMoveTutorRefusedText
 	waitbutton
 	closetext
 	end
 
-RetroMoveTutorNoSilverLeaf:
-	writetext RetroMoveTutorNoSilverLeafText
+EcruteakRetroMoveTutorNoSilverLeaf:
+	writetext EcruteakRetroMoveTutorNoSilverLeafText
 	waitbutton
 	closetext
 	end
 
-RetroMoveTutorAskTeachAMoveText:
-	text "Hello, I'm a"
+EcruteakRetroMoveTutorAskTeachAMoveText:
+	text "Hello! I'm a"
 	line "member of the"
 
 	para "Retro Game Club!"
@@ -247,16 +247,16 @@ RetroMoveTutorAskTeachAMoveText:
 	line "interested?"
 	done
 
-RetroMoveTutorWhichMoveShouldITeachText:
+EcruteakRetroMoveTutorWhichMoveShouldITeachText:
 	text "Which move should"
 	line "I teach?"
 	done
 
-RetroMoveTutorMoveText:
+EcruteakRetroMoveTutorMoveText:
 	text_start
 	done
 
-RetroMoveTutorRefusedText:
+EcruteakRetroMoveTutorRefusedText:
 	text "A shame you don't"
 	line "see the appeal of"
 	
@@ -267,7 +267,7 @@ RetroMoveTutorRefusedText:
 	line "change your mind."
 	done
 
-RetroMoveTutorAfterTeachingText:
+EcruteakRetroMoveTutorAfterTeachingText:
 	text "And... poof!"
 	line "Your #mon now"
 	
@@ -275,12 +275,12 @@ RetroMoveTutorAfterTeachingText:
 	line "retro appeal!"
 	done
 
-RetroMoveTutorTeachAnotherMoveText:
+EcruteakRetroMoveTutorTeachAnotherMoveText:
 	text "Want me to teach"
 	line "another move?"
 	done
 
-RetroMoveTutorNoSilverLeafText:
+EcruteakRetroMoveTutorNoSilverLeafText:
 	text "You don't have a"
 	line "Silver Leaf?"
 
@@ -304,4 +304,4 @@ EcruteakItemfinderHouse_MapEvents:
 	db 3 ; object events
 	object_event  2,  3, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakItemfinderGuy, -1
 	object_event  3,  3, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakHistoryBook, -1
-	object_event  5,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, EcruteakRetroMoveTutorScript, -1
+	object_event  5,  3, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, EcruteakRetroMoveTutorScript, -1
