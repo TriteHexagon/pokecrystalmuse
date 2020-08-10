@@ -88,7 +88,7 @@ ItemNames::
 	db "Big Mushroom@"
 	db "Silverpowder@"
 	db "Blu Apricorn@"
-	db "Teru-Sama@" ;unused
+	db "Big Nugget@"
 	db "Amulet Coin@"
 	db "Ylw Apricorn@"
 	db "Grn Apricorn@"

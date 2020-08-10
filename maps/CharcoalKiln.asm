@@ -95,7 +95,7 @@ CharcoalKilnBossText2:
 
 	para "But my APPRENTICE"
 	line "hasn't come back"
-	cont "from ILEX FOREST."
+	cont "from Ilex Forest."
 
 	para "Where in the world"
 	line "is that lazy guy?"

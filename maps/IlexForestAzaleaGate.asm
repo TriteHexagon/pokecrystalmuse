@@ -14,7 +14,7 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 
 IlexForestAzaleaGateOfficerText:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "big. Be careful!"
 	cont "Don't get lost."
 	done

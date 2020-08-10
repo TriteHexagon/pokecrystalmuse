@@ -10,12 +10,14 @@
 	const ILEXFOREST_POKE_BALL2
 	const ILEXFOREST_POKE_BALL3
 	const ILEXFOREST_POKE_BALL4
+	const ILEXFOREST_MUSHROOM_DUDE
 
 IlexForest_MapScripts:
 	db 0 ; scene scripts
 
-	db 1 ; callbacks
+	db 2 ; callbacks
 	callback MAPCALLBACK_OBJECTS, .FarfetchdCallback
+	callback MAPCALLBACK_OBJECTS, .MushroomDude
 
 .FarfetchdCallback:
 	checkevent EVENT_GOT_HM01_CUT
@@ -82,6 +84,17 @@ IlexForest_MapScripts:
 .PositionTen:
 	moveobject ILEXFOREST_FARFETCHD, 6, 28
 	appear ILEXFOREST_FARFETCHD
+	return
+
+;new Mushroom Guy
+.MushroomDude:
+	checkevent EVENT_HERDED_FARFETCHD
+	iftrue .MushroomDudeDone
+	disappear ILEXFOREST_MUSHROOM_DUDE
+	return
+
+.MushroomDudeDone
+	appear ILEXFOREST_MUSHROOM_DUDE
 	return
 
 IlexForestCharcoalApprenticeScript:
@@ -742,6 +755,115 @@ MovementData_0x6ef58:
 	remove_fixed_facing
 	step_end
 
+; Mushroom Guy
+
+IlexForestMushroomDude:
+	faceplayer
+	opentext
+	writetext IlexForestMushroomDudeIntroText
+	waitbutton
+.CheckMushrooms
+	checkitem TINYMUSHROOM
+	iftrue .GotTinyMushroom
+	checkitem BIG_MUSHROOM
+	iftrue .GotBigMushroom
+	writetext IlexForestMushroomDudeNoMushrooms
+	waitbutton
+	closetext
+	end
+
+.GotBigMushroom
+	writetext IlexForestMushroomDudeGotMushrooms
+	waitbutton
+	writetext IlexForestMushroomDudeGotBigMushroom
+	yesorno
+	iffalse .Refused
+	takeitem BIG_MUSHROOM
+	givemoney $0, 5000
+	sjump .TransactionComplete
+
+.GotTinyMushroom
+	writetext IlexForestMushroomDudeGotMushrooms
+	waitbutton
+	writetext IlexForestMushroomDudeGotTinyMushroom
+	yesorno
+	iffalse .Refused
+	takeitem TINYMUSHROOM
+	givemoney $0, 500	
+
+.TransactionComplete
+	playsound SFX_TRANSACTION
+	waitsfx
+	writetext IlexForestMushroomDudeThanksForBusiness
+	waitbutton
+	sjump .CheckMushrooms
+	
+.Refused
+	writetext IlexForestMushroomDudeRefusedSelling
+	waitbutton
+	closetext
+	end
+
+IlexForestMushroomDudeIntroText:
+	text "…Sigh."
+	line "I've been in this"
+
+	para "forest looking for"
+	line "some mushrooms, ya"
+
+	para "know what I'm"
+	line "sayin'?"
+
+	para "But I haven't"
+	line "found a single"
+	cont "one!"
+	done
+
+IlexForestMushroomDudeGotMushrooms:
+	text "…Sniff …Sniff."
+	line "…Hey, man. I can"
+
+	para "can smell some-"
+	line "thing nice."
+	done 
+
+IlexForestMushroomDudeGotBigMushroom:
+	text "You got a Big"
+	line "Mushroom?"
+
+	para "How about selling"
+	line "it for 5000¥?"
+	done
+
+IlexForestMushroomDudeGotTinyMushroom:
+	text "You got a Tiny"
+	line "Mushroom?"
+
+	para "How about selling"
+	line "it for 500¥?"
+	done
+
+IlexForestMushroomDudeRefusedSelling:
+	text "Fine then. Keep"
+	line "your secrets."
+	done
+
+IlexForestMushroomDudeNoMushrooms:
+	text "Seems you don't"
+	line "have any fungi."
+
+	para "Come back if you"
+	line "find any. I can"
+	cont "pay you awesomely!"
+	done
+
+IlexForestMushroomDudeThanksForBusiness:
+	text "Thanks for"
+	line "business! Hehe…"
+	done
+
+; End Mushroom Guy
+
 IlexForestApprenticeIntroText:
 	text "Oh, man… My boss"
 	line "is going to be"
@@ -755,7 +877,7 @@ IlexForestApprenticeIntroText:
 
 	para "I can't go looking"
 	line "for it here in the"
-	cont "ILEX FOREST."
+	cont "Ilex Forest."
 
 	para "It's too big, dark"
 	line "and scary for me…"
@@ -862,7 +984,7 @@ Text_IlexForestLass:
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "so overgrown with"
 
 	para "trees that you"
@@ -874,7 +996,7 @@ IlexForestSignpostText:
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
+	text "Ilex Forest"
 	line "SHRINE…"
 
 	para "It's in honor of"
@@ -883,7 +1005,7 @@ Text_IlexForestShrine:
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
+	text "Ilex Forest"
 	line "SHRINE…"
 
 	para "It's in honor of"
@@ -946,10 +1068,10 @@ BugCatcherWayneAfterBattleText:
 
 	para "fell out of the"
 	line "tree when I used"
-	cont "HEADBUTT."
+	cont "Headbutt."
 
 	para "I ought to use"
-	line "HEADBUTT in other"
+	line "Headbutt in other"
 	cont "places too."
 	done
 
@@ -970,7 +1092,7 @@ IlexForest_MapEvents:
 	bg_event  1, 17, BGEVENT_ITEM, IlexForestHiddenFullHeal
 	bg_event  8, 22, BGEVENT_UP, IlexForestShrineScript
 
-	db 11 ; object events
+	db 12 ; object events
 	object_event 14, 31, SPRITE_BIRD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
 	object_event  7, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalApprenticeScript, EVENT_ILEX_FOREST_APPRENTICE
 	object_event  5, 28, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
@@ -982,3 +1104,4 @@ IlexForest_MapEvents:
 	object_event  9, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestXAttack, EVENT_ILEX_FOREST_X_ATTACK
 	object_event 17,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestAntidote, EVENT_ILEX_FOREST_ANTIDOTE
 	object_event 27,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestEther, EVENT_ILEX_FOREST_ETHER
+	object_event 23, 22, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlexForestMushroomDude, -1

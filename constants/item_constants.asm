@@ -79,23 +79,23 @@
 	const SILVER_WING  ; 47
 	const MOOMOO_MILK  ; 48
 	const QUICK_CLAW   ; 49
-	const PECHA_BERRY ; 4a
-	const BIG_NUGGET    ; 4b
+	const PECHA_BERRY  ; 4a
+	const GOLD_LEAF    ; 4b
 	const SOFT_SAND    ; 4c
 	const SHARP_BEAK   ; 4d
-	const CHERI_BERRY ; 4e
-	const ASPEAR_BERRY  ; 4f
-	const RAWST_BERRY    ; 50
+	const CHERI_BERRY  ; 4e
+	const ASPEAR_BERRY ; 4f
+	const RAWST_BERRY  ; 50
 	const POISON_BARB  ; 51
 	const KINGS_ROCK   ; 52
 	const PERSIM_BERRY ; 53
-	const CHESTO_BERRY   ; 54
+	const CHESTO_BERRY ; 54
 	const RED_APRICORN ; 55
 	const TINYMUSHROOM ; 56
 	const BIG_MUSHROOM ; 57
 	const SILVERPOWDER ; 58
 	const BLU_APRICORN ; 59
-	const ITEM_5A      ; 5a
+	const BIG_NUGGET   ; 5a
 	const AMULET_COIN  ; 5b
 	const YLW_APRICORN ; 5c
 	const GRN_APRICORN ; 5d

@@ -358,7 +358,7 @@ AzaleaTownTeacherText:
 AzaleaTownYoungsterText:
 	text "Cut through Azalea"
 	line "and you'll be in"
-	cont "ILEX FOREST."
+	cont "Ilex Forest."
 
 	para "But these skinny"
 	line "trees make it"
@@ -386,7 +386,7 @@ WoosterText:
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "restless!"
 
 	para "What is going on?"
@@ -399,7 +399,7 @@ AzaleaTownKurtText2:
 
 AzaleaTownKurtText3:
 	text "Could you go see"
-	line "why ILEX FOREST is"
+	line "why Ilex Forest is"
 	cont "so restless?"
 	done
 
@@ -447,7 +447,7 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "Ilex Forest"
 
 	para "Enter through the"
 	line "gate."
