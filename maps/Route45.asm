@@ -12,6 +12,7 @@
 	const ROUTE45_POKE_BALL3
 	const ROUTE45_POKE_BALL4
 	const ROUTE45_YOUNGSTER
+	const ROUTE45_NUGGET_PROSPECTOR
 
 Route45_MapScripts:
 	db 0 ; scene scripts
@@ -525,9 +526,128 @@ CamperQuentinAfterBattleText:
 	done
 
 Route45SignText:
-	text "ROUTE 45"
-	line "MOUNTAIN RD. AHEAD"
+	text "Route 45"
+	line "Mountain Rd. Ahead"
 	done
+
+; Nugget Maniac
+
+Route45NuggetProspectorScript:
+	faceplayer
+	opentext
+	writetext Route45NuggetProspectorIntroText
+	waitbutton
+.CheckItems
+	checkitem NUGGET
+	iftrue .GotSmallItem
+	checkitem BIG_NUGGET
+	iftrue .GotBigItem
+	writetext Route45NuggetProspectorNoItems
+	waitbutton
+	closetext
+	end
+
+.GotBigItem
+	writetext Route45NuggetProspectorGotItem
+	waitbutton
+	writetext Route45NuggetProspectorGotBigItem
+	yesorno
+	iffalse .Refused
+	takeitem BIG_NUGGET
+	givemoney $0, 30000
+	sjump .TransactionComplete
+
+.GotSmallItem
+	writetext Route45NuggetProspectorGotItem
+	waitbutton
+	writetext Route45NuggetProspectorGotSmallItem
+	yesorno
+	iffalse .Refused
+	takeitem NUGGET
+	givemoney $0, 10000	
+
+.TransactionComplete
+	playsound SFX_TRANSACTION
+	waitsfx
+	writetext Route45NuggetProspectorThanksForBusiness
+	waitbutton
+	sjump .CheckItems
+	
+.Refused
+	writetext Route45NuggetProspectorRefusedSelling
+	waitbutton
+	closetext
+	end
+
+Route45NuggetProspectorIntroText:
+	text "I came to Route 45"
+	line "looking for gold."
+
+	para "But so far I"
+	line "haven't found any."
+
+	para "If I don't come"
+	line "back home with"
+
+	para "some gold, my wife"
+	line "is gonna kill me!"
+	done
+
+Route45NuggetProspectorGotItem:
+	text "Wait a sec, kid."
+	line "I see something"
+
+	para "glistening in your"
+	line "bag. Could that be"
+	cont "a Nugget?!"
+	done 
+
+Route45NuggetProspectorGotSmallItem:
+	text "Indeed, that is a"
+	line "Nugget if I've"
+	cont "ever seen one!"
+
+	para "I'll buy it from ya"
+	line "for 10000¥!"
+	done
+
+Route45NuggetProspectorGotBigItem:
+	text "HOWDY! That's an"
+	line "absolutely massive"
+	cont "Big Nugget!"
+
+	para "I'll buy it from ya"
+	line "for 30000¥!"
+	done
+
+Route45NuggetProspectorRefusedSelling:
+	text "You're gonna keep"
+	line "it yourself, eh?"
+	done
+
+Route45NuggetProspectorNoItems:
+	text "Got nothing, eh," 
+	line "kiddo? No one"
+
+	para "comes here, so at"
+	line "this rate, I'm"
+
+	para "really gonna"
+	line "be dead. If you"
+
+	para "find any Nuggets,"
+	line "come back here."
+
+	para "I'm willing to buy"
+	line "them at a loss."
+	done
+
+Route45NuggetProspectorThanksForBusiness:
+	text "Thanks for saving"
+	line "my ass!"
+	done
+
+; End Nugget Maniac
 
 Route45_MapEvents:
 	db 0, 0 ; filler
@@ -541,7 +661,7 @@ Route45_MapEvents:
 	bg_event 10,  4, BGEVENT_READ, Route45Sign
 	bg_event 13, 80, BGEVENT_ITEM, Route45HiddenPpUp
 
-	db 13 ; object events
+	db 14 ; object events
 	object_event 10, 16, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerHikerErik, -1
 	object_event 15, 65, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerMichael, -1
 	object_event  5, 28, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerParry, -1
@@ -555,3 +675,4 @@ Route45_MapEvents:
 	object_event  6, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route45Elixer, EVENT_ROUTE_45_ELIXER
 	object_event  7, 33, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route45MaxPotion, EVENT_ROUTE_45_MAX_POTION
 	object_event  4, 70, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, TrainerCamperQuentin, -1
+	object_event 11, 79, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route45NuggetProspectorScript, -1
