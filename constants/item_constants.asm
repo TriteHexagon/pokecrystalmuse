@@ -347,9 +347,7 @@ ENDM
 	add_mt HYPER_VOICE
 	add_mt GUNK_SHOT
 	add_mt ZEN_HEADBUTT
-	add_mt FLASH_CANNON
 	add_mt SEED_BOMB
-	add_mt DRAGON_CLAW
 	add_mt DRILL_RUN
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 

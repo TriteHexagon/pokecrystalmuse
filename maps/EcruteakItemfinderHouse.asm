@@ -1,6 +1,7 @@
 	object_const_def ; object_event constants
 	const ECRUTEAKITEMFINDERHOUSE_COOLTRAINER_M
 	const ECRUTEAKITEMFINDERHOUSE_POKEDEX
+	const ECRUTEAKITEMFINDERHOUSE_RETROCLUBKID
 
 EcruteakItemfinderHouse_MapScripts:
 	db 0 ; scene scripts
@@ -160,6 +161,74 @@ EcruteakThreeMonText:
 	line "grassland."
 	done
 
+EcruteakRetroMoveTutorScript:
+	faceplayer
+	opentext
+	writetext RetroMoveTutorAskTeachAMoveText
+	yesorno
+	iffalse RetroMoveTutorRefused
+.EcruteakRetroMoveTutorBeginTeachMove
+	checkitem MAX_REPEL
+	iffalse RetroMoveTutorNoSilverLeaf
+	writetext RetroMoveTutorWhichMoveShouldITeachText
+	loadmenu .MoveMenuHeader2
+	verticalmenu
+	closewindow
+	ifequal 1, .TutorMove1
+	ifequal 2, .TutorMove2
+	ifequal 3, .TutorMove3
+	sjump RetroMoveTutorRefused
+
+.TutorMove1:
+	setval ROLLOUT
+	sjump .TryTeachMove2
+.TutorMove2:
+	setval DEFENSE_CURL
+	sjump .TryTeachMove2
+.TutorMove3:
+	setval SWEET_SCENT
+
+.TryTeachMove2
+	writetext RetroMoveTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove2
+	sjump RetroMoveTutorRefused
+
+.MoveMenuHeader2:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	dw .MenuData2
+	db 1 ; default option
+
+.MenuData2:
+	db STATICMENU_CURSOR ; flags
+	db 4 ; items
+	db "Rollout@"
+	db "Defense Curl@"
+	db "Sweet Scent@"
+	db "CANCEL@"
+
+.TeachMove2:
+	takeitem MAX_REPEL
+	writetext RetroMoveTutorAfterTeachingText
+	promptbutton
+	writetext RetroMoveTutorTeachAnotherMoveText
+	yesorno
+	iffalse RetroMoveTutorRefused
+	sjump .EcruteakRetroMoveTutorBeginTeachMove
+
+RetroMoveTutorRefused:
+	writetext RetroMoveTutorRetroMoveTutorRefusedText
+	waitbutton
+	closetext
+	end
+
+RetroMoveTutorNoSilverLeaf:
+	writetext RetroMoveTutorNoSilverLeafText
+	waitbutton
+	closetext
+	end
+
 EcruteakItemfinderHouse_MapEvents:
 	db 0, 0 ; filler
 
@@ -175,3 +244,4 @@ EcruteakItemfinderHouse_MapEvents:
 	db 2 ; object events
 	object_event  2,  3, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakItemfinderGuy, -1
 	object_event  3,  3, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakHistoryBook, -1
+	object_event  5,  4, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, EcruteakRetroClubMoveTutorScript, -1

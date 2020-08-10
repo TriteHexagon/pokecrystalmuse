@@ -1515,8 +1515,6 @@ _OakText3::
 	text_promptbutton
 	text_end
 
-	text_end ; unreferenced
-
 _OakText4::
 	text "People and #MON"
 	line "live together by"

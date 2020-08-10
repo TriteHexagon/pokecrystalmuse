@@ -65,9 +65,9 @@ MoveTutorScript:
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
-	ifequal MOVETUTOR_FIRE_FANG, .FireFang
-	ifequal MOVETUTOR_THUNDER_FANG, .ThunderFang
-	ifequal MOVETUTOR_ICE_FANG, .IceFang
+	ifequal 1, .FireFang
+	ifequal 2, .ThunderFang
+	ifequal 3, .IceFang
 	; ifequal MOVETUTOR_FIRE_PUNCH, .FirePunch
 	; ifequal MOVETUTOR_THUNDERPUNCH, .ThunderPunch
 	; ifequal MOVETUTOR_ICE_PUNCH, .IcePunch
@@ -81,7 +81,7 @@ MoveTutorScript:
 	sjump .TryTeachMove
 .IceFang:
 	setval ICE_FANG
-	sjump .TryTeachMove
+	;sjump .TryTeachMove
 ; .FirePunch:
 ; 	setval FIRE_PUNCH
 ; 	sjump .TryTeachMove
@@ -117,12 +117,6 @@ MoveTutorScript:
 
 .Refused:
 	writetext GoldenrodCityMoveTutorAwwButTheyreAmazingText
-	waitbutton
-	closetext
-	end
-
-.Refused2:
-	writetext GoldenrodCityMoveTutorHmTooBadText
 	waitbutton
 	closetext
 	end

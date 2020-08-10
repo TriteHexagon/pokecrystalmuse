@@ -32,7 +32,7 @@ rept 3 ; TM49-TM50 + HM01-HM07 + MT01-MT15
 	db _tms3 & $ff
 _tms3 = _tms3 >> 8
 endr
-rept 2 ; MT16-MT31 adding the next byte corrupts the pokémon pics
+rept 2 ; MT16-MT31
 	db _tms4 & $ff
 _tms4 = _tms4 >> 8
 endr
