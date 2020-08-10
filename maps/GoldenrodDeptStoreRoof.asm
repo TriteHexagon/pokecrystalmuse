@@ -146,7 +146,7 @@ GoldenrodDeptStoreRoofTeacherText:
 	line "so cheap!"
 
 	para "I bought so much,"
-	line "my PACK's crammed!"
+	line "my Bag's crammed!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:

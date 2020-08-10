@@ -18,7 +18,7 @@ _ObtainedFruitText::
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
+	text "But the Bag is"
 	line "full…"
 	done
 
@@ -1128,7 +1128,7 @@ _ThatCantBeUsedRightNowText:: ; unreferenced
 
 _ThatItemCantBePutInThePackText:: ; unreferenced
 	text "That item can't be"
-	line "put in the PACK."
+	line "put in the Bag."
 	done
 
 _TheItemWasPutInThePackText:: ; unreferenced
@@ -1136,7 +1136,7 @@ _TheItemWasPutInThePackText:: ; unreferenced
 	text_ram wStringBuffer1
 	text_start
 	line "was put in the"
-	cont "PACK."
+	cont "Bag."
 	done
 
 _RemainingTimeText:: ; unreferenced

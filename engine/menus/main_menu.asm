@@ -65,14 +65,14 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
-	db "MOBILE@"
-	db "MOBILE STUDIUM@"
+	db "Continue@"
+	db "New Game@"
+	db "Option@"
+	db "Mystery Gift@"
+	db "Mobile@"
+	db "Mobile Stadium@"
 if DEF(_DEBUG)
-	db "DEBUG ROOM@"
+	db "Debug Room@"
 endc
 
 .Jumptable:

@@ -54,7 +54,7 @@ WiltonGiftText:
 	done
 
 WiltonPackFullText:
-	text "Your PACK's full?"
+	text "Your Bag's full?"
 
 	para "I'll give it to"
 	line "you later."

@@ -299,10 +299,10 @@ NUM_UNOWN_PUZZLES EQU const_value
 	const UNOWNWORDS_HO_OH  ; 3
 
 ; MoveTutor setval arguments
-	const_def 1
-	const MOVETUTOR_FIRE_FANG     ; 1
-	const MOVETUTOR_THUNDER_FANG  ; 2
-	const MOVETUTOR_ICE_FANG      ; 3
+	;const_def 1
+	; const MOVETUTOR_FIRE_FANG     ; 1
+	; const MOVETUTOR_THUNDER_FANG  ; 2
+	; const MOVETUTOR_ICE_FANG      ; 3
 	; const MOVETUTOR_FIRE_PUNCH    ; 4
 	; const MOVETUTOR_THUNDERPUNCH  ; 5
 	; const MOVETUTOR_ICE_PUNCH     ; 6

@@ -1336,7 +1336,7 @@ ElmsLabTravelTip3Text:
 
 	para "Travel Tip 3:"
 
-	para "Open your PACK and"
+	para "Open your Bag and"
 	line "press SELECT to"
 	cont "move items."
 	done

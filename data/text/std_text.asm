@@ -341,7 +341,7 @@ CoinVendor_CancelText:
 	done
 
 BugContestPrizeNoRoomText:
-	text "Oh? Your PACK is"
+	text "Oh? Your Bag is"
 	line "full."
 
 	para "We'll keep this"

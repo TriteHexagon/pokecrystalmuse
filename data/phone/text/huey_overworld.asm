@@ -45,7 +45,7 @@ HueyRematchText:
 	done
 
 HueyPackFullText:
-	text "Oh… Your PACK's"
+	text "Oh… Your Bag's"
 	line "full. I'll give it"
 	cont "to you later."
 	done
