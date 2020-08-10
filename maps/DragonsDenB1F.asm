@@ -216,7 +216,7 @@ ClairText_GiveDragonbreathDragonDen:
 
 NotifyReceiveDragonbreath:
 	text "<PLAYER> received"
-	line "TM33."
+	line "TM33 Dragon Pulse."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
@@ -280,13 +280,13 @@ ClairText_WhatsTheMatterDragonDen:
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "Dragon Shrine"
 
 	para "A shrine honoring"
 	line "the dragon #MON"
 
 	para "said to have lived"
-	line "in DRAGON'S DEN."
+	line "in Dragon's Den."
 	done
 
 SilverText_Training1:

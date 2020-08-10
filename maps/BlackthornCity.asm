@@ -148,7 +148,7 @@ Text_ClairIsOut:
 	para "CLAIR, our GYM"
 	line "LEADER, entered"
 
-	para "the DRAGON'S DEN"
+	para "the Dragon's Den"
 	line "behind the GYM."
 
 	para "I have no idea"
@@ -295,7 +295,7 @@ MoveDeletersHouseSignText:
 	done
 
 DragonDensSignText:
-	text "DRAGON'S DEN"
+	text "Dragon's Den"
 	line "AHEAD"
 	done
 

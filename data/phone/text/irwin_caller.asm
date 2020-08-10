@@ -75,7 +75,7 @@ IrwinRisingBadgeGossipText:
 	text "I saw, I saw!"
 
 	para "I saw you go into"
-	line "the DRAGON'S DEN!"
+	line "the Dragon's Den!"
 
 	para "I'm certain you"
 	line "passed! Aww, no"

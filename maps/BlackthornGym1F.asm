@@ -196,7 +196,7 @@ ClairText_GoToDragonsDen:
 
 	para "Behind this GYM is"
 	line "a place called"
-	cont "DRAGON'S DEN."
+	cont "Dragon's Den."
 
 	para "There is a small"
 	line "shrine at its"
@@ -231,7 +231,7 @@ BlackthornGymClairText_YouKeptMeWaiting:
 
 BlackthornGymText_ReceivedTM33:
 	text "<PLAYER> received"
-	line "TM33."
+	line "TM33 Dragon Pulse."
 	done
 
 BlackthornGymClairText_DescribeTM33:
