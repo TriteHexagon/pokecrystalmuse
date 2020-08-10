@@ -468,6 +468,7 @@ TotodileEggMoves:
 	db ANCIENTPOWER
 	db RAZOR_WIND
 	db ROCK_SLIDE
+	db DRAGON_CLAW
 	db -1 ; end
 
 SentretEggMoves:
