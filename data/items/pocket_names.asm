@@ -8,4 +8,4 @@ ItemPocketNames:
 .Item: db "Item Pocket@"
 .Key:  db "Key Pocket@"
 .Ball: db "Ball Pocket@"
-.TM:   db "TM Pocket@"
+.TM:   db "TM/HM Pocket@"
