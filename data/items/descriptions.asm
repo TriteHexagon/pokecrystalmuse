@@ -119,7 +119,7 @@ ItemDescriptions:
 	dw MiracleSeedDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
-	dw TeruSama8Desc
+	dw NetBallDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -134,9 +134,9 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw TeruSama9Desc
-	dw TeruSama10Desc
-	dw TeruSama11Desc
+	dw DuskBallDesc
+	dw QuickBallDesc
+	dw RepeatBall
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
@@ -721,8 +721,9 @@ FocusBandDesc:
 	db   "May prevent faint-"
 	next "ing. (HOLD)@"
 
-TeruSama8Desc:
-	db   "?@"
+NetBallDesc:
+	db   "A BALL for Water-"
+	next "and Bug-types.@"
 
 EnergyPowderDesc:
 	db   "Restores #mon"
@@ -779,14 +780,17 @@ PassDesc:
 	db   "A ticket for the"
 	next "Magnet Train.@"
 
-TeruSama9Desc:
-	db   "?@"
+DuskBallDesc:
+	db   "A BALL for night-"
+	next "time and caves.@"
 
-TeruSama10Desc:
-	db   "?@"
+QuickBallDesc:
+	db   "A BALL for the"
+	next "first turn.@"
 
-TeruSama11Desc:
-	db   "?@"
+RepeatBall:
+	db   "A BALL for a"
+	next "caught species.@"
 
 CharcoalDesc:
 	db   "Powers up Fire-"
@@ -1009,3 +1013,5 @@ TeruSama32Desc:
 
 TeruSama33Desc:
 	db   "?@"
+
+; new

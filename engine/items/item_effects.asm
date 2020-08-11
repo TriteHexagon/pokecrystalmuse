@@ -132,7 +132,7 @@ ItemEffects:
 	dw NoEffect            ; MIRACLE_SEED
 	dw NoEffect            ; THICK_CLUB
 	dw NoEffect            ; FOCUS_BAND
-	dw NoEffect            ; ITEM_78
+	dw PokeBallEffect      ; NET_BALL
 	dw EnergypowderEffect  ; ENERGYPOWDER
 	dw EnergyRootEffect    ; ENERGY_ROOT
 	dw HealPowderEffect    ; HEAL_POWDER
@@ -147,9 +147,9 @@ ItemEffects:
 	dw NoEffect            ; STAR_PIECE
 	dw BasementKeyEffect   ; BASEMENT_KEY
 	dw NoEffect            ; PASS
-	dw NoEffect            ; ITEM_87
-	dw NoEffect            ; ITEM_88
-	dw NoEffect            ; ITEM_89
+	dw PokeBallEffect      ; DUSK_BALL
+	dw PokeBallEffect      ; QUICK_BALL
+	dw PokeBallEffect      ; REPEAT_BALL
 	dw NoEffect            ; CHARCOAL
 	dw RestoreHPEffect     ; BERRY_JUICE
 	dw NoEffect            ; SCOPE_LENS
@@ -720,6 +720,10 @@ BallMultiplierFunctionTable:
 	dbw MOON_BALL,   MoonBallMultiplier
 	dbw LOVE_BALL,   LoveBallMultiplier
 	dbw PARK_BALL,   ParkBallMultiplier
+	dbw DUSK_BALL,   DuskBallMultiplier
+	dbw QUICK_BALL,  QuickBallMultiplier
+	dbw REPEAT_BALL, RepeatBallMultiplier
+	dbw NET_BALL,    NetBallMultiplier
 	db -1 ; end
 
 UltraBallMultiplier:
@@ -983,11 +987,6 @@ LoveBallMultiplier:
 	ret
 
 FastBallMultiplier:
-; This function is buggy.
-; Intent:  multiply catch rate by 4 if enemy mon is in one of the three
-;          FleeMons tables.
-; Reality: multiply catch rate by 4 if enemy mon is one of the first three in
-;          the first FleeMons table.
 	ld a, [wTempEnemyMonSpecies]
 	ld c, a
 	ld hl, FleeMons
@@ -1041,6 +1040,91 @@ LevelBallMultiplier:
 	sla b
 	ret nc
 
+.max
+	ld b, $ff
+	ret
+
+DuskBallMultiplier:
+; is it night?
+	ld a, [wTimeOfDay]
+	cp NITE
+	jr z, .night_or_cave
+; or are we in a cave?
+	ld a, [wEnvironment]
+	cp CAVE
+	jr z, .night_or_cave
+; neither night nor cave
+	ret
+
+.night_or_cave
+; b is the catch rate
+; a := b / 2  b  b  b == b × 3.5
+	ld a, b
+	srl a
+rept 3
+	add b
+	jr c, .max
+endr
+	ld b, a
+	ret
+.max
+	ld b, $ff
+	ret
+
+QuickBallMultiplier:
+	ld a, [wPlayerTurnsTaken]
+	dec a
+	ret nz
+rept 5
+	add b
+	jr c, .max
+endr
+	ld b, a
+	ret
+.max
+	ld b, $ff
+	ret
+
+RepeatBallMultiplier:
+; multiply catch rate by 3.5 if enemy mon is already in Pokédex
+	ld a, [wTempEnemyMonSpecies]
+	dec a
+	push bc
+	call CheckCaughtMon
+	pop bc
+	ret z
+	ld a, b
+	srl a
+rept 3
+	add b
+	jr c, .max
+endr
+	ld b, a
+	ret
+.max
+	ld b, $ff
+	ret
+
+NetBallMultiplier:
+; multiply catch rate by 3 if mon is water or bug type
+	ld a, [wEnemyMonType1]
+	cp WATER
+	jr z, .ok
+	cp BUG
+	jr z, .ok
+	ld a, [wEnemyMonType2]
+	cp WATER
+	jr z, .ok
+	cp BUG
+	ret nz
+.ok
+	ld a, b
+rept 3
+	add b
+	jr c, .max
+endr
+	ld b, a
+	ret
 .max
 	ld b, $ff
 	ret

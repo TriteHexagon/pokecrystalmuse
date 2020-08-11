@@ -167,11 +167,15 @@ MartEcruteak:
 	db -1 ; end
 
 MartMahogany1:
-	db 4 ; # items
+	db 8 ; # items
 	db TINYMUSHROOM
 	db SLOWPOKETAIL
 	db POKE_BALL
 	db POTION
+	db QUICK_BALL
+	db DUSK_BALL
+	db REPEAT_BALL
+	db NET_BALL
 	db -1 ; end
 
 MartMahogany2:

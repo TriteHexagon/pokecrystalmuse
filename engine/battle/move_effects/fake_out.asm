@@ -8,7 +8,10 @@ BattleCommand_FakeOut:
     ld b, a
     ld a, [wEnemyTurnsTaken]
     add a, b
-	cp 1 ;compares if the sum of the 2 turns is exactly one AKA it's the first turn in the battle
+	;compares if the sum of the 2 turns is exactly one AKA it's the first turn in the battle
+	;cp 1 
+	;alt
+	dec a
 	jr nz, .fail
 
     call CheckOpponentWentFirst ;may be useles but whatevers

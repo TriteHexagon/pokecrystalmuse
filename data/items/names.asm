@@ -118,7 +118,7 @@ ItemNames::
 	db "Miracle Seed@"
 	db "Thick Club@"
 	db "Focus Band@"
-	db "Teru-Sama@" ;unused
+	db "Net Ball@" ;unused
 	db "EnergyPowder@"
 	db "Energy Root@"
 	db "Heal Powder@"
@@ -133,9 +133,9 @@ ItemNames::
 	db "Star Piece@"
 	db "Basement Key@"
 	db "Pass@"
-	db "Teru-Sama@" ;unused
-	db "Teru-Sama@" ;unused
-	db "Teru-Sama@" ;unused
+	db "Dusk Ball@" ;new
+	db "Quick Ball@" ;new
+	db "Repeat Ball@" ;new
 	db "Charcoal@"
 	db "Berry Juice@"
 	db "Scope Lens@"
