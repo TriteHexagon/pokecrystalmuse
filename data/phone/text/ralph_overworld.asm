@@ -47,7 +47,7 @@ RalphPhoneFullText:
 
 	para "It seems that"
 	line "young people all"
-	cont "have #GEAR."
+	cont "have #Gear."
 	done
 
 RalphRematchText:

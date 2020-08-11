@@ -49,10 +49,10 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
+	dw XSpDefDesc
 	dw XDefendDesc
 	dw XSpeedDesc
-	dw XSpecialDesc
+	dw XSpAttackDesc
 	dw CoinCaseDesc
 	dw ItemfinderDesc
 	dw TeruSama5Desc
@@ -359,11 +359,11 @@ HPUpDesc:
 	next "one #mon.@"
 
 ProteinDesc:
-	db   "Raises ATTACK of"
+	db   "Raises Attack of"
 	next "one #mon.@"
 
 IronDesc:
-	db   "Raises DEFENSE of"
+	db   "Raises Defense of"
 	next "one #mon.@"
 
 CarbosDesc:
@@ -391,7 +391,7 @@ LeafStoneDesc:
 	next "kinds of #mon.@"
 
 MetalPowderDesc:
-	db   "Raises DEFENSE of"
+	db   "Raises Defense of"
 	next "DITTO. (HOLD)@"
 
 NuggetDesc:
@@ -446,23 +446,24 @@ LemonadeDesc:
 	next "HP by 80.@"
 
 XAttackDesc:
-	db   "Raises ATTACK."
+	db   "Raises Attack."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
+XSpDefDesc:
+	db   "Raises Special"
+	next "Defense. (1 BTL)@"
 
 XDefendDesc:
-	db   "Raises DEFENSE."
+	db   "Raises Defense."
 	next "(1 BTL)@"
 
 XSpeedDesc:
-	db   "Raises SPEED."
+	db   "Raises Speed."
 	next "(1 BTL)@"
 
-XSpecialDesc:
-	db   "Raises SPECIAL"
-	next "ATTACK. (1 BTL)@"
+XSpAttackDesc:
+	db   "Raises Special"
+	next "Attack. (1 BTL)@"
 
 CoinCaseDesc:
 	db   "Holds up to 9,999"
@@ -588,7 +589,7 @@ MintBerryDesc:
 	next "for sleep. (HOLD)@"
 
 RedApricornDesc:
-	db   "A red APRICORN.@"
+	db   "A red Apricorn.@"
 
 TinyMushroomDesc:
 	db   "An ordinary mush-"
@@ -603,7 +604,7 @@ SilverPowderDesc:
 	next "moves. (HOLD)@"
 
 BluApricornDesc:
-	db   "A blue APRICORN.@"
+	db   "A blue Apricorn.@"
 
 BigNuggetDesc:
 	db   "Made of pure gold."
@@ -614,10 +615,10 @@ AmuletCoinDesc:
 	next "earnings. (HOLD)@"
 
 YlwApricornDesc:
-	db   "A yellow APRICORN.@"
+	db   "A yellow Apricorn.@"
 
 GrnApricornDesc:
-	db   "A green APRICORN.@"
+	db   "A green Apricorn.@"
 
 CleanseTagDesc:
 	db   "Helps repel wild"
@@ -632,21 +633,21 @@ TwistedSpoonDesc:
 	next "type moves. (HOLD)@"
 
 WhtApricornDesc:
-	db   "A white APRICORN.@"
+	db   "A white Apricorn.@"
 
 BlackbeltDesc:
 	db   "Boosts Fighting-"
 	next "type moves. (HOLD)@"
 
 BlkApricornDesc:
-	db   "A black APRICORN."
+	db   "A black Apricorn."
 	next "@"
 
 TeruSama7Desc:
 	db   "?@"
 
 PnkApricornDesc:
-	db   "A pink APRICORN."
+	db   "A pink Apricorn."
 	next "@"
 
 BlackGlassesDesc:
@@ -843,7 +844,7 @@ DragonScaleDesc:
 	next "item.@"
 
 BerserkGeneDesc:
-	db   "Boosts ATTACK but"
+	db   "Boosts Attack but"
 	next "causes confusion.@"
 
 TeruSama18Desc:

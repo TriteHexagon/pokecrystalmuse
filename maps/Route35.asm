@@ -361,7 +361,7 @@ BirdKeeperBryanAfterBattleText:
 	cont "BALL."
 
 	para "Whenever I find a"
-	line "WHT APRICORN, I"
+	line "WHT Apricorn, I"
 	cont "take it to KURT."
 
 	para "He turns it into a"

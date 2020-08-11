@@ -1528,7 +1528,7 @@ _TimesetAskAdjustDSTText::
 _MomLostGearBookletText::
 	text "I lost the in-"
 	line "struction booklet"
-	cont "for the #GEAR."
+	cont "for the #Gear."
 
 	para "Come back again in"
 	line "a while."

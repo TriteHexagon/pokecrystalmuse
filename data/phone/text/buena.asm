@@ -491,7 +491,7 @@ endc
 
 BuenaPhonePokegearAnswerText:
 	text "Hey, <PLAY_G>. You"
-	line "use your #GEAR"
+	line "use your #Gear"
 
 	para "to listen to the"
 	line "radio, right?"
@@ -500,12 +500,12 @@ BuenaPhonePokegearAnswerText:
 	line "can even display"
 
 	para "town maps with"
-	line "#GEAR."
+	line "#Gear."
 
 	para "I have a bad sense"
 	line "of direction, so"
 
-	para "#GEAR would be"
+	para "#Gear would be"
 	line "handy…"
 
 	para "Anyway, thanks for"

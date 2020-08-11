@@ -61,7 +61,7 @@ GoldenrodDeptStore2FUnusedText2:
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
+	text "#Gear can store"
 	line "up to ten phone"
 	cont "numbers."
 

@@ -187,7 +187,7 @@ Movement_SilverReturnsToTheShadows_NBT:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
+	text "Wow, your #Gear"
 	line "is impressive!"
 
 	para "Did your mom get"
@@ -232,7 +232,7 @@ Text_TellMomIfLeaving:
 
 Text_CallMomOnGear:
 	text "Call your mom on"
-	line "your #GEAR to"
+	line "your #Gear to"
 
 	para "let her know how"
 	line "you're doing."

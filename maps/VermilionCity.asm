@@ -169,7 +169,7 @@ VermilionCitySnorlaxSleepingText:
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "The #GEAR was"
+	text "The #Gear was"
 	line "placed near the"
 	cont "sleeping SNORLAX…"
 

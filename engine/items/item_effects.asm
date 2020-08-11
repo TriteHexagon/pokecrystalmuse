@@ -62,10 +62,10 @@ ItemEffects:
 	dw RestoreHPEffect     ; SODA_POP
 	dw RestoreHPEffect     ; LEMONADE
 	dw XItemEffect         ; X_ATTACK
-	dw NoEffect            ; ITEM_32
+	dw XItemEffect         ; X_SP_DEF
 	dw XItemEffect         ; X_DEFEND
 	dw XItemEffect         ; X_SPEED
-	dw XItemEffect         ; X_SPECIAL
+	dw XItemEffect         ; X_SP_ATK
 	dw CoinCaseEffect      ; COIN_CASE
 	dw ItemfinderEffect    ; ITEMFINDER
 	dw PokeFluteEffect     ; POKE_FLUTE
