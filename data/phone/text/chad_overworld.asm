@@ -1,6 +1,6 @@
 ChadAskNumber1Text:
 	text "Huh? Is that thing"
-	line "a #DEX? Have"
+	line "a #dex? Have"
 	cont "you met PROF.OAK?"
 
 	para "Huh? You have? "

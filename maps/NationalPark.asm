@@ -312,7 +312,7 @@ NationalParkLassText:
 	para "I printed out my"
 	line "favorites from my"
 
-	para "#DEX and stuck"
+	para "#dex and stuck"
 	line "them on my bag."
 	done
 
@@ -354,12 +354,12 @@ NationalParkTeacher1Text_GotQuickClaw:
 NationalParkYoungster1Text:
 	text "I'm playing with"
 	line "stickers I printed"
-	cont "from my #DEX."
+	cont "from my #dex."
 	done
 
 NationalParkYoungster2Text:
 	text "I get the other"
-	line "guy's #DEX"
+	line "guy's #dex"
 	cont "sticker if I win."
 	done
 
@@ -380,7 +380,7 @@ NationalParkPersianText:
 
 NationalParkGameboyKidText:
 	text "I'm printing out"
-	line "my #DEX."
+	line "my #dex."
 
 	para "You can also print"
 	line "out stuff like"

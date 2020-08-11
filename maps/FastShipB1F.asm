@@ -390,7 +390,7 @@ SailorKennethBeatenText:
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
+	text "Eight Badges!"
 	line "They must prove"
 
 	para "that you've beaten"

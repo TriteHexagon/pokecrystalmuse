@@ -214,7 +214,7 @@ PicnickerTanyaBeatenText:
 
 PicnickerTanyaAfterBattleText:
 	text "Oh, look at all"
-	line "your BADGES. No"
+	line "your Badges. No"
 
 	para "wonder I couldn't"
 	line "win!"

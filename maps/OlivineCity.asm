@@ -232,7 +232,7 @@ OlivineCityStandingYoungsterPokegearText:
 
 OlivineCityStandingYoungsterPokedexText:
 	text "Wow, you have a"
-	line "#DEX!"
+	line "#dex!"
 
 	para "That is just so"
 	line "awesome."

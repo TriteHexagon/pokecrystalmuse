@@ -27,7 +27,7 @@ CherrygroveGymSpeechHousePokefanMText:
 	line "the #MON GYMS"
 
 	para "all over JOHTO and"
-	line "collect BADGES."
+	line "collect Badges."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:

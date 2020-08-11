@@ -111,7 +111,7 @@ ChadProfOaksDreamGossipText:
 	line "is to compile a"
 
 	para "comprehensive"
-	line "#DEX."
+	line "#dex."
 
 	para "I envy you for"
 	line "taking part in"

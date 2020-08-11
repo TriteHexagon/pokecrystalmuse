@@ -1141,7 +1141,7 @@ _PokecenterOaksPCText::
 	text "PROF.OAK's PC"
 	line "accessed."
 
-	para "#DEX Rating"
+	para "#dex Rating"
 	line "System opened."
 	prompt
 
@@ -1152,11 +1152,11 @@ _PokecenterPCOaksClosedText::
 
 _OakPCText1::
 	text "Want to get your"
-	line "#DEX rated?"
+	line "#dex rated?"
 	done
 
 _OakPCText2::
-	text "Current #DEX"
+	text "Current #dex"
 	line "completion level:"
 	prompt
 
@@ -1192,7 +1192,7 @@ _OakRating03::
 
 _OakRating04::
 	text "You need to fill"
-	line "up the #DEX."
+	line "up the #dex."
 
 	para "Catch different"
 	line "kinds of #MON!"
@@ -1202,7 +1202,7 @@ _OakRating05::
 	text "You're trying--I"
 	line "can see that."
 
-	para "Your #DEX is"
+	para "Your #dex is"
 	line "coming together."
 	done
 
@@ -1237,7 +1237,7 @@ _OakRating09::
 	done
 
 _OakRating10::
-	text "Your #DEX is"
+	text "Your #dex is"
 	line "filling up. Keep"
 	cont "up the good work!"
 	done
@@ -1260,7 +1260,7 @@ _OakRating13::
 	text "Wow. You've found"
 	line "more #MON than"
 
-	para "the last #DEX"
+	para "the last #dex"
 	line "research project."
 	done
 
@@ -1274,7 +1274,7 @@ _OakRating14::
 
 _OakRating15::
 	text "Wow! You've hit"
-	line "200! Your #DEX"
+	line "200! Your #dex"
 	cont "is looking great!"
 	done
 
@@ -1295,7 +1295,7 @@ _OakRating17::
 	done
 
 _OakRating18::
-	text "Your #DEX is"
+	text "Your #dex is"
 	line "amazing! You're"
 
 	para "ready to turn"
@@ -1304,7 +1304,7 @@ _OakRating18::
 
 _OakRating19::
 	text "Whoa! A perfect"
-	line "#DEX! I've"
+	line "#dex! I've"
 
 	para "dreamt about this!"
 	line "Congratulations!"

@@ -358,7 +358,7 @@ CooltrainerfBethAfterText:
 
 PsychicRichardSeenText:
 	text "Wow, look at all"
-	line "those BADGES!"
+	line "those Badges!"
 	cont "I'm impressed."
 
 	para "But you're not"

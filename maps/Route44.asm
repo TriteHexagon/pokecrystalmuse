@@ -454,7 +454,7 @@ CooltrainermAllenBeatenText:
 
 CooltrainermAllenAfterBattleText:
 	text "Wow. You have a"
-	line "lot of BADGES."
+	line "lot of Badges."
 
 	para "No wonder you're"
 	line "so tough."

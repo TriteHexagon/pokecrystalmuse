@@ -192,7 +192,7 @@ VermilionCityBadgeGuyTrainerText:
 VermilionCityBadgeGuySomeBadgesText:
 	text "You've started to"
 	line "collect KANTO GYM"
-	cont "BADGES?"
+	cont "Badges?"
 
 	para "Don't you agree"
 	line "that the trainers"
@@ -208,14 +208,14 @@ VermilionCityBadgeGuyMostBadgesText:
 
 	para "Let me know if"
 	line "you get all eight"
-	cont "BADGES."
+	cont "Badges."
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
 	text "Congratulations!"
 
 	para "You got all the"
-	line "KANTO GYM BADGES."
+	line "KANTO GYM Badges."
 
 	para "I've got a reward"
 	line "for your efforts."
@@ -229,7 +229,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 	line "edge in battle."
 
 	para "I'm sure the KANTO"
-	line "GYM BADGES will"
+	line "GYM Badges will"
 	cont "help you."
 	done
 

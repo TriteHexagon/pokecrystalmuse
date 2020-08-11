@@ -193,10 +193,10 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	text "Done!"
 
 	para "I modified your"
-	line "#DEX."
+	line "#dex."
 
 	para "I added an"
-	line "optional #DEX"
+	line "optional #dex"
 
 	para "to store UNOWN"
 	line "data."
@@ -207,7 +207,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
+	text "<PLAYER>'s #dex"
 	line "was upgraded."
 	done
 

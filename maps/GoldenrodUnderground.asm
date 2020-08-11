@@ -497,7 +497,7 @@ PokemaniacDonaldBeatenText:
 
 PokemaniacDonaldAfterBattleText:
 	text "Are you making a"
-	line "#DEX? Here's a"
+	line "#dex? Here's a"
 	cont "hot tip."
 
 	para "The HIKER on ROUTE"

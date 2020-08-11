@@ -130,7 +130,7 @@ SabrinaIntroText:
 	line "tling, but it's my"
 
 	para "duty as a LEADER"
-	line "to confer BADGES"
+	line "to confer Badges"
 
 	para "on anyone who has"
 	line "proven him- or"

@@ -209,7 +209,7 @@ VioletPokecenter1FYoungsterText:
 	line "respect."
 
 	para "Without the right"
-	line "GYM BADGES, they"
+	line "GYM Badges, they"
 
 	para "will just do as"
 	line "they please."

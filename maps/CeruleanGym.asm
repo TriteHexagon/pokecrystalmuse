@@ -255,7 +255,7 @@ MistyIntroText:
 	para "You may have a"
 	line "lot of JOHTO GYM"
 
-	para "BADGES, but you'd"
+	para "Badges, but you'd"
 	line "better not take me"
 	cont "too lightly."
 

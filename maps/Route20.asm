@@ -70,7 +70,7 @@ SwimmerfLoriSeenText:
 	text "What an impressive"
 	line "collection of GYM"
 
-	para "BADGES. We should"
+	para "Badges. We should"
 	line "battle!"
 	done
 

@@ -993,7 +993,7 @@ ElmAfterTheftText5:
 	text "ELM: What?!?"
 
 	para "PROF.OAK gave you"
-	line "a #DEX?"
+	line "a #dex?"
 
 	para "<PLAY_G>, is that"
 	line "true? Th-that's"
@@ -1256,12 +1256,12 @@ AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
 	para "Use these on your"
-	line "#DEX quest!"
+	line "#dex quest!"
 	done
 
 AideText_ExplainBalls:
 	text "To add to your"
-	line "#DEX, you have"
+	line "#dex, you have"
 	cont "to catch #MON."
 
 	para "Throw # BALLS"

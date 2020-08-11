@@ -109,7 +109,7 @@ OakOpenMtSilverText:
 	line "excellent!"
 
 	para "You collected the"
-	line "BADGES of GYMS in"
+	line "Badges of GYMS in"
 	cont "KANTO. Well done!"
 
 	para "I was right in my"
@@ -148,7 +148,7 @@ OakOpenMtSilverText:
 OakNoKantoBadgesText:
 	text "OAK: Hmm? You're"
 	line "not collecting"
-	cont "KANTO GYM BADGES?"
+	cont "KANTO GYM Badges?"
 
 	para "The GYM LEADERS in"
 	line "KANTO are as tough"
@@ -164,7 +164,7 @@ OakNoKantoBadgesText:
 OakYesKantoBadgesText:
 	text "OAK: Ah, you're"
 	line "collecting KANTO"
-	cont "GYM BADGES."
+	cont "GYM Badges."
 
 	para "I imagine that"
 	line "it's hard, but the"

@@ -267,7 +267,7 @@ IrwinSoMuchToChatAboutText:
 
 	para "Where are you?"
 
-	para "How many BADGES do"
+	para "How many Badges do"
 	line "you have now?"
 
 	para "How much money"

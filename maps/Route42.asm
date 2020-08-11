@@ -278,7 +278,7 @@ PokemaniacShaneBeatenText:
 
 PokemaniacShaneAfterBattleText:
 	text "You're working on"
-	line "a #DEX?"
+	line "a #dex?"
 
 	para "Wow, you must know"
 	line "some pretty rare"

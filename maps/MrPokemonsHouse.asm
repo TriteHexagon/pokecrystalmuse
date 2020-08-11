@@ -291,7 +291,7 @@ MrPokemonsHouse_OakText1:
 
 	para "See? This is the"
 	line "latest version of"
-	cont "#DEX."
+	cont "#dex."
 
 	para "It automatically"
 	line "records data on"
@@ -305,7 +305,7 @@ MrPokemonsHouse_OakText1:
 
 MrPokemonsHouse_GetDexText:
 	text "<PLAYER> received"
-	line "#DEX!"
+	line "#dex!"
 	done
 
 MrPokemonsHouse_OakText2:
@@ -313,7 +313,7 @@ MrPokemonsHouse_OakText2:
 	line "of #MON and"
 
 	para "complete that"
-	line "#DEX!"
+	line "#dex!"
 
 	para "But I've stayed"
 	line "too long."

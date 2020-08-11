@@ -337,7 +337,7 @@ PicnickerKimBeatenText:
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM BADGES are"
+	text "The GYM Badges are"
 	line "pretty. I collect"
 	cont "them."
 	done
