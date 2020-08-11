@@ -33,61 +33,25 @@ Music_PostCredits_Ch1:
 	note D_, 2
 	note G_, 2
 	note B_, 2
-	octave 4
-	note D_, 2
-	volume_envelope 7, 3
-	note D_, 2
-	volume_envelope 5, 3
-	note D_, 2
-	volume_envelope 4, 3
-	note D_, 2
-	volume_envelope 9, 3
-	octave 2
+	sound_call .sub2
 	note A#, 2
 	octave 3
 	note D_, 2
 	note G_, 2
 	note A#, 2
-	octave 4
-	note D_, 2
-	volume_envelope 7, 3
-	note D_, 2
-	volume_envelope 5, 3
-	note D_, 2
-	volume_envelope 4, 3
-	note D_, 2
-	volume_envelope 9, 3
-	octave 2
+	sound_call .sub2
 	note A_, 2
 	octave 3
 	note C_, 2
 	note F_, 2
 	note A_, 2
-	octave 4
-	note C_, 2
-	volume_envelope 7, 3
-	note C_, 2
-	volume_envelope 5, 3
-	note C_, 2
-	volume_envelope 4, 3
-	note C_, 2
-	volume_envelope 9, 3
-	octave 2
+	sound_call .sub1
 	note G#, 2
 	octave 3
 	note C_, 2
 	note F_, 2
 	note G#, 2
-	octave 4
-	note C_, 2
-	volume_envelope 7, 3
-	note C_, 2
-	volume_envelope 5, 3
-	note C_, 2
-	volume_envelope 4, 3
-	note C_, 2
-	volume_envelope 9, 3
-	octave 2
+	sound_call .sub1
 	note G_, 2
 	octave 3
 	note C_, 2
@@ -131,6 +95,32 @@ Music_PostCredits_Ch1:
 	note G_, 2
 	sound_loop 0, .mainloop
 
+.sub1
+	octave 4;
+	note C_, 2
+	volume_envelope 7, 3
+	note C_, 2
+	volume_envelope 5, 3
+	note C_, 2
+	volume_envelope 4, 3
+	note C_, 2
+	volume_envelope 9, 3
+	octave 2
+	sound_ret
+
+.sub2
+	octave 4;
+	note D_, 2
+	volume_envelope 7, 3
+	note D_, 2
+	volume_envelope 5, 3
+	note D_, 2
+	volume_envelope 4, 3
+	note D_, 2
+	volume_envelope 9, 3
+	octave 2
+	sound_ret
+
 Music_PostCredits_Ch2:
 	transpose 0, 3
 	duty_cycle 2
@@ -145,13 +135,7 @@ Music_PostCredits_Ch2:
 	note F_, 2
 .mainloop:
 	volume_envelope 10, 3
-	note G_, 2
-	volume_envelope 7, 3
-	note G_, 2
-	volume_envelope 5, 3
-	note G_, 2
-	volume_envelope 4, 3
-	note G_, 2
+	sound_call .sub1
 	volume_envelope 9, 3
 	octave 6
 	note D_, 2
@@ -161,13 +145,7 @@ Music_PostCredits_Ch2:
 	octave 6
 	note C_, 2
 	octave 5
-	note G_, 2
-	volume_envelope 7, 3
-	note G_, 2
-	volume_envelope 5, 3
-	note G_, 2
-	volume_envelope 4, 3
-	note G_, 2
+	sound_call .sub1
 	volume_envelope 3, 3
 	note G_, 2
 	volume_envelope 10, 3
@@ -176,13 +154,7 @@ Music_PostCredits_Ch2:
 	note E_, 2
 	volume_envelope 10, 3
 	note F_, 2
-	note G_, 2
-	volume_envelope 7, 3
-	note G_, 2
-	volume_envelope 5, 3
-	note G_, 2
-	volume_envelope 4, 3
-	note G_, 2
+	sound_call .sub1
 	volume_envelope 3, 3
 	note G_, 2
 	volume_envelope 10, 3
@@ -263,3 +235,13 @@ Music_PostCredits_Ch2:
 	note E_, 2
 	note F_, 2
 	sound_loop 0, .mainloop
+
+.sub1
+	note G_, 2;
+	volume_envelope 7, 3
+	note G_, 2
+	volume_envelope 5, 3
+	note G_, 2
+	volume_envelope 4, 3
+	note G_, 2
+	sound_ret

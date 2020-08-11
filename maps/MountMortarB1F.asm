@@ -54,8 +54,8 @@ MountMortarB1FKiyoScript:
 MountMortarB1FBoulder:
 	jumpstd StrengthBoulderScript
 
-MountMortarB1FHyperPotion:
-	itemball HYPER_POTION
+MountMortarB1FEviolite:
+	itemball EVIOLITE
 
 MountMortarB1FCarbos:
 	itemball CARBOS
@@ -145,7 +145,7 @@ MountMortarB1F_MapEvents:
 	bg_event  4,  6, BGEVENT_ITEM, MountMortarB1FHiddenMaxRevive
 
 	db 7 ; object events
-	object_event 29, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortarB1FHyperPotion, EVENT_MOUNT_MORTAR_B1F_HYPER_POTION
+	object_event 29, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortarB1FEviolite, EVENT_MOUNT_MORTAR_B1F_EVIOLITE
 	object_event  4, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortarB1FCarbos, EVENT_MOUNT_MORTAR_B1F_CARBOS
 	object_event  9, 10, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MountMortarB1FBoulder, -1
 	object_event 16,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, MountMortarB1FKiyoScript, -1
