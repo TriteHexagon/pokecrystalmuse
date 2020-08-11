@@ -101,6 +101,6 @@ ArnieHurryText:
 	para "You're missing out"
 	line "on seeing YANMA!"
 
-	para "Get down to ROUTE"
+	para "Get down to Route"
 	line "35 right now!"
 	done

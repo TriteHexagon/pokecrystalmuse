@@ -89,7 +89,7 @@ BrentRoute25GossipText:
 	text "Did you know…?"
 	line "BILL evidently"
 
-	para "lives on ROUTE 25"
+	para "lives on Route 25"
 	line "in Kanto."
 	done
 

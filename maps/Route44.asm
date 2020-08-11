@@ -493,12 +493,12 @@ CooltrainerfCybilAfterBattleText:
 	done
 
 Route44Sign1Text:
-	text "ROUTE 44"
+	text "Route 44"
 	line "ICE PATH AHEAD"
 	done
 
 Route44Sign2Text:
-	text "ROUTE 44"
+	text "Route 44"
 
 	para "Mahogany Town -"
 	line "Blackthorn City"

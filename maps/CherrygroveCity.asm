@@ -378,7 +378,7 @@ GuideGentMartText:
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
+	text "Route 30 is out"
 	line "this way."
 
 	para "Trainers will be"

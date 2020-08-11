@@ -193,7 +193,7 @@ SchoolboyBillyAfterBattleText:
 	done
 
 Route15SignText:
-	text "ROUTE 15"
+	text "Route 15"
 
 	para "Fuchsia City -"
 	line "Lavender Town"

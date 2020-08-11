@@ -140,7 +140,7 @@ PsychicFidelAfterBattleText:
 	done
 
 Route11SignText:
-	text "ROUTE 11"
+	text "Route 11"
 	done
 
 Route11_MapEvents:

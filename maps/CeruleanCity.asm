@@ -152,7 +152,7 @@ CeruleanCityCooltrainerMText1:
 	line "PLANT?"
 
 	para "It's near the end"
-	line "of ROUTE 9, the"
+	line "of Route 9, the"
 
 	para "road that heads"
 	line "east from here."

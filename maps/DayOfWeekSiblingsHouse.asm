@@ -47,25 +47,25 @@ DayOfWeekSiblingsHousePokedexText2:
 
 DayOfWeekSiblingsHousePokedexText3:
 	text "Monday, MONICA"
-	line "ROUTE 40"
+	line "Route 40"
 
 	para "Tuesday, TUSCANY"
-	line "ROUTE 29"
+	line "Route 29"
 
 	para "Wednesday, WESLEY"
 	line "Lake of Rage"
 
 	para "Thursday, ARTHUR"
-	line "ROUTE 36"
+	line "Route 36"
 
 	para "Friday, FRIEDA"
-	line "ROUTE 32"
+	line "Route 32"
 
 	para "Saturday, SANTOS"
 	line "Blackthorn City"
 
 	para "Sunday, SUNNY"
-	line "ROUTE 37"
+	line "Route 37"
 	done
 
 DayOfWeekSiblingsHouse_MapEvents:

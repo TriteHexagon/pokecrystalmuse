@@ -457,7 +457,7 @@ OfficerDirkPrettyToughText:
 	done
 
 Route35SignText:
-	text "ROUTE 35"
+	text "Route 35"
 	done
 
 Route35_MapEvents:

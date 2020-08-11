@@ -732,7 +732,7 @@ Route34IlexForestSignText:
 	done
 
 Route34SignText:
-	text "ROUTE 34"
+	text "Route 34"
 
 	para "Goldenrod City -"
 	line "Azalea Town"

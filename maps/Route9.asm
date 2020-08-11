@@ -197,7 +197,7 @@ HikerSidneyAfterBattleText:
 	done
 
 Route9SignText:
-	text "ROUTE 9"
+	text "Route 9"
 
 	para "Cerulean City -"
 	line "ROCK TUNNEL"

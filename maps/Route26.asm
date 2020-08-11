@@ -404,7 +404,7 @@ FisherScottAfterBattleText:
 	done
 
 Route26SignText:
-	text "ROUTE 26"
+	text "Route 26"
 
 	para "#mon LEAGUE"
 	line "RECEPTION GATE"

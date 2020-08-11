@@ -103,7 +103,7 @@ Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	line "#mon with MAIL"
 	cont "to my friend?"
 
-	para "He's on ROUTE 31."
+	para "He's on Route 31."
 	done
 
 Route35GoldenrodGateRandyThanksKidText:
@@ -126,7 +126,7 @@ Route35GoldenrodGatePlayerReceivedAMonWithMailText:
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
 	text "You can read it,"
 	line "but don't lose it!"
-	cont "ROUTE 31!"
+	cont "Route 31!"
 
 	para "Oh, yeah. There"
 	line "was a weird tree"

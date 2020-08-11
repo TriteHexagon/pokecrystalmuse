@@ -632,7 +632,7 @@ ArthurNotThursdayText:
 	done
 
 Route36SignText:
-	text "ROUTE 36"
+	text "Route 36"
 	done
 
 RuinsOfAlphNorthSignText:

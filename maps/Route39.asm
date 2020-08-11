@@ -297,7 +297,7 @@ PokefanfJaimeBeatenText:
 PokefanfJaimeAfterBattleText:
 	text "I met my MEOWTH at"
 	line "night, right here"
-	cont "on ROUTE 39."
+	cont "on Route 39."
 
 	para "I'm not sure why,"
 	line "but it seems to"
@@ -313,7 +313,7 @@ PokefanfJaimeAfterBattleText:
 	done
 
 Route39SignText:
-	text "ROUTE 39"
+	text "Route 39"
 
 	para "Olivine City -"
 	line "Ecruteak City"

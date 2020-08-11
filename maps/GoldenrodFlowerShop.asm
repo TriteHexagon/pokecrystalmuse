@@ -89,7 +89,7 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	text "Have you seen that"
 	line "wiggly tree that's"
 
-	para "growing on ROUTE"
+	para "growing on Route"
 	line "36?"
 
 	para "My little sister"

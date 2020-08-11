@@ -232,7 +232,7 @@ SunnyNotSundayText:
 	done
 
 Route37SignText:
-	text "ROUTE 37"
+	text "Route 37"
 	done
 
 Route37_MapEvents:

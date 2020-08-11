@@ -69,7 +69,7 @@ BirdKeeperBobAfterBattleText:
 	done
 
 Route18SignText:
-	text "ROUTE 18"
+	text "Route 18"
 
 	para "Celadon City -"
 	line "Fuchsia City"

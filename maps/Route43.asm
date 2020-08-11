@@ -463,14 +463,14 @@ PicnickerTiffanyClefairyText:
 	done
 
 Route43Sign1Text:
-	text "ROUTE 43"
+	text "Route 43"
 
 	para "Lake of Rage -"
 	line "Mahogany Town"
 	done
 
 Route43Sign2Text:
-	text "ROUTE 43"
+	text "Route 43"
 
 	para "Lake of Rage -"
 	line "Mahogany Town"
