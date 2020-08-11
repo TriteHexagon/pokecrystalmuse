@@ -50,20 +50,20 @@ CianwoodPhotoStudioFishingGuruText_No:
 CianwoodRetroMoveTutorScript:
 	faceplayer
 	opentext
-	writetext CianwoodRetroMoveTutorAskTeachAMoveText
+	writetext RetroMoveTutorAskTeachAMoveText
 	yesorno
-	iffalse CianwoodRetroMoveTutorRefused
-.CianwoodRetroMoveTutorBeginTeachMove
+	iffalse RetroMoveTutorRefused
+.RetroMoveTutorBeginTeachMove
 	checkitem SILVER_LEAF
-	iffalse CianwoodRetroMoveTutorNoSilverLeaf
-	writetext CianwoodRetroMoveTutorWhichMoveShouldITeachText
+	iffalse RetroMoveTutorNoSilverLeaf
+	writetext RetroMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
 	ifequal 1, .TutorMove1
 	ifequal 2, .TutorMove2
 	ifequal 3, .TutorMove3
-	sjump CianwoodRetroMoveTutorRefused
+	sjump RetroMoveTutorRefused
 
 .TutorMove1:
 	setval ICY_WIND
@@ -75,10 +75,10 @@ CianwoodRetroMoveTutorScript:
 	setval ROAR
 
 .TryTeachMove
-	writetext CianwoodRetroMoveTutorMoveText
+	writetext RetroMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
-	sjump CianwoodRetroMoveTutorRefused
+	sjump RetroMoveTutorRefused
 
 .MoveMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -96,84 +96,12 @@ CianwoodRetroMoveTutorScript:
 
 .TeachMove:
 	takeitem SILVER_LEAF
-	writetext CianwoodRetroMoveTutorAfterTeachingText
+	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
-	writetext CianwoodRetroMoveTutorTeachAnotherMoveText
+	writetext RetroMoveTutorTeachAnotherMoveText
 	yesorno
-	iffalse CianwoodRetroMoveTutorRefused
-	sjump .CianwoodRetroMoveTutorBeginTeachMove
-
-CianwoodRetroMoveTutorRefused:
-	writetext CianwoodRetroMoveTutorRefusedText
-	waitbutton
-	closetext
-	end
-
-CianwoodRetroMoveTutorNoSilverLeaf:
-	writetext CianwoodRetroMoveTutorNoSilverLeafText
-	waitbutton
-	closetext
-	end
-
-CianwoodRetroMoveTutorAskTeachAMoveText:
-	text "Hello! I'm a"
-	line "member of the"
-
-	para "Retro Game Club!"
-	line "I can teach you"
-
-	para "some moves from"
-	line "an older game."
-
-	para "You'll need a"
-	line "Silver Leaf for"
-	cont "it though."
-
-	para "Are you"
-	line "interested?"
-	done
-
-CianwoodRetroMoveTutorWhichMoveShouldITeachText:
-	text "Which move should"
-	line "I teach?"
-	done
-
-CianwoodRetroMoveTutorMoveText:
-	text_start
-	done
-
-CianwoodRetroMoveTutorRefusedText:
-	text "A shame you don't"
-	line "see the appeal of"
-	
-	para "of retro games."
-	line "You can always"
-
-	para "come back if you"
-	line "change your mind."
-	done
-
-CianwoodRetroMoveTutorAfterTeachingText:
-	text "And... poof!"
-	line "Your #mon now"
-	
-	para "has a definite"
-	line "retro appeal!"
-	done
-
-CianwoodRetroMoveTutorTeachAnotherMoveText:
-	text "Want me to teach"
-	line "another move?"
-	done
-
-CianwoodRetroMoveTutorNoSilverLeafText:
-	text "You don't have a"
-	line "Silver Leaf?"
-
-	para "Sorry, but I need"
-	line "one to teach you"
-	cont "a move."
-	done
+	iffalse RetroMoveTutorRefused
+	sjump .RetroMoveTutorBeginTeachMove
 
 CianwoodPhotoStudio_MapEvents:
 	db 0, 0 ; filler

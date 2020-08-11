@@ -64,20 +64,20 @@ MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
 MahoganyRetroMoveTutorScript:
 	faceplayer
 	opentext
-	writetext MahoganyRetroMoveTutorAskTeachAMoveText
+	writetext RetroMoveTutorAskTeachAMoveText
 	yesorno
-	iffalse MahoganyRetroMoveTutorRefused
-.MahoganyRetroMoveTutorBeginTeachMove
+	iffalse RetroMoveTutorRefused
+.RetroMoveTutorBeginTeachMove
 	checkitem SILVER_LEAF
-	iffalse MahoganyRetroMoveTutorNoSilverLeaf
-	writetext MahoganyRetroMoveTutorWhichMoveShouldITeachText
+	iffalse RetroMoveTutorNoSilverLeaf
+	writetext RetroMoveTutorWhichMoveShouldITeachText
 	loadmenu .MoveMenuHeader
 	verticalmenu
 	closewindow
 	ifequal 1, .TutorMove1
 	ifequal 2, .TutorMove2
 	ifequal 3, .TutorMove3
-	sjump MahoganyRetroMoveTutorRefused
+	sjump RetroMoveTutorRefused
 
 .TutorMove1:
 	setval ENDURE
@@ -89,10 +89,10 @@ MahoganyRetroMoveTutorScript:
 	setval DOUBLE_TEAM
 
 .TryTeachMove
-	writetext MahoganyRetroMoveTutorMoveText
+	writetext RetroMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
-	sjump MahoganyRetroMoveTutorRefused
+	sjump RetroMoveTutorRefused
 
 .MoveMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -110,84 +110,12 @@ MahoganyRetroMoveTutorScript:
 
 .TeachMove:
 	takeitem SILVER_LEAF
-	writetext MahoganyRetroMoveTutorAfterTeachingText
+	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
-	writetext MahoganyRetroMoveTutorTeachAnotherMoveText
+	writetext RetroMoveTutorTeachAnotherMoveText
 	yesorno
-	iffalse MahoganyRetroMoveTutorRefused
-	sjump .MahoganyRetroMoveTutorBeginTeachMove
-
-MahoganyRetroMoveTutorRefused:
-	writetext MahoganyRetroMoveTutorRefusedText
-	waitbutton
-	closetext
-	end
-
-MahoganyRetroMoveTutorNoSilverLeaf:
-	writetext MahoganyRetroMoveTutorNoSilverLeafText
-	waitbutton
-	closetext
-	end
-
-MahoganyRetroMoveTutorAskTeachAMoveText:
-	text "Hello! I'm a"
-	line "member of the"
-
-	para "Retro Game Club!"
-	line "I can teach you"
-
-	para "some moves from"
-	line "an older game."
-
-	para "You'll need a"
-	line "Silver Leaf for"
-	cont "it though."
-
-	para "Are you"
-	line "interested?"
-	done
-
-MahoganyRetroMoveTutorWhichMoveShouldITeachText:
-	text "Which move should"
-	line "I teach?"
-	done
-
-MahoganyRetroMoveTutorMoveText:
-	text_start
-	done
-
-MahoganyRetroMoveTutorRefusedText:
-	text "A shame you don't"
-	line "see the appeal of"
-	
-	para "of retro games."
-	line "You can always"
-
-	para "come back if you"
-	line "change your mind."
-	done
-
-MahoganyRetroMoveTutorAfterTeachingText:
-	text "And... poof!"
-	line "Your #mon now"
-	
-	para "has a definite"
-	line "retro appeal!"
-	done
-
-MahoganyRetroMoveTutorTeachAnotherMoveText:
-	text "Want me to teach"
-	line "another move?"
-	done
-
-MahoganyRetroMoveTutorNoSilverLeafText:
-	text "You don't have a"
-	line "Silver Leaf?"
-
-	para "Sorry, but I need"
-	line "one to teach you"
-	cont "a move."
-	done
+	iffalse RetroMoveTutorRefused
+	sjump .RetroMoveTutorBeginTeachMove
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:
 	db 0, 0 ; filler
