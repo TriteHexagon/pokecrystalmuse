@@ -197,7 +197,7 @@ StartMenu::
 .QuitString:     db "Quit@"
 
 .PokedexDesc:
-	db   "#MON"
+	db   "#mon"
 	next "database@"
 
 .PartyDesc:

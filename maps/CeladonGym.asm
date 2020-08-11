@@ -238,7 +238,7 @@ BeautyJuliaAfterBattleText:
 
 TwinsJoAndZoe1SeenText:
 	text "We'll show you"
-	line "#MON moves that"
+	line "#mon moves that"
 	cont "ERIKA taught us!"
 	done
 

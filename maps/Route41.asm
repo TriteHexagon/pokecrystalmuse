@@ -155,7 +155,7 @@ SwimmermCharlieAfterBattleText:
 SwimmermGeorgeSeenText:
 	text "I'm a bit tired."
 	line "If I win, lend me"
-	cont "your #MON."
+	cont "your #mon."
 	done
 
 SwimmermGeorgeBeatenText:
@@ -192,7 +192,7 @@ SwimmermBerkeAfterBattleText:
 	line "stormy night…"
 
 	para "I saw this giant"
-	line "#MON flying"
+	line "#mon flying"
 	cont "from the islands."
 
 	para "It was scattering"
@@ -263,7 +263,7 @@ SwimmerfKayleeAfterBattleText:
 SwimmerfSusieSeenText:
 	text "You look so ele-"
 	line "gant, riding your"
-	cont "#MON."
+	cont "#mon."
 	done
 
 SwimmerfSusieBeatenText:

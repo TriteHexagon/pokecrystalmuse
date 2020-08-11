@@ -118,7 +118,7 @@ FarmerMText_BuyMilk:
 	para "It's my pride and"
 	line "joy, there."
 
-	para "Give it to #MON"
+	para "Give it to #mon"
 	line "to restore HP!"
 
 	para "I'll give it to ya"

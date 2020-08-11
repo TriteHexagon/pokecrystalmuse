@@ -214,7 +214,7 @@ BlackBeltText_VoicesInMyHead:
 
 BlackthornCooltrainerF1Text:
 	text "Are you going to"
-	line "make your #MON"
+	line "make your #mon"
 	cont "forget some moves?"
 	done
 
@@ -282,11 +282,11 @@ BlackthornCitySignText:
 
 BlackthornGymSignText:
 	text "Blackthorn City"
-	line "#MON GYM"
+	line "#mon GYM"
 	cont "LEADER: CLAIR"
 
 	para "The Blessed User"
-	line "of Dragon #MON"
+	line "of Dragon #mon"
 	done
 
 MoveDeletersHouseSignText:
@@ -302,7 +302,7 @@ DragonDensSignText:
 BlackthornCityTrainerTipsText:
 	text "TRAINER TIPS"
 
-	para "A #MON holding"
+	para "A #mon holding"
 	line "a LUM_BERRY"
 
 	para "will cure itself"

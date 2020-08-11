@@ -154,14 +154,14 @@ UnknownText_0x61072:
 	cont "TRADE CORNER."
 
 	para "You can trade"
-	line "#MON with other"
+	line "#mon with other"
 	cont "people far away."
 	done
 
 UnknownText_0x610ce:
 	text "To make a trade,"
 	line "we must hold your"
-	cont "#MON."
+	cont "#mon."
 
 	para "Would you like to"
 	line "trade?"
@@ -169,7 +169,7 @@ UnknownText_0x610ce:
 
 UnknownText_0x61111:
 	text "What kind of"
-	line "#MON do you"
+	line "#mon do you"
 	cont "want in return?"
 	done
 
@@ -185,7 +185,7 @@ UnknownText_0x6113b:
 	text "."
 
 	para "We'll have to hold"
-	line "your #MON"
+	line "your #mon"
 	cont "during the trade."
 
 	para "Please wait while"
@@ -200,11 +200,11 @@ UnknownText_0x611c9:
 	para "@"
 	text_ram wStringBuffer3
 	text " for a"
-	line "#MON that you"
+	line "#mon that you"
 	cont "have never seen."
 
 	para "We'll have to hold"
-	line "your #MON"
+	line "your #mon"
 	cont "during the trade."
 
 	para "Please wait while"
@@ -213,7 +213,7 @@ UnknownText_0x611c9:
 	done
 
 UnknownText_0x61271:
-	text "Your trade #MON"
+	text "Your trade #mon"
 	line "has been received."
 
 	para "It will take time"
@@ -225,7 +225,7 @@ UnknownText_0x61271:
 
 UnknownText_0x612d8:
 	text "Oh? You have only"
-	line "one #MON in"
+	line "one #mon in"
 	cont "your party. "
 
 	para "Please come back"
@@ -246,7 +246,7 @@ UnknownText_0x6135f:
 
 UnknownText_0x61375:
 	text "If we accept that"
-	line "#MON, what will"
+	line "#mon, what will"
 	cont "you battle with?"
 	done
 
@@ -257,7 +257,7 @@ UnknownText_0x613a9:
 
 UnknownText_0x613c8:
 	text "Sorry, but your"
-	line "#MON appears to"
+	line "#mon appears to"
 
 	para "be abnormal. We"
 	line "can't accept it."
@@ -266,7 +266,7 @@ UnknownText_0x613c8:
 UnknownText_0x61409:
 	text "Oh? Aren't we"
 	line "already holding a"
-	cont "#MON of yours?"
+	cont "#mon of yours?"
 	done
 
 UnknownText_0x61438:
@@ -312,12 +312,12 @@ UnknownText_0x61544:
 	line "trade partner."
 
 	para "Would you like"
-	line "your #MON back?"
+	line "your #mon back?"
 	done
 
 UnknownText_0x615a5:
 	text "We have returned"
-	line "your #MON."
+	line "your #mon."
 	done
 
 UnknownText_0x615c2:
@@ -328,7 +328,7 @@ UnknownText_0x615c2:
 	line "trade partner."
 
 	para "We've held your"
-	line "#MON for a long"
+	line "#mon for a long"
 
 	para "time. As a result,"
 	line "it is very lonely."
@@ -345,12 +345,12 @@ UnknownText_0x6166e:
 UnknownText_0x61689:
 	text "Fine. We will"
 	line "continue to hold"
-	cont "your #MON."
+	cont "your #mon."
 	done
 
 UnknownText_0x616b4:
 	text "Oh? You left your"
-	line "#MON with us"
+	line "#mon with us"
 	cont "only recently."
 
 	para "Please come back"
@@ -364,7 +364,7 @@ UnknownText_0x616fb:
 	done
 
 UnknownText_0x61727:
-	text "Which #MON do"
+	text "Which #mon do"
 	line "you want to trade?"
 	done
 
@@ -383,7 +383,7 @@ UnknownText_0x6176f:
 	line "special people can"
 
 	para "redeem for a"
-	line "special #MON!"
+	line "special #mon!"
 	done
 
 UnknownText_0x617d2:
@@ -446,7 +446,7 @@ UnknownText_0x61996:
 	done
 
 UnknownText_0x619db:
-	text "It's a #MON"
+	text "It's a #mon"
 	line "NEWS MACHINE."
 	done
 
@@ -456,11 +456,11 @@ UnknownText_0x619f5:
 	done
 
 UnknownText_0x61a11:
-	text "#MON NEWS is"
+	text "#mon NEWS is"
 	line "news compiled from"
 
 	para "the SAVE files of"
-	line "#MON trainers."
+	line "#mon trainers."
 
 	para "When reading the"
 	line "NEWS, your SAVE"
@@ -484,7 +484,7 @@ UnknownText_0x61a11:
 	line "SAVE files sent by"
 
 	para "you and the other"
-	line "#MON trainers."
+	line "#mon trainers."
 
 	para "You might even be"
 	line "in the NEWS!"
@@ -530,7 +530,7 @@ UnknownText_0x61c4b:
 	done
 
 UnknownText_0x61c89:
-	text "Whoa, this #MON"
+	text "Whoa, this #mon"
 	line "CENTER is huge."
 
 	para "They just built"
@@ -570,7 +570,7 @@ UnknownText_0x61cef:
 
 UnknownText_0x61dfd:
 	text "They said you can"
-	line "trade #MON with"
+	line "trade #mon with"
 
 	para "total strangers up"
 	line "here."
@@ -586,7 +586,7 @@ UnknownText_0x61e5c:
 	para "HOPPIP."
 	line "You should trade"
 
-	para "for a #MON that"
+	para "for a #mon that"
 	line "you want."
 	done
 
@@ -612,7 +612,7 @@ UnknownText_0x61f48:
 	text "The #COM CENTER"
 	line "will link with all"
 
-	para "#MON CENTERS in"
+	para "#mon CENTERS in"
 	line "a wireless net."
 
 	para "That must mean"
@@ -676,7 +676,7 @@ UnknownText_0x62173:
 	line "when I got word"
 
 	para "that Goldenrod's"
-	line "#MON CENTER has"
+	line "#mon CENTER has"
 
 	para "new machines that"
 	line "no one's ever seen"
@@ -699,7 +699,7 @@ UnknownText_0x62222:
 
 GoldenrodPokecenter1FLassText:
 	text "A higher level"
-	line "#MON doesn't"
+	line "#mon doesn't"
 	cont "always win."
 
 	para "After all, it may"
@@ -709,7 +709,7 @@ GoldenrodPokecenter1FLassText:
 	para "I don't think"
 	line "there is a single"
 
-	para "#MON that is"
+	para "#mon that is"
 	line "the toughest."
 	done
 
@@ -741,11 +741,11 @@ UnknownText_0x62370:
 	line "TRADE CORNER"
 
 	para "Right:"
-	line "#MON NEWS"
+	line "#mon NEWS"
 	done
 
 UnknownText_0x623c7:
-	text "It's a #MON"
+	text "It's a #mon"
 	line "NEWS MACHINE!"
 
 	para "It's not in"

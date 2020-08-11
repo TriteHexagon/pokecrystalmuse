@@ -2322,7 +2322,7 @@ BillsPC_PrintBoxCountAndCapacity:
 	ret
 
 .Pokemon:
-	db "#MON@"
+	db "#mon@"
 
 .out_of_20
 	; db "/20@"
@@ -2514,7 +2514,7 @@ BillsPC_PlaceEmptyBoxString_SFX:
 	ret
 
 .NoMonString:
-	db "There's no #MON.@"
+	db "There's no #mon.@"
 
 BillsPC_PlaceChangeBoxString:
 	push de

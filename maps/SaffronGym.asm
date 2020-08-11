@@ -171,7 +171,7 @@ SabrinaMarshBadgeText:
 	para "It contains Calm"
 	line "Mind... It helps"
 
-	para "#MON concentrate"
+	para "#mon concentrate"
 	line "and prepare for"
 	cont "battle."
 
@@ -188,7 +188,7 @@ SabrinaMarshBadgeText:
 
 SabrinaFightDoneText:
 	text "SABRINA: Your love"
-	line "for your #MON"
+	line "for your #mon"
 
 	para "overwhelmed my"
 	line "psychic power…"
@@ -282,7 +282,7 @@ SaffronGymGuyText:
 	line "told how to deal"
 
 	para "with Psychic-type"
-	line "#MON, right?"
+	line "#mon, right?"
 
 	para "I expect great"
 	line "things from you!"

@@ -135,7 +135,7 @@ RuinsOfAlphOmanyteChamberAncientReplicaText:
 	done
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "This #MON"
+	text "This #mon"
 	line "drifted in the"
 
 	para "sea by twisting"

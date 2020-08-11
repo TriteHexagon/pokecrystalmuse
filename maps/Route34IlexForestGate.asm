@@ -104,7 +104,7 @@ Route34IlexForestGateTeacher_GotSweetScent:
 	line "to break them."
 
 	para "You might find"
-	line "items or #MON."
+	line "items or #mon."
 	cont "underneath!"
 	done
 
@@ -131,7 +131,7 @@ Route34IlexForestGateLassText:
 
 	para "I think that it"
 	line "must be a Grass-"
-	cont "type #MON."
+	cont "type #mon."
 	done
 
 Route34IlexForestGate_MapEvents:

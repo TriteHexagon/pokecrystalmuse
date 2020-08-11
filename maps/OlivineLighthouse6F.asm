@@ -162,7 +162,7 @@ MovementData_0x60c79:
 
 JasmineCianwoodPharmacyText:
 	text "JASMINE: … This"
-	line "#MON always"
+	line "#mon always"
 
 	para "kept the sea lit"
 	line "at night."

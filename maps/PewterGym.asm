@@ -87,9 +87,9 @@ BrockIntroText:
 	line "Pewter Gym Leader."
 
 	para "I'm an expert on"
-	line "Rock-type #MON."
+	line "Rock-type #mon."
 
-	para "My #MON are im-"
+	para "My #mon are im-"
 	line "pervious to most"
 
 	para "physical attacks."
@@ -152,7 +152,7 @@ BrockFightDoneText:
 CamperJerrySeenText:
 	text "The trainers of"
 	line "this GYM use Rock-"
-	cont "type #MON."
+	cont "type #mon."
 
 	para "The Rock-type has"
 	line "high DEFENSE."

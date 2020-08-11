@@ -42,7 +42,7 @@ GoldenrodDeptStore2FElevatorButton:
 GoldenrodDeptStore2FUnusedText1:
 ; unused
 	text "We intend to sell"
-	line "items for #MON"
+	line "items for #mon"
 	cont "to hold."
 
 	para "This is a free"
@@ -52,7 +52,7 @@ GoldenrodDeptStore2FUnusedText1:
 
 GoldenrodDeptStore2FUnusedText2:
 ; unused
-	text "By giving #MON"
+	text "By giving #mon"
 	line "items to hold, I"
 
 	para "bet trainers will"

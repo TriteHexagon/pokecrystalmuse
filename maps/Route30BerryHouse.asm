@@ -27,10 +27,10 @@ Route30BerryHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "You know, #MON"
+	text "You know, #mon"
 	line "eat Berries."
 
-	para "Well, my #MON"
+	para "Well, my #mon"
 	line "got healthier by"
 	para "eating a Oran"
 	line "Berry."
