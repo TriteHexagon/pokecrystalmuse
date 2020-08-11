@@ -21,7 +21,6 @@ INCLUDE "audio/music/championbattle.asm"
 INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/vermilioncity.asm"
 INCLUDE "audio/music/titlescreen.asm"
-INCLUDE "audio/music/ruinsofalphinterior.asm"
 INCLUDE "audio/music/lookpokemaniac.asm"
 INCLUDE "audio/music/trainervictory.asm"
 INCLUDE "audio/music/violetcity.asm"
@@ -67,7 +66,7 @@ INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
 INCLUDE "audio/music/printer.asm"
 INCLUDE "audio/music/mobileadapter.asm"
-INCLUDE "audio/music/route1.asm"
+INCLUDE "audio/music/ruinsofalphinterior.asm"
 
 SECTION "Songs 4", ROMX
 
@@ -114,6 +113,7 @@ INCLUDE "audio/music/battletowertheme.asm"
 INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
+INCLUDE "audio/music/route1.asm"
 ; has space
 
 SECTION "Extra Songs 1", ROMX
@@ -139,6 +139,15 @@ INCLUDE "audio/music/celadoncity.asm"
 SECTION "Custom Songs 1", ROMX
 INCLUDE "audio/music/custom/pkmncenternight.asm"
 INCLUDE "audio/music/custom/friendlyshop.asm"
+INCLUDE "audio/music/custom/route24GBS.asm"
+INCLUDE "audio/music/custom/ceruleanCityGBS.asm"
+
+SECTION "Custom Songs 2", ROMX
+INCLUDE "audio/music/custom/cinnabarislandGBS.asm"
+INCLUDE "audio/music/custom/icepathHGSS.asm"
+INCLUDE "audio/music/custom/route47GBS.asm"
+INCLUDE "audio/music/custom/cinnabarislandFRLG.asm"
+;INCLUDE "audio/music/custom/.asm"
 
 SECTION "Sound Effects", ROMX
 

@@ -4,6 +4,7 @@ night_music: MACRO
     ;\1 - original song
     ;\2 - night song
 ENDM
+    night_music MUSIC_POKEMON_CENTER,   MUSIC_POKEMON_CENTER_NIGHT
 	night_music MUSIC_NEW_BARK_TOWN,    MUSIC_NEW_BARK_TOWN_NIGHT
     night_music MUSIC_ROUTE_29,         MUSIC_ROUTE_29_NIGHT
     night_music MUSIC_CHERRYGROVE_CITY, MUSIC_CHERRYGROVE_CITY_NIGHT
@@ -24,5 +25,7 @@ ENDM
     night_music MUSIC_PALLET_TOWN,      MUSIC_PALLET_TOWN_NIGHT
     night_music MUSIC_ROUTE_1,          MUSIC_ROUTE_1_NIGHT
     night_music MUSIC_LAVENDER_TOWN,    MUSIC_LAVENDER_TOWN_NIGHT
-    night_music MUSIC_POKEMON_CENTER,   MUSIC_POKEMON_CENTER_NIGHT
+    night_music MUSIC_CERULEAN_CITY,    MUSIC_CERULEAN_CITY_NIGHT
+    night_music MUSIC_ROUTE_24,         MUSIC_ROUTE_24_NIGHT
+    night_music MUSIC_ROUTE_47,         MUSIC_ROUTE_47_NIGHT
 	db -1 ; end

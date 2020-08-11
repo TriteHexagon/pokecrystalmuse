@@ -109,6 +109,12 @@ Music:
 ;custom
 	dba Music_PKMN_Center_Night
 	dba Music_FriendlyShop
+	dba Music_CeruleanCityGBS
+	dba Music_CinnabarIslandGBS
+	dba Music_CinnabarIslandFRLG
+	dba Music_IcePathHGSS
+	dba Music_Route24GBS
+	dba Music_Route47GBS
 ;night
 	dba Music_NewBarkTownNight
 	dba Music_Route29Night
@@ -131,3 +137,6 @@ Music:
 	dba Music_Route1Night
 	dba Music_LavenderTownNight
 	dba Music_KantoWildBattleNight
+	dba Music_CeruleanCityGBSNight
+	dba Music_Route24GBSNight
+	dba Music_Route47GBSNight
