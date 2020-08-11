@@ -296,7 +296,7 @@ OlivinePortCantBoardText:
 
 OlivinePortAskBoardText:
 	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	line "SHIP S.S.Aqua."
 
 	para "Will you be board-"
 	line "ing today?"
@@ -335,12 +335,12 @@ OlivinePortNoTicketText:
 	done
 
 OlivinePortMondayShipText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail next Monday."
 	done
 
 OlivinePortFridayShipText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail next Friday."
 	done
 
@@ -362,7 +362,7 @@ OlivinePortFishingGuru2Text:
 	done
 
 OlivinePortYoungsterText:
-	text "S.S.AQUA uses jets"
+	text "S.S.Aqua uses jets"
 	line "to skim over the"
 	cont "waves!"
 	done

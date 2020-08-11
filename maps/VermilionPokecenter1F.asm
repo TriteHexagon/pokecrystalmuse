@@ -58,7 +58,7 @@ VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
 	done
 
 VermilionPokecenter1FSailorText:
-	text "The FAST SHIP is a"
+	text "The Fast Ship is a"
 	line "great place to"
 
 	para "meet and battle"

@@ -239,7 +239,7 @@ VermilionPortCantBoardText:
 
 VermilionPortAskBoardingText:
 	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	line "SHIP S.S.Aqua."
 
 	para "Will you be board-"
 	line "ing today?"
@@ -278,12 +278,12 @@ VermilionPortNoTicketText:
 	done
 
 VermilionPortSailMondayText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail on Wednesday."
 	done
 
 VermilionPortSailSundayText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail next Sunday."
 	done
 

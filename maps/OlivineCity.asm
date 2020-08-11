@@ -258,7 +258,7 @@ OlivineCitySignText:
 
 OlivineCityPortSignText:
 	text "Olivine PORT"
-	line "FAST SHIP PIER"
+	line "Fast Ship PIER"
 	done
 
 OlivineGymSignText:

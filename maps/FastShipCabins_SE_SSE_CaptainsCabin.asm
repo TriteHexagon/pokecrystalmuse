@@ -249,7 +249,7 @@ SSAquaCaptainExhaustingText:
 
 SSAquaCaptainHowDoYouLikeText:
 	text "How do you like"
-	line "S.S.AQUA's ride?"
+	line "S.S.Aqua's ride?"
 
 	para "She practically"
 	line "skates across the"
@@ -400,7 +400,7 @@ PsychicRodneyBeatenText:
 PsychicRodneyAfterBattleText:
 	text "I get it. You can"
 	line "hear Johto's radio"
-	cont "on the FAST SHIP."
+	cont "on the Fast Ship."
 	done
 
 PokefanmJeremySeenText:
@@ -455,7 +455,7 @@ SupernerdShawnAfterBattleText:
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
 	cont "Vermilion City."
 	done

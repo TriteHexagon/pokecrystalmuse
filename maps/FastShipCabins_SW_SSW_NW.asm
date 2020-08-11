@@ -162,7 +162,7 @@ BeautyCassieAfterBattleText:
 	line "for getting over"
 	cont "a broken heart."
 
-	para "But a FAST SHIP"
+	para "But a Fast Ship"
 	line "trip is too short"
 	cont "for grieving."
 	done
@@ -209,13 +209,13 @@ FastShipBedText2:
 	done
 
 FastShipArrivedOlivineText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
 	cont "Olivine City."
 	done
 
 FastShipArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
 	cont "Vermilion City."
 	done

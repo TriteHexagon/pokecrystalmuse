@@ -10,7 +10,7 @@ OlivinePortPassagePokefanMScript:
 	jumptextfaceplayer OlivinePortPassagePokefanMText
 
 OlivinePortPassagePokefanMText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "sails to Kanto on"
 
 	para "Mondays and Fri-"
