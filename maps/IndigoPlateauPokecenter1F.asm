@@ -203,7 +203,7 @@ PlateauRivalLeavesMovement:
 
 IndigoPlateauPokecenter1FCooltrainerMText:
 	text "At the #mon"
-	line "LEAGUE, you'll get"
+	line "League, you'll get"
 
 	para "tested by the"
 	line "ELITE FOUR."
@@ -221,7 +221,7 @@ PlateauRivalText1:
 	para "You're going to"
 	line "take the #mon"
 
-	para "LEAGUE challenge"
+	para "League challenge"
 	line "now?"
 
 	para "That's not going"

@@ -64,7 +64,7 @@ CianwoodGymGuyText:
 	cont "psychic #mon."
 
 	para "Wipe out his #-"
-	line "MON before they"
+	line "mon before they"
 
 	para "can use their"
 	line "physical strength."

@@ -184,7 +184,7 @@ PokemonFanClubChairmanMoreTalesToTellText:
 
 	para "Did you come see"
 	line "me about my #-"
-	cont "MON again?"
+	cont "mon again?"
 
 	para "No? Oh… I had more"
 	line "tales to tell…"

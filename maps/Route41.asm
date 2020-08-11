@@ -253,7 +253,7 @@ SwimmerfKayleeBeatenText:
 SwimmerfKayleeAfterBattleText:
 	text "There's supposed"
 	line "to be a big #-"
-	cont "MON deep beneath"
+	cont "mon deep beneath"
 	cont "WHIRL ISLANDS."
 
 	para "I wonder what it"

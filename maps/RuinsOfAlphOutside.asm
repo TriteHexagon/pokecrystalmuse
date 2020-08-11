@@ -168,7 +168,7 @@ RuinsOfAlphOutsideScientistText:
 
 	para "If those drawings"
 	line "are really #-"
-	cont "MON, there should"
+	cont "mon, there should"
 	cont "be many more."
 
 	para "I know! Let me up-"
@@ -200,7 +200,7 @@ SuperNerdStanAfterBattleText:
 
 	para "It's also not"
 	line "known if the #-"
-	cont "MON statues have"
+	cont "mon statues have"
 	cont "any meaning."
 
 	para "It's all one big"

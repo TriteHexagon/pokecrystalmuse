@@ -460,7 +460,7 @@ DragonShrinePassedTestText:
 
 	para "It will see you"
 	line "through at the"
-	cont "#mon LEAGUE."
+	cont "#mon League."
 	done
 
 DragonShrineMustIInformLanceText:

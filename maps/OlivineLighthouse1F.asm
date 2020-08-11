@@ -24,7 +24,7 @@ OlivineLighthouse1FSailorText:
 
 OlivineLighthouse1FPokefanFText:
 	text "In the past, #-"
-	line "MON used to light"
+	line "mon used to light"
 
 	para "the sea around"
 	line "Olivine at night."

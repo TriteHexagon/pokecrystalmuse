@@ -512,7 +512,7 @@ ScientistRossBeatenText:
 ScientistRossAfterBattleText:
 	text "A radio signal"
 	line "that drives #-"
-	cont "MON mad…"
+	cont "mon mad…"
 
 	para "My experiment is a"
 	line "complete success."

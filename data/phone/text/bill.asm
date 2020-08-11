@@ -2,7 +2,7 @@ BillPhoneMornGreetingText:
 	text "Good morning!"
 
 	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	line "mon STORAGE SYSTEM"
 
 	para "ADMINISTRATION"
 	line "SERVICE."
@@ -12,7 +12,7 @@ BillPhoneDayGreetingText:
 	text "Good day!"
 
 	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	line "mon STORAGE SYSTEM"
 
 	para "ADMINISTRATION"
 	line "SERVICE."
@@ -22,7 +22,7 @@ BillPhoneNiteGreetingText:
 	text "Good evening!"
 
 	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	line "mon STORAGE SYSTEM"
 
 	para "ADMINISTRATION"
 	line "SERVICE."

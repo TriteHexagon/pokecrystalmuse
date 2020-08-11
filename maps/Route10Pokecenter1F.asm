@@ -47,7 +47,7 @@ Route10Pokecenter1FGymGuyText:
 	line "MANAGER is looking"
 
 	para "for a strong #-"
-	line "MON trainer."
+	line "mon trainer."
 
 	para "He needs help"
 	line "getting back"

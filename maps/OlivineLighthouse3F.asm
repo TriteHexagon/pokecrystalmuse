@@ -95,7 +95,7 @@ SailorTerrellAfterBattleText:
 GentlemanPrestonSeenText:
 	text "I travel the world"
 	line "to train my #-"
-	cont "MON. I wish to"
+	cont "mon. I wish to"
 	cont "battle with you."
 	done
 

@@ -268,7 +268,7 @@ PsychicNormanBeatenText:
 
 PsychicNormanAfterBattleText:
 	text "You know how #-"
-	line "MON have different"
+	line "mon have different"
 	cont "abilities?"
 
 	para "People are like"

@@ -205,7 +205,7 @@ DirectorAfterText:
 	line "RADIO TOWER…"
 
 	para "And all the #-"
-	line "MON nationwide!"
+	line "mon nationwide!"
 	done
 
 GoldenrodUndergroundWarehouse_MapEvents:

@@ -125,7 +125,7 @@ Jasmine_BetterTrainer:
 	line "kindness."
 
 	para "In accordance with"
-	line "LEAGUE rules, I"
+	line "League rules, I"
 
 	para "confer upon you"
 	line "this BADGE."

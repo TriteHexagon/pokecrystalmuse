@@ -22,7 +22,7 @@ PokeComNurseMornText:
 	text "Good morning!"
 
 	para "This is the #-"
-	line "MON COMMUNICATION"
+	line "mon COMMUNICATION"
 
 	para "CENTER--or the"
 	line "#COM CENTER."
@@ -32,7 +32,7 @@ PokeComNurseDayText:
 	text "Hello!"
 
 	para "This is the #-"
-	line "MON COMMUNICATION"
+	line "mon COMMUNICATION"
 
 	para "CENTER--or the"
 	line "#COM CENTER."
@@ -43,7 +43,7 @@ PokeComNurseNiteText:
 	line "working so late."
 
 	para "This is the #-"
-	line "MON COMMUNICATION"
+	line "mon COMMUNICATION"
 
 	para "CENTER--or the"
 	line "#COM CENTER."

@@ -187,7 +187,7 @@ HikerBaileyAfterBattleText:
 
 CamperTedSeenText:
 	text "I'm raising #-"
-	line "MON too!"
+	line "mon too!"
 
 	para "Will you battle"
 	line "with me?"

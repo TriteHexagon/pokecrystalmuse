@@ -288,7 +288,7 @@ LassCarrieAfterBattleText:
 
 LassBridgetSeenText:
 	text "I like cute #-"
-	line "MON better than"
+	line "mon better than"
 	cont "strong #mon."
 
 	para "But I have strong"

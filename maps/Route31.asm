@@ -370,7 +370,7 @@ Text_Route31WrongMail:
 
 Text_Route31MissingMail:
 	text "Why is this #-"
-	line "MON so special?"
+	line "mon so special?"
 
 	para "It doesn't have"
 	line "any MAIL."

@@ -32,7 +32,7 @@ BluesHouseSign:
 
 PalletTownTeacherText:
 	text "I'm raising #-"
-	line "MON too."
+	line "mon too."
 
 	para "They serve as my"
 	line "private guards."

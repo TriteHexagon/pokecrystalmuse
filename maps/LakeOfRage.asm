@@ -366,7 +366,7 @@ FisherAndreBeatenText:
 	line "pert angler, but"
 
 	para "I stink as a #-"
-	line "MON trainer…"
+	line "mon trainer…"
 	done
 
 FisherAndreAfterBattleText:

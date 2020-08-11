@@ -1166,7 +1166,7 @@ _WillYouPlayWithMonText:: ; unreferenced
 
 _YouNeedTwoMonForBreedingText:: ; unreferenced
 	text "You need two #-"
-	line "MON for breeding."
+	line "mon for breeding."
 	prompt
 
 _BreedingIsNotPossibleText:: ; unreferenced

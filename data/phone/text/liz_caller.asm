@@ -208,7 +208,7 @@ LizWhitneyGossipText:
 	line "little while ago!"
 
 	para "But the #mon"
-	line "LEAGUE chose her"
+	line "League chose her"
 	cont "as a Gym Leader!"
 
 	para "I bet she must be"

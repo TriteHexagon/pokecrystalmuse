@@ -414,7 +414,7 @@ CooltrainermKevinAfterBattleText:
 	line "battle!"
 
 	para "You and your #-"
-	line "MON are truly out-"
+	line "mon are truly out-"
 	cont "standing!"
 	done
 

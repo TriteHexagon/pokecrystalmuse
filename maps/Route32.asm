@@ -643,7 +643,7 @@ FisherJustinAfterText:
 	line "The essence of"
 
 	para "fishing and #-"
-	line "MON is the same."
+	line "mon is the same."
 	done
 
 FisherRalph1SeenText:

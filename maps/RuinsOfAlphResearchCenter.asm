@@ -291,7 +291,7 @@ RuinsOfAlphResearchCenterScientist2Text:
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	text "The strange #-"
-	line "MON you saw in the"
+	line "mon you saw in the"
 	cont "RUINS?"
 
 	para "They appear to be"

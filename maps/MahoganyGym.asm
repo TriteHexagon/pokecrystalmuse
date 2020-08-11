@@ -226,7 +226,7 @@ PryceText_CherishYourPokemon:
 	cont "arrives."
 
 	para "You and your #-"
-	line "MON will be to-"
+	line "mon will be to-"
 
 	para "gether for many"
 	line "years to come."

@@ -232,7 +232,7 @@ SageLiBeatenText:
 
 SageLiTakeThisFlashText:
 	text "You and your #-"
-	line "MON should have"
+	line "mon should have"
 
 	para "no problem using"
 	line "this move."

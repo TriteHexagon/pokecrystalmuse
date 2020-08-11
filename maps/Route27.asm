@@ -425,7 +425,7 @@ PsychicGilbertSeenText:
 
 	para "I got it! You're"
 	line "on the #mon"
-	cont "LEAGUE challenge!"
+	cont "League challenge!"
 	done
 
 PsychicGilbertBeatenText:
@@ -435,7 +435,7 @@ PsychicGilbertBeatenText:
 PsychicGilbertAfterBattleText:
 	text "With your skills,"
 	line "you'll do well at"
-	cont "the LEAGUE."
+	cont "the League."
 
 	para "That's what my"
 	line "premonition says."

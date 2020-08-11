@@ -405,7 +405,7 @@ TinTower1FSage3Text:
 	line "friendship and"
 
 	para "hope between #-"
-	line "MON and people."
+	line "mon and people."
 
 	para "That was 700 years"
 	line "ago, but the ideal"

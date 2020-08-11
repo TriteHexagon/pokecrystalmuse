@@ -59,7 +59,7 @@ CeladonDeptStore5FSailorText:
 CeladonDeptStore5FTeacherText:
 	text "Using items on"
 	line "them makes #-"
-	cont "MON happy."
+	cont "mon happy."
 
 	para "They hate certain"
 	line "items, though…"

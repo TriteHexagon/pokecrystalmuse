@@ -192,7 +192,7 @@ ManiaText_HappinessSpeech:
 
 ManiaText_ShuckleIsYourLastMon:
 	text "If I take my #-"
-	line "MON back, what are"
+	line "mon back, what are"
 
 	para "you going to use"
 	line "in battle?"

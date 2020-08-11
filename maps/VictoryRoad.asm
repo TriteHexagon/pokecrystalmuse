@@ -166,7 +166,7 @@ VictoryRoadRivalBeforeText:
 
 	para "…Are you going to"
 	line "take the #mon"
-	cont "LEAGUE challenge?"
+	cont "League challenge?"
 
 	para "…Don't make me"
 	line "laugh."

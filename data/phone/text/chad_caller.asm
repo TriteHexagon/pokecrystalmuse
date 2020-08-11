@@ -76,7 +76,7 @@ ChadBlueGossipText:
 	line "grandson and a"
 
 	para "former #mon"
-	line "LEAGUE CHAMPION!"
+	line "League CHAMPION!"
 
 	para "He's one super"
 	line "#mon trainer!"
@@ -131,7 +131,7 @@ ChadKurtGossipText:
 	done
 
 ChadLeagueGossipText:
-	text "#mon LEAGUE is"
+	text "#mon League is"
 	line "the great gather-"
 	cont "ing place for all"
 
@@ -141,7 +141,7 @@ ChadLeagueGossipText:
 	para "PROF.OAK acts as"
 	line "an advisor to the"
 
-	para "#mon LEAGUE's"
+	para "#mon League's"
 	line "headquarters."
 
 	para "He really is a"

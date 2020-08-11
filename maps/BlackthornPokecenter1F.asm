@@ -26,7 +26,7 @@ BlackthornPokecenter1FGentlemanText:
 	line "off INDIGO PLATEAU"
 
 	para "is the #mon"
-	line "LEAGUE."
+	line "League."
 
 	para "I hear the best"
 	line "trainers gather"

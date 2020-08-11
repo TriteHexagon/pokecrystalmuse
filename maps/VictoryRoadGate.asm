@@ -86,7 +86,7 @@ VictoryRoadGateLeftBlackBeltText:
 
 VictoryRoadGateRightBlackBeltText:
 	text "Off to the #mon"
-	line "LEAGUE, are you?"
+	line "League, are you?"
 
 	para "The ELITE FOUR are"
 	line "so strong it's"

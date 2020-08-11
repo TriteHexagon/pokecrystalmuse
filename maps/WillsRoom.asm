@@ -80,7 +80,7 @@ WillsRoom_EnterMovement:
 
 WillScript_WillBeforeText:
 	text "Welcome to #mon"
-	line "LEAGUE, <PLAYER>."
+	line "League, <PLAYER>."
 
 	para "Allow me to intro-"
 	line "duce myself. I am"

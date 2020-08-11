@@ -183,7 +183,7 @@ GentlemanAlfredBeatenText:
 
 GentlemanAlfredAfterBattleText:
 	text "Up top is a #-"
-	line "MON that keeps the"
+	line "mon that keeps the"
 	cont "LIGHTHOUSE lit."
 
 	para "But I hear that"

@@ -228,7 +228,7 @@ TinTowerSignText:
 	text "TIN TOWER"
 
 	para "A legendary #-"
-	line "MON is said to"
+	line "mon is said to"
 	cont "roost here."
 	done
 

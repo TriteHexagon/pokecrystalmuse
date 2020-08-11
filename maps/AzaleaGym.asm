@@ -321,7 +321,7 @@ TwinsAmyandmay2BeatenText:
 
 TwinsAmyandmay2AfterBattleText:
 	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
+	line "mon lost! Oh, what"
 	cont "a shame."
 	done
 

@@ -228,7 +228,7 @@ LanceBattleIntroText:
 	para "As the most power-"
 	line "ful trainer and as"
 
-	para "the #mon LEAGUE"
+	para "the #mon League"
 	line "CHAMPION…"
 
 	para "I, LANCE the drag-"
@@ -292,7 +292,7 @@ LancesRoomOakCongratulationsText:
 	line "more impressive."
 
 	para "Your conquest of"
-	line "the LEAGUE is just"
+	line "the League is just"
 	cont "fantastic!"
 
 	para "Your dedication,"

@@ -251,7 +251,7 @@ ClairText_WhatsTheMatterDragonDen:
 	line "matter? Aren't you"
 
 	para "going on to the"
-	line "#mon LEAGUE?"
+	line "#mon League?"
 
 	para "Do you know how to"
 	line "get there?"
@@ -260,14 +260,14 @@ ClairText_WhatsTheMatterDragonDen:
 	line "New Bark Town."
 
 	para "Then Surf east to"
-	line "#mon LEAGUE."
+	line "#mon League."
 
 	para "The route there is"
 	line "very tough."
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "MON LEAGUE!"
+	cont "mon League!"
 
 	para "If you do, I'll"
 	line "feel even worse"
@@ -306,7 +306,7 @@ SilverText_Training1:
 	line "ciplined to become"
 
 	para "the greatest #-"
-	line "MON trainer…"
+	line "mon trainer…"
 	done
 
 SilverText_Training2:
