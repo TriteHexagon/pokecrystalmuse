@@ -23,7 +23,7 @@ ItemNames::
 	db "Fire Stone@"
 	db "ThunderStone@"
 	db "Water Stone@"
-	db "Teru-Sama@" ;unused
+	db "Eviolite@"
 	db "Hp Up@"
 	db "Protein@"
 	db "Iron@"

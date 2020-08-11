@@ -24,7 +24,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw EvioliteDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -351,8 +351,9 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #mon.@"
 
-TeruSama2Desc:
-	db   "?@"
+EvioliteDesc:
+	db   "Boosts defenses of"
+	next "unevolved #mon.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -522,11 +523,11 @@ SecretPotionDesc:
 
 SSTicketDesc:
 	db   "A ticket for the"
-	next "S.S.AQUA.@"
+	next "S.S.Aqua.@"
 
 MysteryEggDesc:
 	db   "An EGG obtained"
-	next "from MR.#mon.@"
+	next "from Mr.#mon.@"
 
 ClearBellDesc:
 	db   "Makes a gentle"
