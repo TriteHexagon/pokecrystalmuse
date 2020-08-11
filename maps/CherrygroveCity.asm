@@ -489,7 +489,7 @@ CherrygroveTeacherText_NoMapCard:
 	cont "#mon CENTER?"
 
 	para "He'll put a MAP of"
-	line "JOHTO on your"
+	line "Johto on your"
 	cont "#GEAR."
 	done
 

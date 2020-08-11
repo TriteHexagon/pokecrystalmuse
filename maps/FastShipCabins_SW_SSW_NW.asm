@@ -112,7 +112,7 @@ FastShipCabinsNorthwestCabinTrashcan:
 	jumpstd TrashCanScript
 
 FirebreatherLyleSeenText:
-	text "I'm going to KANTO"
+	text "I'm going to Kanto"
 	line "to put on Fire-"
 	cont "breathing shows!"
 	done
@@ -144,7 +144,7 @@ BugCatcherKenBeatenText:
 BugCatcherKenAfterBattleText:
 	text "You can find lots"
 	line "of #mon in the"
-	cont "trees of JOHTO!"
+	cont "trees of Johto!"
 	done
 
 BeautyCassieSeenText:

@@ -99,7 +99,7 @@ FisherStephenBeatenText:
 
 FisherStephenAfterBattleText:
 	text "Have you checked"
-	line "out KANTO's radio"
+	line "out Kanto's radio"
 
 	para "programs? We get a"
 	line "good variety here."
@@ -129,7 +129,7 @@ FisherBarneyAfterBattleText:
 	para "have made such a"
 	line "fuss when the"
 
-	para "POWER PLANT went"
+	para "Power Plant went"
 	line "out of commission."
 	done
 

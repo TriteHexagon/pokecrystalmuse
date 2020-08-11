@@ -111,9 +111,9 @@ LeaderBlueBeforeText:
 
 	para "You're telling me"
 	line "you conquered all"
-	cont "the GYMS in JOHTO?"
+	cont "the GYMS in Johto?"
 
-	para "Heh! JOHTO's GYMS"
+	para "Heh! Johto's GYMS"
 	line "must be pretty"
 	cont "pathetic then."
 
@@ -126,7 +126,7 @@ LeaderBlueBeforeText:
 	para "battling you right"
 	line "now."
 
-	para "Ready, JOHTO"
+	para "Ready, Johto"
 	line "CHAMP?"
 	done
 

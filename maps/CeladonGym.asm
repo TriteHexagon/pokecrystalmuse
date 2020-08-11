@@ -125,7 +125,7 @@ ErikaBeforeBattleText:
 	cont "Celadon GYM."
 
 	para "…Oh? All the way"
-	line "from JOHTO, you"
+	line "from Johto, you"
 	cont "say? How nice…"
 
 	para "Oh. I'm sorry, I"

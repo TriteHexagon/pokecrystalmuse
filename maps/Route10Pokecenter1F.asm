@@ -43,7 +43,7 @@ Route10Pokecenter1FGentlemanText:
 	done
 
 Route10Pokecenter1FGymGuyText:
-	text "The POWER PLANT's"
+	text "The Power Plant's"
 	line "MANAGER is looking"
 
 	para "for a strong #-"
@@ -60,7 +60,7 @@ Route10Pokecenter1FGymGuyText_ReturnedMachinePart:
 	text "I hear TEAM ROCKET"
 	line "got back together"
 
-	para "in JOHTO but fell"
+	para "in Johto but fell"
 	line "apart right away."
 
 	para "I didn't know any-"

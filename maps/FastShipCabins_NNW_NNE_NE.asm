@@ -132,7 +132,7 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 CooltrainermSeanSeenText:
-	text "I'm going to KANTO"
+	text "I'm going to Kanto"
 	line "to test my skills."
 	done
 
@@ -142,9 +142,9 @@ CooltrainermSeanBeatenText:
 
 CooltrainermSeanAfterBattleText:
 	text "Trainers from"
-	line "JOHTO can battle"
+	line "Johto can battle"
 
-	para "with KANTO GYM"
+	para "with Kanto GYM"
 	line "LEADERS."
 	done
 
@@ -166,7 +166,7 @@ CooltrainerfCarolAfterBattleText:
 PokemaniacEthanSeenText:
 	text "Do you know LILY?"
 	line "She's a hot DJ in"
-	cont "KANTO."
+	cont "Kanto."
 	done
 
 PokemaniacEthanBeatenText:
@@ -178,7 +178,7 @@ PokemaniacEthanAfterBattleText:
 	line "MARY's the best!"
 
 	para "I want to check"
-	line "out JOHTO's radio"
+	line "out Johto's radio"
 	cont "programs!"
 	done
 
@@ -197,7 +197,7 @@ HikerNolandAfterBattleText:
 	line "are any mountains"
 
 	para "worth climbing in"
-	line "KANTO?"
+	line "Kanto?"
 	done
 
 SailorStanlySeenText:

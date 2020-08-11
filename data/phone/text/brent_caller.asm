@@ -90,7 +90,7 @@ BrentRoute25GossipText:
 	line "BILL evidently"
 
 	para "lives on ROUTE 25"
-	line "in KANTO."
+	line "in Kanto."
 	done
 
 BrentAbraGossipText:

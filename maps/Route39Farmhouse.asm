@@ -152,7 +152,7 @@ FarmerMText_Milking:
 
 FarmerFText_InTrouble:
 	text "Our milk even goes"
-	line "out to KANTO."
+	line "out to Kanto."
 
 	para "So if our own"
 	line "MILTANK won't give"

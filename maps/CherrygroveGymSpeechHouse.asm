@@ -26,7 +26,7 @@ CherrygroveGymSpeechHousePokefanMText:
 	para "You better visit"
 	line "the #mon GYMS"
 
-	para "all over JOHTO and"
+	para "all over Johto and"
 	line "collect Badges."
 	done
 

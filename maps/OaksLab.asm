@@ -82,7 +82,7 @@ OakWelcomeKantoText:
 	line "It's good of you"
 
 	para "to come all this"
-	line "way to KANTO."
+	line "way to Kanto."
 
 	para "What do you think"
 	line "of the trainers"
@@ -110,7 +110,7 @@ OakOpenMtSilverText:
 
 	para "You collected the"
 	line "Badges of GYMS in"
-	cont "KANTO. Well done!"
+	cont "Kanto. Well done!"
 
 	para "I was right in my"
 	line "assessment of you."
@@ -148,13 +148,13 @@ OakOpenMtSilverText:
 OakNoKantoBadgesText:
 	text "OAK: Hmm? You're"
 	line "not collecting"
-	cont "KANTO GYM Badges?"
+	cont "Kanto GYM Badges?"
 
 	para "The GYM LEADERS in"
-	line "KANTO are as tough"
+	line "Kanto are as tough"
 
 	para "as any you battled"
-	line "in JOHTO."
+	line "in Johto."
 
 	para "I recommend that"
 	line "you challenge"
@@ -163,7 +163,7 @@ OakNoKantoBadgesText:
 
 OakYesKantoBadgesText:
 	text "OAK: Ah, you're"
-	line "collecting KANTO"
+	line "collecting Kanto"
 	cont "GYM Badges."
 
 	para "I imagine that"
@@ -187,7 +187,7 @@ OaksAssistant1Text:
 	line "TALK radio program"
 
 	para "isn't aired here"
-	line "in KANTO."
+	line "in Kanto."
 
 	para "It's a shame--I'd"
 	line "like to hear it."

@@ -253,7 +253,7 @@ MistyIntroText:
 	cont "pest!"
 
 	para "You may have a"
-	line "lot of JOHTO GYM"
+	line "lot of Johto GYM"
 
 	para "Badges, but you'd"
 	line "better not take me"
@@ -296,7 +296,7 @@ MistyExplainTMText:
 MistyFightDoneText:
 	text "MISTY: Are there"
 	line "many strong train-"
-	cont "ers in JOHTO? Like"
+	cont "ers in Johto? Like"
 	cont "you, I mean."
 
 	para "I'm going to"

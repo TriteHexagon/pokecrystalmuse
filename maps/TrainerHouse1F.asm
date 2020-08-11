@@ -74,7 +74,7 @@ TrainerHouse1FCooltrainerFText:
 	para "I would love to"
 	line "see how well a"
 
-	para "trainer from JOHTO"
+	para "trainer from Johto"
 	line "battles."
 	done
 
@@ -92,7 +92,7 @@ TrainerHouse1FYoungsterText:
 	line "Pallet traveled to"
 
 	para "all the cities and"
-	line "towns in KANTO."
+	line "towns in Kanto."
 	done
 
 TrainerHouse1FGentlemanText:

@@ -399,7 +399,7 @@ PsychicRodneyBeatenText:
 
 PsychicRodneyAfterBattleText:
 	text "I get it. You can"
-	line "hear JOHTO's radio"
+	line "hear Johto's radio"
 	cont "on the FAST SHIP."
 	done
 

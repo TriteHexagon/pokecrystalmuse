@@ -25,7 +25,7 @@ Route7SaffronGuardScript:
 Route7SaffronGuardPowerPlantText:
 	text "Did you hear about"
 	line "the accident at"
-	cont "the POWER PLANT?"
+	cont "the Power Plant?"
 
 	para "It's located in"
 	line "the East, close to"

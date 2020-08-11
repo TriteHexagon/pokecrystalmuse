@@ -95,7 +95,7 @@ Route24RocketAfterBattleText:
 	para "Beat you for sure"
 	line "will TEAM ROCKET."
 
-	para "Come from JOHTO"
+	para "Come from Johto"
 	line "will they, mine"
 
 	para "friends, yes. Will"

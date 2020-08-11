@@ -164,7 +164,7 @@ HikerTimSeenText:
 	cont "when she comes…"
 
 	para "MT.SILVER is in"
-	line "JOHTO, right?"
+	line "Johto, right?"
 	done
 
 HikerTimBeatenText:
@@ -191,7 +191,7 @@ HikerSidneyBeatenText:
 	done
 
 HikerSidneyAfterBattleText:
-	text "The POWER PLANT is"
+	text "The Power Plant is"
 	line "across a small"
 	cont "river."
 	done

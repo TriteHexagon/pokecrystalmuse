@@ -214,7 +214,7 @@ PowerPlantOfficer1ReturnToPostMovement:
 
 PowerPlantOfficer1AThiefBrokeInText:
 	text "A thief broke into"
-	line "the POWER PLANT…"
+	line "the Power Plant…"
 
 	para "What is the world"
 	line "coming to?"
@@ -263,7 +263,7 @@ PowerPlantGymGuy1GeneratorUpAndRunningText:
 	done
 
 PowerPlantGymGuy2PowerPlantUpAndRunningText:
-	text "This POWER PLANT"
+	text "This Power Plant"
 	line "had been abandoned"
 	cont "in the past."
 
@@ -271,7 +271,7 @@ PowerPlantGymGuy2PowerPlantUpAndRunningText:
 	line "and running to"
 
 	para "provide power to"
-	line "the MAGNET TRAIN."
+	line "the Magnet Train."
 	done
 
 PowerPlantGymGuy2GeneratorIsRunningAgainText:
@@ -280,7 +280,7 @@ PowerPlantGymGuy2GeneratorIsRunningAgainText:
 	done
 
 PowerPlantOfficer2ManagerHasBeenSadAndFuriousText:
-	text "The POWER PLANT's"
+	text "The Power Plant's"
 	line "MANAGER is up"
 	cont "ahead."
 
@@ -300,7 +300,7 @@ PowerPlantOfficer2ManagerHasBeenCheerfulText:
 	done
 
 PowerPlantGymGuy4MagnetTrainConsumesElectricityText:
-	text "The MAGNET TRAIN"
+	text "The Magnet Train"
 	line "consumes a lot of"
 	cont "electricity."
 
@@ -313,7 +313,7 @@ PowerPlantGymGuy4WeCanGetMagnetTrainRunningText:
 	text "All right! We can"
 	line "finally get the"
 
-	para "MAGNET TRAIN"
+	para "Magnet Train"
 	line "running again."
 	done
 

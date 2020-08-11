@@ -48,12 +48,12 @@ LavenderTownPokefanMText:
 	text "That's quite some"
 	line "building, eh?"
 
-	para "It's KANTO's RADIO"
+	para "It's Kanto's RADIO"
 	line "TOWER."
 	done
 
 LavenderTownTeacherText:
-	text "KANTO has many"
+	text "Kanto has many"
 	line "good radio shows."
 	done
 
@@ -83,7 +83,7 @@ LavenderTownSignText:
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO"
+	text "Kanto RADIO"
 	line "STATION"
 
 	para "Your Favorite"

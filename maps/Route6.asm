@@ -40,7 +40,7 @@ Route6PokefanMText:
 	text "The road is closed"
 	line "until the problem"
 
-	para "at the POWER PLANT"
+	para "at the Power Plant"
 	line "is solved."
 	done
 

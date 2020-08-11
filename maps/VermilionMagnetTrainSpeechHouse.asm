@@ -18,17 +18,17 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 
 VermilionMagnetTrainSpeechHousePokefanFText:
 	text "Do you know about"
-	line "the MAGNET TRAIN?"
+	line "the Magnet Train?"
 
 	para "It's a railway"
 	line "that goes to GOL-"
-	cont "DENROD in JOHTO."
+	cont "DENROD in Johto."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
 	text "I want to go to"
 	line "Saffron to see"
-	cont "the MAGNET TRAIN."
+	cont "the Magnet Train."
 	done
 
 VermilionMagnetTrainSpeechHouse_MapEvents:

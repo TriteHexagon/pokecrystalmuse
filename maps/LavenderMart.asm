@@ -39,7 +39,7 @@ LavenderMartRockerText:
 	line "craftsman who"
 
 	para "makes custom BALLS"
-	line "in the JOHTO town"
+	line "in the Johto town"
 
 	para "of Azalea. I wish"
 	line "I had some."

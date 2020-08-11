@@ -89,7 +89,7 @@ SwimmermCameronSeenText:
 	line "possible to swim"
 
 	para "all the way to"
-	line "JOHTO."
+	line "Johto."
 	done
 
 SwimmermCameronBeatenText:

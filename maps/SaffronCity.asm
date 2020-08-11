@@ -130,7 +130,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 SaffronCityPokefanMText:
 	text "You came out from"
-	line "JOHTO?"
+	line "Johto?"
 
 	para "You can zip back"
 	line "home if the MAGNET"
@@ -139,11 +139,11 @@ SaffronCityPokefanMText:
 
 SaffronCityPokefanMText_ReturnedMachinePart:
 	text "You came out from"
-	line "JOHTO?"
+	line "Johto?"
 
 	para "You can zip back"
 	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	cont "the Magnet Train."
 	done
 
 SaffronCityCooltrainerMText:
@@ -178,7 +178,7 @@ SaffronCityFisherText:
 
 	para "I hear there's big"
 	line "trouble brewing at"
-	cont "the POWER PLANT."
+	cont "the Power Plant."
 
 	para "Chew… Chew…"
 	done
@@ -188,7 +188,7 @@ SaffronCityFisherText_ReturnedMachinePart:
 
 	para "I hear there was"
 	line "big trouble at the"
-	cont "POWER PLANT."
+	cont "Power Plant."
 
 	para "Chew… Chew…"
 	line "Haaah, I'm full!"
@@ -259,7 +259,7 @@ MrPsychicsHouseSignText:
 
 SaffronCityMagnetTrainStationSignText:
 	text "Saffron City"
-	line "MAGNET TRAIN"
+	line "Magnet Train"
 	cont "STATION"
 	done
 

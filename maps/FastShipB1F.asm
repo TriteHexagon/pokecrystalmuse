@@ -295,7 +295,7 @@ PicnickerDebraAfterBattleText:
 	line "I hear there are"
 
 	para "many big cities"
-	line "in KANTO."
+	line "in Kanto."
 	done
 
 JugglerFritzSeenText:
@@ -313,7 +313,7 @@ JugglerFritzAfterBattleText:
 	line "me. Next time,"
 
 	para "I'm taking the"
-	line "MAGNET TRAIN."
+	line "Magnet Train."
 	done
 
 SailorGarrettSeenText:
@@ -369,7 +369,7 @@ BlackbeltWaiBeatenText:
 BlackbeltWaiAfterBattleText:
 	text "I couldn't find"
 	line "the KARATE KING in"
-	cont "JOHTO."
+	cont "Johto."
 
 	para "He's supposed to"
 	line "be training in a"

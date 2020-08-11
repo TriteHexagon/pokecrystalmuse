@@ -40,7 +40,7 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "What are JOHTO's"
+	text "What are Johto's"
 	line "#mon CENTERS"
 	cont "like?"
 
@@ -48,15 +48,15 @@ SaffronPokecenter1FTeacherText:
 	line "they're not much"
 
 	para "different from the"
-	line "ones in KANTO."
+	line "ones in Kanto."
 
-	para "I can go to JOHTO"
+	para "I can go to Johto"
 	line "without worrying,"
 	cont "then!"
 	done
 
 SaffronPokecenter1FTeacherMobileText:
-	text "What are JOHTO's"
+	text "What are Johto's"
 	line "#mon CENTERS"
 	cont "like?"
 
@@ -67,7 +67,7 @@ SaffronPokecenter1FTeacherMobileText:
 	line "far away?"
 
 	para "Then I'll get my"
-	line "friend in JOHTO to"
+	line "friend in Johto to"
 
 	para "catch a MARILL and"
 	line "trade it to me!"
@@ -79,7 +79,7 @@ SaffronPokecenter1FFisherText:
 
 	para "TUNNEL. There was"
 	line "some commotion at"
-	cont "the POWER PLANT."
+	cont "the Power Plant."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
@@ -102,7 +102,7 @@ SaffronPokecenter1FYoungsterText:
 	text "SILPH CO.'s HEAD"
 	line "OFFICE and the"
 
-	para "MAGNET TRAIN STA-"
+	para "Magnet Train STA-"
 	line "TION--they're the"
 
 	para "places to see in"

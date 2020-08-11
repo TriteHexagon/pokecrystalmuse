@@ -29,12 +29,12 @@ Route6SaffronGuardScript:
 Route6SaffronGuardWelcomeText:
 	text "Welcome to Saffron"
 	line "City, home of the"
-	cont "MAGNET TRAIN!"
+	cont "Magnet Train!"
 
 	para "…That's what I'd"
 	line "normally say, but"
 
-	para "the MAGNET TRAIN"
+	para "the Magnet Train"
 	line "isn't running now."
 
 	para "It's not getting"
@@ -48,7 +48,7 @@ Route6SaffronGuardWelcomeText:
 	done
 
 Route6SaffronGuardMagnetTrainText:
-	text "The MAGNET TRAIN"
+	text "The Magnet Train"
 	line "is the most famous"
 
 	para "thing about SAF-"

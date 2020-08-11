@@ -81,7 +81,7 @@ BrockIntroText:
 	line "not often that we"
 
 	para "get a challenger"
-	line "from JOHTO."
+	line "from Johto."
 
 	para "I'm BROCK, the"
 	line "Pewter Gym Leader."
@@ -171,7 +171,7 @@ CamperJerryBeatenText:
 
 CamperJerryAfterBattleText:
 	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	line "from Johto! BROCK"
 
 	para "is tough. He'll"
 	line "punish you if you"
@@ -188,12 +188,12 @@ PewterGymGuyText:
 	line "Are you battling"
 
 	para "the GYM LEADERS of"
-	line "KANTO?"
+	line "Kanto?"
 
 	para "They're strong and"
 	line "dedicated people,"
 
-	para "just like JOHTO's"
+	para "just like Johto's"
 	line "GYM LEADERS."
 	done
 

@@ -116,7 +116,7 @@ FirebreatherBurtBeatenText:
 
 FirebreatherBurtAfterBattleText:
 	text "The greatest Fire-"
-	line "breather in KANTO,"
+	line "breather in Kanto,"
 	cont "that's me."
 
 	para "But not the best"

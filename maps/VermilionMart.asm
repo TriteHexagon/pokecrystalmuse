@@ -22,7 +22,7 @@ VermilionMartBeautyScript:
 
 VermilionMartSuperNerdText:
 	text "TEAM ROCKET is no"
-	line "longer in KANTO."
+	line "longer in Kanto."
 
 	para "That alone makes"
 	line "me happy."

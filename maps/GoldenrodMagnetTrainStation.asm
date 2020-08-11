@@ -158,8 +158,8 @@ GoldenrodMagnetTrainStationGentlemanText:
 	line "#mon."
 
 	para "It really brings"
-	line "JOHTO much closer"
-	cont "to KANTO."
+	line "Johto much closer"
+	cont "to Kanto."
 	done
 
 GoldenrodMagnetTrainStation_MapEvents:

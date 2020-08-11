@@ -369,7 +369,7 @@ OlivinePortYoungsterText:
 
 OlivinePortCooltrainerFText:
 	text "There are lots of"
-	line "#mon in KANTO."
+	line "#mon in Kanto."
 
 	para "I wish I could go…"
 	done

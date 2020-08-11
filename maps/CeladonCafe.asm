@@ -169,7 +169,7 @@ TeacherText_NoCoinCase:
 	line "give you a COIN"
 
 	para "CASE. You should"
-	line "look in JOHTO."
+	line "look in Johto."
 	done
 
 TeacherText_KeepEating:

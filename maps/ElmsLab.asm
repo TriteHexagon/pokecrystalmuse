@@ -1191,7 +1191,7 @@ ElmGiveTicketText1:
 	line "S.S.TICKET."
 
 	para "Now you can catch"
-	line "#mon in KANTO."
+	line "#mon in Kanto."
 	done
 
 ElmGiveTicketText2:
@@ -1206,7 +1206,7 @@ ElmGiveTicketText2:
 	cont "with your #mon."
 
 	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	line "PROF.OAK in Kanto!"
 	done
 
 ElmsLabSignpostText_Egg:

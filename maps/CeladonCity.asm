@@ -180,7 +180,7 @@ CeladonCityTeacher2Text:
 ; 	line "I wish we had a"
 
 ; 	para "place like that in"
-; 	line "KANTO…"
+; 	line "Kanto…"
 ; 	done
 
 CeladonCityLassText:

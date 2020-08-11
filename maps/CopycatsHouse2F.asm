@@ -262,14 +262,14 @@ CopycatText_GiveDoll:
 
 CopycatText_GivePass:
 	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
+	line "Magnet Train PASS"
 	cont "like I promised!"
 	done
 
 CopycatText_ExplainPass:
 	text "COPYCAT: That's"
 	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	cont "Magnet Train."
 
 	para "The rail company"
 	line "man gave me that"

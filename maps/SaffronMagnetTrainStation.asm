@@ -126,7 +126,7 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
 	text "I'm sorry, but the"
-	line "MAGNET TRAIN isn't"
+	line "Magnet Train isn't"
 	cont "operating now."
 	done
 
@@ -165,7 +165,7 @@ SaffronMagnetTrainStationOfficerArrivedInSaffronText:
 	done
 
 SaffronMagnetTrainStationGymGuyText:
-	text "The MAGNET TRAIN"
+	text "The Magnet Train"
 	line "is a super-modern"
 
 	para "rail liner that"
@@ -187,7 +187,7 @@ SaffronMagnetTrainStationGymGuyText_ReturnedMachinePart:
 	line "have I gone back"
 
 	para "and forth between"
-	line "KANTO and JOHTO?"
+	line "Kanto and Johto?"
 	done
 
 SaffronMagnetTrainStationTeacherText:

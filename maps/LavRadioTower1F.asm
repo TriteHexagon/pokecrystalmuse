@@ -89,7 +89,7 @@ LavRadioTower1FOfficerText:
 	line "only tour the"
 	cont "ground floor."
 
-	para "Ever since JOHTO's"
+	para "Ever since Johto's"
 	line "RADIO TOWER was"
 
 	para "taken over by a"
@@ -117,7 +117,7 @@ LavRadioTower1FGentlemanText:
 	para "We've been off the"
 	line "air ever since the"
 
-	para "POWER PLANT shut"
+	para "Power Plant shut"
 	line "down."
 
 	para "All my efforts to"
@@ -133,7 +133,7 @@ LavRadioTower1FGentlemanText_ReturnedMachinePart:
 	text "Ah! So you're the"
 	line "<PLAY_G> who solved"
 
-	para "the POWER PLANT's"
+	para "the Power Plant's"
 	line "problem?"
 
 	para "Thanks to you, I"
@@ -151,7 +151,7 @@ LavRadioTower1FGentlemanText_GotExpnCard:
 	line "you can tune into"
 
 	para "the radio programs"
-	line "here in KANTO."
+	line "here in Kanto."
 
 	para "Gahahahaha!"
 	done

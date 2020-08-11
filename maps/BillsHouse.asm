@@ -213,7 +213,7 @@ BillsGrandpaIntroText:
 	text "Hm? You know BILL?"
 	line "He's my grandson."
 
-	para "He's in JOHTO. He"
+	para "He's in Johto. He"
 	line "does something"
 
 	para "with PCs, so I'm"

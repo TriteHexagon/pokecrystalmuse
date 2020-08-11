@@ -67,7 +67,7 @@ Route17HiddenMaxElixer:
 
 BikerRileySeenText:
 	text "Hey, you! You're"
-	line "from JOHTO, huh?"
+	line "from Johto, huh?"
 	done
 
 BikerRileyBeatenText:
@@ -76,7 +76,7 @@ BikerRileyBeatenText:
 
 BikerRileyAfterBattleText:
 	text "Don't get cocky,"
-	line "you JOHTO punk!"
+	line "you Johto punk!"
 	done
 
 BikerJoelSeenText:

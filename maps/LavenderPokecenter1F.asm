@@ -40,7 +40,7 @@ LavenderPokecenter1FGentlemanText:
 
 	para "TUNNEL. Go through"
 	line "it to get to the"
-	cont "POWER PLANT."
+	cont "Power Plant."
 	done
 
 LavenderPokecenter1FTeacherText:
@@ -54,10 +54,10 @@ LavenderPokecenter1FTeacherText:
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "If the POWER PLANT"
+	text "If the Power Plant"
 	line "isn't running, the"
 
-	para "MAGNET TRAIN won't"
+	para "Magnet Train won't"
 	line "run either…"
 
 	para "It also means the"

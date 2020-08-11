@@ -375,7 +375,7 @@ FuchsiaGymGuyText:
 FuchsiaGymGuyWinText:
 	text "That was a great"
 	line "battle, trainer"
-	cont "from JOHTO!"
+	cont "from Johto!"
 	done
 
 FuchsiaGym_MapEvents:

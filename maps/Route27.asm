@@ -324,7 +324,7 @@ Route27FisherText:
 
 	para "You've taken your"
 	line "first step into"
-	cont "KANTO."
+	cont "Kanto."
 
 	para "Check your #-"
 	line "GEAR MAP and see."

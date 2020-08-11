@@ -253,7 +253,7 @@ Route25MistyDateText:
 
 	para "…Oh? Those Badges"
 	line "you have… Are they"
-	cont "JOHTO GYM Badges?"
+	cont "Johto GYM Badges?"
 
 	para "If you have eight,"
 	line "you must be good."

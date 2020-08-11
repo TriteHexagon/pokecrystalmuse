@@ -231,7 +231,7 @@ IrwinMarshBadgeGossipText:
 	para "You're kicking up"
 	line "a mighty ruckus"
 
-	para "over in KANTO!"
+	para "over in Kanto!"
 	line "What a glorious"
 
 	para "rampage it must"

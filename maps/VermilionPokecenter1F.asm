@@ -71,7 +71,7 @@ VermilionPokecenter1FBugCatcherText:
 	cont "seen before."
 
 	para "Oh, I get it. You"
-	line "got them in JOHTO."
+	line "got them in Johto."
 	done
 
 VermilionPokecenter1F_MapEvents:
