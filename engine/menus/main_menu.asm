@@ -357,7 +357,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	db "Fri@"
 	db "Satur@"
 .Day:
-	db "Day@"
+	db "day@"
 
 ClearTilemapEtc:
 	xor a
