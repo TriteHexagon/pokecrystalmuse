@@ -2,7 +2,7 @@
 	dw 5, 104
 
 	db   "During the study"
-	next "of this #MON,"
+	next "of this #mon,"
 	next "it was discovered"
 
 	page "that its compo-"

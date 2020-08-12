@@ -2,7 +2,7 @@
 	dw 6, 327
 
 	db   "This manmade"
-	next "#MON evolved"
+	next "#mon evolved"
 	next "from the latest"
 
 	page "technology. It"

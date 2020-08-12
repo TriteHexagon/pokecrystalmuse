@@ -2,7 +2,7 @@
 	dw 9, 281
 
 	db   "This cunning"
-	next "#MON hides"
+	next "#mon hides"
 	next "under the cover"
 
 	page "of darkness,"

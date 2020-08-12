@@ -2,7 +2,7 @@
 	dw 40, 163
 
 	db   "It is called the"
-	next "divine #MON."
+	next "divine #mon."
 	next "When its entire"
 
 	page "body brightens"

@@ -1,7 +1,7 @@
 	db "SCISSORS@" ; species name
 	dw 18, 1179
 
-	db   "This #MON's"
+	db   "This #mon's"
 	next "pincers, which"
 	next "contain steel, can"
 

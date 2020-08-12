@@ -2,7 +2,7 @@
 	dw 17, 553
 
 	db   "Legendary bird"
-	next "#MON. As it"
+	next "#mon. As it"
 	next "flies through the"
 
 	page "sky, it cools the"

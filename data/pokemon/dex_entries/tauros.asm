@@ -2,7 +2,7 @@
 	dw 14, 885
 
 	db   "These violent"
-	next "#MON fight"
+	next "#mon fight"
 	next "with other mem-"
 
 	page "bers of their herd"

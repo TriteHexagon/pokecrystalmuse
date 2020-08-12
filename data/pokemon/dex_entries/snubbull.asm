@@ -2,7 +2,7 @@
 	dw 6, 77
 
 	db   "In truth, it is a"
-	next "cowardly #MON."
+	next "cowardly #mon."
 	next "It growls eagerly"
 
 	page "in order to hide"

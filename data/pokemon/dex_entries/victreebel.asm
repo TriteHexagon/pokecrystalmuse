@@ -2,7 +2,7 @@
 	dw 17, 154
 
 	db   "Once ingested into"
-	next "this #MON's"
+	next "this #mon's"
 	next "body, even the"
 
 	page "hardest object"

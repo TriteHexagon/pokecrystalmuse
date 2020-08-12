@@ -2,7 +2,7 @@
 	dw 11, 1202
 
 	db   "Because this"
-	next "#MON's skin is"
+	next "#mon's skin is"
 	next "so tough, a normal"
 
 	page "attack won't even"

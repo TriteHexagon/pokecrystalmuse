@@ -2,7 +2,7 @@
 	dw 20, 599
 
 	db   "Legendary bird"
-	next "#MON. It is"
+	next "#mon. It is"
 	next "said to migrate"
 
 	page "from the south"

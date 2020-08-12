@@ -2,7 +2,7 @@
 	dw 8, 363
 
 	db   "An artificial"
-	next "#MON created"
+	next "#mon created"
 	next "due to extensive"
 
 	page "research, it can"

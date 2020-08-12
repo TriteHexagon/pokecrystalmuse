@@ -2,7 +2,7 @@
 	dw 25, 2200
 
 	db   "This gentle"
-	next "#MON loves to"
+	next "#mon loves to"
 	next "give people rides"
 
 	page "and provides a ve-"

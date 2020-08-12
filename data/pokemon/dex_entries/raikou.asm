@@ -1,7 +1,7 @@
 	db "THUNDER@" ; species name
 	dw 19, 1778
 
-	db   "This rough #MON"
+	db   "This rough #mon"
 	next "stores energy"
 	next "inside its body,"
 

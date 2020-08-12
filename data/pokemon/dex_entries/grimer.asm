@@ -2,7 +2,7 @@
 	dw 9, 299
 
 	db   "When two of these"
-	next "#MON's bodies"
+	next "#mon's bodies"
 	next "are combined"
 
 	page "together, new"

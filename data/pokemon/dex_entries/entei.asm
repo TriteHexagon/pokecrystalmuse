@@ -2,7 +2,7 @@
 	dw 20, 1982
 
 	db   "This brawny"
-	next "#MON courses"
+	next "#mon courses"
 	next "around the earth,"
 
 	page "spouting flames"

@@ -2,7 +2,7 @@
 	dw 9, 100
 
 	db   "This weak and"
-	next "pathetic #MON"
+	next "pathetic #mon"
 	next "gets easily pushed"
 
 	page "along rivers when"

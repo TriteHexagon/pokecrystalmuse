@@ -2,7 +2,7 @@
 	dw 14, 485
 
 	db   "It can make most"
-	next "any #MON run"
+	next "any #mon run"
 	next "away simply by"
 
 	page "opening its mouth"
