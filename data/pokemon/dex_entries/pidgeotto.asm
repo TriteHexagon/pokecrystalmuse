@@ -1,5 +1,5 @@
 	db "BIRD@" ; species name
-	dw 307, 660 ; height, weight
+	dw 11, 299
 
 	db   "It slowly flies in"
 	next "a circular pat-"

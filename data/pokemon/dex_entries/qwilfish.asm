@@ -1,5 +1,5 @@
 	db "BALLOON@" ; species name
-	dw 108, 90 ; height, weight
+	dw 5, 41
 
 	db   "When faced with a"
 	next "larger opponent,"

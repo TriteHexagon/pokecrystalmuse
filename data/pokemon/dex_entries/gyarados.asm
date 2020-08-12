@@ -1,5 +1,5 @@
 	db "ATROCIOUS@" ; species name
-	dw 2104, 5180 ; height, weight
+	dw 65, 2350
 
 	db   "It appears when-"
 	next "ever there is"

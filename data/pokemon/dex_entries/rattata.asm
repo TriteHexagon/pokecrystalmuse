@@ -1,7 +1,7 @@
 	db "RAT@" ; species name
-	dw 100, 80 ; height, weight
+	dw 3, 36
 
-	db   "This #mon's"
+	db   "This #MON's"
 	next "impressive vital-"
 	next "ity allows it to"
 

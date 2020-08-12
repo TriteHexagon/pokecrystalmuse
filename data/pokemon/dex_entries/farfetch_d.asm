@@ -1,5 +1,5 @@
 	db "WILD DUCK@" ; species name
-	dw 207, 330 ; height, weight
+	dw 8, 150
 
 	db   "In order to pre-"
 	next "vent their"
@@ -7,4 +7,4 @@
 
 	page "people have made"
 	next "an effort to breed"
-	next "these #mon.@"
+	next "these #MON.@"

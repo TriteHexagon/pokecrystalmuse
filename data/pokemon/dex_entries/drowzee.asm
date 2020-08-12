@@ -1,5 +1,5 @@
 	db "HYPNOSIS@" ; species name
-	dw 303, 710 ; height, weight
+	dw 10, 322
 
 	db   "When it twitches"
 	next "its nose, it can"

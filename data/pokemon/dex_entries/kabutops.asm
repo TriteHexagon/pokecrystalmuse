@@ -1,5 +1,5 @@
 	db "SHELLFISH@" ; species name
-	dw 403, 890 ; height, weight
+	dw 13, 404
 
 	db   "It was able to"
 	next "swim quickly thro-"

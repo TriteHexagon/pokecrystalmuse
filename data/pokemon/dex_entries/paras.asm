@@ -1,9 +1,9 @@
 	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	dw 3, 54
 
 	db   "The tochukaso"
 	next "growing on this"
-	next "#mon's back"
+	next "#MON's back"
 
 	page "orders it to"
 	next "extract juice from"

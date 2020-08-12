@@ -1,5 +1,5 @@
 	db "OWL@" ; species name
-	dw 204, 470 ; height, weight
+	dw 7, 213
 
 	db   "It begins to hoot"
 	next "at the same time"

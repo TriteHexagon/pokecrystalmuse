@@ -1,5 +1,5 @@
 	db "SLUDGE@" ; species name
-	dw 311, 660 ; height, weight
+	dw 12, 299
 
 	db   "As it moves, a"
 	next "very strong poison"

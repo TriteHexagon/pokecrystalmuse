@@ -1,5 +1,5 @@
 	db "SEA LION@" ; species name
-	dw 307, 1980 ; height, weight
+	dw 11, 898
 
 	db   "The light blue fur"
 	next "that covers it"

@@ -1,5 +1,5 @@
 	db "ARMOR@" ; species name
-	dw 607, 4450 ; height, weight
+	dw 20, 2018
 
 	db   "In just one of its"
 	next "mighty hands, it"

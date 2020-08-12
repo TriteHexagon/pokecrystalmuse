@@ -1,5 +1,5 @@
 	db "HAIRY BUG@" ; species name
-	dw 100, 70 ; height, weight
+	dw 3, 32
 
 	db   "The barb on top of"
 	next "its head secretes"

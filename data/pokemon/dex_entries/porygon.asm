@@ -1,8 +1,8 @@
 	db "VIRTUAL@" ; species name
-	dw 207, 800 ; height, weight
+	dw 8, 363
 
 	db   "An artificial"
-	next "#mon created"
+	next "#MON created"
 	next "due to extensive"
 
 	page "research, it can"

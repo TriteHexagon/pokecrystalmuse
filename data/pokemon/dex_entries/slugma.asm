@@ -1,5 +1,5 @@
 	db "LAVA@" ; species name
-	dw 204, 770 ; height, weight
+	dw 7, 349
 
 	db   "These group to-"
 	next "gether in areas"

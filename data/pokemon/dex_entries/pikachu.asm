@@ -1,5 +1,5 @@
 	db "MOUSE@" ; species name
-	dw 104, 130 ; height, weight
+	dw 4, 59
 
 	db   "When it is anger-"
 	next "ed, it immediately"

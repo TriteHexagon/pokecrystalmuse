@@ -1,8 +1,8 @@
 	db "FAIRY@" ; species name
-	dw 407, 1070 ; height, weight
+	dw 14, 485
 
 	db   "It can make most"
-	next "any #mon run"
+	next "any #MON run"
 	next "away simply by"
 
 	page "opening its mouth"

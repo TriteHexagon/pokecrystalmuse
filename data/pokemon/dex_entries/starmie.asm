@@ -1,5 +1,5 @@
 	db "MYSTERIOUS@" ; species name
-	dw 307, 1760 ; height, weight
+	dw 11, 798
 
 	db   "It is said that it"
 	next "uses the seven-"

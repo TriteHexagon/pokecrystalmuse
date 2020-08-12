@@ -1,5 +1,5 @@
 	db "FOX@" ; species name
-	dw 307, 440 ; height, weight
+	dw 11, 200
 
 	db   "It is said to live"
 	next "a thousand years,"

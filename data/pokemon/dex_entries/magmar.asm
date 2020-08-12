@@ -1,5 +1,5 @@
 	db "SPITFIRE@" ; species name
-	dw 403, 980 ; height, weight
+	dw 13, 445
 
 	db   "It moves more"
 	next "frequently in hot"

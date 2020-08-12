@@ -1,5 +1,5 @@
 	db "CLEAR WING@" ; species name
-	dw 311, 840 ; height, weight
+	dw 12, 381
 
 	db   "It can see in all"
 	next "directions without"

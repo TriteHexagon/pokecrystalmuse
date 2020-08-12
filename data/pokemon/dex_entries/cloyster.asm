@@ -1,5 +1,5 @@
 	db "BIVALVE@" ; species name
-	dw 411, 2920 ; height, weight
+	dw 15, 1324
 
 	db   "Even a missile"
 	next "can't break the"

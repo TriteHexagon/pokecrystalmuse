@@ -1,5 +1,5 @@
 	db "LONG NECK@" ; species name
-	dw 411, 910 ; height, weight
+	dw 15, 413
 
 	db   "When it is in"
 	next "danger, its tail"

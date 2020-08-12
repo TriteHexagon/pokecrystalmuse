@@ -1,10 +1,10 @@
 	db "WOOL@" ; species name
-	dw 207, 290 ; height, weight
+	dw 8, 132
 
 	db   "Because of its"
-	next "rubbery, Electric-"
+	next "rubbery, electric-"
 	next "ity-resistant"
 
 	page "skin, it can store"
-	next "lots of Electric-"
+	next "lots of electric-"
 	next "ity in its fur.@"

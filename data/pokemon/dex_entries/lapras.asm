@@ -1,8 +1,8 @@
 	db "TRANSPORT@" ; species name
-	dw 802, 4850 ; height, weight
+	dw 25, 2200
 
 	db   "This gentle"
-	next "#mon loves to"
+	next "#MON loves to"
 	next "give people rides"
 
 	page "and provides a ve-"

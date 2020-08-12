@@ -1,5 +1,5 @@
 	db "AQUARABBIT@" ; species name
-	dw 207, 630 ; height, weight
+	dw 8, 286
 
 	db   "The bubble-like"
 	next "pattern on its"

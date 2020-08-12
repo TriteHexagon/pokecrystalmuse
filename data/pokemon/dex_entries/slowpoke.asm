@@ -1,5 +1,5 @@
 	db "DOPEY@" ; species name
-	dw 311, 790 ; height, weight
+	dw 12, 358
 
 	db   "It is always so"
 	next "absent-minded that"

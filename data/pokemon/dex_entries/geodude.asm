@@ -1,5 +1,5 @@
 	db "ROCK@" ; species name
-	dw 104, 440 ; height, weight
+	dw 4, 200
 
 	db   "Proud of their"
 	next "sturdy bodies,"

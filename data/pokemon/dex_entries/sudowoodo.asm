@@ -1,5 +1,5 @@
 	db "IMITATION@" ; species name
-	dw 311, 840 ; height, weight
+	dw 12, 381
 
 	db   "If a tree branch"
 	next "shakes when there"

@@ -1,5 +1,5 @@
 	db "DRAGON@" ; species name
-	dw 511, 70 ; height, weight
+	dw 18, 32
 
 	db   "It sheds many lay-"
 	next "ers of skin as it"

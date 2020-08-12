@@ -1,5 +1,5 @@
 	db "FROG@" ; species name
-	dw 307, 750 ; height, weight
+	dw 11, 340
 
 	db   "When it expands"
 	next "its throat to"

@@ -1,5 +1,5 @@
 	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	dw 14, 748
 
 	db   "Its body is always"
 	next "slimy. It often"

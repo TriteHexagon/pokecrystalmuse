@@ -1,5 +1,5 @@
 	db "PSI@" ; species name
-	dw 411, 1060 ; height, weight
+	dw 15, 481
 
 	db   "It has an IQ of"
 	next "5000. It calcu-"

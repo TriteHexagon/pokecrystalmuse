@@ -1,8 +1,8 @@
 	db "BALL@" ; species name
-	dw 108, 230 ; height, weight
+	dw 5, 104
 
 	db   "During the study"
-	next "of this #mon,"
+	next "of this #MON,"
 	next "it was discovered"
 
 	page "that its compo-"

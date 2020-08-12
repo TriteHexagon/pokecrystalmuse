@@ -1,5 +1,5 @@
 	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	dw 8, 77
 
 	db   "During the day, it"
 	next "gathers with"

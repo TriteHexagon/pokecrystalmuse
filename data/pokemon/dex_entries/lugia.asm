@@ -1,5 +1,5 @@
 	db "DIVING@" ; species name
-	dw 1701, 4760 ; height, weight
+	dw 52, 2159
 
 	db   "It has an incred-"
 	next "ible ability to"

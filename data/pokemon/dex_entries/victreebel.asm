@@ -1,8 +1,8 @@
 	db "FLYCATCHER@" ; species name
-	dw 507, 340 ; height, weight
+	dw 17, 154
 
 	db   "Once ingested into"
-	next "this #mon's"
+	next "this #MON's"
 	next "body, even the"
 
 	page "hardest object"

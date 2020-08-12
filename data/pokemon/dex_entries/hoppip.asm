@@ -1,5 +1,5 @@
 	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
+	dw 4, 5
 
 	db   "It can be carried"
 	next "away on even the"

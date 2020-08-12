@@ -1,5 +1,5 @@
 	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	dw 5, 336
 
 	db   "During the desert-"
 	next "ed morning hours,"

@@ -1,5 +1,5 @@
 	db "PIG MONKEY@" ; species name
-	dw 303, 710 ; height, weight
+	dw 10, 322
 
 	db   "It will beat up"
 	next "anyone who makes"

@@ -1,5 +1,5 @@
 	db "PARENT@" ; species name
-	dw 703, 1760 ; height, weight
+	dw 22, 798
 
 	db   "To avoid"
 	next "crushing the"

@@ -1,7 +1,7 @@
 	db "SUPERPOWER@" ; species name
-	dw 411, 1550 ; height, weight
+	dw 15, 703
 
-	db   "This tough #mon"
+	db   "This tough #MON"
 	next "always stays in"
 	next "the zone. Its"
 

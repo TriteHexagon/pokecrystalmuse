@@ -1,9 +1,9 @@
 	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+	dw 18, 590
 
 	db   "In prehistoric"
 	next "times, this"
-	next "#mon flew"
+	next "#MON flew"
 
 	page "freely and"
 	next "fearlessly through"

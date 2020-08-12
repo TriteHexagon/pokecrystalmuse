@@ -1,5 +1,5 @@
 	db "FIRE HORSE@" ; species name
-	dw 303, 660 ; height, weight
+	dw 10, 299
 
 	db   "Training by"
 	next "jumping over grass"

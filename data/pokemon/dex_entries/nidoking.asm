@@ -1,5 +1,5 @@
 	db "DRILL@" ; species name
-	dw 407, 1370 ; height, weight
+	dw 14, 621
 
 	db   "It uses its thick"
 	next "arms, legs and"

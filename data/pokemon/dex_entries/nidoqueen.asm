@@ -1,5 +1,5 @@
 	db "DRILL@" ; species name
-	dw 403, 1320 ; height, weight
+	dw 13, 599
 
 	db   "The hard scales"
 	next "that cover its"

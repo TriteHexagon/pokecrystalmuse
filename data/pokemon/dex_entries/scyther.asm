@@ -1,5 +1,5 @@
 	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
+	dw 15, 558
 
 	db   "It's very proud of"
 	next "its speed. It"

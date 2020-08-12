@@ -1,5 +1,5 @@
 	db "FLYSCORPIO@" ; species name
-	dw 307, 1430 ; height, weight
+	dw 11, 649
 
 	db   "It builds its nest"
 	next "on a steep cliff."

@@ -1,5 +1,5 @@
 	db "EVOLUTION@" ; species name
-	dw 100, 140 ; height, weight
+	dw 3, 64
 
 	db   "Its ability to"
 	next "evolve into many"

@@ -1,5 +1,5 @@
 	db "MOUSE@" ; species name
-	dw 207, 660 ; height, weight
+	dw 8, 299
 
 	db   "If its electric"
 	next "pouches run empty,"

@@ -1,5 +1,5 @@
 	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	dw 15, 127
 
 	db   "The scales it"
 	next "scatters will"

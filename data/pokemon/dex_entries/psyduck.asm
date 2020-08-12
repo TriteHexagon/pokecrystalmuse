@@ -1,5 +1,5 @@
 	db "DUCK@" ; species name
-	dw 207, 430 ; height, weight
+	dw 8, 195
 
 	db   "The only time it"
 	next "can use its psy-"

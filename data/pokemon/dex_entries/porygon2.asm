@@ -1,8 +1,8 @@
 	db "VIRTUAL@" ; species name
-	dw 200, 720 ; height, weight
+	dw 6, 327
 
 	db   "This manmade"
-	next "#mon evolved"
+	next "#MON evolved"
 	next "from the latest"
 
 	page "technology. It"

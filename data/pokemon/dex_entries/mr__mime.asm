@@ -1,5 +1,5 @@
-	db "REFLECT@" ; species name
-	dw 403, 1200 ; height, weight
+	db "BARRIER@" ; species name
+	dw 13, 544
 
 	db   "It uses the"
 	next "mysterious"

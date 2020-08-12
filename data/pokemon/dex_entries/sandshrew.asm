@@ -1,5 +1,5 @@
 	db "MOUSE@" ; species name
-	dw 200, 260 ; height, weight
+	dw 6, 118
 
 	db   "It prefers dry,"
 	next "sandy places"

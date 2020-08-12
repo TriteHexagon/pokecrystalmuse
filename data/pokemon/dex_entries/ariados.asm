@@ -1,5 +1,5 @@
 	db "LONG LEG@" ; species name
-	dw 307, 740 ; height, weight
+	dw 11, 336
 
 	db   "Rather than mak-"
 	next "ing a nest in one"

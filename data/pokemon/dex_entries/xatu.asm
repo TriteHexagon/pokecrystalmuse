@@ -1,5 +1,5 @@
 	db "MYSTIC@" ; species name
-	dw 411, 330 ; height, weight
+	dw 15, 150
 
 	db   "Once it begins to"
 	next "meditate at sun-"

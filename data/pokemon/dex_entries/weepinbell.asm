@@ -1,5 +1,5 @@
 	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	dw 10, 64
 
 	db   "When it's hungry,"
 	next "it swings its"

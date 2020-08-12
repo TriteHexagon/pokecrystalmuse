@@ -1,5 +1,5 @@
 	db "DRAGON@" ; species name
-	dw 703, 4630 ; height, weight
+	dw 22, 2100
 
 	db   "It is said that"
 	next "somewhere in the"

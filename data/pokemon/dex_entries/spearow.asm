@@ -1,5 +1,5 @@
 	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 18
 
 	db   "To protect its"
 	next "territory, it"

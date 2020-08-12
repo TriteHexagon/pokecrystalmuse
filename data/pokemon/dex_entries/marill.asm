@@ -1,5 +1,5 @@
 	db "AQUAMOUSE@" ; species name
-	dw 104, 190 ; height, weight
+	dw 4, 86
 
 	db   "The fur on its"
 	next "body naturally"

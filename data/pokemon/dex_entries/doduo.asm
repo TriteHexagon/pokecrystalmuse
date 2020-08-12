@@ -1,5 +1,5 @@
 	db "TWIN BIRD@" ; species name
-	dw 407, 860 ; height, weight
+	dw 14, 390
 
 	db   "It lives on a"
 	next "grassy plain where"

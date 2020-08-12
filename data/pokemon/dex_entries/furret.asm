@@ -1,5 +1,5 @@
 	db "LONG BODY@" ; species name
-	dw 511, 720 ; height, weight
+	dw 18, 327
 
 	db   "It lives in narrow"
 	next "burrows that fit"

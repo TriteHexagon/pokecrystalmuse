@@ -1,5 +1,5 @@
 	db "LONELY@" ; species name
-	dw 104, 140 ; height, weight
+	dw 4, 64
 
 	db   "It lost its mother"
 	next "after its birth."

@@ -1,5 +1,5 @@
 	db "PIG@" ; species name
-	dw 104, 140 ; height, weight
+	dw 4, 64
 
 	db   "It uses the tip of"
 	next "its nose to dig"

@@ -1,5 +1,5 @@
 	db "KISS@" ; species name
-	dw 104, 130 ; height, weight
+	dw 4, 59
 
 	db   "The sensitivity of"
 	next "its lips develops"

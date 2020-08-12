@@ -1,5 +1,5 @@
 	db "LITTLE BIRD@" ; species name
-	dw 8, 40 ; height, weight
+	dw 2, 18
 
 	db   "It is extremely"
 	next "good at climbing"

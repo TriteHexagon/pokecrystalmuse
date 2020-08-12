@@ -1,10 +1,10 @@
 	db "GENETIC@" ; species name
-	dw 607, 2690 ; height, weight
+	dw 20, 1220
 
 	db   "Said to rest qui-"
 	next "etly in an"
 	next "undiscovered cave,"
 
-	page "this #mon was"
+	page "this #MON was"
 	next "created solely for"
 	next "battling.@"

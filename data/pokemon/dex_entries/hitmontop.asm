@@ -1,5 +1,5 @@
 	db "HANDSTAND@" ; species name
-	dw 407, 1060 ; height, weight
+	dw 14, 481
 
 	db   "After doing a"
 	next "handstand to"

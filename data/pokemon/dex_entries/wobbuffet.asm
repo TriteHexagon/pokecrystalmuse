@@ -1,5 +1,5 @@
 	db "PATIENT@" ; species name
-	dw 403, 630 ; height, weight
+	dw 13, 286
 
 	db   "In order to con-"
 	next "ceal its black"

@@ -1,5 +1,5 @@
 	db "DRAGON@" ; species name
-	dw 311, 550 ; height, weight
+	dw 12, 249
 
 	db   "The male raises"
 	next "the young. If it"

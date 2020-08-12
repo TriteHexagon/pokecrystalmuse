@@ -1,5 +1,5 @@
 	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	dw 10, 118
 
 	db   "The rich, fluffy"
 	next "fur that covers"

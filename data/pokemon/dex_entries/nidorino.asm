@@ -1,5 +1,5 @@
 	db "POISON PIN@" ; species name
-	dw 211, 430 ; height, weight
+	dw 9, 195
 
 	db   "It is easily"
 	next "agitated and uses"

@@ -1,7 +1,7 @@
 	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	dw 19, 1778
 
-	db   "This rough #mon"
+	db   "This rough #MON"
 	next "stores energy"
 	next "inside its body,"
 

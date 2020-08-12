@@ -1,8 +1,8 @@
 	db "FREEZE@" ; species name
-	dw 507, 1220 ; height, weight
+	dw 17, 553
 
 	db   "Legendary bird"
-	next "#mon. As it"
+	next "#MON. As it"
 	next "flies through the"
 
 	page "sky, it cools the"

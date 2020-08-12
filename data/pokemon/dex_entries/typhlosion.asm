@@ -1,5 +1,5 @@
 	db "VOLCANO@" ; species name
-	dw 507, 1750 ; height, weight
+	dw 17, 794
 
 	db   "When heat from its"
 	next "body causes the"

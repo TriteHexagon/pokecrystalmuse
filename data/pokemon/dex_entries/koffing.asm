@@ -1,9 +1,9 @@
 	db "POISON GAS@" ; species name
-	dw 200, 20 ; height, weight
+	dw 6, 9
 
 	db   "If one gets close"
 	next "enough to it when"
-	next "it expels Poison-"
+	next "it expels poison-"
 
 	page "ous gas, the gas"
 	next "swirling inside it"

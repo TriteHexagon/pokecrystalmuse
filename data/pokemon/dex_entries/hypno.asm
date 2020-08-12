@@ -1,5 +1,5 @@
 	db "HYPNOSIS@" ; species name
-	dw 503, 1670 ; height, weight
+	dw 16, 757
 
 	db   "The longer it"
 	next "swings its"

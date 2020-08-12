@@ -1,5 +1,5 @@
 	db "POISON PIN@" ; species name
-	dw 108, 200 ; height, weight
+	dw 5, 91
 
 	db   "It constantly"
 	next "moves its large"

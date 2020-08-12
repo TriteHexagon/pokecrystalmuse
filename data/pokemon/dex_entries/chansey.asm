@@ -1,5 +1,5 @@
 	db "EGG@" ; species name
-	dw 307, 760 ; height, weight
+	dw 11, 345
 
 	db   "People try to"
 	next "catch it for its"

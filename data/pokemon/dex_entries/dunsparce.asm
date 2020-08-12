@@ -1,5 +1,5 @@
 	db "LAND SNAKE@" ; species name
-	dw 411, 310 ; height, weight
+	dw 15, 141
 
 	db   "It hides deep"
 	next "inside caves where"

@@ -1,5 +1,5 @@
 	db "SPIRAL@" ; species name
-	dw 104, 170 ; height, weight
+	dw 4, 77
 
 	db   "In prehistoric"
 	next "times, it swam on"
