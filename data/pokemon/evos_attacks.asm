@@ -1039,7 +1039,6 @@ PoliwhirlEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
-	db 1, WATER_GUN
 	db 7, HYPNOSIS
 	db 11, SWIFT
 	db 15, DOUBLESLAP
@@ -1058,9 +1057,8 @@ PoliwrathEvosAttacks:
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
-	db 1, SUBMISSION
-	db 35, SUBMISSION
-	db 51, LOCK_ON
+	db 1, ROCK_SMASH
+	db 43, SUBMISSION
 	db 0 ; no more level-up moves
 
 AbraEvosAttacks:
@@ -1070,32 +1068,36 @@ AbraEvosAttacks:
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
-	db EVOLVE_TRADE, -1, ALAKAZAM
+	db EVOLVE_LEVEL, 40, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, TELEPORT
-	db 1, TRANSFORM
+	db 1, FLASH
 	db 1, CONFUSION
-	db 16, CONFUSION
+	db 15, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
-	db 26, RECOVER
-	db 31, FUTURE_SIGHT
-	db 38, PSYCHIC_M
-	db 45, REFLECT
+	db 23, REFLECT
+	db 25, RECOVER
+	db 30, FUTURE_SIGHT
+	db 33, NIGHT_SHADE
+	db 38, MIRROR_COAT
+	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 AlakazamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TELEPORT
-	db 1, TRANSFORM
+	db 1, FLASH
 	db 1, CONFUSION
-	db 16, CONFUSION
+	db 15, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
-	db 26, RECOVER
-	db 31, FUTURE_SIGHT
-	db 38, PSYCHIC_M
-	db 45, REFLECT
+	db 23, REFLECT
+	db 25, RECOVER
+	db 30, FUTURE_SIGHT
+	db 33, NIGHT_SHADE
+	db 38, MIRROR_COAT
+	db 44, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:
@@ -1114,7 +1116,7 @@ MachopEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
-	db EVOLVE_TRADE, -1, MACHAMP
+	db EVOLVE_LEVEL, 35, MACHAMP
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
 	db 1, LEER
@@ -2770,7 +2772,9 @@ PolitoedEvosAttacks:
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
 	db 1, PERISH_SONG
-	db 51, SWAGGER
+	db 27, SWAGGER
+	db 32, SNARL
+	db 37, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
