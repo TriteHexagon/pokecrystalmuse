@@ -1103,48 +1103,56 @@ AlakazamEvosAttacks:
 MachopEvosAttacks:
 	db EVOLVE_LEVEL, 28, MACHOKE
 	db 0 ; no more evolutions
-	db 1, DOUBLE_KICK
+	db 1, MACH_PUNCH
 	db 1, LEER
-	db 7, FOCUS_ENERGY
-	db 13, TRANSFORM
-	db 19, SEISMIC_TOSS
-	db 25, FORESIGHT
-	db 31, SUBMISSION
-	db 37, CROSS_CHOP
-	db 43, SCARY_FACE
-	db 49, SUBMISSION
+	db 3, FOCUS_ENERGY
+	db 7, COUNTER
+	db 9, FORESIGHT
+	db 13, ROCK_THROW
+	db 16, SEISMIC_TOSS
+	db 20, BULK_UP
+	db 24, SCARY_FACE
+	db 29, ROCK_SLIDE
+	db 32, CROSS_CHOP
+	db 36, SWAGGER
+	db 40, SUBMISSION
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
-	db EVOLVE_LEVEL, 35, MACHAMP
+	db EVOLVE_LEVEL, 36, MACHAMP
 	db 0 ; no more evolutions
-	db 1, DOUBLE_KICK
+	db 1, MACH_PUNCH
 	db 1, LEER
 	db 1, FOCUS_ENERGY
-	db 8, FOCUS_ENERGY
-	db 15, TRANSFORM
-	db 19, SEISMIC_TOSS
-	db 25, FORESIGHT
-	db 34, SUBMISSION
-	db 43, CROSS_CHOP
-	db 52, SCARY_FACE
-	db 61, SUBMISSION
+	db 3, FOCUS_ENERGY
+	db 7, COUNTER
+	db 9, FORESIGHT
+	db 13, ROCK_THROW
+	db 16, SEISMIC_TOSS
+	db 20, BULK_UP
+	db 24, SCARY_FACE
+	db 31, ROCK_SLIDE
+	db 35, CROSS_CHOP
+	db 38, SWAGGER
+	db 43, SUBMISSION
 	db 0 ; no more level-up moves
 
 MachampEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DOUBLE_KICK
+	db 1, MACH_PUNCH
 	db 1, LEER
 	db 1, FOCUS_ENERGY
-	db 8, FOCUS_ENERGY
-	db 15, TRANSFORM
-	db 19, SEISMIC_TOSS
-	db 25, FORESIGHT
-	db 27, STRENGTH
-	db 34, SUBMISSION
-	db 43, CROSS_CHOP
-	db 52, SCARY_FACE
-	db 61, SUBMISSION
+	db 3, FOCUS_ENERGY
+	db 7, COUNTER
+	db 9, FORESIGHT
+	db 13, ROCK_THROW
+	db 16, SEISMIC_TOSS
+	db 20, BULK_UP
+	db 24, SCARY_FACE
+	db 31, ROCK_SLIDE
+	db 35, CROSS_CHOP
+	db 40, SWAGGER
+	db 45, SUBMISSION
 	db 0 ; no more level-up moves
 
 BellsproutEvosAttacks:
