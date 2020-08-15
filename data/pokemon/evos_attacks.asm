@@ -1159,15 +1159,16 @@ BellsproutEvosAttacks:
 	db EVOLVE_LEVEL, 21, WEEPINBELL
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
-	db 6, GROWTH
-	db 11, WRAP
-	db 15, SLEEP_POWDER
+	db 4, GROWTH
+	db 8, WRAP
+	db 12, ACID
+	db 16, SLEEP_POWDER
 	db 17, POISONPOWDER
-	db 19, STUN_SPORE
-	db 23, ACID
-	db 30, SWEET_SCENT
-	db 37, RAZOR_LEAF
-	db 45, SLAM
+	db 18, STUN_SPORE
+	db 22, RAZOR_LEAF
+	db 26, SWEET_SCENT
+	db 30, SLAM
+	db 34, POISON_JAB
 	db 0 ; no more level-up moves
 
 WeepinbellEvosAttacks:
@@ -1176,15 +1177,16 @@ WeepinbellEvosAttacks:
 	db 1, VINE_WHIP
 	db 1, GROWTH
 	db 1, WRAP
-	db 6, GROWTH
-	db 11, WRAP
-	db 15, SLEEP_POWDER
+	db 4, GROWTH
+	db 8, WRAP
+	db 12, ACID
+	db 16, SLEEP_POWDER
 	db 17, POISONPOWDER
-	db 19, STUN_SPORE
-	db 24, ACID
-	db 33, SWEET_SCENT
-	db 42, RAZOR_LEAF
-	db 54, SLAM
+	db 18, STUN_SPORE
+	db 23, RAZOR_LEAF
+	db 28, SWEET_SCENT
+	db 34, SLAM
+	db 38, POISON_JAB
 	db 0 ; no more level-up moves
 
 VictreebelEvosAttacks:
@@ -1193,6 +1195,9 @@ VictreebelEvosAttacks:
 	db 1, SLEEP_POWDER
 	db 1, SWEET_SCENT
 	db 1, RAZOR_LEAF
+	db 1, LEECH_LIFE
+	db 1, SWORDS_DANCE
+	db 45, SOLARBEAM
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
