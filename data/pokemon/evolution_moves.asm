@@ -60,9 +60,9 @@ EvolutionMoves::
     db NO_MOVE      ;Arcanine
     db NO_MOVE      ;Poliwag
     db NO_MOVE      ;Poliwhirl
-    db NO_MOVE      ;Poliwrath
+    db ROCK_SMASH   ;Poliwrath
     db NO_MOVE      ;Abra
-    db NO_MOVE      ;Kadabra
+    db CONFUSION    ;Kadabra
     db NO_MOVE      ;Alakazam
     db NO_MOVE      ;Machop
     db NO_MOVE      ;Machoke
