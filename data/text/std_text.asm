@@ -9,6 +9,12 @@ NurseDayText:
 	line "Welcome to our"
 	cont "#mon CENTER."
 	done
+	
+NurseEveText:
+	text "Good evening!"
+	line "Welcome to our"
+	cont "#mon CENTER."
+	done
 
 NurseNiteText:
 	text "Good evening!"
@@ -33,6 +39,16 @@ PokeComNurseDayText:
 
 	para "This is the #-"
 	line "mon COMMUNICATION"
+
+	para "CENTER--or the"
+	line "#COM CENTER."
+	done
+
+PokeComNurseEveText:
+	text "Good evening."
+
+	para "This is the #-"
+	line "MON COMMUNICATION"
 
 	para "CENTER--or the"
 	line "#COM CENTER."

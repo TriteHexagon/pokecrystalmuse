@@ -168,6 +168,7 @@ SetCaughtData:
 SetBoxmonOrEggmonCaughtData:
 	ld a, [wTimeOfDay]
 	inc a
+	and CAUGHT_TIME_MASK
 	rrca
 	rrca
 	ld b, a

@@ -2304,7 +2304,7 @@ ChangeMusicIfNight::
 ; outputs: c -> changed music constant
 	ld a, [wTimeOfDay]
   	cp NITE_F
-	ret nz
+	ret c ; night music plays in the evening - OG nz
 	ld hl, NightMusicTable
 .loop
     ld a, [hli]
