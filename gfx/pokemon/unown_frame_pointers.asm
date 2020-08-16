@@ -25,3 +25,5 @@ UnownFramesPointers:
 	dw UnownXFrames
 	dw UnownYFrames
 	dw UnownZFrames
+	dw UnownExclamationFrames
+	dw UnownQuestionFrames

@@ -164,7 +164,7 @@ RuinsOfAlphOutsideScientistText:
 	line "strange writing on"
 
 	para "the walls of the"
-	line "RUINS."
+	line "Ruins."
 
 	para "If those drawings"
 	line "are really #-"
@@ -191,7 +191,7 @@ SuperNerdStanBeatenText:
 	done
 
 SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
+	text "The Ruins are from"
 	line "about 1500 years"
 	cont "ago."
 
@@ -227,21 +227,21 @@ RuinsOfAlphOutsideMysteryChamberSignText:
 	done
 
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
+	text "Ruins of Alph"
 	line "VISITORS WELCOME"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
+	text "Ruins of Alph"
 	line "RESEARCH Center"
 
 	para "THE AUTHORITY ON"
-	line "THE RUINS OF ALPH"
+	line "THE Ruins of Alph"
 	done
 
 RuinsOfAlphOutsideFisherText1:
 	text "While exploring"
-	line "the RUINS, we"
+	line "the Ruins, we"
 
 	para "suddenly noticed"
 	line "an odd presence."
@@ -254,7 +254,7 @@ RuinsOfAlphOutsideFisherText1:
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "The RUINS hide a"
+	text "The Ruins hide a"
 	line "huge secret!"
 
 	para "…I think…"

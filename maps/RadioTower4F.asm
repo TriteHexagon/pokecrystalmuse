@@ -106,7 +106,7 @@ RadioTower4FStudio2Sign:
 RadioTower4FFisherText:
 	text "I listened to the"
 	line "radio while I was"
-	cont "at the RUINS."
+	cont "at the Ruins."
 
 	para "I heard a strange"
 	line "broadcast there."

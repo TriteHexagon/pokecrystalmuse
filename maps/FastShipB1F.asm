@@ -411,13 +411,13 @@ TeacherShirleyBeatenText:
 
 TeacherShirleyAfterBattleText:
 	text "We're on a field"
-	line "trip to the RUINS"
+	line "trip to the Ruins"
 	cont "outside Violet."
 	done
 
 SchoolboyNateSeenText:
 	text "Do you know the"
-	line "RUINS OF ALPH?"
+	line "Ruins of Alph?"
 	done
 
 SchoolboyNateBeatenText:
@@ -427,13 +427,13 @@ SchoolboyNateBeatenText:
 SchoolboyNateAfterBattleText:
 	text "Radios pick up"
 	line "strange signals"
-	cont "inside the RUINS."
+	cont "inside the Ruins."
 	done
 
 SchoolboyRickySeenText:
 	text "There are some odd"
 	line "stone panels in"
-	cont "the RUINS OF ALPH."
+	cont "the Ruins of Alph."
 	done
 
 SchoolboyRickyBeatenText:

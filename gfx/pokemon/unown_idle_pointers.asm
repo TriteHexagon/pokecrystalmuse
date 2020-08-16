@@ -25,3 +25,5 @@ UnownAnimationIdlePointers:
 	dw UnownXAnimationIdle
 	dw UnownYAnimationIdle
 	dw UnownZAnimationIdle
+	dw UnownExclamationAnimationIdle
+	dw UnownQuestionAnimationIdle

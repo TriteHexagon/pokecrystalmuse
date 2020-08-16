@@ -636,7 +636,7 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
+	text "Ruins of Alph"
 	line "NORTH ENTRANCE"
 	done
 

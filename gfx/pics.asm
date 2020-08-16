@@ -51,7 +51,6 @@ TyranitarFrontpic:   INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
 MoltresFrontpic:     INCBIN "gfx/pokemon/moltres/front.animated.2bpp.lz"
 ZapdosFrontpic:      INCBIN "gfx/pokemon/zapdos/front.animated.2bpp.lz"
 ArbokFrontpic:       INCBIN "gfx/pokemon/arbok/front.animated.2bpp.lz"
-MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
 FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
@@ -712,3 +711,9 @@ UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 
 SECTION "Pics 19", ROMX
+
+MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
+UnownExclamationFrontpic: INCBIN "gfx/pokemon/unown_exclamation/front.animated.2bpp.lz"
+UnownExclamationBackpic:  INCBIN "gfx/pokemon/unown_exclamation/back.2bpp.lz"
+UnownQuestionFrontpic: INCBIN "gfx/pokemon/unown_question/front.animated.2bpp.lz"
+UnownQuestionBackpic:  INCBIN "gfx/pokemon/unown_question/back.2bpp.lz"

@@ -83,7 +83,7 @@ LizRuinsOfAlphGossipText:
 	para "I was listening to"
 	line "the radio in the"
 
-	para "RUINS OF ALPH when"
+	para "Ruins of Alph when"
 	line "an odd broadcast"
 
 	para "suddenly cut it on"

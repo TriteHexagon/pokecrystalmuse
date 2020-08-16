@@ -310,4 +310,6 @@ NUM_POKEMON EQU const_value - 1
 	const UNOWN_X ; 24
 	const UNOWN_Y ; 25
 	const UNOWN_Z ; 26
+	const UNOWN_EXCLAMATION ;27
+	const UNOWN_QUESTION    ;28
 NUM_UNOWN EQU const_value - 1 ; 26

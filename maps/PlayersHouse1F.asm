@@ -259,7 +259,7 @@ ComeHomeForDSTText:
 
 	para "By the way, do you"
 	line "know how to use"
-	cont "the PHONE?"
+	cont "the Phone?"
 	done
 
 KnowTheInstructionsText:
@@ -267,7 +267,7 @@ KnowTheInstructionsText:
 	line "turn the #Gear"
 
 	para "on and select the"
-	line "PHONE icon?"
+	line "Phone icon?"
 	done
 
 DontKnowTheInstructionsText:
@@ -276,7 +276,7 @@ DontKnowTheInstructionsText:
 
 	para "Turn the #Gear"
 	line "on and select the"
-	cont "PHONE icon."
+	cont "Phone icon."
 	done
 
 InstructionsNextText:
