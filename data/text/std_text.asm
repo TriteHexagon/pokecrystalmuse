@@ -1,19 +1,19 @@
 NurseMornText:
 	text "Good morning!"
 	line "Welcome to our"
-	cont "#mon CENTER."
+	cont "#mon Center."
 	done
 
 NurseDayText:
 	text "Hello!"
 	line "Welcome to our"
-	cont "#mon CENTER."
+	cont "#mon Center."
 	done
 	
 NurseEveText:
 	text "Good evening!"
 	line "Welcome to our"
-	cont "#mon CENTER."
+	cont "#mon Center."
 	done
 
 NurseNiteText:
@@ -21,37 +21,37 @@ NurseNiteText:
 	line "You're out late."
 
 	para "Welcome to our"
-	line "#mon CENTER."
+	line "#mon Center."
 	done
 
 PokeComNurseMornText:
 	text "Good morning!"
 
 	para "This is the #-"
-	line "mon COMMUNICATION"
+	line "mon Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "Center--or the"
+	line "#Com Center."
 	done
 
 PokeComNurseDayText:
 	text "Hello!"
 
 	para "This is the #-"
-	line "mon COMMUNICATION"
+	line "mon Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "Center--or the"
+	line "#Com Center."
 	done
 
 PokeComNurseEveText:
 	text "Good evening."
 
 	para "This is the #-"
-	line "MON COMMUNICATION"
+	line "mon Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "Center--or the"
+	line "#Com Center."
 	done
 
 PokeComNurseNiteText:
@@ -59,10 +59,10 @@ PokeComNurseNiteText:
 	line "working so late."
 
 	para "This is the #-"
-	line "mon COMMUNICATION"
+	line "mon Communication"
 
-	para "CENTER--or the"
-	line "#COM CENTER."
+	para "Center--or the"
+	line "#Com Center."
 	done
 
 NurseAskHealText:
@@ -112,7 +112,7 @@ NursePokerusText:
 	line "you anything more"
 
 	para "at a #mon"
-	line "CENTER."
+	line "Center."
 	done
 
 PokeComNursePokerusText:
@@ -220,7 +220,7 @@ TrashCanText:
 
 PokecenterSignText:
 	text "Heal Your #mon!"
-	line "#mon CENTER"
+	line "#mon Center"
 	done
 
 MartSignText:

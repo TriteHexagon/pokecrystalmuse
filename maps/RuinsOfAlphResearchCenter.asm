@@ -327,8 +327,8 @@ RuinsOfAlphResearchCenterUnusedText2:
 	para "Those mysterious"
 	line "patterns appeared"
 
-	para "when the #COM"
-	line "CENTER was built."
+	para "when the #Com"
+	line "Center was built."
 
 	para "It must mean that"
 	line "radio waves have"
@@ -378,7 +378,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "It's a photo of"
 	line "the RESEARCH"
 
-	para "CENTER'S founder,"
+	para "Center'S founder,"
 	line "PROF.SILKTREE."
 	done
 

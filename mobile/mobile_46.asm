@@ -5489,7 +5489,7 @@ Text_ExitGymLeaderHonorRoll:
 
 Text_LinkingWithCenter:
 	text "Linking with the"
-	line "CENTER…"
+	line "Center…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:

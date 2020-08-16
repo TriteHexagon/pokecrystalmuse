@@ -831,7 +831,7 @@ Text_BattleReceptionistIntro:
 
 Text_TradeReceptionistIntro:
 	text "Welcome to CABLE"
-	line "TRADE CENTER."
+	line "TRADE Center."
 
 	para "You may trade your"
 	line "#mon here with"
@@ -975,7 +975,7 @@ Text_MysteryGiftDeliveryGuy_NoRoom:
 	line "space for this."
 
 	para "Stop in at any"
-	line "#mon CENTER"
+	line "#mon Center"
 
 	para "across the country"
 	line "to pick it up."

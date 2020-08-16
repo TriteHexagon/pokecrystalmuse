@@ -538,7 +538,7 @@ Route32CooltrainerMText_AideIsWaiting:
 	line "He's waiting for"
 
 	para "you at the #mon"
-	line "CENTER."
+	line "Center."
 	done
 
 Route32CooltrainerMText_UnusedSproutTower:

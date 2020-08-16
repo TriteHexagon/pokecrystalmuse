@@ -70,7 +70,7 @@ LizGenericText:
 	text_ram wStringBuffer4
 	text " to the"
 
-	para "#mon CENTER in"
+	para "#mon Center in"
 	line "Violet every day,"
 
 	para "so it's doing just"

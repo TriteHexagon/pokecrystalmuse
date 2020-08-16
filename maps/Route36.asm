@@ -531,7 +531,7 @@ ProtectGuyText3:
 ; 	para "I wanted to go see"
 ; 	line "the huge #mon"
 
-; 	para "CENTER they just"
+; 	para "Center they just"
 ; 	line "opened…"
 ; 	done
 

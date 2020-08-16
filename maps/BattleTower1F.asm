@@ -519,7 +519,7 @@ Text_AskRegisterRecord_Mobile:
 	line "register your"
 
 	para "record with the"
-	line "CENTER?"
+	line "Center?"
 	done
 
 Text_PlayerGotFive:
@@ -644,7 +644,7 @@ Text_SaveBeforeConnecting_Mobile:
 	line "be SAVED before"
 
 	para "connecting with"
-	line "the CENTER."
+	line "the Center."
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
@@ -679,7 +679,7 @@ Text_RegisterRecordOnFile_Mobile:
 
 	para "file. Would you"
 	line "like to register"
-	cont "it at the CENTER?"
+	cont "it at the Center?"
 	done
 
 Text_WeveBeenWaitingForYou:
@@ -706,7 +706,7 @@ Text_TooMuchTimeElapsedNoRegister:
 	para "register your"
 	line "current record at"
 
-	para "the CENTER because"
+	para "the Center because"
 	line "too much time has"
 
 	para "elapsed since the"
@@ -722,7 +722,7 @@ Text_RegisterRecordTimedOut_Mobile:
 	para "register your most"
 	line "recent record at"
 
-	para "the CENTER because"
+	para "the Center because"
 	line "too much time has"
 
 	para "elapsed since the"

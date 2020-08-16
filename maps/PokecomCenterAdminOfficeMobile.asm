@@ -56,7 +56,7 @@ PokecomCenterAdminOfficeMobileComputer1:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
 	db "#　つうしん　クラブ@" ; # COM CLUB
-	db "モバイルセンター@" ; MOBILE CENTER
+	db "モバイルセンター@" ; MOBILE Center
 	db "やめる@" ; QUIT
 
 PokecomCenterAdminOfficeMobileComputer2:
@@ -105,8 +105,8 @@ PokecomCenterAdminOfficeMobileComputer3:
 	jumptext PokecomCenterAdminOfficeMobileComputer3Text
 
 PokecomCenterAdminOfficeMobileScientist1Text:
-	text "#COM CENTER and"
-	line "MOBILE CENTER were"
+	text "#Com Center and"
+	line "MOBILE Center were"
 
 	para "built to satisfy"
 	line "demands for trades"
@@ -153,11 +153,11 @@ PokecomCenterAdminOfficeMobileComputer1Text:
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub:
-	text "There's a #COM"
+	text "There's a #Com"
 	line "CLUB upstairs in"
 
 	para "any #mon"
-	line "CENTER."
+	line "Center."
 
 	para "There, you can"
 	line "battle or trade"
@@ -180,12 +180,12 @@ PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter:
 
 	para "#mon NEWS, you"
 	line "need to phone the"
-	cont "MOBILE CENTER."
+	cont "MOBILE Center."
 
 	para "You must register"
 	line "at the MOBILE"
 
-	para "CENTER before"
+	para "Center before"
 	line "connecting there."
 	done
 
@@ -239,8 +239,8 @@ PokecomCenterAdminOfficeMobileComputer3Text:
 
 	para "<……> <……> <……>"
 
-	para "To the #COM"
-	line "CENTER staff…"
+	para "To the #Com"
+	line "Center staff…"
 
 	para "Wireless communi-"
 	line "cation has enabled"

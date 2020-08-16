@@ -233,7 +233,7 @@ RuinsOfAlphSignText:
 
 RuinsOfAlphResearchCenterSignText:
 	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
+	line "RESEARCH Center"
 
 	para "THE AUTHORITY ON"
 	line "THE RUINS OF ALPH"

@@ -150,7 +150,7 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 ; unused
 UnknownText_0x61072:
 	text "Hello! Welcome to"
-	line "#COM CENTER"
+	line "#Com Center"
 	cont "TRADE CORNER."
 
 	para "You can trade"
@@ -360,7 +360,7 @@ UnknownText_0x616b4:
 UnknownText_0x616fb:
 	text "We'll SAVE before"
 	line "connecting to the"
-	cont "CENTER."
+	cont "Center."
 	done
 
 UnknownText_0x61727:
@@ -412,7 +412,7 @@ UnknownText_0x617d2:
 	para "Please choose one"
 	line "of the rooms in"
 
-	para "the CENTER."
+	para "the Center."
 	line "An ODD EGG will be"
 
 	para "sent from the"
@@ -531,7 +531,7 @@ UnknownText_0x61c4b:
 
 UnknownText_0x61c89:
 	text "Whoa, this #mon"
-	line "CENTER is huge."
+	line "Center is huge."
 
 	para "They just built"
 	line "this place. They"
@@ -609,7 +609,7 @@ UnknownText_0x61efa:
 	done
 
 UnknownText_0x61f48:
-	text "The #COM CENTER"
+	text "The #Com Center"
 	line "will link with all"
 
 	para "#mon CENTERS in"
@@ -676,7 +676,7 @@ UnknownText_0x62173:
 	line "when I got word"
 
 	para "that Goldenrod's"
-	line "#mon CENTER has"
+	line "#mon Center has"
 
 	para "new machines that"
 	line "no one's ever seen"
@@ -731,7 +731,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
 	done
 
 UnknownText_0x62370:
-	text "#COM CENTER"
+	text "#Com Center"
 	line "1F INFORMATION"
 
 	para "Left:"

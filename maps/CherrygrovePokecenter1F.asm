@@ -49,8 +49,8 @@ CherrygrovePokecenter1FGentlemanText:
 	done
 
 CherrygrovePokecenter1FTeacherText:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
+	text "The Communication"
+	line "Center upstairs"
 	cont "was just built."
 
 	para "But they're still"
@@ -58,8 +58,8 @@ CherrygrovePokecenter1FTeacherText:
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
+	text "The Communication"
+	line "Center upstairs"
 	cont "was just built."
 
 	para "I traded #mon"

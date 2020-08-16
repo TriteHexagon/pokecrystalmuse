@@ -101,7 +101,7 @@ CamperDeanAfterBattleText:
 
 	para "I'd better take"
 	line "them to a #mon"
-	cont "CENTER right away."
+	cont "Center right away."
 	done
 
 PicnickerHeidiSeenText:

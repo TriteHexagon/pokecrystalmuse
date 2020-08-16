@@ -45,7 +45,7 @@ GoldenrodPPSpeechHouseLassText:
 
 	para "If that happens,"
 	line "heal it at a #-"
-	cont "mon CENTER or use"
+	cont "mon Center or use"
 	cont "an item."
 	done
 

@@ -817,7 +817,7 @@ _MobileCardFolderIntro3Text::
 
 	para "mobile phone on"
 	line "the 2nd floor of a"
-	cont "#mon CENTER."
+	cont "#mon Center."
 
 	para ""
 	done

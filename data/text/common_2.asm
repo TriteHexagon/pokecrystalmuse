@@ -223,7 +223,7 @@ _MysteryGiftCommErrorText::
 
 _RetrieveMysteryGiftText::
 	text "Must retrieve GIFT"
-	line "at #mon CENTER."
+	line "at #mon Center."
 	prompt
 
 _YourFriendIsNotReadyText::
@@ -374,7 +374,7 @@ _CantUseDigText::
 
 _TeleportReturnText::
 	text "Return to the last"
-	line "#mon CENTER."
+	line "#mon Center."
 	done
 
 _CantUseTeleportText::

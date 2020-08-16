@@ -1052,7 +1052,7 @@ ElmAideHasEggText:
 	line "you with the EGG"
 
 	para "at Violet City's"
-	line "#mon CENTER."
+	line "#mon Center."
 
 	para "You must have just"
 	line "missed him. Try to"

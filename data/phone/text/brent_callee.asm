@@ -59,7 +59,7 @@ BrentGenericText:
 	text "Oh yeah, I saw you"
 	line "coming out of a"
 
-	para "#mon CENTER the"
+	para "#mon Center the"
 	line "other day."
 
 	para "You heal your"

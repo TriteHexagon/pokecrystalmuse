@@ -173,7 +173,7 @@ CeladonCityTeacher2Text:
 ; 	para "Isn't it true that"
 ; 	line "Goldenrod #mon"
 
-; 	para "CENTER was made"
+; 	para "Center was made"
 ; 	line "much, much bigger?"
 
 ; 	para "That is so neat!"
