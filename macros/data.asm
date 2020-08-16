@@ -100,10 +100,10 @@ rept _NARG
 endr
 ENDM
 
-dba_pic: MACRO ; dbw bank, address
-	db BANK(\1) - PICS_FIX
-	dw \1
-ENDM
+; dba: MACRO ; dbw bank, address
+; 	db BANK(\1) - PICS_FIX
+; 	dw \1
+; ENDM
 
 bcd: MACRO
 rept _NARG
