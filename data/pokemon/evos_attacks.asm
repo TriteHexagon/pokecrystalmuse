@@ -1204,29 +1204,31 @@ TentacoolEvosAttacks:
 	db EVOLVE_LEVEL, 30, TENTACRUEL
 	db 0 ; no more evolutions
 	db 1, POISON_STING
-	db 6, SUPERSONIC
-	db 12, TRANSFORM
-	db 19, ACID
-	db 25, WATER_PULSE
-	db 30, WRAP
-	db 36, REFLECT
-	db 43, SCREECH
-	db 49, HYDRO_PUMP
+	db 4, SUPERSONIC
+	db 9, WRAP
+	db 13, ACID
+	db 18, WATER_PULSE
+	db 22, CONFUSE_RAY
+	db 27, REFLECT
+	db 31, POISON_JAB
+	db 36, SCREECH
+	db 41, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 TentacruelEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, SUPERSONIC
-	db 1, TRANSFORM
-	db 6, SUPERSONIC
-	db 12, TRANSFORM
-	db 19, ACID
-	db 25, WATER_PULSE
-	db 29, WRAP
-	db 38, REFLECT
-	db 47, SCREECH
-	db 55, HYDRO_PUMP
+	db 1, WRAP
+	db 4, SUPERSONIC
+	db 9, WRAP
+	db 13, ACID
+	db 18, WATER_PULSE
+	db 22, CONFUSE_RAY
+	db 27, REFLECT
+	db 34, POISON_JAB
+	db 40, SCREECH
+	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 GeodudeEvosAttacks:
@@ -1244,7 +1246,7 @@ GeodudeEvosAttacks:
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
-	db EVOLVE_TRADE, -1, GOLEM
+	db EVOLVE_LEVEL, 37, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
