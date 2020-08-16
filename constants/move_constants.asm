@@ -63,7 +63,6 @@
 	const SEISMIC_TOSS ; 45
 	const STRENGTH     ; 46
 	const ABSORB       ; 47
-	const MEGA_DRAIN   ; 48
 	const LEECH_SEED   ; 49
 	const GROWTH       ; 4a
 	const RAZOR_LEAF   ; 4b
@@ -261,6 +260,7 @@
 	const WATER_PULSE
 	const RAZOR_SHELL
 	const SCALD
+	const DRAIN_PUNCH
 	const STRUGGLE     
 NUM_ATTACKS EQU const_value - 1
 

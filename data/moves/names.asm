@@ -56,7 +56,6 @@ MoveNames::
     db "Seismic Toss@"
     db "Strength@"
     db "Absorb@"
-    db "Mega Drain@"
     db "Leech Seed@"
     db "Growth@"
     db "Razor Leaf@"
@@ -254,4 +253,5 @@ MoveNames::
     db "Water Pulse@"
     db "Razor Shell@"
     db "Scald@"
+    db "Drain Punch@"
     db "Struggle@"

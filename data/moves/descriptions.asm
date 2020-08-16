@@ -57,7 +57,6 @@ MoveDescriptions::
 	dw SeismicTossDescription
 	dw StrengthDescription
 	dw AbsorbDescription
-	dw MegaDrainDescription
 	dw LeechSeedDescription
 	dw GrowthDescription
 	dw RazorLeafDescription
@@ -254,6 +253,7 @@ MoveDescriptions::
 	dw WaterPulseDescription
 	dw RazorShellDescription
 	dw ScaldDescription
+	dw DrainPunchDescription
 	dw StruggleDescription
 	dw Move00Description
 
@@ -490,10 +490,6 @@ StrengthDescription:
 	next "cal attack.@"
 
 AbsorbDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
-
-MegaDrainDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 
@@ -1285,6 +1281,10 @@ RazorShellDescription:
 ScaldDescription:
 	db   "An attack that"
 	next "may cause a burn.@"
+
+DrainPunchDescription:
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
 
 ;last must be struggle
 StruggleDescription:

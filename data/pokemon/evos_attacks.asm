@@ -706,7 +706,7 @@ OddishEvosAttacks:
 	db 1, GROWTH
 	db 4, SWEET_SCENT
 	db 8, ACID
-	db 10, MEGA_DRAIN
+	;db 10, MEGA_DRAIN
 	db 12, POISONPOWDER
 	db 13, STUN_SPORE
 	db 14, SLEEP_POWDER
@@ -726,7 +726,7 @@ GloomEvosAttacks:
 	db 1, POISONPOWDER
 	db 4, SWEET_SCENT
 	db 8, ACID
-	db 10, MEGA_DRAIN
+	;db 10, MEGA_DRAIN
 	db 12, POISONPOWDER
 	db 13, STUN_SPORE
 	db 14, SLEEP_POWDER
@@ -755,7 +755,7 @@ ParasEvosAttacks:
 	db 2, ABSORB
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
-	db 9, MEGA_DRAIN
+	;db 9, MEGA_DRAIN
 	db 12, FURY_SWIPES
 	db 15, GROWTH
 	db 19, FURY_CUTTER
@@ -776,7 +776,7 @@ ParasectEvosAttacks:
 	db 2, ABSORB
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
-	db 9, MEGA_DRAIN
+	;db 9, MEGA_DRAIN
 	db 12, FURY_SWIPES
 	db 15, GROWTH
 	db 19, FURY_CUTTER
@@ -1808,7 +1808,7 @@ TangelaEvosAttacks:
 	db 13, POISONPOWDER
 	db 19, VINE_WHIP
 	db 25, WRAP
-	db 31, MEGA_DRAIN
+	db 31, GIGA_DRAIN
 	db 34, STUN_SPORE
 	db 40, SLAM
 	db 46, GROWTH
@@ -2156,7 +2156,7 @@ KabutoEvosAttacks:
 	db 19, LEER
 	db 28, SAND_ATTACK
 	db 37, ENDURE
-	db 46, MEGA_DRAIN
+	db 46, GIGA_DRAIN
 	db 55, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
@@ -2170,7 +2170,7 @@ KabutopsEvosAttacks:
 	db 28, SAND_ATTACK
 	db 37, ENDURE
 	db 39, SLASH
-	db 51, MEGA_DRAIN
+	db 51, GIGA_DRAIN
 	db 65, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
@@ -2802,7 +2802,7 @@ HoppipEvosAttacks:
 	db 17, SLEEP_POWDER
 	db 20, LEECH_SEED
 	db 25, TRANSFORM
-	db 30, MEGA_DRAIN
+	db 30, ABSORB
 	db 0 ; no more level-up moves
 
 SkiploomEvosAttacks:
@@ -2820,7 +2820,7 @@ SkiploomEvosAttacks:
 	db 17, SLEEP_POWDER
 	db 22, LEECH_SEED
 	db 29, TRANSFORM
-	db 36, MEGA_DRAIN
+	db 36, ABSORB
 	db 0 ; no more level-up moves
 
 JumpluffEvosAttacks:
@@ -2837,7 +2837,7 @@ JumpluffEvosAttacks:
 	db 17, SLEEP_POWDER
 	db 22, LEECH_SEED
 	db 33, TRANSFORM
-	db 44, MEGA_DRAIN
+	db 44, ABSORB
 	db 0 ; no more level-up moves
 
 AipomEvosAttacks:
@@ -2857,7 +2857,7 @@ SunkernEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 4, GROWTH
-	db 10, MEGA_DRAIN
+	;db 10, MEGA_DRAIN
 	db 19, SUNNY_DAY
 	db 31, SYNTHESIS
 	db 46, GIGA_DRAIN

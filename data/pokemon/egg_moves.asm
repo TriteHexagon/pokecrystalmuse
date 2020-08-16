@@ -305,7 +305,6 @@ ExeggcuteEggMoves:
 	db SYNTHESIS
 	db MOONLIGHT
 	db REFLECT
-	db MEGA_DRAIN
 	db ANCIENTPOWER
 	db -1 ; end
 
@@ -352,7 +351,6 @@ ChanseyEggMoves:
 TangelaEggMoves:
 	db FLAIL
 	db CONFUSION
-	db MEGA_DRAIN
 	db REFLECT
 	db AMNESIA
 	db -1 ; end

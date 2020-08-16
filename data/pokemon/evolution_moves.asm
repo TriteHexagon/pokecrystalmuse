@@ -60,7 +60,7 @@ EvolutionMoves::
     db NO_MOVE      ;Arcanine
     db NO_MOVE      ;Poliwag
     db NO_MOVE      ;Poliwhirl
-    db ROCK_SMASH   ;Poliwrath
+    db DRAIN_PUNCH  ;Poliwrath
     db NO_MOVE      ;Abra
     db CONFUSION    ;Kadabra
     db NO_MOVE      ;Alakazam

@@ -58,7 +58,6 @@ BattleAnimations::
 	dw BattleAnim_SeismicToss
 	dw BattleAnim_Strength
 	dw BattleAnim_Absorb
-	dw BattleAnim_MegaDrain
 	dw BattleAnim_LeechSeed
 	dw BattleAnim_Growth
 	dw BattleAnim_RazorLeaf
@@ -257,7 +256,7 @@ BattleAnimations::
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_RazorShell
 	dw BattleAnim_Scald
-
+	dw BattleAnim_DrainPunch
 	dw BattleAnim_Struggle
 ; $100
 	dw BattleAnim_SweetScent2
@@ -1667,35 +1666,35 @@ BattleAnim_Absorb:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_MegaDrain:
-	anim_1gfx ANIM_GFX_CHARGE
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_1C, $0, $0, $10
-	anim_setvar $0
-.loop
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_obj ANIM_OBJ_ABSORB, 128, 48, $2
-	anim_wait 6
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_obj ANIM_OBJ_ABSORB, 136, 64, $3
-	anim_wait 6
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_obj ANIM_OBJ_ABSORB, 136, 32, $4
-	anim_wait 6
-	anim_incvar
-	anim_if_var_equal $7, .done
-	anim_if_var_equal $2, .spawn
-	anim_jump .loop
+; BattleAnim_MegaDrain:
+; 	anim_1gfx ANIM_GFX_CHARGE
+; 	anim_call BattleAnim_TargetObj_1Row
+; 	anim_bgeffect ANIM_BG_1C, $0, $0, $10
+; 	anim_setvar $0
+; .loop
+; 	anim_sound 6, 3, SFX_WATER_GUN
+; 	anim_obj ANIM_OBJ_ABSORB, 128, 48, $2
+; 	anim_wait 6
+; 	anim_sound 6, 3, SFX_WATER_GUN
+; 	anim_obj ANIM_OBJ_ABSORB, 136, 64, $3
+; 	anim_wait 6
+; 	anim_sound 6, 3, SFX_WATER_GUN
+; 	anim_obj ANIM_OBJ_ABSORB, 136, 32, $4
+; 	anim_wait 6
+; 	anim_incvar
+; 	anim_if_var_equal $7, .done
+; 	anim_if_var_equal $2, .spawn
+; 	anim_jump .loop
 
-.spawn
-	anim_obj ANIM_OBJ_3D, 44, 88, $0
-	anim_jump .loop
+; .spawn
+; 	anim_obj ANIM_OBJ_3D, 44, 88, $0
+; 	anim_jump .loop
 
-.done
-	anim_wait 32
-	anim_incbgeffect ANIM_BG_1C
-	anim_call BattleAnim_ShowMon_0
-	anim_ret
+; .done
+; 	anim_wait 32
+; 	anim_incbgeffect ANIM_BG_1C
+; 	anim_call BattleAnim_ShowMon_0
+; 	anim_ret
 
 ; BattleAnim_EggBomb:
 ; 	anim_2gfx ANIM_GFX_EGG, ANIM_GFX_EXPLOSION
@@ -5781,3 +5780,31 @@ BattleAnim_ZenHeadbutt:
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
+
+BattleAnim_DrainPunch:
+	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_CHARGE
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj ANIM_OBJ_PUNCH, 136, 56, $43
+	anim_wait 12
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect ANIM_BG_1C, $0, $0, $10
+	anim_setvar $0
+.loop
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_obj ANIM_OBJ_ABSORB, 128, 48, $2
+	anim_wait 6
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_obj ANIM_OBJ_ABSORB, 136, 64, $3
+	anim_wait 6
+	anim_sound 6, 3, SFX_WATER_GUN
+	anim_obj ANIM_OBJ_ABSORB, 136, 32, $4
+	anim_wait 6
+	anim_incvar
+	anim_if_var_equal $4, .done
+	anim_jump .loop
+
+.done
+	anim_wait 32
+	anim_incbgeffect ANIM_BG_1C
+	anim_call BattleAnim_ShowMon_0
+ 	anim_ret
