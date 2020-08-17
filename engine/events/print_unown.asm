@@ -197,7 +197,7 @@ _UnownPrinter:
 	ret
 
 AlphRuinsStampString:
-	db " ALPH Ruins STAMP@"
+	db " ALPH RUINS STAMP@"
 
 UnownDexDoWhatString:
 	db "Do what?@"
