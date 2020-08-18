@@ -1197,7 +1197,6 @@ VictreebelEvosAttacks:
 	db 1, RAZOR_LEAF
 	db 1, LEECH_LIFE
 	db 1, SWORDS_DANCE
-	db 45, SOLARBEAM
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
@@ -1235,14 +1234,15 @@ GeodudeEvosAttacks:
 	db EVOLVE_LEVEL, 25, GRAVELER
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 6, DEFENSE_CURL
+	db 3, DEFENSE_CURL
+	db 7, SAND_ATTACK
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
-	db 21, EXPLOSION
-	db 26, HARDEN
-	db 31, ROLLOUT
+	db 21, TAKE_DOWN
+	db 26, ROLLOUT
+	db 31, EXPLOSION
 	db 36, EARTHQUAKE
-	db 41, EXPLOSION
+	db 41, STONE_EDGE
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
@@ -1250,15 +1250,17 @@ GravelerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
+	db 1, SAND_ATTACK
 	db 1, ROCK_THROW
-	db 6, DEFENSE_CURL
+	db 3, DEFENSE_CURL
+	db 7, SAND_ATTACK
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
-	db 21, EXPLOSION
-	db 27, HARDEN
-	db 34, ROLLOUT
+	db 21, TAKE_DOWN
+	db 27, ROLLOUT
+	db 34, EXPLOSION
 	db 41, EARTHQUAKE
-	db 48, EXPLOSION
+	db 48, STONE_EDGE
 	db 0 ; no more level-up moves
 
 GolemEvosAttacks:
@@ -1267,50 +1269,58 @@ GolemEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 1, ROCK_THROW
 	db 1, MAGNITUDE
-	db 6, DEFENSE_CURL
+	db 3, DEFENSE_CURL
+	db 7, SAND_ATTACK
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
-	db 21, EXPLOSION
-	db 27, HARDEN
-	db 34, ROLLOUT
+	db 21, TAKE_DOWN
+	db 27, ROLLOUT
+	db 34, EXPLOSION
 	db 41, EARTHQUAKE
-	db 48, EXPLOSION
+	db 48, STONE_EDGE
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:
 	db EVOLVE_LEVEL, 40, RAPIDASH
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 4, GROWL
-	db 8, TAIL_WHIP
-	db 13, EMBER
+	db 1, QUICK_ATTACK
+	db 1, GROWL
+	db 6, TAIL_WHIP
+	db 10, EMBER
+	db 15, FLAME_WHEEL
 	db 19, STOMP
-	db 26, FIRE_SPIN
-	db 34, TAKE_DOWN
-	db 43, AGILITY
-	db 53, FIRE_BLAST
+	db 24, FIRE_SPIN
+	db 28, TAKE_DOWN
+	db 33, AGILITY
+	db 37, FIRE_BLAST
+	db 42, DRILL_PECK
+	db 46, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 RapidashEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, MEGAHORN
+	db 1, POISON_JAB
+	db 1, QUICK_ATTACK
 	db 1, GROWL
 	db 1, TAIL_WHIP
 	db 1, EMBER
-	db 4, GROWL
-	db 8, TAIL_WHIP
-	db 13, EMBER
+	db 6, TAIL_WHIP
+	db 10, EMBER
+	db 15, FLAME_WHEEL
 	db 19, STOMP
-	db 26, FIRE_SPIN
-	db 34, TAKE_DOWN
-	db 39, FURY_ATTACK
-	db 47, AGILITY
-	db 61, FIRE_BLAST
+	db 24, FIRE_SPIN
+	db 28, TAKE_DOWN
+	db 29, SMART_STRIKE
+	db 33, AGILITY
+	db 37, FIRE_BLAST
+	db 42, DRILL_PECK
+	db 46, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
 	db EVOLVE_LEVEL, 37, SLOWBRO
-	db EVOLVE_TRADE, KINGS_ROCK, SLOWKING
+	db EVOLVE_ITEM, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
