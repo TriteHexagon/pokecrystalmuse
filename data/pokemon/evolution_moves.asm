@@ -66,19 +66,19 @@ EvolutionMoves::
     db NO_MOVE      ;Alakazam
     db NO_MOVE      ;Machop
     db NO_MOVE      ;Machoke
-    db STRENGTH     ;Machamp
+    db CROSS_CHOP   ;Machamp
     db NO_MOVE      ;Bellsprout
     db NO_MOVE      ;Weepinbell
     db NO_MOVE      ;Victreebel
     db NO_MOVE      ;Tentacool
-    db WRAP         ;Tentacruel
+    db NO_MOVE      ;Tentacruel
     db NO_MOVE      ;Geodude
     db NO_MOVE      ;Graveler
     db NO_MOVE      ;Golem
     db NO_MOVE      ;Ponyta
-    db FURY_ATTACK  ;Rapidash
+    db SMART_STRIKE ;Rapidash
     db NO_MOVE      ;Slowpoke
-    db POISON_JAB   ;Slowbro
+    db SLUDGE_BOMB  ;Slowbro
     db NO_MOVE      ;Magnemite
     db TRI_ATTACK   ;Magneton
     db NO_MOVE      ;Farfetch'd
