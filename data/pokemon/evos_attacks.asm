@@ -1324,13 +1324,18 @@ SlowpokeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
-	db 6, GROWL
-	db 15, WATER_GUN
-	db 20, CONFUSION
-	db 29, DISABLE
-	db 34, HEADBUTT
-	db 43, AMNESIA
-	db 48, PSYCHIC_M
+	db 5, GROWL
+	db 9, WATER_GUN
+	db 14, CONFUSION
+	db 19, DISABLE
+	db 21, HEADBUTT
+	db 25, WATER_PULSE
+	db 30, ZEN_HEADBUTT
+	db 34, REST
+	db 35, SNORE
+	db 38, AMNESIA
+	db 42, PSYCHIC_M
+	db 45, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 SlowbroEvosAttacks:
@@ -1339,45 +1344,56 @@ SlowbroEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, WATER_GUN
-	db 6, GROWL
-	db 15, WATER_GUN
-	db 20, CONFUSION
-	db 29, DISABLE
-	db 34, HEADBUTT
-	db 36, DEFENSE_CURL
-	db 46, AMNESIA
-	db 54, PSYCHIC_M
+	db 5, GROWL
+	db 9, WATER_GUN
+	db 14, CONFUSION
+	db 19, DISABLE
+	db 21, HEADBUTT
+	db 25, WATER_PULSE
+	db 30, ZEN_HEADBUTT
+	db 34, REST
+	db 35, SNORE
+	db 36, SLUDGE_BOMB
+	db 40, AMNESIA
+	db 45, PSYCHIC_M
+	db 48, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 MagnemiteEvosAttacks:
 	db EVOLVE_LEVEL, 30, MAGNETON
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 6, THUNDERSHOCK
-	db 11, SUPERSONIC
-	db 16, TRANSFORM
-	db 21, THUNDER_WAVE
-	db 27, LOCK_ON
-	db 33, SWIFT
-	db 39, SCREECH
-	db 45, THUNDER
+	db 1, SUPERSONIC
+	db 5, THUNDERSHOCK
+	db 7, THUNDER_WAVE
+	db 11, SWIFT
+	db 13, SPARK
+	db 17, SCREECH
+	db 20, LIGHT_SCREEN
+	db 25, LOCK_ON
+	db 32, SIGNAL_BEAM
+	db 36, FLASH_CANNON
+	db 44, THUNDER
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POWER_GEM
 	db 1, TACKLE
-	db 1, THUNDERSHOCK
 	db 1, SUPERSONIC
-	db 1, TRANSFORM
-	db 6, THUNDERSHOCK
-	db 11, SUPERSONIC
-	db 16, TRANSFORM
-	db 21, THUNDER_WAVE
-	db 27, LOCK_ON
+	db 1, THUNDERSHOCK
+	db 1, THUNDER_WAVE
+	db 5, THUNDERSHOCK
+	db 7, THUNDER_WAVE
+	db 11, SWIFT
+	db 13, SPARK
+	db 17, SCREECH
+	db 20, LIGHT_SCREEN
+	db 25, LOCK_ON
 	db 29, TRI_ATTACK
-	db 35, SWIFT
-	db 43, SCREECH
-	db 53, THUNDER
+	db 33, SIGNAL_BEAM
+	db 38, FLASH_CANNON
+	db 46, THUNDER
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
@@ -2964,15 +2980,21 @@ MurkrowEvosAttacks:
 
 SlowkingEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POWER_GEM
 	db 1, CURSE
 	db 1, TACKLE
-	db 6, GROWL
-	db 15, WATER_GUN
-	db 20, CONFUSION
-	db 29, DISABLE
-	db 34, HEADBUTT
-	db 43, SWAGGER
-	db 48, PSYCHIC_M
+	db 5, GROWL
+	db 9, WATER_GUN
+	db 14, CONFUSION
+	db 19, DISABLE
+	db 21, HEADBUTT
+	db 25, WATER_PULSE
+	db 30, ZEN_HEADBUTT
+	db 34, HIDDEN_POWER
+	db 35, NASTY_PLOT
+	db 38, SWAGGER
+	db 42, PSYCHIC_M
+	db 45, CALM_MIND
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
