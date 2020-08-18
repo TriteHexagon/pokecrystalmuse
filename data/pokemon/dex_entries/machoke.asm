@@ -1,5 +1,5 @@
-	db "SUPERPOWER@" ; species name
-	dw 15, 703
+	db "Superpower@" ; species name
+	dw 15, 705
 
 	db   "This tough #mon"
 	next "always stays in"

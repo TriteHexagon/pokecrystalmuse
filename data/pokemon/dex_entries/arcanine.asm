@@ -1,5 +1,5 @@
-	db "LEGENDARY@" ; species name
-	dw 19, 1551
+	db "Legendary@" ; species name
+	dw 19, 1550
 
 	db   "An ancient picture"
 	next "scroll shows that"

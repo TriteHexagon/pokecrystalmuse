@@ -1,4 +1,4 @@
-	db "TADPOLE@" ; species name
+	db "Tadpole@" ; species name
 	dw 13, 540
 
 	db   "It can use its"

@@ -1,5 +1,5 @@
-	db "DRAGON@" ; species name
-	dw 4, 82
+	db "Dragon@" ; species name
+	dw 4, 80
 
 	db   "When they're in a"
 	next "safe location,"

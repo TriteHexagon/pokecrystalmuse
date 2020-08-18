@@ -1,5 +1,5 @@
-	db "PSI@" ; species name
-	dw 13, 567
+	db "Psi@" ; species name
+	dw 13, 565
 
 	db   "When it closes its"
 	next "eyes, twice as"

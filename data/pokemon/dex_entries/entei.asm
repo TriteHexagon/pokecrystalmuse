@@ -1,5 +1,5 @@
-	db "VOLCANO@" ; species name
-	dw 20, 1982
+	db "Volcano@" ; species name
+	dw 20, 1980
 
 	db   "This brawny"
 	next "#mon courses"

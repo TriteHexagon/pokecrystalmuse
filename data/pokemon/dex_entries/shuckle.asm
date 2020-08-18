@@ -1,5 +1,5 @@
-	db "MOLD@" ; species name
-	dw 6, 204
+	db "Mold@" ; species name
+	dw 6, 205
 
 	db   "The fluid secreted"
 	next "by its toes carves"

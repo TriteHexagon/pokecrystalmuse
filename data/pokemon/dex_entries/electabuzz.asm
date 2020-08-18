@@ -1,5 +1,5 @@
-	db "ELECTRIC@" ; species name
-	dw 11, 299
+	db "Electric@" ; species name
+	dw 11, 300
 
 	db   "When two"
 	next "ELECTABUZZ touch,"

@@ -1,5 +1,5 @@
-	db "PUNCHING@" ; species name
-	dw 14, 503
+	db "Punching@" ; species name
+	dw 14, 502
 
 	db   "To increase the"
 	next "strength of all"

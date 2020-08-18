@@ -1,4 +1,4 @@
-	db "OWL@" ; species name
+	db "Owl@" ; species name
 	dw 16, 408
 
 	db   "Its extremely soft"

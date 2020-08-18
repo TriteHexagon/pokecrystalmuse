@@ -1,5 +1,5 @@
-	db "LONG LEG@" ; species name
-	dw 11, 336
+	db "Long Leg@" ; species name
+	dw 11, 335
 
 	db   "Rather than mak-"
 	next "ing a nest in one"

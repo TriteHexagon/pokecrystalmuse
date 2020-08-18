@@ -1,5 +1,5 @@
-	db "OWL@" ; species name
-	dw 7, 213
+	db "Owl@" ; species name
+	dw 7, 212
 
 	db   "It begins to hoot"
 	next "at the same time"

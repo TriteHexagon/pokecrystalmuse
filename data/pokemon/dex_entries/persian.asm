@@ -1,5 +1,5 @@
-	db "CLASSY CAT@" ; species name
-	dw 10, 322
+	db "Classy Cat@" ; species name
+	dw 10, 320
 
 	db   "Behind its lithe,"
 	next "elegant appearance"

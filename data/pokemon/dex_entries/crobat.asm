@@ -1,5 +1,5 @@
-	db "BAT@" ; species name
-	dw 18, 748
+	db "Bat@" ; species name
+	dw 18, 750
 
 	db   "As a result of its"
 	next "pursuit of faster,"

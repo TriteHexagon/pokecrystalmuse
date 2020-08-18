@@ -1,5 +1,5 @@
-	db "FIVE STAR@" ; species name
-	dw 14, 354
+	db "Five Star@" ; species name
+	dw 14, 356
 
 	db   "In the daytime"
 	next "when it gets warm,"

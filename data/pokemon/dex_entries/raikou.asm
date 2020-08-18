@@ -1,5 +1,5 @@
-	db "THUNDER@" ; species name
-	dw 19, 1778
+	db "Thunder@" ; species name
+	dw 19, 1780
 
 	db   "This rough #mon"
 	next "stores energy"

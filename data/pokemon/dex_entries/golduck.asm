@@ -1,5 +1,5 @@
-	db "DUCK@" ; species name
-	dw 17, 767
+	db "Duck@" ; species name
+	dw 17, 766
 
 	db   "It swims grace-"
 	next "fully along on the"

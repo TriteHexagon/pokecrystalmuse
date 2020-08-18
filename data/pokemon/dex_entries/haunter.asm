@@ -1,4 +1,4 @@
-	db "GAS@" ; species name
+	db "Gas@" ; species name
 	dw 16, 1
 
 	db   "It hides in the"

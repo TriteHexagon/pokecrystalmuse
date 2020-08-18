@@ -1,5 +1,5 @@
-	db "DRILL@" ; species name
-	dw 19, 1202
+	db "Drill@" ; species name
+	dw 19, 1200
 
 	db   "By lightly spin-"
 	next "ning its drill-"

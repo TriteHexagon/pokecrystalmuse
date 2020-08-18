@@ -1,5 +1,5 @@
-	db "AQUARABBIT@" ; species name
-	dw 8, 286
+	db "AquaRabbit@" ; species name
+	dw 8, 285
 
 	db   "The bubble-like"
 	next "pattern on its"

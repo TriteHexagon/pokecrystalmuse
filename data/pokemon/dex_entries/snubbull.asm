@@ -1,5 +1,5 @@
-	db "FAIRY@" ; species name
-	dw 6, 77
+	db "Fairy@" ; species name
+	dw 6, 78
 
 	db   "In truth, it is a"
 	next "cowardly #mon."

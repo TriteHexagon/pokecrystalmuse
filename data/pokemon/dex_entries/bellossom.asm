@@ -1,5 +1,5 @@
-	db "FLOWER@" ; species name
-	dw 4, 59
+	db "Flower@" ; species name
+	dw 4, 58
 
 	db   "When these dance"
 	next "together, their"

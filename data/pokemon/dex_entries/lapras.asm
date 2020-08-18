@@ -1,4 +1,4 @@
-	db "TRANSPORT@" ; species name
+	db "Transport@" ; species name
 	dw 25, 2200
 
 	db   "This gentle"

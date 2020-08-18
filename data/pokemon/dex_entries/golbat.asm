@@ -1,5 +1,5 @@
-	db "BAT@" ; species name
-	dw 16, 549
+	db "Bat@" ; species name
+	dw 16, 550
 
 	db   "When it plunges"
 	next "its fangs into its"

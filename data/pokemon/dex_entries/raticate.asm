@@ -1,5 +1,5 @@
-	db "RAT@" ; species name
-	dw 7, 186
+	db "Rat@" ; species name
+	dw 7, 185
 
 	db   "The webs on its"
 	next "hind legs enable"

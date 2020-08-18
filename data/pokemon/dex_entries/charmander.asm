@@ -1,5 +1,5 @@
-	db "LIZARD@" ; species name
-	dw 6, 86
+	db "Lizard@" ; species name
+	dw 6, 85
 
 	db   "If it's healthy,"
 	next "the flame on the"

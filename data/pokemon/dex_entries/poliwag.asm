@@ -1,5 +1,5 @@
-	db "TADPOLE@" ; species name
-	dw 6, 122
+	db "Tadpole@" ; species name
+	dw 6, 124
 
 	db   "The swirl on its"
 	next "belly is its"

@@ -1,5 +1,5 @@
-	db "MEGATON@" ; species name
-	dw 14, 3003
+	db "Megaton@" ; species name
+	dw 14, 3000
 
 	db   "Its rock-like body"
 	next "is so durable,"

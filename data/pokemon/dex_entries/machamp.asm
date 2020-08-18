@@ -1,5 +1,5 @@
-	db "SUPERPOWER@" ; species name
-	dw 16, 1302
+	db "Superpower@" ; species name
+	dw 16, 1300
 
 	db   "With four arms"
 	next "that react more"

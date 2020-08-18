@@ -1,4 +1,4 @@
-	db "WILD DUCK@" ; species name
+	db "Wild Duck@" ; species name
 	dw 8, 150
 
 	db   "In order to pre-"

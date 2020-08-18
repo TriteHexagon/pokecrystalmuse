@@ -1,5 +1,5 @@
-	db "SLEEPING@" ; species name
-	dw 21, 4599
+	db "Sleeping@" ; species name
+	dw 21, 4600
 
 	db   "This #mon's"
 	next "stomach is so"

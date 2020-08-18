@@ -1,4 +1,4 @@
-	db "COTTONWEED@" ; species name
+	db "Cottonweed@" ; species name
 	dw 4, 5
 
 	db   "It can be carried"

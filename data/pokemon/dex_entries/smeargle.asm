@@ -1,5 +1,5 @@
-	db "PAINTER@" ; species name
-	dw 12, 581
+	db "Painter@" ; species name
+	dw 12, 580
 
 	db   "The color of the"
 	next "mysterious fluid"

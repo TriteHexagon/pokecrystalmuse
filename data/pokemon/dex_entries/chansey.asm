@@ -1,5 +1,5 @@
-	db "EGG@" ; species name
-	dw 11, 345
+	db "Egg@" ; species name
+	dw 11, 346
 
 	db   "People try to"
 	next "catch it for its"

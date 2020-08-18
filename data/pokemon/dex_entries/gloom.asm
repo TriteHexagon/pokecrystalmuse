@@ -1,4 +1,4 @@
-	db "WEED@" ; species name
+	db "Weed@" ; species name
 	dw 8, 86
 
 	db   "The smell from its"

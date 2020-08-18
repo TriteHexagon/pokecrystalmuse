@@ -1,5 +1,5 @@
-	db "SLUDGE@" ; species name
-	dw 12, 299
+	db "Sludge@" ; species name
+	dw 12, 300
 
 	db   "As it moves, a"
 	next "very strong poison"

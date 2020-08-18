@@ -1,5 +1,5 @@
-	db "ANGLER@" ; species name
-	dw 5, 118
+	db "Angler@" ; species name
+	dw 5, 120
 
 	db   "Its antennae, whi-"
 	next "ch evolved from a"

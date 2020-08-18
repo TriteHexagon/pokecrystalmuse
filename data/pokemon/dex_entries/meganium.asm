@@ -1,5 +1,5 @@
-	db "HERB@" ; species name
-	dw 18, 1007
+	db "Herb@" ; species name
+	dw 18, 1005
 
 	db   "Anyone who stands"
 	next "beside it becomes"

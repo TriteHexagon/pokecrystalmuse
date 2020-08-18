@@ -1,4 +1,4 @@
-	db "MUSHROOM@" ; species name
+	db "Mushroom@" ; species name
 	dw 3, 54
 
 	db   "The tochukaso"

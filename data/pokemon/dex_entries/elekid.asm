@@ -1,5 +1,5 @@
-	db "ELECTRIC@" ; species name
-	dw 6, 236
+	db "Electric@" ; species name
+	dw 6, 235
 
 	db   "It loves violent"
 	next "thunder. The space"

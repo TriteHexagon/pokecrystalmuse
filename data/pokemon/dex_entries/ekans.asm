@@ -1,5 +1,5 @@
-	db "SNAKE@" ; species name
-	dw 20, 68
+	db "Snake@" ; species name
+	dw 20, 69
 
 	db   "It flutters the"
 	next "tip of its tongue"

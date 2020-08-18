@@ -1,5 +1,5 @@
-	db "MOUSE@" ; species name
-	dw 8, 299
+	db "Mouse@" ; species name
+	dw 8, 300
 
 	db   "If its electric"
 	next "pouches run empty,"

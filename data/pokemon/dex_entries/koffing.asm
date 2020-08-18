@@ -1,5 +1,5 @@
-	db "POISON GAS@" ; species name
-	dw 6, 9
+	db "Poison Gas@" ; species name
+	dw 6, 10
 
 	db   "If one gets close"
 	next "enough to it when"

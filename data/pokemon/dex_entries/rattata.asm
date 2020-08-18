@@ -1,5 +1,5 @@
-	db "RAT@" ; species name
-	dw 3, 36
+	db "Rat@" ; species name
+	dw 3, 35
 
 	db   "This #mon's"
 	next "impressive vital-"

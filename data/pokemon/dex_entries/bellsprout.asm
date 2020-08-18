@@ -1,5 +1,5 @@
-	db "FLOWER@" ; species name
-	dw 7, 41
+	db "Flower@" ; species name
+	dw 7, 40
 
 	db   "If it notices"
 	next "anything that"

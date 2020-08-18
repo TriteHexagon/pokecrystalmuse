@@ -1,5 +1,5 @@
-	db "MOLE@" ; species name
-	dw 2, 9
+	db "Mole@" ; species name
+	dw 2, 8
 
 	db   "It digs under-"
 	next "ground and chews"

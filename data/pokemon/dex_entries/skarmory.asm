@@ -1,5 +1,5 @@
-	db "ARMOR BIRD@" ; species name
-	dw 17, 503
+	db "Armor Bird@" ; species name
+	dw 17, 505
 
 	db   "The feathers that"
 	next "it sheds are very"

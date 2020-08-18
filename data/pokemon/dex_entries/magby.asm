@@ -1,5 +1,5 @@
-	db "LIVE COAL@" ; species name
-	dw 7, 213
+	db "Live Coal@" ; species name
+	dw 7, 214
 
 	db   "It naturally spits"
 	next "an 1100-degree"

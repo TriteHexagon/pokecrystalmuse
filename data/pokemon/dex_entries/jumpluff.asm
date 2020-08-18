@@ -1,5 +1,5 @@
-	db "COTTONWEED@" ; species name
-	dw 8, 32
+	db "Cottonweed@" ; species name
+	dw 8, 30
 
 	db   "Even in the fierc-"
 	next "est wind, it can"

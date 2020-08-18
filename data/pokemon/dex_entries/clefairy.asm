@@ -1,5 +1,5 @@
-	db "FAIRY@" ; species name
-	dw 6, 77
+	db "Fairy@" ; species name
+	dw 6, 75
 
 	db   "Though rarely"
 	next "seen, it becomes"

@@ -1,5 +1,5 @@
-	db "SEA LION@" ; species name
-	dw 17, 1202
+	db "Sea Lion@" ; species name
+	dw 17, 1200
 
 	db   "It sleeps under"
 	next "shallow ocean"

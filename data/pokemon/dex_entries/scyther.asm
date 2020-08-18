@@ -1,5 +1,5 @@
-	db "MANTIS@" ; species name
-	dw 15, 558
+	db "Mantis@" ; species name
+	dw 15, 560
 
 	db   "It's very proud of"
 	next "its speed. It"

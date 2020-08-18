@@ -1,5 +1,5 @@
-	db "FAIRY@" ; species name
-	dw 13, 399
+	db "Fairy@" ; species name
+	dw 13, 400
 
 	db   "Said to live in"
 	next "quiet, remote"

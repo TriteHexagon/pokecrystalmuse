@@ -1,5 +1,5 @@
-	db "WOOL@" ; species name
-	dw 8, 132
+	db "Wool@" ; species name
+	dw 8, 133
 
 	db   "Because of its"
 	next "rubbery, electric-"

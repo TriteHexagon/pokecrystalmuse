@@ -1,4 +1,4 @@
-	db "BIRD@" ; species name
+	db "Bird@" ; species name
 	dw 15, 395
 
 	db   "Its outstanding"

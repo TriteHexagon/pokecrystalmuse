@@ -1,5 +1,5 @@
-	db "DIVING@" ; species name
-	dw 52, 2159
+	db "Diving@" ; species name
+	dw 52, 2160
 
 	db   "It has an incred-"
 	next "ible ability to"

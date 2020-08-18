@@ -1,5 +1,5 @@
-	db "DRILL@" ; species name
-	dw 13, 599
+	db "Drill@" ; species name
+	dw 13, 600
 
 	db   "The hard scales"
 	next "that cover its"

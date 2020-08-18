@@ -1,5 +1,5 @@
-	db "SCREECH@" ; species name
-	dw 7, 9
+	db "Screech@" ; species name
+	dw 7, 10
 
 	db   "It loves to watch"
 	next "people it's scar-"

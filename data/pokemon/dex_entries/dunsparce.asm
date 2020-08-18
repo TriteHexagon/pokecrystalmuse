@@ -1,5 +1,5 @@
-	db "LAND SNAKE@" ; species name
-	dw 15, 141
+	db "Land Snake@" ; species name
+	dw 15, 140
 
 	db   "It hides deep"
 	next "inside caves where"

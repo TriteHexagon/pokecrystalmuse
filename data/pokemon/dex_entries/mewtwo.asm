@@ -1,4 +1,4 @@
-	db "GENETIC@" ; species name
+	db "Genetic@" ; species name
 	dw 20, 1220
 
 	db   "Said to rest qui-"

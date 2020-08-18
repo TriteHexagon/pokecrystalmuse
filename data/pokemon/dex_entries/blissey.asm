@@ -1,5 +1,5 @@
-	db "HAPPINESS@" ; species name
-	dw 15, 467
+	db "Happiness@" ; species name
+	dw 15, 468
 
 	db   "Biting into one"
 	next "of the delicious"

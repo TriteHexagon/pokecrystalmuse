@@ -1,5 +1,5 @@
-	db "ROCK SKIN@" ; species name
-	dw 6, 721
+	db "Rock Skin@" ; species name
+	dw 6, 720
 
 	db   "Born deep under-"
 	next "ground, this"

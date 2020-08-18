@@ -1,5 +1,5 @@
-	db "SHELLFISH@" ; species name
-	dw 13, 404
+	db "Shellfish@" ; species name
+	dw 13, 405
 
 	db   "It was able to"
 	next "swim quickly thro-"

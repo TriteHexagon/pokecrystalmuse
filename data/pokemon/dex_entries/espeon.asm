@@ -1,5 +1,5 @@
-	db "SUN@" ; species name
-	dw 9, 263
+	db "Sun@" ; species name
+	dw 9, 265
 
 	db   "The tip of its"
 	next "forked tail"

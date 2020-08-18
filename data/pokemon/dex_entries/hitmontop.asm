@@ -1,5 +1,5 @@
-	db "HANDSTAND@" ; species name
-	dw 14, 481
+	db "Handstand@" ; species name
+	dw 14, 480
 
 	db   "After doing a"
 	next "handstand to"

@@ -1,5 +1,5 @@
-	db "PUPPY@" ; species name
-	dw 7, 191
+	db "Puppy@" ; species name
+	dw 7, 190
 
 	db   "It controls a big"
 	next "territory. If it"

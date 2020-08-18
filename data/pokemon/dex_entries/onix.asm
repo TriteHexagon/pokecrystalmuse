@@ -1,4 +1,4 @@
-	db "ROCK SNAKE@" ; species name
+	db "Rock Snake@" ; species name
 	dw 88, 2100
 
 	db   "As it digs through"

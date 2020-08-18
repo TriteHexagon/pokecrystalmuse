@@ -1,5 +1,5 @@
-	db "SHADOW@" ; species name
-	dw 15, 404
+	db "Shadow@" ; species name
+	dw 15, 405
 
 	db   "Hiding in people's"
 	next "shadows at night,"

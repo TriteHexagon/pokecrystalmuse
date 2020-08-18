@@ -1,5 +1,5 @@
-	db "SCISSORS@" ; species name
-	dw 18, 1179
+	db "Scissors@" ; species name
+	dw 18, 1180
 
 	db   "This #mon's"
 	next "pincers, which"

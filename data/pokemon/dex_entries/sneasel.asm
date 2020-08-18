@@ -1,5 +1,5 @@
-	db "SHARP CLAW@" ; species name
-	dw 9, 281
+	db "Sharp Claw@" ; species name
+	dw 9, 280
 
 	db   "This cunning"
 	next "#mon hides"

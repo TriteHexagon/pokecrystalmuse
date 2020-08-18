@@ -1,5 +1,5 @@
-	db "VIRTUAL@" ; species name
-	dw 6, 327
+	db "Virtual@" ; species name
+	dw 6, 325
 
 	db   "This manmade"
 	next "#mon evolved"

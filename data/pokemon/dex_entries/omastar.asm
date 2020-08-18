@@ -1,5 +1,5 @@
-	db "SPIRAL@" ; species name
-	dw 10, 349
+	db "Spiral@" ; species name
+	dw 10, 350
 
 	db   "Its heavy shell"
 	next "allowed it to"

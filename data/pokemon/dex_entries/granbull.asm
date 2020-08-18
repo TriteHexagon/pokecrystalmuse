@@ -1,5 +1,5 @@
-	db "FAIRY@" ; species name
-	dw 14, 485
+	db "Fairy@" ; species name
+	dw 14, 487
 
 	db   "It can make most"
 	next "any #mon run"

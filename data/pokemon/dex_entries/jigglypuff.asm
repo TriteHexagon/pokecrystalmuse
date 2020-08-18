@@ -1,5 +1,5 @@
-	db "BALLOON@" ; species name
-	dw 5, 54
+	db "Balloon@" ; species name
+	dw 5, 55
 
 	db   "It rolls its cute"
 	next "eyes as it sings a"

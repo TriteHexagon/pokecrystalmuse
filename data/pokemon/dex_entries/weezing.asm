@@ -1,4 +1,4 @@
-	db "POISON GAS@" ; species name
+	db "Poison Gas@" ; species name
 	dw 12, 95
 
 	db   "When it inhales"

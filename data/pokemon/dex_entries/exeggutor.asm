@@ -1,5 +1,5 @@
-	db "COCONUT@" ; species name
-	dw 20, 1202
+	db "Coconut@" ; species name
+	dw 20, 1200
 
 	db   "Living in a good"
 	next "environment makes"

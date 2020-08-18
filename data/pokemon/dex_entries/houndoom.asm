@@ -1,5 +1,5 @@
-	db "DARK@" ; species name
-	dw 14, 349
+	db "Dark@" ; species name
+	dw 14, 350
 
 	db   "The pungent-"
 	next "smelling flame"

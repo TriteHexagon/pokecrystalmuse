@@ -1,5 +1,5 @@
-	db "HYPNOSIS@" ; species name
-	dw 10, 322
+	db "Hypnosis@" ; species name
+	dw 10, 324
 
 	db   "When it twitches"
 	next "its nose, it can"

@@ -1,4 +1,4 @@
-	db "MOUSE@" ; species name
+	db "Mouse@" ; species name
 	dw 10, 295
 
 	db   "Adept at climbing"

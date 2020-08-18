@@ -1,4 +1,4 @@
-	db "POISON BEE@" ; species name
+	db "Poison Bee@" ; species name
 	dw 10, 295
 
 	db   "It uses sharp,"

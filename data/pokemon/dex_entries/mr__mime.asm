@@ -1,5 +1,5 @@
-	db "BARRIER@" ; species name
-	dw 13, 544
+	db "Barrier@" ; species name
+	dw 13, 545
 
 	db   "It uses the"
 	next "mysterious"

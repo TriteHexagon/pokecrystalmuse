@@ -1,5 +1,5 @@
-	db "STARSHAPE@" ; species name
-	dw 3, 32
+	db "StarShape@" ; species name
+	dw 3, 30
 
 	db   "If the impact site"
 	next "of a meteorite is"

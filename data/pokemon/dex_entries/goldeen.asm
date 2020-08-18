@@ -1,4 +1,4 @@
-	db "GOLDFISH@" ; species name
+	db "Goldfish@" ; species name
 	dw 6, 150
 
 	db   "During spawning"

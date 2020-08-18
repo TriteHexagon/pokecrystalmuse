@@ -1,4 +1,4 @@
-	db "TINY BIRD@" ; species name
+	db "Tiny Bird@" ; species name
 	dw 3, 18
 
 	db   "It rapidly flaps"

@@ -1,5 +1,5 @@
-	db "BIVALVE@" ; species name
-	dw 3, 41
+	db "Bivalve@" ; species name
+	dw 3, 40
 
 	db   "Clamping on to an"
 	next "opponent reveals"

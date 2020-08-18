@@ -1,5 +1,5 @@
-	db "BIG JAW@" ; species name
-	dw 23, 889
+	db "Big Jaw@" ; species name
+	dw 23, 888
 
 	db   "Although it has a"
 	next "massive body, its"

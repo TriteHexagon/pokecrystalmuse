@@ -1,5 +1,5 @@
-	db "DRAGON@" ; species name
-	dw 40, 163
+	db "Dragon@" ; species name
+	dw 40, 165
 
 	db   "It is called the"
 	next "divine #mon."

@@ -1,4 +1,4 @@
-	db "ATROCIOUS@" ; species name
+	db "Atrocious@" ; species name
 	dw 65, 2350
 
 	db   "It appears when-"

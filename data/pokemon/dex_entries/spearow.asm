@@ -1,5 +1,5 @@
-	db "TINY BIRD@" ; species name
-	dw 3, 18
+	db "Tiny Bird@" ; species name
+	dw 3, 20
 
 	db   "To protect its"
 	next "territory, it"

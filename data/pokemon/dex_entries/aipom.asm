@@ -1,5 +1,5 @@
-	db "LONG TAIL@" ; species name
-	dw 8, 113
+	db "Long Tail@" ; species name
+	dw 8, 115
 
 	db   "It uses its tail"
 	next "to hang on to tree"

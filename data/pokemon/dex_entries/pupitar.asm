@@ -1,4 +1,4 @@
-	db "HARD SHELL@" ; species name
+	db "Hard Shell@" ; species name
 	dw 12, 1520
 
 	db   "It will not stay"

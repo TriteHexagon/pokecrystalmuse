@@ -1,5 +1,5 @@
-	db "FLYSCORPIO@" ; species name
-	dw 11, 649
+	db "FlyScorpio@" ; species name
+	dw 11, 648
 
 	db   "It builds its nest"
 	next "on a steep cliff."

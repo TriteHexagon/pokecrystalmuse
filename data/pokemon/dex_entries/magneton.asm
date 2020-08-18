@@ -1,8 +1,8 @@
-	db "MAGNET@" ; species name
-	dw 10, 599
+	db "Magnet@" ; species name
+	dw 10, 600
 
 	db   "When many"
-	next "MAGNETON gather"
+	next "Magneton gather"
 	next "together, the"
 
 	page "resulting magnetic"

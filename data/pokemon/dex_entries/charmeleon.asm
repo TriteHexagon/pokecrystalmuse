@@ -1,5 +1,5 @@
-	db "FLAME@" ; species name
-	dw 11, 191
+	db "Flame@" ; species name
+	dw 11, 190
 
 	db   "If it becomes"
 	next "agitated during"

@@ -1,5 +1,5 @@
-	db "PINCER@" ; species name
-	dw 13, 599
+	db "Pincer@" ; species name
+	dw 13, 600
 
 	db   "Its oversized claw"
 	next "is very powerful,"

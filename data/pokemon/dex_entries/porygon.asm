@@ -1,5 +1,5 @@
-	db "VIRTUAL@" ; species name
-	dw 8, 363
+	db "Virtual@" ; species name
+	dw 8, 365
 
 	db   "An artificial"
 	next "#mon created"

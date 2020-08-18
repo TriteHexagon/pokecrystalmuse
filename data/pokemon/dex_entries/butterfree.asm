@@ -1,5 +1,5 @@
-	db "BUTTERFLY@" ; species name
-	dw 11, 322
+	db "Butterfly@" ; species name
+	dw 11, 320
 
 	db   "It flits from"
 	next "flower to flower,"

@@ -1,4 +1,4 @@
-	db "HERMITCRAB@" ; species name
+	db "Hermitcrab@" ; species name
 	dw 16, 785
 
 	db   "An attached"

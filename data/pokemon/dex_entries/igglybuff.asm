@@ -1,5 +1,5 @@
-	db "BALLOON@" ; species name
-	dw 3, 9
+	db "Balloon@" ; species name
+	dw 3, 10
 
 	db   "Instead of walking"
 	next "with its short"

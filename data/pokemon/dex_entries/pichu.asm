@@ -1,4 +1,4 @@
-	db "TINY MOUSE@" ; species name
+	db "Tiny Mouse@" ; species name
 	dw 3, 18
 
 	db   "It is unskilled at"

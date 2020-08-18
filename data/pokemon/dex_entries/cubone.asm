@@ -1,5 +1,5 @@
-	db "LONELY@" ; species name
-	dw 4, 64
+	db "Lonely@" ; species name
+	dw 4, 65
 
 	db   "It lost its mother"
 	next "after its birth."

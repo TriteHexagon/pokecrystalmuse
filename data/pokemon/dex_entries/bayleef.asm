@@ -1,5 +1,5 @@
-	db "LEAF@" ; species name
-	dw 12, 159
+	db "Leaf@" ; species name
+	dw 12, 158
 
 	db   "The scent that"
 	next "wafts from the"

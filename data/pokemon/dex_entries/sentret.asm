@@ -1,5 +1,5 @@
-	db "SCOUT@" ; species name
-	dw 8, 59
+	db "Scout@" ; species name
+	dw 8, 60
 
 	db   "When acting as a"
 	next "lookout, it warns"

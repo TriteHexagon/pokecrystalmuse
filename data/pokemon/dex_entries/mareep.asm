@@ -1,5 +1,5 @@
-	db "WOOL@" ; species name
-	dw 6, 77
+	db "Wool@" ; species name
+	dw 6, 78
 
 	db   "It stores lots of"
 	next "air in its soft"

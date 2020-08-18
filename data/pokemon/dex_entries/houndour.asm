@@ -1,5 +1,5 @@
-	db "DARK@" ; species name
-	dw 6, 109
+	db "Dark@" ; species name
+	dw 6, 108
 
 	db   "Around dawn, its"
 	next "ominous howl"

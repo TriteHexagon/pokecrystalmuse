@@ -1,5 +1,5 @@
-	db "BALLOON@" ; species name
-	dw 5, 41
+	db "Balloon@" ; species name
+	dw 5, 39
 
 	db   "When faced with a"
 	next "larger opponent,"

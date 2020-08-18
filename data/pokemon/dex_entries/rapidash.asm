@@ -1,5 +1,5 @@
-	db "FIRE HORSE@" ; species name
-	dw 17, 948
+	db "Fire Horse@" ; species name
+	dw 17, 950
 
 	db   "It just loves to"
 	next "gallop. The faster"

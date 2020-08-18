@@ -1,5 +1,5 @@
-	db "POISON PIN@" ; species name
-	dw 4, 68
+	db "Poison Pin@" ; species name
+	dw 4, 70
 
 	db   "Small and very"
 	next "docile, it pro-"

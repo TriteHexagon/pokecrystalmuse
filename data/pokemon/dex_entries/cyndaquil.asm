@@ -1,5 +1,5 @@
-	db "FIRE MOUSE@" ; species name
-	dw 5, 77
+	db "Fire Mouse@" ; species name
+	dw 5, 79
 
 	db   "The fire that"
 	next "spouts from its"

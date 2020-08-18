@@ -1,5 +1,5 @@
-	db "BAGWORM@" ; species name
-	dw 12, 1256
+	db "Bagworm@" ; species name
+	dw 12, 1258
 
 	db   "Usually found"
 	next "hanging on to a"

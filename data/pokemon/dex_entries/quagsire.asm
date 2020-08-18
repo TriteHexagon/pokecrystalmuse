@@ -1,5 +1,5 @@
-	db "WATER FISH@" ; species name
-	dw 14, 748
+	db "Water Fish@" ; species name
+	dw 14, 750
 
 	db   "Its body is always"
 	next "slimy. It often"

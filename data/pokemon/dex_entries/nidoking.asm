@@ -1,5 +1,5 @@
-	db "DRILL@" ; species name
-	dw 14, 621
+	db "Drill@" ; species name
+	dw 14, 620
 
 	db   "It uses its thick"
 	next "arms, legs and"

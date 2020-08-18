@@ -1,4 +1,4 @@
-	db "LIGHTNING@" ; species name
+	db "Lightning@" ; species name
 	dw 8, 245
 
 	db   "The negatively"

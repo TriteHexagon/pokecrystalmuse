@@ -1,5 +1,5 @@
-	db "BIVALVE@" ; species name
-	dw 15, 1324
+	db "Bivalve@" ; species name
+	dw 15, 1325
 
 	db   "Even a missile"
 	next "can't break the"

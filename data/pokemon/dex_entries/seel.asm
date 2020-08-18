@@ -1,5 +1,5 @@
-	db "SEA LION@" ; species name
-	dw 11, 898
+	db "Sea Lion@" ; species name
+	dw 11, 900
 
 	db   "The light blue fur"
 	next "that covers it"

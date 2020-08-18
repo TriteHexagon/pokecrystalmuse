@@ -1,5 +1,5 @@
-	db "STAGBEETLE@" ; species name
-	dw 15, 549
+	db "StagBeetle@" ; species name
+	dw 15, 550
 
 	db   "When the tempera-"
 	next "ture drops at"

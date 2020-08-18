@@ -1,4 +1,4 @@
-	db "WEED@" ; species name
+	db "Weed@" ; species name
 	dw 5, 54
 
 	db   "During the day, it"

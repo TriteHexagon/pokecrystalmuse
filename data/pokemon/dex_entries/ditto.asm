@@ -1,5 +1,5 @@
-	db "TRANSFORM@" ; species name
-	dw 3, 41
+	db "Transform@" ; species name
+	dw 3, 40
 
 	db   "When it encount-"
 	next "ers another DITTO,"

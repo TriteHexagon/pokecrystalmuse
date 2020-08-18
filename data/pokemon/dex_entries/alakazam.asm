@@ -1,5 +1,5 @@
-	db "PSI@" ; species name
-	dw 15, 481
+	db "Psi@" ; species name
+	dw 15, 480
 
 	db   "It has an IQ of"
 	next "5000. It calcu-"

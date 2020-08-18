@@ -1,5 +1,5 @@
-	db "RIVER CRAB@" ; species name
-	dw 4, 64
+	db "River Crab@" ; species name
+	dw 4, 65
 
 	db   "If it is unable"
 	next "to find food, it"

@@ -1,5 +1,5 @@
-	db "BAGWORM@" ; species name
-	dw 6, 73
+	db "Bagworm@" ; species name
+	dw 6, 72
 
 	db   "It spits out a"
 	next "fluid that it uses"

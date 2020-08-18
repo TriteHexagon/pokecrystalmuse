@@ -1,4 +1,4 @@
-	db "COCOON@" ; species name
+	db "Cocoon@" ; species name
 	dw 6, 100
 
 	db   "Nearly incapable"

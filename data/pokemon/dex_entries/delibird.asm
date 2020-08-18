@@ -1,5 +1,5 @@
-	db "DELIVERY@" ; species name
-	dw 9, 159
+	db "Delivery@" ; species name
+	dw 9, 160
 
 	db   "It always carries"
 	next "its food with it,"

@@ -1,5 +1,5 @@
-	db "EGG@" ; species name
-	dw 4, 27
+	db "Egg@" ; species name
+	dw 4, 25
 
 	db   "If even one is"
 	next "separated from the"

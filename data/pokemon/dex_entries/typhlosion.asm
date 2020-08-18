@@ -1,4 +1,4 @@
-	db "VOLCANO@" ; species name
+	db "Volcano@" ; species name
 	dw 17, 794
 
 	db   "When heat from its"

@@ -1,4 +1,4 @@
-	db "LEAF@" ; species name
+	db "Leaf@" ; species name
 	dw 9, 64
 
 	db   "It loves to bask"

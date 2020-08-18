@@ -1,5 +1,5 @@
-	db "RAINBOW@" ; species name
-	dw 38, 1991
+	db "Rainbow@" ; species name
+	dw 38, 1990
 
 	db   "It will reveal"
 	next "itself before a"

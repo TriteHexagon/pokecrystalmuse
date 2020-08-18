@@ -1,5 +1,5 @@
-	db "FOX@" ; species name
-	dw 11, 200
+	db "Fox@" ; species name
+	dw 11, 199
 
 	db   "It is said to live"
 	next "a thousand years,"

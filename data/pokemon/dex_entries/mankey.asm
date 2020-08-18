@@ -1,5 +1,5 @@
-	db "PIG MONKEY@" ; species name
-	dw 5, 281
+	db "Pig Monkey@" ; species name
+	dw 5, 280
 
 	db   "It lives in groups"
 	next "in the treetops."

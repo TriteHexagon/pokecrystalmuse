@@ -1,5 +1,5 @@
-	db "AQUAMOUSE@" ; species name
-	dw 4, 86
+	db "AquaMouse@" ; species name
+	dw 4, 85
 
 	db   "The fur on its"
 	next "body naturally"

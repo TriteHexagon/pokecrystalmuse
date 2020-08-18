@@ -1,5 +1,5 @@
-	db "TRIPLEBIRD@" ; species name
-	dw 18, 853
+	db "TripleBird@" ; species name
+	dw 18, 852
 
 	db   "An enemy that"
 	next "takes its eyes off"

@@ -1,5 +1,5 @@
-	db "COTTONWEED@" ; species name
-	dw 6, 9
+	db "Cottonweed@" ; species name
+	dw 6, 10
 
 	db   "As soon as it"
 	next "rains, it closes"

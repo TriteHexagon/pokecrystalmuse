@@ -1,5 +1,5 @@
-	db "KICKING@" ; species name
-	dw 15, 499
+	db "Kicking@" ; species name
+	dw 15, 498
 
 	db   "It is also called"
 	next "the Kick Master."

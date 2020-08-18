@@ -1,4 +1,4 @@
-	db "MUSHROOM@" ; species name
+	db "Mushroom@" ; species name
 	dw 10, 295
 
 	db   "When nothing's"

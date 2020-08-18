@@ -1,5 +1,5 @@
-	db "BALL@" ; species name
-	dw 12, 667
+	db "Ball@" ; species name
+	dw 12, 666
 
 	db   "The more energy it"
 	next "charges up, the"

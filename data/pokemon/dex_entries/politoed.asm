@@ -1,5 +1,5 @@
-	db "FROG@" ; species name
-	dw 11, 340
+	db "Frog@" ; species name
+	dw 11, 339
 
 	db   "When it expands"
 	next "its throat to"

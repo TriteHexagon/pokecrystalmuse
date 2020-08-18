@@ -1,5 +1,5 @@
-	db "DOPEY@" ; species name
-	dw 12, 358
+	db "Dopey@" ; species name
+	dw 12, 360
 
 	db   "It is always so"
 	next "absent-minded that"

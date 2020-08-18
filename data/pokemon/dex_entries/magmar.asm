@@ -1,4 +1,4 @@
-	db "SPITFIRE@" ; species name
+	db "Spitfire@" ; species name
 	dw 13, 445
 
 	db   "It moves more"

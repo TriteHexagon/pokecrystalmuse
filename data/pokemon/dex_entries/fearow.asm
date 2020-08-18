@@ -1,5 +1,5 @@
-	db "BEAK@" ; species name
-	dw 12, 381
+	db "Beak@" ; species name
+	dw 12, 380
 
 	db   "It uses its long"
 	next "beak to attack. It"

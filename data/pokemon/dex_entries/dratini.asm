@@ -1,5 +1,5 @@
-	db "DRAGON@" ; species name
-	dw 18, 32
+	db "Dragon@" ; species name
+	dw 18, 33
 
 	db   "It sheds many lay-"
 	next "ers of skin as it"

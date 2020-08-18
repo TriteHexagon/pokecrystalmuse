@@ -1,5 +1,5 @@
-	db "ROCK@" ; species name
-	dw 10, 1052
+	db "Rock@" ; species name
+	dw 10, 1050
 
 	db   "It travels by rol-"
 	next "ling on mountain"

@@ -1,5 +1,5 @@
-	db "SEED@" ; species name
-	dw 10, 132
+	db "Seed@" ; species name
+	dw 10, 130
 
 	db   "The bulb on its"
 	next "back grows as it"

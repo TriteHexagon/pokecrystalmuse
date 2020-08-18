@@ -1,5 +1,5 @@
-	db "LONG NOSE@" ; species name
-	dw 5, 336
+	db "Long Nose@" ; species name
+	dw 5, 335
 
 	db   "During the desert-"
 	next "ed morning hours,"

@@ -1,5 +1,5 @@
-	db "FLAME@" ; species name
-	dw 20, 599
+	db "Flame@" ; species name
+	dw 20, 600
 
 	db   "Legendary bird"
 	next "#mon. It is"

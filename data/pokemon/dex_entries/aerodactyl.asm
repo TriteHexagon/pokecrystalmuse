@@ -1,4 +1,4 @@
-	db "FOSSIL@" ; species name
+	db "Fossil@" ; species name
 	dw 18, 590
 
 	db   "In prehistoric"

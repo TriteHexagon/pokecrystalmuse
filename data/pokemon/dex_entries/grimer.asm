@@ -1,5 +1,5 @@
-	db "SLUDGE@" ; species name
-	dw 9, 299
+	db "Sludge@" ; species name
+	dw 9, 300
 
 	db   "When two of these"
 	next "#mon's bodies"

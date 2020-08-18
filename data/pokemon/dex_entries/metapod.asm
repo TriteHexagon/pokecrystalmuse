@@ -1,5 +1,5 @@
-	db "COCOON@" ; species name
-	dw 7, 100
+	db "Cocoon@" ; species name
+	dw 7, 99
 
 	db   "This is its pre-"
 	next "evolved form. At"

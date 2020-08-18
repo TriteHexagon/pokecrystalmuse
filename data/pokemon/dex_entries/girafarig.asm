@@ -1,5 +1,5 @@
-	db "LONG NECK@" ; species name
-	dw 15, 413
+	db "Long Neck@" ; species name
+	dw 15, 415
 
 	db   "When it is in"
 	next "danger, its tail"

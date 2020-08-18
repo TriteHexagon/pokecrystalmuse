@@ -1,5 +1,5 @@
-	db "LIGHT@" ; species name
-	dw 12, 227
+	db "Light@" ; species name
+	dw 12, 225
 
 	db   "This #mon uses"
 	next "the bright part of"

@@ -1,5 +1,5 @@
-	db "FLAME@" ; species name
-	dw 9, 249
+	db "Flame@" ; species name
+	dw 9, 250
 
 	db   "Once it has stored"
 	next "up enough heat,"

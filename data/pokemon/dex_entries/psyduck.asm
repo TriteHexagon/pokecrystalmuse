@@ -1,5 +1,5 @@
-	db "DUCK@" ; species name
-	dw 8, 195
+	db "Duck@" ; species name
+	dw 8, 196
 
 	db   "The only time it"
 	next "can use its psy-"

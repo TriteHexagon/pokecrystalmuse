@@ -1,5 +1,5 @@
-	db "FIRE HORSE@" ; species name
-	dw 10, 299
+	db "Fire Horse@" ; species name
+	dw 10, 300
 
 	db   "Training by"
 	next "jumping over grass"

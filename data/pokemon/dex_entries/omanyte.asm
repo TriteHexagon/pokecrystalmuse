@@ -1,5 +1,5 @@
-	db "SPIRAL@" ; species name
-	dw 4, 77
+	db "Spiral@" ; species name
+	dw 4, 75
 
 	db   "In prehistoric"
 	next "times, it swam on"

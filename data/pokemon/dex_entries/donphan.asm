@@ -1,5 +1,5 @@
-	db "ARMOR@" ; species name
-	dw 11, 1202
+	db "Armor@" ; species name
+	dw 11, 1200
 
 	db   "Because this"
 	next "#mon's skin is"

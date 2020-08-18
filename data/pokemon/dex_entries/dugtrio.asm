@@ -1,5 +1,5 @@
-	db "MOLE@" ; species name
-	dw 7, 331
+	db "Mole@" ; species name
+	dw 7, 333
 
 	db   "These DIGLETT"
 	next "triplets dig over"

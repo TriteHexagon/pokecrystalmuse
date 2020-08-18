@@ -1,5 +1,5 @@
-	db "COBRA@" ; species name
-	dw 35, 649
+	db "Cobra@" ; species name
+	dw 35, 650
 
 	db   "To intimidate"
 	next "foes, it spreads"

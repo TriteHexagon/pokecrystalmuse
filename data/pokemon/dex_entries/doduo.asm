@@ -1,5 +1,5 @@
-	db "TWIN BIRD@" ; species name
-	dw 14, 390
+	db "TwinBird@" ; species name
+	dw 14, 392
 
 	db   "It lives on a"
 	next "grassy plain where"

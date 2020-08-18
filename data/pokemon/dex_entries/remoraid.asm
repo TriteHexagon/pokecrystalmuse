@@ -1,5 +1,5 @@
-	db "JET@" ; species name
-	dw 6, 118
+	db "Jet@" ; species name
+	dw 6, 120
 
 	db   "To escape from an"
 	next "attacker, it may"

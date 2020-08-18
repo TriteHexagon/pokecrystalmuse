@@ -1,5 +1,5 @@
-	db "VOLCANO@" ; species name
-	dw 9, 191
+	db "Volcano@" ; species name
+	dw 9, 190
 
 	db   "Before battle, it"
 	next "turns its back on"

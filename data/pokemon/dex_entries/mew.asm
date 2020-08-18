@@ -1,5 +1,5 @@
-	db "NEW SPECIE@" ; species name
-	dw 4, 41
+	db "NewSpecies@" ; species name
+	dw 4, 40
 
 	db   "Because it can"
 	next "learn any move,"

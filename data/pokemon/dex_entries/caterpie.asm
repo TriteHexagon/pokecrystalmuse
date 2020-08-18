@@ -1,5 +1,5 @@
-	db "WORM@" ; species name
-	dw 3, 27
+	db "Worm@" ; species name
+	dw 3, 29
 
 	db   "It crawls into"
 	next "foliage where it"

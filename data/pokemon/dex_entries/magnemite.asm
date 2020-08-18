@@ -1,5 +1,5 @@
-	db "MAGNET@" ; species name
-	dw 3, 59
+	db "Magnet@" ; species name
+	dw 3, 60
 
 	db   "The electricity"
 	next "emitted by the"

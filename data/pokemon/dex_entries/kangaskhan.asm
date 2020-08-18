@@ -1,5 +1,5 @@
-	db "PARENT@" ; species name
-	dw 22, 798
+	db "Parent@" ; species name
+	dw 22, 800
 
 	db   "To avoid"
 	next "crushing the"

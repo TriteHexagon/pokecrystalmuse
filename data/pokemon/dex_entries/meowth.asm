@@ -1,5 +1,5 @@
-	db "SCRATCHCAT@" ; species name
-	dw 4, 41
+	db "ScratchCat@" ; species name
+	dw 4, 42
 
 	db   "It loves things"
 	next "that sparkle. When"

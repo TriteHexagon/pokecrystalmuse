@@ -1,4 +1,4 @@
-	db "KITE@" ; species name
+	db "Kite@" ; species name
 	dw 21, 2200
 
 	db   "It swims along"

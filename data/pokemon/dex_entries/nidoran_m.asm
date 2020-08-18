@@ -1,5 +1,5 @@
-	db "POISON PIN@" ; species name
-	dw 5, 91
+	db "Poison Pin@" ; species name
+	dw 5, 90
 
 	db   "It constantly"
 	next "moves its large"

@@ -1,5 +1,5 @@
-	db "SHELLFISH@" ; species name
-	dw 5, 113
+	db "Shellfish@" ; species name
+	dw 5, 115
 
 	db   "Three hundred"
 	next "million years ago,"

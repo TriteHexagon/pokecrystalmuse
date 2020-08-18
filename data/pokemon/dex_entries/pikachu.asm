@@ -1,5 +1,5 @@
-	db "MOUSE@" ; species name
-	dw 4, 59
+	db "Mouse@" ; species name
+	dw 4, 60
 
 	db   "When it is anger-"
 	next "ed, it immediately"

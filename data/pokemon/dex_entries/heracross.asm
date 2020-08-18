@@ -1,4 +1,4 @@
-	db "SINGLEHORN@" ; species name
+	db "SingleHorn@" ; species name
 	dw 15, 540
 
 	db   "With its Herculean"

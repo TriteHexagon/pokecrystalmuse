@@ -1,4 +1,4 @@
-	db "ROCK@" ; species name
+	db "Rock@" ; species name
 	dw 4, 200
 
 	db   "Proud of their"

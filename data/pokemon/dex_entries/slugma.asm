@@ -1,5 +1,5 @@
-	db "LAVA@" ; species name
-	dw 7, 349
+	db "Lava@" ; species name
+	dw 7, 350
 
 	db   "These group to-"
 	next "gether in areas"

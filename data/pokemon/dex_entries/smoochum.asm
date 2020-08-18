@@ -1,5 +1,5 @@
-	db "KISS@" ; species name
-	dw 4, 59
+	db "Kiss@" ; species name
+	dw 4, 60
 
 	db   "The sensitivity of"
 	next "its lips develops"

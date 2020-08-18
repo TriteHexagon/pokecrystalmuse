@@ -1,5 +1,5 @@
-	db "LICKING@" ; species name
-	dw 12, 653
+	db "Lickitung@" ; species name
+	dw 12, 655
 
 	db   "It has a tongue"
 	next "that is over 6'6''"

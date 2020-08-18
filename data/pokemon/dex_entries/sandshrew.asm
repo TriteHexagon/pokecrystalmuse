@@ -1,5 +1,5 @@
-	db "MOUSE@" ; species name
-	dw 6, 118
+	db "Mouse@" ; species name
+	dw 6, 120
 
 	db   "It prefers dry,"
 	next "sandy places"

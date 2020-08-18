@@ -1,5 +1,5 @@
-	db "BIRD@" ; species name
-	dw 11, 299
+	db "Bird@" ; species name
+	dw 11, 300
 
 	db   "It slowly flies in"
 	next "a circular pat-"

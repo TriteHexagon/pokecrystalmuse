@@ -1,5 +1,5 @@
-	db "FLAME@" ; species name
-	dw 17, 907
+	db "Flame@" ; species name
+	dw 17, 905
 
 	db   "It uses its wings"
 	next "to fly high. The"

@@ -1,5 +1,5 @@
-	db "SPIKES@" ; species name
-	dw 10, 1152
+	db "Spikes@" ; species name
+	dw 10, 1150
 
 	db   "It can remember"
 	next "only one thing at"

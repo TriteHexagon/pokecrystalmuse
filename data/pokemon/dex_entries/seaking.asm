@@ -1,4 +1,4 @@
-	db "GOLDFISH@" ; species name
+	db "Goldfish@" ; species name
 	dw 13, 390
 
 	db   "When autumn comes,"
