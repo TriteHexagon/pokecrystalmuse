@@ -1057,7 +1057,7 @@ PoliwrathEvosAttacks:
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
-	db 1, ROCK_SMASH
+	db 1, DRAIN_PUNCH
 	db 43, SUBMISSION
 	db 0 ; no more level-up moves
 
@@ -1311,9 +1311,9 @@ RapidashEvosAttacks:
 	db 19, STOMP
 	db 24, FIRE_SPIN
 	db 28, TAKE_DOWN
-	db 29, SMART_STRIKE
 	db 33, AGILITY
 	db 37, FIRE_BLAST
+	db 39, SMART_STRIKE
 	db 42, DRILL_PECK
 	db 46, FLARE_BLITZ
 	db 0 ; no more level-up moves
@@ -1371,9 +1371,9 @@ MagnemiteEvosAttacks:
 	db 17, SCREECH
 	db 20, LIGHT_SCREEN
 	db 25, LOCK_ON
-	db 32, SIGNAL_BEAM
+	db 31, SIGNAL_BEAM
 	db 36, FLASH_CANNON
-	db 44, THUNDER
+	db 42, THUNDER
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
@@ -1393,7 +1393,7 @@ MagnetonEvosAttacks:
 	db 29, TRI_ATTACK
 	db 33, SIGNAL_BEAM
 	db 38, FLASH_CANNON
-	db 46, THUNDER
+	db 45, THUNDER
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
