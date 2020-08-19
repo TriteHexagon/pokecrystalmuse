@@ -714,7 +714,7 @@ FisherRalphSwarmText:
 
 ; Route32UnusedFisher2AfterText:
 ; 	text "You have to have a"
-; 	line "good ROD if you"
+; 	line "good Rod if you"
 
 ; 	para "want to catch good"
 ; 	line "#mon."

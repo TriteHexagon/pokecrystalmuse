@@ -148,7 +148,7 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "Celadon DEPT.STORE"
+	text "Celadon Dept.Store"
 	line "has the biggest"
 
 	para "and best selection"
@@ -210,7 +210,7 @@ CeladonGymSignText:
 CeladonCityDeptStoreSignText:
 	text "Find What You"
 	line "Need at Celadon"
-	cont "DEPT.STORE!"
+	cont "Dept.Store!"
 	done
 
 CeladonCityMansionSignText:
@@ -221,12 +221,12 @@ CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
 	text "The Game Area for"
 	line "Grown-ups--Celadon"
-	cont "GAME CORNER"
+	cont "Game Corner"
 	done
 else
 	text "The Playground for"
 	line "Everybody--Celadon"
-	cont "GAME CORNER"
+	cont "Game Corner"
 	done
 endc
 

@@ -143,7 +143,7 @@ FisherKyleBeatenText:
 
 FisherKyleAfterBattleText:
 	text "The tug you feel"
-	line "on the ROD when"
+	line "on the Rod when"
 
 	para "you hook a #-"
 	line "MON…"

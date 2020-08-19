@@ -2,7 +2,7 @@ ToddAskNumber1Text:
 	text "From here, I can"
 	line "see Goldenrod's"
 
-	para "DEPT.STORE. They"
+	para "Dept.Store. They"
 	line "have bargain sales"
 
 	para "up on the rooftop"
@@ -25,7 +25,7 @@ ToddAskNumber2Text:
 
 ToddNumberAcceptedText:
 	text "I check Goldenrod"
-	line "DEPT.STORE every"
+	line "Dept.Store every"
 
 	para "day, so I know"
 	line "when there's a"

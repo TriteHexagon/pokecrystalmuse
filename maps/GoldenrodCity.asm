@@ -344,7 +344,7 @@ GoldenrodCityYoungster2Text:
 	line "for playing in the"
 
 	para "basement of the"
-	line "DEPT.STORE."
+	line "Dept.Store."
 	done
 
 GoldenrodCityLassText:
@@ -430,7 +430,7 @@ GoldenrodDeptStoreSignText:
 	line "#mon Goods!"
 
 	para "Goldenrod City"
-	line "DEPT.STORE"
+	line "Dept.Store"
 	done
 
 GoldenrodGymSignText:
@@ -459,7 +459,7 @@ GoldenrodCityGameCornerSignText:
 	text "Your Playground!"
 
 	para "Goldenrod City"
-	line "GAME CORNER"
+	line "Game Corner"
 	done
 
 GoldenrodCityNameRaterSignText:

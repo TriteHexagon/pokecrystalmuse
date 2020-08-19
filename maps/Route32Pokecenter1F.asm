@@ -52,7 +52,7 @@ Route32Pokecenter1FFishingGuruText_Question:
 	cont "about you?"
 
 	para "Would you like one"
-	line "of my RODS?"
+	line "of my Rods?"
 	done
 
 Route32Pokecenter1FFishingGuruText_Yes:
@@ -70,7 +70,7 @@ Route32Pokecenter1FFishingGuruText_GiveOldRod:
 	line "be it the sea or a"
 
 	para "stream, try out"
-	line "your ROD."
+	line "your Rod."
 	done
 
 Route32Pokecenter1FFishingGuruText_No:

@@ -353,10 +353,10 @@ OlivinePortFishingGuru1Text:
 	done
 
 OlivinePortFishingGuru2Text:
-	text "How many RODS do"
+	text "How many Rods do"
 	line "you have?"
 
-	para "Different RODS"
+	para "Different Rods"
 	line "catch different"
 	cont "#mon."
 	done

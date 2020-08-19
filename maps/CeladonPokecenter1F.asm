@@ -84,7 +84,7 @@ CeladonPokecenter1FPharmacistText:
 	line "hideout is in the"
 
 	para "basement of the"
-	line "GAME CORNER."
+	line "Game Corner."
 
 	para "Oh, wait. That was"
 	line "three years ago."

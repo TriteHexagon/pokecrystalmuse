@@ -486,7 +486,7 @@ OldRodDesc:
 	next "fish for #mon.@"
 
 GoodRodDesc:
-	db   "A good ROD for"
+	db   "A good Rod for"
 	next "catching #mon.@"
 
 SilverLeafDesc:
@@ -494,7 +494,7 @@ SilverLeafDesc:
 	next "colored leaf.@"
 
 SuperRodDesc:
-	db   "The best ROD for"
+	db   "The best Rod for"
 	next "catching #mon.@"
 
 PPUpDesc:
@@ -875,7 +875,7 @@ LevelBallDesc:
 
 LureBallDesc:
 	db   "A BALL for #mon"
-	next "hooked by a ROD.@"
+	next "hooked by a Rod.@"
 
 FastBallDesc:
 	db   "A BALL for catch-"

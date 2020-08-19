@@ -139,7 +139,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	cont "ing the world's"
 	cont "largest MAGIKARP."
 
-	para "Do you have a ROD?"
+	para "Do you have a Rod?"
 	line "Please help me if"
 	cont "you do."
 	done

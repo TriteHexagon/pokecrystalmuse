@@ -310,7 +310,7 @@ GymStatue_WinningTrainersText:
 
 CoinVendor_WelcomeText:
 	text "Welcome to the"
-	line "GAME CORNER."
+	line "Game Corner."
 	done
 
 CoinVendor_NoCoinCaseText:

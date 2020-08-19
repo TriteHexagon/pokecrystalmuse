@@ -422,7 +422,7 @@ PokefanmJeremyAfterBattleText:
 
 PokefanfGeorgiaSeenText:
 	text "I'm going to shop"
-	line "at the DEPT.STORE"
+	line "at the Dept.Store"
 	cont "and then…"
 	done
 

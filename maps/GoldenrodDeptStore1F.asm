@@ -28,19 +28,19 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Welcome to Golden-"
+	line "rod Dept.Store."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
+	text "The Dept.Store"
 	line "has a decent se-"
 	cont "lection."
 
 	para "But some items"
 	line "are only available"
 
-	para "as GAME CORNER"
+	para "as Game Corner"
 	line "prizes."
 	done
 

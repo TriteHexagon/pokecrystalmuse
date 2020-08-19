@@ -72,14 +72,14 @@ GoldenrodDeptStore2FYoungsterText:
 
 GoldenrodDeptStore2FCooltrainerFText:
 	text "I got my ABRA at"
-	line "the GAME CORNER."
+	line "the Game Corner."
 
 	para "Now it's my best"
 	line "partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
+	text "This Dept.Store"
 	line "makes me realize"
 
 	para "that Goldenrod is"

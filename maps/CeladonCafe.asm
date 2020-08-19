@@ -156,7 +156,7 @@ Fisher3Text_MunchMunch:
 Fisher3Text_GoldenrodIsBest:
 	text "The food is good"
 	line "here, but GOLDEN-"
-	cont "ROD has the best"
+	cont "Rod has the best"
 	cont "food anywhere."
 	done
 

@@ -33,7 +33,7 @@ CeladonDeptStore1FReceptionistText:
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This DEPT.STORE is"
+	text "This Dept.Store is"
 	line "part of the same"
 
 	para "chain as the one"
