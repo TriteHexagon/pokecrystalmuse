@@ -64,6 +64,7 @@ ROMX $0e
 ROMX $0f
 	"Battle Core"
 ROMX $10
+	"bank10"
 	"Evolutions and Attacks"
 ROMX $11
 	"bank11"

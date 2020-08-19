@@ -163,19 +163,19 @@ INCLUDE "engine/battle/ai/scoring.asm"
 INCLUDE "engine/battle/read_trainer_attributes.asm"
 INCLUDE "engine/battle/read_trainer_party.asm"
 
-
 SECTION "Battle Core", ROMX
 
 INCLUDE "engine/battle/core.asm"
 INCLUDE "data/battle/effect_command_pointers.asm"
 
-
 SECTION "old bank10", ROMX
 
 INCLUDE "engine/pokedex/pokedex.asm"
+
+SECTION "bank10", ROMX
+
 INCLUDE "data/moves/moves.asm"
 INCLUDE "engine/pokemon/evolve.asm"
-
 
 SECTION "bank11", ROMX
 
@@ -183,7 +183,6 @@ INCLUDE "engine/events/fruit_trees.asm"
 INCLUDE "engine/battle/ai/move.asm"
 INCLUDE "engine/pokedex/pokedex_2.asm"
 INCLUDE "engine/pokemon/mail.asm"
-
 
 SECTION "Crystal Features 1", ROMX
 

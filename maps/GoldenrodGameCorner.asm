@@ -1,11 +1,9 @@
-GOLDENRODGAMECORNER_NUGGET_COINS     EQU 325
-GOLDENRODGAMECORNER_STAR_PIECE_COINS EQU 300
-GOLDENRODGAMECORNER_BIG_PEARL_COINS  EQU 275
-GOLDENRODGAMECORNER_STARDUST_COINS   EQU 100
-GOLDENRODGAMECORNER_PEARL_COINS      EQU 375
-GOLDENRODGAMECORNER_ABRA_COINS       EQU 100
-GOLDENRODGAMECORNER_CUBONE_COINS     EQU 800
-GOLDENRODGAMECORNER_WOBBUFFET_COINS  EQU 1500
+GOLDENRODGAMECORNER_FIRE_STONE_COINS  EQU 250
+GOLDENRODGAMECORNER_WATER_STONE_COINS EQU 250
+GOLDENRODGAMECORNER_LEAF_STONE_COINS  EQU 250
+GOLDENRODGAMECORNER_ABRA_COINS        EQU 100
+GOLDENRODGAMECORNER_CUBONE_COINS      EQU 800
+GOLDENRODGAMECORNER_WOBBUFFET_COINS   EQU 1500
 
 	object_const_def ; object_event constants
 	const GOLDENRODGAMECORNER_CLERK
@@ -70,66 +68,42 @@ GoldenrodGameCornerItemVendor_LoopScript:
 	loadmenu GoldenrodGameCornerItemVendorMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .Nugget
-	ifequal 2, .StarPiece
-	ifequal 3, .BigPearl
-	ifequal 4, .Stardust
-	ifequal 5, .Pearl
+	ifequal 1, .FireStone
+	ifequal 2, .WaterStone
+	ifequal 3, .LeafStone
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
-.Nugget:
-	checkcoins GOLDENRODGAMECORNER_NUGGET_COINS
+.FireStone:
+	checkcoins GOLDENRODGAMECORNER_FIRE_STONE_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, NUGGET
+	getitemname STRING_BUFFER_3, FIRE_STONE
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem NUGGET
+	giveitem FIRE_STONE
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_NUGGET_COINS
+	takecoins GOLDENRODGAMECORNER_FIRE_STONE_COINS
 	sjump GoldenrodGameCornerItemVendor_FinishScript
 
-.StarPiece:
-	checkcoins GOLDENRODGAMECORNER_STAR_PIECE_COINS
+.WaterStone:
+	checkcoins GOLDENRODGAMECORNER_WATER_STONE_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, STAR_PIECE
+	getitemname STRING_BUFFER_3, WATER_STONE
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem STAR_PIECE
+	giveitem WATER_STONE
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_STAR_PIECE_COINS
+	takecoins GOLDENRODGAMECORNER_WATER_STONE_COINS
 	sjump GoldenrodGameCornerItemVendor_FinishScript
 
-.BigPearl:
-	checkcoins GOLDENRODGAMECORNER_BIG_PEARL_COINS
+.LeafStone:
+	checkcoins GOLDENRODGAMECORNER_LEAF_STONE_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, BIG_PEARL
+	getitemname STRING_BUFFER_3, LEAF_STONE
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem BIG_PEARL
+	giveitem LEAF_STONE
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_BIG_PEARL_COINS
-	sjump GoldenrodGameCornerItemVendor_FinishScript
-
-.Stardust:
-	checkcoins GOLDENRODGAMECORNER_STARDUST_COINS
-	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, STARDUST
-	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
-	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem STARDUST
-	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_STARDUST_COINS
-	sjump GoldenrodGameCornerItemVendor_FinishScript
-
-.Pearl:
-	checkcoins GOLDENRODGAMECORNER_PEARL_COINS
-	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
-	getitemname STRING_BUFFER_3, PEARL
-	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
-	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
-	giveitem PEARL
-	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins GOLDENRODGAMECORNER_PEARL_COINS
+	takecoins GOLDENRODGAMECORNER_LEAF_STONE_COINS
 	sjump GoldenrodGameCornerItemVendor_FinishScript
 
 GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript:
@@ -170,18 +144,16 @@ GoldenrodGameCornerPrizeVendor_NoCoinCaseScript:
 
 GoldenrodGameCornerItemVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	menu_coords 0, 2, 17, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 6 ; items
-	db "Nugget     325@"
-	db "Star Piece 300@"
-	db "Big Pearl  275@"
-	db "Stardust   100@"
-	db "Pearl       75@"
+	db 4 ; items
+	db "Fire Stone  250@"
+	db "Water Stone 250@"
+	db "Leaf Stone  250@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
@@ -258,16 +230,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 17, TEXTBOX_Y - 1
+	menu_coords 0, 2, 16, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ABRA        100@"
-	db "CUBONE      800@"
-	db "WOBBUFFET  1500@"
+	db "Abra       100@"
+	db "Cubone     800@"
+	db "Wobbuffet 1500@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
