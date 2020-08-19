@@ -1,5 +1,5 @@
-	db "SCUFFLE@" ; species name
-	dw 7, 209
+	db "Scuffle@" ; species name
+	dw 7, 210
 
 	db   "To brush up on its"
 	next "fighting skills,"

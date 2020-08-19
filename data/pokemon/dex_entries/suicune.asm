@@ -1,5 +1,5 @@
-	db "AURORA@" ; species name
-	dw 20, 1869
+	db "Aurora@" ; species name
+	dw 20, 1870
 
 	db   "This divine"
 	next "#mon blows"

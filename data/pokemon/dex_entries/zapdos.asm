@@ -1,4 +1,4 @@
-	db "ELECTRIC@" ; species name
+	db "Electric@" ; species name
 	dw 16, 526
 
 	db   "Legendary bird"

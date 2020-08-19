@@ -1,5 +1,5 @@
-	db "HIBERNANT@" ; species name
-	dw 18, 1256
+	db "Hibernant@" ; species name
+	dw 18, 1258
 
 	db   "Although it has a"
 	next "large body, it is"

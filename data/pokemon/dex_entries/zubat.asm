@@ -1,5 +1,5 @@
-	db "BAT@" ; species name
-	dw 8, 77
+	db "Bat@" ; species name
+	dw 8, 75
 
 	db   "During the day, it"
 	next "gathers with"

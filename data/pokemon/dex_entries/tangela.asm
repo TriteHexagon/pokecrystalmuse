@@ -1,5 +1,5 @@
-	db "VINE@" ; species name
-	dw 10, 349
+	db "Vine@" ; species name
+	dw 10, 350
 
 	db   "During battle, it"
 	next "constantly moves"

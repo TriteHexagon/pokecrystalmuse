@@ -1,5 +1,5 @@
 	db "Balloon@" ; species name
-	dw 10, 118
+	dw 10, 120
 
 	db   "The rich, fluffy"
 	next "fur that covers"

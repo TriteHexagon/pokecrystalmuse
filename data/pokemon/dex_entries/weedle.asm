@@ -1,4 +1,4 @@
-	db "HAIRY BUG@" ; species name
+	db "Hairy Bug@" ; species name
 	dw 3, 32
 
 	db   "The barb on top of"

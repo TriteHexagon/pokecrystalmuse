@@ -1332,7 +1332,7 @@ SlowpokeEvosAttacks:
 	db 25, WATER_PULSE
 	db 30, ZEN_HEADBUTT
 	db 34, REST
-	db 35, SNORE
+	;db 35, SNORE
 	db 38, AMNESIA
 	db 42, PSYCHIC_M
 	db 45, RAIN_DANCE
@@ -1352,7 +1352,7 @@ SlowbroEvosAttacks:
 	db 25, WATER_PULSE
 	db 30, ZEN_HEADBUTT
 	db 34, REST
-	db 35, SNORE
+	;db 35, SNORE
 	db 36, SLUDGE_BOMB
 	db 40, AMNESIA
 	db 45, PSYCHIC_M

@@ -1,4 +1,4 @@
-	db "FLYCATCHER@" ; species name
+	db "FlyCatcher@" ; species name
 	dw 10, 64
 
 	db   "When it's hungry,"

@@ -1,5 +1,5 @@
-	db "ARMOR@" ; species name
-	dw 20, 2018
+	db "Armor@" ; species name
+	dw 20, 2020
 
 	db   "In just one of its"
 	next "mighty hands, it"

@@ -1,5 +1,5 @@
-	db "IRON SNAKE@" ; species name
-	dw 92, 4001
+	db "Iron Snake@" ; species name
+	dw 92, 4000
 
 	db   "The many small"
 	next "metal particles"

@@ -1,5 +1,5 @@
-	db "WILD BULL@" ; species name
-	dw 14, 885
+	db "Wild Bull@" ; species name
+	dw 14, 884
 
 	db   "These violent"
 	next "#mon fight"

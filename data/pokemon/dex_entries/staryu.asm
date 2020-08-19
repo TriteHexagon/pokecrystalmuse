@@ -1,4 +1,4 @@
-	db "STARSHAPE@" ; species name
+	db "Starshape@" ; species name
 	dw 8, 345
 
 	db   "When the stars"

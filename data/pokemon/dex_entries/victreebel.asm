@@ -1,5 +1,5 @@
-	db "FLYCATCHER@" ; species name
-	dw 17, 154
+	db "FlyCatcher@" ; species name
+	dw 17, 155
 
 	db   "Once ingested into"
 	next "this #mon's"

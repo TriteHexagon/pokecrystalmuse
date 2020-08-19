@@ -1,5 +1,5 @@
-	db "PATIENT@" ; species name
-	dw 13, 286
+	db "Patient@" ; species name
+	dw 13, 285
 
 	db   "In order to con-"
 	next "ceal its black"

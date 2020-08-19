@@ -1,4 +1,4 @@
-	db "MYSTIC@" ; species name
+	db "Mystic@" ; species name
 	dw 15, 150
 
 	db   "Once it begins to"

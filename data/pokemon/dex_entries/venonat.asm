@@ -1,5 +1,5 @@
-	db "INSECT@" ; species name
-	dw 10, 299
+	db "Insect@" ; species name
+	dw 10, 300
 
 	db   "The small bugs it"
 	next "eats appear only"

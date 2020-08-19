@@ -1,5 +1,5 @@
-	db "SUN@" ; species name
-	dw 8, 86
+	db "Sun@" ; species name
+	dw 8, 85
 
 	db   "As the hot season"
 	next "approaches, the"

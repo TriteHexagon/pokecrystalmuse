@@ -1,5 +1,5 @@
-	db "TINYTURTLE@" ; species name
-	dw 5, 91
+	db "TinyTurtle@" ; species name
+	dw 5, 90
 
 	db   "When it feels"
 	next "threatened, it"

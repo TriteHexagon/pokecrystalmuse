@@ -1,5 +1,5 @@
-	db "PIG@" ; species name
-	dw 4, 64
+	db "Pig@" ; species name
+	dw 4, 65
 
 	db   "It uses the tip of"
 	next "its nose to dig"

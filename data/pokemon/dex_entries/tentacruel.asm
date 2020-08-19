@@ -1,5 +1,5 @@
-	db "JELLYFISH@" ; species name
-	dw 16, 549
+	db "Jellyfish@" ; species name
+	dw 16, 550
 
 	db   "When its 80 feel-"
 	next "ers absorb water,"

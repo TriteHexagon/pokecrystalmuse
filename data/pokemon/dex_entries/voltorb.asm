@@ -1,4 +1,4 @@
-	db "BALL@" ; species name
+	db "Ball@" ; species name
 	dw 5, 104
 
 	db   "During the study"

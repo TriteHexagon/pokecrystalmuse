@@ -1,5 +1,5 @@
-	db "WATER Fish@" ; species name
-	dw 4, 86
+	db "Water Fish@" ; species name
+	dw 4, 85
 
 	db   "A mucous"
 	next "membrane covers"

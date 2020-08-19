@@ -1,4 +1,4 @@
-	db "BUBBLE JET@" ; species name
+	db "Bubble Jet@" ; species name
 	dw 10, 290
 
 	db   "As it uses the"

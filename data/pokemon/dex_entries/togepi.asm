@@ -1,5 +1,5 @@
-	db "SPIKE BALL@" ; species name
-	dw 3, 14
+	db "Spike Ball@" ; species name
+	dw 3, 15
 
 	db   "It is considered"
 	next "to be a symbol of"

@@ -1,4 +1,4 @@
-	db "BIG JAW@" ; species name
+	db "Big Jaw@" ; species name
 	dw 6, 95
 
 	db   "This rough critter"

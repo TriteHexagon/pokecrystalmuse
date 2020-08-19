@@ -1,5 +1,5 @@
 	db "Volcano@" ; species name
-	dw 17, 794
+	dw 17, 795
 
 	db   "When heat from its"
 	next "body causes the"

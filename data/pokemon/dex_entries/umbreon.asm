@@ -1,5 +1,5 @@
-	db "MOONLIGHT@" ; species name
-	dw 10, 272
+	db "Moonlight@" ; species name
+	dw 10, 270
 
 	db   "On the night of a"
 	next "full moon, or when"

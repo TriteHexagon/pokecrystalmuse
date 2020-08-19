@@ -1,4 +1,4 @@
-	db "BIG HORN@" ; species name
+	db "Big Horn@" ; species name
 	dw 14, 712
 
 	db   "The round balls"

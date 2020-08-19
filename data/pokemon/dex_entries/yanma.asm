@@ -1,5 +1,5 @@
-	db "CLEAR WING@" ; species name
-	dw 12, 381
+	db "Clear Wing@" ; species name
+	dw 12, 380
 
 	db   "It can see in all"
 	next "directions without"

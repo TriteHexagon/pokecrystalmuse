@@ -1,5 +1,5 @@
-	db "JELLYFISH@" ; species name
-	dw 9, 454
+	db "Jellyfish@" ; species name
+	dw 9, 455
 
 	db   "As it floats along"
 	next "on the waves, it"

@@ -1,4 +1,4 @@
-	db "HAPPINESS@" ; species name
+	db "Happiness@" ; species name
 	dw 6, 32
 
 	db   "Although it does"

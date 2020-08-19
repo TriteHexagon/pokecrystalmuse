@@ -1,5 +1,5 @@
-	db "LITTLE BEAR@" ; species name
-	dw 6, 86
+	db "Little Bear@" ; species name
+	dw 6, 88
 
 	db   "It always licks"
 	next "honey. Its palm"

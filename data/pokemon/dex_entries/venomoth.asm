@@ -1,5 +1,5 @@
-	db "POISONMOTH@" ; species name
-	dw 15, 127
+	db "PoisonMoth@" ; species name
+	dw 15, 125
 
 	db   "The scales it"
 	next "scatters will"

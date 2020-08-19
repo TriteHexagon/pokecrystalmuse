@@ -1,5 +1,5 @@
-	db "STRINGSPIT@" ; species name
-	dw 5, 86
+	db "StringSpit@" ; species name
+	dw 5, 85
 
 	db   "If prey becomes"
 	next "ensnared in its"

@@ -1,4 +1,4 @@
-	db "SEED@" ; species name
+	db "Seed@" ; species name
 	dw 3, 18
 
 	db   "It is very weak."
