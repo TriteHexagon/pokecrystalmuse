@@ -1398,14 +1398,22 @@ MagnetonEvosAttacks:
 
 FarfetchDEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, MIRROR_MOVE
+	db 1, POISON_JAB
 	db 1, PECK
-	db 7, SAND_ATTACK
-	db 13, LEER
-	db 19, FURY_ATTACK
-	db 25, SWORDS_DANCE
-	db 31, AGILITY
-	db 37, SLASH
-	db 44, FALSE_SWIPE
+	db 1, SAND_ATTACK
+	db 1, LEER
+	db 1, FURY_CUTTER
+	db 4, FOCUS_ENERGY
+	db 9, FURY_ATTACK
+	db 13, RAZOR_LEAF
+	db 18, AGILITY
+	db 22, SLASH
+	db 25, AIR_SLASH
+	db 27, FALSE_SWIPE
+	db 31, SWORDS_DANCE
+	db 36, CROSS_CHOP
+	db 40, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -1413,27 +1421,35 @@ DoduoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
-	db 9, PURSUIT
-	db 13, FURY_ATTACK
-	db 21, QUICK_ATTACK
-	db 25, FURY_ATTACK
-	db 33, DRILL_PECK
-	db 37, AGILITY
+	db 5, QUICK_ATTACK
+	db 8, WORK_UP
+	db 12, FURY_ATTACK
+	db 15, PURSUIT
+	db 22, AGILITY
+	db 27, DRILL_PECK
+	db 32, SWORDS_DANCE
+	db 38, HI_HUMP_KICK
+	db 44, THRASH
 	db 0 ; no more level-up moves
 
 DodrioEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, MIRROR_MOVE
+	db 1, SUPERSONIC
 	db 1, PECK
 	db 1, GROWL
-	db 1, PURSUIT
-	db 1, FURY_ATTACK
-	db 9, PURSUIT
-	db 13, FURY_ATTACK
-	db 21, QUICK_ATTACK
-	db 25, FURY_ATTACK
+	db 1, QUICK_ATTACK
+	db 1, WORK_UP
+	db 5, QUICK_ATTACK
+	db 8, WORK_UP
+	db 12, FURY_ATTACK
+	db 15, PURSUIT
+	db 22, AGILITY
+	db 27, DRILL_PECK
 	db 30, TRI_ATTACK
-	db 38, DRILL_PECK
-	db 47, AGILITY
+	db 35, SWORDS_DANCE
+	db 40, HI_HUMP_KICK
+	db 46, THRASH
 	db 0 ; no more level-up moves
 
 SeelEvosAttacks:
