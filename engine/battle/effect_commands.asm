@@ -2669,14 +2669,14 @@ PlayerAttackDamage:
 .physicalcrit
 	ld hl, wBattleMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
+	jr c, .TrySpeciesATKBoost
 
 	ld hl, wEnemyDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wPlayerAttack
-	jr .thickclub
+	jr .TrySpeciesATKBoost
 
 .special
 	ld hl, wEnemyMonSpclDef
@@ -2693,7 +2693,7 @@ PlayerAttackDamage:
 .specialcrit
 	ld hl, wBattleMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .lightball
+	jr c, .TrySpeciesSPABoost
 
 	ld hl, wEnemySpDef
 	ld a, [hli]
@@ -2701,14 +2701,14 @@ PlayerAttackDamage:
 	ld c, [hl]
 	ld hl, wPlayerSpAtk
 
-.lightball
+.TrySpeciesSPABoost
 ; Note: Returns player special attack at hl in hl.
-	call LightBallBoost
+	call SpeciesSPABoost
 	jr .done
 
-.thickclub
+.TrySpeciesATKBoost
 ; Note: Returns player attack at hl in hl.
-	call ThickClubBoost
+	call SpeciesATKBoost
 
 .done
 	call TruncateHL_BC
@@ -2809,7 +2809,7 @@ CheckDamageStatsCritical:
 	pop hl
 	ret
 
-ThickClubBoost:
+SpeciesATKBoost: ;rework?
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is Cubone or Marowak and
@@ -2819,12 +2819,30 @@ ThickClubBoost:
 	ld b, CUBONE
 	ld c, MAROWAK
 	ld d, THICK_CLUB
-	call SpeciesItemBoost
+	call TestSpeciesItemBoost
+	jr nc, .boost
+; If the attacking monster is Pikachu and it's
+; holding a Light Ball, double it.
+	ld b, PIKACHU
+	ld c, PIKACHU
+	ld d, LIGHT_BALL
+	call TestSpeciesItemBoost
+	jr nc, .boost
+; If the attacking monster is Delibird and it's
+; holding a Jingly Bell, double it.
+	ld b, DELIBIRD
+	ld c, DELIBIRD
+	ld d, JINGLY_BELL
+	call TestSpeciesItemBoost
+	jr c, .done
+.boost
+	call DoSpeciesItemBoost
+.done
 	pop de
 	pop bc
 	ret
 
-LightBallBoost:
+SpeciesSPABoost:
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is Pikachu and it's
@@ -2834,12 +2852,23 @@ LightBallBoost:
 	ld b, PIKACHU
 	ld c, PIKACHU
 	ld d, LIGHT_BALL
-	call SpeciesItemBoost
+	call TestSpeciesItemBoost
+	jr nc, .boost
+; If the attacking monster is Delibird and it's
+; holding a Jingly Bell, double it.
+	ld b, DELIBIRD
+	ld c, DELIBIRD
+	ld d, JINGLY_BELL
+	call TestSpeciesItemBoost
+	jr c, .done
+.boost
+	call DoSpeciesItemBoost
+.done
 	pop de
 	pop bc
 	ret
 
-SpeciesItemBoost:
+TestSpeciesItemBoost:
 ; Return in hl the stat value at hl.
 
 ; If the attacking monster is species b or c and
@@ -2849,7 +2878,7 @@ SpeciesItemBoost:
 	ld l, [hl]
 	ld h, a
 
-	push hl
+	push hl ;hl has the attacking stat (ATK or SPA)
 	ld a, MON_SPECIES
 	call BattlePartyAttr
 
@@ -2864,16 +2893,22 @@ SpeciesItemBoost:
 	cp b
 	jr z, .GetItemHeldEffect
 	cp c
-	ret nz
+	jr nz, .fail
 
 .GetItemHeldEffect:
 	push hl
 	call GetUserItem
 	ld a, [hl]
-	pop hl
 	cp d
-	ret nz
+	jr nz, .fail
+	xor a ; resets the carry flag
+	ret
+.fail
+	xor a ; resets the carry flag
+	scf ;sets the carry flag
+	ret
 
+DoSpeciesItemBoost:
 ; Double the stat
 	sla l
 	rl h
@@ -2919,14 +2954,14 @@ EnemyAttackDamage:
 .physicalcrit
 	ld hl, wEnemyMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
+	jr c, .TrySpeciesATKBoost
 
 	ld hl, wPlayerDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemyAttack
-	jr .thickclub
+	jr .TrySpeciesATKBoost
 
 .Special:
 	ld hl, wBattleMonSpclDef
@@ -2943,19 +2978,19 @@ EnemyAttackDamage:
 .specialcrit
 	ld hl, wEnemyMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .lightball
+	jr c, .TrySpeciesSPABoost
 	ld hl, wPlayerSpDef
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemySpAtk
 
-.lightball
-	call LightBallBoost
+.TrySpeciesSPABoost
+	call SpeciesSPABoost
 	jr .done
 
-.thickclub
-	call ThickClubBoost
+.TrySpeciesATKBoost
+	call SpeciesATKBoost
 
 .done
 	call TruncateHL_BC

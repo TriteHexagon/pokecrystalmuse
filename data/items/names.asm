@@ -151,7 +151,7 @@ ItemNames::
 	db "Leppa Berry@"
 	db "Dragon Scale@"
 	db "Berserk Gene@"
-	db "Teru-Sama@" ;unused
+	db "Jingly Bell@" ;altered
 	db "Teru-Sama@" ;unused
 	db "Teru-Sama@" ;unused
 	db "Sacred Ash@"

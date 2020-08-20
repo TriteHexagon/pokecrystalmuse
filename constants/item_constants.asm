@@ -158,7 +158,7 @@
 	const LEPPA_BERRY ; 96
 	const DRAGON_SCALE ; 97
 	const BERSERK_GENE ; 98
-	const ITEM_99      ; 99
+	const JINGLY_BELL  ; 99
 	const ITEM_9A      ; 9a
 	const ITEM_9B      ; 9b
 	const SACRED_ASH   ; 9c
@@ -178,8 +178,8 @@
 	const PINK_BOW     ; aa
 	const ITEM_AB      ; ab
 	const UP_GRADE     ; ac
-	const ORAN_BERRY        ; ad
-	const SITRUS_BERRY   ; ae
+	const ORAN_BERRY   ; ad
+	const SITRUS_BERRY ; ae
 	const SQUIRTBOTTLE ; af
 	const ITEM_B0      ; b0
 	const PARK_BALL    ; b1

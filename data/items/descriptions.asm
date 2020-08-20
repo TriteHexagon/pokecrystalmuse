@@ -152,7 +152,7 @@ ItemDescriptions:
 	dw MysteryBerryDesc
 	dw DragonScaleDesc
 	dw BerserkGeneDesc
-	dw TeruSama18Desc
+	dw JinglyBellDesc
 	dw TeruSama19Desc
 	dw TeruSama20Desc
 	dw SacredAshDesc
@@ -848,8 +848,9 @@ BerserkGeneDesc:
 	db   "Boosts Attack but"
 	next "causes confusion.@"
 
-TeruSama18Desc:
-	db   "?@"
+JinglyBellDesc:
+	db   "A bell with a nice"
+	next "sound. (HOLD)@"
 
 TeruSama19Desc:
 	db   "?@"

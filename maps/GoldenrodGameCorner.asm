@@ -1,7 +1,7 @@
 GOLDENRODGAMECORNER_FIRE_STONE_COINS  EQU 250
 GOLDENRODGAMECORNER_WATER_STONE_COINS EQU 250
 GOLDENRODGAMECORNER_LEAF_STONE_COINS  EQU 250
-GOLDENRODGAMECORNER_ABRA_COINS        EQU 100
+GOLDENRODGAMECORNER_DELIBIRD_COINS        EQU 100
 GOLDENRODGAMECORNER_CUBONE_COINS      EQU 800
 GOLDENRODGAMECORNER_WOBBUFFET_COINS   EQU 1500
 
@@ -175,21 +175,21 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
 .Abra:
-	checkcoins GOLDENRODGAMECORNER_ABRA_COINS
+	checkcoins GOLDENRODGAMECORNER_DELIBIRD_COINS
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, ABRA
+	getmonname STRING_BUFFER_3, DELIBIRD
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval ABRA
+	setval DELIBIRD
 	special GameCornerPrizeMonCheckDex
-	givepoke ABRA, 5
-	takecoins GOLDENRODGAMECORNER_ABRA_COINS
+	givepoke DELIBIRD, 50, JINGLY_BELL
+	takecoins GOLDENRODGAMECORNER_DELIBIRD_COINS
 	sjump .loop
 
 .Cubone:
