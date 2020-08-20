@@ -2816,25 +2816,24 @@ SpeciesATKBoost: ;rework?
 ; it's holding a Thick Club, double it.
 	push bc
 	push de
-	ld b, CUBONE
-	ld c, MAROWAK
-	ld d, THICK_CLUB
+	lb bc, CUBONE, MAROWAK
 	call TestSpeciesItemBoost
-	jr nc, .boost
+	cp 1
+	jr nz, .boost
 ; If the attacking monster is Pikachu and it's
 ; holding a Light Ball, double it.
-	ld b, PIKACHU
-	ld c, PIKACHU
+	lb bc, PIKACHU, PIKACHU
 	ld d, LIGHT_BALL
 	call TestSpeciesItemBoost
-	jr nc, .boost
+	cp 1
+	jr nz, .boost
 ; If the attacking monster is Delibird and it's
 ; holding a Jingly Bell, double it.
-	ld b, DELIBIRD
-	ld c, DELIBIRD
+	lb bc, DELIBIRD, DELIBIRD
 	ld d, JINGLY_BELL
 	call TestSpeciesItemBoost
-	jr c, .done
+	cp 1
+	jr z, .done
 .boost
 	call DoSpeciesItemBoost
 .done
@@ -2849,18 +2848,18 @@ SpeciesSPABoost:
 ; holding a Light Ball, double it.
 	push bc
 	push de
-	ld b, PIKACHU
-	ld c, PIKACHU
+	lb bc, PIKACHU, PIKACHU
 	ld d, LIGHT_BALL
 	call TestSpeciesItemBoost
-	jr nc, .boost
+	cp 1
+	jr nz, .boost
 ; If the attacking monster is Delibird and it's
 ; holding a Jingly Bell, double it.
-	ld b, DELIBIRD
-	ld c, DELIBIRD
+	lb bc, DELIBIRD, DELIBIRD
 	ld d, JINGLY_BELL
 	call TestSpeciesItemBoost
-	jr c, .done
+	cp 1
+	jr z, .done
 .boost
 	call DoSpeciesItemBoost
 .done
@@ -2901,11 +2900,9 @@ TestSpeciesItemBoost:
 	ld a, [hl]
 	cp d
 	jr nz, .fail
-	xor a ; resets the carry flag
 	ret
 .fail
-	xor a ; resets the carry flag
-	scf ;sets the carry flag
+	ld a, 1
 	ret
 
 DoSpeciesItemBoost:
