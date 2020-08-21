@@ -5266,18 +5266,24 @@ BattleAnim_RazorShell:
 
 BattleAnim_SignalBeam:
 	anim_1gfx ANIM_GFX_SHAPES
-	anim_sound 6, 2, SFX_HYPER_BEAM
 .loop
 	anim_obj ANIM_OBJ_SIGNAL_BEAM_RED, 64, 92, $0
+	anim_sound 0, 0, SFX_SHINE
 	anim_wait 3
 	anim_obj ANIM_OBJ_SIGNAL_BEAM_YELLOW, 64, 92, $0
+	anim_sound 0, 0, SFX_SHINE
 	anim_wait 3
 	anim_obj ANIM_OBJ_SIGNAL_BEAM_GREEN, 64, 92, $0
+	anim_sound 0, 0, SFX_SHINE
 	anim_wait 3
 	anim_obj ANIM_OBJ_SIGNAL_BEAM_BLUE, 64, 92, $0
+	anim_sound 0, 0, SFX_SHINE
 	anim_wait 3
 	anim_loop 3, .loop
-	anim_wait 16
+.loop2
+	anim_sound 0, 0, SFX_SHINE
+	anim_wait 3
+	anim_loop 10, .loop2
 	anim_ret
 
 BattleAnim_AquaJet:

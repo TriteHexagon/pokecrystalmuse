@@ -186,6 +186,8 @@ PlayersHouseBookshelfScript:
 	giveitem MAX_ELIXER, 99
 	giveitem RARE_CANDY, 99
 	giveitem ESCAPE_ROPE, 99
+	giveitem SILVER_LEAF, 99
+	giveitem GOLD_LEAF, 99
 	; all balls
 	giveitem POKE_BALL, 99
 	giveitem GREAT_BALL, 99

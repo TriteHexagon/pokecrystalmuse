@@ -349,6 +349,9 @@ ENDM
 	add_mt ZEN_HEADBUTT
 	add_mt SEED_BOMB
 	add_mt DRILL_RUN
+	add_mt ROCK_SLIDE
+	add_mt SIGNAL_BEAM
+	add_mt DRAIN_PUNCH
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1

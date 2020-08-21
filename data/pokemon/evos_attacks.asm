@@ -1428,7 +1428,7 @@ DoduoEvosAttacks:
 	db 22, AGILITY
 	db 27, DRILL_PECK
 	db 32, SWORDS_DANCE
-	db 38, HI_HUMP_KICK
+	db 38, HI_JUMP_KICK
 	db 44, THRASH
 	db 0 ; no more level-up moves
 
@@ -1448,7 +1448,7 @@ DodrioEvosAttacks:
 	db 27, DRILL_PECK
 	db 30, TRI_ATTACK
 	db 35, SWORDS_DANCE
-	db 40, HI_HUMP_KICK
+	db 40, HI_JUMP_KICK
 	db 46, THRASH
 	db 0 ; no more level-up moves
 

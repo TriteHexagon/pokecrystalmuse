@@ -2,6 +2,7 @@
 	const ROUTE26HEALHOUSE_TEACHER
 	const ROUTE26HEALHOUSE_TUTOR1
 	const ROUTE26HEALHOUSE_TUTOR2
+	const ROUTE26HEALHOUSE_TUTOR3
 
 Route26HealHouse_MapScripts:
 	db 0 ; scene scripts
@@ -162,6 +163,66 @@ AdvancedMoveTutor2Script:
 	iffalse Refused
 	sjump .AdvancedMoveTutor2BeginTeachMove
 
+;third tutor
+
+AdvancedMoveTutor3Script:
+	faceplayer
+	opentext
+	writetext AdvancedMoveTutorAskTeachAMoveText
+	yesorno
+	iffalse Refused
+.AdvancedMoveTutor3BeginTeachMove
+	checkitem MAX_REPEL
+	iffalse NoSilverLeaf
+	writetext AdvancedMoveTutorWhichMoveShouldITeachText
+	loadmenu .MoveMenuHeader3
+	verticalmenu
+	closewindow
+	ifequal 1, .TutorMove7
+	ifequal 2, .TutorMove8
+	ifequal 3, .TutorMove9
+	sjump Refused
+
+.TutorMove7:
+	setval DRAIN_PUNCH
+	sjump .TryTeachMove3
+.TutorMove8:
+	setval ROCK_SLIDE
+	sjump .TryTeachMove3
+.TutorMove9:
+	setval SIGNAL_BEAM
+
+.TryTeachMove3
+	writetext AdvancedMoveTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove3
+	sjump Refused
+
+.MoveMenuHeader3:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	dw .MenuData2
+	db 1 ; default option
+
+.MenuData2:
+	db STATICMENU_CURSOR ; flags
+	db 4 ; items
+	db "Drain Punch@"
+	db "Rock Slide@"
+	db "Signal Beam@"
+	db "CANCEL@"
+
+.TeachMove3:
+	takeitem MAX_REPEL
+	writetext AdvancedMoveTutorAfterTeachingText
+	promptbutton
+	writetext AdvancedMoveTutorTeachAnotherMoveText
+	yesorno
+	iffalse Refused
+	sjump .AdvancedMoveTutor3BeginTeachMove
+
+; generic
+
 Refused:
 	writetext AdvancedMoveTutorRefusedText
 	waitbutton
@@ -238,7 +299,8 @@ Route26HealHouse_MapEvents:
 	bg_event  0,  1, BGEVENT_READ, Route26HealHouseBookshelf
 	bg_event  1,  1, BGEVENT_READ, Route26HealHouseBookshelf
 
-	db 3 ; object events
+	db 4 ; object events
 	object_event  2,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route26HealHouseTeacherScript, -1
 	object_event  5,  3, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AdvancedMoveTutor1Script, -1
 	object_event  5,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, AdvancedMoveTutor2Script, -1
+	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AdvancedMoveTutor3Script, -1
