@@ -182,3 +182,4 @@ SpecialsPointers::
 	add_special InitialSetDSTFlag
 	add_special InitialClearDSTFlag
 	add_special DummySpecial_c224
+	add_special MoveReminder
