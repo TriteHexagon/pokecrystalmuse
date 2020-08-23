@@ -85,9 +85,9 @@ EvolutionMoves::
     db NO_MOVE      ;Doduo
     db TRI_ATTACK   ;Dodrio
     db NO_MOVE      ;Seel
-    db NO_MOVE      ;Dewgong
+    db SIGNAL_BEAM  ;Dewgong
     db NO_MOVE      ;Grimer
-    db NO_MOVE      ;Muk
+    db TOXIC        ;Muk
     db NO_MOVE      ;Shellder
     db NO_MOVE      ;Cloyster
     db NO_MOVE      ;Gastly
