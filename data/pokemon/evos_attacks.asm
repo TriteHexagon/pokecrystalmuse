@@ -1456,27 +1456,33 @@ SeelEvosAttacks:
 	db EVOLVE_LEVEL, 34, DEWGONG
 	db 0 ; no more evolutions
 	db 1, HEADBUTT
-	db 5, GROWL
-	db 16, AURORA_BEAM
-	db 21, REST
+	db 4, GROWL
+	db 8, ENCORE
+	db 12, AQUA_JET
+	db 16, ICY_WIND
+	db 20, REST
+	db 26, AURORA_BEAM
 	db 32, TAKE_DOWN
-	db 37, ICE_BEAM
-	db 48, SAFEGUARD
+	db 36, ICE_BEAM
+	db 42, SAFEGUARD
+	db 46, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 DewgongEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HEADBUTT
-	db 1, GROWL
-	db 1, AURORA_BEAM
-	db 5, GROWL
-	db 16, AURORA_BEAM
-	db 21, REST
+	db 4, GROWL
+	db 8, ENCORE
+	db 12, AQUA_JET
+	db 16, ICY_WIND
+	db 20, REST
+	db 26, AURORA_BEAM
 	db 32, TAKE_DOWN
-	db 43, ICE_BEAM
-	db 60, SAFEGUARD
-;SIGNAL_BEAMAQUA_JET
-;FAKE_OUTENCOREDOUBLE_EDGE
+	db 33, SIGNAL_BEAM
+	db 38, ICE_BEAM
+	db 46, SAFEGUARD
+	db 48, DOUBLE_EDGE
+;FAKE_OUT-SMART_STRIKE-ICICLE_CRASH-ICE_SHARD
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:
@@ -1484,36 +1490,47 @@ GrimerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, POUND
-	db 5, HARDEN
-	db 10, DISABLE
-	db 16, VENOSHOCK
-	db 23, MINIMIZE
-	db 31, SCREECH
-	db 40, ACID_ARMOR
-	db 50, SLUDGE_BOMB
+	db 4, HARDEN
+	db 7, MUD_SLAP
+	db 12, DISABLE
+	db 15, POISON_FANG
+	db 18, MUD_SHOT
+	db 21, MINIMIZE
+	db 26, VENOSHOCK
+	db 29, SCREECH
+	db 32, SLUDGE_BOMB
+	db 35, HAZE
+	db 39, ACID_ARMOR
+	db 44, GUNK_SHOT
+	db 48, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
 	db 0 ; no more evolutions
-	; moves are not sorted by level
 	db 1, POISON_GAS
 	db 1, POUND
-	db 1, HARDEN
-	db 1, MOONBLAST
-	db 33, HARDEN
-	db 37, DISABLE
-	db 45, VENOSHOCK
-	db 23, MINIMIZE
-	db 31, SCREECH
-	db 45, ACID_ARMOR
-	db 60, SLUDGE_BOMB
+	db 4, HARDEN
+	db 7, MUD_SLAP
+	db 12, DISABLE
+	db 15, POISON_FANG
+	db 18, MUD_SHOT
+	db 21, MINIMIZE
+	db 26, VENOSHOCK
+	db 29, SCREECH
+	db 32, SLUDGE_BOMB
+	db 35, HAZE
+	db 37, TOXIC
+	db 41, ACID_ARMOR
+	db 46, GUNK_SHOT
+	db 50, DESTINY_BOND
+;MOONBLAST-SHADOW_SNEAK
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, CLOYSTER
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, DEFENSE_CURL
+	db 1, HARDEN
 	db 9, SUPERSONIC
 	db 17, AURORA_BEAM
 	db 25, PROTECT
