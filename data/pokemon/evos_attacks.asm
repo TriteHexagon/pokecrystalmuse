@@ -875,10 +875,10 @@ MeowthEvosAttacks:
 	db 1, GROWL
 	db 3, BITE
 	db 6, FAKE_OUT
-	db 9, SWIFT
+	db 9, FURY_SWIPES
 	db 12, PAY_DAY
-	db 15, SNARL
-	db 19, FURY_SWIPES
+	db 15, SWIFT
+	db 19, SNARL
 	db 23, SCREECH
 	db 27, SLASH
 	db 31, NASTY_PLOT
@@ -893,10 +893,10 @@ PersianEvosAttacks:
 	db 1, BITE
 	db 3, BITE
 	db 6, FAKE_OUT
-	db 9, SWIFT
+	db 9, FURY_SWIPES
 	db 12, PAY_DAY
-	db 15, SNARL
-	db 19, FURY_SWIPES
+	db 15, SWIFT
+	db 19, SNARL
 	db 23, SCREECH
 	db 27, SLASH
 	db 33, NASTY_PLOT
@@ -1475,6 +1475,8 @@ DewgongEvosAttacks:
 	db 32, TAKE_DOWN
 	db 43, ICE_BEAM
 	db 60, SAFEGUARD
+;SIGNAL_BEAMAQUA_JET
+;FAKE_OUTENCOREDOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:
