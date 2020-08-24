@@ -6133,9 +6133,9 @@ LoadEnemyMon:
 
 ; Failing that, it's all up to chance
 ;  Effective chances:
-;    75% None
-;    23% Item1
-;     2% Item2
+;    45% None
+;    50% Item1
+;     5% Item2
 
 ; 50% chance of getting an item
 	call BattleRandom
