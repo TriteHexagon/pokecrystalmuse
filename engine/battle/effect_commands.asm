@@ -2669,14 +2669,14 @@ PlayerAttackDamage:
 .physicalcrit
 	ld hl, wBattleMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
+	jr c, .physicalBoost
 
 	ld hl, wEnemyDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wPlayerAttack
-	jr .thickclub
+	jr .physicalBoost
 
 .special
 	ld hl, wEnemyMonSpclDef
@@ -2693,7 +2693,7 @@ PlayerAttackDamage:
 .specialcrit
 	ld hl, wBattleMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .lightball
+	jr c, .specialBoost
 
 	ld hl, wEnemySpDef
 	ld a, [hli]
@@ -2701,16 +2701,22 @@ PlayerAttackDamage:
 	ld c, [hl]
 	ld hl, wPlayerSpAtk
 
-.lightball
-; Note: Returns player special attack at hl in hl.
-	call LightBallBoost
-	jr .done
-
-.thickclub
-; Note: Returns player attack at hl in hl.
-	call ThickClubBoost
-
-.done
+.specialBoost
+	push bc
+	ld bc, SpAtkBoostingHeldItems
+	jr .applyHeldItemBoost
+.physicalBoost
+	push bc
+	ld bc, AtkBoostingHeldItems
+.applyHeldItemBoost
+	push hl
+	ld a, MON_SPECIES
+	call BattlePartyAttr
+	ld a, [hl]
+	pop hl
+	; or `ld a, [wEnemyMonSpecies]`
+	call ReadStatWithHeldItemBoost
+	pop bc
 	call TruncateHL_BC
 
 	ld a, [wBattleMonLevel]
@@ -2809,86 +2815,65 @@ CheckDamageStatsCritical:
 	pop hl
 	ret
 
-ThickClubBoost:
-; Return in hl the stat value at hl.
+; @param hl Pointer to the stat to be possibly boosted
+; @param bc Pointer to the item attribute table, minus 1
+; @param a The mon's species
+; @return hl The stat, boosted or not
+; @return e The mon's species
+; @destroy bc
+ReadStatWithHeldItemBoost:
+	ld e, a ; Store for later
 
-; If the attacking monster is Cubone or Marowak and
-; it's holding a Thick Club, double it.
-	push bc
-	push de
-	ld b, CUBONE
-	ld c, MAROWAK
-	ld d, THICK_CLUB
-	call SpeciesItemBoost
-	pop de
-	pop bc
-	ret
-
-LightBallBoost:
-; Return in hl the stat value at hl.
-
-; If the attacking monster is Pikachu and it's
-; holding a Light Ball, double it.
-	push bc
-	push de
-	ld b, PIKACHU
-	ld c, PIKACHU
-	ld d, LIGHT_BALL
-	call SpeciesItemBoost
-	pop de
-	pop bc
-	ret
-
-SpeciesItemBoost:
-; Return in hl the stat value at hl.
-
-; If the attacking monster is species b or c and
-; it's holding item d, double it.
-
+	; Read the stat (big-endian, beh...)
 	ld a, [hli]
 	ld l, [hl]
 	ld h, a
 
-	push hl
-	ld a, MON_SPECIES
-	call BattlePartyAttr
+	; Check if the mon's species is in the list
+.lookupSpecies
+	inc bc
+	ld a, [bc]
+	inc bc
+	cp -1
+	ret z ; Return the stat as-is if the species isn't in the list
+	cp e
+	jr nz, .lookupSpecies
 
+	; Check if the held item is right
 	ldh a, [hBattleTurn]
 	and a
-	ld a, [hl]
-	jr z, .CompareSpecies
-	ld a, [wTempEnemyMonSpecies]
-.CompareSpecies:
-	pop hl
+	ld a, [wBattleMonItem]
+	jr z, .go
+	ld a, [wEnemyMonItem]
+.go
+	ld e, a
+	ld a, [bc]
+	cp e
+	ret nz ; Bail if the item isn't right
 
-	cp b
-	jr z, .GetItemHeldEffect
-	cp c
-	ret nz
-
-.GetItemHeldEffect:
-	push hl
-	call GetUserItem
-	ld a, [hl]
-	pop hl
-	cp d
-	ret nz
-
-; Double the stat
-	sla l
-	rl h
-
-	ld a, HIGH(MAX_STAT_VALUE)
-	cp h
-	jr c, .cap
-	ret nz
-	ld a, LOW(MAX_STAT_VALUE)
-	cp l
-	ret nc
-
-.cap
+	; Double the stat, capping it at MAX_STAT_VALUE
+	assert MAX_STAT_VALUE * 2 < 65536
+	add hl, hl
+	ld a, l ; Check if hl > MAX_STAT_VALUE ⇔ hl >= MAX_STAT_VALUE + 1 ⇔ hl - MAX_STAT_VALUE >= 0
+	sub LOW(MAX_STAT_VALUE + 1)
+	ld a, h
+	sbc a, HIGH(MAX_STAT_VALUE)
+	ret c
 	ld hl, MAX_STAT_VALUE
 	ret
+
+	
+AtkBoostingHeldItems:
+	db CUBONE,   THICK_CLUB
+	db MAROWAK,  THICK_CLUB
+	db PIKACHU,  LIGHT_BALL
+	db DELIBIRD, JINGLY_BELL
+	db -1 ; end
+
+SpAtkBoostingHeldItems:
+	db PIKACHU,  LIGHT_BALL
+	db DELIBIRD, JINGLY_BELL
+	db -1 ; end
 
 EnemyAttackDamage:
 	call ResetDamage
@@ -2919,14 +2904,14 @@ EnemyAttackDamage:
 .physicalcrit
 	ld hl, wEnemyMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
+	jr c, .physicalBoost
 
 	ld hl, wPlayerDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemyAttack
-	jr .thickclub
+	jr .physicalBoost
 
 .Special:
 	ld hl, wBattleMonSpclDef
@@ -2943,21 +2928,30 @@ EnemyAttackDamage:
 .specialcrit
 	ld hl, wEnemyMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .lightball
+	jr c, .specialBoost
 	ld hl, wPlayerSpDef
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemySpAtk
 
-.lightball
-	call LightBallBoost
-	jr .done
-
-.thickclub
-	call ThickClubBoost
-
-.done
+.specialBoost
+	push bc
+	ld bc, SpAtkBoostingHeldItems
+	jr .applyHeldItemBoost
+.physicalBoost
+	push bc
+	ld bc, AtkBoostingHeldItems
+.applyHeldItemBoost
+	push hl
+	ld a, MON_SPECIES
+	call BattlePartyAttr
+	ld a, [hl]
+	pop hl
+	; or `ld a, [wEnemyMonSpecies]`
+	call ReadStatWithHeldItemBoost
+	pop bc
+	
 	call TruncateHL_BC
 
 	ld a, [wEnemyMonLevel]
