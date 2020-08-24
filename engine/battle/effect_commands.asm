@@ -2814,6 +2814,9 @@ SpeciesATKBoost: ;rework?
 	push bc
 	push de
 	call InitizalizeSpeciesItemBoost
+	;save hl value (stat) in bc
+	ld b, h
+	ld c, l
 	ld hl, HeldItemBoostTableATK
 	call TestSpeciesItemBoost
 	pop de
@@ -2825,6 +2828,9 @@ SpeciesSPABoost:
 	push bc
 	push de
 	call InitizalizeSpeciesItemBoost
+	;save hl value (stat) in bc
+	ld b, h
+	ld c, l
 	ld hl, HeldItemBoostTableSPA
 	call TestSpeciesItemBoost
 	pop de
@@ -2832,84 +2838,86 @@ SpeciesSPABoost:
 	ret
 
 InitizalizeSpeciesItemBoost:
-; Return in hl the stat value at hl.
+; Puts mon species in a
 
-; If the attacking monster is species c and
-; it's holding item d, double it.
-
+	;no idea what this bit does
 	ld a, [hli]
 	ld l, [hl]
 	ld h, a
 
-	push hl ;hl has the attacking stat (ATK or SPA)
+	;hl contains the attacking stat (ATK or SPA), isn't changed here
+	push hl 
 	ld a, MON_SPECIES
 	call BattlePartyAttr
 
-	ldh a, [hBattleTurn] ;which turn is it?
+	;which turn is it?
+	ldh a, [hBattleTurn] 
 	and a
 	ld a, [hl]
+	pop hl
 	ret z
-	ld a, [wTempEnemyMonSpecies] ;check for the opponent
+	;check for the opponent
+	ld a, [wTempEnemyMonSpecies] 
 	ret
 
 TestSpeciesItemBoost:
-	ld c, a ;put species in c
+;Checks whether our species is affected by the boost, and if the mon is holding the correct item
+	;put mon species in d
+	ld d, a 
 .CompareSpeciesloop
     ld a, [hli]
+	;check if we are at the end of the table
     cp -1
-    jr z, .poppin
-    cp c
+    jr z, .end
+    cp d
     ld a, [hli]
     jr nz, .CompareSpeciesloop
 
-; check for item in a
-	ld d, a ; exclude?
+; check for item left in a
+	;loads item in d
+	ld d, a
+	push bc
+	;gets current held item
 	call GetUserItem
-	ld a, [hl] ; ld d, [hl]
+	ld a, [hl]
+	pop bc
 	cp d
-	jr nz, .poppin
+	jr nz, .end
 
 ; If you pass the checks, double the stat
-	pop hl
-	sla l
-	rl h
+	sla c
+	rl b
 
-; fix for max value
+; fix max value bug
 	ld a, HIGH(MAX_STAT_VALUE)
-	cp h
+	cp b
 	jr c, .cap
-	ret nz
+	jp nz, .end
 	ld a, LOW(MAX_STAT_VALUE)
-	cp l
-	ret nc
+	cp c
+	jp nc, .end
 .cap
 	ld hl, MAX_STAT_VALUE
 	ret
-
-.poppin
-	pop hl
+.end
+	;restore stat to hl
+	ld h, b
+	ld l, c
 	ret
 
 ;tables
-boost_item: MACRO
-	db \1, \2
-    ;\1 - species
-    ;\2 - held item
-ENDM
 
 HeldItemBoostTableATK:
-    boost_item CUBONE,   THICK_CLUB
-	boost_item MAROWAK,  THICK_CLUB
-	boost_item PIKACHU,  LIGHT_BALL
-	boost_item DELIBIRD, JINGLY_BELL
+    db CUBONE,   THICK_CLUB
+	db MAROWAK,  THICK_CLUB
+	db PIKACHU,  LIGHT_BALL
+	db DELIBIRD, JINGLY_BELL
 	db -1 ; end
 
 HeldItemBoostTableSPA:
-    boost_item PIKACHU,  LIGHT_BALL
-	boost_item DELIBIRD, JINGLY_BELL
+    db PIKACHU,  LIGHT_BALL
+	db DELIBIRD, JINGLY_BELL
 	db -1 ; end
-
-;end tables
 
 EnemyAttackDamage:
 	call ResetDamage
