@@ -2811,66 +2811,30 @@ CheckDamageStatsCritical:
 
 SpeciesATKBoost: ;rework?
 ; Return in hl the stat value at hl.
-
-; If the attacking monster is Cubone or Marowak and
-; it's holding a Thick Club, double it.
 	push bc
 	push de
-	lb bc, CUBONE, MAROWAK
+	call InitizalizeSpeciesItemBoost
+	ld hl, HeldItemBoostTableATK
 	call TestSpeciesItemBoost
-	cp 1
-	jr nz, .boost
-; If the attacking monster is Pikachu and it's
-; holding a Light Ball, double it.
-	lb bc, PIKACHU, PIKACHU
-	ld d, LIGHT_BALL
-	call TestSpeciesItemBoost
-	cp 1
-	jr nz, .boost
-; If the attacking monster is Delibird and it's
-; holding a Jingly Bell, double it.
-	lb bc, DELIBIRD, DELIBIRD
-	ld d, JINGLY_BELL
-	call TestSpeciesItemBoost
-	cp 1
-	jr z, .done
-.boost
-	call DoSpeciesItemBoost
-.done
 	pop de
 	pop bc
 	ret
 
 SpeciesSPABoost:
 ; Return in hl the stat value at hl.
-
-; If the attacking monster is Pikachu and it's
-; holding a Light Ball, double it.
 	push bc
 	push de
-	lb bc, PIKACHU, PIKACHU
-	ld d, LIGHT_BALL
+	call InitizalizeSpeciesItemBoost
+	ld hl, HeldItemBoostTableSPA
 	call TestSpeciesItemBoost
-	cp 1
-	jr nz, .boost
-; If the attacking monster is Delibird and it's
-; holding a Jingly Bell, double it.
-	lb bc, DELIBIRD, DELIBIRD
-	ld d, JINGLY_BELL
-	call TestSpeciesItemBoost
-	cp 1
-	jr z, .done
-.boost
-	call DoSpeciesItemBoost
-.done
 	pop de
 	pop bc
 	ret
 
-TestSpeciesItemBoost:
+InitizalizeSpeciesItemBoost:
 ; Return in hl the stat value at hl.
 
-; If the attacking monster is species b or c and
+; If the attacking monster is species c and
 ; it's holding item d, double it.
 
 	ld a, [hli]
@@ -2881,35 +2845,36 @@ TestSpeciesItemBoost:
 	ld a, MON_SPECIES
 	call BattlePartyAttr
 
-	ldh a, [hBattleTurn]
+	ldh a, [hBattleTurn] ;which turn is it?
 	and a
 	ld a, [hl]
-	jr z, .CompareSpecies
-	ld a, [wTempEnemyMonSpecies]
-.CompareSpecies:
-	pop hl
+	ret z
+	ld a, [wTempEnemyMonSpecies] ;check for the opponent
+	ret
 
-	cp b
-	jr z, .GetItemHeldEffect
-	cp c
-	jr nz, .fail
+TestSpeciesItemBoost:
+	ld c, a ;put species in c
+.CompareSpeciesloop
+    ld a, [hli]
+    cp -1
+    jr z, .poppin
+    cp c
+    ld a, [hli]
+    jr nz, .CompareSpeciesloop
 
-.GetItemHeldEffect:
-	push hl
+; check for item in a
+	ld d, a ; exclude?
 	call GetUserItem
-	ld a, [hl]
+	ld a, [hl] ; ld d, [hl]
 	cp d
-	jr nz, .fail
-	ret
-.fail
-	ld a, 1
-	ret
+	jr nz, .poppin
 
-DoSpeciesItemBoost:
-; Double the stat
+; If you pass the checks, double the stat
+	pop hl
 	sla l
 	rl h
 
+; fix for max value
 	ld a, HIGH(MAX_STAT_VALUE)
 	cp h
 	jr c, .cap
@@ -2917,10 +2882,34 @@ DoSpeciesItemBoost:
 	ld a, LOW(MAX_STAT_VALUE)
 	cp l
 	ret nc
-
 .cap
 	ld hl, MAX_STAT_VALUE
 	ret
+
+.poppin
+	pop hl
+	ret
+
+;tables
+boost_item: MACRO
+	db \1, \2
+    ;\1 - species
+    ;\2 - held item
+ENDM
+
+HeldItemBoostTableATK:
+    boost_item CUBONE,   THICK_CLUB
+	boost_item MAROWAK,  THICK_CLUB
+	boost_item PIKACHU,  LIGHT_BALL
+	boost_item DELIBIRD, JINGLY_BELL
+	db -1 ; end
+
+HeldItemBoostTableSPA:
+    boost_item PIKACHU,  LIGHT_BALL
+	boost_item DELIBIRD, JINGLY_BELL
+	db -1 ; end
+
+;end tables
 
 EnemyAttackDamage:
 	call ResetDamage
