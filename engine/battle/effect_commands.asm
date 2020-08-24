@@ -2862,7 +2862,6 @@ ReadStatWithHeldItemBoost:
 	ld hl, MAX_STAT_VALUE
 	ret
 
-	
 AtkBoostingHeldItems:
 	db CUBONE,   THICK_CLUB
 	db MAROWAK,  THICK_CLUB
