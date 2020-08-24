@@ -2669,14 +2669,14 @@ PlayerAttackDamage:
 .physicalcrit
 	ld hl, wBattleMonAttack
 	call CheckDamageStatsCritical
-	jr c, .TrySpeciesATKBoost
+	jr c, .physicalBoost
 
 	ld hl, wEnemyDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wPlayerAttack
-	jr .TrySpeciesATKBoost
+	jr .physicalBoost
 
 .special
 	ld hl, wEnemyMonSpclDef
@@ -2693,7 +2693,7 @@ PlayerAttackDamage:
 .specialcrit
 	ld hl, wBattleMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .TrySpeciesSPABoost
+	jr c, .specialBoost
 
 	ld hl, wEnemySpDef
 	ld a, [hli]
@@ -2701,16 +2701,22 @@ PlayerAttackDamage:
 	ld c, [hl]
 	ld hl, wPlayerSpAtk
 
-.TrySpeciesSPABoost
-; Note: Returns player special attack at hl in hl.
-	call SpeciesSPABoost
-	jr .done
-
-.TrySpeciesATKBoost
-; Note: Returns player attack at hl in hl.
-	call SpeciesATKBoost
-
-.done
+.specialBoost
+	push bc
+	ld bc, SpAtkBoostingHeldItems
+	jr .applyHeldItemBoost
+.physicalBoost
+	push bc
+	ld bc, AtkBoostingHeldItems
+.applyHeldItemBoost
+	push hl
+	ld a, MON_SPECIES
+	call BattlePartyAttr
+	ld a, [hl]
+	pop hl
+	; or `ld a, [wEnemyMonSpecies]`
+	call ReadStatWithHeldItemBoost
+	pop bc
 	call TruncateHL_BC
 
 	ld a, [wBattleMonLevel]
@@ -2809,113 +2815,63 @@ CheckDamageStatsCritical:
 	pop hl
 	ret
 
-SpeciesATKBoost: ;rework?
-; Return in hl the stat value at hl.
-	push bc
-	push de
-	call InitizalizeSpeciesItemBoost
-	;save hl value (stat) in bc
-	ld b, h
-	ld c, l
-	ld hl, HeldItemBoostTableATK
-	call TestSpeciesItemBoost
-	pop de
-	pop bc
-	ret
+; @param hl Pointer to the stat to be possibly boosted
+; @param bc Pointer to the item attribute table, minus 1
+; @param a The mon's species
+; @return hl The stat, boosted or not
+; @return e The mon's species
+; @destroy bc
+ReadStatWithHeldItemBoost:
+	ld e, a ; Store for later
 
-SpeciesSPABoost:
-; Return in hl the stat value at hl.
-	push bc
-	push de
-	call InitizalizeSpeciesItemBoost
-	;save hl value (stat) in bc
-	ld b, h
-	ld c, l
-	ld hl, HeldItemBoostTableSPA
-	call TestSpeciesItemBoost
-	pop de
-	pop bc
-	ret
-
-InitizalizeSpeciesItemBoost:
-; Puts mon species in a
-
-	;no idea what this bit does
+	; Read the stat (big-endian, beh...)
 	ld a, [hli]
 	ld l, [hl]
 	ld h, a
 
-	;hl contains the attacking stat (ATK or SPA), isn't changed here
-	push hl 
-	ld a, MON_SPECIES
-	call BattlePartyAttr
+	; Check if the mon's species is in the list
+.lookupSpecies
+	inc bc
+	ld a, [bc]
+	inc bc
+	cp -1
+	ret z ; Return the stat as-is if the species isn't in the list
+	cp e
+	jr nz, .lookupSpecies
 
-	;which turn is it?
-	ldh a, [hBattleTurn] 
+	; Check if the held item is right
+	ldh a, [hBattleTurn]
 	and a
-	ld a, [hl]
-	pop hl
-	ret z
-	;check for the opponent
-	ld a, [wTempEnemyMonSpecies] 
-	ret
+	ld a, [wBattleMonItem]
+	jr z, .go
+	ld a, [wEnemyMonItem]
+.go
+	ld e, a
+	ld a, [bc]
+	cp e
+	ret nz ; Bail if the item isn't right
 
-TestSpeciesItemBoost:
-;Checks whether our species is affected by the boost, and if the mon is holding the correct item
-	;put mon species in d
-	ld d, a 
-.CompareSpeciesloop
-    ld a, [hli]
-	;check if we are at the end of the table
-    cp -1
-    jr z, .end
-    cp d
-    ld a, [hli]
-    jr nz, .CompareSpeciesloop
-
-; check for item left in a
-	;loads item in d
-	ld d, a
-	push bc
-	;gets current held item
-	call GetUserItem
-	ld a, [hl]
-	pop bc
-	cp d
-	jr nz, .end
-
-; If you pass the checks, double the stat
-	sla c
-	rl b
-
-; fix max value bug
-	ld a, HIGH(MAX_STAT_VALUE)
-	cp b
-	jr c, .cap
-	jp nz, .end
-	ld a, LOW(MAX_STAT_VALUE)
-	cp c
-	jp nc, .end
-.cap
+	; Double the stat, capping it at MAX_STAT_VALUE
+	assert MAX_STAT_VALUE * 2 < 65536
+	add hl, hl
+	ld a, l ; Check if hl > MAX_STAT_VALUE ⇔ hl >= MAX_STAT_VALUE + 1 ⇔ hl - MAX_STAT_VALUE >= 0
+	sub LOW(MAX_STAT_VALUE + 1)
+	ld a, h
+	sbc a, HIGH(MAX_STAT_VALUE)
+	ret c
 	ld hl, MAX_STAT_VALUE
 	ret
-.end
-	;restore stat to hl
-	ld h, b
-	ld l, c
-	ret
 
-;tables
-
-HeldItemBoostTableATK:
-    db CUBONE,   THICK_CLUB
+	
+AtkBoostingHeldItems:
+	db CUBONE,   THICK_CLUB
 	db MAROWAK,  THICK_CLUB
 	db PIKACHU,  LIGHT_BALL
 	db DELIBIRD, JINGLY_BELL
 	db -1 ; end
 
-HeldItemBoostTableSPA:
-    db PIKACHU,  LIGHT_BALL
+SpAtkBoostingHeldItems:
+	db PIKACHU,  LIGHT_BALL
 	db DELIBIRD, JINGLY_BELL
 	db -1 ; end
 
@@ -2948,14 +2904,14 @@ EnemyAttackDamage:
 .physicalcrit
 	ld hl, wEnemyMonAttack
 	call CheckDamageStatsCritical
-	jr c, .TrySpeciesATKBoost
+	jr c, .physicalBoost
 
 	ld hl, wPlayerDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemyAttack
-	jr .TrySpeciesATKBoost
+	jr .physicalBoost
 
 .Special:
 	ld hl, wBattleMonSpclDef
@@ -2972,21 +2928,30 @@ EnemyAttackDamage:
 .specialcrit
 	ld hl, wEnemyMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .TrySpeciesSPABoost
+	jr c, .specialBoost
 	ld hl, wPlayerSpDef
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemySpAtk
 
-.TrySpeciesSPABoost
-	call SpeciesSPABoost
-	jr .done
-
-.TrySpeciesATKBoost
-	call SpeciesATKBoost
-
-.done
+.specialBoost
+	push bc
+	ld bc, SpAtkBoostingHeldItems
+	jr .applyHeldItemBoost
+.physicalBoost
+	push bc
+	ld bc, AtkBoostingHeldItems
+.applyHeldItemBoost
+	push hl
+	ld a, MON_SPECIES
+	call BattlePartyAttr
+	ld a, [hl]
+	pop hl
+	; or `ld a, [wEnemyMonSpecies]`
+	call ReadStatWithHeldItemBoost
+	pop bc
+	
 	call TruncateHL_BC
 
 	ld a, [wEnemyMonLevel]
