@@ -2863,10 +2863,12 @@ ReadStatWithHeldItemBoost:
 	ret
 
 AtkBoostingHeldItems:
-	db CUBONE,   THICK_CLUB
-	db MAROWAK,  THICK_CLUB
-	db PIKACHU,  LIGHT_BALL
-	db DELIBIRD, JINGLY_BELL
+	db CUBONE,    THICK_CLUB
+	db MAROWAK,   THICK_CLUB
+	db PIKACHU,   LIGHT_BALL
+	db DELIBIRD,  JINGLY_BELL
+	db MARILL,    BUBBLE_BUOY
+	db AZUMARILL, BUBBLE_BUOY
 	db -1 ; end
 
 SpAtkBoostingHeldItems:

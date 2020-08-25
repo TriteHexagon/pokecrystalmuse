@@ -30,7 +30,7 @@
 	const FIRE_STONE   ; 16
 	const THUNDERSTONE ; 17
 	const WATER_STONE  ; 18
-	const EVIOLITE      ; 19
+	const EVIOLITE     ; 19
 	const HP_UP        ; 1a
 	const PROTEIN      ; 1b
 	const IRON         ; 1c
@@ -50,15 +50,15 @@
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
 	const DIRE_HIT     ; 2c
-	const ITEM_2D      ; 2d
+	const BUBBLE_BUOY  ; 2d
 	const FRESH_WATER  ; 2e
 	const SODA_POP     ; 2f
 	const LEMONADE     ; 30
 	const X_ATTACK     ; 31
-	const X_SP_DEF      ; 32
+	const X_SP_DEF     ; 32
 	const X_DEFEND     ; 33
 	const X_SPEED      ; 34
-	const X_SP_ATK    ; 35
+	const X_SP_ATK     ; 35
 	const COIN_CASE    ; 36
 	const ITEMFINDER   ; 37
 	const POKE_FLUTE   ; 38
@@ -105,16 +105,16 @@
 	const WHT_APRICORN ; 61
 	const BLACKBELT_I  ; 62
 	const BLK_APRICORN ; 63
-	const ITEM_64      ; 64
+	const LINK_CABLE   ; 64
 	const PNK_APRICORN ; 65
 	const BLACKGLASSES ; 66
 	const SLOWPOKETAIL ; 67
-	const SILK_SCARF     ; 68
+	const SILK_SCARF   ; 68
 	const STICK        ; 69
 	const SMOKE_BALL   ; 6a
 	const NEVERMELTICE ; 6b
 	const MAGNET       ; 6c
-	const LUM_BERRY ; 6d
+	const LUM_BERRY    ; 6d
 	const PEARL        ; 6e
 	const BIG_PEARL    ; 6f
 	const EVERSTONE    ; 70

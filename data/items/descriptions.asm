@@ -44,7 +44,7 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw DireHitDesc
-	dw TeruSama3Desc
+	dw BubbleBuoyDesc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
@@ -99,7 +99,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw TeruSama7Desc
+	dw LinkCableDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -431,8 +431,9 @@ DireHitDesc:
 	db   "Ups critical hit"
 	next "ratio. (1 BTL)@"
 
-TeruSama3Desc:
-	db   "?@"
+BubbleBuoyDesc:
+	db   "A bubble-shaped"
+	next "buoy. (HOLD)@"
 
 FreshWaterDesc:
 	db   "Restores #mon"
@@ -644,8 +645,9 @@ BlkApricornDesc:
 	db   "A black Apricorn."
 	next "@"
 
-TeruSama7Desc:
-	db   "?@"
+LinkCableDesc:
+	db   "Can evolve certain"
+	next "#mon.@"
 
 PnkApricornDesc:
 	db   "A pink Apricorn."
@@ -717,7 +719,7 @@ MiracleSeedDesc:
 
 ThickClubDesc:
 	db   "A bone of some"
-	next "sort. Sell low.@"
+	next "sort. (HOLD)@"
 
 FocusBandDesc:
 	db   "May prevent faint-"
@@ -753,7 +755,7 @@ LuckyEggDesc:
 
 CardKeyDesc:
 	db   "Opens shutters in"
-	next "the RADIO TOWER.@"
+	next "the Radio Tower.@"
 
 MachinePartDesc:
 	db   "A machine part for"
@@ -841,7 +843,7 @@ MysteryBerryDesc:
 	next "for PP. (HOLD)@"
 
 DragonScaleDesc:
-	db   "A rare Dragon-type"
+	db   "A rare Dragon item"
 	next "item.@"
 
 BerserkGeneDesc:
