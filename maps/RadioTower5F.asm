@@ -210,7 +210,7 @@ FakeDirectorTextBefore2:
 
 	para "Do you want to"
 	line "know where we hid"
-	cont "the real DIRECTOR?"
+	cont "the real Director?"
 
 	para "Sure, I'll tell"
 	line "you. But only if"
@@ -224,7 +224,7 @@ FakeDirectorWinText:
 
 FakeDirectorTextAfter:
 	text "We stashed the"
-	line "real DIRECTOR in"
+	line "real Director in"
 
 	para "the UNDERGROUND"
 	line "WAREHOUSE."
@@ -261,7 +261,7 @@ Executivef1AfterBattleText:
 	line "won't appreciate"
 
 	para "the magnificence"
-	line "of TEAM ROCKET."
+	line "of Team Rocket."
 
 	para "That's too bad."
 	line "I really admire"
@@ -314,14 +314,14 @@ RadioTower5FRocketBossAfterText:
 	para "Like GIOVANNI did"
 	line "before me, I will"
 
-	para "disband TEAM"
-	line "ROCKET here today."
+	para "disband Team"
+	line "Rocket here today."
 
 	para "Farewell."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "DIRECTOR: <PLAY_G>,"
+	text "Director: <PLAY_G>,"
 	line "thank you!"
 
 	para "Your courageous"
@@ -369,8 +369,8 @@ RadioTower5FDirectorDescribeClearBellText:
 
 	para "That reminds me…"
 
-	para "I overheard TEAM"
-	line "ROCKET whispering."
+	para "I overheard Team"
+	line "Rocket whispering."
 
 	para "Apparently, some-"
 	line "thing is going on"
@@ -387,7 +387,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	done
 
 RadioTower5FDirectorText:
-	text "DIRECTOR: Hello,"
+	text "Director: Hello,"
 	line "<PLAY_G>!"
 
 	para "You know, I love"
@@ -410,7 +410,7 @@ BenText:
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5F DIRECTOR'S"
+	text "5F Director'S"
 	line "   OFFICE"
 	done
 

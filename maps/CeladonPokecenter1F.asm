@@ -80,7 +80,7 @@ CeladonPokecenter1FCooltrainerFText:
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
+	text "Team Rocket's"
 	line "hideout is in the"
 
 	para "basement of the"

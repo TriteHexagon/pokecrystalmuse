@@ -286,7 +286,7 @@ GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement:
 
 GoldenrodCityPokefanMText:
 	text "They built the new"
-	line "RADIO TOWER to"
+	line "Radio Tower to"
 
 	para "replace the old,"
 	line "creaky one."
@@ -304,7 +304,7 @@ GoldenrodCityCooltrainerF1Text:
 	text "Is that man in"
 	line "black dressed up"
 
-	para "like a TEAM ROCKET"
+	para "like a Team Rocket"
 	line "member? How silly!"
 	done
 
@@ -312,12 +312,12 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 	text "Was that man in"
 	line "black really part"
 
-	para "of TEAM ROCKET? I"
+	para "of Team Rocket? I"
 	line "can't believe it!"
 	done
 
 GoldenrodCityCooltrainerF2Text:
-	text "The RADIO TOWER in"
+	text "The Radio Tower in"
 	line "Goldenrod City is"
 	cont "a landmark."
 
@@ -366,7 +366,7 @@ GoldenrodCityGrampsText:
 
 GoldenrodCityRocketScoutText1:
 	text "So this is the"
-	line "RADIO TOWER…"
+	line "Radio Tower…"
 	done
 
 GoldenrodCityRocketScoutText2:
@@ -381,7 +381,7 @@ GoldenrodCityRocket1Text:
 
 GoldenrodCityRocket2Text:
 	text "Take over the"
-	line "RADIO TOWER…"
+	line "Radio Tower…"
 
 	para "What? It's none of"
 	line "your business!"
@@ -412,7 +412,7 @@ GoldenrodCityRocket5Text:
 GoldenrodCityRocket6Text:
 	text "Come taste the"
 	line "true terror of"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 GoldenrodCityStationSignText:
@@ -422,7 +422,7 @@ GoldenrodCityStationSignText:
 
 GoldenrodCityRadioTowerSignText:
 	text "Goldenrod City"
-	line "RADIO TOWER"
+	line "Radio Tower"
 	done
 
 GoldenrodDeptStoreSignText:

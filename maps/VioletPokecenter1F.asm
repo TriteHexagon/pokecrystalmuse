@@ -192,7 +192,7 @@ VioletPokecenter1FGentlemanText:
 	text "It was around"
 	line "three years ago."
 
-	para "TEAM ROCKET was up"
+	para "Team Rocket was up"
 	line "to no good with"
 	cont "#mon."
 

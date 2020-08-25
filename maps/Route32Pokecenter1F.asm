@@ -88,7 +88,7 @@ Route32Pokecenter1FCooltrainerFText:
 	line "my #mon hold?"
 
 	para "Maybe an item that"
-	line "increases ATTACK"
+	line "increases Attack"
 	cont "power…"
 	done
 

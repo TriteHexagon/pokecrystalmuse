@@ -45,8 +45,8 @@ RadioTower3FGymGuyScript:
 RadioTower3FCooltrainerFScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
-	iftrue .GotSunnyDay
+	checkevent EVENT_GOT_LINK_CABLE_FROM_RADIO_TOWER
+	iftrue .GotLinkCable
 	checkevent EVENT_CLEARED_RADIO_TOWER
 	iftrue .NoRockets
 	checkevent EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
@@ -65,15 +65,15 @@ RadioTower3FCooltrainerFScript:
 .NoRockets:
 	writetext RadioTower3FCooltrainerFYoureMyHeroText
 	promptbutton
-	verbosegiveitem TM_SUNNY_DAY
+	verbosegiveitem LINK_CABLE
 	iffalse .NoRoom
-	writetext RadioTower3FCooltrainerFItsSunnyDayText
+	writetext RadioTower3FCooltrainerFitsLinkCableText
 	waitbutton
 	closetext
-	setevent EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
+	setevent EVENT_GOT_LINK_CABLE_FROM_RADIO_TOWER
 	end
 
-.GotSunnyDay:
+.GotLinkCable:
 	writetext RadioTower3FCooltrainerFYouWereMarvelousText
 	waitbutton
 .NoRoom:
@@ -171,7 +171,7 @@ RadioTower3FGymGuyText_Rockets:
 	cont "beloved partners."
 
 	para "It's terrible how"
-	line "TEAM ROCKET is"
+	line "Team Rocket is"
 
 	para "trying to control"
 	line "#mon."
@@ -190,11 +190,11 @@ RadioTower3FGymGuyText:
 	done
 
 RadioTower3FCooltrainerFPleaseSaveDirectorText:
-	text "The TEAM ROCKET"
+	text "The Team Rocket"
 	line "boss has locked"
 	cont "himself in."
 
-	para "But the DIRECTOR"
+	para "But the Director"
 	line "can open it."
 
 	para "He's up on the"
@@ -204,7 +204,7 @@ RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Is the DIRECTOR"
+	text "Is the Director"
 	line "safe?"
 	done
 
@@ -216,11 +216,21 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 	line "my appreciation."
 	done
 
-RadioTower3FCooltrainerFItsSunnyDayText:
-	text "It's SUNNY DAY."
-	line "It powers up Fire-"
-	cont "type moves for a"
-	cont "while."
+RadioTower3FCooltrainerFitsLinkCableText:
+	text "It's a Link Cable."
+	line "I got it from"
+
+	para "Silph Co. on a trip"
+	line "to Saffron City"
+
+	para "in Kanto. It"
+	line "allows certain"
+
+	para "#mon to evolve"
+	line "without needing"
+	
+	para "to trade. I hope"
+	line "it's of use to you."
 	done
 
 RadioTower3FCooltrainerFYouWereMarvelousText:
@@ -234,7 +244,7 @@ GruntM7SeenText:
 
 	para "I'm to crush any-"
 	line "one who challenges"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 GruntM7BeatenText:

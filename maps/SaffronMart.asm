@@ -22,7 +22,7 @@ SaffronMartCooltrainerFScript:
 
 SaffronMartCooltrainerMText:
 	text "There's a big"
-	line "RADIO TOWER in"
+	line "Radio Tower in"
 	cont "Lavender."
 	done
 

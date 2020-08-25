@@ -66,7 +66,7 @@ LavenderPokecenter1FYoungsterText:
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
-	text "The DIRECTOR of"
+	text "The Director of"
 	line "the RADIO STATION"
 	cont "sure was happy."
 

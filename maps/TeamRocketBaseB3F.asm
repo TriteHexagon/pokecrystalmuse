@@ -325,9 +325,9 @@ LanceGetPasswordText:
 
 	para "Those passwords"
 	line "are known only to"
-	cont "a few ROCKETS."
+	cont "a few Rockets."
 
-	para "That ROCKET there"
+	para "That Rocket there"
 	line "very graciously"
 	cont "told me so."
 
@@ -347,8 +347,8 @@ RocketBaseRivalText:
 	para "Didn't I tell you"
 	line "that I was going"
 
-	para "to destroy TEAM"
-	line "ROCKET?"
+	para "to destroy Team"
+	line "Rocket?"
 
 	para "…Tell me, who was"
 	line "the guy in the"
@@ -391,7 +391,7 @@ ExecutiveM4BeforeText:
 	line "GIOVANNI."
 
 	para "Since disbanding"
-	line "TEAM ROCKET three"
+	line "Team Rocket three"
 
 	para "years ago, he has"
 	line "been in training."
@@ -452,7 +452,7 @@ GruntF5AfterBattleText:
 	text "The password to"
 	line "the boss's room is"
 
-	para "SLOWPOKETAIL."
+	para "SlowpokeTail."
 
 	para "But it's useless"
 	line "unless you have"
@@ -497,7 +497,7 @@ ScientistRossSeenText:
 	line "SILPH, but now I"
 
 	para "run research for"
-	line "TEAM ROCKET."
+	line "Team Rocket."
 
 	para "A meddlesome child"
 	line "like you needs to"

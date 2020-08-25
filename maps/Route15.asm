@@ -161,7 +161,7 @@ SchoolboyJohnnySeenText:
 	text "We're on a field"
 	line "trip to Lavender"
 
-	para "RADIO TOWER for"
+	para "Radio Tower for"
 	line "social studies."
 	done
 

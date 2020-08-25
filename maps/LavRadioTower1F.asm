@@ -90,7 +90,7 @@ LavRadioTower1FOfficerText:
 	cont "ground floor."
 
 	para "Ever since Johto's"
-	line "RADIO TOWER was"
+	line "Radio Tower was"
 
 	para "taken over by a"
 	line "criminal gang, we"
@@ -160,7 +160,7 @@ LavRadioTower1FSuperNerd2Text:
 	text "Hey there!"
 
 	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	line "MUSIC Director!"
 
 	para "Huh? Your #Gear"
 	line "can't tune into my"
@@ -179,7 +179,7 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	text "Hey there!"
 
 	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	line "MUSIC Director!"
 
 	para "I'm responsible"
 	line "for the gorgeous"
@@ -199,7 +199,7 @@ LavRadioTower1FDirectoryText:
 	para "3F PERSONNEL"
 	line "4F PRODUCTION"
 
-	para "5F DIRECTOR'S"
+	para "5F Director'S"
 	line "   OFFICE"
 	done
 

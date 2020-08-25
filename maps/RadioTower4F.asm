@@ -30,7 +30,7 @@ RadioTower4FDJMaryScript:
 .ClearedRockets:
 	writetext RadioTower4FDJMaryText_ClearedRockets
 	promptbutton
-	verbosegiveitem PINK_BOW
+	verbosegiveitem SILK_SCARF
 	iffalse .NoRoom
 	writetext RadioTower4FDJMaryText_GiveSilkScarf
 	waitbutton
@@ -140,7 +140,7 @@ RadioTower4FDJMaryText_After:
 	text "MARY: Please tune"
 	line "into me on PROF."
 
-	para "OAK'S #mon TALK"
+	para "OAK'S #mon Talk"
 	line "show."
 	done
 
@@ -150,7 +150,7 @@ RadioTowerMeowthText:
 
 GruntM10SeenText:
 	text "You plan to rescue"
-	line "the DIRECTOR?"
+	line "the Director?"
 
 	para "That won't be pos-"
 	line "sible because I'm"
@@ -168,7 +168,7 @@ GruntM10AfterBattleText:
 
 Executivem2SeenText:
 	text "Stop! I'm known as"
-	line "the TEAM ROCKET"
+	line "the Team Rocket"
 	cont "fortress!"
 
 	para "You're not taking"
@@ -217,7 +217,7 @@ GruntF4AfterBattleText:
 ScientistRichSeenText:
 	text "Most excellent."
 
-	para "This RADIO TOWER"
+	para "This Radio Tower"
 	line "will fulfill our"
 	cont "grand design."
 	done
@@ -232,7 +232,7 @@ ScientistRichBeatenText:
 ScientistRichAfterBattleText:
 	text "Do you honestly"
 	line "believe you can"
-	cont "stop TEAM ROCKET?"
+	cont "stop Team Rocket?"
 	done
 
 RadioTower4FProductionSignText:

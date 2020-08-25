@@ -87,7 +87,7 @@ BuenaPhoneRocketText:
 	para "be cracking silly"
 	line "gag greetings!"
 
-	para "The RADIO TOWER is"
+	para "The Radio Tower is"
 	line "in deep trouble!"
 
 	para "<PLAY_G>, you'd"
@@ -120,7 +120,7 @@ BuenaPhoneWentOutWithBenText:
 BuenaPhoneReceptionistText:
 	text "You know the"
 	line "receptionist at"
-	cont "the RADIO TOWER?"
+	cont "the Radio Tower?"
 
 	para "'Welcome,' is all"
 	line "she ever says."
@@ -129,7 +129,7 @@ BuenaPhoneReceptionistText:
 	line "the chattiest"
 
 	para "person at the"
-	line "RADIO TOWER."
+	line "Radio Tower."
 
 	para "So she must be"
 	line "holding back."
@@ -285,9 +285,9 @@ BuenaPhonePikachuFanClubText:
 
 BuenaPhoneRadioTowerDirectorText:
 	text "Guess what?"
-	line "The RADIO TOWER's"
+	line "The Radio Tower's"
 
-	para "DIRECTOR is a big"
+	para "Director is a big"
 	line "fan of TV!"
 
 	para "A while ago, a"
@@ -300,7 +300,7 @@ BuenaPhoneRadioTowerDirectorText:
 	line "are black suits."
 
 	para "But it's a secret"
-	line "that our DIRECTOR"
+	line "that our Director"
 
 	para "is a TV fan, so if"
 	line "you see him, don't"
@@ -308,7 +308,7 @@ BuenaPhoneRadioTowerDirectorText:
 	para "you dare mention"
 	line "it!"
 
-	para "Oh! The DIRECTOR"
+	para "Oh! The Director"
 	line "will be here soon!"
 
 	para "Later! Tune into"
@@ -394,7 +394,7 @@ BuenaPhoneCompanyVacationText:
 	para "TOWER are going on"
 	line "a company vacation"
 
-	para "to the RADIO TOWER"
+	para "to the Radio Tower"
 	line "in Lavender."
 
 	para "We're wasting our"

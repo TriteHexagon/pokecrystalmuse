@@ -103,7 +103,7 @@ CharcoalKilnBossText2:
 
 CharcoalKilnBossText3:
 	text "You chased off"
-	line "TEAM ROCKET and"
+	line "Team Rocket and"
 
 	para "went to ILEX"
 	line "FOREST alone?"

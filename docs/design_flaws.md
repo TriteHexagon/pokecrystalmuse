@@ -368,7 +368,7 @@ NUM_TMS EQU const_value - TM01 - 2 ; discount ITEM_C3 and ITEM_DC
 > - Wild Dragonair's catch rate became 27 = $1B for `PROTEIN`
 > - Wild Dragonite's catch rate became 9 = $09 for `ANTIDOTE`
 >
-> Most catch rates were left as gaps in the item list, and transformed into held items via the `TimeCapsule_CatchRateItems` table in [data/items/catch_rate_items.asm](https://github.com/pret/pokecrystal/blob/master/data/items/catch_rate_items.asm). For example, the 52 Pokémon with catch rate 45 would hold the gap `ITEM_2D`, except that gets transformed into `PERSIM_BERRY`.
+> Most catch rates were left as gaps in the item list, and transformed into held items via the `TimeCapsule_CatchRateItems` table in [data/items/catch_rate_items.asm](https://github.com/pret/pokecrystal/blob/master/data/items/catch_rate_items.asm). For example, the 52 Pokémon with catch rate 45 would hold the gap `BUBBLE_BUOY`, except that gets transformed into `PERSIM_BERRY`.
 >
 > But a few Pokémon end up with weird items. Abra has a catch rate of 200, or $C8; and Krabby, Horsea, Goldeen, and Staryu have a catch rate of 225, or $E1. Those indexes correspond to the items `TM_PSYCH_UP` and `TM_ICE_PUNCH`, which seem like random choices—because they are.
 >

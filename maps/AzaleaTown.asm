@@ -249,7 +249,7 @@ AzaleaTownRivalBeforeText:
 	line "thing."
 
 	para "Is it true that"
-	line "TEAM ROCKET has"
+	line "Team Rocket has"
 	cont "returned?"
 
 	para "What? You beat"
@@ -283,8 +283,8 @@ AzaleaTownRivalAfterText:
 	line "strong and wipe"
 	cont "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "That goes for Team"
+	line "Rocket too."
 
 	para "They act big and"
 	line "tough in a group."
@@ -318,7 +318,7 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "SLOWPOKETAIL? I"
+	line "SlowpokeTail? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"

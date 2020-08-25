@@ -357,7 +357,7 @@ RadioTower2FTeacherText:
 RadioTower2FTeacherText_Rockets:
 	text "Why would they"
 	line "want to take over"
-	cont "the RADIO TOWER?"
+	cont "the Radio Tower?"
 	done
 
 RadioTowerJigglypuffText:
@@ -375,21 +375,21 @@ RadioTower2FBlackBelt1Text:
 
 	para "There's something"
 	line "wrong with the"
-	cont "DIRECTOR…"
+	cont "Director…"
 	done
 
 RadioTower2FBlackBelt2Text:
 	text "Feel free to look"
 	line "around anywhere."
 
-	para "The DIRECTOR is"
+	para "The Director is"
 	line "nice again, just"
 	cont "as he was before."
 	done
 
 GruntM4SeenText:
 	text "Three years ago,"
-	line "TEAM ROCKET was"
+	line "Team Rocket was"
 	cont "forced to disband."
 
 	para "But we're making a"
@@ -408,7 +408,7 @@ GruntM4AfterBattleText:
 	done
 
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
+	text "We're Team Rocket,"
 	line "the exploiters of"
 	cont "#mon!"
 

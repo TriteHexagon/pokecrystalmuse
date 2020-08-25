@@ -206,7 +206,7 @@ OaksAssistant3Text:
 	text "Don't tell anyone,"
 	line "but PROF.OAK'S"
 
-	para "#mon TALK isn't"
+	para "#mon Talk isn't"
 	line "a live broadcast."
 	done
 

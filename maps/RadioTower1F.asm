@@ -414,7 +414,7 @@ RadioTower1FLassText:
 
 RadioTower1FYoungsterText:
 	text "I love MARY, from"
-	line "#mon TALK."
+	line "#mon Talk."
 
 	para "I only know what"
 	line "she sounds like,"
@@ -424,13 +424,13 @@ RadioTower1FYoungsterText:
 GruntM3SeenText:
 	text "We've finally"
 	line "taken over the"
-	cont "RADIO TOWER!"
+	cont "Radio Tower!"
 
 	para "Now everyone will"
 	line "get to experience"
 
 	para "the true terror of"
-	line "TEAM ROCKET!"
+	line "Team Rocket!"
 
 	para "We'll show you"
 	line "how scary we are!"
@@ -456,7 +456,7 @@ RadioTower1FDirectoryText:
 	para "3F PERSONNEL"
 	line "4F PRODUCTION"
 
-	para "5F DIRECTOR'S"
+	para "5F Director'S"
 	line "   OFFICE"
 	done
 

@@ -515,7 +515,7 @@ _OPT_IntroText1::
 
 _OPT_IntroText2::
 	text_start
-	line "#mon TALK!"
+	line "#mon Talk!"
 	done
 
 _OPT_IntroText3::
@@ -833,7 +833,7 @@ _LC_Text10::
 
 _LC_Text11::
 	text_start
-	line "the RADIO TOWER!"
+	line "the Radio Tower!"
 	done
 
 _LC_DragText1::
@@ -968,7 +968,7 @@ _RocketRadioText1::
 
 _RocketRadioText2::
 	text_start
-	line "TEAM ROCKET!"
+	line "Team Rocket!"
 	done
 
 _RocketRadioText3::
@@ -1053,7 +1053,7 @@ _BuenaRadioText6::
 
 _BuenaRadioText7::
 	text_start
-	line "RADIO TOWER!"
+	line "Radio Tower!"
 	done
 
 _BuenaRadioMidnightText1::

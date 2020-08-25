@@ -12,11 +12,11 @@ IrwinRocketTakeoverRumorText:
 	para "Goldenrod's RADIO"
 	line "TOWER has been"
 
-	para "taken over by TEAM"
-	line "ROCKET!"
+	para "taken over by Team"
+	line "Rocket!"
 
-	para "…Um… What's TEAM"
-	line "ROCKET?"
+	para "…Um… What's Team"
+	line "Rocket?"
 	done
 
 IrwinPlainBadgeGossipText:
@@ -50,14 +50,14 @@ IrwinRocketHideoutGossipText:
 	text "I heard, I heard,"
 	line "I heard!"
 
-	para "You smashed TEAM"
-	line "ROCKET's hideout!"
+	para "You smashed Team"
+	line "Rocket's hideout!"
 
 	para "You're like a"
 	line "movie hero, even!"
 
 	para "But um… What was"
-	line "TEAM ROCKET?"
+	line "Team Rocket?"
 	done
 
 IrwinRadioTowerGossipText:
@@ -67,7 +67,7 @@ IrwinRadioTowerGossipText:
 	para "About your heroic"
 	line "liberation of the"
 
-	para "RADIO TOWER! You"
+	para "Radio Tower! You"
 	line "rock so hard!"
 	done
 

@@ -167,7 +167,7 @@ Route29CooltrainerMScript:
 TuscanyScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_SILK_SCARF_FROM_TUSCANY
+	checkevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
 	iftrue TuscanyTuesdayScript
 	readvar VAR_WEEKDAY
 	ifnotequal TUESDAY, TuscanyNotTuesdayScript
@@ -179,9 +179,9 @@ TuscanyScript:
 .MetTuscany:
 	writetext TuscanyGivesGiftText
 	promptbutton
-	verbosegiveitem SILK_SCARF
+	verbosegiveitem PINK_BOW
 	iffalse TuscanyDoneScript
-	setevent EVENT_GOT_SILK_SCARF_FROM_TUSCANY
+	setevent EVENT_GOT_PINK_BOW_FROM_TUSCANY
 	writetext TuscanyGaveGiftText
 	waitbutton
 	closetext
@@ -201,10 +201,10 @@ TuscanyNotTuesdayScript:
 	end
 
 Route29Sign1:
-	jumptext Route29Sign1Text
+	jumptext Route29SignText
 
 Route29Sign2:
-	jumptext Route29Sign2Text
+	jumptext Route29SignText
 
 Route29FruitTree:
 	fruittree FRUITTREE_ROUTE_29
@@ -367,7 +367,7 @@ TuscanyGivesGiftText:
 	line "duction, please"
 
 	para "accept this gift,"
-	line "a PINK BOW."
+	line "a Pink Bow."
 	done
 
 TuscanyGaveGiftText:
@@ -376,7 +376,7 @@ TuscanyGaveGiftText:
 	cont "is most adorable?"
 
 	para "It strengthens"
-	line "Normal-type moves."
+	line "Fairy-type moves."
 
 	para "I am certain it"
 	line "will be of use."
@@ -400,14 +400,7 @@ TuscanyNotTuesdayText:
 	cont "is unfortunate…"
 	done
 
-Route29Sign1Text:
-	text "Route 29"
-
-	para "Cherrygrove City -"
-	line "New Bark Town"
-	done
-
-Route29Sign2Text:
+Route29SignText:
 	text "Route 29"
 
 	para "Cherrygrove City -"

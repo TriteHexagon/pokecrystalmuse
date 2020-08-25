@@ -458,13 +458,13 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Sorry, but that'll"
 	line "have to wait."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Do you know Team"
+	line "Rocket? Ah, don't"
 
 	para "worry. I'll tell"
 	line "you anyhow."
 
-	para "TEAM ROCKET's an"
+	para "Team Rocket's an"
 	line "evil gang that"
 
 	para "uses #mon for"
@@ -477,7 +477,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Anyway, they're at"
 	line "the WELL, cutting"
 
-	para "off SLOWPOKETAILS"
+	para "off SlowpokeTails"
 	line "for sale!"
 
 	para "So I'm going to"
