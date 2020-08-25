@@ -113,7 +113,7 @@ EvolveAfterBattle_MasterLoop:
 	jp nz, .dont_evolve_2
 
 	inc hl
-	jr .proceed
+	jp .proceed
 
 .happiness
 	ld a, [wTempMonHappiness]
@@ -142,29 +142,35 @@ EvolveAfterBattle_MasterLoop:
 	jr .proceed
 
 .trade
-	ld a, [wLinkMode]
-	and a
-	jp z, .dont_evolve_2
-
 	call IsMonHoldingEverstone
 	jp z, .dont_evolve_2
 
+	;loads evo item into b
 	ld a, [hli]
 	ld b, a
-	inc a
-	jr z, .proceed
+	; checks if the item corresponds to the one at the table
+	ld a, [wTempMonItem]
+	cp b
+	jr nz, .linkmode
+	;xor a
+	;ld [wTempMonItem], a
+	jr .proceed
 
+.linkmode
+	ld a, [wLinkMode]
+	and a
+	jp nz, .dont_evolve_3
+
+	;don't evolve link capsule mons
 	ld a, [wLinkMode]
 	cp LINK_TIMECAPSULE
 	jp z, .dont_evolve_3
 
+	;if the item in b is -1 (no item) proceed with the evolution
 	ld a, [wTempMonItem]
-	cp b
-	jp nz, .dont_evolve_3
-
-	xor a
-	ld [wTempMonItem], a
-	jr .proceed
+	inc a
+	jr z, .proceed
+	jp .dont_evolve_3
 
 .item
 	ld a, [hli]
@@ -328,8 +334,6 @@ EvolveAfterBattle_MasterLoop:
 	inc hl
 	jp .loop
 
-; unused
-	pop hl
 .ReturnToMap:
 	pop de
 	pop bc
