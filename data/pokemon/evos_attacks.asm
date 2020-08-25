@@ -752,10 +752,9 @@ ParasEvosAttacks:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 2, ABSORB
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
-	;db 9, MEGA_DRAIN
+	db 9, ABSORB
 	db 12, FURY_SWIPES
 	db 15, GROWTH
 	db 19, FURY_CUTTER
@@ -773,10 +772,9 @@ ParasectEvosAttacks:
 	db 1, ABSORB
 	db 1, STUN_SPORE
 	db 1, POISONPOWDER
-	db 2, ABSORB
 	db 4, STUN_SPORE
 	db 6, POISONPOWDER
-	;db 9, MEGA_DRAIN
+	db 9, ABSORB
 	db 12, FURY_SWIPES
 	db 15, GROWTH
 	db 19, FURY_CUTTER
@@ -1898,12 +1896,17 @@ HorseaEvosAttacks:
 	db EVOLVE_LEVEL, 32, SEADRA
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 8, SMOKESCREEN
-	db 15, LEER
-	db 22, WATER_GUN
-	db 29, TRANSFORM
+	db 5, SMOKESCREEN
+	db 9, LEER
+	db 13, WATER_GUN
+	db 17, DRAGONBREATH
+	db 21, WATER_PULSE
+	db 26, FOCUS_ENERGY
+	;db 31, 
 	db 36, AGILITY
-	db 43, HYDRO_PUMP
+	db 41, DRAGON_PULSE
+	db 46, DRAGON_DANCE
+	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
