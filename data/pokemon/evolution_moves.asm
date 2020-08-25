@@ -89,7 +89,7 @@ EvolutionMoves::
     db NO_MOVE      ;Grimer
     db TOXIC        ;Muk
     db NO_MOVE      ;Shellder
-    db NO_MOVE      ;Cloyster
+    db TWINEEDLE    ;Cloyster
     db NO_MOVE      ;Gastly
     db NO_MOVE      ;Haunter
     db NO_MOVE      ;Gengar

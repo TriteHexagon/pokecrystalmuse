@@ -1459,13 +1459,14 @@ SeelEvosAttacks:
 	db 1, HEADBUTT
 	db 4, GROWL
 	db 8, ENCORE
-	db 12, AQUA_JET
-	db 16, ICY_WIND
-	db 20, REST
+	db 10, ICE_SHARD
+	db 14, AQUA_JET
+	db 18, ICY_WIND
+	db 22, REST
 	db 26, AURORA_BEAM
-	db 32, TAKE_DOWN
-	db 36, ICE_BEAM
-	db 42, SAFEGUARD
+	db 30, TAKE_DOWN
+	db 35, ICE_BEAM
+	db 41, SAFEGUARD
 	db 46, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1474,16 +1475,17 @@ DewgongEvosAttacks:
 	db 1, HEADBUTT
 	db 4, GROWL
 	db 8, ENCORE
-	db 12, AQUA_JET
-	db 16, ICY_WIND
-	db 20, REST
+	db 10, ICE_SHARD
+	db 14, AQUA_JET
+	db 18, ICY_WIND
+	db 22, REST
 	db 26, AURORA_BEAM
-	db 32, TAKE_DOWN
+	db 30, TAKE_DOWN
 	db 33, SIGNAL_BEAM
 	db 38, ICE_BEAM
 	db 46, SAFEGUARD
 	db 48, DOUBLE_EDGE
-;FAKE_OUT-SMART_STRIKE-ICICLE_CRASH-ICE_SHARD
+;FAKE_OUT-SMART_STRIKE
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:
@@ -1531,23 +1533,30 @@ ShellderEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, CLOYSTER
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, HARDEN
-	db 9, SUPERSONIC
-	db 17, AURORA_BEAM
-	db 25, PROTECT
-	db 33, LEER
-	db 41, RAZOR_SHELL
-	db 49, ICE_BEAM
+	db 1, WATER_GUN
+	db 1, HARDEN	
+	db 4, LEER
+	db 8, SUPERSONIC
+	db 13, ICE_SHARD
+	db 16, PROTECT
+	db 20, AURORA_BEAM
+	db 25, RAPID_SPIN
+	db 28, RAZOR_SHELL
+	db 32, IRON_DEFENSE
+	db 37, SHELL_SMASH
+	db 40, ICE_BEAM
+	db 44, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 CloysterEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DEFENSE_CURL
+	db 1, TWINEEDLE
+	db 1, HARDEN
 	db 1, SUPERSONIC
 	db 1, AURORA_BEAM
 	db 1, PROTECT
-	db 33, SPIKES
-	db 41, PIN_MISSILE
+	db 38, SPIKES
+	db 41, ICICLE_CRASH
 	db 0 ; no more level-up moves
 
 GastlyEvosAttacks:
@@ -1555,13 +1564,19 @@ GastlyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
-	db 8, SPITE
-	db 13, MEAN_LOOK
-	db 16, CURSE
-	db 21, NIGHT_SHADE
-	db 28, CONFUSE_RAY
+	db 3, SPITE
+	db 6, POISON_GAS
+	db 9, MEAN_LOOK
+	db 12, CURSE
+	db 15, NIGHT_SHADE
+	db 19, CONFUSE_RAY
+	db 22, SHADOW_SNEAK
+	db 26, DISABLE
+	db 29, SHADOW_BALL
 	db 33, DREAM_EATER
-	db 36, DESTINY_BOND
+	db 36, DARK_PULSE
+	db 40, HEX
+	db 43, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
@@ -1570,28 +1585,39 @@ HaunterEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
-	db 1, SPITE
-	db 8, SPITE
-	db 13, MEAN_LOOK
-	db 16, CURSE
-	db 21, NIGHT_SHADE
-	db 31, CONFUSE_RAY
-	db 39, DREAM_EATER
-	db 48, DESTINY_BOND
+	db 3, SPITE
+	db 6, POISON_GAS
+	db 9, MEAN_LOOK
+	db 12, CURSE
+	db 15, NIGHT_SHADE
+	db 19, CONFUSE_RAY
+	db 22, SHADOW_SNEAK
+	db 28, DISABLE
+	db 33, SHADOW_BALL
+	db 36, DREAM_EATER
+	db 40, DARK_PULSE
+	db 43, HEX
+	db 46, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 GengarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, LICK
-	db 1, SPITE
-	db 8, SPITE
-	db 13, MEAN_LOOK
-	db 16, CURSE
-	db 21, NIGHT_SHADE
-	db 31, CONFUSE_RAY
-	db 39, DREAM_EATER
-	db 48, DESTINY_BOND
+	db 3, SPITE
+	db 6, POISON_GAS
+	db 9, MEAN_LOOK
+	db 12, CURSE
+	db 15, NIGHT_SHADE
+	db 19, CONFUSE_RAY
+	db 22, SHADOW_SNEAK
+	db 28, DISABLE
+	db 33, SHADOW_BALL
+	db 36, DREAM_EATER
+	db 40, DARK_PULSE
+	db 43, HEX
+	db 46, DESTINY_BOND
+;HAZE
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
