@@ -31,19 +31,19 @@ GoldenrodDeptStore3FSuperNerdText:
 	text "I, I, I'm really"
 	line "impatient!"
 
-	para "I use X SPEED in"
+	para "I use X-Speed in"
 	line "battle to speed up"
 	cont "my #mon."
 	done
 
 GoldenrodDeptStore3FRockerText:
 	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	line "tle, do you use X-"
+	cont "Special?"
 
 	para "It's awesome. It"
 	line "really jacks up"
-	cont "SPECIAL ATTACK!"
+	cont "Special Attack!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:

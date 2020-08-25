@@ -330,17 +330,17 @@ String1dc550:
 	db "OT/@"
 
 String1dc554:
-	db "MOVE@"
+	db "Move@"
 
 String1dc559:
 	db "<ID>№.@"
 
 String1dc55d:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
+	db   "Attack"
+	next "Defense"
+	next "Spcl.Atk"
+	next "Spcl.Def"
+	next "Speed"
 	db   "@"
 
 String1dc584:
