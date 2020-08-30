@@ -1624,13 +1624,20 @@ OnixEvosAttacks:
 	db EVOLVE_TRADE, METAL_COAT, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, HARDEN
 	db 1, SCREECH
-	db 10, WRAP
-	db 14, ROCK_THROW
-	db 23, HARDEN
-	db 27, FURY_ATTACK
-	db 36, SANDSTORM
-	db 40, SLAM
+	db 6, WRAP
+	db 9, ROCK_THROW
+	db 13, CURSE
+	db 16, SANDSTORM
+	db 19, DRAGONBREATH
+	db 22, DIG
+	db 25, SLAM
+	db 29, ROCK_SLIDE
+	db 33, IRON_TAIL
+	db 37, COIL
+	db 41, DOUBLE_EDGE
+	db 45, STONE_EDGE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -1638,30 +1645,36 @@ DrowzeeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
-	db 10, DISABLE
-	db 18, CONFUSION
-	db 25, HEADBUTT
-	db 31, POISON_GAS
-	db 36, CALM_MIND
-	db 40, PSYCHIC_M
-	db 43, TRANSFORM
-	db 45, FUTURE_SIGHT
+	db 5, DISABLE
+	db 9, CONFUSION
+	db 13, HEADBUTT
+	db 17, POISON_GAS
+	db 21, FEINT_ATTACK
+	db 25, PSYBEAM
+	db 29, SWAGGER
+	db 33, ZEN_HEADBUTT
+	db 37, FUTURE_SIGHT
+	db 41, DREAM_EATER
+	db 45, NASTY_PLOT
+	db 49, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 HypnoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
-	db 1, DISABLE
-	db 1, CONFUSION
-	db 10, DISABLE
-	db 18, CONFUSION
-	db 25, HEADBUTT
-	db 33, POISON_GAS
-	db 40, CALM_MIND
+	db 5, DISABLE
+	db 9, CONFUSION
+	db 13, HEADBUTT
+	db 17, POISON_GAS
+	db 21, FEINT_ATTACK
+	db 25, PSYBEAM
+	db 29, SWAGGER
+	db 33, ZEN_HEADBUTT
+	db 37, DARK_PULSE
+	db 41, DREAM_EATER
+	db 45, NASTY_PLOT
 	db 49, PSYCHIC_M
-	db 55, TRANSFORM
-	db 60, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 KrabbyEvosAttacks:
@@ -3174,15 +3187,22 @@ GligarEvosAttacks:
 
 SteelixEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CRUNCH
 	db 1, TACKLE
+	db 1, HARDEN
 	db 1, SCREECH
-	db 10, WRAP
-	db 14, ROCK_THROW
-	db 23, HARDEN
-	db 27, FURY_ATTACK
-	db 36, SANDSTORM
-	db 40, SLAM
-	db 49, CRUNCH
+	db 6, WRAP
+	db 9, ROCK_THROW
+	db 13, CURSE
+	db 16, SANDSTORM
+	db 19, DRAGONBREATH
+	db 22, DIG
+	db 25, SLAM
+	db 29, ROCK_SLIDE
+	db 33, IRON_TAIL
+	db 37, COIL
+	db 41, DOUBLE_EDGE
+	db 45, STONE_EDGE
 	db 0 ; no more level-up moves
 
 SnubbullEvosAttacks:
