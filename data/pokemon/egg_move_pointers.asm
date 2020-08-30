@@ -23,7 +23,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw EkansEggMoves
 	dw NoEggMoves
-	dw PikachuEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw SandshrewEggMoves
 	dw NoEggMoves
@@ -33,11 +33,11 @@ EggMovePointers::
 	dw NidoranMEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ClefairyEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw VulpixEggMoves
 	dw NoEggMoves
-	dw JigglypuffEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw ZubatEggMoves
 	dw NoEggMoves

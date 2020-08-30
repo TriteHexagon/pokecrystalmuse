@@ -2839,29 +2839,34 @@ BellossomEvosAttacks:
 MarillEvosAttacks:
 	db EVOLVE_LEVEL, 18, AZUMARILL
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 3, DEFENSE_CURL
-	db 6, TAIL_WHIP
-	db 10, WATER_GUN
-	db 15, ROLLOUT
-	db 21, WATER_PULSE
-	db 28, DOUBLE_EDGE
-	db 36, RAIN_DANCE
+	db 1, POUND
+	db 3, TAIL_WHIP
+	db 7, WATER_GUN ;bubble
+	db 10, DEFENSE_CURL
+	db 10, ROLLOUT
+	db 14, WATER_PULSE
+	db 20, AQUA_JET ;AQUA TAIL
+	db 24, PLAY_ROUGH
+	db 29, RAIN_DANCE
+	db 37, DOUBLE_EDGE 
+	db 40, SUBMISSION ;superpower
+	db 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 AzumarillEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, DEFENSE_CURL
-	db 1, TAIL_WHIP
-	db 1, WATER_GUN
-	db 3, DEFENSE_CURL
-	db 6, TAIL_WHIP
-	db 10, WATER_GUN
-	db 15, ROLLOUT
-	db 25, WATER_PULSE
-	db 36, DOUBLE_EDGE
-	db 48, RAIN_DANCE
+	db 1, POUND
+	db 3, TAIL_WHIP
+	db 7, WATER_GUN
+	db 10, DEFENSE_CURL
+	db 10, ROLLOUT
+	db 14, WATER_PULSE
+	db 20, AQUA_JET
+	db 27, PLAY_ROUGH
+	db 35, RAIN_DANCE
+	db 42, DOUBLE_EDGE
+	db 46, SUBMISSION ;superpower
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 SudowoodoEvosAttacks:
@@ -2974,13 +2979,21 @@ YanmaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, FORESIGHT
-	db 7, QUICK_ATTACK
-	db 13, DOUBLE_TEAM
-	db 19, TRANSFORM
-	db 25, PROTECT
-	db 31, SUPERSONIC
-	db 37, WING_ATTACK
-	db 43, SCREECH
+	db 6, QUICK_ATTACK
+	db 11, DOUBLE_TEAM
+	db 14, PROTECT ;was sonic boom
+	db 17, DRAGON_RAGE ;was protect - much stronger than sonicboom
+	db 22, SUPERSONIC
+	db 27, DRAGONBREATH
+	db 30, PURSUIT
+	db 33, ANCIENTPOWER
+	db 38, HYPNOSIS
+	db 43, WING_ATTACK
+	db 46, SCREECH
+	db 49, AIR_SLASH ;was U_TURN
+	db 54, OUTRAGE ;was AIR_SLASH
+	db 57, BUG_BUZZ
+	db 62, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:
@@ -3096,12 +3109,16 @@ GirafarigEvosAttacks:
 	db 1, GROWL
 	db 1, CONFUSION
 	db 1, STOMP
-	db 7, CONFUSION
-	db 13, STOMP
-	db 20, AGILITY
-	db 30, BATON_PASS
-	db 41, PSYBEAM
-	db 54, CRUNCH
+	db 10, FEINT_ATTACK
+	db 14, STOMP
+	db 19, PSYBEAM
+	db 23, AGILITY
+	db 28, DOUBLE_KICK
+	db 32, ZEN_HEADBUTT
+	db 37, CRUNCH
+	db 41, BATON_PASS
+	db 46, NASTY_PLOT
+	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 PinecoEvosAttacks:
