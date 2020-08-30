@@ -206,7 +206,7 @@ EvolutionMoves::
     db NO_MOVE      ;Forretress
     db NO_MOVE      ;Dunsparce
     db NO_MOVE      ;Gligar
-    db NO_MOVE      ;Steelix
+    db CRUNCH       ;Steelix
     db NO_MOVE      ;Snubbull
     db NO_MOVE      ;Granbull
     db NO_MOVE      ;Qwilfish
