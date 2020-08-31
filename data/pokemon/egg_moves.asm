@@ -957,15 +957,13 @@ MagbyEggMoves:
 MiltankEggMoves:
 	db PRESENT
 	db FLAIL
-	db SEISMIC_TOSS
 	db ENDURE
-	db DIZZY_PUNCH
 	db DOUBLE_EDGE
 	db -1 ; end
 
 LarvitarEggMoves:
 	db PURSUIT
-	db STOMP
+	;db STOMP
 	db OUTRAGE
 	db FOCUS_ENERGY
 	db ANCIENTPOWER
