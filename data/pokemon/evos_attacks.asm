@@ -1624,13 +1624,20 @@ OnixEvosAttacks:
 	db EVOLVE_TRADE, METAL_COAT, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, HARDEN
 	db 1, SCREECH
-	db 10, WRAP
-	db 14, ROCK_THROW
-	db 23, HARDEN
-	db 27, FURY_ATTACK
-	db 36, SANDSTORM
-	db 40, SLAM
+	db 6, WRAP
+	db 9, ROCK_THROW
+	db 13, CURSE
+	db 16, SANDSTORM
+	db 19, DRAGONBREATH
+	db 22, DIG
+	db 25, SLAM
+	db 29, ROCK_SLIDE
+	db 33, IRON_TAIL
+	db 37, COIL
+	db 41, DOUBLE_EDGE
+	db 45, STONE_EDGE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -1638,57 +1645,78 @@ DrowzeeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
-	db 10, DISABLE
-	db 18, CONFUSION
-	db 25, HEADBUTT
-	db 31, POISON_GAS
-	db 36, CALM_MIND
-	db 40, PSYCHIC_M
-	db 43, TRANSFORM
-	db 45, FUTURE_SIGHT
+	db 5, DISABLE
+	db 9, CONFUSION
+	db 13, HEADBUTT
+	db 17, POISON_GAS
+	db 21, FEINT_ATTACK
+	db 25, PSYBEAM
+	db 29, SWAGGER
+	db 33, ZEN_HEADBUTT
+	db 37, FUTURE_SIGHT
+	db 41, DREAM_EATER
+	db 45, NASTY_PLOT
+	db 49, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 HypnoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
-	db 1, DISABLE
-	db 1, CONFUSION
-	db 10, DISABLE
-	db 18, CONFUSION
-	db 25, HEADBUTT
-	db 33, POISON_GAS
-	db 40, CALM_MIND
+	db 5, DISABLE
+	db 9, CONFUSION
+	db 13, HEADBUTT
+	db 17, POISON_GAS
+	db 21, FEINT_ATTACK
+	db 25, PSYBEAM
+	db 29, SWAGGER
+	db 33, ZEN_HEADBUTT
+	db 37, DARK_PULSE
+	db 41, DREAM_EATER
+	db 45, NASTY_PLOT
 	db 49, PSYCHIC_M
-	db 55, TRANSFORM
-	db 60, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 KrabbyEvosAttacks:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 5, LEER
-	db 12, TRANSFORM
-	db 16, HARDEN
-	db 23, STOMP
-	db 27, TRANSFORM
-	db 34, PROTECT
+	db 5, METAL_CLAW
+	db 9, LEER
+	db 11, HARDEN
+	db 15, WATER_PULSE
+	db 19, MUD_SHOT
+	db 21, STOMP
+	db 25, PROTECT
+	db 29, RAZOR_SHELL
+	db 31, SLAM
+	db 35, FLAIL
+	db 39, ENDURE
 	db 41, CRABHAMMER
+	db 45, AMNESIA
+	db 49, AGILITY
+	db 51, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 KinglerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 1, LEER
-	db 1, TRANSFORM
-	db 5, LEER
-	db 12, TRANSFORM
-	db 16, HARDEN
-	db 23, STOMP
-	db 27, TRANSFORM
-	db 38, PROTECT
-	db 49, CRABHAMMER
+	db 5, METAL_CLAW
+	db 9, LEER
+	db 11, HARDEN
+	db 15, WATER_PULSE
+	db 19, MUD_SHOT
+	db 21, STOMP
+	db 25, PROTECT
+	db 31, RAZOR_SHELL
+	db 35, SLAM
+	db 39, FLAIL
+	db 41, ENDURE
+	db 45, CRABHAMMER
+	db 49, AMNESIA
+	db 51, AGILITY
+	db 55, SWORDS_DANCE
+	db 60, SHELL_SMASH
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
@@ -3174,15 +3202,22 @@ GligarEvosAttacks:
 
 SteelixEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CRUNCH
 	db 1, TACKLE
+	db 1, HARDEN
 	db 1, SCREECH
-	db 10, WRAP
-	db 14, ROCK_THROW
-	db 23, HARDEN
-	db 27, FURY_ATTACK
-	db 36, SANDSTORM
-	db 40, SLAM
-	db 49, CRUNCH
+	db 6, WRAP
+	db 9, ROCK_THROW
+	db 13, CURSE
+	db 16, SANDSTORM
+	db 19, DRAGONBREATH
+	db 22, DIG
+	db 25, SLAM
+	db 29, ROCK_SLIDE
+	db 33, IRON_TAIL
+	db 37, COIL
+	db 41, DOUBLE_EDGE
+	db 45, STONE_EDGE
 	db 0 ; no more level-up moves
 
 SnubbullEvosAttacks:
