@@ -1723,14 +1723,17 @@ VoltorbEvosAttacks:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 9, SCREECH
-	db 17, TRANSFORM
-	db 23, EXPLOSION
-	db 29, ROLLOUT
-	db 33, LIGHT_SCREEN
-	db 37, SWIFT
-	db 39, EXPLOSION
-	db 41, MIRROR_COAT
+	db 5, THUNDER_WAVE
+	db 8, SPARK
+	db 12, ROLLOUT
+	db 15, SCREECH
+	db 19, LIGHT_SCREEN
+	db 26, SWIFT
+	db 29, EXPLOSION
+	db 33, MIRROR_COATEXPLOSION
+	db 36, 
+	db 39, THUNDERBOLTNIGHT_SHADESHADOW_BALL
+;DESTINY_BOND CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:
