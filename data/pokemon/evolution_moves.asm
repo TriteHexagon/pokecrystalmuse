@@ -122,9 +122,9 @@ EvolutionMoves::
     db NO_MOVE      ;Starmie
     db NO_MOVE      ;Mr.mime
     db NO_MOVE      ;Scyther
-    db NO_MOVE      ;Jynx
-    db NO_MOVE      ;Electabuzz
-    db NO_MOVE      ;Magmar
+    db DRAINING_KISS;Jynx
+    db CROSS_CHOP   ;Electabuzz
+    db CROSS_CHOP   ;Magmar
     db NO_MOVE      ;Pinsir
     db NO_MOVE      ;Tauros
     db NO_MOVE      ;Magikarp

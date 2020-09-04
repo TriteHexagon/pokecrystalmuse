@@ -398,11 +398,11 @@ RhyhornEggMoves:
 ChanseyEggMoves:
 	db PRESENT
 	db METRONOME
-	db HEAL_BELL
+	;db HEAL_BELL
 	db COUNTER
 	db MUD_SHOT
 	db ENDURE
-	db SEISMIC_TOSS
+	;db SEISMIC_TOSS
 	db -1 ; end
 
 TangelaEggMoves:

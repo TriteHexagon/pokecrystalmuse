@@ -1642,23 +1642,6 @@ OnixEvosAttacks:
 
 DrowzeeEvosAttacks:
 	db EVOLVE_LEVEL, 26, HYPNO
-	db 0 ; no more evolutions
-	db 1, POUND
-	db 1, HYPNOSIS
-	db 5, DISABLE
-	db 9, CONFUSION
-	db 13, HEADBUTT
-	db 17, POISON_GAS
-	db 21, FEINT_ATTACK
-	db 25, PSYBEAM
-	db 29, SWAGGER
-	db 33, ZEN_HEADBUTT
-	db 37, FUTURE_SIGHT
-	db 41, DREAM_EATER
-	db 45, NASTY_PLOT
-	db 49, PSYCHIC_M
-	db 0 ; no more level-up moves
-
 HypnoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
@@ -1671,7 +1654,7 @@ HypnoEvosAttacks:
 	db 25, PSYBEAM
 	db 29, SWAGGER
 	db 33, ZEN_HEADBUTT
-	db 37, DARK_PULSE
+	db 37, FUTURE_SIGHT
 	db 41, DREAM_EATER
 	db 45, NASTY_PLOT
 	db 49, PSYCHIC_M
@@ -1905,18 +1888,22 @@ RhydonEvosAttacks:
 
 ChanseyEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
+BlisseyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 5, GROWL
-	db 9, TAIL_WHIP
-	db 13, SOFTBOILED
-	db 17, DOUBLESLAP
-	db 23, MINIMIZE
-	db 29, SING
-	db 35, TRANSFORM
-	db 41, DEFENSE_CURL
-	db 49, LIGHT_SCREEN
-	db 57, DOUBLE_EDGE
+	db 1, GROWL
+	db 5, TAIL_WHIP
+    db 12, DOUBLESLAP
+    db 16, SOFTBOILED
+	db 20, DEFENSE_CURL ; replace Bestow
+    db 23, MINIMIZE
+	db 27, TAKE_DOWN
+    db 31, SING
+    db 34, SEISMIC_TOSS ;replace Fling
+    db 38, HEAL_BELL ; replace Heal Pulse
+    db 44, SEED_BOMB ; replace Egg Bomb
+    db 46, LIGHT_SCREEN
+    db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TangelaEvosAttacks:
@@ -2060,49 +2047,56 @@ ScytherEvosAttacks:
 	db 48, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
-JynxEvosAttacks:
+JynxEvosAttacks: ;done
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, LICK
-	db 1, LOVELY_KISS
-	db 1, ICE_SHARD
-	db 9, LOVELY_KISS
-	db 13, ICE_SHARD
-	db 21, DOUBLESLAP
-	db 25, ICE_PUNCH
-	db 35, MEAN_LOOK
-	db 41, BODY_SLAM
-	db 51, PERISH_SONG
-	db 57, BLIZZARD
+	db 5, LICK
+	db 8, LOVELY_KISS
+	db 11, ICE_SHARD
+	db 15, DOUBLESLAP
+	db 18, ICE_PUNCH
+	db 21, PSYBEAM
+	db 25, MEAN_LOOK
+	db 28, NASTY_PLOT  ;replace Fake Tears
+	db 33, DRAIN_PUNCH ;replace Wake-Up Slap
+	db 39, ICY_WIND
+	db 44, BODY_SLAM
+	db 49, PERISH_SONG ;moved up
+	db 55, BLIZZARD    ;moved up
 	db 0 ; no more level-up moves
 
-ElectabuzzEvosAttacks:
+ElectabuzzEvosAttacks: ;done
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
-	db 1, THUNDERPUNCH
-	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
-	db 25, SWIFT
-	db 36, SCREECH
-	db 47, THUNDERBOLT
-	db 58, THUNDER
+	db 5, THUNDERSHOCK
+	db 8, FLASH ; replace Low Kick, parallel with Smokescreen on Magmar
+	db 12, SWIFT
+    db 15, THUNDER_WAVE
+    db 20, DOUBLE_KICK ;replace Shock Wave and Electro Ball
+    db 26, LIGHT_SCREEN
+	db 29, THUNDERPUNCH
+    db 36, SCREECH     ;moved up
+    db 42, THUNDERBOLT ;moved up
+    db 49, THUNDER     ;moved up
+	db 55, SUBMISSION  ;new move 
 	db 0 ; no more level-up moves
 
-MagmarEvosAttacks:
+MagmarEvosAttacks: ;done
 	db 0 ; no more evolutions
-	db 1, EMBER
 	db 1, LEER
-	db 1, POISON_GAS
-	db 1, FIRE_PUNCH
-	db 7, LEER
-	db 13, POISON_GAS
-	db 19, FIRE_PUNCH
-	db 25, SMOKESCREEN
-	db 33, SUNNY_DAY
-	db 41, FLAMETHROWER
-	db 49, CONFUSE_RAY
-	db 57, FIRE_BLAST
+	db 1, ACID          ; replace Smog
+	db 5, EMBER
+	db 8, SMOKESCREEN
+    db 12, FEINT_ATTACK
+    db 15, FIRE_SPIN
+	db 20, VENOSHOCK    ;replace Clear Smog and Flame Burst, average levels
+    db 26, CONFUSE_RAY
+	db 29, FIRE_PUNCH
+    db 36, SUNNY_DAY    ;moved up
+    db 42, FLAMETHROWER ;moved up
+    db 49, FIRE_BLAST   ;moved up
+	db 55, SUBMISSION   ;new move
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:
@@ -3589,15 +3583,19 @@ SmoochumEvosAttacks:
 	db EVOLVE_LEVEL, 30, JYNX
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, LICK
-	db 9, SWEET_KISS
-	db 13, ICE_SHARD
-	db 21, CONFUSION
-	db 25, SING
-	db 33, MEAN_LOOK
-	db 37, PSYCHIC_M
+	db 5, LICK
+	db 8, SWEET_KISS
+	db 11, ICE_SHARD
+	db 15, CONFUSION
+	db 18, SING
+	db 21, PSYBEAM ;replace Heart Stamp
+	db 25, MEAN_LOOK
+	db 29, NASTY_PLOT ;replace Fake Tears and Lucky Chant, avg levels
+	db 35, ICY_WIND ;replace Avalanche
+	db 38, PSYCHIC_M
+	db 41, MIRROR_MOVE ;replace Copycat
 	db 45, PERISH_SONG
-	db 49, BLIZZARD
+	db 48, BLIZZARD
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
@@ -3605,26 +3603,33 @@ ElekidEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
-	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
-	db 25, SWIFT
-	db 33, SCREECH
-	db 41, THUNDERBOLT
-	db 49, THUNDER
+	db 5, THUNDERSHOCK
+	db 8, FLASH ; replace Low Kick
+	db 12, SWIFT
+    db 15, THUNDER_WAVE
+    db 20, DOUBLE_KICK ;replace Shock Wave and Electro Ball
+    db 26, LIGHT_SCREEN
+	db 29, THUNDERPUNCH
+    db 33, SCREECH     ;moved up
+    db 36, THUNDERBOLT ;moved up
+    db 40, THUNDER     ;moved up
 	db 0 ; no more level-up moves
 
 MagbyEvosAttacks:
 	db EVOLVE_LEVEL, 30, MAGMAR
 	db 0 ; no more evolutions
-	db 1, EMBER
-	db 7, LEER
-	db 13, POISON_GAS
-	db 19, FIRE_PUNCH
-	db 25, SMOKESCREEN
-	db 31, SUNNY_DAY
-	db 37, FLAMETHROWER
-	db 43, CONFUSE_RAY
-	db 49, FIRE_BLAST
+	db 1, LEER
+	db 1, ACID          ; replace Smog
+	db 5, EMBER
+	db 8, SMOKESCREEN
+    db 12, FEINT_ATTACK
+    db 15, FIRE_SPIN
+	db 20, DOUBLE_KICK  ;replace Clear Smog and Flame Burst, average levels
+    db 26, CONFUSE_RAY
+	db 29, FIRE_PUNCH
+    db 33, SUNNY_DAY    ;moved up
+    db 36, FLAMETHROWER ;moved up
+    db 40, FIRE_BLAST   ;moved up
 	db 0 ; no more level-up moves
 
 MiltankEvosAttacks:
@@ -3644,20 +3649,20 @@ MiltankEvosAttacks:
     db 50, DIZZY_PUNCH ;was Wake-Up Slap
 	db 0 ; no more level-up moves
 
-BlisseyEvosAttacks: ;not done
-	db 0 ; no more evolutions
-	db 1, POUND
-	db 4, GROWL
-	db 7, TAIL_WHIP
-	db 10, SOFTBOILED
-	db 13, DOUBLESLAP
-	db 18, MINIMIZE
-	db 23, SING
-	db 28, TRANSFORM
-	db 33, DEFENSE_CURL
-	db 40, LIGHT_SCREEN
-	db 47, DOUBLE_EDGE
-	db 0 ; no more level-up moves
+; BlisseyEvosAttacks: ;not done
+; 	db 0 ; no more evolutions
+; 	db 1, POUND
+; 	db 4, GROWL
+; 	db 7, TAIL_WHIP
+; 	db 10, SOFTBOILED
+; 	db 13, DOUBLESLAP
+; 	db 18, MINIMIZE
+; 	db 23, SING
+; 	db 28, TRANSFORM
+; 	db 33, DEFENSE_CURL
+; 	db 40, LIGHT_SCREEN
+; 	db 47, DOUBLE_EDGE
+; 	db 0 ; no more level-up moves
 
 RaikouEvosAttacks:
 	db 0 ; no more evolutions
@@ -3672,11 +3677,10 @@ RaikouEvosAttacks:
 	;
     db 43, CRUNCH
     db 50, THUNDER_FANG
-    db 57, WILD_CHARGE ;was Discharge
-    db 64, PSYBEAM
-    db 71, RAIN_DANCE
-    db 78, CALM_MIND
-    db 85, THUNDER
+    db 57, PSYBEAM
+    db 64, RAIN_DANCE
+    db 71, CALM_MIND
+    db 78, THUNDER
 	db 0 ; no more level-up moves
 
 EnteiEvosAttacks:
@@ -3692,11 +3696,10 @@ EnteiEvosAttacks:
 	;
     db 43, SWAGGER
     db 50, FIRE_FANG
-    db 57, SUNNY_DAY ;was lava plume
-    db 64, PSYBEAM ; replace Extrasensory
-    db 71, FIRE_BLAST
-    db 78, CALM_MIND
-    db 85, SACRED_FIRE ;was Eruption, don't judge me
+    db 57, PSYBEAM ; replace Extrasensory
+    db 64, FIRE_BLAST
+    db 71, CALM_MIND
+    db 78, SACRED_FIRE ;was Eruption, don't judge me
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
@@ -3712,11 +3715,10 @@ SuicuneEvosAttacks:
 	;
     db 43, MIRROR_COAT
     db 50, ICE_FANG
-    db 57, AGILITY ;was Tailwind
-    db 64, PSYBEAM ; replace Extrasensory
-    db 71, HYDRO_PUMP
-    db 78, CALM_MIND
-    db 85, BLIZZARD
+    db 57, PSYBEAM ; replace Extrasensory
+    db 64, HYDRO_PUMP
+    db 71, CALM_MIND
+    db 78, BLIZZARD
 	db 0 ; no more level-up moves
 
 LarvitarEvosAttacks:

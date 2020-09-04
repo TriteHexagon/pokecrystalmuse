@@ -88,7 +88,7 @@ PlayersHouseBookshelfScript:
 	givecoins 9999
 	; good party
 	givepoke MEWTWO, 100, LEFTOVERS
-	givepoke SEADRA, 15, DRAGON_SCALE
+	givepoke BLISSEY, 4, LUCKY_EGG
 	; hm slaves
 	givepoke MEW, 100, LEFTOVERS
 	givepoke MEW, 100, LEFTOVERS
