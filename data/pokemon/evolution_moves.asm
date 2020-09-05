@@ -104,8 +104,8 @@ EvolutionMoves::
     db STOMP        ;Exeggutor
     db NO_MOVE      ;Cubone
     db NO_MOVE      ;Marowak
-    db NO_MOVE      ;Hitmonlee
-    db NO_MOVE      ;Hitmonchan
+    db DOUBLE_KICK  ;Hitmonlee
+    db COMET_PUNCH  ;Hitmonchan
     db NO_MOVE      ;Lickitung
     db NO_MOVE      ;Koffing
     db NO_MOVE      ;Weezing
@@ -235,7 +235,7 @@ EvolutionMoves::
     db NO_MOVE      ;Stantler
     db NO_MOVE      ;Smeargle
     db NO_MOVE      ;Tyrogue
-    db NO_MOVE      ;Hitmontop
+    db TRIPLE_KICK  ;Hitmontop
     db NO_MOVE      ;Smoochum
     db NO_MOVE      ;Elekid
     db NO_MOVE      ;Magby

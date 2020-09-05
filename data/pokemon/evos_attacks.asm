@@ -1796,33 +1796,39 @@ MarowakEvosAttacks:
 	db 53, TRANSFORM
 	db 0 ; no more level-up moves
 
-HitmonleeEvosAttacks:
+HitmonleeEvosAttacks: ;done
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
-	db 6, BULK_UP
-	db 11, DOUBLE_KICK
-	db 16, HI_JUMP_KICK
+	db 5, BULK_UP
+	db 9, RAPID_SPIN ;replace Rolling Kick
+	db 13, TRIPLE_KICK ;replace Jump Kick
+	db 17, MACH_PUNCH ;replace Brick Break
 	db 21, FOCUS_ENERGY
-	db 26, HI_JUMP_KICK
-	db 31, LOCK_ON
-	db 36, FORESIGHT
-	db 41, ENDURE
-	db 46, TRANSFORM
-	db 51, FLAIL
+	db 25, PURSUIT ;replace Feint
+	db 29, HI_JUMP_KICK
+	db 33, LOCK_ON
+	db 37, FORESIGHT
+	db 41, ENDURE ;moved up
+	db 45, SUBMISSION
+	db 49, FLAIL
 	db 0 ; no more level-up moves
 
-HitmonchanEvosAttacks:
+HitmonchanEvosAttacks: ;done
 	db 0 ; no more evolutions
 	db 1, COMET_PUNCH
-	db 7, AGILITY
-	db 13, PURSUIT
-	db 26, THUNDERPUNCH
-	db 26, ICE_PUNCH
-	db 26, FIRE_PUNCH
-	db 32, MACH_PUNCH
-	db 38, TRANSFORM
-	db 44, PROTECT
-	db 50, COUNTER
+	db 6, AGILITY
+	db 11, PURSUIT
+	db 16, ROCK_SMASH ; replace Mach Punch
+	db 21, SEISMIC_TOSS ;replace Feint
+	db 26, MACH_PUNCH ;replace Vacuum Wave
+	db 31, THUNDERPUNCH
+	db 31, ICE_PUNCH
+	db 31, FIRE_PUNCH
+	db 36, DRAIN_PUNCH ;replace Skyyyyyy Uppercuuuuut!
+	db 41, PROTECT
+	db 46, COUNTER
+	db 50, SUBMISSION
+	;last move
 	db 0 ; no more level-up moves
 
 LickitungEvosAttacks:
@@ -3543,12 +3549,20 @@ Porygon2EvosAttacks:
 StantlerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 8, LEER
-	db 15, HYPNOSIS
-	db 23, STOMP
-	db 31, SAND_ATTACK
-	db 40, TAKE_DOWN
-	db 49, CONFUSE_RAY
+	db 3, LEER
+	db 7, SHADOW_SNEAK ;replace Astonish, maybe Lick?
+	db 10, HYPNOSIS
+	db 13, STOMP
+	db 16, SAND_ATTACK
+	db 21, TAKE_DOWN
+	db 23, CONFUSE_RAY
+	db 27, SHADOW_CLAW
+	db 33, CALM_MIND ;moved down
+	db 38, ZEN_HEADBUTT
+	db 43, HI_JUMP_KICK ;replace High Jump Kick
+	db 49, SPITE ;replace Imprison
+	db 50, DISABLE ;replace Captivate
+	db 55, MEGAHORN ;new move
 	db 0 ; no more level-up moves
 
 SmeargleEvosAttacks:
@@ -3571,19 +3585,24 @@ TyrogueEvosAttacks:
 	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, FAKE_OUT
+	db 1, FORESIGHT
 	db 0 ; no more level-up moves
 
 HitmontopEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TRIPLE_KICK
 	db 1, DOUBLE_KICK
-	db 7, FOCUS_ENERGY
-	db 13, PURSUIT
-	db 19, QUICK_ATTACK
-	db 25, RAPID_SPIN
-	db 31, COUNTER
+	db 6, FOCUS_ENERGY
+	db 10, PURSUIT
+	db 15, QUICK_ATTACK
+	db 19, RAPID_SPIN
+	db 28, COUNTER
+	db 33, ROLLOUT ;replace Triple Kick (evo move)
 	db 37, AGILITY
-	db 43, PROTECT
-	db 49, TRIPLE_KICK
+	db 42, SEISMIC_TOSS ;replace Gyro Ball
+	db 46, PROTECT ;moved up
+	db 50, HI_JUMP_KICK ;moved up
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:
@@ -3625,8 +3644,8 @@ ElekidEvosAttacks:
 MagbyEvosAttacks:
 	db EVOLVE_LEVEL, 30, MAGMAR
 	db 0 ; no more evolutions
-	db 1, LEER
 	db 1, ACID          ; replace Smog
+	db 1, LEER
 	db 5, EMBER
 	db 8, SMOKESCREEN
     db 12, FEINT_ATTACK
