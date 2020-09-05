@@ -608,6 +608,7 @@ ClefableEvosAttacks:
 	db 1, SING
 	db 1, DOUBLESLAP
 	db 1, MOONLIGHT
+;SOFTBOILED
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -660,6 +661,7 @@ WigglytuffEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 1, DOUBLESLAP
 	db 36, PLAY_ROUGH
+;SOFTBOILED
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
@@ -1654,7 +1656,7 @@ HypnoEvosAttacks:
 	db 25, PSYBEAM
 	db 29, SWAGGER
 	db 33, ZEN_HEADBUTT
-	db 37, FUTURE_SIGHT
+	db 37, DARK_PULSE
 	db 41, DREAM_EATER
 	db 45, NASTY_PLOT
 	db 49, PSYCHIC_M
@@ -1708,31 +1710,33 @@ VoltorbEvosAttacks:
 	db 1, TACKLE
 	db 5, THUNDER_WAVE
 	db 8, SPARK
-	db 12, ROLLOUT
-	db 15, SCREECH
-	db 19, LIGHT_SCREEN
-	db 26, SWIFT
+	db 12, NIGHT_SHADE
+	db 15, ROLLOUT
+	db 19, SCREECH
+	db 22, SWIFT
+	db 26, LIGHT_SCREEN
 	db 29, EXPLOSION
-	db 33, MIRROR_COAT ;EXPLOSION
-	;db 36, 
-	db 39, THUNDERBOLT ;NIGHT_SHADE SHADOW_BALL
-	;DESTINY_BOND CONFUSE_RAY
+	db 33, CONFUSE_RAY
+	db 36, THUNDERBOLT
+	db 40, MIRROR_COAT
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SCREECH
-	db 1, TRANSFORM
-	db 1, EXPLOSION
-	db 9, SCREECH
-	db 17, TRANSFORM
-	db 23, EXPLOSION
-	db 29, ROLLOUT
-	db 34, LIGHT_SCREEN
-	db 40, SWIFT
-	db 44, EXPLOSION
-	db 48, MIRROR_COAT
+	db 5, THUNDER_WAVE
+	db 8, SPARK
+	db 12, NIGHT_SHADE
+	db 15, ROLLOUT
+	db 19, SCREECH
+	db 22, SWIFT
+	db 26, LIGHT_SCREEN
+	db 29, EXPLOSION
+	db 29, SHADOW_BALL
+	db 35, CONFUSE_RAY
+	db 40, THUNDERBOLT
+	db 45, MIRROR_COAT
+;RAPID_SPIN FLASH CONVERSION
 	db 0 ; no more level-up moves
 
 ExeggcuteEvosAttacks:
