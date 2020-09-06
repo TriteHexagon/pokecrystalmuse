@@ -1953,10 +1953,10 @@ HorseaEvosAttacks:
 	db 5, SMOKESCREEN
 	db 9, LEER
 	db 13, WATER_GUN
-	db 17, DRAGONBREATH
-	db 21, WATER_PULSE
+	db 17, DRAGONBREATH ;replace Twister
+	db 21, WATER_PULSE ;replace BubbleBeam
 	db 26, FOCUS_ENERGY
-	;db 31, 
+	;db 31, SCALD?
 	db 36, AGILITY
 	db 41, DRAGON_PULSE
 	db 46, DRAGON_DANCE
@@ -1965,17 +1965,20 @@ HorseaEvosAttacks:
 
 SeadraEvosAttacks:
 	db EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
+KingdraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 1, SMOKESCREEN
-	db 1, LEER
-	db 1, WATER_GUN
-	db 8, SMOKESCREEN
-	db 15, LEER
-	db 22, WATER_GUN
-	db 29, TRANSFORM
-	db 40, AGILITY
-	db 51, HYDRO_PUMP
+	db 5, SMOKESCREEN
+	db 9, LEER
+	db 13, WATER_GUN
+	db 17, DRAGONBREATH ;replace Twister
+	db 21, WATER_PULSE ;replace BubbleBeam
+	db 26, FOCUS_ENERGY
+	;db 31, SCALD?
+	db 38, AGILITY
+	db 45, DRAGON_PULSE
+	db 52, DRAGON_DANCE
+	db 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 GoldeenEvosAttacks:
@@ -2236,19 +2239,23 @@ FlareonEvosAttacks:
 	db 52, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-PorygonEvosAttacks:
+PorygonEvosAttacks: ;done
 	db EVOLVE_TRADE, UP_GRADE, PORYGON2
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
 	db 1, TACKLE
 	db 1, CONVERSION
-	db 9, AGILITY
-	db 12, PSYBEAM
-	db 20, RECOVER
-	db 24, SHARPEN
-	db 32, LOCK_ON
-	db 36, TRI_ATTACK
-	db 44, THUNDER
+	db 1, DEFENSE_CURL ;replace Sharpen
+	db 7, PSYBEAM
+	db 12, AGILITY
+    db 18, RECOVER
+    db 23, SWIFT ;replace Magnet Rise
+    db 29, SIGNAL_BEAM
+    db 34, FLASH ;replace Recycle
+    db 40, THUNDERBOLT ;replace Discharge
+    db 45, LOCK_ON
+    db 50, TRI_ATTACK
+    db 56, MIRROR_COAT ;replace Magic Coat
+    db 62, THUNDER ;replace Zap Cannon
 	db 0 ; no more level-up moves
 
 OmanyteEvosAttacks:
@@ -3404,39 +3411,56 @@ PiloswineEvosAttacks:
 CorsolaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 7, HARDEN
-	db 13, WATER_GUN
-	db 19, RECOVER
-	db 25, WATER_PULSE
-	db 31, PIN_MISSILE
-	db 37, MIRROR_COAT
-	db 43, ANCIENTPOWER
+	db 1, HARDEN
+	db 4, WATER_GUN
+	db 8, RECOVER
+	db 10, WATER_PULSE
+	db 13, SCREECH ;replace Refresh
+	db 17, ANCIENTPOWER
+	db 20, PIN_MISSILE ;replace Spike Cannon
+	db 23, CONFUSE_RAY ;replace Lucky Chant
+	db 27, SCALD ;replace Brine
+	db 29, IRON_DEFENSE
+	db 31, ROCK_SLIDE ;replace Rock Blast
+	db 35, ENDURE
+	db 38, AMNESIA ;replace Aqua Ring
+	db 41, POWER_GEM
+	db 45, MIRROR_COAT
+	db 47, EARTH_POWER
+	db 50, FLAIL
 	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:
 	db EVOLVE_LEVEL, 25, OCTILLERY
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 11, LOCK_ON
-	db 22, PSYBEAM
-	db 22, AURORA_BEAM
-	db 22, WATER_PULSE
-	db 33, FOCUS_ENERGY
-	db 44, ICE_BEAM
-	db 55, HYPER_BEAM
+	db 6, LOCK_ON
+	db 10, PSYBEAM
+	db 14, AURORA_BEAM
+	db 18, WATER_PULSE
+	db 22, FOCUS_ENERGY
+	db 26, MUD_SHOT ;replace Water Pulse
+	db 30, SIGNAL_BEAM
+	db 34, ICE_BEAM
+	db 38, SEED_BOMB ;replace Bullet Seed
+	db 42, HYDRO_PUMP
+	db 46, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 OctilleryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 11, TRANSFORM
-	db 22, PSYBEAM
-	db 22, AURORA_BEAM
-	db 22, WATER_PULSE
-	db 24, OCTAZOOKA
-	db 38, FOCUS_ENERGY
-	db 54, ICE_BEAM
-	db 70, HYPER_BEAM
+	db 6, WRAP ;replace Constrict
+	db 10, PSYBEAM
+	db 14, AURORA_BEAM
+	db 18, WATER_PULSE
+	db 23, FOCUS_ENERGY
+	db 28, MUD_SHOT ;replace Wring Out
+	db 34, SIGNAL_BEAM
+	db 40, ICE_BEAM
+	db 46, SEED_BOMB
+	db 52, HYDRO_PUMP
+	db 58, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DelibirdEvosAttacks:
@@ -3448,24 +3472,39 @@ DelibirdEvosAttacks:
 MantineEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, WATER_GUN
-	db 10, SUPERSONIC
-	db 18, WATER_PULSE
-	db 25, TAKE_DOWN
+	db 1, SPLASH
+	db 3, WATER_GUN ;moved down
+	db 7, SUPERSONIC ;moved down
+	db 11, CONFUSE_RAY
+	db 14, WING_ATTACK
+	db 16, HEADBUTT
+	db 19, WATER_PULSE
+	db 23, SIGNAL_BEAM ; replace Wide Guard
+	db 27, TAKE_DOWN
 	db 32, AGILITY
-	db 40, WING_ATTACK
-	db 49, CONFUSE_RAY
+	db 36, AIR_SLASH
+	db 39, ROOST ;replace Aqua Ring
+	db 46, HYDRO_PUMP ;moved up
 	db 0 ; no more level-up moves
 
 SkarmoryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
-	db 13, SAND_ATTACK
-	db 19, SWIFT
-	db 25, AGILITY
-	db 37, FURY_ATTACK
-	db 49, STEEL_WING
+	db 6, SAND_ATTACK
+	db 9, METAL_CLAW
+	db 12, PURSUIT ;replace Air Cutter
+	db 17, FURY_ATTACK
+	db 20, AIR_SLASH ;moved up, replace Feint
+	db 23, SWIFT
+	db 28, SPIKES
+	db 31, AGILITY
+	db 34, STEEL_WING
+	db 39, SLASH
+	db 42, SCREECH ;replace Metal Sound
+	db 45, DRILL_PECK
+	db 50, SMART_STRIKE ;replace Automatize
+	db 53, SKY_ATTACK ;replace Night Slash
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
@@ -3473,77 +3512,104 @@ HoundourEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, EMBER
-	db 7, ROAR
-	db 13, POISON_GAS
-	db 20, BITE
-	db 27, FEINT_ATTACK
-	db 35, FLAMETHROWER
-	db 43, CRUNCH
+	db 6, POISON_GAS ;replace Smog & Howl - average levels
+	db 13, ROAR
+	db 16, BITE
+	db 20, FORESIGHT
+	db 25, PURSUIT ; replace Beat Up
+	db 28, FIRE_FANG
+	db 32, FEINT_ATTACK
+	db 37, SPITE ;replace Embargo
+	db 40, CRUNCH
+	db 44, FLAMETHROWER
+	db 49, BEAT_UP ;too strong for lv 25
+	db 52, NASTY_PLOT
+	db 56, FIRE_BLAST ;replace Inferno
 	db 0 ; no more level-up moves
 
 HoundoomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, EMBER
-	db 7, ROAR
-	db 13, POISON_GAS
-	db 20, BITE
-	db 30, FEINT_ATTACK
-	db 41, FLAMETHROWER
-	db 52, CRUNCH
+	db 1, THUNDER_FANG
+	db 6, POISON_GAS ;replace Smog & Howl - average levels
+	db 13, ROAR
+	db 16, BITE
+	db 20, FORESIGHT
+	db 26, PURSUIT ; replace Beat Up
+	db 30, FIRE_FANG
+	db 35, FEINT_ATTACK
+	db 41, SPITE ;replace Embargo
+	db 45, CRUNCH
+	db 50, FLAMETHROWER
+	db 56, BEAT_UP ;too strong for lv 25
+	db 60, NASTY_PLOT
+	db 65, FIRE_BLAST ;replace Inferno
 	db 0 ; no more level-up moves
 
-KingdraEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, WATER_GUN
-	db 1, SMOKESCREEN
-	db 1, LEER
-	db 1, WATER_GUN
-	db 8, SMOKESCREEN
-	db 15, LEER
-	db 22, WATER_GUN
-	db 29, TRANSFORM
-	db 40, AGILITY
-	db 51, HYDRO_PUMP
-	db 0 ; no more level-up moves
+; KingdraEvosAttacks:
+; 	db 0 ; no more evolutions
+; 	db 1, WATER_GUN
+; 	db 1, SMOKESCREEN
+; 	db 1, LEER
+; 	db 1, WATER_GUN
+; 	db 8, SMOKESCREEN
+; 	db 15, LEER
+; 	db 22, WATER_GUN
+; 	db 29, TRANSFORM
+; 	db 40, AGILITY
+; 	db 51, HYDRO_PUMP
+; 	db 0 ; no more level-up moves
 
 PhanpyEvosAttacks:
 	db EVOLVE_LEVEL, 25, DONPHAN
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 9, DEFENSE_CURL
-	db 17, FLAIL
-	db 25, TAKE_DOWN
-	db 33, ROLLOUT
-	db 41, ENDURE
-	db 49, DOUBLE_EDGE
+	db 1, DEFENSE_CURL
+	db 1, FORESIGHT ;replace Odor Sleuth
+	db 6, FLAIL
+	db 10, ROLLOUT
+	db 15, ROCK_SMASH ;replace Natural Gift - maybe Headbutt?
+	db 19, SLAM ;moved up
+	db 24, ENDURE
+	db 28, TAKE_DOWN
+	db 33, CHARM
+	db 37, PLAY_ROUGH ;replace Last Resort
+	db 42, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 DonphanEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SMART_STRIKE
 	db 1, GROWL
-	db 9, DEFENSE_CURL
-	db 17, FLAIL
-	db 24, FURY_ATTACK
-	db 33, ROLLOUT
-	db 41, RAPID_SPIN
-	db 49, EARTHQUAKE
+	db 1, DEFENSE_CURL
+	db 6, RAPID_SPIN
+	db 10, ROLLOUT
+	db 15, ROCK_SMASH ;replace Assurance - maybe Headbutt?
+	db 19, SLAM ;moved up
+	db 24, SMART_STRIKE ;moved down, replace Knock Off (rep Horn Attack)
+	db 30, MAGNITUDE
+	db 37, SCARY_FACE
+	db 43, EARTHQUAKE
+	db 50, DOUBLE_EDGE ;replace Giga Impact
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
 	db 1, TACKLE
 	db 1, CONVERSION
-	db 9, AGILITY
-	db 12, PSYBEAM
-	db 20, RECOVER
-	db 24, DEFENSE_CURL
-	db 32, LOCK_ON
-	db 36, TRI_ATTACK
-	db 44, THUNDER
+	db 7, PSYBEAM
+	db 12, AGILITY
+    db 18, RECOVER
+    db 23, SWIFT ;replace Magnet Rise
+    db 29, SIGNAL_BEAM
+    db 34, FLASH ;replace Recycle
+    db 40, THUNDERBOLT ;replace Discharge
+    db 45, LOCK_ON
+    db 50, TRI_ATTACK
+    db 56, MIRROR_COAT ;replace Magic Coat
+    db 62, THUNDER ;replace Zap Cannon
+	db 67, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 StantlerEvosAttacks:
