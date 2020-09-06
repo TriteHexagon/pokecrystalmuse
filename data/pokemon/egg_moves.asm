@@ -836,20 +836,15 @@ SlugmaEggMoves:
 	db -1 ; end
 
 SwinubEggMoves:
-	db TAKE_DOWN
 	db BITE
 	db BODY_SLAM
 	db ANCIENTPOWER
-	db MUD_SHOT
 	db DOUBLE_EDGE
-	db ICICLE_CRASH
 	db -1 ; end
 
 CorsolaEggMoves:
 	db SAFEGUARD
-	db SCREECH
 	db AMNESIA
-	db CONFUSE_RAY
 	db -1 ; end
 
 RemoraidEggMoves:
@@ -919,7 +914,6 @@ StantlerEggMoves:
 	db LIGHT_SCREEN
 	db BITE
 	db DOUBLE_KICK
-	db MEGAHORN
 	db THRASH
 	db -1 ; end
 

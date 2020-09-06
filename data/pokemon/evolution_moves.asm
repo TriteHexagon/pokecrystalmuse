@@ -194,8 +194,8 @@ EvolutionMoves::
     db NO_MOVE      ;Yanma
     db NO_MOVE      ;Wooper
     db NO_MOVE      ;Quagsire
-    db NO_MOVE      ;Espeon
-    db NO_MOVE      ;Umbreon
+    db CONFUSION    ;Espeon
+    db SNARL        ;Umbreon
     db NO_MOVE      ;Murkrow
     db NO_MOVE      ;Slowking
     db NO_MOVE      ;Misdreavus
@@ -208,16 +208,16 @@ EvolutionMoves::
     db NO_MOVE      ;Gligar
     db CRUNCH       ;Steelix
     db NO_MOVE      ;Snubbull
-    db NO_MOVE      ;Granbull
+    db SNARL        ;Granbull
     db NO_MOVE      ;Qwilfish
     db NO_MOVE      ;Scizor
     db NO_MOVE      ;Shuckle
     db NO_MOVE      ;Heracross
     db NO_MOVE      ;Sneasel
     db NO_MOVE      ;Teddiursa
-    db NO_MOVE      ;Ursaring
+    db CROSS_CHOP   ;Ursaring
     db NO_MOVE      ;Slugma
-    db NO_MOVE      ;Magcargo
+    db SHELL_SMASH  ;Magcargo
     db NO_MOVE      ;Swinub
     db FURY_ATTACK  ;Piloswine
     db NO_MOVE      ;Corsola
@@ -227,7 +227,7 @@ EvolutionMoves::
     db NO_MOVE      ;Mantine
     db NO_MOVE      ;Skarmory
     db NO_MOVE      ;Houndour
-    db NO_MOVE      ;Houndoom
+    db PURSUIT      ;Houndoom
     db NO_MOVE      ;Kingdra
     db NO_MOVE      ;Phanpy
     db FURY_ATTACK  ;Donphan
