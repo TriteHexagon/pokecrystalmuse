@@ -640,9 +640,7 @@ TogepiEggMoves:
 	db -1 ; end
 
 NatuEggMoves:
-	db HAZE
 	db DRILL_PECK
-	db QUICK_ATTACK
 	db FEINT_ATTACK
 	db STEEL_WING
 	db -1 ; end
@@ -662,7 +660,6 @@ MarillEggMoves:
 	db AMNESIA
 	db FUTURE_SIGHT
 	db BELLY_DRUM
-	db PERISH_SONG
 	db SUPERSONIC
 	db FORESIGHT
 	db BODY_SLAM
@@ -671,9 +668,7 @@ MarillEggMoves:
 
 SudowoodoEggMoves:
 	db EXPLOSION
-	db HARDEN
 	db DEFENSE_CURL
-	db ROLLOUT
 	db ENDURE
 	db -1 ; end
 

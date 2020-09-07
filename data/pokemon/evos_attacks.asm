@@ -672,33 +672,36 @@ ZubatEvosAttacks:
 	db 10, BITE
 	db 13, WING_ATTACK
 	db 17, CONFUSE_RAY
-	db 19, SWIFT
-	db 23, POISON_FANG
-	db 25, MEAN_LOOK 
-	db 29, LEECH_LIFE
-	db 31, HAZE
-	db 35, VENOSHOCK
-	db 37, AIR_SLASH
+	db 19, QUICK_ATTACK ;replace Air Cutter
+	db 23, SWIFT
+	db 25, POISON_FANG
+	db 29, MEAN_LOOK 
+	db 31, LEECH_LIFE
+	db 35, HAZE
+	db 37, VENOSHOCK
+	db 41, AIR_SLASH
+	db 43, SKY_ATTACK ;replace Quick Guard
 	db 0 ; no more level-up moves
 
 GolbatEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
+CrobatEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SCREECH
 	db 1, ABSORB
-	db 1, SUPERSONIC
-	db 1, BITE
 	db 5, SUPERSONIC
 	db 10, BITE
 	db 13, WING_ATTACK
 	db 17, CONFUSE_RAY
-	db 19, SWIFT
-	db 21, SCREECH
-	db 24, POISON_FANG
-	db 27, MEAN_LOOK 
-	db 31, LEECH_LIFE
-	db 36, HAZE
-	db 40, VENOSHOCK
-	db 45, AIR_SLASH
+	db 19, QUICK_ATTACK ;replace Air Cutter
+	db 24, SWIFT
+	db 27, POISON_FANG
+	db 32, MEAN_LOOK 
+	db 35, LEECH_LIFE
+	db 40, HAZE
+	db 43, VENOSHOCK
+	db 48, AIR_SLASH
+	db 51, SKY_ATTACK ;replace Quick Guard
 	db 0 ; no more level-up moves
 
 OddishEvosAttacks:
@@ -706,16 +709,19 @@ OddishEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, GROWTH
-	db 4, SWEET_SCENT
-	db 8, ACID
-	;db 10, MEGA_DRAIN
-	db 12, POISONPOWDER
-	db 13, STUN_SPORE
-	db 14, SLEEP_POWDER
-	db 18, RAZOR_LEAF
-	db 22, GIGA_DRAIN
-	db 26, MOONLIGHT
-	db 30, MOONBLAST
+	db 5, SWEET_SCENT
+	db 9, ACID
+	db 13, POISONPOWDER
+	db 14, STUN_SPORE
+	db 15, SLEEP_POWDER
+	db 19, RAZOR_LEAF ;replace Mega Drain
+	; evo
+	db 23, MOONLIGHT ;moved up
+	db 27, GIGA_DRAIN ;moved up
+	db 31, MOONBLAST ;replace wtv
+	db 35, TOXIC
+	db 39, PETAL_DANCE
+	db 43, DOUBLE_EDGE ;replace Natural Gift, etc
 	db 0 ; no more level-up moves
 
 GloomEvosAttacks:
@@ -724,18 +730,18 @@ GloomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, GROWTH
-	db 1, SWEET_SCENT
-	db 1, POISONPOWDER
-	db 4, SWEET_SCENT
-	db 8, ACID
-	;db 10, MEGA_DRAIN
-	db 12, POISONPOWDER
-	db 13, STUN_SPORE
-	db 14, SLEEP_POWDER
-	db 18, RAZOR_LEAF
-	db 26, GIGA_DRAIN
-	db 30, TOXIC
-	db 35, MOONBLAST
+	db 5, SWEET_SCENT
+	db 9, ACID
+	db 13, POISONPOWDER
+	db 14, STUN_SPORE
+	db 15, SLEEP_POWDER
+	db 19, RAZOR_LEAF ;replace Mega Drain
+	db 24, MOONLIGHT ;moved up
+	db 29, GIGA_DRAIN ;moved up
+	db 34, MOONBLAST ;replace wtv
+	db 39, TOXIC
+	db 44, PETAL_DANCE
+	db 49, DOUBLE_EDGE ;replace Natural Gift, etc
 	db 0 ; no more level-up moves
 
 VileplumeEvosAttacks:
@@ -744,10 +750,11 @@ VileplumeEvosAttacks:
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
-	db 1, PETAL_DANCE
-	db 36, NIGHT_SHADE
-	db 40, MOONLIGHT
-	db 45, PETAL_DANCE
+	;db 1, NIGHT_SHADE
+	db 39, NASTY_PLOT ;equivalency with Bellossom
+	db 49, MOONLIGHT ;replace Petal Blizzard
+	db 59, PETAL_DANCE
+	db 69, SOLARBEAM
 	db 0 ; no more level-up moves
 
 ParasEvosAttacks:
@@ -2665,108 +2672,143 @@ LedybaEvosAttacks:
 	db EVOLVE_LEVEL, 18, LEDIAN
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 8, SUPERSONIC
-	db 15, COMET_PUNCH
-	db 22, LIGHT_SCREEN
-	db 22, REFLECT
-	db 22, SAFEGUARD
-	db 29, BATON_PASS
-	db 36, SWIFT
-	db 43, AGILITY
-	db 50, DOUBLE_EDGE
+	db 5, SUPERSONIC
+	db 8, SWIFT
+	db 12, LIGHT_SCREEN
+	db 12, REFLECT
+	db 12, SAFEGUARD
+	db 15, MACH_PUNCH
+	db 19, THUNDERPUNCH ;replace Silver Wind
+	db 19, ICE_PUNCH    ;replace Silver Wind
+	db 22, COMET_PUNCH
+	db 26, BATON_PASS
+	db 29, AGILITY
+	db 33, BUG_BUZZ
+	db 36, AIR_SLASH
+	db 40, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 LedianEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DIZZY_PUNCH ;evolution move
 	db 1, TACKLE
-	db 1, SUPERSONIC
-	db 8, SUPERSONIC
-	db 15, COMET_PUNCH
-	db 24, LIGHT_SCREEN
-	db 24, REFLECT
-	db 24, SAFEGUARD
-	db 33, BATON_PASS
-	db 42, SWIFT
-	db 51, AGILITY
-	db 60, DOUBLE_EDGE
+	db 5, SUPERSONIC
+	db 8, SWIFT
+	db 12, LIGHT_SCREEN
+	db 12, REFLECT
+	db 12, SAFEGUARD
+	db 15, MACH_PUNCH
+	db 20, THUNDERPUNCH ;replace Silver Wind
+	db 20, ICE_PUNCH    ;replace Silver Wind
+	db 24, COMET_PUNCH
+	db 29, BATON_PASS
+	db 33, AGILITY
+	db 38, BUG_BUZZ
+	db 42, DRAIN_PUNCH ;replace Air Slash
+	db 47, DOUBLE_EDGE
+	db 53, SWORDS_DANCE
+	db 60, SUBMISSION
 	db 0 ; no more level-up moves
 
 SpinarakEvosAttacks:
 	db EVOLVE_LEVEL, 22, ARIADOS
 	db 0 ; no more evolutions
 	db 1, POISON_STING
-	db 1, TRANSFORM
-	db 6, SCARY_FACE
-	db 11, TRANSFORM
-	db 17, NIGHT_SHADE
-	db 23, LEECH_LIFE
-	db 30, FURY_SWIPES
-	db 37, TRANSFORM
-	db 45, AGILITY
-	db 53, PSYCHIC_M
+	db 5, ABSORB
+	db 8, TWINEEDLE ; replace Infestation
+	db 12, SCARY_FACE
+	db 15, NIGHT_SHADE
+	db 19, SHADOW_SNEAK
+	db 22, FURY_SWIPES
+	;evo
+	db 26, LEECH_LIFE ;replace Sucker Punch
+	db 29, DISABLE ;replace Spider Web
+	db 33, AGILITY
+	db 36, PIN_MISSILE
+	db 40, PSYCHIC_M
+	db 43, POISON_JAB
+	db 47, MEGAHORN ;replace Cross Poison
+	db 50, BEAT_UP ;replace Foul Play & last moves
 	db 0 ; no more level-up moves
 
 AriadosEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWORDS_DANCE ;evolution move
 	db 1, POISON_STING
-	db 1, TRANSFORM
-	db 1, SCARY_FACE
-	db 1, TRANSFORM
-	db 6, SCARY_FACE
-	db 11, TRANSFORM
-	db 17, NIGHT_SHADE
-	db 25, LEECH_LIFE
-	db 34, FURY_SWIPES
-	db 43, TRANSFORM
-	db 53, AGILITY
-	db 63, PSYCHIC_M
+	db 5, ABSORB
+	db 8, TWINEEDLE ; replace Infestation
+	db 12, SCARY_FACE
+	db 15, NIGHT_SHADE
+	db 19, SHADOW_SNEAK
+	db 23, FURY_SWIPES
+	db 28, LEECH_LIFE ;replace Sucker Punch
+	db 32, DISABLE ;replace Spider Web
+	db 37, AGILITY
+	db 41, PIN_MISSILE
+	db 46, PSYCHIC_M
+	db 50, POISON_JAB
+	db 55, MEGAHORN ;replace Cross Poison
+	db 58, BEAT_UP ;replace Foul Play & last moves
 	db 0 ; no more level-up moves
 
-CrobatEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, SCREECH
-	db 1, ABSORB
-	db 1, SUPERSONIC
-	db 1, BITE
-	db 5, SUPERSONIC
-	db 10, BITE
-	db 13, WING_ATTACK
-	db 17, CONFUSE_RAY
-	db 19, SWIFT
-	db 24, POISON_FANG
-	db 27, MEAN_LOOK 
-	db 31, LEECH_LIFE
-	db 36, HAZE
-	db 40, VENOSHOCK
-	db 45, AIR_SLASH
-	db 0 ; no more level-up moves
+; CrobatEvosAttacks:
+; 	db 0 ; no more evolutions
+; 	db 1, SCREECH
+; 	db 1, ABSORB
+; 	db 5, SUPERSONIC
+; 	db 10, BITE
+; 	db 13, WING_ATTACK
+; 	db 17, CONFUSE_RAY
+; 	db 19, 
+; 	db 24, SWIFT
+; 	db 27, POISON_FANG
+; 	db 32, MEAN_LOOK 
+; 	db 35, LEECH_LIFE
+; 	db 40, HAZE
+; 	db 43, VENOSHOCK
+; 	db 48, AIR_SLASH
+; 	db 51, SKY_ATTACK ;replace Quick Guard
+; 	db 0 ; no more level-up moves
 
 ChinchouEvosAttacks:
 	db EVOLVE_LEVEL, 27, LANTURN
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 1, THUNDER_WAVE
-	db 5, SUPERSONIC
-	db 13, FLAIL
-	db 17, WATER_GUN
-	db 25, SPARK
-	db 29, CONFUSE_RAY
-	db 37, TAKE_DOWN
-	db 41, HYDRO_PUMP
+	db 1, SUPERSONIC
+	db 6, THUNDER_WAVE
+	db 9, THUNDERSHOCK ;replace Electro Ball
+	db 12, FLASH ;replace Confuse Ray
+	db 17, CONFUSE_RAY
+    db 20, WATER_PULSE
+    db 23, SPARK
+	;evo
+	db 28, SIGNAL_BEAM
+	db 31, FLAIL
+	db 34, THUNDERBOLT
+    db 39, TAKE_DOWN
+	db 42, HYDRO_PUMP ;moved up
+    db 45, AMNESIA ;replace Ion Deluge
+	db 47, AGILITY ;replace Charge
 	db 0 ; no more level-up moves
 
 LanturnEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
-	db 1, THUNDER_WAVE
 	db 1, SUPERSONIC
-	db 5, SUPERSONIC
-	db 13, FLAIL
-	db 17, WATER_GUN
-	db 25, SPARK
-	db 33, CONFUSE_RAY
-	db 45, TAKE_DOWN
-	db 53, HYDRO_PUMP
+	db 6, THUNDER_WAVE
+	db 9, THUNDERSHOCK ;replace Electro Ball
+	db 12, FLASH ;replace Confuse Ray
+	db 17, CONFUSE_RAY
+    db 20, WATER_PULSE
+    db 23, SPARK
+	;evo
+	db 29, SIGNAL_BEAM
+	db 33, FLAIL
+	db 37, THUNDERBOLT
+    db 43, TAKE_DOWN
+	db 47, HYDRO_PUMP ;moved up
+    db 51, AMNESIA ;replace Ion Deluge
+	db 54, AGILITY ;replace Charge
 	db 0 ; no more level-up moves
 
 PichuEvosAttacks:
@@ -2774,9 +2816,10 @@ PichuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
 	db 1, CHARM
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, SWEET_KISS
+	db 5, TAIL_WHIP
+	db 10, SWEET_KISS
+	db 13, NASTY_PLOT
+	db 18, THUNDER_WAVE
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:
@@ -2785,8 +2828,10 @@ CleffaEvosAttacks:
 	db 1, POUND
 	db 1, CHARM
 	db 4, ENCORE
-	db 8, SING
-	db 13, SWEET_KISS
+	db 7, SING
+	db 10, SWEET_KISS
+	db 13, MIMIC ;replace CopyCat
+	db 16, SWIFT ;replace Magical Leaf
 	db 0 ; no more level-up moves
 
 IgglybuffEvosAttacks:
@@ -2794,9 +2839,10 @@ IgglybuffEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, CHARM
-	db 4, DEFENSE_CURL
-	db 9, POUND
-	db 14, SWEET_KISS
+	db 3, DEFENSE_CURL
+	db 5, POUND
+	db 9, SWEET_KISS
+	db 11, MIMIC ;replace CopyCat
 	db 0 ; no more level-up moves
 
 TogepiEvosAttacks:
@@ -2804,22 +2850,40 @@ TogepiEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, CHARM
-	db 7, METRONOME
-	db 18, SWEET_KISS
-	db 25, ENCORE
-	db 31, SAFEGUARD
-	db 38, DOUBLE_EDGE
+	db 5, METRONOME
+	db 9, SWEET_KISS
+	db 13, FORESIGHT
+	db 14, FAIRY_WIND
+	db 17, ENCORE
+	db 21, DRAINING_KISS
+	db 25, PSYBEAM ;replace Extrasensory
+	db 29, SOFTBOILED ;replace Wish
+	db 33, ANCIENTPOWER
+	db 37, SAFEGUARD
+	db 41, BATON_PASS
+	db 45, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SMART_STRIKE
+	db 1, NASTY_PLOT
 	db 1, GROWL
 	db 1, CHARM
-	db 7, METRONOME
-	db 18, SWEET_KISS
-	db 25, ENCORE
-	db 31, SAFEGUARD
-	db 38, DOUBLE_EDGE
+	db 5, METRONOME
+	db 9, SWEET_KISS
+	db 13, FORESIGHT
+	db 14, FAIRY_WIND
+	db 17, ENCORE
+	db 21, DRAINING_KISS
+	db 25, PSYBEAM ;replace Extrasensory
+	db 29, SOFTBOILED ;replace Wish
+	db 33, ANCIENTPOWER
+	db 37, SAFEGUARD
+	db 41, BATON_PASS
+	db 45, DOUBLE_EDGE
+	db 49, EXTREMESPEED ;from Togekiss
+	db 53, SKY_ATTACK ;from Togekiss
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
@@ -2827,23 +2891,36 @@ NatuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
-	db 10, NIGHT_SHADE
-	db 20, TELEPORT
-	db 30, FUTURE_SIGHT
-	db 40, CONFUSE_RAY
-	db 50, PSYCHIC_M
+	db 6, NIGHT_SHADE
+	db 9, CONFUSION ;replace Stored Power
+	db 12, TELEPORT
+	db 17, QUICK_ATTACK ;replace Ominous Wind
+	db 20, PSYBEAM 
+	db 23, CONFUSE_RAY
+	;evo
+	db 28, ROOST ;replace Wish
+	db 33, PSYCHIC_M
+	db 36, CALM_MIND ;replace Miracle Eye
+	db 39, HAZE
+	db 44, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 XatuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
-	db 1, NIGHT_SHADE
-	db 10, NIGHT_SHADE
-	db 20, TELEPORT
-	db 35, FUTURE_SIGHT
-	db 50, CONFUSE_RAY
-	db 65, PSYCHIC_M
+	db 6, NIGHT_SHADE
+	db 9, CONFUSION ;replace Stored Power
+	db 12, TELEPORT
+	db 17, QUICK_ATTACK ;replace Ominous Wind
+	db 20, PSYBEAM 
+	db 23, CONFUSE_RAY
+	;evo
+	db 29, ROOST ;replace Wish
+	db 35, PSYCHIC_M
+	db 39, CALM_MIND ;replace Miracle Eye
+	db 43, HAZE
+	db 49, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 MareepEvosAttacks:
@@ -2851,11 +2928,19 @@ MareepEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 9, THUNDERSHOCK
-	db 16, THUNDER_WAVE
-	db 23, TRANSFORM
-	db 30, LIGHT_SCREEN
-	db 37, THUNDER
+	db 4, THUNDER_WAVE
+	db 8, THUNDERSHOCK
+	db 11, FLASH
+	db 15, HEAL_BELL ;replace Charge
+	;evo
+	db 18, TAKE_DOWN
+	db 22, SWIFT ;replace Electro Ball
+	db 25, CONFUSE_RAY
+	db 29, POWER_GEM
+	db 32, THUNDERBOLT ;replace Discharge
+	db 36, SIGNAL_BEAM ;moved up
+	db 39, LIGHT_SCREEN ;moved up
+	db 43, THUNDER ;moved up
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
@@ -2863,26 +2948,39 @@ FlaaffyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
-	db 9, THUNDERSHOCK
-	db 18, THUNDER_WAVE
-	db 27, TRANSFORM
-	db 36, LIGHT_SCREEN
-	db 45, THUNDER
+	db 4, THUNDER_WAVE
+	db 8, THUNDERSHOCK
+	db 11, FLASH
+	db 16, HEAL_BELL ;replace Charge
+	db 20, TAKE_DOWN
+	db 25, SWIFT ;replace Electro Ball
+	db 29, CONFUSE_RAY
+	;evo
+	db 34, POWER_GEM
+	db 38, THUNDERBOLT ;replace Discharge
+	db 43, SIGNAL_BEAM ;moved up
+	db 47, LIGHT_SCREEN ;moved up
+	db 52, THUNDER ;moved up
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, THUNDERSHOCK
-	db 1, THUNDER_WAVE
-	db 9, THUNDERSHOCK
-	db 18, THUNDER_WAVE
-	db 27, TRANSFORM
-	db 29, THUNDERPUNCH
-	db 42, LIGHT_SCREEN
-	db 57, THUNDER
+	db 4, THUNDER_WAVE
+	db 8, THUNDERSHOCK
+	db 11, FLASH
+	db 16, HEAL_BELL ;replace Charge
+	db 20, TAKE_DOWN
+	db 25, SWIFT ;replace Electro Ball
+	db 29, CONFUSE_RAY
+	;evo
+	db 35, POWER_GEM
+	db 40, THUNDERBOLT ;replace Discharge
+	db 46, SIGNAL_BEAM ;moved up
+	db 51, LIGHT_SCREEN ;moved up
+	db 57, THUNDER ;moved up
+	db 62, DRAGON_PULSE
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
@@ -2892,40 +2990,46 @@ BellossomEvosAttacks:
 	db 1, ABSORB
 	db 1, SWEET_SCENT
 	db 1, STUN_SPORE
-	db 1, SOLARBEAM
-	db 36, SUNNY_DAY
-	db 40, MORNING_SUN
-	db 45, SOLARBEAM
-	db 49, QUIVER_DANCE
+	db 39, QUIVER_DANCE
+	db 49, MORNING_SUN ;replace Petal Blizzard
+	db 59, PETAL_DANCE
+	db 69, SOLARBEAM ;replace Leaf Storm
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:
 	db EVOLVE_LEVEL, 18, AZUMARILL
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 3, TAIL_WHIP
-	db 7, WATER_GUN ;bubble
+	db 1, SPLASH
+	db 2, TAIL_WHIP
+	db 5, SING ;replace Water Sport
+	db 7, WATER_GUN ;replace Bubble
 	db 10, DEFENSE_CURL
 	db 10, ROLLOUT
-	db 14, WATER_PULSE
-	db 20, AQUA_JET ;AQUA TAIL
+	db 13, WATER_PULSE
+	db 16, SLAM ;replace Helping Hand
+	db 20, AQUA_JET ;replace Aqua Tail
 	db 24, PLAY_ROUGH
-	db 29, RAIN_DANCE
+	db 28, PERISH_SONG ;replace Aqua Ring
+	db 31, RAIN_DANCE
 	db 37, DOUBLE_EDGE 
-	db 40, SUBMISSION ;superpower
+	db 40, SUBMISSION ;replace Superpower
 	db 47, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 AzumarillEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 3, TAIL_WHIP
+	db 2, TAIL_WHIP
+	db 5, SING ;replace Water Sport
 	db 7, WATER_GUN
 	db 10, DEFENSE_CURL
 	db 10, ROLLOUT
-	db 14, WATER_PULSE
+	db 13, WATER_PULSE
+	db 16, SLAM ;replace Helping Hand
 	db 20, AQUA_JET
 	db 27, PLAY_ROUGH
+	db 31, PERISH_SONG ;replace Aqua Ring
 	db 35, RAIN_DANCE
 	db 42, DOUBLE_EDGE
 	db 46, SUBMISSION ;superpower
@@ -2934,108 +3038,160 @@ AzumarillEvosAttacks:
 
 SudowoodoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROCK_THROW
-	db 1, MIMIC
-	db 10, FLAIL
-	db 19, DOUBLE_KICK
-	db 28, ROCK_SLIDE
-	db 37, FEINT_ATTACK
-	db 46, SLAM
+	db 1, TACKLE
+	db 5, FLAIL
+	db 8, DOUBLE_KICK ;replace Low Kick
+	db 12, ROCK_THROW
+	db 15, MIMIC
+	db 19, FEINT_ATTACK
+	db 22, CHARM ;replace Tearful Look
+	db 26, ROLLOUT ;replace Rock Tomb
+	db 29, HARDEN ;replace Block
+	db 33, ROCK_SLIDE
+	db 36, COUNTER
+	db 40, SLAM ;replace Sucker Punch
+	db 43, DOUBLE_EDGE
+	db 47, STONE_EDGE
+	db 50, SUBMISSION ;replace Hammer Arm
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WATER_GUN
+	db 1, WATER_PULSE
 	db 1, HYPNOSIS
 	db 1, DOUBLESLAP
 	db 1, PERISH_SONG
 	db 27, SWAGGER
-	db 32, SNARL
-	db 37, HYPER_VOICE
+	db 37, SNARL ;replace Bounce
+	db 48, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
 	db EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 ; no more evolutions
 	db 1, SPLASH
-	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 20, LEECH_SEED
-	db 25, TRANSFORM
-	db 30, ABSORB
+	db 1, TAIL_WHIP
+	db 4, SYNTHESIS
+	db 6, TAIL_WHIP
+	db 8, TACKLE
+	db 10, FAIRY_WIND
+	db 12, POISONPOWDER
+	db 14, STUN_SPORE
+	db 16, SLEEP_POWDER
+	db 19, ABSORB ;replace Mega Drain, moved up
+	db 22, LEECH_SEED
+	db 25, CONFUSION ;replace Bullet Seed
+	db 28, AIR_SLASH ;replace Acrobatics
+	db 31, SWEET_SCENT ;replace Rage Powder
+	db 34, SPORE ;replace Cotton Spore
+	db 37, SEED_BOMB ;replace U-Turn
+	db 40, AMNESIA
+	db 43, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 SkiploomEvosAttacks:
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
 	db 1, SPLASH
-	db 1, SYNTHESIS
 	db 1, TAIL_WHIP
-	db 1, TACKLE
-	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 22, LEECH_SEED
-	db 29, TRANSFORM
-	db 36, ABSORB
+	db 4, SYNTHESIS
+	db 6, TAIL_WHIP
+	db 8, TACKLE
+	db 10, FAIRY_WIND
+	db 12, POISONPOWDER
+	db 14, STUN_SPORE
+	db 16, SLEEP_POWDER
+	;evo
+	db 20, ABSORB ;replace Mega Drain, moved up
+	db 24, LEECH_SEED
+	db 28, CONFUSION ;replace Bullet Seed
+	db 32, AIR_SLASH ;replace Acrobatics
+	db 36, SWEET_SCENT ;replace Rage Powder
+	db 40, SPORE ;replace Cotton Spore
+	db 44, SEED_BOMB ;replace U-Turn
+	db 48, AMNESIA
+	db 52, GIGA_DRAIN
+	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 JumpluffEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SPLASH
-	db 1, SYNTHESIS
 	db 1, TAIL_WHIP
-	db 1, TACKLE
-	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 22, LEECH_SEED
-	db 33, TRANSFORM
-	db 44, ABSORB
+	db 4, SYNTHESIS
+	db 6, TAIL_WHIP
+	db 8, TACKLE
+	db 10, FAIRY_WIND
+	db 12, POISONPOWDER
+	db 14, STUN_SPORE
+	db 16, SLEEP_POWDER
+	db 20, ABSORB ;replace Mega Drain, moved up
+	db 24, LEECH_SEED
+	;evo
+	db 29, CONFUSION ;replace Bullet Seed
+	db 34, AIR_SLASH ;replace Acrobatics
+	db 39, SWEET_SCENT ;replace Rage Powder
+	db 44, SPORE ;replace Cotton Spore
+	db 49, SEED_BOMB ;replace U-Turn
+	db 54, AMNESIA
+	db 59, GIGA_DRAIN
+	db 64, DOUBLE_EDGE
+	db 69, QUIVER_DANCE
 	db 0 ; no more level-up moves
 
 AipomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
-	db 6, SAND_ATTACK
-	db 12, BATON_PASS
-	db 19, FURY_SWIPES
-	db 27, SWIFT
-	db 36, SCREECH
-	db 46, AGILITY
+	db 4, SAND_ATTACK
+	db 8, FAKE_OUT ;replace Astonish
+	db 11, BATON_PASS
+	db 15, SLAM ;replace Tickle
+	db 18, FURY_SWIPES
+	db 22, SWIFT
+	db 25, SCREECH
+	db 29, AGILITY
+	db 32, BODY_SLAM ;replace Double Hit
+	db 36, BEAT_UP ;replace Fling
+	db 39, NASTY_PLOT
+	db 43, DOUBLE_EDGE ;replace Last Resort
 	db 0 ; no more level-up moves
 
 SunkernEvosAttacks:
 	db EVOLVE_ITEM, SUN_STONE, SUNFLORA
 	db 0 ; no more evolutions
-	db 1, ABSORB
-	db 4, GROWTH
-	;db 10, MEGA_DRAIN
-	db 19, SUNNY_DAY
-	db 31, SYNTHESIS
-	db 46, GIGA_DRAIN
+	db 1, TACKLE
+	db 5, GROWTH
+	db 9, ABSORB
+	db 13, LEECH_SEED
+    db 17, RAZOR_LEAF
+	db 21, SWEET_SCENT
+	db 25, SYNTHESIS
+	db 28, GIGA_DRAIN
+	db 31, ENCORE
+	db 34, SEED_BOMB
+	db 37, DOUBLE_EDGE
+	db 40, SUNNY_DAY
+	db 43, SOLARBEAM
 	db 0 ; no more level-up moves
 
 SunfloraEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ABSORB
 	db 1, POUND
-	db 4, GROWTH
-	db 10, RAZOR_LEAF
-	db 19, SUNNY_DAY
-	db 31, PETAL_DANCE
-	db 46, SOLARBEAM
+	db 1, EMBER
+	db 5, GROWTH ;replace Ingrain
+	db 9, ABSORB
+	db 13, LEECH_SEED
+    db 17, RAZOR_LEAF
+	db 21, FIRE_SPIN
+	db 25, MORNING_SUN
+    db 28, GIGA_DRAIN
+	db 31, FLAMETHROWER
+    db 34, PETAL_DANCE
+	db 37, DOUBLE_EDGE
+    db 40, SUNNY_DAY
+	db 43, SOLARBEAM
+	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
@@ -3053,10 +3209,10 @@ YanmaEvosAttacks:
 	db 38, HYPNOSIS
 	db 43, WING_ATTACK
 	db 46, SCREECH
-	db 49, AIR_SLASH ;was U_TURN
+	db 49, AIR_SLASH ;was U Turn
 	db 54, OUTRAGE ;was AIR_SLASH
 	db 57, BUG_BUZZ
-	db 62, DRAGON_DANCE
+	db 62, DRAGON_DANCE ;new!
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:

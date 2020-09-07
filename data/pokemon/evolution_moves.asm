@@ -164,9 +164,9 @@ EvolutionMoves::
     db NO_MOVE      ;Hoothoot
     db NO_MOVE      ;Noctowl
     db NO_MOVE      ;Ledyba
-    db NO_MOVE      ;Ledian
+    db DIZZY_PUNCH  ;Ledian
     db NO_MOVE      ;Spinarak
-    db NO_MOVE      ;Ariados
+    db SWORDS_DANCE ;Ariados
     db NO_MOVE      ;Crobat
     db NO_MOVE      ;Chinchou
     db NO_MOVE      ;Lanturn
@@ -174,12 +174,12 @@ EvolutionMoves::
     db NO_MOVE      ;Cleffa
     db NO_MOVE      ;Igglybuff
     db NO_MOVE      ;Togepi
-    db NO_MOVE      ;Togetic
+    db AIR_SLASH    ;Togetic
     db NO_MOVE      ;Natu
-    db NO_MOVE      ;Xatu
+    db AIR_SLASH    ;Xatu
     db NO_MOVE      ;Mareep
     db NO_MOVE      ;Flaaffy
-    db THUNDERPUNCH ;Ampharos
+    db DRAGONBREATH ;Ampharos
     db DAZZLINGLEAM ;Bellossom
     db NO_MOVE      ;Marill
     db NO_MOVE      ;Azumarill
@@ -190,7 +190,7 @@ EvolutionMoves::
     db NO_MOVE      ;Jumpluff
     db NO_MOVE      ;Aipom
     db NO_MOVE      ;Sunkern
-    db NO_MOVE      ;Sunflora
+    db EMBER        ;Sunflora
     db NO_MOVE      ;Yanma
     db NO_MOVE      ;Wooper
     db NO_MOVE      ;Quagsire
