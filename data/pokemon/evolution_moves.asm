@@ -152,17 +152,17 @@ EvolutionMoves::
     db NO_MOVE      ;Mew
     db NO_MOVE      ;Chikorita
     db NO_MOVE      ;Bayleef
-    db MOONBLAST    ;Meganium
+    db DAZZLINGLEAM ;Meganium
     db NO_MOVE      ;Cyndaquil
     db NO_MOVE      ;Quilava
-    db NO_MOVE      ;Typhlosion
+    db MUD_SHOT     ;Typhlosion
     db NO_MOVE      ;Totodile
     db NO_MOVE      ;Croconaw
-    db NO_MOVE      ;Feraligatr
+    db CRUNCH       ;Feraligatr
     db NO_MOVE      ;Sentret
     db AGILITY      ;Furret
     db NO_MOVE      ;Hoothoot
-    db NO_MOVE      ;Noctowl
+    db NIGHT_SHADE  ;Noctowl
     db NO_MOVE      ;Ledyba
     db DIZZY_PUNCH  ;Ledian
     db NO_MOVE      ;Spinarak
