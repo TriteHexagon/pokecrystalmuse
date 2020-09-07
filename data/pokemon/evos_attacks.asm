@@ -1624,16 +1624,18 @@ GengarEvosAttacks:
 
 OnixEvosAttacks:
 	db EVOLVE_TRADE, METAL_COAT, STEELIX
+SteelixEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CRUNCH ;evo move, I don't mind Onix being able to learn it too
 	db 1, TACKLE
 	db 1, HARDEN
 	db 1, SCREECH
 	db 6, WRAP
 	db 9, ROCK_THROW
-	db 13, CURSE
-	db 16, SANDSTORM
+	db 13, CURSE ;replace Rage
+	db 16, SANDSTORM ;replace Stealth Rock
 	db 19, DRAGONBREATH
-	db 22, DIG
+	db 22, DIG ; replace Smack Down
 	db 25, SLAM
 	db 29, ROCK_SLIDE
 	db 33, IRON_TAIL
@@ -2185,7 +2187,7 @@ DittoEvosAttacks:
 	db 1, TRANSFORM
 	db 0 ; no more level-up moves
 
-EeveeEvosAttacks:
+EeveeEvosAttacks: ;done
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
@@ -2194,54 +2196,68 @@ EeveeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, GROWL
-	db 23, QUICK_ATTACK
-	db 30, BITE
-	db 36, BATON_PASS
-	db 42, TAKE_DOWN
+	db 5, SAND_ATTACK
+	db 9, CHARM ;replace Baby-Doll Eyes
+	db 13, QUICK_ATTACK
+	db 17, BITE
+	db 20, SWIFT ;replace Refresh
+	db 25, TAKE_DOWN
+	db 29, HEAL_BELL ;replace Charm
+	db 33, BATON_PASS
+	db 37, DOUBLE_EDGE
+	db 41, HYPER_VOICE ;replace Last Resort
+	db 45, FLAIL ;replace Trump Card
 	db 0 ; no more level-up moves
 
-VaporeonEvosAttacks:
+VaporeonEvosAttacks: ;done
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, WATER_GUN
-	db 23, QUICK_ATTACK
-	db 30, BITE
-	db 36, AURORA_BEAM
-	db 42, HAZE
-	db 47, ACID_ARMOR
-	db 52, HYDRO_PUMP
+	db 5, SAND_ATTACK
+	db 9, CHARM ;replace Baby-Doll Eyes
+	db 13, QUICK_ATTACK
+	db 17, WATER_PULSE
+	db 20, ICE_FANG ;replace Aqua Ring
+	db 25, AURORA_BEAM
+	db 29, ACID_ARMOR
+	db 33, HAZE
+	db 37, SCALD ;replace Muddy Water
+	db 41, HYPER_VOICE ;replace Last Resort
+	db 45, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-JolteonEvosAttacks:
+JolteonEvosAttacks: ;done
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, THUNDERSHOCK
-	db 23, QUICK_ATTACK
-	db 30, DOUBLE_KICK
-	db 36, PIN_MISSILE
-	db 42, THUNDER_WAVE
-	db 47, AGILITY
-	db 52, THUNDER
+	db 5, SAND_ATTACK
+	db 9, CHARM ;replace Baby-Doll Eyes
+	db 13, QUICK_ATTACK
+	db 17, DOUBLE_KICK
+	db 20, THUNDER_FANG
+	db 25, PIN_MISSILE
+	db 29, AGILITY
+	db 33, THUNDER_WAVE
+	db 37, THUNDERBOLT
+	db 41, HYPER_VOICE
+	db 45, THUNDER
 	db 0 ; no more level-up moves
 
-FlareonEvosAttacks:
+FlareonEvosAttacks:;done
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, EMBER
-	db 23, QUICK_ATTACK
-	db 30, BITE
-	db 36, FIRE_SPIN
-	db 42, POISON_GAS
-	db 47, LEER
-	db 52, FLAMETHROWER
+	db 5, SAND_ATTACK
+	db 9, CHARM ;replace Baby-Doll Eyes
+	db 13, QUICK_ATTACK
+	db 17, BITE
+	db 20, FIRE_FANG
+	db 25, FIRE_SPIN
+	db 29, SCARY_FACE
+	db 33, POISON_GAS ;replace Smog
+	db 37, FLAMETHROWER
+	db 41, BODY_SLAM
+	db 45, FLARE_BLITZ
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks: ;done
@@ -3048,93 +3064,121 @@ WooperEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TAIL_WHIP
-	db 11, SLAM
-	db 21, AMNESIA
-	db 31, EARTHQUAKE
-	db 41, RAIN_DANCE
-	db 51, TRANSFORM
-	db 51, HAZE
+	db 7, MUD_SLAP ;average
+	db 15, SLAM
+	db 19, MUD_SHOT
+	db 23, AMNESIA
+	db 29, RECOVER ;replace Yawn
+	db 33, EARTHQUAKE
+	db 37, RAIN_DANCE
+	db 43, HAZE
+	db 47, SCALD ;replace Muddy Water
 	db 0 ; no more level-up moves
 
 QuagsireEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TAIL_WHIP
-	db 11, SLAM
-	db 23, AMNESIA
-	db 35, EARTHQUAKE
-	db 47, RAIN_DANCE
-	db 59, TRANSFORM
-	db 59, HAZE
+	db 7, MUD_SLAP ;average
+	db 15, SLAM
+	db 19, MUD_SHOT
+	;evo
+	db 24, AMNESIA
+	db 31, RECOVER ;replace Yawn
+	db 36, EARTHQUAKE
+	db 41, RAIN_DANCE
+	db 48, HAZE
+	db 53, SCALD ;replace Muddy Water
 	db 0 ; no more level-up moves
 
 EspeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, CONFUSION
-	db 23, QUICK_ATTACK
-	db 30, SWIFT
-	db 36, PSYBEAM
-	db 42, TRANSFORM
-	db 47, PSYCHIC_M
-	db 52, MORNING_SUN
+	db 5, SAND_ATTACK
+	db 9, CHARM ;replace Baby-Doll Eyes
+	db 13, QUICK_ATTACK
+	db 17, SWIFT
+	db 20, PSYBEAM
+	db 25, FUTURE_SIGHT
+	db 29, CALM_MIND ;replace Psych Up
+	db 33, MORNING_SUN
+	db 37, PSYCHIC_M
+	db 41, HYPER_VOICE ;replace Last Resort
+	db 45, ENDURE ;replace Power Swap
 	db 0 ; no more level-up moves
 
 UmbreonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, MOONBLAST ; new move, he should learn it, no?
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
-	db 16, PURSUIT
-	db 23, QUICK_ATTACK
-	db 30, CONFUSE_RAY
-	db 36, FEINT_ATTACK
-	db 42, MEAN_LOOK
-	db 47, SCREECH
-	db 52, MOONLIGHT
+	db 5, SAND_ATTACK
+	db 9, CHARM ;replace Baby-Doll Eyes
+	db 13, QUICK_ATTACK
+	db 17, CONFUSE_RAY
+	db 20, FEINT_ATTACK
+	db 25, SNARL ;replace Assurance
+	db 29, SCREECH
+	db 33, MOONLIGHT
+	db 37, MEAN_LOOK
+	db 41, BODY_SLAM ;replace Last Resort
+	db 45, BEAT_UP ;replace Guard Swap
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 11, PURSUIT
-	db 16, HAZE
-	db 26, NIGHT_SHADE
-	db 31, FEINT_ATTACK
+	db 5, PURSUIT
+	db 11, HAZE
+	db 15, WING_ATTACK
+	db 21, NIGHT_SHADE
+	db 25, SNARL ;replace Assurance
+	db 31, CONFUSE_RAY ;replace Taunt
+	db 35, FEINT_ATTACK
 	db 41, MEAN_LOOK
+	db 45, DRILL_PECK ;replace Foul Play
+	db 50, AGILITY ;replace Tailwind
+	db 55, BEAT_UP ;replace Sucker Punch
+	db 61, SKY_ATTACK ;replace Torment
+	db 65, PERISH_SONG ;replace Quash
 	db 0 ; no more level-up moves
 
 SlowkingEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POWER_GEM
+	db 1, HIDDEN_POWER
 	db 1, CURSE
 	db 1, TACKLE
 	db 5, GROWL
 	db 9, WATER_GUN
 	db 14, CONFUSION
 	db 19, DISABLE
-	db 21, HEADBUTT
-	db 25, WATER_PULSE
-	db 30, ZEN_HEADBUTT
-	db 34, HIDDEN_POWER
-	db 35, NASTY_PLOT
-	db 38, SWAGGER
-	db 42, PSYCHIC_M
-	db 45, CALM_MIND
+	db 23, HEADBUTT
+	db 28, WATER_PULSE
+	db 32, ZEN_HEADBUTT
+	db 36, NASTY_PLOT
+	db 41, SWAGGER
+	db 45, PSYCHIC_M
+	db 49, CALM_MIND
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, NIGHT_SHADE
-	db 6, SPITE
-	db 12, CONFUSE_RAY
+	db 1, NIGHT_SHADE ;replace Psywave
+	db 5, SPITE
+	db 10, SHADOW_SNEAK ;replace Astonish
+	db 14, CONFUSE_RAY
 	db 19, MEAN_LOOK
-	db 27, PSYBEAM
-	db 36, PAIN_SPLIT
+	db 23, HEX
+	db 28, PSYBEAM
+	db 32, PAIN_SPLIT
+	db 37, NASTY_PLOT ;replace Payback
+	db 41, SHADOW_BALL
 	db 46, PERISH_SONG
+	db 50, DESTINY_BOND ;replace Grudge
+	db 55, POWER_GEM
 	db 0 ; no more level-up moves
 
 UnownEvosAttacks:
@@ -3156,11 +3200,12 @@ GirafarigEvosAttacks:
 	db 1, GROWL
 	db 1, CONFUSION
 	db 1, STOMP
-	db 10, FEINT_ATTACK
+	db 5, FORESIGHT ;replace Odor Sleuth
+	db 10, BITE ;replace Assurance
 	db 14, STOMP
 	db 19, PSYBEAM
 	db 23, AGILITY
-	db 28, DOUBLE_KICK
+	db 28, DOUBLE_KICK ;replace Double Hit
 	db 32, ZEN_HEADBUTT
 	db 37, CRUNCH
 	db 41, BATON_PASS
@@ -3173,110 +3218,164 @@ PinecoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, PROTECT
-	db 8, EXPLOSION
-	db 15, TAKE_DOWN
-	db 22, RAPID_SPIN
-	db 29, TRANSFORM
-	db 36, EXPLOSION
-	db 43, SPIKES
-	db 50, DOUBLE_EDGE
+	db 6, DEFENSE_CURL ;replace Self-Destruct - FRLG Tutor
+	db 9, PIN_MISSILE ;replace Bug Bite
+	db 12, TAKE_DOWN
+	db 17, RAPID_SPIN
+	db 20, ENDURE ;replace Bide
+	db 23, ROLLOUT ;replace Natural Gift
+	db 28, SPIKES
+	db 31, BODY_SLAM ;replace Payback
+	db 34, EXPLOSION
+	db 39, IRON_DEFENSE
+	db 42, IRON_HEAD ;replace Gyro Ball
+	db 45, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 ForretressEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, FLASH_CANNON ;evo move
+	db 1, AGILITY ;replace Automatize
 	db 1, TACKLE
 	db 1, PROTECT
-	db 1, EXPLOSION
-	db 8, EXPLOSION
-	db 15, TAKE_DOWN
-	db 22, RAPID_SPIN
-	db 29, TRANSFORM
-	db 39, EXPLOSION
-	db 49, SPIKES
-	db 59, DOUBLE_EDGE
+	db 6, DEFENSE_CURL ;replace Self-Destruct - FRLG Tutor
+	db 9, PIN_MISSILE ;replace Bug Bite
+	db 12, TAKE_DOWN
+	db 17, RAPID_SPIN
+	db 20, ENDURE ;replace Bide
+	db 23, ROLLOUT ;replace Natural Gift
+	db 28, SPIKES
+	db 32, BODY_SLAM ;replace Payback
+	db 36, EXPLOSION
+	db 42, IRON_DEFENSE
+	db 46, IRON_HEAD ;replace Gyro Ball
+	db 50, DOUBLE_EDGE
+	db 56, WILD_CHARGE ; replace Zap Cannon
+	db 60, COUNTER ;replace last attacks, I just want him to have it
 	db 0 ; no more level-up moves
 
 DunsparceEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
-	db 5, DEFENSE_CURL
-	db 13, GLARE
-	db 18, SPITE
-	db 26, PURSUIT
-	db 30, SCREECH
-	db 38, TAKE_DOWN
+	db 1, FURY_ATTACK ;replace Rage
+	db 1, DEFENSE_CURL
+	db 6, SPITE
+	db 8, PURSUIT
+	db 11, SCREECH
+	db 13, MUD_SLAP
+	db 16, ANCIENTPOWER ;moved up
+	db 18, DRAGON_RAGE ;replace Yawn
+	db 21, BODY_SLAM
+	db 23, DRILL_RUN
+	db 26, ROOST
+	db 28, TAKE_DOWN
+	db 31, COIL
+	db 33, DIG
+	db 36, GLARE
+	db 38, DOUBLE_EDGE
+	db 41, DRAGON_DANCE ;replace Endeavor
+	db 43, AIR_SLASH
+	db 46, OUTRAGE
+	db 48, ENDURE
+	db 51, FLAIL
 	db 0 ; no more level-up moves
 
 GligarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_STING
-	db 6, SAND_ATTACK
-	db 13, HARDEN
-	db 20, QUICK_ATTACK
-	db 28, FEINT_ATTACK
-	db 36, SLASH
-	db 44, SCREECH
-	db 52, TRANSFORM
+	db 4, SAND_ATTACK
+	db 7, HARDEN
+	db 10, CUT ;replace Knock Off
+	db 13, QUICK_ATTACK
+	db 16, FURY_CUTTER
+	db 19, FEINT_ATTACK
+	db 22, WING_ATTACK ;replace Acrobatics
+	db 27, SLASH
+	db 30, LEECH_LIFE
+	db 35, SCREECH
+	db 40, METAL_CLAW ;replace X-Scissor
+	db 45, CROSS_CHOP ;replace SKYYYYY UPPERCUUUT
+	db 50, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
-SteelixEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, CRUNCH
-	db 1, TACKLE
-	db 1, HARDEN
-	db 1, SCREECH
-	db 6, WRAP
-	db 9, ROCK_THROW
-	db 13, CURSE
-	db 16, SANDSTORM
-	db 19, DRAGONBREATH
-	db 22, DIG
-	db 25, SLAM
-	db 29, ROCK_SLIDE
-	db 33, IRON_TAIL
-	db 37, COIL
-	db 41, DOUBLE_EDGE
-	db 45, STONE_EDGE
-	db 0 ; no more level-up moves
+; SteelixEvosAttacks:
+; 	db 0 ; no more evolutions
+; 	db 1, CRUNCH
+; 	db 1, TACKLE
+; 	db 1, HARDEN
+; 	db 1, SCREECH
+; 	db 6, WRAP
+; 	db 9, ROCK_THROW
+; 	db 13, CURSE
+; 	db 16, SANDSTORM
+; 	db 19, DRAGONBREATH
+; 	db 22, DIG
+; 	db 25, SLAM
+; 	db 29, ROCK_SLIDE
+; 	db 33, IRON_TAIL
+; 	db 37, COIL
+; 	db 41, DOUBLE_EDGE
+; 	db 45, STONE_EDGE
+; 	db 0 ; no more level-up moves
 
 SnubbullEvosAttacks:
 	db EVOLVE_LEVEL, 23, GRANBULL
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, POUND ;replace Tackle
 	db 1, SCARY_FACE
-	db 4, TAIL_WHIP
-	db 8, CHARM
-	db 13, BITE
-	db 19, LICK
-	db 26, ROAR
-	db 34, FURY_ATTACK
-	db 43, TAKE_DOWN
+	db 1, TAIL_WHIP
+	db 1, CHARM
+	db 7, BITE
+	db 13, LICK
+	db 19, FURY_ATTACK  ;replace Headbutt
+	db 25, ROAR
+	db 31, THUNDER_FANG ;replace Rage
+	db 31, FIRE_FANG    ;replace Rage
+	db 31, ICE_FANG     ;replace Rage
+	db 37, PLAY_ROUGH
+	db 43, SUPER_FANG   ;replace Payback
+	db 49, CRUNCH
 	db 0 ; no more level-up moves
 
 GranbullEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, POISON_FANG
+	db 1, POUND ;replace Tackle
 	db 1, SCARY_FACE
-	db 4, TAIL_WHIP
-	db 8, CHARM
-	db 13, BITE
-	db 19, LICK
-	db 28, ROAR
-	db 38, FURY_ATTACK
-	db 51, TAKE_DOWN
+	db 1, TAIL_WHIP
+	db 1, CHARM
+	db 7, BITE
+	db 13, LICK
+	db 19, FURY_ATTACK ;replace Headbutt
+	;evo
+	db 27, ROAR
+	db 35, THUNDER_FANG ;replace Rage
+	db 35, FIRE_FANG    ;replace Rage
+	db 35, ICE_FANG     ;replace Rage
+	db 43, PLAY_ROUGH
+	db 51, SUPER_FANG   ;replace Payback
+	db 59, CRUNCH
+	db 67, OUTRAGE
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SPIKES
 	db 1, TACKLE
 	db 1, POISON_STING
-	db 10, HARDEN
-	db 10, MINIMIZE
-	db 19, WATER_GUN
-	db 28, PIN_MISSILE
-	db 37, TAKE_DOWN
-	db 46, HYDRO_PUMP
+	db 9, HARDEN
+	db 9, MINIMIZE
+	db 13, WATER_GUN
+	db 17, ROLLOUT
+	db 21, SPIKES
+	db 25, SUPERSONIC ;replace Stockpile & Spit Up
+	db 29, FLAIL ;replace Revenge
+	db 33, SCALD ;replace Brine
+	db 37, PIN_MISSILE
+	db 41, TAKE_DOWN
+	db 45, AQUA_JET ;replace Aqua Tail
+	db 49, POISON_JAB
+	db 53, DESTINY_BOND
+	db 57, HYDRO_PUMP
+	db 60, LEECH_LIFE ;replace Fell Stinger
 	db 0 ; no more level-up moves
 
 ScizorEvosAttacks:

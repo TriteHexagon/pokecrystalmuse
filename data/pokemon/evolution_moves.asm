@@ -195,7 +195,7 @@ EvolutionMoves::
     db NO_MOVE      ;Wooper
     db NO_MOVE      ;Quagsire
     db CONFUSION    ;Espeon
-    db SNARL        ;Umbreon
+    db PURSUIT      ;Umbreon
     db NO_MOVE      ;Murkrow
     db NO_MOVE      ;Slowking
     db NO_MOVE      ;Misdreavus
@@ -203,7 +203,7 @@ EvolutionMoves::
     db NO_MOVE      ;Wobbuffet
     db NO_MOVE      ;Girafarig
     db NO_MOVE      ;Pineco
-    db NO_MOVE      ;Forretress
+    db FLASH_CANNON ;Forretress
     db NO_MOVE      ;Dunsparce
     db NO_MOVE      ;Gligar
     db CRUNCH       ;Steelix
