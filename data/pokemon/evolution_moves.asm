@@ -139,7 +139,7 @@ EvolutionMoves::
     db NO_MOVE      ;Omanyte
     db PIN_MISSILE  ;Omastar
     db NO_MOVE      ;Kabuto
-    db SLASH        ;Kabutops
+    db SWORDS_DANCE ;Kabutops
     db NO_MOVE      ;Aerodactyl
     db NO_MOVE      ;Snorlax
     db NO_MOVE      ;Articuno

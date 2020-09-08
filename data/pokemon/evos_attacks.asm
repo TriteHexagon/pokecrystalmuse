@@ -2131,27 +2131,40 @@ MagmarEvosAttacks: ;done
 
 PinsirEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
-	db 7, FOCUS_ENERGY
-	db 13, WRAP
-	db 19, SEISMIC_TOSS
-	db 25, HARDEN
-	db 31, TRANSFORM
-	db 37, SUBMISSION
-	db 43, SWORDS_DANCE
+	db 1, QUICK_ATTACK
+	db 1, FOCUS_ENERGY
+	db 4, WRAP ;replace Bind
+	db 8, SEISMIC_TOSS
+	db 11, HARDEN
+	db 15, FURY_ATTACK ;replace Revenge
+	db 18, ROCK_SMASH ;replace Vital Throw
+	db 22, SLASH ;replace Double Hit
+	db 26, FEINT_ATTACK ;replace Brick Break
+	db 29, FURY_CUTTER ;replace X-Scissor
+	db 33, STRENGTH ;replace Submission
+	db 36, FALSE_SWIPE ;replace Storm Throw
+	db 40, SWORDS_DANCE
+	db 43, THRASH
+	db 47, SUBMISSION ;replace Superpower, moved up
 	db 0 ; no more level-up moves
 
 TaurosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 4, TAIL_WHIP
-	db 8, FURY_ATTACK
-	db 13, SMART_STRIKE
-	db 19, SCARY_FACE
-	db 26, PURSUIT
-	db 34, REST
-	db 43, THRASH
-	db 53, TAKE_DOWN
+	db 3, TAIL_WHIP
+	db 5, FURY_ATTACK ;replace Rage
+	db 8, SMART_STRIKE ;replace Horn Attack
+	db 11, SCARY_FACE
+	db 15, PURSUIT
+	db 19, REST
+	db 24, HEADBUTT ;replace Payback
+	db 29, WORK_UP
+	db 35, ZEN_HEADBUTT
+	db 41, TAKE_DOWN
+	db 48, SWAGGER
+	db 55, THRASH
+	db 63, DOUBLE_EDGE
+	db 71, OUTRAGE
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
@@ -2165,13 +2178,19 @@ MagikarpEvosAttacks:
 GyaradosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THRASH
-	db 1, BITE
-	db 25, DRAGON_RAGE
-	db 30, LEER
-	db 35, TRANSFORM
-	db 40, HYDRO_PUMP
-	db 45, RAIN_DANCE
-	db 50, HYPER_BEAM
+	db 1, BITE ;evolution move
+	db 21, LEER
+	db 24, DRAGONBREATH
+	db 27, ICE_FANG
+	db 30, DRAGON_CLAW ;replace Aqua Tail - temporary?
+	db 33, SCARY_FACE
+	db 36, DRAGON_RAGE
+	db 39, CRUNCH
+	db 42, HYDRO_PUMP
+	db 45, DRAGON_DANCE
+	db 48, OUTRAGE ;replace Hurricane
+	db 51, RAIN_DANCE
+	db 54, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 LaprasEvosAttacks:
@@ -2179,14 +2198,18 @@ LaprasEvosAttacks:
 	db 1, WATER_GUN
 	db 1, GROWL
 	db 1, SING
-	db 8, TRANSFORM
-	db 15, BODY_SLAM
-	db 22, CONFUSE_RAY
-	db 29, PERISH_SONG
-	db 36, ICE_BEAM
-	db 43, RAIN_DANCE
-	db 50, SAFEGUARD
-	db 57, HYDRO_PUMP
+	db 4, FORESIGHT ;replace Mist
+	db 7, CONFUSE_RAY
+	db 10, ICE_SHARD
+	db 14, WATER_PULSE 
+	db 18, BODY_SLAM
+	db 22, RAIN_DANCE
+	db 27, PERISH_SONG
+	db 32, ICE_BEAM
+	db 37, SURF ;replace Brine
+	db 43, SAFEGUARD
+	db 47, HYDRO_PUMP
+	db 50, BLIZZARD
 	db 0 ; no more level-up moves
 
 DittoEvosAttacks:
@@ -2289,117 +2312,173 @@ PorygonEvosAttacks: ;done
 OmanyteEvosAttacks:
 	db EVOLVE_LEVEL, 40, OMASTAR
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
-	db 1, DEFENSE_CURL
-	db 13, BITE
-	db 19, WATER_GUN
-	db 31, LEER
-	db 37, PROTECT
-	db 49, ANCIENTPOWER
+	db 1, WRAP ;replace Constrict
+	db 1, DEFENSE_CURL ;replace Withdraw
+	db 7, BITE
+	db 10, WATER_GUN
+	db 16, ROLLOUT
+	db 19, LEER
+	db 25, MUD_SHOT
+	db 28, RAZOR_SHELL ;replace Brine
+	db 34, PROTECT
+	db 37, ANCIENTPOWER
+	;evo
+	db 43, SPIKES ;replace Tickle
+	db 46, ROCK_THROW ;replace Rock Blast
+	db 50, SHELL_SMASH
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 OmastarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
-	db 1, DEFENSE_CURL
-	db 1, BITE
-	db 13, BITE
-	db 19, WATER_GUN
-	db 31, LEER
-	db 37, PROTECT
-	db 39, PIN_MISSILE
-	db 54, ANCIENTPOWER
-	db 65, HYDRO_PUMP
+	db 1, WRAP ;replace Constrict
+	db 1, DEFENSE_CURL ;replace Withdraw
+	db 7, BITE
+	db 10, WATER_GUN
+	db 16, ROLLOUT
+	db 19, LEER
+	db 25, MUD_SHOT
+	db 28, RAZOR_SHELL ;replace Brine
+	db 34, PROTECT
+	db 37, ANCIENTPOWER
+	;evo
+	db 48, SPIKES ;replace Tickle
+	db 56, ROCK_THROW ;replace Rock Blast
+	db 67, SHELL_SMASH
+	db 75, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 KabutoEvosAttacks:
 	db EVOLVE_LEVEL, 40, KABUTOPS
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, HARDEN
-	db 10, ABSORB
-	db 19, LEER
-	db 28, SAND_ATTACK
-	db 37, ENDURE
-	db 46, GIGA_DRAIN
-	db 55, ANCIENTPOWER
+	db 1, IRON_DEFENSE
+	db 6, ABSORB
+	db 11, LEER
+	db 16, MUD_SHOT
+	db 21, SAND_ATTACK
+	db 26, ENDURE
+	db 31, AQUA_JET
+	db 36, LEECH_LIFE
+	db 41, SCREECH ;replace Metal Sound
+	db 46, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
 KabutopsEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SWORDS_DANCE ;evolution move
 	db 1, SCRATCH
-	db 1, HARDEN
-	db 1, ABSORB
-	db 10, ABSORB
-	db 19, LEER
-	db 28, SAND_ATTACK
-	db 37, ENDURE
-	db 39, SLASH
-	db 51, GIGA_DRAIN
-	db 65, ANCIENTPOWER
+	db 1, IRON_DEFENSE ;replace Harden
+	db 6, ABSORB
+	db 11, LEER
+	db 16, MUD_SHOT
+	db 21, SAND_ATTACK
+	db 26, ENDURE
+	db 31, AQUA_JET
+	db 36, LEECH_LIFE
+	;evo
+	db 45, SCREECH ;replace Metal Sound
+	db 54, ANCIENTPOWER
+	db 63, SLASH
+	db 72, IRON_HEAD ;new move
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
-	db 8, AGILITY
-	db 15, BITE
-	db 22, SUPERSONIC
-	db 29, ANCIENTPOWER
-	db 36, SCARY_FACE
-	db 43, TAKE_DOWN
-	db 50, HYPER_BEAM
+	db 1, BITE
+	db 1, SCARY_FACE
+	db 1, SUPERSONIC
+	db 9, ROAR
+	db 17, AGILITY
+	db 25, ANCIENTPOWER
+	db 33, CRUNCH
+	db 41, TAKE_DOWN
+	db 49, ROCK_SLIDE ;moved up
+	db 57, IRON_HEAD
+	db 65, HYPER_BEAM
+	db 73, SKY_ATTACK ;replace Sky Drop, moved down
+	db 81, DOUBLE_EDGE ;replace Giga Impact
 	db 0 ; no more level-up moves
 
 SnorlaxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 8, AMNESIA
-	db 15, DEFENSE_CURL
-	db 22, BELLY_DRUM
-	db 29, HEADBUTT
-	db 36, SLEEP_TALK
-	db 36, REST
-	db 43, BODY_SLAM
-	db 50, ROLLOUT
-	db 57, HYPER_BEAM
+	db 4, DEFENSE_CURL
+	db 9, AMNESIA
+	db 12, LICK
+	db 17, HEADBUTT ;replace Chip Away
+	db 20, CHARM ;replace Yawn
+	db 25, BODY_SLAM
+    db 28, REST
+    db 33, SLEEP_TALK
+	;moves @level 50
+    db 35, ZEN_HEADBUTT 
+	db 41, ROLLOUT ;moved down
+	db 44, BELLY_DRUM
+	db 49, CRUNCH
+	;
+	db 57, DOUBLE_EDGE ;replace Giga Impact, moved down
 	db 0 ; no more level-up moves
 
 ArticunoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GUST
-	db 1, ICE_SHARD
-	db 13, TRANSFORM
-	db 25, AGILITY
-	db 37, LOCK_ON
-	db 49, ICE_BEAM
-	db 61, REFLECT
-	db 73, BLIZZARD
+	db 1, ICE_SHARD ;replace Powder Snow
+	db 8, HAZE ;replace Mist
+	db 15, ICY_WIND ;replace Ice Shard
+	db 22, LOCK_ON ;
+	;attacks @level 50
+	db 29, ANCIENTPOWER
+	db 36, AGILITY
+	db 43, AURORA_BEAM ;replace Freeze-Dry
+	db 50, REFLECT 
+	;
+	db 57, WHIRLWIND ;replace Hail
+	db 64, RAZOR_WIND ;replace Tailwind
+	db 71, ICE_BEAM
+	db 78, BLIZZARD
+	db 85, ROOST
 	db 0 ; no more level-up moves
 
 ZapdosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, THUNDERSHOCK
-	db 13, THUNDER_WAVE
-	db 25, AGILITY
-	db 37, PROTECT
-	db 49, DRILL_PECK
-	db 61, LIGHT_SCREEN
-	db 73, THUNDER
+	db 8, THUNDER_WAVE
+	db 15, PROTECT
+	db 22, WING_ATTACK ;replace Pluck
+	;attacks @level 50
+	db 29, ANCIENTPOWER
+	db 36, SPARK ;replace Charge
+	db 43, AGILITY
+	db 50, THUNDERBOLT ;replace Discharge
+	;
+	db 57, RAIN_DANCE
+	db 64, LIGHT_SCREEN
+	db 71, DRILL_PECK
+	db 78, THUNDER
+	db 85, ROOST
 	db 0 ; no more level-up moves
 
 MoltresEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
 	db 1, EMBER
-	db 13, FIRE_SPIN
-	db 25, AGILITY
-	db 37, ENDURE
-	db 49, FLAMETHROWER
-	db 61, SAFEGUARD
-	db 73, SKY_ATTACK
+	db 8, FIRE_SPIN
+	db 15, AGILITY
+	db 22, ENDURE
+	;attacks @level 50
+	db 29, ANCIENTPOWER
+	db 36, FLAMETHROWER
+	db 43, SAFEGUARD
+	db 50, AIR_SLASH
+	;
+	db 57, SUNNY_DAY
+	db 64, FIRE_BLAST ;replace Heat Wave
+	db 71, SOLARBEAM
+	db 78, SKY_ATTACK
+	db 85, ROOST
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:
@@ -2407,14 +2486,19 @@ DratiniEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 8, THUNDER_WAVE
-	db 15, TRANSFORM
-	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 36, AGILITY
-	db 43, SAFEGUARD
-	db 50, OUTRAGE
-	db 57, HYPER_BEAM
+	db 5, THUNDER_WAVE
+	db 11, DRAGONBREATH
+	db 15, DRAGON_RAGE
+	db 21, SLAM
+	db 25, AGILITY
+	;evo
+	db 31, AQUA_JET ;replace Aqua Tail
+	db 35, SAFEGUARD ;moved up
+	db 41, BODY_SLAM ;replace Dragon Tail
+	db 45, DRAGON_DANCE ;moved up
+	db 51, DOUBLE_EDGE ;replace Dragon Rush, moved down
+	db 55, OUTRAGE
+	db 61, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DragonairEvosAttacks:
@@ -2422,48 +2506,62 @@ DragonairEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
-	db 1, THUNDER_WAVE
-	db 1, TRANSFORM
-	db 8, THUNDER_WAVE
-	db 15, TRANSFORM
-	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 38, AGILITY
-	db 47, SAFEGUARD
-	db 56, OUTRAGE
-	db 65, HYPER_BEAM
+	db 5, THUNDER_WAVE
+	db 11, DRAGONBREATH
+	db 15, DRAGON_RAGE
+	db 21, SLAM
+	db 25, AGILITY
+	db 33, AQUA_JET ;replace Aqua Tail
+	db 39, SAFEGUARD ;moved up
+	db 47, BODY_SLAM ;replace Dragon Tail
+	db 53, DRAGON_DANCE ;moved up
+	;evo
+	db 61, DOUBLE_EDGE ;replace Dragon Rush, moved down
+	db 67, OUTRAGE
+	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 DragoniteEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, WING_ATTACK ;evoultion move
 	db 1, WRAP
 	db 1, LEER
-	db 1, THUNDER_WAVE
-	db 1, TRANSFORM
-	db 8, THUNDER_WAVE
-	db 15, TRANSFORM
-	db 22, DRAGON_RAGE
-	db 29, SLAM
-	db 38, AGILITY
-	db 47, SAFEGUARD
-	db 54, WING_ATTACK
-	db 61, OUTRAGE
+	db 5, THUNDER_WAVE
+	db 11, DRAGONBREATH
+	db 15, DRAGON_RAGE
+	db 21, SLAM
+	db 25, AGILITY
+	db 33, AIR_SLASH ;replace Aqua Tail
+	db 39, SAFEGUARD ;moved up
+	db 47, BODY_SLAM ;replace Dragon Tail
+	db 53, DRAGON_DANCE ;moved up
+	;evo
+	db 61, DRAGON_CLAW ;replace Dragon Rush, moved down
+	db 67, OUTRAGE
 	db 75, HYPER_BEAM
+	db 81, ROOST ;replace Hurricane
 	db 0 ; no more level-up moves
 
 MewtwoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONFUSION
 	db 1, DISABLE
-	db 11, REFLECT
-	db 22, SWIFT
-	db 33, TRANSFORM
-	db 44, FUTURE_SIGHT
-	db 55, TRANSFORM
-	db 66, PSYCHIC_M
-	db 77, AMNESIA
-	db 88, RECOVER
-	db 99, SAFEGUARD
+	db 8, SWIFT
+    db 15, FUTURE_SIGHT
+	db 22, SAFEGUARD ;replace Psych Up
+    db 29, BODY_SLAM ;replace Miracle Eye
+	db 36, ZEN_HEADBUTT ;replace Psycho Cut
+	db 43, TELEPORT ;replace Power Swap / Guard Swap
+	;moves @ level 70
+    db 50, RECOVER
+    db 57, PSYCHIC_M
+	db 64, REFLECT ;replace Barrier
+	db 70, TRI_ATTACK ;replace Aura Sphere
+
+    db 79, AMNESIA
+	db 86, NASTY_PLOT ;replace Mist
+	db 93, LIGHT_SCREEN ;replace Me First
+	db 100, TRI_ATTACK ;replace Psystrike
 	db 0 ; no more level-up moves
 
 MewEvosAttacks:
@@ -2478,7 +2576,7 @@ MewEvosAttacks:
 	db 70, LIGHT_SCREEN ;replace Me First
 	db 80, BATON_PASS
 	db 90, NASTY_PLOT
-	db 100, FOCUS_BLAST
+	db 100, TRI_ATTACK ;replace Aura Sphere
 	db 0 ; no more level-up moves
 
 ChikoritaEvosAttacks:
