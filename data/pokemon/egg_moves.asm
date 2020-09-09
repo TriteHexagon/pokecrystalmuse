@@ -547,7 +547,7 @@ TotodileEggMoves:
 	db HYDRO_PUMP
 	db ANCIENTPOWER
 	db RAZOR_WIND
-	db DRAGON_RUSH
+	db DRAGON_DANCE
 	db SUBMISSION
 	db -1 ; end
 
