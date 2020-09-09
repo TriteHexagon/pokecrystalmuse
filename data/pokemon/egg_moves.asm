@@ -391,6 +391,7 @@ RhyhornEggMoves:
 	db THRASH
 	db PURSUIT
 	db COUNTER
+	db DRAGON_RUSH
 	db -1 ; end
 
 ChanseyEggMoves:
@@ -500,6 +501,7 @@ AerodactylEggMoves:
 	db WHIRLWIND
 	db PURSUIT
 	db FORESIGHT
+	db DRAGON_RUSH
 	db -1 ; end
 
 SnorlaxEggMoves:
@@ -545,7 +547,7 @@ TotodileEggMoves:
 	db HYDRO_PUMP
 	db ANCIENTPOWER
 	db RAZOR_WIND
-	db DRAGON_CLAW
+	db DRAGON_RUSH
 	db SUBMISSION
 	db -1 ; end
 

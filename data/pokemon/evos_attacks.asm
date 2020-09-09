@@ -28,6 +28,7 @@ BulbasaurEvosAttacks:
 	db 13, POISONPOWDER
 	db 13, SLEEP_POWDER
 	db 15, RAZOR_LEAF
+	;evo
 	db 17, TAKE_DOWN
 	db 21, GROWTH
 	db 25, SWEET_SCENT
@@ -49,6 +50,7 @@ IvysaurEvosAttacks:
 	db 13, POISONPOWDER
 	db 13, SLEEP_POWDER
 	db 15, TAKE_DOWN
+	;evo
 	db 19, RAZOR_LEAF
 	db 23, GROWTH
 	db 28, SWEET_SCENT
@@ -126,7 +128,7 @@ CharizardEvosAttacks:
 	db 20, FIRE_FANG
 	db 28, SCARY_FACE
 	db 32, SLASH
-	db 35, DRAGON_CLAW
+	db 35, DRAGON_RUSH
 	db 41, FLAMETHROWER
 	db 47, FIRE_SPIN
 	db 51, WING_ATTACK
@@ -1767,7 +1769,7 @@ ExeggutorEvosAttacks:
 	db 1, TRANSFORM
 	db 1, HYPNOSIS
 	db 1, CONFUSION
-	db 1, STOMP
+	db 1, STOMP ;evolution move
 	db 31, TRANSFORM
 	db 0 ; no more level-up moves
 
@@ -1775,35 +1777,50 @@ CuboneEvosAttacks:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 5, TAIL_WHIP
-	db 9, TRANSFORM
-	db 13, HEADBUTT
-	db 17, LEER
-	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
-	db 29, FURY_ATTACK
-	db 33, FALSE_SWIPE
-	db 37, THRASH
-	db 41, TRANSFORM
+	db 1, TAIL_WHIP
+	db 1, HEADBUTT
+	db 3, TAIL_WHIP
+	db 7, LICK
+	db 11, HEADBUTT
+	db 13, LEER
+	db 17, FOCUS_ENERGY
+	db 21, BONEMERANG
+	db 23, FURY_ATTACK
+	db 27, FALSE_SWIPE
+	;evo
+	db 31, THRASH
+	db 33, DOUBLE_KICK ;replace Fling
+	db 37, MAGNITUDE ;replace Stomping Tantrum
+	db 41, SCREECH ;replace Endeavor
+	db 43, DOUBLE_EDGE
+	db 47, SUBMISSION ;replace Retaliate
 	db 0 ; no more level-up moves
 
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CURSE
 	db 1, GROWL
 	db 1, TAIL_WHIP
-	db 1, TRANSFORM
 	db 1, HEADBUTT
-	db 5, TAIL_WHIP
-	db 9, TRANSFORM
-	db 13, HEADBUTT
-	db 17, LEER
-	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
-	db 32, FURY_ATTACK
-	db 39, FALSE_SWIPE
-	db 46, THRASH
-	db 53, TRANSFORM
+	db 3, TAIL_WHIP
+	db 7, LICK
+	db 11, HEADBUTT
+	db 13, LEER
+	db 17, CURSE ;FOCUS_ENERGY
+	db 21, BONEMERANG
+	db 23, FURY_ATTACK
+	db 27, FALSE_SWIPE
+	;evo
+	db 33, THRASH
+	db 37, SHADOW_CLAW ;replace Fling
+	db 43, SPITE ;replace Stomping Tantrum
+	db 49, WILL_O_WISP ;replace Endeavor
+	db 53, DOUBLE_EDGE
+	db 59, SUBMISSION ;replace Retaliate
+	db 65, DESTINY_BOND ;replace Bone Rush
 	db 0 ; no more level-up moves
+
+	
 
 HitmonleeEvosAttacks: ;done
 	db 0 ; no more evolutions
@@ -1843,42 +1860,57 @@ HitmonchanEvosAttacks: ;done
 LickitungEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LICK
-	db 7, SUPERSONIC
-	db 13, DEFENSE_CURL
-	db 19, STOMP
-	db 25, WRAP
-	db 31, DISABLE
-	db 37, SLAM
-	db 43, SCREECH
+	db 5, SUPERSONIC
+	db 9, DEFENSE_CURL
+	db 13, ROLLOUT ;moved up
+    db 17, WRAP
+    db 21, STOMP
+    db 25, DISABLE
+    db 29, SLAM
+	db 33, SEISMIC_TOSS ;replace Knock Off
+	db 37, BODY_SLAM ;replace Chip Away
+	db 41, AMNESIA ;replace Me First
+	db 45, THRASH ;replace Refresh
+    db 49, SCREECH
+	db 53, SUBMISSION ;replace Power Whip
+	db 57, BELLY_DRUM ;replace Wring Out
 	db 0 ; no more level-up moves
 
 KoffingEvosAttacks:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
-	db 1, TACKLE
-	db 9, POISON_GAS
-	db 17, EXPLOSION
-	db 21, VENOSHOCK
-	db 25, SMOKESCREEN
-	db 33, HAZE
-	db 41, EXPLOSION
-	db 45, DESTINY_BOND
+	db 1, TACKLE 
+	db 4, ACID ;replace Smog
+	db 8, SMOKESCREEN
+	db 14, ROLLOUT ;replace Assurance
+    db 18, VENOSHOCK ;moved up
+	db 24, HAZE ;moved up
+    db 28, EXPLOSION ;replace Self-Destruct
+	;evo
+	db 32, PSYBEAM 
+    db 36, SLUDGE_BOMB ;moved down
+    db 40, TOXIC ;moved down
+	db 44, GUNK_SHOT ;replace Belch
+	db 48, DESTINY_BOND ;moved up
 	db 0 ; no more level-up moves
 
-WeezingEvosAttacks:
+WeezingEvosAttacks: ;based on SwSh
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
-	db 1, TACKLE
-	db 1, POISON_GAS
-	db 1, EXPLOSION
-	db 9, POISON_GAS
-	db 17, EXPLOSION
-	db 21, VENOSHOCK
-	db 25, SMOKESCREEN
-	db 33, HAZE
-	db 44, EXPLOSION
-	db 51, DESTINY_BOND
+	db 1, TACKLE 
+	db 4, ACID ;replace Smog
+	db 8, SMOKESCREEN
+	db 14, ROLLOUT ;replace Assurance
+    db 18, VENOSHOCK ;moved up
+	db 24, HAZE ;moved up
+    db 28, EXPLOSION ;replace Self-Destruct
+	;evo
+	db 32, PSYBEAM 
+    db 38, SLUDGE_BOMB ;moved down
+    db 44, TOXIC ;moved down
+	db 50, GUNK_SHOT ;replace Belch
+	db 56, DESTINY_BOND ;moved up
 	db 0 ; no more level-up moves
 
 RhyhornEvosAttacks:
@@ -1972,8 +2004,8 @@ KangaskhanEvosAttacks:
 	db 13, BITE
 	db 19, STOMP ;replace Double Hit
 	db 22, FURY_ATTACK
-	db 25, BODY_SLAM ;replace Mega Punch
-	db 31, TAKE_DOWN ;replace Chip Away
+	db 25, HEADBUTT ;replace Mega Punch
+	db 31, BODY_SLAM ;replace Chip Away
 	db 34, DIZZY_PUNCH
 	db 37, CRUNCH
 	db 43, ENDURE
@@ -2232,7 +2264,7 @@ GyaradosEvosAttacks:
 	db 21, LEER
 	db 24, DRAGONBREATH
 	db 27, ICE_FANG
-	db 30, DRAGON_CLAW ;replace Aqua Tail - temporary?
+	db 30, DRAGON_RUSH ;replace Aqua Tail - temporary?
 	db 33, SCARY_FACE
 	db 36, DRAGON_RAGE
 	db 39, CRUNCH
@@ -2546,7 +2578,7 @@ DratiniEvosAttacks:
 	db 35, SAFEGUARD ;moved up
 	db 41, BODY_SLAM ;replace Dragon Tail
 	db 45, DRAGON_DANCE ;moved up
-	db 51, DOUBLE_EDGE ;replace Dragon Rush, moved down
+	db 51, DRAGON_RUSH ;moved down
 	db 55, OUTRAGE
 	db 61, HYPER_BEAM
 	db 0 ; no more level-up moves
@@ -2566,7 +2598,7 @@ DragonairEvosAttacks:
 	db 47, BODY_SLAM ;replace Dragon Tail
 	db 53, DRAGON_DANCE ;moved up
 	;evo
-	db 61, DOUBLE_EDGE ;replace Dragon Rush, moved down
+	db 61, DRAGON_RUSH ;moved down
 	db 67, OUTRAGE
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
@@ -2586,7 +2618,7 @@ DragoniteEvosAttacks:
 	db 47, BODY_SLAM ;replace Dragon Tail
 	db 53, DRAGON_DANCE ;moved up
 	;evo
-	db 61, DRAGON_CLAW ;replace Dragon Rush, moved down
+	db 61, DRAGON_RUSH ;moved down
 	db 67, OUTRAGE
 	db 75, HYPER_BEAM
 	db 81, ROOST ;replace Hurricane
@@ -2658,11 +2690,11 @@ BayleefEvosAttacks:
 	db 6, RAZOR_LEAF
 	db 9, POISONPOWDER
 	db 12, SYNTHESIS
-	db 18, FAIRY_WIND ;replace Magical Leaf
-	db 22, REFLECT ;moved down
+	db 15, FAIRY_WIND ;replace Magical Leaf
+	db 21, REFLECT ;moved down
 	db 26, SWEET_SCENT ;moved up
 	;evo
-	db 32, LIGHT_SCREEN ;moved up
+	db 33, LIGHT_SCREEN ;moved up
     db 36, ANCIENTPOWER ;replace Natural Gift
     db 40, BODY_SLAM
     db 46, SAFEGUARD
@@ -2678,8 +2710,8 @@ MeganiumEvosAttacks:
 	db 6, RAZOR_LEAF
 	db 9, POISONPOWDER
 	db 12, SYNTHESIS
-	db 18, FAIRY_WIND ;replace Magical Leaf
-	db 22, REFLECT ;moved down
+	db 15, FAIRY_WIND ;replace Magical Leaf
+	db 21, REFLECT ;moved down
 	db 26, SWEET_SCENT ;moved up
 	;evo
 	db 34, LIGHT_SCREEN ;moved up
@@ -2699,8 +2731,8 @@ CyndaquilEvosAttacks:
 	db 1, LEER
 	db 6, SMOKESCREEN
 	db 10, EMBER
-    db 13, QUICK_ATTACK
 	;evo
+	db 15, QUICK_ATTACK
     db 19, FLAME_WHEEL
 	db 22, DEFENSE_CURL
     db 28, SWIFT
@@ -2721,6 +2753,7 @@ QuilavaEvosAttacks:
 	db 6, SMOKESCREEN
 	db 10, EMBER
     db 13, QUICK_ATTACK
+	;evo
     db 20, FLAME_WHEEL
 	db 24, DEFENSE_CURL
     db 31, SWIFT
@@ -2761,15 +2794,15 @@ TotodileEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 6, WATER_GUN
-	db 8, FURY_ATTACK ;replace Rage
-	db 13, BITE
-	db 15, SCARY_FACE
+	db 8, FURY_SWIPES ;replace Rage
+	db 14, BITE
 	;evo
+	db 19, SCARY_FACE
 	db 20, ICE_FANG
 	db 22, FLAIL
 	db 27, METAL_CLAW ;replace Crunch
-	db 29, DRAGON_CLAW ;replace Chip Away
-	db 34, SLASH
+	db 29, SLASH ;moved up
+	db 34, DRAGON_RUSH ;moved down, replace Chip Away
 	db 36, SCREECH
 	db 41, THRASH
 	db 43, AQUA_JET ;replace Aqua Tail
@@ -2783,15 +2816,16 @@ CroconawEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 6, WATER_GUN
-	db 8, FURY_ATTACK ;replace Rage
-	db 13, BITE
-	db 15, SCARY_FACE
+	db 8, FURY_SWIPES ;replace Rage
+	db 14, BITE
+	db 18, SCARY_FACE
+	;evo
 	db 21, ICE_FANG
 	db 24, FLAIL
 	db 30, METAL_CLAW ;replace Crunch
 	;evo
-	db 33, DRAGON_CLAW ;replace Chip Away
-	db 39, SLASH
+	db 33, SLASH 
+	db 39, DRAGON_RUSH ;replace Chip Away
 	db 42, SCREECH ;replace Screech
 	db 48, THRASH
 	db 51, AQUA_JET ;replace Aqua Tail
@@ -2806,14 +2840,14 @@ FeraligatrEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 6, WATER_GUN
-	db 8, FURY_ATTACK ;replace Rage
-	db 13, BITE
-	db 15, SCARY_FACE
+	db 8, FURY_SWIPES ;replace Rage
+	db 14, BITE
+	db 18, SCARY_FACE
 	db 21, ICE_FANG
 	db 24, FLAIL
 	db 32, METAL_CLAW ;replace Crunch
-	db 37, DRAGON_CLAW ;replace Chip Away
-	db 45, SLASH
+	db 37, SLASH
+	db 45, DRAGON_RUSH ;replace Chip Away
 	db 50, DRAGON_DANCE ;replace Screech
 	db 58, THRASH
 	db 63, AQUA_JET ;replace Aqua Tail
@@ -3670,9 +3704,9 @@ DunsparceEvosAttacks:
 	db 33, DIG
 	db 36, GLARE
 	db 38, DOUBLE_EDGE
-	db 41, DRAGON_DANCE ;replace Endeavor
+	db 41, DRAGON_DANCE
 	db 43, AIR_SLASH
-	db 46, OUTRAGE
+	db 46, DRAGON_RUSH
 	db 48, ENDURE
 	db 51, FLAIL
 	db 0 ; no more level-up moves
@@ -4413,6 +4447,7 @@ PupitarEvosAttacks:
 
 TyranitarEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DRAGON_RUSH
 	db 1, BITE
 	db 1, LEER
 	db 5, SANDSTORM

@@ -225,7 +225,7 @@ Moves:
     move DARK_PULSE,    EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,  100, 15,  20
     move NASTY_PLOT,    EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0
     move SNARL,         EFFECT_SP_ATK_DOWN_HIT,    55, DARK,          SPECIAL,   95, 15, 100
-    move DRAGON_CLAW,   EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
+    move DRAGON_RUSH,   EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
     move DRAGON_DANCE,  EFFECT_DRAGON_DANCE,        0, DRAGON,        STATUS,   100, 20,   0
     move DRAGON_PULSE,  EFFECT_NORMAL_HIT,         85, DRAGON,        SPECIAL,  100, 10,   0
     move WILD_CHARGE,   EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,   0

@@ -219,7 +219,7 @@
 	const DARK_PULSE
 	const NASTY_PLOT
 	const SNARL
-	const DRAGON_CLAW
+	const DRAGON_RUSH
 	const DRAGON_DANCE
 	const DRAGON_PULSE
 	const WILD_CHARGE

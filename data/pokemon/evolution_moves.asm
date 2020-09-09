@@ -4,7 +4,7 @@ EvolutionMoves::
     db SLUDGE_BOMB  ;Venusaur
     db NO_MOVE      ;Charmander
     db DRAGON_RAGE  ;Charmeleon
-    db DRAGON_CLAW  ;Charizard
+    db DRAGON_RUSH  ;Charizard
     db NO_MOVE      ;Squirtle
     db IRON_DEFENSE ;Wartortle
     db FLASH_CANNON ;Blastoise
@@ -103,12 +103,12 @@ EvolutionMoves::
     db NO_MOVE      ;Exeggcute
     db STOMP        ;Exeggutor
     db NO_MOVE      ;Cubone
-    db NO_MOVE      ;Marowak
+    db SHADOW_SNEAK ;Marowak
     db DOUBLE_KICK  ;Hitmonlee
     db COMET_PUNCH  ;Hitmonchan
     db NO_MOVE      ;Lickitung
     db NO_MOVE      ;Koffing
-    db NO_MOVE      ;Weezing
+    db BODY_SLAM    ;Weezing
     db NO_MOVE      ;Rhyhorn
     db SUBMISSION   ;Rhydon
     db NO_MOVE      ;Chansey
@@ -151,13 +151,13 @@ EvolutionMoves::
     db NO_MOVE      ;Mewtwo
     db NO_MOVE      ;Mew
     db NO_MOVE      ;Chikorita
-    db NO_MOVE      ;Bayleef
+    db FAIRY_WIND   ;Bayleef
     db DAZZLINGLEAM ;Meganium
     db NO_MOVE      ;Cyndaquil
-    db NO_MOVE      ;Quilava
+    db QUICK_ATTACK ;Quilava
     db MUD_SHOT     ;Typhlosion
     db NO_MOVE      ;Totodile
-    db NO_MOVE      ;Croconaw
+    db SCARY_FACE   ;Croconaw
     db CRUNCH       ;Feraligatr
     db NO_MOVE      ;Sentret
     db AGILITY      ;Furret

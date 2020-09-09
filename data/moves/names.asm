@@ -212,7 +212,7 @@ MoveNames::
     db "Dark Pulse@"
     db "Nasty Plot@"
     db "Snarl@"
-    db "Dragon Claw@"
+    db "Dragon Rush@"
     db "Dragon Dance@"
     db "Dragon Pulse@"
     db "Wild Charge@"

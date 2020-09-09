@@ -213,7 +213,7 @@ MoveDescriptions::
 	dw DarkPulseDescription
 	dw NastyPlotDescription
 	dw SnarlDescription
-	dw DragonClawDescription
+	dw DragonRushDescription
 	dw DragonDanceDescription
 	dw DragonPulseDescription
 	dw WildChargeDescription
@@ -1117,9 +1117,9 @@ SnarlDescription:
 	db   "The user yells to"
 	next "make SPA decrease.@"
 
-DragonClawDescription:
-	db   "Slashes the foe"
-	next "with sharp claws.@"
+DragonRushDescription:
+	db   "Tackle with over-"
+	next "whelming menace.@"
 
 DragonDanceDescription:
 	db   "A mystical dance;"

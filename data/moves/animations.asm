@@ -215,7 +215,7 @@ BattleAnimations::
 	dw BattleAnim_DarkPulse
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Snarl
-	dw BattleAnim_DragonClaw
+	dw BattleAnim_DragonRush
 	dw BattleAnim_DragonDance
 	dw BattleAnim_DragonPulse
 	dw BattleAnim_WildCharge
@@ -3692,14 +3692,7 @@ BattleAnim_LockOn:
 
 BattleAnim_Outrage:
 	anim_1gfx ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_1A, $0, $1, $20
-	anim_sound 0, 0, SFX_OUTRAGE
-	anim_wait 72
-	anim_incbgeffect ANIM_BG_1A
-	anim_call BattleAnim_ShowMon_0
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
+	anim_call BattleAnimSub_DragonEffect
 	anim_obj ANIM_OBJ_00, 120, 72, $0
 	anim_wait 6
 	anim_sound 0, 1, SFX_COMET_PUNCH
@@ -3708,6 +3701,17 @@ BattleAnim_Outrage:
 	anim_sound 0, 1, SFX_MEGA_PUNCH
 	anim_obj ANIM_OBJ_00, 152, 40, $0
 	anim_wait 16
+	anim_ret
+
+BattleAnimSub_DragonEffect:
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect ANIM_BG_1A, $0, $1, $20
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_wait 72
+	anim_incbgeffect ANIM_BG_1A
+	anim_call BattleAnim_ShowMon_0
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
+	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
 	anim_ret
 
 BattleAnim_Sandstorm:
@@ -4987,23 +4991,11 @@ BattleAnim_Hex:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_DragonClaw:
+BattleAnim_DragonRush:
 	anim_1gfx ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_1A, $0, $1, $20
-	anim_sound 0, 0, SFX_OUTRAGE
-	anim_wait 72
-	anim_incbgeffect ANIM_BG_1A
-	anim_call BattleAnim_ShowMon_0
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
-	anim_1gfx ANIM_GFX_CUT
-	anim_resetobp0
-	anim_sound 0, 1, SFX_SCRATCH
-	anim_obj ANIM_OBJ_37, 144, 48, $0
-	anim_obj ANIM_OBJ_37, 140, 44, $0
-	anim_obj ANIM_OBJ_37, 136, 40, $0
-	anim_wait 32
+	anim_call BattleAnimSub_DragonEffect
+	anim_wait 8
+	anim_call BattleAnim_DoubleEdge
 	anim_ret
 
 BattleAnim_PoisonFang:
@@ -5513,14 +5505,7 @@ BattleAnim_SeedBomb:
 BattleAnim_DragonPulse:
 	;anim_2gfx ANIM_GFX_HIT, ANIM_GFX_BEAM
 	anim_1gfx ANIM_GFX_PSYCHIC
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_1A, $0, $1, $20
-	anim_sound 0, 0, SFX_OUTRAGE
-	anim_wait 72
-	anim_incbgeffect ANIM_BG_1A
-	anim_call BattleAnim_ShowMon_0
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $3
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
+	anim_call BattleAnimSub_DragonEffect
 	anim_wait 16
 	;anim_bgeffect ANIM_BG_06, $0, $2, $0
 	;anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
