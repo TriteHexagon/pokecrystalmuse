@@ -387,12 +387,10 @@ KoffingEggMoves:
 	db -1 ; end
 
 RhyhornEggMoves:
-	db CRUNCH
 	db FLAIL
 	db THRASH
 	db PURSUIT
 	db COUNTER
-	db MAGNITUDE
 	db -1 ; end
 
 ChanseyEggMoves:
@@ -445,20 +443,14 @@ GoldeenEggMoves:
 MrMimeEggMoves:
 	db FUTURE_SIGHT
 	db HYPNOSIS
-	db MIMIC
-	db FAKE_OUT
-	db CONFUSE_RAY
-	db NASTY_PLOT
 	db -1 ; end
 
 ScytherEggMoves:
 	db COUNTER
 	db SAFEGUARD
 	db BATON_PASS
-	db RAZOR_WIND
 	db FLAIL
 	db LIGHT_SCREEN
-	db BUG_BUZZ
 	db ENDURE
 	db -1 ; end
 

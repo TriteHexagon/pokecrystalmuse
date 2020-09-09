@@ -110,7 +110,7 @@ EvolutionMoves::
     db NO_MOVE      ;Koffing
     db NO_MOVE      ;Weezing
     db NO_MOVE      ;Rhyhorn
-    db NO_MOVE      ;Rhydon
+    db SUBMISSION   ;Rhydon
     db NO_MOVE      ;Chansey
     db NO_MOVE      ;Tangela
     db NO_MOVE      ;Kangaskhan

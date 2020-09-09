@@ -1886,26 +1886,41 @@ RhyhornEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SMART_STRIKE
 	db 1, TAIL_WHIP
-	db 13, STOMP
-	db 19, FURY_ATTACK
-	db 31, SCARY_FACE
-	db 37, TRANSFORM
-	db 49, TAKE_DOWN
-	db 55, EARTHQUAKE
+	db 5, FURY_ATTACK
+	db 9, SCARY_FACE
+	db 13, ROCK_THROW ;replace Smack Down
+	db 17, STOMP	
+	db 21, MAGNITUDE ;replace Bulldoze
+	db 25, CRUNCH ;replace Chip Away
+	db 29, ROCK_SLIDE ;replace Rock Blast
+	db 33, DRILL_RUN
+	db 37, TAKE_DOWN
+	db 41, STONE_EDGE
+	;evo
+	db 45, EARTHQUAKE
+	db 49, MEGAHORN
+	db 53, DOUBLE_EDGE ;replace Horn Drill
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SUBMISSION ;evolution move
 	db 1, SMART_STRIKE
 	db 1, TAIL_WHIP
-	db 1, STOMP
-	db 1, FURY_ATTACK
-	db 13, STOMP
-	db 19, FURY_ATTACK
-	db 31, SCARY_FACE
-	db 37, TRANSFORM
-	db 54, TAKE_DOWN
-	db 65, EARTHQUAKE
+	db 5, FURY_ATTACK
+	db 9, SCARY_FACE
+	db 13, ROCK_THROW ;replace Smack Down
+	db 17, STOMP	
+	db 21, MAGNITUDE ;replace Bulldoze
+	db 25, CRUNCH ;replace Chip Away
+	db 29, ROCK_SLIDE ;replace Rock Blast
+	db 33, DRILL_RUN
+	db 37, TAKE_DOWN
+	db 41, STONE_EDGE
+	;evo
+	db 48, EARTHQUAKE
+	db 55, MEGAHORN
+	db 62, DOUBLE_EDGE ;replace Horn Drill
 	db 0 ; no more level-up moves
 
 ChanseyEvosAttacks:
@@ -1930,29 +1945,41 @@ BlisseyEvosAttacks:
 
 TangelaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
+	db 1, TACKLE ;replace Constrict
 	db 4, SLEEP_POWDER
-	db 10, ABSORB
-	db 13, POISONPOWDER
-	db 19, VINE_WHIP
-	db 25, WRAP
-	db 31, GIGA_DRAIN
-	db 34, STUN_SPORE
-	db 40, SLAM
-	db 46, GROWTH
+	db 7, VINE_WHIP
+	db 10, LEECH_SEED ;replace Absorb
+    db 14, POISONPOWDER
+    db 17, WRAP
+    db 20, GROWTH
+    db 23, ABSORB ;replace Mega Drain
+	db 27, SYNTHESIS ;replace Knock Off
+    db 30, STUN_SPORE
+	db 33, FLAIL ; replace Natural Gift
+    db 36, GIGA_DRAIN
+	db 38, ANCIENTPOWER
+    db 41, SLAM
+	db 45, BODY_SLAM ;replace Wring Out, Tickle
+	db 49, SEED_BOMB ;replace Power Whip, Grassy Terrain
 	db 0 ; no more level-up moves
 
 KangaskhanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, COMET_PUNCH
-	db 7, LEER
+	db 1, LEER
+	db 7, FAKE_OUT
+	db 10, TAIL_WHIP
 	db 13, BITE
-	db 19, TAIL_WHIP
-	db 25, LOVELY_KISS
-	db 31, FURY_ATTACK
-	db 37, ENDURE
-	db 43, DIZZY_PUNCH
-	db 49, FLAIL
+	db 19, STOMP ;replace Double Hit
+	db 22, FURY_ATTACK
+	db 25, BODY_SLAM ;replace Mega Punch
+	db 31, TAKE_DOWN ;replace Chip Away
+	db 34, DIZZY_PUNCH
+	db 37, CRUNCH
+	db 43, ENDURE
+	db 46, OUTRAGE
+	db 49, DOUBLE_EDGE
+	db 50, FLAIL ;replace Reversal
 	db 0 ; no more level-up moves
 
 HorseaEvosAttacks:
@@ -1965,7 +1992,7 @@ HorseaEvosAttacks:
 	db 17, DRAGONBREATH ;replace Twister
 	db 21, WATER_PULSE ;replace BubbleBeam
 	db 26, FOCUS_ENERGY
-	;db 31, SCALD?
+	db 31, OCTAZOOKA ;replace Brine
 	db 36, AGILITY
 	db 41, DRAGON_PULSE
 	db 46, DRAGON_DANCE
@@ -1983,7 +2010,7 @@ KingdraEvosAttacks:
 	db 17, DRAGONBREATH ;replace Twister
 	db 21, WATER_PULSE ;replace BubbleBeam
 	db 26, FOCUS_ENERGY
-	;db 31, SCALD?
+	db 31, OCTAZOOKA ;replace Brine
 	db 38, AGILITY
 	db 45, DRAGON_PULSE
 	db 52, DRAGON_DANCE
@@ -1995,27 +2022,36 @@ GoldeenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, SMART_STRIKE
-	db 24, FLAIL
-	db 29, FURY_ATTACK
-	db 38, WATERFALL
-	db 43, TRANSFORM
-	db 52, AGILITY
+	db 5, SUPERSONIC
+	db 8, FURY_ATTACK ;moved up
+	db 13, FLAIL
+	db 16, WATER_PULSE
+	db 21, RAIN_DANCE ;replace Aqua Ring
+	db 24, SMART_STRIKE ;moved down
+	db 29, AGILITY
+	db 32, WATERFALL
+	;evo
+	db 37, DRILL_RUN ;replace Horn Drill
+	db 40, BODY_SLAM ;replace Soak
+	db 45, MEGAHORN
 	db 0 ; no more level-up moves
 
 SeakingEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, TAIL_WHIP
-	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, SMART_STRIKE
-	db 24, FLAIL
-	db 29, FURY_ATTACK
-	db 41, WATERFALL
-	db 49, TRANSFORM
-	db 61, AGILITY
+	db 5, SUPERSONIC
+	db 8, SMART_STRIKE
+	db 13, FLAIL
+	db 16, WATER_PULSE
+	db 21, RAIN_DANCE ;replace Aqua Ring
+	db 24, FURY_ATTACK
+	db 29, AGILITY
+	db 32, WATERFALL
+	;evo
+	db 40, DRILL_RUN ;replace Horn Drill
+	db 46, BODY_SLAM ;replace Soak
+	db 54, MEGAHORN
 	db 0 ; no more level-up moves
 
 StaryuEvosAttacks:
@@ -2023,38 +2059,52 @@ StaryuEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HARDEN
-	db 7, WATER_GUN
-	db 13, RAPID_SPIN
-	db 19, RECOVER
-	db 25, SWIFT
-	db 31, WATER_PULSE
-	db 37, MINIMIZE
-	db 43, LIGHT_SCREEN
-	db 50, HYDRO_PUMP
+	db 4, WATER_GUN
+	db 7, RAPID_SPIN
+	db 10, RECOVER
+	db 13, CONFUSION ;replace Psywave
+	db 16, SWIFT
+	db 18, WATER_PULSE
+	db 23, FLASH ;replace Camouflage & Gyro Ball
+	db 28, TRI_ATTACK ;replace Brine
+	db 31, MINIMIZE
+	db 35, FLASH_CANNON ;replace Reflect Type
+	db 37, POWER_GEM ;moved up
+	db 40, CONFUSE_RAY
+	db 42, PSYCHIC_M
+	db 46, LIGHT_SCREEN
+	db 49, CALM_MIND ;replace Cosmic Power
+	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 StarmieEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, HYDRO_PUMP
+	db 1, WATER_GUN
 	db 1, RAPID_SPIN
 	db 1, RECOVER
-	db 1, WATER_PULSE
-	db 37, CONFUSE_RAY
+	db 1, SWIFT
+	db 40, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 MrMimeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, REFLECT
-	db 6, CONFUSION
-	db 11, SUBSTITUTE
-	db 16, CALM_MIND
-	db 21, DOUBLESLAP
-	db 26, LIGHT_SCREEN
-	db 26, REFLECT
-	db 31, ENCORE
-	db 36, PSYBEAM
-	db 41, BATON_PASS
-	db 46, SAFEGUARD
+	db 1, CONFUSION
+	db 4, CHARM ;replace Copycat
+	db 8, CALM_MIND ;replace Meditate
+	db 11, DOUBLESLAP
+    db 15, MIMIC
+	db 18, ENCORE
+    db 22, LIGHT_SCREEN
+    db 22, REFLECT
+    db 25, PSYBEAM
+    db 29, SUBSTITUTE
+	db 32, FAKE_OUT ;replace Recycle
+	db 36, CONFUSE_RAY ;replace Trick
+	db 39, PSYCHIC_M
+	db 43, NASTY_PLOT ;replace Role Play
+    db 46, BATON_PASS
+    db 50, SAFEGUARD
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks: ;done
