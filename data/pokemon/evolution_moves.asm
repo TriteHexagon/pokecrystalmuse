@@ -99,7 +99,7 @@ EvolutionMoves::
     db NO_MOVE      ;Krabby
     db NO_MOVE      ;Kingler
     db NO_MOVE      ;Voltorb
-    db NO_MOVE      ;Electrode
+    db SHADOW_BALL  ;Electrode
     db NO_MOVE      ;Exeggcute
     db STOMP        ;Exeggutor
     db NO_MOVE      ;Cubone
