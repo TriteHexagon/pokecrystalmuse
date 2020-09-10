@@ -1468,7 +1468,7 @@
 	const EVENT_ILEX_FOREST_MUSHROOM_DUDE
 	const EVENT_DOJO_FALKNER
 
-; Unused: next 48-2 events
+; Unused: next 48-3 events
 
 	const_next 2048
 NUM_EVENTS EQU const_value ; 800

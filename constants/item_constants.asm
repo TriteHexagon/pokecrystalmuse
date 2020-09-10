@@ -324,34 +324,34 @@ PURGE MT_VALUE
 __tmhm_value__ = __tmhm_value__ + 1
 ENDM
 
-	add_mt FIRE_FANG
-	add_mt THUNDER_FANG
-	add_mt ICE_FANG
-	add_mt HEADBUTT
-	add_mt DEFENSE_CURL
-	add_mt DRAGONBREATH
-	add_mt CURSE
-	add_mt ICY_WIND
-	add_mt ROAR
-	add_mt ENDURE
-	add_mt SWEET_SCENT
-	add_mt SWAGGER
-	add_mt FIRE_PUNCH
-	add_mt ICE_PUNCH
-	add_mt THUNDERPUNCH
-	add_mt ROLLOUT
-	add_mt MUD_SLAP
-	add_mt DOUBLE_TEAM
-	add_mt DREAM_EATER
-	add_mt EARTH_POWER
-	add_mt HYPER_VOICE
-	add_mt GUNK_SHOT
-	add_mt ZEN_HEADBUTT
-	add_mt SEED_BOMB
-	add_mt DRILL_RUN
-	add_mt ROCK_SLIDE
-	add_mt SIGNAL_BEAM
-	add_mt DRAIN_PUNCH
+	add_mt FIRE_FANG     ;Goldenrod
+	add_mt THUNDER_FANG  ;Goldenrod
+	add_mt ICE_FANG      ;Goldenrod
+	add_mt HEADBUTT      ;Ilex Forest
+	add_mt DEFENSE_CURL  ;Ecruteak
+	add_mt DRAGONBREATH  ;Cianwood
+	add_mt CURSE         ;
+	add_mt ICY_WIND      ;Cianwood
+	add_mt ROAR          ;Cianwood
+	add_mt ENDURE        ;Mahogany
+	add_mt SWEET_SCENT   ;Ecruteak
+	add_mt SWAGGER       ;Mahogany
+	add_mt FIRE_PUNCH    ;Goldenrod
+	add_mt ICE_PUNCH     ;Goldenrod
+	add_mt THUNDERPUNCH  ;Goldenrod
+	add_mt ROLLOUT       ;Ecruteak
+	add_mt MUD_SLAP      ;
+	add_mt DOUBLE_TEAM   ;Mahogany
+	add_mt DREAM_EATER   ;
+	add_mt EARTH_POWER   ;Route 26
+	add_mt HYPER_VOICE   ;Route 26
+	add_mt GUNK_SHOT     ;Route 26
+	add_mt ZEN_HEADBUTT  ;Route 26
+	add_mt SEED_BOMB     ;Route 26
+	add_mt DRILL_RUN     ;Route 26
+	add_mt ROCK_SLIDE    ;Route 26
+	add_mt SIGNAL_BEAM   ;Route 26
+	add_mt DRAIN_PUNCH   ;Route 26
 	add_mt THUNDER_WAVE
 	add_mt SWORDS_DANCE
 	add_mt SUBSTITUTE
