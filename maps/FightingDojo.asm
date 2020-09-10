@@ -1,11 +1,52 @@
 	object_const_def ; object_event constants
 	const FIGHTINGDOJO_BLACK_BELT
 	const FIGHTINGDOJO_POKE_BALL
+	const DOJO_FALKNER
 
 FightingDojo_MapScripts:
 	db 0 ; scene scripts
 
-	db 0 ; callbacks
+	db 1 ; callbacks
+	callback MAPCALLBACK_OBJECTS, .Falkner
+
+.Falkner:
+;checks Beat Blue
+	checkflag ENGINE_TIME_CAPSULE
+	iftrue .FalknerDisappear 
+	checkevent EVENT_BEAT_BLUE
+	iffalse .FalknerDisappear
+;checks Weekday
+	readvar VAR_WEEKDAY
+	ifnotequal SUNDAY, .FalknerDisappear
+;checks Time of Day
+	checktime EVE
+	iffalse .FalknerDisappear
+;all checks cleared
+	appear DOJO_FALKNER
+	return
+.FalknerDisappear
+	disappear DOJO_FALKNER
+	return
+
+DojoFalknerScript:
+	faceplayer
+	opentext
+	checkflag ENGINE_TIME_CAPSULE
+	iftrue .AlreadyBattled
+	writetext DojoFalknerIntroText
+	waitbutton
+	closetext
+	winlosstext DojoFalknerWinLossText, 0
+	loadtrainer FALKNER, FALKNER2
+	startbattle
+	reloadmapafterbattle
+.AlreadyBattled
+	opentext
+	writetext DojoFalknerDefeatText
+	waitbutton
+	closetext
+	setflag ENGINE_TIME_CAPSULE
+	end
 
 FightingDojoBlackBelt:
 	jumptextfaceplayer FightingDojoBlackBeltText
@@ -40,6 +81,21 @@ FightingDojoSign2Text:
 	line "side!"
 	done
 
+DojoFalknerIntroText:
+	text "Hello! Intro text!"
+	line "More text!"
+	done
+
+DojoFalknerWinLossText:
+	text "Defeat Text!"
+	line "More text!"
+	done
+
+DojoFalknerDefeatText:
+	text "I was defeated!"
+	line "More text!"
+	done
+
 FightingDojo_MapEvents:
 	db 0, 0 ; filler
 
@@ -53,6 +109,7 @@ FightingDojo_MapEvents:
 	bg_event  4,  0, BGEVENT_READ, FightingDojoSign1
 	bg_event  5,  0, BGEVENT_READ, FightingDojoSign2
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event  4,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FightingDojoBlackBelt, -1
 	object_event  3,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, FightingDojoFocusBand, EVENT_PICKED_UP_FOCUS_BAND
+	object_event  1,  2, SPRITE_FALKNER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DojoFalknerScript, EVENT_DOJO_FALKNER

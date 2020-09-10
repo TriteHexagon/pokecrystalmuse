@@ -49,7 +49,10 @@ KarenScript_Battle:
 	waitbutton
 	closetext
 	winlosstext KarenScript_KarenBeatenText, 0
+	checkevent EVENT_BEAT_BLUE ;rematch
+	iftrue .KarenScript_Rematch ;rematch
 	loadtrainer KAREN, KAREN1
+.KarenScript_StartBattle:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_KAREN
@@ -64,6 +67,10 @@ KarenScript_Battle:
 	setevent EVENT_KARENS_ROOM_EXIT_OPEN
 	waitsfx
 	end
+
+.KarenScript_Rematch:
+	loadtrainer KAREN, KAREN2
+	sjump .KarenScript_StartBattle
 
 KarenScript_AfterBattle:
 	writetext KarenScript_KarenDefeatText

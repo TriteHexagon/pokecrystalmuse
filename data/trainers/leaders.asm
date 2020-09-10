@@ -13,6 +13,8 @@ GymLeaders:
 	db JASMINE
 	db CHUCK
 	db CLAIR
+; fallthrough
+EliteFour:
 	db WILL
 	db BRUNO
 	db KAREN

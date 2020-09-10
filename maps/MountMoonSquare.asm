@@ -27,8 +27,8 @@ MountMoonSquare_MapScripts:
 .StarManiac:
 	checktime NITE
 	iffalse .DisappearStarManiac
-	;checkflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
-	;iftrue .DisappearStarManiac
+	checkflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
+	iftrue .DisappearStarManiac
 	appear MOUNTMOONSQUARE_STAR_MANIAC
 	return
 

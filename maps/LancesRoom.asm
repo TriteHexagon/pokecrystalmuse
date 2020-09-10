@@ -57,7 +57,10 @@ LancesRoomLanceScript:
 	closetext
 	winlosstext LanceBattleWinText, 0
 	setlasttalked LANCESROOM_LANCE
+	checkevent EVENT_BEAT_BLUE ;rematch
+	iftrue .LanceScript_Rematch ;rematch
 	loadtrainer CHAMPION, LANCE
+.LanceScript_StartBattle:
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
@@ -127,6 +130,10 @@ LancesRoomLanceScript:
 	pause 15
 	warpfacing UP, HALL_OF_FAME, 4, 13
 	end
+
+.LanceScript_Rematch:
+	loadtrainer CHAMPION, LANCE2
+	sjump .LanceScript_StartBattle
 
 LancesRoom_EnterMovement:
 	step UP

@@ -2710,6 +2710,10 @@ IsKantoGymLeader:
 	ld hl, KantoGymLeaders
 	jr IsGymLeaderCommon
 
+IsEliteFour:
+	ld hl, EliteFour
+	jr IsGymLeaderCommon
+	
 IsGymLeader:
 	ld hl, GymLeaders
 IsGymLeaderCommon:

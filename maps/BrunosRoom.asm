@@ -49,7 +49,10 @@ BrunoScript_Battle:
 	waitbutton
 	closetext
 	winlosstext BrunoScript_BrunoBeatenText, 0
+	checkevent EVENT_BEAT_BLUE ;rematch
+	iftrue .BrunoScript_Rematch ;rematch
 	loadtrainer BRUNO, BRUNO1
+.BrunoScript_StartBattle:
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_BRUNO
@@ -64,6 +67,10 @@ BrunoScript_Battle:
 	setevent EVENT_BRUNOS_ROOM_EXIT_OPEN
 	waitsfx
 	end
+
+.BrunoScript_Rematch:
+	loadtrainer BRUNO, BRUNO2
+	sjump .BrunoScript_StartBattle
 
 BrunoScript_AfterBattle:
 	writetext BrunoScript_BrunoDefeatText

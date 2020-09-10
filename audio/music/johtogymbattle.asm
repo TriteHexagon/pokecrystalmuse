@@ -6,6 +6,7 @@ Music_JohtoGymBattle:
 
 Music_JohtoGymBattle_Ch1:
 	tempo 101
+Music_JohtoGymBattle_Ch1_header:
 	volume 7, 7
 	duty_cycle 3
 	pitch_offset 2
@@ -1021,3 +1022,22 @@ Music_JohtoGymBattle_Ch3:
 	note F_, 2
 	note D#, 2
 	sound_ret
+
+Music_EliteFourBattle:
+	channel_count 3
+	channel 1, Music_EliteFourBattle_Ch1
+	channel 2, Music_EliteFourBattle_Ch2
+	channel 3, Music_EliteFourBattle_Ch3
+
+Music_EliteFourBattle_Ch1:
+	tempo 103
+	transpose 1, 11
+	sound_jump Music_JohtoGymBattle_Ch1_header
+
+Music_EliteFourBattle_Ch2:
+	transpose 1, 11
+	sound_jump Music_JohtoGymBattle_Ch2
+
+Music_EliteFourBattle_Ch3:
+	transpose 1, 11
+	sound_jump Music_JohtoGymBattle_Ch3

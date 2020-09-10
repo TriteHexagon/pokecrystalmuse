@@ -107,6 +107,7 @@ Music:
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
 ;custom
+	dba Music_EliteFourBattle
 	dba Music_PKMN_Center_Night
 	dba Music_FriendlyShop
 	dba Music_CeruleanCityGBS

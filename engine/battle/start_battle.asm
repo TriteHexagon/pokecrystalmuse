@@ -51,19 +51,19 @@ PlayBattleMusic:
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
 	and a
-	jr nz, .trainermusic
+	jp nz, .trainermusic
 
 	farcall RegionCheck
 	ld a, e
 	and a
-	jr nz, .kantowild
+	jp nz, .kantowild
 
 	ld de, MUSIC_JOHTO_WILD_BATTLE
 	ld a, [wTimeOfDay]
 	cp NITE_F
-	jr c, .done ; not NITE_F or EVE_F
+	jp c, .done ; not NITE_F or EVE_F
 	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
-	jr .done
+	jp .done
 
 .kantowild
 	;same comparison for Kanto - integrate in the other comparison?
@@ -97,7 +97,11 @@ PlayBattleMusic:
 	farcall IsKantoGymLeader
 	jr c, .done
 
-	; IsGymLeader also counts CHAMPION, RED, and the Kanto gym leaders
+	ld de, MUSIC_ELITE_FOUR_BATTLE
+	farcall IsEliteFour
+	jr c, .done
+
+	; IsGymLeader also counts CHAMPION, RED, the Elite Four and the Kanto gym leaders
 	; but they have been taken care of before this
 	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
 	farcall IsGymLeader
