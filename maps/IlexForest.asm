@@ -89,12 +89,12 @@ IlexForest_MapScripts:
 ;new Mushroom Guy
 .MushroomDude:
 	checkevent EVENT_HERDED_FARFETCHD
-	iftrue .MushroomDudeDone
-	disappear ILEXFOREST_MUSHROOM_DUDE
+	iffalse .MushroomDudeDone
+	appear ILEXFOREST_MUSHROOM_DUDE
 	return
 
 .MushroomDudeDone
-	appear ILEXFOREST_MUSHROOM_DUDE
+	disappear ILEXFOREST_MUSHROOM_DUDE
 	return
 
 IlexForestCharcoalApprenticeScript:
@@ -1104,4 +1104,4 @@ IlexForest_MapEvents:
 	object_event  9, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestXAttack, EVENT_ILEX_FOREST_X_ATTACK
 	object_event 17,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestAntidote, EVENT_ILEX_FOREST_ANTIDOTE
 	object_event 27,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestEther, EVENT_ILEX_FOREST_ETHER
-	object_event 23, 22, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlexForestMushroomDude, -1
+	object_event 23, 22, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlexForestMushroomDude, EVENT_ILEX_FOREST_MUSHROOM_DUDE

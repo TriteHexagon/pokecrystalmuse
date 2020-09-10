@@ -3733,7 +3733,7 @@ SnubbullEvosAttacks:
 	db 1, CHARM
 	db 7, BITE
 	db 13, LICK
-	db 19, FURY_ATTACK  ;replace Headbutt
+	db 19, DOUBLESLAP  ;replace Headbutt
 	db 25, ROAR
 	db 31, THUNDER_FANG ;replace Rage
 	db 31, FIRE_FANG    ;replace Rage
@@ -3751,7 +3751,7 @@ GranbullEvosAttacks:
 	db 1, CHARM
 	db 7, BITE
 	db 13, LICK
-	db 19, FURY_ATTACK ;replace Headbutt
+	db 19, DOUBLESLAP ;replace Headbutt
 	db 22, SNARL ;evolution move
 	;evo
 	db 27, ROAR

@@ -352,7 +352,9 @@ ENDM
 	add_mt ROCK_SLIDE
 	add_mt SIGNAL_BEAM
 	add_mt DRAIN_PUNCH
-	;add_mt BODY_SLAM
+	add_mt THUNDER_WAVE
+	add_mt SWORDS_DANCE
+	add_mt SUBSTITUTE
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1

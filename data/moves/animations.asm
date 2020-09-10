@@ -2660,11 +2660,11 @@ BattleAnim_Lick:
 BattleAnim_TriAttack:
 	anim_3gfx ANIM_GFX_FIRE, ANIM_GFX_LIGHTNING, ANIM_GFX_ICE
 	anim_call BattleAnimSub_Fire
-	anim_wait 16
+	anim_wait 32
 	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $4
 	anim_sound 0, 1, SFX_THUNDER
 	anim_obj ANIM_OBJ_THUNDER, 152, 68, $0
-	anim_wait 16
+	anim_wait 32
 	anim_call BattleAnimSub_Ice
 	anim_wait 16
 	anim_ret
