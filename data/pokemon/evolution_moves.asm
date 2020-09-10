@@ -24,7 +24,7 @@ EvolutionMoves::
     db NO_MOVE      ;Ekans
     db CRUNCH       ;Arbok
     db NO_MOVE      ;Pikachu
-    db THUNDERBOLT  ;Raichu
+    db THUNDERPUNCH ;Raichu
     db NO_MOVE      ;Sandshrew
     db SLASH        ;Sandslash
     db NO_MOVE      ;Nidoran♀
@@ -36,9 +36,9 @@ EvolutionMoves::
     db NO_MOVE      ;Clefairy
     db METRONOME    ;Clefable
     db NO_MOVE      ;Vulpix
-    db NO_MOVE      ;Ninetales
+    db NASTY_PLOT   ;Ninetales
     db NO_MOVE      ;Jigglypuff
-    db NO_MOVE      ;Wigglytuff
+    db PLAY_ROUGH   ;Wigglytuff
     db NO_MOVE      ;Zubat
     db SCREECH      ;Golbat
     db NO_MOVE      ;Oddish
@@ -63,7 +63,7 @@ EvolutionMoves::
     db DRAIN_PUNCH  ;Poliwrath
     db NO_MOVE      ;Abra
     db CONFUSION    ;Kadabra
-    db NO_MOVE      ;Alakazam
+    db CALM_MIND    ;Alakazam
     db NO_MOVE      ;Machop
     db NO_MOVE      ;Machoke
     db CROSS_CHOP   ;Machamp
@@ -110,7 +110,7 @@ EvolutionMoves::
     db NO_MOVE      ;Koffing
     db BODY_SLAM    ;Weezing
     db NO_MOVE      ;Rhyhorn
-    db SUBMISSION   ;Rhydon
+    db STONE_EDGE   ;Rhydon
     db NO_MOVE      ;Chansey
     db NO_MOVE      ;Tangela
     db NO_MOVE      ;Kangaskhan
@@ -151,11 +151,11 @@ EvolutionMoves::
     db NO_MOVE      ;Mewtwo
     db NO_MOVE      ;Mew
     db NO_MOVE      ;Chikorita
-    db FAIRY_WIND   ;Bayleef
-    db DAZZLINGLEAM ;Meganium
+    db SYNTHESIS    ;Bayleef
+    db MOONBLAST    ;Meganium
     db NO_MOVE      ;Cyndaquil
     db QUICK_ATTACK ;Quilava
-    db MUD_SHOT     ;Typhlosion
+    db EARTH_POWER  ;Typhlosion
     db NO_MOVE      ;Totodile
     db SCARY_FACE   ;Croconaw
     db CRUNCH       ;Feraligatr
