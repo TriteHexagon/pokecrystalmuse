@@ -1,7 +1,8 @@
 	db SHELLDER ; 090
 
 	db  30,  65, 100,  40,  45,  25
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
 	db 190 ; catch rate
@@ -12,7 +13,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/shellder/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_SLOW ; growth rate
 	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
 

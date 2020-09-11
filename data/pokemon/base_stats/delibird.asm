@@ -1,7 +1,8 @@
 	db DELIBIRD ; 225
 
 	db  45,  55,  45,  75,  65,  45
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, FLYING ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/delibird/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_FAST ; growth rate
 	dn EGG_WATER_1, EGG_GROUND ; egg groups
 

@@ -1,7 +1,8 @@
 	db VULPIX ; 037
 
 	db  38,  41,  40,  65,  50,  65
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
 	db 190 ; catch rate
@@ -12,7 +13,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/vulpix/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

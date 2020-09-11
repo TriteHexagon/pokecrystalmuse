@@ -1,7 +1,8 @@
 	db SCYTHER ; 123
 
 	db  70, 110,  80, 105,  55,  80
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FLYING ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 25 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/scyther/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

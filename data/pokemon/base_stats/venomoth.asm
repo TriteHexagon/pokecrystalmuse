@@ -1,7 +1,8 @@
 	db VENOMOTH ; 049
 
 	db  70,  65,  60,  90,  90,  75
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, POISON ; type
 	db 75 ; catch rate
@@ -12,7 +13,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/venomoth/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

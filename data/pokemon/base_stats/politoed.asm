@@ -1,7 +1,8 @@
 	db POLITOED ; 186
 
 	db  90,  75,  75,  70,  90, 100
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 20 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/politoed/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_WATER_1 ; egg groups
 

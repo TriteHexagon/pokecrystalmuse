@@ -2296,6 +2296,9 @@ wBaseDefense:: db
 wBaseSpeed:: db
 wBaseSpecialAttack:: db
 wBaseSpecialDefense:: db
+wBaseEVs::
+wBaseHPAtkDefSpdEVs:: db
+wBaseSpAtkSpDefEVs:: db
 wBaseType::
 wBaseType1:: db
 wBaseType2:: db
@@ -2308,7 +2311,7 @@ wBaseGender:: db
 wBaseEggSteps:: db
 wBasePicSize:: db
 wBaseUnusedFrontpic:: dw
-wBaseUnusedBackpic:: dw
+;wBaseUnusedBackpic:: dw
 wBaseGrowthRate:: db
 wBaseEggGroups:: db
 wBaseTMHM:: flag_array NUM_TM_HM_TUTOR

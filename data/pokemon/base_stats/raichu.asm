@@ -1,7 +1,8 @@
 	db RAICHU ; 026
 
 	db  60,  90,  55, 100,  90,  80
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
 	db 75 ; catch rate
@@ -12,7 +13,7 @@
 	db 10 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/raichu/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_FAIRY ; egg groups
 

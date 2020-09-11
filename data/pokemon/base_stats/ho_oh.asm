@@ -1,7 +1,8 @@
 	db HO_OH ; 250
 
 	db 106, 130,  90,  90, 110, 154
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FLYING ; type
 	db 3 ; catch rate
@@ -12,7 +13,7 @@
 	db 120 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/ho_oh/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_SLOW ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

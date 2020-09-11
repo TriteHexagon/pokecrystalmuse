@@ -1,7 +1,8 @@
 	db STEELIX ; 208
 
 	db  75,  85, 200,  30,  55,  65
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GROUND ; type
 	db 25 ; catch rate
@@ -12,7 +13,7 @@
 	db 25 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/steelix/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 

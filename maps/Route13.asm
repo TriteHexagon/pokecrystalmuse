@@ -74,8 +74,8 @@ Route13Sign:
 Route13DirectionsSign:
 	jumptext Route13DirectionsSignText
 
-Route13HiddenCalcium:
-	hiddenitem CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
+Route13HiddenZinc:
+	hiddenitem ZINC, EVENT_ROUTE_13_HIDDEN_ZINC
 
 PokefanmAlexSeenText:
 	text "Bow down before my"
@@ -200,7 +200,7 @@ Route13_MapEvents:
 	bg_event 29, 13, BGEVENT_READ, Route13TrainerTips
 	bg_event 41, 11, BGEVENT_READ, Route13Sign
 	bg_event 17, 13, BGEVENT_READ, Route13DirectionsSign
-	bg_event 30, 13, BGEVENT_ITEM, Route13HiddenCalcium
+	bg_event 30, 13, BGEVENT_ITEM, Route13HiddenZinc
 
 	db 5 ; object events
 	object_event 42,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerBirdKeeperPerry, -1

@@ -1,7 +1,8 @@
 	db BUTTERFREE ; 012
 
 	db  60,  45,  50,  70,  80,  80
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FLYING ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 15 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/butterfree/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 

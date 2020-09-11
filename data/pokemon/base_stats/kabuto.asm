@@ -1,7 +1,8 @@
 	db KABUTO ; 140
 
 	db  30,  80,  90,  55,  55,  45
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, WATER ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 30 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/kabuto/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 

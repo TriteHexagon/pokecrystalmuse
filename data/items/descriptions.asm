@@ -140,7 +140,7 @@ ItemDescriptions:
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
-	dw TeruSama12Desc
+	dw ZincDesc
 	dw TeruSama13Desc
 	dw MetalCoatDesc
 	dw DragonFangDesc
@@ -376,7 +376,7 @@ LuckyPunchDesc:
 	next "ratio of CHANSEY.@"
 
 CalciumDesc:
-	db   "Ups SPECIAL stats"
+	db   "Raises Sp. Atk of"
 	next "of one #mon.@"
 
 RareCandyDesc:
@@ -808,8 +808,9 @@ ScopeLensDesc:
 	db   "Raises critical"
 	next "hit ratio. (HOLD)@"
 
-TeruSama12Desc:
-	db   "?@"
+ZincDesc:
+	db   "Raises Sp. Def of"
+	next "of one #mon.@"
 
 TeruSama13Desc:
 	db   "?@"

@@ -1,7 +1,8 @@
 	db MAGBY ; 240
 
 	db  45,  75,  37,  83,  70,  55
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 25 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/magby/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

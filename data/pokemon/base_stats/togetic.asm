@@ -1,7 +1,8 @@
 	db TOGETIC ; 176
 
 	db  55,  40,  85,  40,  80, 105
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FLYING ; type
 	db 75 ; catch rate
@@ -12,7 +13,7 @@
 	db 10 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/togetic/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_FAST ; growth rate
 	dn EGG_FLYING, EGG_FAIRY ; egg groups
 

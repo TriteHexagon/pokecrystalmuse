@@ -1,7 +1,8 @@
 	db OMASTAR ; 139
 
 	db  70,  60, 125,  55, 115,  70
-	;   hp  atk  def  spd  sat  sdf
+	evs  0,   0,   0,   0,   0,   0
+ 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, WATER ; type
 	db 45 ; catch rate
@@ -12,7 +13,7 @@
 	db 30 ; step cycles to hatch
 	
 	INCBIN "gfx/pokemon/omastar/front.dimensions"
-	dw NULL, NULL ; unused (beta front/back pics)
+	dw NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 

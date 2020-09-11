@@ -139,7 +139,7 @@ ItemNames::
 	db "Charcoal@"
 	db "Berry Juice@"
 	db "Scope Lens@"
-	db "Teru-Sama@" ;unused
+	db "Zinc@" ;new
 	db "Teru-Sama@" ;unused
 	db "Metal Coat@"
 	db "Dragon Fang@"
