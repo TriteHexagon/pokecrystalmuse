@@ -6,37 +6,37 @@ ENDM
 OddEggProbabilities:
 prob_total = 0
 ; Pichu
-	prob 8
-	prob 1
+	prob 6
+	prob 6
 ; Cleffa
-	prob 16
-	prob 3
+	prob 9
+	prob 9
 ; Igglybuff
-	prob 16
-	prob 3
+	prob 9
+	prob 9
 ; Smoochum
-	prob 14
-	prob 2
+	prob 7
+	prob 7
 ; Magby
-	prob 10
-	prob 2
+	prob 7
+	prob 7
 ; Elekid
-	prob 12
-	prob 2
+	prob 7
+	prob 7
 ; Tyrogue
-	prob 10
-	prob 1
+	prob 5
+	prob 5
 
 OddEggs:
 
 	db PICHU
 	db NO_ITEM
-	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
+	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, NO_MOVE
 	dw 02048 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 14, 10, 10, 10 ; DVs
 	db 30, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -53,7 +53,7 @@ OddEggs:
 
 	db PICHU
 	db NO_ITEM
-	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
+	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, NO_MOVE
 	dw 00256 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
@@ -75,12 +75,12 @@ OddEggs:
 
 	db CLEFFA
 	db NO_ITEM
-	db POUND, CHARM, DIZZY_PUNCH, 0
+	db POUND, CHARM, DIZZY_PUNCH, NO_MOVE
 	dw 04096 ; OT ID
-	dt 125 ; Exp
+	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 14, 10, 10, 10 ; DVs
 	db 35, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -97,9 +97,9 @@ OddEggs:
 
 	db CLEFFA
 	db NO_ITEM
-	db POUND, CHARM, DIZZY_PUNCH, 0
+	db POUND, CHARM, DIZZY_PUNCH, NO_MOVE
 	dw 00768 ; OT ID
-	dt 125 ; Exp
+	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
 	dn 2, 10, 10, 10 ; DVs
@@ -119,12 +119,12 @@ OddEggs:
 
 	db IGGLYBUFF
 	db NO_ITEM
-	db SING, CHARM, DIZZY_PUNCH, 0
+	db SING, CHARM, DIZZY_PUNCH, NO_MOVE
 	dw 04096 ; OT ID
-	dt 125 ; Exp
+	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 14, 10, 10, 10 ; DVs
 	db 15, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -141,9 +141,9 @@ OddEggs:
 
 	db IGGLYBUFF
 	db NO_ITEM
-	db SING, CHARM, DIZZY_PUNCH, 0
+	db SING, CHARM, DIZZY_PUNCH, NO_MOVE
 	dw 00768 ; OT ID
-	dt 125 ; Exp
+	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
 	dn 2, 10, 10, 10 ; DVs
@@ -163,13 +163,13 @@ OddEggs:
 
 	db SMOOCHUM
 	db NO_ITEM
-	db POUND, LICK, DIZZY_PUNCH, 0
+	db POUND, DIZZY_PUNCH, NO_MOVE, NO_MOVE
 	dw 03584 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
-	db 35, 30, 10, 0 ; PP
+	dn 14, 10, 10, 10 ; DVs
+	db 35, 30, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -185,13 +185,13 @@ OddEggs:
 
 	db SMOOCHUM
 	db NO_ITEM
-	db POUND, LICK, DIZZY_PUNCH, 0
+	db POUND, DIZZY_PUNCH, NO_MOVE, NO_MOVE
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
 	dn 2, 10, 10, 10 ; DVs
-	db 35, 30, 10, 0 ; PP
+	db 35, 30, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -207,13 +207,13 @@ OddEggs:
 
 	db MAGBY
 	db NO_ITEM
-	db EMBER, DIZZY_PUNCH, 0, 0
+	db EMBER, ACID, DIZZY_PUNCH, NO_MOVE
 	dw 02560 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
-	db 25, 10, 0, 0 ; PP
+	dn 14, 40, 10, 10 ; DVs
+	db 25, 10, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -229,13 +229,13 @@ OddEggs:
 
 	db MAGBY
 	db NO_ITEM
-	db EMBER, DIZZY_PUNCH, 0, 0
+	db EMBER, ACID, DIZZY_PUNCH, NO_MOVE
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
 	dn 2, 10, 10, 10 ; DVs
-	db 25, 10, 0, 0 ; PP
+	db 25, 40, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -251,12 +251,12 @@ OddEggs:
 
 	db ELEKID
 	db NO_ITEM
-	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
+	db QUICK_ATTACK, LEER, DIZZY_PUNCH, NO_MOVE
 	dw 03072 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
+	dn 14, 10, 10, 10 ; DVs
 	db 30, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -273,7 +273,7 @@ OddEggs:
 
 	db ELEKID
 	db NO_ITEM
-	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
+	db QUICK_ATTACK, LEER, DIZZY_PUNCH, NO_MOVE
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
@@ -295,13 +295,13 @@ OddEggs:
 
 	db TYROGUE
 	db NO_ITEM
-	db TACKLE, DIZZY_PUNCH, 0, 0
+	db TACKLE, FAKE_OUT, FORESIGHT, DIZZY_PUNCH
 	dw 02560 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 0, 0, 0, 0 ; DVs
-	db 35, 10, 0, 0 ; PP
+	dn 14, 10, 10, 10 ; DVs
+	db 35, 10, 40, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -317,13 +317,13 @@ OddEggs:
 
 	db TYROGUE
 	db NO_ITEM
-	db TACKLE, DIZZY_PUNCH, 0, 0
+	db TACKLE, FAKE_OUT, FORESIGHT, DIZZY_PUNCH
 	dw 00256 ; OT ID
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
 	dn 2, 10, 10, 10 ; DVs
-	db 35, 10, 0, 0 ; PP
+	db 35, 10, 40, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level

@@ -124,11 +124,11 @@ MartGoldenrod3F:
 
 MartGoldenrod4F:
 	db 6 ; # items
+	db HP_UP
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
-	db HP_UP
 	db ZINC
 	db -1 ; end
 
