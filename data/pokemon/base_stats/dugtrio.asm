@@ -1,13 +1,13 @@
 	db DUGTRIO ; 051
 
-	db  35,  80,  50, 120,  50,  70
-	evs  0,   0,   0,   0,   0,   0
+	db  35, 100,  50, 120,  50,  70
+	evs  0,   0,   0,   2,   0,   0
  	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type
 	db 50 ; catch rate
 	db 153 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, SOFT_SAND ; items
 	db GENDER_F50 ; gender ratio
 	
 	db 20 ; step cycles to hatch
@@ -18,5 +18,5 @@
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, ENDURE, EARTHQUAKE, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, REST, ATTRACT, THIEF, CUT
+	tmhm TOXIC, ROCK_SMASH, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, SHADOW_CLAW, EARTHQUAKE, RETURN, DIG, MUD_SHOT,SLUDGE_BOMB, SANDSTORM, SLEEP_TALK, STONE_EDGE, REST, ATTRACT, THIEF, CUT, CURSE, ENDURE, SWAGGER, MUD_SLAP, DOUBLE_TEAM, EARTH_POWER, ROCK_SLIDE, SUBSTITUTE
 	; end

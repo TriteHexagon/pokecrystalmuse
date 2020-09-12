@@ -2176,7 +2176,7 @@ MagmarEvosAttacks: ;done
 	db 8, SMOKESCREEN
     db 12, FEINT_ATTACK
     db 15, FIRE_SPIN
-	db 20, DRAIN_PUNCH  ;replace Clear Smog and Flame Burst, average levels
+	db 20, ROCK_SMASH  ;replace Clear Smog and Flame Burst, average levels
     db 26, CONFUSE_RAY
 	db 29, FIRE_PUNCH
 	db 29, CROSS_CHOP   ;evolution move
@@ -2917,12 +2917,11 @@ LedybaEvosAttacks:
 	db 1, TACKLE
 	db 5, SUPERSONIC
 	db 8, SWIFT
-	db 12, LIGHT_SCREEN
+	db 11, LIGHT_SCREEN
 	db 12, REFLECT
-	db 12, SAFEGUARD
+	db 13, SAFEGUARD
 	db 15, MACH_PUNCH
-	db 19, THUNDERPUNCH ;replace Silver Wind
-	db 19, ICE_PUNCH    ;replace Silver Wind
+	db 19, ROCK_SMASH ;replace Silver Wind
 	db 22, COMET_PUNCH
 	db 26, BATON_PASS
 	db 29, AGILITY
@@ -2936,13 +2935,12 @@ LedianEvosAttacks:
 	db 1, TACKLE
 	db 5, SUPERSONIC
 	db 8, SWIFT
-	db 12, LIGHT_SCREEN
+	db 11, LIGHT_SCREEN
 	db 12, REFLECT
-	db 12, SAFEGUARD
+	db 13, SAFEGUARD
 	db 15, MACH_PUNCH
 	db 17, DIZZY_PUNCH ;evolution move
-	db 20, THUNDERPUNCH ;replace Silver Wind
-	db 20, ICE_PUNCH    ;replace Silver Wind
+	db 20, ROCK_SMASH ;replace Silver Wind
 	db 24, COMET_PUNCH
 	db 29, BATON_PASS
 	db 33, AGILITY
