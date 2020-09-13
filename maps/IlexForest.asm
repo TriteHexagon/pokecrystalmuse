@@ -15,9 +15,9 @@
 IlexForest_MapScripts:
 	db 0 ; scene scripts
 
-	db 2 ; callbacks
+	db 1 ; callbacks
 	callback MAPCALLBACK_OBJECTS, .FarfetchdCallback
-	callback MAPCALLBACK_OBJECTS, .MushroomDude
+	;callback MAPCALLBACK_OBJECTS, .MushroomDude
 
 .FarfetchdCallback:
 	checkevent EVENT_GOT_HM01_CUT
@@ -87,15 +87,15 @@ IlexForest_MapScripts:
 	return
 
 ;new Mushroom Guy
-.MushroomDude:
-	checkevent EVENT_HERDED_FARFETCHD
-	iffalse .MushroomDudeDone
-	appear ILEXFOREST_MUSHROOM_DUDE
-	return
+; .MushroomDude:
+; 	checkevent EVENT_HERDED_FARFETCHD
+; 	iftrue .MushroomDudeDone
+; 	appear ILEXFOREST_MUSHROOM_DUDE
+; 	return
 
-.MushroomDudeDone
-	disappear ILEXFOREST_MUSHROOM_DUDE
-	return
+; .MushroomDudeDone
+; 	disappear ILEXFOREST_MUSHROOM_DUDE
+; 	return
 
 IlexForestCharcoalApprenticeScript:
 	faceplayer
@@ -1096,12 +1096,15 @@ IlexForest_MapEvents:
 	object_event 14, 31, SPRITE_BIRD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
 	object_event  7, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalApprenticeScript, EVENT_ILEX_FOREST_APPRENTICE
 	object_event  5, 28, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
+	
 	object_event 15, 14, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestHeadbuttGuyScript, -1
 	object_event 20, 32, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestRevive, EVENT_ILEX_FOREST_REVIVE
 	object_event  8, 29, SPRITE_KURT, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ILEX_FOREST_KURT
+	
 	object_event  3, 24, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestLassScript, EVENT_ILEX_FOREST_LASS
 	object_event 12,  1, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerBugCatcherWayne, -1
 	object_event  9, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestXAttack, EVENT_ILEX_FOREST_X_ATTACK
+	
 	object_event 17,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestAntidote, EVENT_ILEX_FOREST_ANTIDOTE
 	object_event 27,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestEther, EVENT_ILEX_FOREST_ETHER
 	object_event 23, 22, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlexForestMushroomDude, EVENT_ILEX_FOREST_MUSHROOM_DUDE

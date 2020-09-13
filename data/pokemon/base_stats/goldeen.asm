@@ -1,13 +1,13 @@
 	db GOLDEEN ; 118
 
 	db  45,  67,  60,  63,  35,  50
-	evs  0,   0,   0,   0,   0,   0
+	evs  0,   1,   0,   0,   0,   0
  	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
 	db 225 ; catch rate
 	db 111 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, MYSTIC_WATER ; items
 	db GENDER_F50 ; gender ratio
 	
 	db 20 ; step cycles to hatch
@@ -18,5 +18,5 @@
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, BLIZZARD, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, REST, ATTRACT, SURF, WATERFALL, ICE_BEAM
+	tmhm TOXIC, HIDDEN_POWER, WATER_PULSE, ICE_BEAM, BLIZZARD, PROTECT, RAIN_DANCE, RETURN, MUD_SHOT, SWIFT, SLEEP_TALK, SCALD, POISON_JAB, REST, ATTRACT, FURY_CUTTER, SURF, WHIRLPOOL, WATERFALL, CURSE, ICY_WIND, ENDURE, SWAGGER, MUD_SLAP, DOUBLE_TEAM, DRILL_RUN, SIGNAL_BEAM, SUBSTITUTE
 	; end
