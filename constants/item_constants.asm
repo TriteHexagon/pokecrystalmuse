@@ -155,7 +155,7 @@
 	const ITEM_93      ; 93
 	const ITEM_94      ; 94
 	const ITEM_95      ; 95
-	const LEPPA_BERRY ; 96
+	const LEPPA_BERRY  ; 96
 	const DRAGON_SCALE ; 97
 	const BERSERK_GENE ; 98
 	const JINGLY_BELL  ; 99

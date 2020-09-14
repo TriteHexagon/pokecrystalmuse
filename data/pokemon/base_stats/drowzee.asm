@@ -7,7 +7,7 @@
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 190 ; catch rate
 	db 102 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, CHESTO_BERRY ; items
 	db GENDER_F50 ; gender ratio
 	
 	db 20 ; step cycles to hatch

@@ -7,7 +7,7 @@
 	db WATER, FAIRY ; type
 	db 75 ; catch rate
 	db 153 ; base exp
-	db BUBBLE_BUOY, NO_ITEM ; items
+	db BUBBLE_BUOY, LEPPA_BERRY ; items
 	db GENDER_F50 ; gender ratio
 	
 	db 20 ; step cycles to hatch
