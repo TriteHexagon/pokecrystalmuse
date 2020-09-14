@@ -7,7 +7,7 @@
 	db FIRE, GHOST ; type
 	db 75 ; catch rate
 	db 178 ; base exp
-	db ASPEAR_BERRY, CHARCOAL ; items
+	db ASPEAR_BERRY, SPELL_TAG ; items
 	db GENDER_F75 ; gender ratio
 	
 	db 20 ; step cycles to hatch

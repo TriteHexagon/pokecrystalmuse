@@ -1,7 +1,7 @@
 	db UNOWN ; 201
 
 	db  48,  72,  48,  48,  72,  48
-	evs  0,   0,   0,   0,   0,   0
+	evs  0,   1,   0,   0,   1,   0
  	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
@@ -18,5 +18,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm HIDDEN_POWER
 	; end
