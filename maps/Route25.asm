@@ -76,13 +76,13 @@ Route25MistyDate2Script:
 	special RestartMapMusic
 	end
 
-TrainerSchoolboyDudley:
-	trainer SCHOOLBOY, DUDLEY, EVENT_BEAT_SCHOOLBOY_DUDLEY, SchoolboyDudleySeenText, SchoolboyDudleyBeatenText, 0, .Script
+TrainerSchoolGirlMacy:
+	trainer SCHOOLGIRL, MACY, EVENT_BEAT_SCHOOLBOY_MACY, SchoolGirlMacySeenText, SchoolGirlMacyBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext SchoolboyDudleyAfterBattleText
+	writetext SchoolGirlMacyAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -269,7 +269,7 @@ Route25MistyDateText:
 	cont "Cerulean."
 	done
 
-SchoolboyDudleySeenText:
+SchoolGirlMacySeenText:
 	text "Beat the six of us"
 	line "trainers to win a"
 	cont "fabulous prize!"
@@ -278,11 +278,11 @@ SchoolboyDudleySeenText:
 	line "what it takes?"
 	done
 
-SchoolboyDudleyBeatenText:
+SchoolGirlMacyBeatenText:
 	text "Whoo! Good stuff."
 	done
 
-SchoolboyDudleyAfterBattleText:
+SchoolGirlMacyAfterBattleText:
 	text "I did my best."
 	line "I have no regrets."
 	done
@@ -444,7 +444,7 @@ Route25_MapEvents:
 	db 11 ; object events
 	object_event 46,  9, SPRITE_MISTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_25_MISTY_BOYFRIEND
 	object_event 46, 10, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_25_MISTY_BOYFRIEND
-	object_event 12,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyDudley, -1
+	object_event 12,  8, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSchoolGirlMacy, -1
 	object_event 16, 11, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerLassEllen, -1
 	object_event 21,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSchoolboyJoe, -1
 	object_event 22,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerLassLaura, -1

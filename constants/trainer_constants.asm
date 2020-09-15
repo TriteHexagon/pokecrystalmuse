@@ -138,12 +138,9 @@ KRIS EQU __trainer_class__
 	const JOHNNY
 	const DANNY
 	const TOMMY
-	const DUDLEY
 	const JOE
-	const BILLY
 	const CHAD1
 	const NATE
-	const RICKY
 	const JACK2
 	const JACK3
 	const ALAN2
@@ -707,5 +704,11 @@ KRIS EQU __trainer_class__
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
+
+	trainerclass SCHOOLGIRL ;44
+	const SUE
+	const TIERA
+	const MACY
+	
 
 NUM_TRAINER_CLASSES EQU __trainer_class__

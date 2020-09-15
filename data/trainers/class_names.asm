@@ -22,7 +22,7 @@ TrainerClassNames::
 	db "Scientist@"
 	db "Leader@"
 	db "Youngster@"
-	db "Schoolboy@"
+	db "School Kid@"
 	db "Bird Keeper@"
 	db "Lass@"
 	db "Leader@"
@@ -67,4 +67,6 @@ TrainerClassNames::
 	db "Officer@"
 	db "Rocket@"
 	db "MysticalMan@"
+	db "School Kid@"
+
 

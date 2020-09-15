@@ -515,23 +515,10 @@ SchoolboyGroup:
 	db 34, ALAKAZAM
 	db -1 ; end
 
-	; SCHOOLBOY (7)
-	db "DUDLEY@", TRAINERTYPE_NORMAL
-	db 35, ODDISH
-	db -1 ; end
-
 	; SCHOOLBOY (8)
 	db "JOE@", TRAINERTYPE_NORMAL
 	db 33, TANGELA
 	db 33, VAPOREON
-	db -1 ; end
-
-	; SCHOOLBOY (9)
-	db "BILLY@", TRAINERTYPE_NORMAL
-	db 27, PARAS
-	db 27, PARAS
-	db 27, POLIWHIRL
-	db 35, DITTO
 	db -1 ; end
 
 	; SCHOOLBOY (10)
@@ -543,12 +530,6 @@ SchoolboyGroup:
 	db "NATE@", TRAINERTYPE_NORMAL
 	db 32, LEDIAN
 	db 32, EXEGGUTOR
-	db -1 ; end
-
-	; SCHOOLBOY (12)
-	db "RICKY@", TRAINERTYPE_NORMAL
-	db 32, AIPOM
-	db 32, DITTO
 	db -1 ; end
 
 	; SCHOOLBOY (13)
@@ -629,6 +610,26 @@ SchoolboyGroup:
 	db "CHAD@", TRAINERTYPE_MOVES
 	db 34, MR__MIME,   PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
 	db 38, MAGNETON,   THUNDER, THUNDER_WAVE, LOCK_ON, SWIFT
+	db -1 ; end
+
+SchoolGirlGroup:
+	; SCHOOLGIRL (1)
+	db "Sue@", TRAINERTYPE_NORMAL
+	db 27, PARAS
+	db 27, PARAS
+	db 27, POLIWHIRL
+	db 35, DITTO
+	db -1 ; end
+
+	; SCHOOLGIRL (12)
+	db "Tiera@", TRAINERTYPE_NORMAL
+	db 32, AIPOM
+	db 32, DITTO
+	db -1 ; end
+
+	; SCHOOLBOY (7)
+	db "Macy@", TRAINERTYPE_NORMAL
+	db 35, ODDISH
 	db -1 ; end
 
 BirdKeeperGroup:

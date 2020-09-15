@@ -190,13 +190,13 @@ TrainerSchoolboyNate:
 	closetext
 	end
 
-TrainerSchoolboyRicky:
-	trainer SCHOOLBOY, RICKY, EVENT_BEAT_SCHOOLBOY_RICKY, SchoolboyRickySeenText, SchoolboyRickyBeatenText, 0, .Script
+TrainerSchoolGirlTiera:
+	trainer SCHOOLGIRL, TIERA, EVENT_BEAT_SCHOOLGIRL_TIERA, SchoolGirlTieraSeenText, SchoolGirlTieraBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext SchoolboyRickyAfterBattleText
+	writetext SchoolGirlTieraAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -430,17 +430,17 @@ SchoolboyNateAfterBattleText:
 	cont "inside the Ruins."
 	done
 
-SchoolboyRickySeenText:
+SchoolGirlTieraSeenText:
 	text "There are some odd"
 	line "stone panels in"
 	cont "the Ruins of Alph."
 	done
 
-SchoolboyRickyBeatenText:
+SchoolGirlTieraBeatenText:
 	text "I was done in!"
 	done
 
-SchoolboyRickyAfterBattleText:
+SchoolGirlTieraAfterBattleText:
 	text "I read that there"
 	line "are four of those"
 	cont "stone panels."
@@ -472,4 +472,4 @@ FastShipB1F_MapEvents:
 	object_event 23,  4, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerSailorKenneth, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
 	object_event  9, 11, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerTeacherShirley, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
 	object_event 14,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSchoolboyNate, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
-	object_event 14, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSchoolboyRicky, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
+	object_event 14, 11, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSchoolGirlTiera, EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
