@@ -1,6 +1,6 @@
 ; battle commands are defined in engine/battle/effect_commands.asm
 
-	dw 0 ; padding
+	;dw 0 ; padding
 
 BattleCommandPointers:
 ; entries correspond to macros/scripts/battle_commands.asm

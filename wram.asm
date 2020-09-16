@@ -2244,7 +2244,10 @@ wOtherDecoration::    db
 wCurEnemyItem:: db
 ENDU
 
-	ds 3
+wOtherTrainerType:: db
+wTrainerGroupBank:: db
+
+	ds 1
 
 wLinkBattleRNs:: ds 10
 
