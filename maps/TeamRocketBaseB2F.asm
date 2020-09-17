@@ -95,14 +95,14 @@ RocketBaseBossFScript:
 	applymovement TEAMROCKETBASEB2F_ROCKET_GIRL, MovementData_0x6d248
 	winlosstext RocketBaseBossWinText, 0
 	setlasttalked TEAMROCKETBASEB2F_ROCKET_GIRL
-	loadtrainer EXECUTIVEF, EXECUTIVEF_2
+	loadtrainer EXEC_ARIANA, EXEC_ARIANA_2
 	startbattle
 	disappear TEAMROCKETBASEB2F_DRAGON
 	setevent EVENT_TEAM_ROCKET_BASE_B2F_EXECUTIVE
 	setevent EVENT_TEAM_ROCKET_BASE_B2F_GRUNT_WITH_EXECUTIVE
 	setevent EVENT_TEAM_ROCKET_BASE_B2F_LANCE
 	reloadmapafterbattle
-	setevent EVENT_BEAT_ROCKET_EXECUTIVEF_2
+	setevent EVENT_BEAT_ROCKET_EXEC_ARIANA_2
 	opentext
 	writetext RocketBaseBossRetreatText
 	waitbutton

@@ -279,7 +279,6 @@ KRIS EQU __trainer_class__
 	const MILLER
 
 	trainerclass GRUNTM ; 1f
-	const GRUNTM_1
 	const GRUNTM_2
 	const GRUNTM_3
 	const GRUNTM_4
@@ -538,10 +537,11 @@ KRIS EQU __trainer_class__
 	const WAI
 
 	trainerclass EXECUTIVEM ; 33
-	const EXECUTIVEM_1
-	const EXECUTIVEM_2
-	const EXECUTIVEM_3
-	const EXECUTIVEM_4
+	const EXEC_ARCHER_1
+	const EXEC_PROTON_2
+	const EXEC_PETREL_2
+	const EXEC_PETREL_1
+	const EXEC_PROTON_1
 
 	trainerclass PSYCHIC_T ; 34
 	const NATHAN
@@ -609,9 +609,9 @@ KRIS EQU __trainer_class__
 	const TODD5
 	const QUENTIN
 
-	trainerclass EXECUTIVEF ; 37
-	const EXECUTIVEF_1
-	const EXECUTIVEF_2
+	trainerclass EXEC_ARIANA ; 37
+	const EXEC_ARIANA_1
+	const EXEC_ARIANA_2
 
 	trainerclass SAGE ; 38
 	const CHOW

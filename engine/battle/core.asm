@@ -6536,9 +6536,6 @@ LoadEnemyMon:
  	ld de, wEnemyMonNick
  	ld bc, MON_NAME_LENGTH
  	call CopyBytes
-	ld de, wEnemyMonNick
-	ld bc, MON_NAME_LENGTH
-	call CopyBytes
 
 ; Saw this mon
 	ld a, [wTempEnemyMonSpecies]

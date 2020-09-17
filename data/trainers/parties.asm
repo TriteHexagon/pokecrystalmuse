@@ -19,8 +19,8 @@ FalknerGroup:
 	db -1 ; end
 
 	; FALKNER (2)
-	db "Falkner@", TRAINERTYPE_MOVES
-	db 50, PIDGEOT,  ROOST, MUD_SLAP, RAZOR_WIND, AIR_SLASH
+	db "Falkner@", TRAINERTYPE_DVS | TRAINERTYPE_MOVES
+	db 50, PIDGEOT,  ATKDEFDV_SHINY, SPDSPCDV_SHINY, ROOST, MUD_SLAP, RAZOR_WIND, AIR_SLASH
 	db -1 ; end
 
 WhitneyGroup:
@@ -1302,11 +1302,6 @@ PokemaniacGroup:
 	db -1 ; end
 
 GruntMGroup:
-	; GRUNTM (1)
-	db "Grunt@", TRAINERTYPE_NORMAL
-	db 14, KOFFING
-	db -1 ; end
-
 	; GRUNTM (2)
 	db "Grunt@", TRAINERTYPE_NORMAL
 	db  7, RATTATA
@@ -1375,7 +1370,7 @@ GruntMGroup:
 	db 25, RATTATA
 	db -1 ; end
 
-	; GRUNTM (12)
+	; GRUNTM (12) ;unused
 	db "Executive@", TRAINERTYPE_NORMAL
 	db 33, HOUNDOUR
 	db -1 ; end
@@ -1436,12 +1431,12 @@ GruntMGroup:
 	db 18, RATTATA
 	db -1 ; end
 
-	; GRUNTM (22)
+	; GRUNTM (22) ;unused
 	db "Executive@", TRAINERTYPE_NORMAL
 	db 36, GOLBAT
 	db -1 ; end
 
-	; GRUNTM (23)
+	; GRUNTM (23) ;unused
 	db "Executive@", TRAINERTYPE_NORMAL
 	db 30, KOFFING
 	db -1 ; end
@@ -1464,7 +1459,7 @@ GruntMGroup:
 	db 15, RATTATA
 	db -1 ; end
 
-	; GRUNTM (27)
+	; GRUNTM (27) ;unused
 	db "Executive@", TRAINERTYPE_NORMAL
 	db 22, ZUBAT
 	db -1 ; end
@@ -2724,19 +2719,20 @@ BlackbeltGroup:
 
 ExecutiveMGroup:
 	; EXECUTIVEM (1)
-	db "Executive@", TRAINERTYPE_MOVES
-	db 33, HOUNDOUR,   EMBER, ROAR, BITE, FEINT_ATTACK
-	db 33, KOFFING,    TACKLE, VENOSHOCK, SMOKESCREEN, HAZE
-	db 35, HOUNDOOM,   EMBER, POISON_GAS, BITE, FEINT_ATTACK
+	db "Archer@", TRAINERTYPE_MOVES
+	db 35, HOUNDOUR,   EMBER, ROAR, BITE, FEINT_ATTACK
+	db 35, KOFFING,    TACKLE, VENOSHOCK, SMOKESCREEN, HAZE
+	db 38, HOUNDOOM,   EMBER, POISON_GAS, BITE, FEINT_ATTACK
 	db -1 ; end
 
 	; EXECUTIVEM (2)
-	db "Executive@", TRAINERTYPE_MOVES
-	db 36, GOLBAT,     LEECH_LIFE, BITE, CONFUSE_RAY, WING_ATTACK
+	db "Proton@", TRAINERTYPE_MOVES
+	db 28, GOLBAT,     LEECH_LIFE, BITE, CONFUSE_RAY, WING_ATTACK
+	db 33, WEEZING,    EXPLOSION, PSYBEAM, VENOSHOCK, BODY_SLAM
 	db -1 ; end
 
 	; EXECUTIVEM (3)
-	db "Executive@", TRAINERTYPE_MOVES
+	db "Petrel@", TRAINERTYPE_MOVES
 	db 30, KOFFING,    TACKLE, EXPLOSION, VENOSHOCK, SMOKESCREEN
 	db 30, KOFFING,    TACKLE, EXPLOSION, VENOSHOCK, SMOKESCREEN
 	db 30, KOFFING,    TACKLE, EXPLOSION, VENOSHOCK, SMOKESCREEN
@@ -2746,10 +2742,16 @@ ExecutiveMGroup:
 	db -1 ; end
 
 	; EXECUTIVEM (4)
-	db "Executive@", TRAINERTYPE_NORMAL
+	db "Petrel@", TRAINERTYPE_NORMAL
 	db 22, ZUBAT
 	db 24, RATICATE
 	db 22, KOFFING
+	db -1 ; end
+
+	; PROTON (1)
+	db "Proton@", TRAINERTYPE_NORMAL
+	db 8,  ZUBAT
+	db 12, KOFFING
 	db -1 ; end
 
 PsychicGroup:
@@ -3123,15 +3125,15 @@ CamperGroup:
 	db -1 ; end
 
 ExecutiveFGroup:
-	; EXECUTIVEF (1)
-	db "Executive@", TRAINERTYPE_MOVES
+	; EXEC_ARIANA (1)
+	db "Ariana@", TRAINERTYPE_MOVES
 	db 32, ARBOK,      WRAP, POISON_STING, BITE, GLARE
 	db 32, VILEPLUME,  ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
 	db 32, MURKROW,    PECK, PURSUIT, HAZE, NIGHT_SHADE
 	db -1 ; end
 
-	; EXECUTIVEF (2)
-	db "Executive@", TRAINERTYPE_MOVES
+	; EXEC_ARIANA (2)
+	db "Ariana@", TRAINERTYPE_MOVES
 	db 23, ARBOK,      WRAP, LEER, POISON_STING, BITE
 	db 23, GLOOM,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
 	db 25, MURKROW,    PECK, PURSUIT, HAZE, NO_MOVE

@@ -29,7 +29,7 @@ TrainerGruntM29:
 	end
 
 TrainerGruntM1:
-	trainer GRUNTM, GRUNTM_1, EVENT_BEAT_ROCKET_GRUNTM_1, GruntM1SeenText, GruntM1BeatenText, 0, .Script
+	trainer GRUNTM, EXEC_PROTON_1, EVENT_BEAT_EXEC_PROTON_1, GruntM1SeenText, GruntM1BeatenText, 0, .Script
 
 .Script:
 	opentext

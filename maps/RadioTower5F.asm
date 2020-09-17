@@ -37,7 +37,7 @@ FakeDirectorScript:
 	closetext
 	winlosstext FakeDirectorWinText, 0
 	setlasttalked RADIOTOWER5F_DIRECTOR
-	loadtrainer EXECUTIVEM, EXECUTIVEM_3
+	loadtrainer EXECUTIVEM, EXEC_PETREL_2
 	startbattle
 	reloadmapafterbattle
 	opentext
@@ -46,7 +46,7 @@ FakeDirectorScript:
 	verbosegiveitem BASEMENT_KEY
 	closetext
 	setscene SCENE_RADIOTOWER5F_ROCKET_BOSS
-	setevent EVENT_BEAT_ROCKET_EXECUTIVEM_3
+	setevent EVENT_BEAT_ROCKET_EXEC_PETREL_2
 	end
 
 Director:
@@ -66,7 +66,7 @@ Director:
 	end
 
 TrainerExecutivef1:
-	trainer EXECUTIVEF, EXECUTIVEF_1, EVENT_BEAT_ROCKET_EXECUTIVEF_1, Executivef1SeenText, Executivef1BeatenText, 0, .Script
+	trainer EXEC_ARIANA, EXEC_ARIANA_1, EVENT_BEAT_ROCKET_EXEC_ARIANA_1, Executivef1SeenText, Executivef1BeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -86,7 +86,7 @@ RadioTower5FRocketBossScene:
 	closetext
 	winlosstext RadioTower5FRocketBossWinText, 0
 	setlasttalked RADIOTOWER5F_ROCKET
-	loadtrainer EXECUTIVEM, EXECUTIVEM_1
+	loadtrainer EXECUTIVEM, EXEC_ARCHER_1
 	startbattle
 	reloadmapafterbattle
 	opentext
@@ -99,7 +99,7 @@ RadioTower5FRocketBossScene:
 	disappear RADIOTOWER5F_ROCKET_GIRL
 	pause 15
 	special FadeInQuickly
-	setevent EVENT_BEAT_ROCKET_EXECUTIVEM_1
+	setevent EVENT_BEAT_ROCKET_EXEC_ARCHER_1
 	setevent EVENT_CLEARED_RADIO_TOWER
 	clearflag ENGINE_ROCKETS_IN_RADIO_TOWER
 	setevent EVENT_GOLDENROD_CITY_ROCKET_SCOUT

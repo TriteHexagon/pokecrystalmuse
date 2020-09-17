@@ -102,10 +102,10 @@ RocketBaseBoss:
 	applymovement TEAMROCKETBASEB3F_ROCKET1, MovementData_0x6e142
 	winlosstext ExecutiveM4BeatenText, 0
 	setlasttalked TEAMROCKETBASEB3F_ROCKET1
-	loadtrainer EXECUTIVEM, EXECUTIVEM_4
+	loadtrainer EXECUTIVEM, EXEC_PETREL_1
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_ROCKET_EXECUTIVEM_4
+	setevent EVENT_BEAT_ROCKET_EXEC_PETREL_1
 	opentext
 	writetext ExecutiveM4AfterText
 	waitbutton

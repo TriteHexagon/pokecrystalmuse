@@ -56,7 +56,7 @@ BTTrainerClassGenders:
 	db MALE   ; PSYCHIC_T
 	db FEMALE ; PICNICKER
 	db MALE   ; CAMPER
-	db FEMALE ; EXECUTIVEF
+	db FEMALE ; EXEC_ARIANA
 	db MALE   ; SAGE
 	db FEMALE ; MEDIUM
 	db MALE   ; BOARDER
