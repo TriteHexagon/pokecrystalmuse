@@ -152,6 +152,7 @@ SPRITE_POKEMON EQU const_value
 ; wVariableSprites indexes (see wram.asm)
 	const_next $f0
 SPRITE_VARS EQU const_value
+	;old
 	const SPRITE_CONSOLE ; f0
 	const SPRITE_DOLL_1 ; f1
 	const SPRITE_DOLL_2 ; f2
@@ -165,3 +166,7 @@ SPRITE_VARS EQU const_value
 	const SPRITE_FUCHSIA_GYM_4 ; fa
 	const SPRITE_COPYCAT ; fb
 	const SPRITE_JANINE_IMPERSONATOR ; fc
+	;new
+	const SPRITE_FIGHTING_DOJO_TRAINER ;fd
+	
+

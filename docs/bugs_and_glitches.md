@@ -1580,7 +1580,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
  	jr z, .done
 +	cp EXECUTIVEM
 +	jr z, .done
-+	cp EXECUTIVEF
++	cp EXEC_ARIANA
 +	jr z, .done
 +	cp SCIENTIST
 +	jr z, .done
