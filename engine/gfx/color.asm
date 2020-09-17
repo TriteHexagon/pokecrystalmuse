@@ -1,9 +1,9 @@
 INCLUDE "engine/gfx/sgb_layouts.asm"
 
 SHINY_ATK_BIT EQU 5
-SHINY_DEF_VAL EQU 10
-SHINY_SPD_VAL EQU 10
-SHINY_SPC_VAL EQU 10
+SHINY_DEF_VAL EQU 13;10
+SHINY_SPD_VAL EQU 13;10
+SHINY_SPC_VAL EQU 13;10
 
 CheckShininess:
 ; Check if a mon is shiny by DVs at bc.
@@ -12,60 +12,61 @@ CheckShininess:
 	ld l, c
 	ld h, b
 
-; Attack
-	ld a, [hl]
-	and 1 << SHINY_ATK_BIT
-	jr z, .NotShiny
+; ; Attack
+; 	ld a, [hl]
+; 	and 1 << SHINY_ATK_BIT
+; 	jr z, .NotShiny
 
-; Defense
-	ld a, [hli]
-	and $f
-	cp  SHINY_DEF_VAL
-	jr nz, .NotShiny
+; ; Defense
+; 	ld a, [hli]
+; 	and %00001111
+; 	cp  SHINY_DEF_VAL
+; 	jr nz, .NotShiny
 
-; Speed
-	ld a, [hl]
-	and $f0
-	cp  SHINY_SPD_VAL << 4
-	jr nz, .NotShiny
+; ; Speed
+; 	ld a, [hl]
+; 	and %11110000
+; 	cp  SHINY_SPD_VAL << 4
+; 	jr nz, .NotShiny
 
-; Special
-	ld a, [hl]
-	and $f
-	cp  SHINY_SPC_VAL
-	jr nz, .NotShiny
+; ; Special
+; 	ld a, [hl]
+; 	and %00001111
+; 	cp  SHINY_SPC_VAL
+; 	jr nz, .NotShiny
 
-.Shiny:
-	scf
-	ret
+; .Shiny:
+; 	scf
+; 	ret
 
-.NotShiny:
-	and a
-	ret
+; .NotShiny:
+; 	and a
+; 	ret
 
+;spillover
 Unused_CheckShininess:
 ; Return carry if the DVs at hl are all 10 or higher.
 
 ; Attack
 	ld a, [hl]
-	cp 10 << 4
-	jr c, .NotShiny
+	;cp 10 << 4
+	;jr c, .NotShiny
 
 ; Defense
 	ld a, [hli]
 	and $f
-	cp 10
+	cp SHINY_DEF_VAL
 	jr c, .NotShiny
 
 ; Speed
 	ld a, [hl]
-	cp 10 << 4
+	cp SHINY_SPD_VAL << 4
 	jr c, .NotShiny
 
 ; Special
 	ld a, [hl]
 	and $f
-	cp 10
+	cp SHINY_SPC_VAL
 	jr c, .NotShiny
 
 .Shiny:

@@ -36,7 +36,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 10, 10, 10 ; DVs
+	dn 14, 13, 13, 13 ; DVs
 	db 30, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -58,7 +58,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 30, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -80,7 +80,7 @@ OddEggs:
 	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 10, 10, 10 ; DVs
+	dn 14, 13, 13, 13 ; DVs
 	db 35, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -102,7 +102,7 @@ OddEggs:
 	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 35, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -124,7 +124,7 @@ OddEggs:
 	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 10, 10, 10 ; DVs
+	dn 14, 13, 13, 13 ; DVs
 	db 15, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -146,7 +146,7 @@ OddEggs:
 	dt 100 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 15, 20, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -168,7 +168,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 10, 10, 10 ; DVs
+	dn 14, 13, 13, 13 ; DVs
 	db 35, 30, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -190,7 +190,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 35, 30, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -212,8 +212,8 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 40, 10, 10 ; DVs
-	db 25, 10, 10, 0 ; PP
+	dn 14, 13, 13, 13 ; DVs
+	db 25, 40, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -234,7 +234,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 25, 40, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -256,7 +256,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 10, 10, 10 ; DVs
+	dn 14, 13, 13, 13 ; DVs
 	db 30, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -278,7 +278,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 30, 30, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -300,7 +300,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 14, 10, 10, 10 ; DVs
+	dn 14, 13, 13, 13 ; DVs
 	db 35, 10, 40, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -322,7 +322,7 @@ OddEggs:
 	dt 125 ; Exp
 	db 0, 0, 0, 0, 0, 0 ; EVs
 	db 0, 0, 0, 0 ; padding
-	dn 2, 10, 10, 10 ; DVs
+	dn 2, 13, 13, 13 ; DVs
 	db 35, 10, 40, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
