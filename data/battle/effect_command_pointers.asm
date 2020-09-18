@@ -187,3 +187,4 @@ BattleCommandPointers:
 	dw BattleCommand_Venoshock
 	dw BattleCommand_DragonDance
 	dw BattleCommand_CalmMind
+	dw BattleCommand_Growth

@@ -168,4 +168,5 @@ MoveEffectsPointers:
 	dw IceFang
 	dw FireFang
 	dw ThirdRecoilHit
+	dw Growth
 

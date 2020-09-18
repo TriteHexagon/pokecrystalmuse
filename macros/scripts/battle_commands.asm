@@ -188,6 +188,7 @@ ENDM
 	command venoshock ;new
 	command dragondance ;new
 	command calmmind
+	command growth ;new
 
 	const_def -1, -1
 	command endmove                 ; ff

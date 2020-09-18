@@ -5742,6 +5742,34 @@ BattleCommand_Coil:
 	;jp BattleCommand_StatUpFailText
 	ret
 
+BattleCommand_Growth:
+;checks weather
+	ld a, [wBattleWeather]
+	cp WEATHER_SUN
+	jr z, .Sunny
+; Attack
+	call ResetMiss
+	call BattleCommand_AttackUp
+	call BattleCommand_StatUpMessage
+	;call BattleCommand_StatUpFailText
+; Special Attack
+	call ResetMiss
+	call BattleCommand_SpecialAttackUp
+	;call BattleCommand_StatUpFailText
+	jr .End
+.Sunny
+; Attack
+	call ResetMiss
+	call BattleCommand_AttackUp2
+	call BattleCommand_StatUpMessage
+; Special Attack
+	call ResetMiss
+	call BattleCommand_SpecialAttackUp2
+.End
+	jp BattleCommand_StatUpMessage
+	;jp BattleCommand_StatUpFailText
+	ret
+
 BattleCommand_ShellSmash: ;not working right
 ; Down Defense
 	call ResetMiss
