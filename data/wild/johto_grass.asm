@@ -688,137 +688,137 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 29, SWINUB
+	db 30, ZUBAT
+	db 30, GOLBAT
+	db 31, SWINUB
+	db 32, GOLBAT
+	db 30, GOLBAT
+	db 30, GOLBAT
 	; day
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 29, SWINUB
+	db 30, ZUBAT
+	db 30, GOLBAT
+	db 31, SWINUB
+	db 32, GOLBAT
+	db 30, GOLBAT
+	db 30, GOLBAT
 	; eve-nite
-	db 21, DELIBIRD
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, DELIBIRD
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 29, DELIBIRD
+	db 30, ZUBAT
+	db 30, GOLBAT
+	db 31, DELIBIRD
+	db 32, GOLBAT
+	db 30, GOLBAT
+	db 30, GOLBAT
 
 	map_id ICE_PATH_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	db 30, SWINUB
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, SWINUB
+	db 33, GOLBAT
+	db 31, GOLBAT
+	db 30, JYNX
 	; day
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	db 30, SWINUB
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, SWINUB
+	db 33, GOLBAT
+	db 31, GOLBAT
+	db 30, JYNX
 	; eve-nite
-	db 22, DELIBIRD
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, DELIBIRD
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, SNEASEL
+	db 30, DELIBIRD
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, DELIBIRD
+	db 33, GOLBAT
+	db 31, GOLBAT
+	db 30, SNEASEL
 
 	map_id ICE_PATH_B2F_MAHOGANY_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 31, SWINUB
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, SWINUB
+	db 34, GOLBAT
+	db 30, JYNX
+	db 32, PILOSWINE
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 31, SWINUB
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, SWINUB
+	db 34, GOLBAT
+	db 30, JYNX
+	db 32, JYNX
 	; eve-nite
-	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, DELIBIRD
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	db 31, DELIBIRD
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, DELIBIRD
+	db 34, GOLBAT
+	db 30, SNEASEL
+	db 32, SNEASEL
 
 	map_id ICE_PATH_B2F_BLACKTHORN_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 31, SWINUB
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, SWINUB
+	db 34, GOLBAT
+	db 30, JYNX
+	db 32, PILOSWINE
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 31, SWINUB
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, SWINUB
+	db 34, GOLBAT
+	db 30, JYNX
+	db 32, JYNX
 	; eve-nite
-	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, DELIBIRD
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	db 31, DELIBIRD
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, DELIBIRD
+	db 34, GOLBAT
+	db 30, SNEASEL
+	db 32, SNEASEL
 
 	map_id ICE_PATH_B3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	db 32, SWINUB
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, SWINUB
+	db 30, JYNX
+	db 32, PILOSWINE
+	db 34, PILOSWINE
 	; day
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	db 32, SWINUB
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, SWINUB
+	db 30, JYNX
+	db 32, PILOSWINE
+	db 34, PILOSWINE
 	; eve-nite
-	db 24, DELIBIRD
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, DELIBIRD
-	db 22, SNEASEL
-	db 24, SNEASEL
-	db 26, SNEASEL
+	db 32, DELIBIRD
+	db 33, ZUBAT
+	db 33, GOLBAT
+	db 34, DELIBIRD
+	db 30, SNEASEL
+	db 32, SNEASEL
+	db 34, SNEASEL
 
 	map_id WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
@@ -1552,29 +1552,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 23, TANGELA
-	db 22, LICKITUNG
-	db 22, BELLSPROUT
-	db 24, WEEPINBELL
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 29, TANGELA
+	db 34, LICKITUNG
+	db 34, BELLSPROUT
+	db 30, WEEPINBELL
+	db 30, LICKITUNG
+	db 32, LICKITUNG
+	db 32, LICKITUNG
 	; day
-	db 23, TANGELA
-	db 22, LICKITUNG
-	db 22, BELLSPROUT
-	db 24, WEEPINBELL
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 29, TANGELA
+	db 34, LICKITUNG
+	db 34, BELLSPROUT
+	db 30, WEEPINBELL
+	db 30, LICKITUNG
+	db 32, LICKITUNG
+	db 32, LICKITUNG
 	; eve-nite
-	db 23, TANGELA
-	db 22, POLIWAG
-	db 22, BELLSPROUT
-	db 24, WEEPINBELL
-	db 24, POLIWHIRL
-	db 26, POLIWHIRL
-	db 26, POLIWHIRL
+	db 29, TANGELA
+	db 34, POLIWAG
+	db 34, BELLSPROUT
+	db 30, WEEPINBELL
+	db 30, POLIWHIRL
+	db 32, POLIWHIRL
+	db 32, POLIWHIRL
 
 	map_id ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite

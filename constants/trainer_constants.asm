@@ -332,6 +332,9 @@ KRIS EQU __trainer_class__
 	trainerclass SKIER ; 21
 	const ROXANNE
 	const CLARISSA
+	const ANDREA
+	const KAITLYN
+	const LEXIE
 
 	trainerclass TEACHER ; 22
 	const COLETTE
@@ -654,6 +657,8 @@ KRIS EQU __trainer_class__
 	const RONALD
 	const BRAD
 	const DOUGLAS
+	const BJORN
+	const BOARDER_EDWARD
 
 	trainerclass POKEFANM ; 3b
 	const WILLIAM
