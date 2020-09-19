@@ -349,7 +349,7 @@ DojoTrainerThursdayScript:
 	waitbutton
 	closetext
 	winlosstext DojoGreenWinLossText, 0
-	loadtrainer SCHOOLBOY, JACK1
+	loadtrainer SCHOOLGIRL, SUE
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
