@@ -35,17 +35,9 @@ GoldenrodCity_MapScripts:
 	checkevent EVENT_BEAT_WHITNEY
 	iffalse .MoveTutorDone
 	checkitem COIN_CASE
-	iffalse .MoveTutorDisappear
+	iffalse .MoveTutorDone
 	checktime MORN
-	iftrue .MoveTutorAppear
-	; readvar VAR_WEEKDAY
-	; ifequal WEDNESDAY, .MoveTutorAppear
-	; ifequal SATURDAY, .MoveTutorAppear
-.MoveTutorDisappear:
-	disappear GOLDENRODCITY_MOVETUTOR
-	return
-
-.MoveTutorAppear:
+	iffalse .MoveTutorDone
 	checkflag ENGINE_DAILY_MOVE_TUTOR
 	iftrue .MoveTutorDone
 	appear GOLDENRODCITY_MOVETUTOR
@@ -62,15 +54,24 @@ MoveTutorScript:
 	checkcoins 500
 	ifequal HAVE_LESS, .NotEnoughMoney
 	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
-	loadmenu .MoveMenuHeader
+	readvar VAR_WEEKDAY
+ 	ifequal MONDAY | WEDNESDAY | FRIDAY | SUNDAY, .TeachPunches
+;TeachFangs
+	loadmenu .MoveMenuHeaderFangs
 	verticalmenu
 	closewindow
 	ifequal 1, .FireFang
 	ifequal 2, .ThunderFang
 	ifequal 3, .IceFang
-	; ifequal MOVETUTOR_FIRE_PUNCH, .FirePunch
-	; ifequal MOVETUTOR_THUNDERPUNCH, .ThunderPunch
-	; ifequal MOVETUTOR_ICE_PUNCH, .IcePunch
+	sjump .Incompatible
+
+.TeachPunches
+	loadmenu .MoveMenuHeaderPunches
+	verticalmenu
+	closewindow
+	ifequal 1, .FirePunch
+	ifequal 2, .ThunderPunch
+	ifequal 3, .IcePunch
 	sjump .Incompatible
 
 .FireFang:
@@ -81,38 +82,49 @@ MoveTutorScript:
 	sjump .TryTeachMove
 .IceFang:
 	setval ICE_FANG
-	;sjump .TryTeachMove
-; .FirePunch:
-; 	setval FIRE_PUNCH
-; 	sjump .TryTeachMove
-; .ThunderPunch:
-; 	setval THUNDERPUNCH
-; 	sjump .TryTeachMove
-; .IcePunch:
-; 	setval ICE_PUNCH
-; 	sjump .TryTeachMove
+	sjump .TryTeachMove
 
+.FirePunch:
+	setval FIRE_PUNCH
+	sjump .TryTeachMove
+.ThunderPunch:
+	setval THUNDERPUNCH
+	sjump .TryTeachMove
+.IcePunch:
+	setval ICE_PUNCH
+	;fallthrough
 .TryTeachMove
 	writetext GoldenrodCityMoveTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
-.MoveMenuHeader:
+.MoveMenuHeaderFangs:
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 0, 2, 15, TEXTBOX_Y - 1
-	dw .MenuData
+	dw .MenuDataFangs
 	db 1 ; default option
 
-.MenuData:
+.MenuDataFangs:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Fire Fang@"
 	db "Thunder Fang@"
 	db "Ice Fang@"
-	; db "Fire Punch@"
-	; db "ThunderPunch@"
-	; db "Ice Punch@"
+	db "CANCEL@"
+
+.MoveMenuHeaderPunches:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	dw .MenuDataPunches
+	db 1 ; default option
+
+.MenuDataPunches:
+	db STATICMENU_CURSOR ; flags
+	db 4 ; items
+	db "Fire Punch@"
+	db "ThunderPunch@"
+	db "Ice Punch@"
 	db "CANCEL@"
 
 .Refused:

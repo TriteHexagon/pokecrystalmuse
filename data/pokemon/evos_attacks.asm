@@ -2555,9 +2555,9 @@ DratiniEvosAttacks:
 	;evo
 	db 31, AQUA_JET ;replace Aqua Tail
 	db 35, SAFEGUARD ;moved up
-	db 41, BODY_SLAM ;replace Dragon Tail
-	db 45, DRAGON_DANCE ;moved up
-	db 51, DRAGON_RUSH ;moved down
+	db 41, DRAGON_RUSH ;replace Dragon Tail
+	db 45, BODY_SLAM
+	db 51, DRAGON_DANCE
 	db 55, OUTRAGE
 	db 61, HYPER_BEAM
 	db 0 ; no more level-up moves
@@ -2574,10 +2574,10 @@ DragonairEvosAttacks:
 	db 25, AGILITY
 	db 33, AQUA_JET ;replace Aqua Tail
 	db 39, SAFEGUARD ;moved up
-	db 47, BODY_SLAM ;replace Dragon Tail
-	db 53, DRAGON_DANCE ;moved up
+	db 47, DRAGON_RUSH ;replace Dragon Tail
+	db 53, BODY_SLAM
 	;evo
-	db 61, DRAGON_RUSH ;moved down
+	db 61, DRAGON_DANCE
 	db 67, OUTRAGE
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
@@ -2594,11 +2594,11 @@ DragoniteEvosAttacks:
 	db 25, AGILITY
 	db 33, AIR_SLASH ;replace Aqua Tail
 	db 39, SAFEGUARD ;moved up
-	db 47, BODY_SLAM ;replace Dragon Tail
-	db 53, DRAGON_DANCE ;moved up
+	db 47, DRAGON_RUSH ;replace Dragon Tail
+	db 53, BODY_SLAM
 	db 54, WING_ATTACK ;evolution move
 	;evo
-	db 61, DRAGON_RUSH ;moved down
+	db 61, DRAGON_DANCE
 	db 67, OUTRAGE
 	db 75, HYPER_BEAM
 	db 81, ROOST ;replace Hurricane
