@@ -640,6 +640,11 @@ OakSpeech:
 	call ClearTilemap
 
 	ld de, MUSIC_ROUTE_30
+	ld a, [wInitHourBuffer]
+	cp EVE_HOUR - 1
+	jr c, .done ; NITE_F or EVE_F
+	ld de, MUSIC_ROUTE_30_NIGHT
+.done
 	call PlayMusic
 
 	call RotateFourPalettesRight

@@ -269,11 +269,10 @@ ReadTrainerPartyPieces:
 	ld d, h
 	ld e, l
 
-	;probably important?
-	; ld a, [wOTPartyCount]
-	; dec a
-	; ld hl, wOTPartyMon1StatExp - 1
-	; call GetPartyLocation
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMon1EVs - 1
+	call GetPartyLocation
 
 ; recalculate stats
 	ld b, TRUE

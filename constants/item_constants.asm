@@ -257,11 +257,11 @@ ENDM
 	add_tm IRON_HEAD    ; e0 TM32 - Mt. Mortar
 	add_tm DRAGON_PULSE ; e1 TM33 - Blackthorn Gym
 	add_tm FOCUS_BLAST  ; e2 TM34 - Route 27 (House)
-	add_tm FLAMETHROWER ; e3 TM35 - Goldenrod Department Store
+	add_tm FLAMETHROWER ; e3 TM35 - Goldenrod City Department Store
 	add_tm SLUDGE_BOMB  ; e4 TM36 - Route 43
 	add_tm SANDSTORM    ; e5 TM37 - Celadon City Department Store
 	add_tm FIRE_BLAST   ; e6 TM38 - Seafoam Gym
-	add_tm SWIFT        ; e7 TM39 - Goldenrod Department Store
+	add_tm SWIFT        ; e7 TM39 - Goldenrod City Department Store
 	add_tm SLEEP_TALK   ; e8 TM40 - Route 31 after delivering Spearow
 	add_tm SCALD        ; e9 TM41 - Cerulean Gym
 	add_tm STONE_EDGE   ; ea TM42 - Pewter Gym
@@ -343,15 +343,15 @@ ENDM
 	add_mt MUD_SLAP      ;
 	add_mt DOUBLE_TEAM   ;Mahogany
 	add_mt DREAM_EATER   ;
-	add_mt EARTH_POWER   ;Route 26
-	add_mt HYPER_VOICE   ;Route 26
-	add_mt GUNK_SHOT     ;Route 26
-	add_mt ZEN_HEADBUTT  ;Route 26
-	add_mt SEED_BOMB     ;Route 26
-	add_mt DRILL_RUN     ;Route 26
-	add_mt ROCK_SLIDE    ;Route 26
-	add_mt SIGNAL_BEAM   ;Route 26
-	add_mt DRAIN_PUNCH   ;Route 26
+	add_mt EARTH_POWER   ;???
+	add_mt HYPER_VOICE   ;???
+	add_mt GUNK_SHOT     ;Route 26 - Gold
+	add_mt ZEN_HEADBUTT  ;???
+	add_mt SEED_BOMB     ;Route 26 - Gold
+	add_mt DRILL_RUN     ;Route 26 - Gold
+	add_mt ROCK_SLIDE    ;Route 26 - Silver
+	add_mt SIGNAL_BEAM   ;Route 26 - Silver
+	add_mt DRAIN_PUNCH   ;Route 26 - Silver
 	add_mt THUNDER_WAVE
 	add_mt SWORDS_DANCE
 	add_mt SUBSTITUTE
