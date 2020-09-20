@@ -1579,29 +1579,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 23, GEODUDE
-	db 23, GRAVELER
-	db 24, GLIGAR
-	db 25, DONPHAN
-	db 20, PHANPY
-	db 27, SKARMORY
-	db 27, SKARMORY
+	db 33, GEODUDE
+	db 33, GRAVELER
+	db 34, GLIGAR
+	db 35, DONPHAN
+	db 30, PHANPY
+	db 37, SKARMORY
+	db 37, SKARMORY
 	; day
-	db 23, GEODUDE
-	db 23, GRAVELER
-	db 24, GLIGAR
-	db 25, DONPHAN
+	db 33, GEODUDE
+	db 33, GRAVELER
+	db 34, GLIGAR
+	db 35, DONPHAN
 	db 30, DONPHAN
-	db 27, SKARMORY
-	db 27, SKARMORY
+	db 37, SKARMORY
+	db 37, SKARMORY
 	; eve-nite
-	db 23, GEODUDE
-	db 23, GRAVELER
-	db 24, GLIGAR
-	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	db 33, GEODUDE
+	db 33, GRAVELER
+	db 34, GLIGAR
+	db 35, GRAVELER
+	db 37, GRAVELER
+	db 37, GRAVELER
+	db 37, GRAVELER
 
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite

@@ -166,9 +166,9 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_44
 	db 2 percent ; encounter rate
-	db 25, REMORAID
-	db 20, POLIWAG
-	db 25, POLIWHIRL
+	db 35, REMORAID
+	db 30, POLIWAG
+	db 35, POLIWHIRL
 
 	map_id ROUTE_45
 	db 2 percent ; encounter rate
