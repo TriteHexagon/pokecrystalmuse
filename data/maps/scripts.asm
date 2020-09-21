@@ -279,7 +279,6 @@ INCLUDE "maps/Route10Pokecenter1F.asm"
 INCLUDE "maps/Route10Pokecenter2FBeta.asm"
 INCLUDE "maps/PowerPlant.asm"
 INCLUDE "maps/BillsHouse.asm"
-INCLUDE "maps/FightingDojo.asm"
 INCLUDE "maps/SaffronGym.asm"
 INCLUDE "maps/SaffronMart.asm"
 INCLUDE "maps/SaffronPokecenter1F.asm"
@@ -293,6 +292,9 @@ INCLUDE "maps/Route5UndergroundPathEntrance.asm"
 INCLUDE "maps/Route5SaffronGate.asm"
 INCLUDE "maps/Route5CleanseTagHouse.asm"
 
+SECTION "Fighting Dojo", ROMX
+
+INCLUDE "maps/FightingDojo.asm"
 
 SECTION "Map Scripts 16", ROMX
 

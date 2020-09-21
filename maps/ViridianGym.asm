@@ -172,7 +172,7 @@ LeaderBlueAfterText:
 	done
 
 LeaderBlue_HyperBeamSpeech:
-	text "That is Hyper Beam!"
+	text "That's Hyper Beam!"
 	line "It's the most"
 
 	para "powerful move out" 
@@ -180,6 +180,39 @@ LeaderBlue_HyperBeamSpeech:
 
 	para "use it to vaporize"
 	line "my opponents."
+
+	para "…Still, you seem"
+	line "like you still"
+
+	para "want to battle"
+	line "some more…"
+
+	para "I'll tell you what."
+	line "Know the Dojo in"
+
+	para "Saffron? It's"
+	line "currently empty,"
+
+	para "with the Karate"
+	line "King absent and"
+
+	para "all. So us Gym"
+	line "Leaders sometimes"
+
+	para "use it to battle"
+	line "one another using"
+
+	para "our full strength."
+	line "I'll tell every"
+	
+	para "Leader in Kanto and"
+	line "Johto that you might"
+	
+	para "show up sometime."
+	line "I'll be sure to"
+	
+	para "defeat you" 
+	line "next time!"
 	done
 
 LeaderBlueEpilogueText:

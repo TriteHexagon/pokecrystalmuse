@@ -77,6 +77,7 @@ KRIS EQU __trainer_class__
 	const RIVAL1_5_TOTODILE
 
 	trainerclass POKEMON_PROF ; a
+	const OAK_DOJO
 
 	trainerclass WILL ; b
 	const WILL1
@@ -86,6 +87,7 @@ KRIS EQU __trainer_class__
 	const CAL1
 	const CAL2
 	const CAL3
+	const CAL4
 
 	trainerclass BRUNO ; d
 	const BRUNO1
@@ -204,6 +206,7 @@ KRIS EQU __trainer_class__
 	const DANA3
 	const DANA4
 	const DANA5
+	const GREEN
 
 	trainerclass JANINE ; 1a
 	const JANINE1

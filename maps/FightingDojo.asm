@@ -150,7 +150,7 @@ FightingDojo_MapScripts:
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_SABRINA
 	sjump .DayEnd
 .SomeoneAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_SUPER_NERD
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
 	sjump .DayEnd
 .WhitneyAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_WHITNEY
@@ -171,7 +171,7 @@ FightingDojo_MapScripts:
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_ROCKER
 	sjump .DayEnd
 .Someone2Appears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_YOUNGSTER
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
 .DayEnd
 	special LoadUsedSpritesGFX
  	return
@@ -283,17 +283,17 @@ DojoTrainerWednesdayScript:
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	iftrue .AlreadyBattledNight
-	writetext DojoCal1IntroText
+	writetext DojoCalIntroText
 	waitbutton
 	closetext
-	winlosstext DojoCal1WinLossText, 0
-	loadtrainer CAL, CAL3
+	winlosstext DojoCalWinLossText, 0
+	loadtrainer CAL, CAL4
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	opentext
 .AlreadyBattledNight
-	writetext DojoCal1DefeatText
+	writetext DojoCalDefeatText
 
 .FinishScript:
 	waitbutton
@@ -303,9 +303,8 @@ DojoTrainerWednesdayScript:
 ;Thursday
 DojoTrainerThursdayScript:
 	faceplayer
-	opentext
-	checktime MORN
-	iftrue, .MorningScript
+	checktime NITE
+	iftrue, .NightScript
 	checktime DAY
 	iftrue, .DayScript
 	sjump .NightScript
@@ -313,6 +312,7 @@ DojoTrainerThursdayScript:
 .MorningScript
 	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	iftrue .AlreadyBattledMorn
+	opentext
 	writetext DojoErikaIntroText
 	waitbutton
 	closetext
@@ -329,6 +329,7 @@ DojoTrainerThursdayScript:
 .DayScript
 	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
 	iftrue .AlreadyBattledDay
+	opentext
 	writetext DojoBugsyIntroText
 	waitbutton
 	closetext
@@ -345,11 +346,16 @@ DojoTrainerThursdayScript:
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	iftrue .AlreadyBattledNight
+	playsound SFX_THROW_BALL
+	wait 5
+	playsound SFX_BALL_BOUNCE
+	waitsfx
+	opentext
 	writetext DojoGreenIntroText
 	waitbutton
 	closetext
 	winlosstext DojoGreenWinLossText, 0
-	loadtrainer SCHOOLGIRL, SUE
+	loadtrainer LASS, GREEN
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
@@ -437,17 +443,17 @@ DojoTrainerSaturdayScript:
 .MorningScript
 	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	iftrue .AlreadyBattledMorn
-	writetext DojoSatMornIntroText
+	writetext DojoCalIntroText
 	waitbutton
 	closetext
-	winlosstext DojoSatMornWinLossText, 0
-	loadtrainer CAL, CAL3
+	winlosstext DojoCalWinLossText, 0
+	loadtrainer CAL, CAL4
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	opentext
 .AlreadyBattledMorn
-	writetext DojoSatMornDefeatText
+	writetext DojoCalDefeatText
 	sjump .FinishScript
 
 .DayScript
@@ -519,7 +525,7 @@ DojoTrainerSundayScript:
 	waitbutton
 	closetext
 	winlosstext DojoOakWinLossText, 0
-	loadtrainer CAL, CAL3
+	loadtrainer POKEMON_PROF, OAK_DOJO
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_DAY_TRAINER
@@ -644,79 +650,521 @@ FightingDojoSign2Text:
 	line "side!"
 	done
 
-DojoCal1IntroText:
-DojoSatMornIntroText:
+;Intro Texts
+DojoCalIntroText:
+	text "Let's battle!"
+	done
+
 DojoOakIntroText:
+	text "Oak: Ah, <PLAYER>!"
+	line "My grandson told"
+
+	para "me you might come"
+	line "around this Dojo"
+
+	para "for some battles,"
+	line "and I thought it"
+
+	para "would be interest-"
+	line "ing to see how far"
+
+	para "you've come."
+	line "Fortunately, I"
+
+	para "still have party"
+	line "from my youth"
+
+	para "ready for battle"
+	line "Care to spar" 
+	cont "with me?"
+	done
+
 DojoBlueIntroText:
+	text "Blue: Good! Thanks"
+	line "for coming to"
+	cont "lose to me!"
+	done
+
 DojoEusineIntroText:
+	text "Eusine: So? How"
+	line "have you and"
+
+	para "Suicune been"
+	line "getting along?"
+	
+	para "Since you're"
+	line "here, how about"
+	
+	para "we have a little"
+	line "sparring?"
+	done
+
 DojoSabrinaIntroText:
+	text "Sabrina: I had"
+	line "a feeling you'd"
+	cont "come!"
+
+	para "…What? You knew"
+	line "Blue told all Gym"
+
+	para "Leaders you were"
+	line "coming, so it's no"
+	
+	para "surprise? Well,"
+	line "you may be right."
+	done
+
 DojoWhitneyIntroText:
+	text "Whitney: What a"
+	line "coincidence!"
+
+	para "This must be meant"
+	line "to be! Are you"
+	cont "ready to battle?"
+	done
+
 DojoChuckIntroText:
+	text "Chuck: There you"
+	line "are! Taste my"
+	cont "24-hour training!"
+	done
+
 DojoBrockIntroText:
+	text "Brock: All right!"
+	line "You showed up"
+	
+	para "after all. Time to"
+	line "see how strong I"
+	cont "really am!"
+	done
+
 DojoSurgeIntroText:
+	text "Surge: Hey! You"
+	line "actually came! Let's"
+	cont "battle again!"
+	done
+
 DojoGreenIntroText:
+	text "Green: Drat, I"
+	line "couldn't catch you"
+	
+	para "this time either,"
+	line "huh… Well, never"
+
+	para "mind. Just show"
+	line "me how strong"
+	cont "you've gotten!"
+	done
+
 DojoBugsyIntroText:
+	text "Bugsy: Good to see"
+	line "you again! Behold"
+	cont "my bug research!"
+	done
+
 DojoErikaIntroText:
-DojoJasmineIntroText:	
+	text "Erika: How are"
+	line "you? Good to see"
+	
+	para "you again! This"
+	line "place doesn't"
+	
+	para "really suit me,"
+	line "but… let's ignore"
+	cont "that and battle!"
+	done
+
+DojoJasmineIntroText:
+	text "Jasmine: We're"
+	line "here as we"
+
+	para "promised… Are you"
+	cont "prepared?"
+	done
+
 DojoMistyIntroText:
+	text "Misty: So here you"
+	line "are… Don’t make me"
+	
+	para "wait! I’ve heard a"
+	line "lot of good things"
+	
+	para "about you since"
+	line "our last battle."
+	
+	para "Let me test how" 
+	line "good you are!"
+	done
+
 DojoMortyIntroText:
+	text "Morty: I was just"
+	line "talking about you…"
+	cont "Let's battle!"
+	done
+
 DojoBlaineIntroText:
+	text "Blaine: You had"
+	line "the guts to come"
+
+	para "here? That's a"
+	line "good thing, kiddo!"
+	done
+
 DojoPryceIntroText:
+	text "Pryce: No need for"
+	line "words. A #mon"
+	
+	para "battle is the way"
+	line "for us to" 
+	cont "communicate."
+	done
+
 DojoClairIntroText:
+	text "Clair: …You are"
+	line "here. Now let's"
+	cont "battle!"
+	done
+
 DojoJanineIntroText:
+	text "Janine: I can't"
+	line "use my ninja" 
+
+	para "technique, but I"
+	line "won't let you win!"
+	done
+
 DojoFalknerIntroText:
-	text "Hello! Intro text!"
-	line "More text!"
+	text "Falkner: Oh? If"
+	line "you showed up"
+	
+	para "here you must"
+	line "want to battle me"
+
+	para "again! Let's get"
+	line "right into it,"
+	cont "shall we?"
 	done
 
-DojoCal1WinLossText:
-DojoSatMornWinLossText:
+;Win-Loss Texts
+DojoCalWinLossText:
+	text "You win… THANKS!"
+	done
+
 DojoOakWinLossText:
-DojoBlueWinLossText:
-DojoEusineWinLossText:
-DojoSabrinaWinLossText:
-DojoWhitneyWinLossText:
-DojoChuckWinLossText:
-DojoBrockWinLossText:
-DojoSurgeWinLossText:
-DojoGreenWinLossText:
-DojoBugsyWinLossText:
-DojoErikaWinLossText:
-DojoJasmineWinLossText:   
-DojoMistyWinLossText:
-DojoMortyWinLossText:
-DojoBlaineWinLossText:
-DojoPryceWinLossText:
-DojoClairWinLossText:
-DojoJanineWinLossText:
-DojoFalknerWinLossText:
-	text "Defeat Text!"
-	line "More text!"
+	text "Marvelous! You"
+	line "truly are a"
+	cont "splendid Trainer!"
 	done
 
-DojoCal1DefeatText:
-DojoSatMornDefeatText:
+DojoBlueWinLossText:
+	text "Just as expected!"
+	line "No wonder you've"
+	
+	para "become the"
+	line "Champion…"
+	done
+
+DojoEusineWinLossText:
+	text "You're amazing,"
+	line "<PLAYER>."
+
+	para "No wonder #mon"
+	line "gravitate to you."
+	done
+
+DojoSabrinaWinLossText:
+	text "I lost. I didn't"
+	line "foresee this would"
+	cont "happen…"
+	done
+
+DojoWhitneyWinLossText:
+	text "Darn it!"
+	line "I lost again!"
+	done
+
+DojoChuckWinLossText:
+	text "Seems like my"
+	line "training wasn't"
+	cont "enough…"
+	done
+
+DojoBrockWinLossText:
+	text "I've lost again…"
+	line "You aren't"
+	
+	para "adventuring around"
+	line "for nothing!"
+	done
+
+DojoSurgeWinLossText:
+	text "Arrrgh! You are"
+	line "strong!"
+	done
+
+DojoGreenWinLossText:
+	text "Come on! What's"
+	line "with that…?"
+	done
+
+DojoBugsyWinLossText:
+	text "Aw, that't the"
+	line "end of it…"
+	done
+
+DojoErikaWinLossText:
+	text "You have grown"
+	line "even stronger…"
+	done
+
+DojoJasmineWinLossText:
+	text "True to your"
+	line "reputation…"
+	done
+
+DojoMistyWinLossText:
+	text "Wow! You are" 
+	line "getting stronger"
+	cont "by the battle!"
+	done
+
+DojoMortyWinLossText:
+	text "I've lost again…"
+	line "You may have" 
+	
+	para "something more" 
+	line "than just raw"
+	cont "strength."
+	done
+
+DojoBlaineWinLossText:
+	text "How could this be?"
+	line "My spirit has not" 
+	cont "been defeated!"
+	done
+
+DojoPryceWinLossText:
+	text "Mmm… Impressive!"
+	done
+
+DojoClairWinLossText:
+	text "It's over… "
+	done
+
+DojoJanineWinLossText:
+	text "You've got a great"
+	line "battle technique!"
+	done
+
+DojoFalknerWinLossText:
+	text "I lost… But it"
+	line "was a pleasure"
+
+	para "to be able to"
+	line "battle you again!"
+	done
+
+;Defeat Text
+DojoCalDefeatText:
+	text "Fine--next time!"
+	done
+
 DojoOakDefeatText:
+	text "Oak: Me and my "
+	line "#mon are too tired"
+
+	para "to go another"
+	line "round, but I'll"
+	
+	para "be here some other"
+	line "day, so be sure to"
+	cont "come back again."
+	done
+	
 DojoBlueDefeatText:
+	text "Blue: Hahaha! My"
+	line "scare tactic"
+	
+	para "doesn't scare you"
+	line "at all!"
+	done
+
 DojoEusineDefeatText:
+	text "Eusine: That was a"
+	line "great battle. Let's"
+
+	para "meet again here"
+	line "another day!"
+	done
+
 DojoSabrinaDefeatText:
+	text "Sabrina: I know…"
+	line "you will show up"
+	para "here again some-"
+	cont "time."
+	done
+
 DojoWhitneyDefeatText:
+	text "Whitney: You"
+	line "really are strong!"
+
+	para "But I won't lose"
+	line "next time!"
+	done
+
 DojoChuckDefeatText:
+	text "Chuck: Wahaha!"
+	line "A battle with you"
+	cont "is never boring!"
+	done
+
 DojoBrockDefeatText:
+	text "I really enjoyed"
+	line "battling with you"
+	
+	para "again. I can't"
+	line "believe you got"
+	
+	para "past my rock-hard"
+	line "defense so easily!"
+	done
+
 DojoSurgeDefeatText:
+	text "Surge: Even my"
+	line "electric tricks"
+	
+	para "lost. You're"
+	line "excellent! Keep"
+	
+	para "goin' like"
+	line "lightning!"
+	done
+
 DojoGreenDefeatText:
+	text "Green: Wow, I"
+	line "think you are"
+	
+	para "plenty strong"
+	line "already! So, what"
+	
+	para "do you say? Don't"
+	line "you think it's time"
+	
+	para "you become one of"
+	line "my #mon? Along"
+	
+	para "with Mewtwo, of"
+	line "course!"
+
+	para "<……>"
+	line "…Still refusing?"
+
+	para "I'm not going to"
+	line "give up, you know!"
+	done
+
 DojoBugsyDefeatText:
+	text "You must have"
+	line "studied a lot"
+	
+	para "about #mon!"
+	line "since we last"
+	cont "battled!"
+	done
+
 DojoErikaDefeatText:
-DojoJasmineDefeatText:   
+	text "You have grown"
+	line "even stronger…"
+	done
+
+DojoJasmineDefeatText:
+	text "Jasmine: …You are"
+	line "a better Trainer"
+	
+	para "than me, in both"
+	line "skill and"
+	cont "kindness."
+
+	para "Um… I don't know"
+	line "how to say this,"
+	cont "but good luck…"
+	done
+	
 DojoMistyDefeatText:
+	text "Misty: Know what?"
+	line "Before I became a"
+	
+	para "Gym Leader, my" 
+	line "dream was to go on"
+	
+	para "a journey and" 
+	line "battle powerful" 
+	
+	para "Trainers… I made"
+	line "my dream come"
+	
+	para "true, and now… my"  
+	line "next dream is to"  
+	cont "defeat you!"
+	done
+
 DojoMortyDefeatText:
+	text "Morty: I don't"
+	line "think our poten-" 
+
+	para "tials are so"
+	line "different. But you" 
+	
+	para "seem to have some-"
+	line "thing… Something"
+	cont "more than that…"
+	done
+
 DojoBlaineDefeatText:
+	text "Blaine: Waaah! If"
+	line "I had known this"
+	
+	para "Dojo was going to"
+	line "be available, I" 
+	
+	para "wouldn't have" 
+	line "needed to rebuild"
+	
+	para "my Gym. Wait!"
+	line "I still did," 
+	cont "didn't I?"
+	done
+
 DojoPryceDefeatText:
+	text "Pryce: I am" 
+	line "impressed by your"
+
+	para "prowess. With your"
+	line "strong will, I"
+
+	para "know you will"
+	line "overcome all life's"
+	cont "obstacles."
+	done
+
 DojoClairDefeatText:
+	text "Clair: Way to go."
+	line "…Now give it" 
+	cont "your all!"
+	done
+
 DojoJanineDefeatText:
+	text "Janine: I lost"
+	line "today, but I'll"
+	cont "win next time!"
+	done
+
 DojoFalknerDefeatText:
-	text "I was defeated!"
-	line "More text!"
+	text "Falkner: Mmm…"
+	line "It's still a long"
+	
+	para "way to become the"
+	line "best Trainer…"
 	done
 
 FightingDojo_MapEvents:
