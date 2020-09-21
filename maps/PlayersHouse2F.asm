@@ -101,6 +101,7 @@ PlayersHouseBookshelfScript:
 	giveitem TM_EARTHQUAKE
 	giveitem TM_STONE_EDGE
 	giveitem TM_ROCK_SMASH
+	giveitem TM_THUNDER_WAVE
 	; all hms
 	giveitem HM_CUT
 	giveitem HM_FLY

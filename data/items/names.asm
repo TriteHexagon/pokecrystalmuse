@@ -241,6 +241,12 @@ ItemNames::
 	db "TM48@"
 	db "TM49@"
 	db "TM50@"
+	db "TM51@"
+	db "TM52@"
+	db "TM53@"
+	db "TM54@"
+	;db "TM5@"
+	;db "TM5@"
 	db "HM01@"
 	db "HM02@"
 	db "HM03@"
@@ -248,10 +254,6 @@ ItemNames::
 	db "HM05@"
 	db "HM06@"
 	db "HM07@"
-	db "Teru-Sama@" ;unused
-	db "Teru-Sama@" ;unused
-	db "Teru-Sama@" ;unused
-	db "Teru-Sama@" ;unused
 	db "Teru-Sama@" ;unused
 	db "Teru-Sama@" ;unused
 	db "?@"

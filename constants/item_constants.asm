@@ -273,6 +273,10 @@ ENDM
 	add_tm DARK_PULSE   ; f0 TM48 - Team Rocket Base 
 	add_tm FURY_CUTTER  ; f1 TM49 - Azalea Gym
 	add_tm CALM_MIND    ; f2 TM50 - Saffron Gym
+	add_tm THUNDER_WAVE
+	add_tm ROCK_SLIDE
+	add_tm ZEN_HEADBUTT
+	add_tm GUNK_SHOT
 NUM_TMS EQU __tmhm_value__ - 1
 
 add_hm: MACRO
@@ -345,14 +349,10 @@ ENDM
 	add_mt DREAM_EATER   ;
 	add_mt EARTH_POWER   ;???
 	add_mt HYPER_VOICE   ;???
-	add_mt GUNK_SHOT     ;Route 26 - Gold
-	add_mt ZEN_HEADBUTT  ;???
 	add_mt SEED_BOMB     ;Route 26 - Gold
 	add_mt DRILL_RUN     ;Route 26 - Gold
-	add_mt ROCK_SLIDE    ;Route 26 - Silver
 	add_mt SIGNAL_BEAM   ;Route 26 - Silver
 	add_mt DRAIN_PUNCH   ;Route 26 - Silver
-	add_mt THUNDER_WAVE
 	add_mt SWORDS_DANCE
 	add_mt SUBSTITUTE
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
