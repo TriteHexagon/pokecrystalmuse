@@ -191,6 +191,7 @@ ItemNames::
 	db "Teru-Sama@" ;unused
 	db "Teru-Sama@" ;unused
 	db "Teru-Sama@" ;unused
+	db "Teru-Sama@" ;unused
 	db "TM01@"
 	db "TM02@"
 	db "TM03@"
@@ -254,7 +255,6 @@ ItemNames::
 	db "HM05@"
 	db "HM06@"
 	db "HM07@"
-	db "Teru-Sama@" ;unused
 	db "Teru-Sama@" ;unused
 	db "?@"
 	

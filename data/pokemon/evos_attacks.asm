@@ -2216,7 +2216,7 @@ TaurosEvosAttacks:
 	db 19, REST
 	db 24, HEADBUTT ;replace Payback
 	db 29, WORK_UP
-	db 35, ZEN_HEADBUTT
+	db 35, SMART_STRIKE
 	db 41, TAKE_DOWN
 	db 48, SWAGGER
 	db 55, THRASH

@@ -1,6 +1,10 @@
 	object_const_def ; object_event constants
 	const VIRIDIANGYM_BLUE
 	const VIRIDIANGYM_GYM_GUY
+	const VIRIDIANGYM_ACETRAINER_SALMA
+	const VIRIDIANGYM_ACETRAINER_IDA
+	const VIRIDIANGYM_ACETRAINER_ARABEL
+	const VIRIDIANGYM_ACETRAINER_ELAN
 
 ViridianGym_MapScripts:
 	db 0 ; scene scripts
@@ -69,6 +73,50 @@ LeaderBlueScript_Defeat:
 	writetext LeaderBlueEpilogueText
 	waitbutton
 ViridianGym_NoRoom:
+	closetext
+	end
+
+TrainerAceTrainerSalma:
+	trainer COOLTRAINERF, SALMA, EVENT_BEAT_COOLTRAINER_SALMA, AceTrainerSalmaSeenText, AceTrainerSalmaBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext AceTrainerSalmaAfterBattleText
+	waitbutton
+	closetext
+	end
+
+TrainerAceTrainerIda:
+	trainer COOLTRAINERF, IDA, EVENT_BEAT_COOLTRAINER_IDA, AceTrainerIdaSeenText, AceTrainerIdaBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext AceTrainerIdaAfterBattleText
+	waitbutton
+	closetext
+	end
+
+TrainerAceTrainerArabel:
+	trainer COOLTRAINERM, ARABEL, EVENT_BEAT_COOLTRAINER_ARABEL, AceTrainerArabelSeenText, AceTrainerArabelBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext AceTrainerArabelAfterBattleText
+	waitbutton
+	closetext
+	end
+
+TrainerAceTrainerElan:
+	trainer COOLTRAINERM, ELAN, EVENT_BEAT_COOLTRAINER_ELAN, AceTrainerElanSeenText, AceTrainerElanBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext AceTrainerElanAfterBattleText
+	waitbutton
 	closetext
 	end
 
@@ -254,6 +302,98 @@ ViridianGymGuyWinText:
 	line "tears to my eyes."
 	done
 
+AceTrainerSalmaSeenText:
+    text "I'm the strongest"
+	line "Trainer in this"
+
+	para "Gym of elites… You"
+	line "have to go through"
+
+	para "me to face our"
+	line "Leader Blue!"
+    done
+
+AceTrainerSalmaBeatenText:
+    text "Well, this is" 
+	line "surprising."
+    done
+
+AceTrainerSalmaAfterBattleText:
+    text "Our Leader is the"
+	line "strongest in"
+
+	para "Kanto. You won't"
+	line "beat him easily!"
+    done
+
+AceTrainerIdaSeenText:
+    text "I'm Ida! Let's"
+	line "get this fight"
+	cont "started!"
+    done
+
+AceTrainerIdaBeatenText:
+    text "Wow, you're really"
+	line "something."
+    done
+
+AceTrainerIdaAfterBattleText:
+    text "Salma thinks she's"
+	line "the stongest in"
+
+	para "the Gym, but"
+	line "everyone knows it's"
+
+	para "actually Elan."
+    done
+
+AceTrainerArabelSeenText:
+    text "What do you think?"
+	line "You've never seen" 
+	
+	para "such a wonderful"
+	line "Gym before, have"
+	cont "you?"
+    done
+
+AceTrainerArabelBeatenText:
+    text "Whatever!"
+    done
+
+AceTrainerArabelAfterBattleText:
+    text "I love the"
+	line "aesthetic of this"
+
+	para "Gym. It feels"
+	line "cozy."
+    done
+
+AceTrainerElanSeenText:
+    text "This is a Gym of"
+	line "elites, hand-"
+
+	para "picked by Blue"
+	line "from throughout"
+	cont "Kanto."
+	
+	para "Anyway, fight me"
+	line "and see our"
+	cont "strength!"
+    done
+
+AceTrainerElanBeatenText:
+    text "I was decieved!"
+    done
+
+AceTrainerElanAfterBattleText:
+    text "I think you're"
+	line "ready to face our"
+
+	para "Leader… Ready to be"
+	line "trounced, that is!"
+    done
+
+
 ViridianGym_MapEvents:
 	db 0, 0 ; filler
 
@@ -267,6 +407,10 @@ ViridianGym_MapEvents:
 	bg_event  3, 13, BGEVENT_READ, ViridianGymStatue
 	bg_event  6, 13, BGEVENT_READ, ViridianGymStatue
 
-	db 2 ; object events
+	db 6 ; object events
 	object_event  5,  3, SPRITE_BLUE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ViridianGymBlueScript, EVENT_VIRIDIAN_GYM_BLUE
 	object_event  7, 13, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ViridianGymGuyScript, EVENT_VIRIDIAN_GYM_BLUE
+	object_event  7, 11,  SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerAceTrainerArabel, -1
+	object_event  2,  7,  SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerAceTrainerElan, -1
+	object_event  7,  7,  SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_TRAINER, 3, TrainerAceTrainerSalma, -1
+	object_event  2, 11,  SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerAceTrainerIda, -1

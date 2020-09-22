@@ -198,6 +198,7 @@
 	const ITEM_BE      ; be
 	const ITEM_C3      ; c3
 	const ITEM_DC      ; dc
+	const ITEM_FA      ; fa
 
 __tmhm_value__ = 1
 
@@ -273,10 +274,10 @@ ENDM
 	add_tm DARK_PULSE   ; f0 TM48 - Team Rocket Base 
 	add_tm FURY_CUTTER  ; f1 TM49 - Azalea Gym
 	add_tm CALM_MIND    ; f2 TM50 - Saffron Gym
-	add_tm THUNDER_WAVE
-	add_tm ROCK_SLIDE
-	add_tm ZEN_HEADBUTT
-	add_tm GUNK_SHOT
+	add_tm THUNDER_WAVE ; f3 TM51 - Route 40
+	add_tm EARTH_POWER  ; f4 TM52 - Celadon City Department Store
+	add_tm GUNK_SHOT    ; f5 TM53 - Celadon City Department Store
+	add_tm HYPER_VOICE  ; f6 TM54 - Celadon City Department Store
 NUM_TMS EQU __tmhm_value__ - 1
 
 add_hm: MACRO
@@ -347,8 +348,8 @@ ENDM
 	add_mt MUD_SLAP      ;
 	add_mt DOUBLE_TEAM   ;Mahogany
 	add_mt DREAM_EATER   ;
-	add_mt EARTH_POWER   ;???
-	add_mt HYPER_VOICE   ;???
+	add_mt ROCK_SLIDE    ;???
+	add_mt ZEN_HEADBUTT  ;???
 	add_mt SEED_BOMB     ;Route 26 - Gold
 	add_mt DRILL_RUN     ;Route 26 - Gold
 	add_mt SIGNAL_BEAM   ;Route 26 - Silver
@@ -358,8 +359,6 @@ ENDM
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1
-
-	const ITEM_FA       ; fa
 
 USE_SCRIPT_VAR EQU $00
 ITEM_FROM_MEM  EQU $ff

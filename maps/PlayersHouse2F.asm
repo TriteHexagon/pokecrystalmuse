@@ -102,6 +102,7 @@ PlayersHouseBookshelfScript:
 	giveitem TM_STONE_EDGE
 	giveitem TM_ROCK_SMASH
 	giveitem TM_THUNDER_WAVE
+	giveitem TM_HYPER_VOICE
 	; all hms
 	giveitem HM_CUT
 	giveitem HM_FLY
@@ -152,7 +153,6 @@ PlayersHouseBookshelfScript:
 	setevent EVENT_BEAT_BLAINE
 	setevent EVENT_BEAT_BLUE
 	setevent EVENT_BEAT_ELITE_FOUR
-	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	; fly anywhere
 	setflag ENGINE_FLYPOINT_NEW_BARK
 	setflag ENGINE_FLYPOINT_CHERRYGROVE

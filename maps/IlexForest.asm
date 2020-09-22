@@ -388,7 +388,6 @@ IlexForestHeadbuttGuyScript:
 	yesorno
 	iffalse .TutorRefused
 	writebyte HEADBUTT
-	writetext Text_HeadbuttClear
 	special MoveTutor
 	if_equal $0, .TeachMove
 .TutorRefused
@@ -951,18 +950,14 @@ Text_CharcoalMasterTalkAfter:
 Text_HeadbuttIntro:
 	text "What am I doing?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	line "I'm shaking trees"
+	para "using Headbutt."
 
-	para "It's fun! I can"
-	line "teach it to your"
+	line "It's fun! I can"
+	para "teach it to your"
 	
-	para "#mon, so you"
-	line "can try it too!"
-	done
-
-Text_HeadbuttClear:
-	text ""
+	line "#mon, so you"
+	cont "can try it too!"
 	done
 
 Text_HeadbuttRefused:
@@ -972,7 +967,7 @@ Text_HeadbuttRefused:
 
 Text_HeadbuttOutro:
 	text "Rattle trees with"
-	line "HEADBUTT. Some-"
+	line "Headbutt. Some-"
 	cont "times, sleeping"
 	cont "#mon fall out."
 	done

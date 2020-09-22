@@ -220,6 +220,7 @@ MoveDescriptions::
 	dw ThunderFangDescription
 	dw DrainingKissDescription
 	dw FocusBlastDescription
+	dw FlareBlitzDescription
 	dw FireFangDescription
 	dw WilloWispDescription
 	dw AirSlashDescription
@@ -1152,7 +1153,6 @@ FlareBlitzDescription:
 FireFangDescription:
 	db   "A fiery bite."
 	next "May cause a burn.@"
-
 
 WilloWispDescription:
 	db   "Inflicts a burn"

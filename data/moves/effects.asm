@@ -357,10 +357,10 @@ QuiverDance:
 	checkobedience
 	usedmovetext
 	doturn
-	quiverdance
 	lowersub
 	statupanim
 	raisesub
+	quiverdance
 	;statupfailtext
 	endmove
 
@@ -368,10 +368,10 @@ Coil:
 	checkobedience
 	usedmovetext
 	doturn
-	growth
 	lowersub
 	statupanim
 	raisesub
+	coil
 	;statupfailtext
 	endmove
 
@@ -379,10 +379,10 @@ ShellSmash:
 	checkobedience
 	usedmovetext
 	doturn
-	shellsmash
 	lowersub
 	statupanim
 	raisesub
+	shellsmash
 	;statupfailtext
 	endmove
 
@@ -390,10 +390,10 @@ BulkUp:
 	checkobedience
 	usedmovetext
 	doturn
-	bulkup
 	lowersub
 	statupanim
 	raisesub
+	bulkup
 	;statupfailtext
 	endmove
 
@@ -401,10 +401,10 @@ WorkUp:
 	checkobedience
 	usedmovetext
 	doturn
-	workup
 	lowersub
 	statupanim
 	raisesub
+	workup
 	;statupfailtext
 	endmove
 
@@ -412,10 +412,10 @@ CalmMind:
 	checkobedience
 	usedmovetext
 	doturn
-	calmmind
 	lowersub
 	statupanim
 	raisesub
+	calmmind
 	;statupfailtext
 	endmove
 
@@ -423,10 +423,10 @@ DragonDance:
 	checkobedience
 	usedmovetext
 	doturn
-	dragondance
 	lowersub
 	statupanim
 	raisesub
+	dragondance
 	;statupfailtext
 	endmove
 
@@ -2334,10 +2334,9 @@ Growth:
 	checkobedience
 	usedmovetext
 	doturn
-	growth
 	lowersub
 	statupanim
 	raisesub
-	
+	growth
 	;statupfailtext
 	endmove

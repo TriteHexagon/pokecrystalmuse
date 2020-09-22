@@ -233,6 +233,8 @@ KRIS EQU __trainer_class__
 	const STEVE
 	const ALLEN
 	const DARIN
+	const ARABEL
+	const ELAN
 
 	trainerclass COOLTRAINERF ; 1c
 	const GWEN
@@ -256,6 +258,8 @@ KRIS EQU __trainer_class__
 	const REENA2
 	const REENA3
 	const CARA
+	const SALMA
+	const IDA
 
 	trainerclass BEAUTY ; 1d
 	const VICTORIA

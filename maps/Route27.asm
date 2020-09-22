@@ -8,6 +8,7 @@
 	const ROUTE27_POKE_BALL1
 	const ROUTE27_POKE_BALL2
 	const ROUTE27_FISHER
+	const ROUTE27_MOVE_TUTOR_ZEN_HEADBUTT
 
 Route27_MapScripts:
 	db 2 ; scene scripts
@@ -314,6 +315,65 @@ Route27FisherStepLeftOnceMovement:
 	step LEFT
 	step_end
 
+Route26ZenHeadbuttGirlScript:
+	faceplayer
+	opentext
+	writetext Text_ZenHeadbuttIntro
+	yesorno
+	iffalse .TutorRefused
+	writebyte ZEN_HEADBUTT
+	special MoveTutor
+	if_equal $0, .TeachMove
+.TutorRefused
+	writetext Text_ZenHeadbuttRefused
+	waitbutton
+	closetext
+	end
+
+.TeachMove
+	writetext Text_ZenHeadbuttOutro
+	waitbutton
+	closetext
+	end
+
+Text_ZenHeadbuttIntro:
+	text "<……>"
+	line "Ah?… Didn't… see"
+
+	para "you there…"
+	line "…What am I doing?"
+
+	para "I'm… shaking trees"
+	line "…using Headbutt…"
+
+	para "But it's not"
+	line "working… Ah…"
+
+	para "Can you… take a"
+	line "look and see if…"
+
+	para "I'm doing… some-"
+	line "thing wrong?"
+	done
+
+Text_ZenHeadbuttRefused:
+	text "…No? Ah… Alright."
+	done
+
+Text_ZenHeadbuttOutro:
+	text "So this is… the"
+	line "wrong move? And"
+
+	para "the wrong type of"
+	line "tree?… Ah… But my"
+
+	para "#mon seem to enjoy"
+	line "it like this…"
+
+	para "I think I'll stay"
+	line "here a bit longer…"
+	done
+
 Route27FisherHeyText:
 	text "Hey!"
 	done
@@ -451,7 +511,7 @@ BirdKeeperJose2BeatenText:
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
+	text "Bird Keepers like"
 	line "me mimic bird"
 
 	para "whistles to com-"
@@ -459,7 +519,7 @@ BirdKeeperJose2AfterBattleText:
 	done
 
 TohjoFallsSignText:
-	text "TOHJO FALLS"
+	text "Tohjo Falls"
 
 	para "The link between"
 	line "Kanto and Johto"
@@ -480,7 +540,7 @@ Route27_MapEvents:
 	db 1 ; bg events
 	bg_event 25,  7, BGEVENT_READ, TohjoFallsSign
 
-	db 9 ; object events
+	db 10 ; object events
 	object_event 48,  7, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainermBlake, -1
 	object_event 58,  6, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerCooltrainermBrian, -1
 	object_event 72, 10, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerCooltrainerfReena, -1
@@ -490,3 +550,4 @@ Route27_MapEvents:
 	object_event 60, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_ITEMBALL, 0, Route27TMShadowBall, EVENT_ROUTE_27_TM_SHADOW_BALL
 	object_event 53, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route27RareCandy, EVENT_ROUTE_27_RARE_CANDY
 	object_event 21, 10, SPRITE_FISHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 3, Route27FisherScript, -1
+	object_event 0, 0,   SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route26ZenHeadbuttGirlScript, -1
