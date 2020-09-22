@@ -186,13 +186,13 @@ RageCandyBarMerchantSoldOutText:
 
 MahoganyTownGrampsText:
 	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	line "the Gyarados ram-"
+	cont "page at the Lake?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
 	text "MAGIKARP have"
-	line "returned to LAKE"
+	line "returned to Lake"
 	cont "OF RAGE."
 
 	para "That should be"

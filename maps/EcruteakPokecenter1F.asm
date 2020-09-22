@@ -196,7 +196,7 @@ EcruteakPokecenter1FGymGuyText:
 	text "Lake of Rage…"
 
 	para "The appearance of"
-	line "a GYARADOS swarm…"
+	line "a Gyarados swarm…"
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

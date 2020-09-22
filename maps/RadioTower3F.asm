@@ -332,8 +332,8 @@ RadioTower3FPersonnelSignText:
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#mon MUSIC with"
-	line "Host DJ BEN"
+	text "#mon Music with"
+	line "Host DJ Ben"
 	done
 
 RadioTower3F_MapEvents:

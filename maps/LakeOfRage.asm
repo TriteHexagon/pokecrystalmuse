@@ -244,7 +244,7 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 
 LakeOfRageLanceForcedToEvolveText:
 	text "This lake is full"
-	line "of GYARADOS but"
+	line "of Gyarados but"
 	cont "nothing else…"
 
 	para "So the MAGIKARP"
@@ -284,7 +284,7 @@ LakeOfRageLanceRadioSignalText:
 	text "Lance: Excellent!"
 
 	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	line "Lake's MAGIKARP"
 
 	para "are being forced"
 	line "to evolve."
@@ -320,7 +320,7 @@ LakeOfRageGotRedScaleText:
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
+	text "The Gyarados are"
 	line "angry!"
 
 	para "It's a bad omen!"
@@ -347,11 +347,11 @@ LakeOfRageCooltrainerFText:
 	text "Did my eyes de-"
 	line "ceive me? I saw a"
 
-	para "red GYARADOS in"
-	line "the LAKE…"
+	para "red Gyarados in"
+	line "the Lake…"
 
 	para "But I thought"
-	line "GYARADOS were"
+	line "Gyarados were"
 	cont "usually blue?"
 	done
 
@@ -419,7 +419,7 @@ CooltrainermAaronAfterBattleText:
 
 CooltrainerfLoisSeenText:
 	text "What happened to"
-	line "the red GYARADOS?"
+	line "the red Gyarados?"
 
 	para "It's gone?"
 
@@ -483,7 +483,7 @@ WesleyNotWednesdayText:
 LakeOfRageSignText:
 	text "Lake of Rage,"
 	line "also known as"
-	cont "GYARADOS LAKE."
+	cont "Gyarados Lake."
 	done
 
 FishingGurusHouseSignText:

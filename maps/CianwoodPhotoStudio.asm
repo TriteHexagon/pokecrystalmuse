@@ -69,7 +69,7 @@ CianwoodRetroMoveTutorScript:
 	setval ICY_WIND
 	sjump .TryTeachMove
 .TutorMove2:
-	setval DRAGONBREATH
+	setval ENDURE
 	sjump .TryTeachMove
 .TutorMove3:
 	setval ROAR
@@ -90,7 +90,7 @@ CianwoodRetroMoveTutorScript:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Ice Wind@"
-	db "DragonBreath@"
+	db "Endure@"
 	db "Roar@"
 	db "CANCEL@"
 

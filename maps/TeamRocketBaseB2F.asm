@@ -714,7 +714,7 @@ RocketBaseLanceElectrodeDoneText:
 	line "signal has finally"
 	cont "stopped."
 
-	para "The LAKE should be"
+	para "The Lake should be"
 	line "back to normal."
 
 	para "You're the hero!"

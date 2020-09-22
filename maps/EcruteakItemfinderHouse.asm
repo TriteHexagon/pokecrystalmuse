@@ -183,7 +183,7 @@ EcruteakRetroMoveTutorScript:
 	setval ROLLOUT
 	sjump .TryTeachMove
 .TutorMove2:
-	setval DEFENSE_CURL
+	setval CURSE
 	sjump .TryTeachMove
 .TutorMove3:
 	setval SWEET_SCENT
@@ -204,7 +204,7 @@ EcruteakRetroMoveTutorScript:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Rollout@"
-	db "Defense Curl@"
+	db "Curse@"
 	db "Sweet Scent@"
 	db "CANCEL@"
 

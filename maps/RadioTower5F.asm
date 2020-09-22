@@ -405,7 +405,7 @@ RadioTower5FDirectorText:
 	done
 
 BenText:
-	text "BEN: Do you listen"
+	text "Ben: Do you listen"
 	line "to our music?"
 	done
 

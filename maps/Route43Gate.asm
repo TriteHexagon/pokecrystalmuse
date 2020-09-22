@@ -217,7 +217,7 @@ RocketText_MakingABundle:
 	para "Everyone wants to"
 	line "see what's going"
 
-	para "on up at LAKE OF"
+	para "on up at Lake OF"
 	line "RAGE."
 	done
 

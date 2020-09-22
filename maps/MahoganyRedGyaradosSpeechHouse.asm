@@ -37,20 +37,20 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2:
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	line "Gyarados appeared"
+	cont "at the Lake."
 
 	para "That's odd, since"
 	line "even ordinary"
 
-	para "GYARADOS are rare"
+	para "Gyarados are rare"
 	line "in that lake…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
 	text "My favorite radio"
 	line "program? I'd say"
-	cont "#mon MUSIC."
+	cont "#mon Music."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
@@ -80,7 +80,7 @@ MahoganyRetroMoveTutorScript:
 	sjump RetroMoveTutorRefused
 
 .TutorMove1:
-	setval ENDURE
+	setval DRAGONBREATH
 	sjump .TryTeachMove
 .TutorMove2:
 	setval SWAGGER
@@ -103,7 +103,7 @@ MahoganyRetroMoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "Endure@"
+	db "Dragonbreath@"
 	db "Swagger@"
 	db "Double Team@"
 	db "CANCEL@"

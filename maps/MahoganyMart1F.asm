@@ -178,7 +178,7 @@ MahoganyMart1FBlackBeltText:
 	para "MAGIKARP are just"
 	line "worthless, but"
 
-	para "GYARADOS are big"
+	para "Gyarados are big"
 	line "moneymakers."
 	done
 

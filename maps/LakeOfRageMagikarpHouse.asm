@@ -100,7 +100,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "The crater filled"
 	line "up with rainwater"
 
-	para "and the LAKE was"
+	para "and the Lake was"
 	line "formed."
 
 	para "That's the story"
@@ -120,7 +120,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "The LAKE hasn't"
+	text "The Lake hasn't"
 	line "been normal since"
 
 	para "those men wearing"

@@ -405,7 +405,7 @@ RadioTower1FRadioCardWomanNotTakingQuizText:
 	done
 
 RadioTower1FLassText:
-	text "BEN is a fabulous"
+	text "Ben is a fabulous"
 	line "DJ."
 
 	para "His sweet voice"

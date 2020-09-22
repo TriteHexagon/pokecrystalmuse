@@ -98,7 +98,7 @@ BuenaPhoneWentOutWithBenText:
 	text "The other day, I"
 	line "went out to eat"
 
-	para "with DJ BEN!"
+	para "with DJ Ben!"
 	line "Isn't it great?"
 
 	para "Not only that, he"
@@ -418,7 +418,7 @@ BuenaPhoneCompanyVacationText:
 BuenaPhoneBenAndFernText:
 	text "Did you know…?"
 
-	para "BEN and FERN talk"
+	para "Ben and Fern talk"
 	line "on the phone for"
 
 	para "hours about what"
@@ -428,14 +428,14 @@ BuenaPhoneBenAndFernText:
 	line "different days of"
 	cont "the week."
 
-	para "One time, FERN's"
+	para "One time, Fern's"
 	line "rapping style kind"
 
 	para "of rubbed off on"
-	line "BEN weirdly."
+	line "Ben weirdly."
 
 	para "So we ended up"
-	line "enduring BEN's"
+	line "enduring Ben's"
 
 	para "silly, chilly, a"
 	line "willy-nilly jive-"

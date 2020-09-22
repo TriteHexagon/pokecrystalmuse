@@ -726,7 +726,7 @@ _PokedexShowText::
 
 _BenIntroText1::
 	text_start
-	line "BEN: #mon MUSIC"
+	line "Ben: #mon Music"
 	done
 
 _BenIntroText2::
@@ -736,17 +736,17 @@ _BenIntroText2::
 
 _BenIntroText3::
 	text_start
-	line "It's me, DJ BEN!"
+	line "It's me, DJ Ben!"
 	done
 
 _FernIntroText1::
 	text_start
-	line "FERN: #MUSIC!"
+	line "Fern: #Music!"
 	done
 
 _FernIntroText2::
 	text_start
-	line "With DJ FERN!"
+	line "With DJ Fern!"
 	done
 
 _BenFernText1::
