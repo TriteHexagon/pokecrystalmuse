@@ -281,7 +281,7 @@ LakeOfRageLanceIntroText:
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "Lance: Excellent!"
 
 	para "It seems that the"
 	line "LAKE's MAGIKARP"
@@ -306,7 +306,7 @@ LakeOfRageLanceRefusedText:
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
+	text "Lance: Hm? Are you"
 	line "going to help me?"
 	done
 

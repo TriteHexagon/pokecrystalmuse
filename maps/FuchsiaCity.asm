@@ -54,8 +54,8 @@ FuchsiaCityYoungsterText:
 	text "One of the ELITE"
 	line "FOUR used to be"
 
-	para "the LEADER of"
-	line "Fuchsia's GYM."
+	para "the Leader of"
+	line "Fuchsia's Gym."
 	done
 
 FuchsiaCityPokefanMText:
@@ -85,8 +85,8 @@ FuchsiaCitySignText:
 
 FuchsiaGymSignText:
 	text "Fuchsia City"
-	line "#mon GYM"
-	cont "LEADER: JANINE"
+	line "#mon Gym"
+	cont "Leader: JANINE"
 
 	para "The Poisonous"
 	line "Ninja Master"

@@ -76,7 +76,7 @@ ChadBlueGossipText:
 	line "grandson and a"
 
 	para "former #mon"
-	line "League CHAMPION!"
+	line "League Champion!"
 
 	para "He's one super"
 	line "#mon trainer!"

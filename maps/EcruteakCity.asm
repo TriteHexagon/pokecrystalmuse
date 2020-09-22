@@ -207,7 +207,7 @@ EcruteakCityGramps3Text:
 	line "has been passed"
 
 	para "down by Ecruteak"
-	line "GYM LEADERS."
+	line "Gym Leaders."
 
 	para "Me?"
 
@@ -234,8 +234,8 @@ TinTowerSignText:
 
 EcruteakGymSignText:
 	text "Ecruteak City"
-	line "#mon GYM"
-	cont "LEADER: MORTY"
+	line "#mon Gym"
+	cont "Leader: MORTY"
 
 	para "The Mystic Seer of"
 	line "the Future"

@@ -207,7 +207,7 @@ ClairText_Wait:
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
+	text "Clair: I'm sorry"
 	line "about this."
 
 	para "Here, take this as"
@@ -240,14 +240,14 @@ ClairText_NoRoom:
 	line "any room for this."
 
 	para "I'm going back to"
-	line "the GYM, so make"
+	line "the Gym, so make"
 
 	para "room, then come"
 	line "see me there."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
+	text "Clair: What's the"
 	line "matter? Aren't you"
 
 	para "going on to the"

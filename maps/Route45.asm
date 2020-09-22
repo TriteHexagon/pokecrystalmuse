@@ -514,12 +514,12 @@ CamperQuentinSeenText:
 
 CamperQuentinBeatenText:
 	text "I was tough at the"
-	line "BATTLE TOWER…"
+	line "Battle Tower…"
 	done
 
 CamperQuentinAfterBattleText:
 	text "Have you been to"
-	line "the BATTLE TOWER?"
+	line "the Battle Tower?"
 
 	para "I never, ever lose"
 	line "there, but…"
@@ -527,7 +527,10 @@ CamperQuentinAfterBattleText:
 
 Route45SignText:
 	text "Route 45"
-	line "Mountain Rd. Ahead"
+	line "Mountain road"
+	
+	para "ahead. Beware of"
+	line "sandstorms."
 	done
 
 ; Nugget Maniac

@@ -398,7 +398,7 @@ DragonShrineElderGreetingText:
 	para "No need to explain"
 	line "why you came."
 
-	para "CLAIR sent you"
+	para "Clair sent you"
 	line "here, didn't she?"
 
 	para "That girl is a"
@@ -472,7 +472,7 @@ DragonShrineMustIInformLanceText:
 
 	para "Admit defeat and"
 	line "confer the RISING-"
-	cont "BADGE!"
+	cont "Badge!"
 
 	para "…Or must I inform"
 	line "LANCE of this?"
@@ -533,7 +533,7 @@ DragonShrineSymbolicDragonText:
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
+	text "Clair appears to"
 	line "have learned an"
 
 	para "invaluable lesson"
@@ -549,7 +549,7 @@ DragonShrineSilverIsInTrainingText:
 	cont "training here."
 
 	para "He is much like"
-	line "CLAIR when she was"
+	line "Clair when she was"
 
 	para "younger. It is a"
 	line "little worrisome…"

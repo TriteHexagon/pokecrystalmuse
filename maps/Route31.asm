@@ -316,13 +316,13 @@ Text_Route31SleepyManGotMail:
 	text "…Zzzz… Huh?"
 
 	para "What's that? You"
-	line "have MAIL for me?"
+	line "have Mail for me?"
 	done
 
 Text_Route31HandOverMailMon:
 	text "<PLAYER> handed"
 	line "over the #mon"
-	cont "holding the MAIL."
+	cont "holding the Mail."
 	done
 
 Text_Route31ReadingMail:
@@ -364,7 +364,7 @@ Text_Route31DescribeSleepTalk:
 	done
 
 Text_Route31WrongMail:
-	text "This MAIL isn't"
+	text "This Mail isn't"
 	line "for me."
 	done
 
@@ -373,7 +373,7 @@ Text_Route31MissingMail:
 	line "mon so special?"
 
 	para "It doesn't have"
-	line "any MAIL."
+	line "any Mail."
 	done
 
 Text_Route31DeclinedToHandOverMail:
@@ -399,7 +399,7 @@ Route31YoungsterText:
 	cont "FALKNER."
 
 	para "He's the leader of"
-	line "Violet City's GYM."
+	line "Violet City's Gym."
 	done
 
 Route31SignText:

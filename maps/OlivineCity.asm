@@ -263,8 +263,8 @@ OlivineCityPortSignText:
 
 OlivineGymSignText:
 	text "Olivine City"
-	line "#mon GYM"
-	cont "LEADER: JASMINE"
+	line "#mon Gym"
+	cont "Leader: JASMINE"
 
 	para "The Steel-Clad"
 	line "Defense Girl"
@@ -277,13 +277,13 @@ OlivineLighthouseSignText:
 	done
 
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
+	text "Battle Tower ahead"
 	line "Opening Now!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen:
 ; unused; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER AHEAD"
+	text "Battle Tower ahead"
 	done
 
 OlivineCity_MapEvents:

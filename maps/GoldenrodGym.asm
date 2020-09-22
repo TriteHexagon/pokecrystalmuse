@@ -221,7 +221,7 @@ WhitneyWhatDoYouWantText:
 	text "…Sniff…"
 
 	para "What? What do you"
-	line "want? A BADGE?"
+	line "want? A Badge?"
 
 	para "Oh, right."
 	line "I forgot. Here's"
@@ -362,7 +362,7 @@ GoldenrodGymGuyText:
 	text "Yo! CHAMP in"
 	line "making!"
 
-	para "This GYM is home"
+	para "This Gym is home"
 	line "to Normal-type"
 	cont "#mon trainers."
 

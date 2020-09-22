@@ -932,7 +932,7 @@ Text_RejectMonWithMail:
 	line "@"
 	text_ram wStringBuffer1
 	text " that"
-	cont "has MAIL with you."
+	cont "has Mail with you."
 	prompt
 
 Text_TimeCapsuleClosed:

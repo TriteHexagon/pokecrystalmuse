@@ -36,9 +36,9 @@ LavenderPokecenter1FYoungsterScript:
 
 LavenderPokecenter1FGentlemanText:
 	text "To the north of"
-	line "Lavender is ROCK"
+	line "Lavender is Rock"
 
-	para "TUNNEL. Go through"
+	para "Tunnel. Go through"
 	line "it to get to the"
 	cont "Power Plant."
 	done
@@ -49,7 +49,7 @@ LavenderPokecenter1FTeacherText:
 	cont "# FLUTE music."
 
 	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
+	line "needs an EXPN Card"
 	cont "to tune into it."
 	done
 
@@ -61,13 +61,13 @@ LavenderPokecenter1FYoungsterText:
 	line "run either…"
 
 	para "It also means the"
-	line "RADIO STATION"
+	line "Radio Station"
 	cont "can't broadcast…"
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
 	text "The Director of"
-	line "the RADIO STATION"
+	line "the Radio Station"
 	cont "sure was happy."
 
 	para "He said they're"

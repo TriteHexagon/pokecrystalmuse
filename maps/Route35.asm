@@ -328,7 +328,7 @@ PicnickerBrookeAfterBattleText:
 
 PicnickerKimSeenText:
 	text "Are you going to"
-	line "the GYM? Me too!"
+	line "the Gym? Me too!"
 	done
 
 PicnickerKimBeatenText:
@@ -337,7 +337,7 @@ PicnickerKimBeatenText:
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM Badges are"
+	text "The Gym Badges are"
 	line "pretty. I collect"
 	cont "them."
 	done

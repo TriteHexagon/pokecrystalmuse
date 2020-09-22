@@ -75,9 +75,9 @@ SaffronPokecenter1FTeacherMobileText:
 
 SaffronPokecenter1FFisherText:
 	text "I just happened to"
-	line "come through ROCK"
+	line "come through Rock"
 
-	para "TUNNEL. There was"
+	para "Tunnel. There was"
 	line "some commotion at"
 	cont "the Power Plant."
 	done

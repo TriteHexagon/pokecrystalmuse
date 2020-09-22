@@ -460,7 +460,7 @@ CooltrainermAllenAfterBattleText:
 	line "so tough."
 
 	para "I wonder if"
-	line "Ecruteak GYM's"
+	line "Ecruteak Gym's"
 
 	para "MORTY is still in"
 	line "training?"
@@ -494,7 +494,7 @@ CooltrainerfCybilAfterBattleText:
 
 Route44Sign1Text:
 	text "Route 44"
-	line "ICE PATH AHEAD"
+	line "ICE PATH ahead"
 	done
 
 Route44Sign2Text:

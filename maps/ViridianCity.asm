@@ -125,20 +125,20 @@ ViridianCityCoffeeGrampsDoubtedText:
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
-	line "have a LEADER"
+	text "This Gym didn't"
+	line "have a Leader"
 	cont "until recently."
 
 	para "A young man from"
 	line "Pallet became the"
 
-	para "LEADER, but he's"
+	para "Leader, but he's"
 	line "often away."
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
 	text "Are you going to"
-	line "battle the LEADER?"
+	line "battle the Leader?"
 
 	para "Good luck to you."
 	line "You'll need it."
@@ -191,8 +191,8 @@ ViridianCitySignText:
 
 ViridianGymSignText:
 	text "Viridian City"
-	line "#mon GYM"
-	cont "LEADER: …"
+	line "#mon Gym"
+	cont "Leader: …"
 
 	para "The rest of the"
 	line "text is illegible…"

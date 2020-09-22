@@ -68,7 +68,7 @@ SwimmerfNicoleAfterBattleText:
 
 SwimmerfLoriSeenText:
 	text "What an impressive"
-	line "collection of GYM"
+	line "collection of Gym"
 
 	para "Badges. We should"
 	line "battle!"
@@ -106,8 +106,8 @@ CinnabarGymSignText:
 	text "What does this"
 	line "sign say?"
 
-	para "Cinnabar GYM"
-	line "LEADER: BLAINE"
+	para "Cinnabar Gym"
+	line "Leader: BLAINE"
 	done
 
 Route20_MapEvents:

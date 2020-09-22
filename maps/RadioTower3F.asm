@@ -318,13 +318,13 @@ ScientistMarcAfterBattleText:
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the CARD KEY"
+	text "It's the Card KEY"
 	line "slot."
 	done
 
 InsertedTheCardKeyText:
 	text "<PLAYER> inserted"
-	line "the CARD KEY."
+	line "the Card KEY."
 	done
 
 RadioTower3FPersonnelSignText:

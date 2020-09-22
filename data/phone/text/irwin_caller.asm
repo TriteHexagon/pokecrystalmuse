@@ -9,7 +9,7 @@ IrwinRocketTakeoverRumorText:
 	text "<PLAY_G>, have you"
 	line "heard?"
 
-	para "Goldenrod's RADIO"
+	para "Goldenrod's Radio"
 	line "TOWER has been"
 
 	para "taken over by Team"
@@ -204,13 +204,13 @@ IrwinFogBadgeGossipText:
 	text "I saw, I heard!"
 
 	para "You beat MORTY of"
-	line "Ecruteak GYM!"
+	line "Ecruteak Gym!"
 
 	para "Th-that's just"
 	line "incredible!"
 
 	para "I actually went to"
-	line "the GYM's entrance"
+	line "the Gym's entrance"
 
 	para "to cheer you on."
 	line "Did you know that?"

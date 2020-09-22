@@ -229,7 +229,7 @@ VioletCityGrampsText:
 	text "FALKNER, from the"
 	line "Violet #mon"
 
-	para "GYM, is a fine"
+	para "Gym, is a fine"
 	line "trainer!"
 
 	para "He inherited his"
@@ -257,8 +257,8 @@ VioletCitySignText:
 
 VioletGymSignText:
 	text "Violet City"
-	line "#mon GYM"
-	cont "LEADER: FALKNER"
+	line "#mon Gym"
+	cont "Leader: Falkner"
 
 	para "The Elegant Master"
 	line "of Flying #mon"

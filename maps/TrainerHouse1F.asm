@@ -88,7 +88,7 @@ TrainerHouse1FYoungsterText:
 	para "battle all kinds"
 	line "of people."
 
-	para "The CHAMPION from"
+	para "The Champion from"
 	line "Pallet traveled to"
 
 	para "all the cities and"

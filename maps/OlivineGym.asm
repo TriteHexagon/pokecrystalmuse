@@ -128,7 +128,7 @@ Jasmine_BetterTrainer:
 	line "League rules, I"
 
 	para "confer upon you"
-	line "this BADGE."
+	line "this Badge."
 	done
 
 Text_ReceivedMineralBadge:
@@ -183,8 +183,8 @@ OlivineGymGuyWinText:
 	done
 
 OlivineGymGuyPreText:
-	text "JASMINE, the GYM"
-	line "LEADER, is at the"
+	text "JASMINE, the Gym"
+	line "Leader, is at the"
 	cont "LIGHTHOUSE."
 
 	para "She's been tending"

@@ -231,9 +231,9 @@ BuenaPhoneGotAColdText:
 
 BuenaPhoneRadioCardQuestionsText:
 	text "Hey, <PLAY_G>."
-	line "You won that RADIO"
+	line "You won that Radio"
 
-	para "CARD by beating"
+	para "Card by beating"
 	line "the quiz at the"
 
 	para "reception desk,"
@@ -254,7 +254,7 @@ BuenaPhonePikachuFanClubText:
 	line "more people are"
 
 	para "taking part in my"
-	line "PASSWORD show."
+	line "Password Show."
 
 	para "But when PIKACHU"
 	line "was the password,"
@@ -389,7 +389,7 @@ BuenaPhoneStarterPokemonText:
 
 BuenaPhoneCompanyVacationText:
 	text "Guess what? All of"
-	line "us from the RADIO"
+	line "us from theRadio"
 
 	para "TOWER are going on"
 	line "a company vacation"
@@ -400,7 +400,7 @@ BuenaPhoneCompanyVacationText:
 	para "We're wasting our"
 	line "vacation on a trip"
 
-	para "to another RADIO"
+	para "to anotherRadio"
 	line "TOWER?"
 
 	para "I'd much rather go"
@@ -517,7 +517,7 @@ BuenaPhoneCoopedUpInRadioTowerAnswerText:
 	line "outside today?"
 
 	para "When you're cooped"
-	line "up in the RADIO"
+	line "up in theRadio"
 
 	para "TOWER as much as I"
 	line "am, you lose touch"

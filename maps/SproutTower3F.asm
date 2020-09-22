@@ -249,8 +249,8 @@ SageLiFlashExplanationText:
 	para "But to use it out"
 	line "of battle, you"
 
-	para "need the BADGE"
-	line "from Violet's GYM."
+	para "need the Badge"
+	line "from Violet's Gym."
 	done
 
 SageLiAfterBattleText:

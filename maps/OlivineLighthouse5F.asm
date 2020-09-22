@@ -61,7 +61,7 @@ SailorErnestAfterBattleText:
 	text "A Gym Leader isn't"
 	line "just about being"
 
-	para "strong. A LEADER"
+	para "strong. A Leader"
 	line "also needs to be"
 	cont "compassionate."
 	done

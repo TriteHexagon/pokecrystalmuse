@@ -17,7 +17,7 @@ ToddDefeatedMonText:
 	text " easily."
 
 	para "I should challenge"
-	line "the Goldenrod GYM."
+	line "the Goldenrod Gym."
 	done
 
 ToddLostAMonText:

@@ -276,7 +276,7 @@ RadioTower5FRocketBossBeforeText:
 	line "the trainer."
 
 	para "We intend to take"
-	line "over this RADIO"
+	line "over this Radio"
 
 	para "STATION and an-"
 	line "nounce our come-"
@@ -344,7 +344,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "creaky."
 
 	para "So we replaced it"
-	line "with our RADIO"
+	line "with our Radio"
 	cont "TOWER."
 
 	para "We dug up that"
@@ -393,7 +393,7 @@ RadioTower5FDirectorText:
 	para "You know, I love"
 	line "#mon."
 
-	para "I built this RADIO"
+	para "I built this Radio"
 	line "TOWER so I could"
 
 	para "express my love"

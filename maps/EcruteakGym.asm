@@ -223,7 +223,7 @@ MortyWinLossText:
 	line "enough yet…"
 
 	para "All right. This"
-	line "BADGE is yours."
+	line "Badge is yours."
 	done
 
 Text_ReceivedFogBadge:
@@ -233,7 +233,7 @@ Text_ReceivedFogBadge:
 
 MortyText_FogBadgeSpeech:
 	text "By having FOG-"
-	line "BADGE, #mon up"
+	line "Badge, #mon up"
 
 	para "to L50 will obey"
 	line "you."
@@ -376,8 +376,8 @@ EcruteakGymGuyWinText:
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
-	line "LEADER, is absent."
+	text "MORTY, the Gym"
+	line "Leader, is absent."
 
 	para "Sorry, but you'll"
 	line "have to leave."

@@ -262,7 +262,7 @@ PlateauRivalLoseText:
 	line "With my partners,"
 
 	para "I'm going to be"
-	line "the CHAMPION!"
+	line "the Champion!"
 	done
 
 TeleportGuyText1:

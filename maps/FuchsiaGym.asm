@@ -244,7 +244,7 @@ JanineText_DisappointYou:
 	para "I'm the real deal!"
 
 	para "JANINE of Fuchsia"
-	line "GYM, that's me!"
+	line "Gym, that's me!"
 	done
 
 JanineText_ToughOne:
@@ -302,7 +302,7 @@ LassAliceBeatenText:
 LassAliceAfterText:
 	text "How will you dis-"
 	line "tinguish our real"
-	cont "LEADER?"
+	cont "Leader?"
 	done
 
 LassLindaBeforeText:
@@ -366,7 +366,7 @@ FuchsiaGymGuyText:
 
 	para "you. The trainers"
 	line "all look like the"
-	cont "LEADER, JANINE."
+	cont "Leader, JANINE."
 
 	para "Which of them is"
 	line "the real JANINE?"

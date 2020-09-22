@@ -212,7 +212,7 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
+	text "Lance: I've been"
 	line "waiting for you."
 
 	para "<PLAY_G>!"
@@ -236,7 +236,7 @@ LanceBattleIntroText:
 	line "ful trainer and as"
 
 	para "the #mon League"
-	line "CHAMPION…"
+	line "Champion…"
 
 	para "I, LANCE the drag-"
 	line "on master, accept"
@@ -257,7 +257,7 @@ LanceBattleWinText:
 	line "witnessed the rise"
 
 	para "of a great new"
-	line "CHAMPION!"
+	line "Champion!"
 	done
 
 LanceBattleAfterText:
@@ -324,11 +324,11 @@ LancesRoomOakCongratulationsText:
 LancesRoomMaryInterviewText:
 	text "MARY: Let's inter-"
 	line "view the brand new"
-	cont "CHAMPION!"
+	cont "Champion!"
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: This is"
+	text "Lance: This is"
 	line "getting to be a"
 	cont "bit too noisy…"
 

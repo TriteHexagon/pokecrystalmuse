@@ -147,14 +147,14 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
+	text "I went to the Gym,"
 	line "raring for battles"
 	cont "against trainers…"
 
 	para "It turns out, I"
 	line "stumbled into the"
 
-	para "unused GYM next"
+	para "unused Gym next"
 	line "door."
 
 	para "Boy, I was pretty"
@@ -235,8 +235,8 @@ SaffronCitySignText:
 
 SaffronGymSignText:
 	text "Saffron City"
-	line "#mon GYM"
-	cont "LEADER: SABRINA"
+	line "#mon Gym"
+	cont "Leader: SABRINA"
 
 	para "The Master of"
 	line "Psychic #mon!"

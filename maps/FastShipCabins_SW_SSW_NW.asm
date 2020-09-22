@@ -171,7 +171,7 @@ GuitaristClydeSeenText:
 	text "I'm going to audi-"
 	line "tion my songs at"
 
-	para "Goldenrod's RADIO"
+	para "Goldenrod's Radio"
 	line "STATION."
 	done
 
@@ -183,7 +183,7 @@ GuitaristClydeBeatenText:
 GuitaristClydeAfterBattleMobileText:
 	text "I was going to"
 	line "make my debut at"
-	cont "the BATTLE TOWER…"
+	cont "the Battle Tower…"
 
 	para "I should go back"
 	line "to Vermilion and"
@@ -192,7 +192,7 @@ GuitaristClydeAfterBattleMobileText:
 
 GuitaristClydeAfterBattleText:
 	text "Speaking of the"
-	line "RADIO STATION,"
+	line "Radio Station,"
 
 	para "what's this week's"
 	line "lucky number?"

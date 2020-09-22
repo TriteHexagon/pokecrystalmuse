@@ -214,7 +214,7 @@ GuitaristVincentBeatenText:
 	done
 
 GuitaristVincentAfterBattleText:
-	text "If the GYM's traps"
+	text "If the Gym's traps"
 	line "were working, you"
 
 	para "would have been"
@@ -251,7 +251,7 @@ VermilionGymGuyText:
 	line "cautious. He has"
 
 	para "traps set all over"
-	line "the GYM."
+	line "the Gym."
 
 	para "But--he-heh--the"
 	line "traps aren't"

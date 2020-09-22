@@ -126,7 +126,7 @@ _PasscodeSetText::
 
 	para "Enter this number"
 	line "next time to open"
-	cont "the CARD FOLDER."
+	cont "the Card Folder."
 
 	para ""
 	done
@@ -139,7 +139,7 @@ _FourZerosInvalidText::
 
 _EnterPasscodeText::
 	text "Enter the CARD"
-	next "FOLDER PASSCODE."
+	next "Folder PASSCODE."
 	done
 
 _IncorrectPasscodeText::
@@ -150,7 +150,7 @@ _IncorrectPasscodeText::
 	done
 
 _CardFolderOpenText::
-	text "CARD FOLDER open.@"
+	text "Card Folder open.@"
 	text_end
 
 _OakTimeWokeUpText::
@@ -1021,7 +1021,7 @@ _RocketRadioText10::
 
 _BuenaRadioText1::
 	text_start
-	line "BUENA: BUENA here!"
+	line "Buena: BUENA here!"
 	done
 
 _BuenaRadioText2::
@@ -1058,7 +1058,7 @@ _BuenaRadioText7::
 
 _BuenaRadioMidnightText1::
 	text_start
-	line "BUENA: Oh my…"
+	line "Buena: Oh my…"
 	done
 
 _BuenaRadioMidnightText2::
@@ -1233,20 +1233,20 @@ _TheBoxIsFullText:: ; unreferenced
 ; Mobile Adapter
 
 UnknownText_0x1bd19a::
-	text "A new CARD arrived"
+	text "A new Card arrived"
 	line "from @"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 UnknownText_0x1bd1ba::
-	text "Put this CARD in"
-	line "the CARD FOLDER?"
+	text "Put this Card in"
+	line "the Card Folder?"
 	done
 
 UnknownText_0x1bd1dd::
 	text_ram wStringBuffer2
-	text "'s CARD was"
+	text "'s Card was"
 	line "listed as no.@"
 	text_decimal wStringBuffer1, 1, 2
 	text "."
@@ -1740,7 +1740,7 @@ _CantAcceptEggText::
 	prompt
 
 _RemoveMailText::
-	text "Remove MAIL before"
+	text "Remove Mail before"
 	line "you come see me."
 	prompt
 

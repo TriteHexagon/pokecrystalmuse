@@ -160,7 +160,7 @@ VermilionCitySuperNerdText:
 
 	para "That big building"
 	line "is Vermilion's"
-	cont "#mon GYM."
+	cont "#mon Gym."
 	done
 
 VermilionCitySnorlaxSleepingText:
@@ -182,7 +182,7 @@ VermilionCityBadgeGuyTrainerText:
 	text "Skilled trainers"
 	line "gather in Kanto."
 
-	para "GYM LEADERS are"
+	para "Gym Leaders are"
 	line "especially strong."
 
 	para "They won't be easy"
@@ -191,7 +191,7 @@ VermilionCityBadgeGuyTrainerText:
 
 VermilionCityBadgeGuySomeBadgesText:
 	text "You've started to"
-	line "collect Kanto GYM"
+	line "collect Kanto Gym"
 	cont "Badges?"
 
 	para "Don't you agree"
@@ -215,7 +215,7 @@ VermilionCityBadgeGuyAllBadgesText:
 	text "Congratulations!"
 
 	para "You got all the"
-	line "Kanto GYM Badges."
+	line "Kanto Gym Badges."
 
 	para "I've got a reward"
 	line "for your efforts."
@@ -229,7 +229,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 	line "edge in battle."
 
 	para "I'm sure the Kanto"
-	line "GYM Badges will"
+	line "Gym Badges will"
 	cont "help you."
 	done
 
@@ -242,8 +242,8 @@ VermilionCitySignText:
 
 VermilionGymSignText:
 	text "Vermilion City"
-	line "#mon GYM"
-	cont "LEADER: LT.SURGE"
+	line "#mon Gym"
+	cont "Leader: LT.SURGE"
 
 	para "The Lightning"
 	line "American"

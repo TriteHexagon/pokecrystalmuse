@@ -153,7 +153,7 @@ MountMoonSilverTextLoss:
 	para "With my #mon,"
 	line "I'm going to beat"
 
-	para "the CHAMPION and"
+	para "the Champion and"
 	line "become the world's"
 	cont "greatest trainer."
 	done

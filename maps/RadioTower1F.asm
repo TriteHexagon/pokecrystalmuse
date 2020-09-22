@@ -308,7 +308,7 @@ RadioTower1FRadioCardWomanOfferQuizText:
 
 	para "Answer five ques-"
 	line "tions correctly to"
-	cont "win a RADIO CARD."
+	cont "win a Radio Card."
 
 	para "Slide it into your"
 	line "#Gear to play"
@@ -352,7 +352,7 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	text "So far so good!"
 	line "Question 4:"
 
-	para "Is FALKNER the"
+	para "Is Falkner the"
 	line "Violet Gym Leader"
 
 	para "who uses bird"
@@ -376,7 +376,7 @@ RadioTower1FRadioCardWomanYouWinText:
 	line "Congratulations!"
 
 	para "Here's your prize,"
-	line "a RADIO CARD!"
+	line "a Radio Card!"
 	done
 
 RadioTower1FPokegearIsARadioText:

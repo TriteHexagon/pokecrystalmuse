@@ -134,7 +134,7 @@ Route40Rock:
 	jumpstd SmashRockScript
 
 Route40HiddenHyperPotion:
-	hiddenitem HYPER_POTION, EVENT_ROUTE_40_HIDDEN_HYPER_POTION
+	hiddenitem SILVER_LEAF, EVENT_ROUTE_40_HIDDEN_SILVER_LEAF
 
 Route40TMThunderWave:
 	itemball TM_THUNDER_WAVE
@@ -275,7 +275,7 @@ Route40Lass2Text:
 
 Route40StandingYoungsterText:
 	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	line "the Battle Tower?"
 
 	para "I think a lot of"
 	line "tough trainers"
@@ -291,7 +291,7 @@ Route40StandingYoungsterText:
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
+	text "Monica: Glad to"
 	line "meet you. I'm"
 
 	para "MONICA of Monday."
@@ -304,7 +304,7 @@ MonicaGivesGiftText:
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
+	text "Monica: It's an"
 	line "item that raises"
 
 	para "the power of fly-"
@@ -316,7 +316,7 @@ MonicaGaveGiftText:
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
+	text "Monica: My broth-"
 	line "ers and sisters"
 
 	para "are all over the"
@@ -327,7 +327,7 @@ MonicaMondayText:
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
+	text "Monica: I don't"
 	line "think today is"
 	cont "Monday. How sad…"
 	done

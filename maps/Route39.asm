@@ -327,7 +327,7 @@ MoomooFarmSignText:
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Use HEADBUTT on"
 	line "trees to shake"

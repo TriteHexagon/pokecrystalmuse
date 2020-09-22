@@ -371,7 +371,7 @@ Route30SignText:
 
 MrPokemonsHouseDirectionsSignText:
 	text "MR.#mon'S HOUSE"
-	line "STRAIGHT AHEAD!"
+	line "STRAIGHT ahead!"
 	done
 
 MrPokemonsHouseSignText:
@@ -379,7 +379,7 @@ MrPokemonsHouseSignText:
 	done
 
 Route30TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "No stealing other"
 	line "people's #mon!"

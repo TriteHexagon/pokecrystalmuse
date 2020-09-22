@@ -85,7 +85,7 @@ Route9HiddenEther:
 
 CamperDeanSeenText:
 	text "I came to explore"
-	line "ROCK TUNNEL."
+	line "ROCK Tunnel."
 	done
 
 CamperDeanBeatenText:
@@ -96,8 +96,8 @@ CamperDeanAfterBattleText:
 	text "My #mon were"
 	line "hurt before even"
 
-	para "entering ROCK"
-	line "TUNNEL."
+	para "entering Rock"
+	line "Tunnel."
 
 	para "I'd better take"
 	line "them to a #mon"

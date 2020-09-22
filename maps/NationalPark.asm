@@ -317,7 +317,7 @@ NationalParkLassText:
 	done
 
 NationalParkPokefanFText:
-	text "This is MAIL I got"
+	text "This is Mail I got"
 	line "from my daughter."
 	cont "It cheers me up."
 	done
@@ -488,7 +488,7 @@ LassKriseAfterBattleText:
 	done
 
 NationalParkRelaxationSquareText:
-	text "RELAXATION SQUARE"
+	text "Relaxation Square"
 	line "National Park"
 	done
 
@@ -500,15 +500,15 @@ NationalParkBattleNoticeText:
 	line "in the grass."
 
 	para "National Park"
-	line "WARDEN'S OFFICE"
+	line "Warden's Office"
 	done
 
 NationalParkTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "Print out MAIL by"
+	para "Print out Mail by"
 	line "opening it then"
-	cont "pressing START."
+	cont "pressing Start."
 	done
 
 NationalPark_MapEvents:

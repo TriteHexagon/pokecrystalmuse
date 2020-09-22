@@ -777,13 +777,13 @@ _MobileOnlyThreeMonMayEnterText::
 
 ; unreferenced mobile
 _MobileCardFolderIntro1Text::
-	text "The CARD FOLDER"
+	text "The Card Folder"
 	line "stores your and"
 
 	para "your friends'"
-	line "CARDS."
+	line "CardS."
 
-	para "A CARD contains"
+	para "A Card contains"
 	line "information like"
 
 	para "the person's name,"
@@ -827,16 +827,16 @@ _MobileCardFolderIntro4Text::
 	text "To safely store"
 	line "your collection of"
 
-	para "CARDS, you must"
+	para "CardS, you must"
 	line "set a PASSCODE for"
-	cont "your CARD FOLDER."
+	cont "your Card Folder."
 
 	para ""
 	done
 
 ; unreferenced mobile
 _MobileCardFolderAskDeleteText::
-	text "If the CARD FOLDER"
+	text "If the Card Folder"
 	line "is deleted, all"
 
 	para "its CARDS and the"
@@ -844,11 +844,11 @@ _MobileCardFolderAskDeleteText::
 	cont "be deleted."
 
 	para "Beware--a deleted"
-	line "CARD FOLDER can't"
+	line "Card Folder can't"
 	cont "be restored."
 
 	para "Want to delete"
-	line "your CARD FOLDER?"
+	line "your Card Folder?"
 	done
 
 ; unreferenced mobile
@@ -859,7 +859,7 @@ _MobileCardFolderDeleteAreYouSureText::
 
 ; unreferenced mobile
 _MobileCardFolderDeletedText::
-	text "The CARD FOLDER"
+	text "The Card Folder"
 	line "has been deleted."
 
 	para ""
@@ -868,7 +868,7 @@ _MobileCardFolderDeletedText::
 ; unreferenced mobile
 _MobileCardFolderAskOpenOldText::
 	text "There is an older"
-	line "CARD FOLDER from a"
+	line "Card Folder from a"
 	cont "previous journey."
 
 	para "Do you want to"
@@ -878,13 +878,13 @@ _MobileCardFolderAskOpenOldText::
 ; unreferenced mobile
 _MobileCardFolderAskDeleteOldText::
 	text "Delete the old"
-	line "CARD FOLDER?"
+	line "Card Folder?"
 	done
 
 ; unreferenced mobile
 _MobileCardFolderFinishRegisteringCardsText::
 	text "Finish registering"
-	line "CARDS?"
+	line "CardS?"
 	done
 
 _PhoneWrongNumberText::

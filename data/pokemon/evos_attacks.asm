@@ -1724,24 +1724,32 @@ ElectrodeEvosAttacks:
 ExeggcuteEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
+	db 1, ROLLOUT
 	db 1, HYPNOSIS
+	db 1, CONFUSION
 	db 7, REFLECT
-	db 13, LEECH_SEED
-	db 19, CONFUSION
-	db 25, STUN_SPORE
-	db 31, POISONPOWDER
-	db 37, SLEEP_POWDER
+	db 11, LEECH_SEED
+	db 17, ABSORB ;replace Bullet Seed
+	db 19, STUN_SPORE
+	db 21, POISONPOWDER
+	db 23, SLEEP_POWDER
+	db 27, PSYBEAM
+	db 33, SYNTHESIS ;replace Worry Seed
+	db 37, SEED_BOMB ;replace Natural Gift
 	db 43, SOLARBEAM
+	db 47, PSYCHIC_M
+	;db 50, SYNTHESIS ; replace Bestow
 	db 0 ; no more level-up moves
 
 ExeggutorEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRANSFORM
 	db 1, HYPNOSIS
 	db 1, CONFUSION
 	db 1, STOMP ;evolution move
-	db 31, TRANSFORM
+	db 17, ABSORB
+	db 27, PSYBEAM
+	db 37, SEED_BOMB ;replace Wood Hammer & Egg Bomb
+	db 47, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:

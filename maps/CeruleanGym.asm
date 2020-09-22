@@ -244,7 +244,7 @@ CeruleanGymNote1Text:
 CeruleanGymNote2Text:
 	text "Since MISTY's out,"
 	line "we'll be away too."
-	cont "GYM TRAINERS"
+	cont "Gym TRAINERS"
 	done
 
 MistyIntroText:
@@ -253,7 +253,7 @@ MistyIntroText:
 	cont "pest!"
 
 	para "You may have a"
-	line "lot of Johto GYM"
+	line "lot of Johto Gym"
 
 	para "Badges, but you'd"
 	line "better not take me"

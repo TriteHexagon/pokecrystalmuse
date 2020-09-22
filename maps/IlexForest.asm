@@ -433,7 +433,7 @@ IlexForestHiddenEther:
 	hiddenitem ETHER, EVENT_ILEX_FOREST_HIDDEN_ETHER
 
 IlexForestHiddenSuperPotion:
-	hiddenitem SUPER_POTION, EVENT_ILEX_FOREST_HIDDEN_SUPER_POTION
+	hiddenitem SILVER_LEAF, EVENT_ILEX_FOREST_HIDDEN_SILVER_LEAF
 
 IlexForestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_ILEX_FOREST_HIDDEN_FULL_HEAL
@@ -889,7 +889,7 @@ IlexForestApprenticeAfterText:
 	para "My boss's #mon"
 	line "won't obey me be-"
 	cont "cause I don't have"
-	cont "a BADGE."
+	cont "a Badge."
 	done
 
 Text_ItsTheMissingPokemon:
@@ -932,7 +932,7 @@ Text_CharcoalMasterOutro:
 	para "Of course, you"
 	line "have to have the"
 
-	para "GYM BADGE from"
+	para "Gym Badge from"
 	line "Azalea to use it."
 	done
 

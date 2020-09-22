@@ -647,7 +647,7 @@ RocketBaseBossRetreatText:
 	done
 
 RocketBaseLancePostBattleText:
-	text "LANCE: That did"
+	text "Lance: That did"
 	line "it. We defeated"
 
 	para "all the Rockets"
@@ -705,12 +705,12 @@ RockerBaseLanceElectrodeFaintText:
 	done
 
 RocketBaseLancesSideText:
-	text "LANCE: Leave this"
+	text "Lance: Leave this"
 	line "side to me."
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "LANCE: That odd"
+	text "Lance: That odd"
 	line "signal has finally"
 	cont "stopped."
 
@@ -749,8 +749,8 @@ RocketBaseLanceWhirlpoolText:
 	para "You can use that"
 	line "out of battle only"
 
-	para "with the BADGE"
-	line "from Mahogany GYM."
+	para "with the Badge"
+	line "from Mahogany Gym."
 	done
 
 RocketBaseLanceMonMasterText:
@@ -784,7 +784,7 @@ RocketBaseLanceMonMasterText:
 	done
 
 LanceHealsText1:
-	text "LANCE: Are you all"
+	text "Lance: Are you all"
 	line "right?"
 
 	para "Your #mon are"
@@ -796,7 +796,7 @@ LanceHealsText1:
 	done
 
 LanceHealsText2:
-	text "LANCE: <PLAY_G>,"
+	text "Lance: <PLAY_G>,"
 	line "let's give it our"
 	cont "best for #mon."
 	done

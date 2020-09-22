@@ -80,14 +80,14 @@ Route24RocketAfterBattleText:
 	para "MACHINE PART steal"
 	line "by me, hide it I"
 
-	para "did in GYM of the"
+	para "did in Gym of the"
 	line "Cerulean."
 
 	para "Inside water put"
 	line "it I did. Look for"
 
 	para "in water center of"
-	line "GYM at."
+	line "Gym at."
 
 	para "But you forget me"
 	line "not!"

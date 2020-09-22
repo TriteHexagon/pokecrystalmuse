@@ -49,7 +49,7 @@ CinnabarIslandBlueText:
 	para "My name's BLUE."
 
 	para "I was once the"
-	line "CHAMPION, although"
+	line "Champion, although"
 
 	para "it was for only a"
 	line "short time…"
@@ -101,7 +101,7 @@ CinnabarIslandBlueText:
 
 	para "If you want to"
 	line "battle me, come to"
-	cont "the Viridian GYM."
+	cont "the Viridian Gym."
 
 	para "I'll take you on"
 	line "then."
@@ -111,7 +111,7 @@ CinnabarIslandGymSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "Cinnabar GYM has"
+	para "Cinnabar Gym has"
 	line "relocated to SEA-"
 	cont "FOAM ISLANDS."
 

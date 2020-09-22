@@ -48,7 +48,7 @@ LavenderTownPokefanMText:
 	text "That's quite some"
 	line "building, eh?"
 
-	para "It's Kanto's RADIO"
+	para "It's Kanto's Radio"
 	line "TOWER."
 	done
 
@@ -83,8 +83,8 @@ LavenderTownSignText:
 	done
 
 KantoRadioStationSignText:
-	text "Kanto RADIO"
-	line "STATION"
+	text "Kanto Radio"
+	line "Station"
 
 	para "Your Favorite"
 	line "Programs On-Air"

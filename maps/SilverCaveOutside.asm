@@ -15,10 +15,10 @@ MtSilverSign:
 	jumptext MtSilverSignText
 
 SilverCaveOutsideHiddenFullRestore:
-	hiddenitem FULL_RESTORE, EVENT_SILVER_CAVE_OUTSIDE_HIDDEN_FULL_RESTORE
+	hiddenitem GOLD_LEAF, EVENT_SILVER_CAVE_OUTSIDE_HIDDEN_GOLD_LEAF
 
 MtSilverSignText:
-	text "MT.SILVER"
+	text "Mt. Silver"
 	done
 
 SilverCaveOutside_MapEvents:

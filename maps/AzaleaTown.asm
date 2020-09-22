@@ -417,8 +417,8 @@ KurtsHouseSignText:
 
 AzaleaGymSignText:
 	text "Azalea Town"
-	line "#mon GYM"
-	cont "LEADER: BUGSY"
+	line "#mon Gym"
+	cont "Leader: BUGSY"
 
 	para "The Walking"
 	line "Bug #mon"

@@ -553,7 +553,7 @@ UnknownText_0x61cef:
 	cont "one!"
 
 	para "If everyone did"
-	line "that, MAIL could"
+	line "that, Mail could"
 
 	para "be traded with all"
 	line "sorts of people!"
@@ -797,7 +797,7 @@ GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
 	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	line "the EON Mail."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

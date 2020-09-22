@@ -121,7 +121,7 @@ CeladonCityGramps1Text:
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This GYM"
+	text "Nihihi! This Gym"
 	line "is great! Only"
 
 	para "girls are allowed"
@@ -200,8 +200,8 @@ CeladonCitySignText:
 
 CeladonGymSignText:
 	text "Celadon City"
-	line "#mon GYM"
-	cont "LEADER: ERIKA"
+	line "#mon Gym"
+	cont "Leader: ERIKA"
 
 	para "The Nature-Loving"
 	line "Princess"
@@ -231,7 +231,7 @@ else
 endc
 
 CeladonCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "GUARD SPEC."
 	line "protects #mon"

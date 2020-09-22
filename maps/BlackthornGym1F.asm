@@ -148,7 +148,7 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "I am CLAIR."
+	text "I am Clair."
 
 	para "The world's best"
 	line "dragon master."
@@ -194,7 +194,7 @@ ClairText_GoToDragonsDen:
 	line "take the dragon"
 	cont "user challenge."
 
-	para "Behind this GYM is"
+	para "Behind this Gym is"
 	line "a place called"
 	cont "Dragon's Den."
 
@@ -211,8 +211,8 @@ ClairText_GoToDragonsDen:
 	line "I will recognize"
 
 	para "you as a trainer"
-	line "worthy of a GYM"
-	cont "BADGE!"
+	line "worthy of a Gym"
+	cont "Badge!"
 	done
 
 ClairText_TooMuchToExpect:
@@ -359,7 +359,7 @@ BlackthornGymGuyText:
 	para "are almost done!"
 	line "Count on me!"
 
-	para "CLAIR uses the"
+	para "Clair uses the"
 	line "mythical and sac-"
 	cont "red Dragon-type"
 	cont "#mon."
@@ -376,7 +376,7 @@ BlackthornGymGuyText:
 
 BlackthornGymGuyWinText:
 	text "You were great to"
-	line "beat CLAIR!"
+	line "beat Clair!"
 
 	para "All that's left is"
 	line "the #mon League"
@@ -384,7 +384,7 @@ BlackthornGymGuyWinText:
 
 	para "You're on the way"
 	line "to becoming the"
-	cont "#mon CHAMPION!"
+	cont "#mon Champion!"
 	done
 
 BlackthornGym1F_MapEvents:

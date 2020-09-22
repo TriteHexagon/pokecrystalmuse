@@ -269,14 +269,14 @@ _MysteryGiftReceivedCardText::
 
 _MysteryGiftListedCardText::
 	text_ram wc850
-	text "'s CARD was"
+	text "'s Card was"
 	line "listed as no.@"
 	text_decimal wDeciramBuffer, 1, 2
 	text "."
 	prompt
 
 _MysteryGiftNotRegisteredCardText::
-	text "The CARD was not"
+	text "The Card was not"
 	line "registered."
 	prompt
 

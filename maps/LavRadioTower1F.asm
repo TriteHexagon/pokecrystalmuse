@@ -48,7 +48,7 @@ LavRadioTower1FGentlemanScript:
 	end
 
 .expncardname
-	db "EXPN CARD@"
+	db "EXPN Card@"
 
 LavRadioTower1FSuperNerd2Script:
 	faceplayer
@@ -103,7 +103,7 @@ LavRadioTower1FSuperNerd1Text:
 	text "Many people are"
 	line "hard at work here"
 
-	para "in the RADIO"
+	para "in the Radio"
 	line "TOWER."
 
 	para "They must be doing"
@@ -169,7 +169,7 @@ LavRadioTower1FSuperNerd2Text:
 	line "How unfortunate!"
 
 	para "If you get an EXPN"
-	line "CARD upgrade, you"
+	line "Card upgrade, you"
 
 	para "can tune in. You'd"
 	line "better get one!"

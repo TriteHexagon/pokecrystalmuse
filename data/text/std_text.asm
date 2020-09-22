@@ -197,7 +197,7 @@ HomepageText:
 	done
 
 ; not used
-	text "#mon RADIO!"
+	text "#mon Radio!"
 
 	para "Call in with your"
 	line "requests now!"
@@ -227,7 +227,7 @@ MartSignText:
 	text "For All Your"
 	line "#mon Needs"
 
-	para "#mon MART"
+	para "#mon Mart"
 	done
 
 ContestResults_ReadyToJudgeText:
@@ -297,11 +297,11 @@ ContestResults_PartyFullText:
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
 	text_start
-	line "#mon GYM"
+	line "#mon Gym"
 	done
 
 GymStatue_WinningTrainersText:
-	text "LEADER: @"
+	text "Leader: @"
 	text_ram wStringBuffer4
 	text_start
 	para "WINNING TRAINERS:"

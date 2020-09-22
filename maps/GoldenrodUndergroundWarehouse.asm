@@ -173,7 +173,7 @@ DirectorIntroText:
 	line "Rocket?"
 
 	para "Here. Take this"
-	line "CARD KEY."
+	line "Card KEY."
 	done
 
 DirectorCardKeyText:

@@ -1008,17 +1008,17 @@ ElmAfterTheftText5:
 	line "may have what it"
 
 	para "takes to become"
-	line "the CHAMPION."
+	line "the Champion."
 
 	para "You seem to be"
 	line "getting on great"
 	cont "with #mon too."
 
 	para "You should take"
-	line "the #mon GYM"
+	line "the #mon Gym"
 	cont "challenge."
 
-	para "The closest GYM"
+	para "The closest Gym"
 	line "would be the one"
 	cont "in Violet City."
 	done
@@ -1316,7 +1316,7 @@ ElmsLabTravelTip1Text:
 
 	para "Travel Tip 1:"
 
-	para "Press START to"
+	para "Press Start to"
 	line "open the MENU."
 	done
 

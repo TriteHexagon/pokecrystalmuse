@@ -641,7 +641,7 @@ RuinsOfAlphNorthSignText:
 	done
 
 Route36TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "#mon stats"
 	line "vary--even within"
@@ -658,7 +658,7 @@ Route36TrainerTips1Text:
 	done
 
 Route36TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Use DIG to return"
 	line "to the entrance of"

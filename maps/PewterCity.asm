@@ -68,9 +68,9 @@ PewterCityFruitTree2:
 
 PewterCityCooltrainerFText:
 	text "Have you visited"
-	line "Pewter GYM?"
+	line "Pewter Gym?"
 
-	para "The LEADER uses"
+	para "The Leader uses"
 	line "Rock-type #mon."
 	done
 
@@ -121,8 +121,8 @@ PewterCitySignText:
 
 PewterGymSignText:
 	text "Pewter City"
-	line "#mon GYM"
-	cont "LEADER: BROCK"
+	line "#mon Gym"
+	cont "Leader: BRock"
 
 	para "The Rock Solid"
 	line "#mon Trainer"

@@ -145,20 +145,20 @@ BlackthornCityMartSign:
 Text_ClairIsOut:
 	text "I am sorry."
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para "CLAIR, our Gym"
+	line "Leader, entered"
 
 	para "the Dragon's Den"
-	line "behind the GYM."
+	line "behind the Gym."
 
 	para "I have no idea"
-	line "when our LEADER"
+	line "when our Leader"
 	cont "will return."
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
+	text "CLAIR, our Gym"
+	line "Leader, is waiting"
 	cont "for you."
 
 	para "However, it would"
@@ -190,7 +190,7 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
+	text "If Clair allows"
 	line "it, her grand-"
 	cont "father--our MASTER"
 	cont "--will also."
@@ -282,8 +282,8 @@ BlackthornCitySignText:
 
 BlackthornGymSignText:
 	text "Blackthorn City"
-	line "#mon GYM"
-	cont "LEADER: CLAIR"
+	line "#mon Gym"
+	cont "Leader: Clair"
 
 	para "The Blessed User"
 	line "of Dragon #mon"
@@ -296,11 +296,11 @@ MoveDeletersHouseSignText:
 
 DragonDensSignText:
 	text "Dragon's Den"
-	line "AHEAD"
+	line "ahead"
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "A #mon holding"
 	line "a LUM_BERRY"

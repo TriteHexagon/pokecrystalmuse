@@ -76,7 +76,7 @@ LassConnie1AfterBattleText:
 	line "#mon here, so"
 
 	para "JASMINE can come"
-	line "back to the GYM."
+	line "back to the Gym."
 	done
 
 OlivineLighthouse4F_MapEvents:

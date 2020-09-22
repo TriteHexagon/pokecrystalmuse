@@ -282,7 +282,7 @@ ViridianGymGuyText:
 	para "The Gym Leader is"
 	line "a guy who battled"
 
-	para "the CHAMPION three"
+	para "the Champion three"
 	line "years ago."
 
 	para "He's no pushover."

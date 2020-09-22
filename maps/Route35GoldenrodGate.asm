@@ -120,7 +120,7 @@ Route35GoldenrodGateRandyThanksKidText:
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
 	text "<PLAYER> received a"
-	line "#mon with MAIL."
+	line "#mon with Mail."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:

@@ -99,7 +99,7 @@ LizFalknerGossipText:
 	para "Don't you think"
 	line "FALKNER of Violet"
 
-	para "GYM is cool and"
+	para "Gym is cool and"
 	line "handsome?"
 
 	para "But they say his"
@@ -201,7 +201,7 @@ LizSalonGossipText:
 LizWhitneyGossipText:
 	text "Listen, listen!"
 
-	para "Goldenrod GYM's"
+	para "Goldenrod Gym's"
 	line "WHITNEY began"
 
 	para "battling only a"

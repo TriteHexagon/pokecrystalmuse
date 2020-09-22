@@ -111,7 +111,7 @@ BrockWinLossText:
 	line "than I expected…"
 
 	para "Go ahead--take"
-	line "this BADGE."
+	line "this Badge."
 	done
 
 ReceivedBoulderBadgeText:
@@ -151,7 +151,7 @@ BrockFightDoneText:
 
 CamperJerrySeenText:
 	text "The trainers of"
-	line "this GYM use Rock-"
+	line "this Gym use Rock-"
 	cont "type #mon."
 
 	para "The Rock-type has"
@@ -171,7 +171,7 @@ CamperJerryBeatenText:
 
 CamperJerryAfterBattleText:
 	text "Hey, you! Trainer"
-	line "from Johto! BROCK"
+	line "from Johto! BRock"
 
 	para "is tough. He'll"
 	line "punish you if you"
@@ -187,19 +187,19 @@ PewterGymGuyText:
 	para "really rocking."
 	line "Are you battling"
 
-	para "the GYM LEADERS of"
+	para "the Gym Leaders of"
 	line "Kanto?"
 
 	para "They're strong and"
 	line "dedicated people,"
 
 	para "just like Johto's"
-	line "GYM LEADERS."
+	line "Gym Leaders."
 	done
 
 PewterGymGuyWinText:
 	text "Yo! CHAMP in"
-	line "making! That GYM"
+	line "making! That Gym"
 
 	para "didn't give you"
 	line "much trouble."

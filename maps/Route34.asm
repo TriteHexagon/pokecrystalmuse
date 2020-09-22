@@ -490,7 +490,7 @@ Route34HiddenRareCandy:
 	hiddenitem RARE_CANDY, EVENT_ROUTE_34_HIDDEN_RARE_CANDY
 
 Route34HiddenSuperPotion:
-	hiddenitem SUPER_POTION, EVENT_ROUTE_34_HIDDEN_SUPER_POTION
+	hiddenitem SILVER_LEAF, EVENT_ROUTE_34_HIDDEN_SILVER_LEAF
 
 Route34MovementData_DayCareManWalksBackInside:
 	slow_step LEFT
@@ -742,7 +742,7 @@ Route34SignText:
 	done
 
 Route34TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Berry trees grow"
 	line "new Berries"

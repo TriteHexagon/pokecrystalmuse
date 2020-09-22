@@ -189,7 +189,7 @@ PryceText_Impressed:
 	line "life's obstacles."
 
 	para "You are worthy of"
-	line "this BADGE!"
+	line "this Badge!"
 	done
 
 Text_ReceivedGlacierBadge:
@@ -198,7 +198,7 @@ Text_ReceivedGlacierBadge:
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE lets"
+	text "That Badge lets"
 	line "#mon use WHIRL-"
 	para "POOL to get across"
 	line "real whirlpools."
@@ -255,7 +255,7 @@ BoarderRonaldAfterBattleText:
 	done
 
 BoarderBradSeenText:
-	text "This GYM has a"
+	text "This Gym has a"
 	line "slippery floor."
 
 	para "It's fun, isn't"
@@ -272,7 +272,7 @@ BoarderBradBeatenText:
 	done
 
 BoarderBradAfterBattleText:
-	text "This GYM is great."
+	text "This Gym is great."
 	line "I love boarding"
 	cont "with my #mon!"
 	done
@@ -316,7 +316,7 @@ SkierRoxanneAfterBattleText:
 	line "with precision,"
 
 	para "you won't get far"
-	line "in this GYM."
+	line "in this Gym."
 	done
 
 SkierClarissaSeenText:

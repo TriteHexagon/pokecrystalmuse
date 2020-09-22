@@ -578,7 +578,7 @@ _BTWinF12Text:
 	done
 
 _BTGreetingF13Text:
-	text "BATTLE TOWER is a"
+	text "Battle Tower is a"
 	line "tough place!"
 	done
 

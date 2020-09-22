@@ -148,9 +148,9 @@ OakOpenMtSilverText:
 OakNoKantoBadgesText:
 	text "OAK: Hmm? You're"
 	line "not collecting"
-	cont "Kanto GYM Badges?"
+	cont "Kanto Gym Badges?"
 
-	para "The GYM LEADERS in"
+	para "The Gym Leaders in"
 	line "Kanto are as tough"
 
 	para "as any you battled"
@@ -164,7 +164,7 @@ OakNoKantoBadgesText:
 OakYesKantoBadgesText:
 	text "OAK: Ah, you're"
 	line "collecting Kanto"
-	cont "GYM Badges."
+	cont "Gym Badges."
 
 	para "I imagine that"
 	line "it's hard, but the"
@@ -211,7 +211,7 @@ OaksAssistant3Text:
 	done
 
 OaksLabPoster1Text:
-	text "Press START to"
+	text "Press Start to"
 	line "open the MENU."
 	done
 

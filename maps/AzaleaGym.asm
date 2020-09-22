@@ -174,7 +174,7 @@ BugsyText_ResearchIncomplete:
 	line "complete yet."
 
 	para "OK, you win. Take"
-	line "this BADGE."
+	line "this Badge."
 	done
 
 Text_ReceivedHiveBadge:
@@ -185,7 +185,7 @@ Text_ReceivedHiveBadge:
 BugsyText_HiveBadgeSpeech:
 	text "Do you know the"
 	line "benefits of HIVE-"
-	cont "BADGE?"
+	cont "Badge?"
 
 	para "If you have it,"
 	line "#mon up to L30"
@@ -295,7 +295,7 @@ BugCatcherJoshAfterBattleText:
 TwinsAmyandmay1SeenText:
 	text "AMY: Hi! Are you"
 	line "challenging the"
-	cont "LEADER? No way!"
+	cont "Leader? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
@@ -310,7 +310,7 @@ TwinsAmyandmay1AfterBattleText:
 
 TwinsAmyandmay2SeenText:
 	text "MAY: You want to"
-	line "see the LEADER?"
+	line "see the Leader?"
 	cont "We come first!"
 	done
 

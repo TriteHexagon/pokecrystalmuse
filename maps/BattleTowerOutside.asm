@@ -94,7 +94,7 @@ BattleTowerOutsideSailorText_Mobile:
 
 	para "I'm never giving"
 	line "up until I become"
-	cont "a LEADER!"
+	cont "a Leader!"
 	done
 
 BattleTowerOutsideSailorText:
@@ -110,11 +110,11 @@ BattleTowerOutsideSailorText:
 
 BattleTowerOutsideSignText_NotYetOpen:
 ; unused; originally shown when the Battle Tower was closed
-	text "BATTLE TOWER"
+	text "Battle Tower"
 	done
 
 BattleTowerOutsideSignText:
-	text "BATTLE TOWER"
+	text "Battle Tower"
 
 	para "Take the Ultimate"
 	line "Trainer Challenge!"
@@ -122,7 +122,7 @@ BattleTowerOutsideSignText:
 
 BattleTowerOutsideText_DoorsClosed:
 ; unused; originally shown when the Battle Tower was closed
-	text "The BATTLE TOWER's"
+	text "The Battle Tower's"
 	line "doors are closed…"
 	done
 

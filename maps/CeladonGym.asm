@@ -121,8 +121,8 @@ ErikaBeforeBattleText:
 	line "doze off…"
 
 	para "My name is ERIKA."
-	line "I am the LEADER of"
-	cont "Celadon GYM."
+	line "I am the Leader of"
+	cont "Celadon Gym."
 
 	para "…Oh? All the way"
 	line "from Johto, you"
@@ -189,7 +189,7 @@ ErikaAfterBattleText:
 
 LassMichelleSeenText:
 	text "Do you think a"
-	line "girls-only GYM"
+	line "girls-only Gym"
 	cont "is rare?"
 	done
 

@@ -559,7 +559,7 @@ Route32CooltrainerMText_UnusedSproutTower:
 
 Route32CooltrainerMText_VioletGym:
 	text "Have you gone to"
-	line "the #mon GYM?"
+	line "the #mon Gym?"
 
 	para "You can test your"
 	line "#mon and your-"
@@ -581,7 +581,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "Violet City."
 
 	para "The training at"
-	line "the GYM must have"
+	line "the Gym must have"
 
 	para "been especially"
 	line "helpful."
@@ -818,10 +818,10 @@ PicnickerLiz1AfterText:
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
+	text "That Badge! It's"
 	line "from Violet City!"
 
-	para "You beat FALKNER?"
+	para "You beat Falkner?"
 	done
 
 BirdKeeperPeterBeatenText:
@@ -831,7 +831,7 @@ BirdKeeperPeterBeatenText:
 
 BirdKeeperPeterAfterText:
 	text "I should train"
-	line "again at the GYM"
+	line "again at the Gym"
 	cont "in Violet City."
 	done
 
@@ -869,7 +869,7 @@ Text_MudShotOutro:
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
+	text "Frieda: Yahoo!"
 	line "It's Friday!"
 
 	para "I'm FRIEDA of"
@@ -884,7 +884,7 @@ FriedaGivesGiftText:
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
+	text "Frieda: Give it to"
 	line "a #mon that has"
 	cont "Poison-type moves."
 
@@ -898,7 +898,7 @@ FriedaGaveGiftText:
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
+	text "Frieda: Hiya! What"
 	line "day do you like?"
 
 	para "I love Friday. No"
@@ -909,7 +909,7 @@ FriedaFridayText:
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
+	text "Frieda: Isn't it"
 	line "Friday today?"
 
 	para "It's so boring"
@@ -930,7 +930,7 @@ Route32RuinsSignText:
 
 Route32UnionCaveSignText:
 	text "Union Cave"
-	line "AHEAD"
+	line "ahead"
 	done
 
 Route32_MapEvents:

@@ -63,7 +63,7 @@ MenuData_0x24f56:
 Strings24f5f:
 	db "サファりボール×　　@" ; "SAFARI BALL×  @"
 	db "エサをなげる@" ; "THROW BAIT"
-	db "いしをなげる@" ; "THROW ROCK"
+	db "いしをなげる@" ; "THROW Rock"
 	db "にげる@" ; "RUN"
 
 Function24f7c:

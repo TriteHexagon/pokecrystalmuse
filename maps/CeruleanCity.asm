@@ -201,7 +201,7 @@ CeruleanCityCooltrainerFText3:
 
 CeruleanCityFisherText:
 	text "I'm a huge fan of"
-	line "Cerulean GYM's"
+	line "Cerulean Gym's"
 	cont "MISTY."
 	done
 
@@ -235,8 +235,8 @@ CeruleanCitySignText:
 
 CeruleanGymSignText:
 	text "Cerulean City"
-	line "#mon GYM"
-	cont "LEADER: MISTY"
+	line "#mon Gym"
+	cont "Leader: MISTY"
 
 	para "The Tomboyish"
 	line "Mermaid"
@@ -266,7 +266,7 @@ CeruleanPoliceSignText:
 
 CeruleanCapeSignText:
 	text "Cerulean CAPE"
-	line "AHEAD"
+	line "ahead"
 	done
 
 CeruleanLockedDoorText:

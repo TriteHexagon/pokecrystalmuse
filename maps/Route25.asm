@@ -253,13 +253,13 @@ Route25MistyDateText:
 
 	para "…Oh? Those Badges"
 	line "you have… Are they"
-	cont "Johto GYM Badges?"
+	cont "Johto Gym Badges?"
 
 	para "If you have eight,"
 	line "you must be good."
 
 	para "OK, then. Come to"
-	line "Cerulean GYM."
+	line "Cerulean Gym."
 
 	para "I'll be happy to"
 	line "take you on."

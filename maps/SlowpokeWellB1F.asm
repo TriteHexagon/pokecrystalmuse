@@ -296,7 +296,7 @@ SlowpokeWellB1FSlowpokeWithMailText:
 	text "A SLOWPOKE with"
 	line "its TAIL cut off…"
 
-	para "Huh? It has MAIL."
+	para "Huh? It has Mail."
 	line "Read it?"
 	done
 

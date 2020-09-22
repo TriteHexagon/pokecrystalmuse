@@ -83,7 +83,7 @@ SailorTerrellBeatenText:
 SailorTerrellAfterBattleText:
 	text "Every time I come"
 	line "back to Olivine, I"
-	cont "visit the GYM."
+	cont "visit the Gym."
 
 	para "The Gym Leader's"
 	line "#mon type has"

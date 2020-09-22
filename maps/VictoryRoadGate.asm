@@ -59,7 +59,7 @@ VictoryRoadGateOfficerText:
 
 VictoryRoadGateNotEnoughBadgesText:
 	text "You don't have all"
-	line "the GYM Badges of"
+	line "the Gym Badges of"
 	cont "Johto."
 
 	para "I'm sorry, but I"

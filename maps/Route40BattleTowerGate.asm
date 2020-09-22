@@ -28,7 +28,7 @@ UnknownText_0x9f66f:
 	done
 
 UnknownText_0x9f6ba:
-	text "BATTLE TOWER has"
+	text "Battle Tower has"
 	line "opened."
 
 	para "I want to go, but"
@@ -40,7 +40,7 @@ UnknownText_0x9f6ba:
 
 Route40BattleTowerGateRockerText:
 	text "Are you going to"
-	line "the BATTLE TOWER?"
+	line "the Battle Tower?"
 
 	para "This is a secret,"
 	line "but if you win a"
@@ -54,7 +54,7 @@ UnknownText_0x9f783:
 	line "my #mon so I'll"
 
 	para "be all ready for"
-	line "the BATTLE TOWER."
+	line "the Battle Tower."
 	done
 
 Route40BattleTowerGateTwinText:

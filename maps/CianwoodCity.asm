@@ -197,7 +197,7 @@ ChucksWifeEasierToFlyText:
 ChucksWifeBeatChuckText:
 	text "But you can't use"
 	line "FLY without this"
-	cont "city's GYM BADGE."
+	cont "city's Gym Badge."
 
 	para "If you beat the"
 	line "Gym Leader here,"
@@ -209,7 +209,7 @@ ChucksWifeBeatChuckText:
 
 ChucksWifeGiveHMText:
 	text "That's Cianwood's"
-	line "GYM BADGE!"
+	line "Gym Badge!"
 
 	para "Then you should"
 	line "take this HM."
@@ -258,8 +258,8 @@ CianwoodCityPokefanMText:
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "CHUCK, the Gym"
+	line "Leader, spars with"
 
 	para "his fighting #-"
 	line "MON."
@@ -347,9 +347,9 @@ CianwoodCitySignText:
 
 CianwoodGymSignText:
 	text "Cianwood City"
-	line "#mon GYM"
+	line "#mon Gym"
 
-	para "LEADER: CHUCK"
+	para "Leader: CHUCK"
 
 	para "His Roaring Fists"
 	line "Do the Talking"
@@ -376,7 +376,7 @@ CianwoodPhotoStudioSignText:
 
 CianwoodPokeSeerSignText:
 	text "THE # SEER"
-	line "AHEAD"
+	line "ahead"
 	done
 
 CianwoodCity_MapEvents:

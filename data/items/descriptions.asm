@@ -870,7 +870,7 @@ HeavyBallDesc:
 	next "ing heavy #mon.@"
 
 FlowerMailDesc:
-	db   "Flower-print MAIL."
+	db   "Flower-print Mail."
 	next "(HOLD)@"
 
 LevelBallDesc:
@@ -958,7 +958,7 @@ BrickPieceDesc:
 	next "tile.@"
 
 SurfMailDesc:
-	db   "LAPRAS-print MAIL."
+	db   "LAPRAS-print Mail."
 	next "(HOLD)@"
 
 LiteBlueMailDesc:
@@ -970,27 +970,27 @@ PortraitMailDesc:
 	next "holder's likeness.@"
 
 LovelyMailDesc:
-	db   "Heart-print MAIL."
+	db   "Heart-print Mail."
 	next "(HOLD)@"
 
 EonMailDesc:
-	db   "EEVEE-print MAIL."
+	db   "EEVEE-print Mail."
 	next "(HOLD)@"
 
 MorphMailDesc:
-	db   "DITTO-print MAIL."
+	db   "DITTO-print Mail."
 	next "(HOLD)@"
 
 BlueSkyMailDesc:
-	db   "Sky-print MAIL."
+	db   "Sky-print Mail."
 	next "(HOLD)@"
 
 MusicMailDesc:
-	db   "NATU-print MAIL."
+	db   "NATU-print Mail."
 	next "(HOLD)@"
 
 MirageMailDesc:
-	db   "MEW-print MAIL."
+	db   "MEW-print Mail."
 	next "(HOLD)@"
 
 TeruSama25Desc:

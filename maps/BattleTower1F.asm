@@ -347,7 +347,7 @@ MovementData_BattleTowerBattleRoomPlayerTurnsToFaceNextOpponent:
 	step_end
 
 Text_BattleTowerWelcomesYou:
-	text "BATTLE TOWER"
+	text "Battle Tower"
 	line "welcomes you!"
 
 	para "I could show you"
@@ -365,7 +365,7 @@ Text_RightThisWayToYourBattleRoom:
 	done
 
 Text_BattleTowerIntroduction_1:
-	text "BATTLE TOWER is a"
+	text "Battle Tower is a"
 	line "facility made for"
 	cont "#mon battles."
 
@@ -380,7 +380,7 @@ Text_BattleTowerIntroduction_1:
 
 	para "There are many"
 	line "BATTLE ROOMS in"
-	cont "the BATTLE TOWER."
+	cont "the Battle Tower."
 
 	para "Each ROOM holds"
 	line "seven trainers."
@@ -392,9 +392,9 @@ Text_BattleTowerIntroduction_1:
 	line "good record, you"
 
 	para "could become the"
-	line "ROOM's LEADER."
+	line "ROOM's Leader."
 
-	para "All LEADERS will"
+	para "All Leaders will"
 	line "be recorded in the"
 
 	para "HONOR ROLL for"
@@ -425,7 +425,7 @@ Text_BattleTowerIntroduction_1:
 	done
 
 Text_BattleTowerIntroduction_2:
-	text "BATTLE TOWER is a"
+	text "Battle Tower is a"
 	line "facility made for"
 	cont "#mon battles."
 
@@ -440,7 +440,7 @@ Text_BattleTowerIntroduction_2:
 
 	para "There are many"
 	line "BATTLE ROOMS in"
-	cont "the BATTLE TOWER."
+	cont "the Battle Tower."
 
 	para "Each ROOM holds"
 	line "seven trainers."
@@ -462,7 +462,7 @@ Text_BattleTowerIntroduction_2:
 
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
 	text "Received a list of"
-	line "LEADERS on the"
+	line "Leaders on the"
 	cont "HONOR ROLL."
 
 	para ""
@@ -497,7 +497,7 @@ Text_BeatenAllTheTrainers_Mobile:
 	line "results, you may"
 
 	para "be chosen as a"
-	line "ROOM LEADER."
+	line "ROOM Leader."
 
 	para ""
 	done
@@ -559,7 +559,7 @@ Text_PleaseStepThisWay:
 Text_WouldYouLikeToHearAboutTheBattleTower:
 	text "Would you like to"
 	line "hear about the"
-	cont "BATTLE TOWER?"
+	cont "Battle Tower?"
 	done
 
 Text_CantBeRegistered:
@@ -583,12 +583,12 @@ Text_CantBeRegistered_PreviousRecordDeleted:
 	done
 
 Text_CheckTheLeaderHonorRoll:
-	text "Check the LEADER"
+	text "Check the Leader"
 	line "HONOR ROLL?"
 	done
 
 Text_ReadBattleTowerRules:
-	text "BATTLE TOWER rules"
+	text "Battle Tower rules"
 	line "are written here."
 
 	para "Read the rules?"

@@ -332,7 +332,7 @@ BugContestResultsScript:
 	clearevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
 	clearevent EVENT_CONTEST_OFFICER_HAS_SUN_STONE
 	clearevent EVENT_CONTEST_OFFICER_HAS_EVERSTONE
-	clearevent EVENT_CONTEST_OFFICER_HAS_GOLD_BERRY
+	clearevent EVENT_CONTEST_OFFICER_HAS_GOLD_LEAF
 	clearevent EVENT_CONTEST_OFFICER_HAS_BERRY
 	opentext
 	farwritetext ContestResults_ReadyToJudgeText
@@ -400,6 +400,14 @@ BugContestResults_CleanUp:
 
 BugContestResults_FirstPlace:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	getitemname STRING_BUFFER_4, GOLD_LEAF
+	farwritetext ContestResults_PlayerWonAPrizeText
+	waitbutton
+	verbosegiveitem GOLD_LEAF
+	iffalse BugContestResults_NoRoomForGoldLeaf
+	sjump BugContestResults_ReturnAfterWinnersPrize
+
+BugContestResults_SecondPlace:
 	getitemname STRING_BUFFER_4, SUN_STONE
 	farwritetext ContestResults_PlayerWonAPrizeText
 	waitbutton
@@ -407,20 +415,12 @@ BugContestResults_FirstPlace:
 	iffalse BugContestResults_NoRoomForSunStone
 	sjump BugContestResults_ReturnAfterWinnersPrize
 
-BugContestResults_SecondPlace:
+BugContestResults_ThirdPlace:
 	getitemname STRING_BUFFER_4, EVERSTONE
 	farwritetext ContestResults_PlayerWonAPrizeText
 	waitbutton
 	verbosegiveitem EVERSTONE
 	iffalse BugContestResults_NoRoomForEverstone
-	sjump BugContestResults_ReturnAfterWinnersPrize
-
-BugContestResults_ThirdPlace:
-	getitemname STRING_BUFFER_4, SITRUS_BERRY
-	farwritetext ContestResults_PlayerWonAPrizeText
-	waitbutton
-	verbosegiveitem SITRUS_BERRY
-	iffalse BugContestResults_NoRoomForGoldBerry
 	sjump BugContestResults_ReturnAfterWinnersPrize
 
 BugContestResults_NoRoomForSunStone:
@@ -435,10 +435,10 @@ BugContestResults_NoRoomForEverstone:
 	setevent EVENT_CONTEST_OFFICER_HAS_EVERSTONE
 	sjump BugContestResults_ReturnAfterWinnersPrize
 
-BugContestResults_NoRoomForGoldBerry:
+BugContestResults_NoRoomForGoldLeaf:
 	farwritetext BugContestPrizeNoRoomText
 	promptbutton
-	setevent EVENT_CONTEST_OFFICER_HAS_GOLD_BERRY
+	setevent EVENT_CONTEST_OFFICER_HAS_GOLD_LEAF
 	sjump BugContestResults_ReturnAfterWinnersPrize
 
 BugContestResults_NoRoomForBerry:
