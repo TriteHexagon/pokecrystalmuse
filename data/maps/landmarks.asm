@@ -20,7 +20,7 @@ Landmarks:
 	landmark  82, 124, Route33Name
 	landmark  68, 124, AzaleaTownName
 	landmark  70, 122, SlowpokeWellName
-	landmark  52, 120, IlexForestName
+	landmark  60, 124, IlexForestName
 	landmark  52, 112, Route34Name
 	landmark  52,  92, GoldenrodCityName
 	landmark  50,  92, RadioTowerName
@@ -41,16 +41,16 @@ Landmarks:
 	landmark  28, 100, Route41Name
 	landmark  20, 100, CianwoodCityName
 	landmark  92,  44, Route42Name
-	landmark  84,  44, MtMortarName
+	landmark  84,  36, MtMortarName
 	landmark 108,  44, MahoganyTownName
 	landmark 108,  36, Route43Name
 	landmark 108,  28, LakeOfRageName
 	landmark 120,  44, Route44Name
-	landmark 130,  38, IcePathName
+	landmark 124,  44, IcePathName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
-	landmark 112,  72, DarkCaveName
+	landmark 116,  60, DarkCaveName
 	landmark 124,  88, Route46Name
 	landmark 148,  68, SilverCaveName
 	landmark  52, 108, PalletTownName
