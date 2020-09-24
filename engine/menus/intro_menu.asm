@@ -664,7 +664,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld a, WOOPER
+	ld a, FURRET
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData
@@ -724,7 +724,7 @@ OakText1:
 OakText2:
 	text_far _OakText2
 	text_asm
-	ld a, WOOPER
+	ld a, FURRET
 	call PlayMonCry
 	call WaitSFX
 	ld hl, OakText3
