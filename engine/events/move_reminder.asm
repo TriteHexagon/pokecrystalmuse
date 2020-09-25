@@ -99,7 +99,7 @@ MoveReminder:
 GetRemindableMoves:
 ; Get moves remindable by CurPartyMon
 ; Returns z if no moves can be reminded.
-	GLOBAL EvosAttacksPointers, EvosAttacks
+	EXPORT EvosAttacksPointers, EvosAttacks
 	ld hl, wd002
 	xor a
 	ld [hli], a
@@ -223,7 +223,7 @@ ChooseMoveToLearn:
 	callba BlankScreen
 	call UpdateSprites
 	ld hl, .MenuDataHeader
-	call CopyMenuDataHeader
+	call CopyMenuHeader
 	xor a
 	ld [wMenuCursorBuffer], a
 	ld [wMenuScrollPosition], a
