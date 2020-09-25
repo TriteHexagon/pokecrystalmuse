@@ -147,6 +147,10 @@ INCLUDE "engine/events/pokerus/pokerus.asm"
 INCLUDE "engine/battle/start_battle.asm"
 INCLUDE "engine/gfx/place_graphic.asm"
 
+SECTION "move reminder", ROMX
+
+INCLUDE "engine/events/move_reminder.asm"
+
 
 SECTION "Effect Commands", ROMX
 
