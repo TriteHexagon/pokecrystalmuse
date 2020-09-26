@@ -318,7 +318,7 @@ CoinVendor_NoCoinCaseText:
 	line "coins?"
 
 	para "Oh, you don't have"
-	line "a COIN CASE for"
+	line "a Coin Case for"
 	cont "your coins."
 	done
 
@@ -347,8 +347,8 @@ CoinVendor_NotEnoughMoneyText:
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Whoops! Your COIN"
-	line "CASE is full."
+	text "Whoops! Your Coin"
+	line "Case is full."
 	done
 
 CoinVendor_CancelText:

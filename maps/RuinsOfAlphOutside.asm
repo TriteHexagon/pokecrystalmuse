@@ -262,7 +262,7 @@ RuinsOfAlphOutsideFisherText2:
 
 RuinsOfAlphOutsideYoungster1Text:
 	text "There are many"
-	line "kinds of UNOWN, so"
+	line "kinds of Unown, so"
 
 	para "we use them for"
 	line "our secret codes."

@@ -494,7 +494,7 @@ CooltrainerfCybilAfterBattleText:
 
 Route44Sign1Text:
 	text "Route 44"
-	line "ICE PATH ahead"
+	line "Ice Path ahead"
 	done
 
 Route44Sign2Text:

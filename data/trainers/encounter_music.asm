@@ -23,7 +23,7 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER        ; misty
 	db MUSIC_OFFICER_ENCOUNTER     ; lt_surge
 	db MUSIC_ROCKET_ENCOUNTER      ; scientist
-	db MUSIC_OFFICER_ENCOUNTER     ; erika
+	db MUSIC_KIMONO_ENCOUNTER      ; erika
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; youngster
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; schoolboy
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bird_keeper
@@ -39,10 +39,10 @@ TrainerEncounterMusic::
 	db MUSIC_BEAUTY_ENCOUNTER      ; teacher
 	db MUSIC_BEAUTY_ENCOUNTER      ; sabrina
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bug_catcher
-	db MUSIC_HIKER_ENCOUNTER       ; fisher
-	db MUSIC_HIKER_ENCOUNTER       ; swimmerm
+	db MUSIC_OFFICER_ENCOUNTER     ; fisher
+	db MUSIC_OFFICER_ENCOUNTER     ; swimmerm
 	db MUSIC_BEAUTY_ENCOUNTER      ; swimmerf
-	db MUSIC_HIKER_ENCOUNTER       ; sailor
+	db MUSIC_OFFICER_ENCOUNTER     ; sailor
 	db MUSIC_POKEMANIAC_ENCOUNTER  ; super_nerd
 	db MUSIC_RIVAL_ENCOUNTER       ; rival2
 	db MUSIC_HIKER_ENCOUNTER       ; guitarist
@@ -60,7 +60,7 @@ TrainerEncounterMusic::
 	db MUSIC_ROCKET_ENCOUNTER      ; executivef
 	db MUSIC_SAGE_ENCOUNTER        ; sage
 	db MUSIC_SAGE_ENCOUNTER        ; medium
-	db MUSIC_HIKER_ENCOUNTER       ; boarder
+	db MUSIC_OFFICER_ENCOUNTER     ; boarder
 	db MUSIC_HIKER_ENCOUNTER       ; pokefanm
 	db MUSIC_KIMONO_ENCOUNTER      ; kimono_girl
 	db MUSIC_LASS_ENCOUNTER        ; twins
@@ -69,7 +69,7 @@ TrainerEncounterMusic::
 	db MUSIC_RIVAL_ENCOUNTER       ; blue
 	db MUSIC_OFFICER_ENCOUNTER     ; officer - was Hiker, technically unused
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
-	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
-	db MUSIC_LASS_ENCOUNTER       ; schoolgirl
-	db MUSIC_HIKER_ENCOUNTER
-	db MUSIC_HIKER_ENCOUNTER
+	db MUSIC_OFFICER_ENCOUNTER     ; mysticalman
+	db MUSIC_LASS_ENCOUNTER        ; schoolgirl
+	;db MUSIC_HIKER_ENCOUNTER
+	;db MUSIC_HIKER_ENCOUNTER

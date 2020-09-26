@@ -68,7 +68,7 @@ FuchsiaCityPokefanMText:
 	done
 
 FuchsiaCityTeacherText:
-	text "The SAFARI ZONE is"
+	text "The Safari Zone is"
 	line "closed… It's sad,"
 
 	para "considering it's"
@@ -96,13 +96,13 @@ SafariZoneOfficeSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "SAFARI ZONE Office"
+	para "Safari Zone Office"
 	line "is closed until"
 	cont "further notice."
 	done
 
 WardensHomeSignText:
-	text "SAFARI ZONE"
+	text "Safari Zone"
 	line "Warden's Home"
 	done
 
@@ -111,7 +111,7 @@ SafariZoneClosedSignText:
 	line "traveling abroad."
 
 	para "Therefore, the"
-	line "SAFARI ZONE is"
+	line "Safari Zone is"
 	cont "closed."
 	done
 

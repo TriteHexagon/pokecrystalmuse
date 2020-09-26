@@ -795,7 +795,7 @@ _MobileCardFolderIntro1Text::
 
 ; unreferenced mobile
 _MobileCardFolderIntro2Text::
-	text "This is your CARD."
+	text "This is your Card."
 
 	para "Once you've"
 	line "entered your phone"
@@ -810,7 +810,7 @@ _MobileCardFolderIntro2Text::
 ; unreferenced mobile
 _MobileCardFolderIntro3Text::
 	text "If you have your"
-	line "friend's CARD, you"
+	line "friend's Card, you"
 
 	para "can use it to make"
 	line "a call from a"

@@ -256,7 +256,7 @@ BuenaPhonePikachuFanClubText:
 	para "taking part in my"
 	line "Password Show."
 
-	para "But when PIKACHU"
+	para "But when Pikachu"
 	line "was the password,"
 
 	para "it was uh… whew…"
@@ -266,7 +266,7 @@ BuenaPhonePikachuFanClubText:
 	line "came in out in"
 
 	para "droves, shouting"
-	line "'PIKACHU!' over"
+	line "'Pikachu!' over"
 
 	para "and over. I mean,"
 	line "they were loud."

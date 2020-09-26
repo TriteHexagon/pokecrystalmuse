@@ -205,7 +205,7 @@ PokemonFanClubReceptionistText:
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	text "I love the way"
-	line "CLEFAIRY waggles"
+	line "Clefairy waggles"
 
 	para "its finger when"
 	line "it's trying to use"
@@ -215,13 +215,13 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	done
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love CLEFAIRY,"
+	text "I love Clefairy,"
 	line "but I could never"
 
 	para "catch one. So I'm"
 	line "making do with a"
 
-	para "# DOLL that I"
+	para "# Doll that I"
 	line "found."
 	done
 
@@ -229,16 +229,16 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Oh, I see now. The"
 	line "girl who lost this"
 
-	para "# DOLL is sad…"
+	para "# Doll is sad…"
 
 	para "OK. Could you take"
-	line "this # DOLL"
+	line "this # Doll"
 
 	para "back to that poor"
 	line "little girl?"
 
 	para "I'll befriend a"
-	line "real CLEFAIRY on"
+	line "real Clefairy on"
 
 	para "my own one day."
 	line "No worries!"
@@ -246,14 +246,14 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 
 PokemonFanClubPlayerReceivedDollText:
 	text "<PLAYER> received"
-	line "# DOLL."
+	line "# Doll."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
 	text "You watch. I'm"
 	line "going to get a"
 
-	para "real CLEFAIRY as"
+	para "real Clefairy as"
 	line "my friend."
 	done
 
@@ -271,12 +271,12 @@ PokemonFanClubTeacherText:
 	done
 
 PokemonFanClubClefairyDollText:
-	text "It's a CLEFAIRY!"
+	text "It's a Clefairy!"
 	line "Huh?"
 
 	para "Oh, right. It's a"
-	line "CLEFAIRY #"
-	cont "DOLL."
+	line "Clefairy #"
+	cont "Doll."
 	done
 
 PokemonFanClubBayleefText:

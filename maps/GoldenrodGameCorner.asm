@@ -359,7 +359,7 @@ GoldenrodGameCornerPrizeVendorQuitText:
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
 	text "Oh? You don't have"
-	line "a COIN CASE."
+	line "a Coin Case."
 	done
 
 GoldenrodGameCornerPharmacistText:
@@ -444,9 +444,9 @@ GoldenrodGameCornerGentlemanText:
 
 GoldenrodGameCornerPokefanM2Text:
 if DEF(_CRYSTAL_AU)
-	text "COIN CASE? I threw"
+	text "Coin Case? I threw"
 	line "it away in the"
-	cont "UNDERGROUND."
+	cont "Underground."
 	done
 else
 	text "I couldn't win at"
@@ -458,8 +458,8 @@ else
 	para "I got so furious,"
 	line "I tossed out my"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "Coin Case in the"
+	line "Underground."
 	done
 endc
 

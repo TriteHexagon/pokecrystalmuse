@@ -615,7 +615,7 @@ RadioTower2FBuenaTuneInAfterSixText:
 RadioTower2FBuenaNoBlueCardText:
 	text "Buena: Oh? You"
 	line "forgot to bring"
-	cont "your Blue CARD?"
+	cont "your Blue Card?"
 
 	para "I can't give you"
 	line "points if you"
@@ -686,10 +686,10 @@ RadioTower2FBuenaReceptionistPointsForPrizesText:
 RadioTower2FBuenaReceptionistNoCardText:
 	text "You can't trade in"
 	line "points without"
-	cont "your Blue CARD."
+	cont "your Blue Card."
 
 	para "Don't forget your"
-	line "Blue CARD!"
+	line "Blue Card!"
 	done
 
 RadioTower2FSalesSignText:

@@ -264,7 +264,7 @@ _MysteryGiftReceivedCardText::
 	text "Received"
 	line "@"
 	text_ram wc850
-	text "'s CARD."
+	text "'s Card."
 	prompt
 
 _MysteryGiftListedCardText::

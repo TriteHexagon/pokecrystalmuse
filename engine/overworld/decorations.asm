@@ -58,13 +58,13 @@ _PlayerDecorationMenu:
 	dw DecoBigDollMenu, .big_doll
 	dw DecoExitMenu, .exit
 
-.bed      db "BED@"
-.carpet   db "CARPET@"
-.plant    db "PLANT@"
-.poster   db "POSTER@"
-.game     db "GAME CONSOLE@"
-.ornament db "ORNAMENT@"
-.big_doll db "BIG DOLL@"
+.bed      db "Bed@"
+.carpet   db "Carpet@"
+.plant    db "Plant@"
+.poster   db "Poster@"
+.game     db "Game Console@"
+.ornament db "Ornament@"
+.big_doll db "Big Doll@"
 .exit     db "EXIT@"
 
 .FindCategoriesWithOwnedDecos:

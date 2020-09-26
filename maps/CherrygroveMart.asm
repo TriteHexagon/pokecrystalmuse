@@ -66,7 +66,7 @@ CherrygroveMartYoungsterText:
 	cont "#mon fainted."
 
 	para "You should keep an"
-	line "ANTIDOTE with you."
+	line "Antidote with you."
 	done
 
 CherrygroveMart_MapEvents:

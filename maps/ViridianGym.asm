@@ -159,9 +159,9 @@ LeaderBlueBeforeText:
 
 	para "You're telling me"
 	line "you conquered all"
-	cont "the GYMS in Johto?"
+	cont "the Gyms in Johto?"
 
-	para "Heh! Johto's GYMS"
+	para "Heh! Johto's Gyms"
 	line "must be pretty"
 	cont "pathetic then."
 

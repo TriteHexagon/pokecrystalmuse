@@ -131,7 +131,7 @@ IrwinTrainPassGossipText:
 	text "I heard, I heard!"
 
 	para "You got a MAGNET"
-	line "TRAIN PASS!"
+	line "Train Pass!"
 
 	para "When I saw you"
 	line "departing on the"
@@ -143,7 +143,7 @@ IrwinTrainPassGossipText:
 	line "for a while."
 
 	para "But since you have"
-	line "that PASS, you can"
+	line "that Pass, you can"
 
 	para "zip back anytime!"
 	line "That's reassuring!"

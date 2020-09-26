@@ -136,14 +136,14 @@ CharcoalKilnApprenticeText2:
 CharcoalKilnApprenticeText3:
 	text "The Slowpoke came"
 	line "back, and you even"
-	cont "found FARFETCH'D."
+	cont "found Farfetch'd."
 
 	para "You're the cool-"
 	line "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "Farfetch'd: Kwaa!"
 	done
 
 CharcoalKiln_MapEvents:

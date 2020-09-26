@@ -90,7 +90,7 @@ PicnickerHopeBeatenText:
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I heard CLEFAIRY"
+	text "I heard Clefairy"
 	line "appear at MT.MOON."
 
 	para "But where could"

@@ -96,9 +96,9 @@ BikerDwayneAfterBattleText:
 
 BikerHarrisSeenText:
 	text "The cops shut down"
-	line "our UNDERGROUND"
+	line "our Underground"
 
-	para "PATH! That really"
+	para "Path! That really"
 	line "fries me!"
 	done
 
@@ -129,8 +129,8 @@ BikerZekeAfterBattleText:
 	done
 
 SupernerdSamSeenText:
-	text "How does the MAG-"
-	line "NET TRAIN work?"
+	text "How does the Mag-"
+	line "net Train work?"
 	done
 
 SupernerdSamBeatenText:

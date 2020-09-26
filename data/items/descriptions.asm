@@ -766,8 +766,8 @@ EggTicketDesc:
 	next "rod trade corner.@"
 
 LostItemDesc:
-	db   "The # DOLL lost"
-	next "by the COPYCAT.@"
+	db   "The # Doll lost"
+	next "by the Copycat.@"
 
 StardustDesc:
 	db   "Pretty, red sand."

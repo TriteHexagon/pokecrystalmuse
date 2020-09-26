@@ -416,7 +416,7 @@ PokefanmJeremyBeatenText:
 
 PokefanmJeremyAfterBattleText:
 	text "I must go to the"
-	line "#mon SALON and"
+	line "#mon Salon and"
 	cont "fix them up nice!"
 	done
 

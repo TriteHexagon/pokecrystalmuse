@@ -289,7 +289,7 @@ AcademyPoisonText:
 	line "you walk."
 
 	para "To cure it, use an"
-	line "ANTIDOTE."
+	line "Antidote."
 	done
 
 AcademyParalysisText:
@@ -299,7 +299,7 @@ AcademyParalysisText:
 
 	para "It remains after"
 	line "battle, so use"
-	cont "a PARLYZ HEAL."
+	cont "a Parlyz Heal."
 	done
 
 AcademySleepText:
@@ -312,7 +312,7 @@ AcademySleepText:
 	cont "after battle."
 
 	para "Wake it up with"
-	line "an AWAKENING."
+	line "an Awakening."
 	done
 
 AcademyBurnText:
@@ -325,7 +325,7 @@ AcademyBurnText:
 	para "A burn lingers"
 	line "after battle."
 
-	para "Use a BURN HEAL as"
+	para "Use a Burn Heal as"
 	line "the cure."
 	done
 
@@ -338,7 +338,7 @@ AcademyFreezeText:
 	line "after battle."
 
 	para "Thaw it out with"
-	line "an ICE HEAL."
+	line "an Ice Heal."
 	done
 
 AcademyNotebookText:
@@ -391,7 +391,7 @@ AcademyNotebookText3:
 	para "They are expected"
 	line "to visit #mon"
 
-	para "GYMS and defeat"
+	para "Gyms and defeat"
 	line "other trainers."
 
 	para "The next page"

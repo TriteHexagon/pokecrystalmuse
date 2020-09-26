@@ -500,7 +500,7 @@ CardFlip_PrintCoinBalance:
 	ret
 
 .CoinStr:
-	db "COIN@"
+	db "Coin@"
 
 CardFlip_InitTilemap:
 	xor a

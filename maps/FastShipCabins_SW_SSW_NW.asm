@@ -172,7 +172,7 @@ GuitaristClydeSeenText:
 	line "tion my songs at"
 
 	para "Goldenrod's Radio"
-	line "STATION."
+	line "Station."
 	done
 
 GuitaristClydeBeatenText:

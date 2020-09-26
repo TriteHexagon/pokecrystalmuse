@@ -140,7 +140,7 @@ SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
 	text "May I see your"
-	line "rail PASS, please?"
+	line "rail Pass, please?"
 
 	para "OK. Right this"
 	line "way, please."
@@ -148,7 +148,7 @@ SaffronMagnetTrainStationOfficerRightThisWayText:
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
 	text "Sorry, but you"
-	line "don't have a PASS."
+	line "don't have a Pass."
 	done
 
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
@@ -191,26 +191,26 @@ SaffronMagnetTrainStationGymGuyText_ReturnedMachinePart:
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Before the MAGNET"
-	line "TRAIN STATION was"
+	text "Before the Magnet"
+	line "Train Station was"
 
 	para "built, there was a"
 	line "house there."
 
 	para "A little girl"
-	line "named COPYCAT used"
+	line "named Copycat used"
 	cont "to live there."
 	done
 
 SaffronMagnetTrainStationLassText:
 	text "Hi. Do you have a"
-	line "rail PASS? I have"
+	line "rail Pass? I have"
 
 	para "one. All the peo-"
 	line "ple in Saffron who"
 
-	para "ride the MAGNET"
-	line "TRAIN have PASSES."
+	para "ride the Magnet"
+	line "Train have Passes."
 	done
 
 SaffronMagnetTrainStation_MapEvents:

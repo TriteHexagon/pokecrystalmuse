@@ -115,7 +115,7 @@ RuinsOfAlphOmanyteChamberWallPatternLeftText:
 
 RuinsOfAlphOmanyteChamberUnownText:
 ; unused
-	text "It's UNOWN text!"
+	text "It's Unown text!"
 	done
 
 RuinsOfAlphOmanyteChamberWallPatternRightText:

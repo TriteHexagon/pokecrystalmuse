@@ -526,7 +526,7 @@ GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
 	text "Welcome!"
 
 	para "I run the #mon"
-	line "SALON!"
+	line "Salon!"
 
 	para "I'm the older and"
 	line "better of the two"
@@ -572,7 +572,7 @@ GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText:
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	text "Welcome to the"
-	line "#mon SALON!"
+	line "#mon Salon!"
 
 	para "I'm the younger"
 	line "and less expen-"

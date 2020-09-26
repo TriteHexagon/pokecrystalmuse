@@ -200,7 +200,7 @@ Route9SignText:
 	text "Route 9"
 
 	para "Cerulean City -"
-	line "ROCK TUNNEL"
+	line "Rock Tunnel"
 	done
 
 Route9_MapEvents:

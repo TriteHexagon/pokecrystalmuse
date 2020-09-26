@@ -120,12 +120,12 @@ SaffronCityLass1Text:
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
+	text "The Copycat girl"
 	line "looked unhappy."
 
 	para "She said she lost"
 	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	cont "Doll--Clefairy."
 	done
 
 SaffronCityPokefanMText:
@@ -133,8 +133,8 @@ SaffronCityPokefanMText:
 	line "Johto?"
 
 	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	line "home if the Magnet"
+	cont "Train's running."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
@@ -260,7 +260,7 @@ MrPsychicsHouseSignText:
 SaffronCityMagnetTrainStationSignText:
 	text "Saffron City"
 	line "Magnet Train"
-	cont "STATION"
+	cont "Station"
 	done
 
 SaffronCity_MapEvents:

@@ -219,7 +219,7 @@ PicnickerErin1BeatenText:
 
 PicnickerErinAfterBattleText:
 	text "I've been to many"
-	line "GYMS, but the Gym"
+	line "Gyms, but the Gym"
 
 	para "in Goldenrod is my"
 	line "favorite."

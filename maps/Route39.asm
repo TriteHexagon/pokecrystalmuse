@@ -209,7 +209,7 @@ SailorEugeneAfterBattleText:
 PokefanmDerekSeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my PIKACHU!"
+	cont "my Pikachu!"
 	done
 
 PokefanmDerekBeatenText:
@@ -251,7 +251,7 @@ PokefanfRuthAfterBattleText:
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
+	text "Pikachu is it!"
 	line "Don't you agree?"
 	done
 

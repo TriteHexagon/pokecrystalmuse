@@ -156,7 +156,7 @@ VermilionMachopText2:
 
 VermilionCitySuperNerdText:
 	text "There are eight"
-	line "GYMS in Kanto."
+	line "Gyms in Kanto."
 
 	para "That big building"
 	line "is Vermilion's"
@@ -204,7 +204,7 @@ VermilionCityBadgeGuyMostBadgesText:
 	line "finished with your"
 
 	para "conquest of Kanto"
-	line "GYMS soon."
+	line "Gyms soon."
 
 	para "Let me know if"
 	line "you get all eight"

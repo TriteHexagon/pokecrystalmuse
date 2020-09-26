@@ -457,7 +457,7 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
+	text "Isn't my Clefairy"
 	line "just the most"
 	cont "adorable thing?"
 	done

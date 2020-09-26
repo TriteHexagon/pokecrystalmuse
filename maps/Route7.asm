@@ -16,12 +16,12 @@ Route7UndergroundPathSignText:
 	line "have been holding"
 
 	para "battles in the"
-	line "UNDERGROUND PATH."
+	line "Underground Path."
 
 	para "Because of rising"
 	line "complaints by lo-"
 	cont "cal residents, the"
-	cont "UNDERGROUND PATH"
+	cont "Underground Path"
 	cont "has been sealed"
 	cont "indefinitely."
 

@@ -185,7 +185,7 @@ CeladonMansion3FReferenceMaterialText:
 	text "It's crammed with"
 	line "reference materi-"
 	cont "als. There's even"
-	cont "a # DOLL."
+	cont "a # Doll."
 	done
 
 CeladonMansion3F_MapEvents:

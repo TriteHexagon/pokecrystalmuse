@@ -24,7 +24,7 @@ CherrygroveGymSpeechHousePokefanMText:
 	line "trainer?"
 
 	para "You better visit"
-	line "the #mon GYMS"
+	line "the #mon Gyms"
 
 	para "all over Johto and"
 	line "collect Badges."

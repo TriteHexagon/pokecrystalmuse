@@ -292,7 +292,7 @@ GruntM9BeatenText:
 GruntM9AfterBattleText:
 	text "What?! You made it"
 	line "past our men in"
-	cont "the UNDERGROUND?"
+	cont "the Underground?"
 
 	para "How could you?"
 	done

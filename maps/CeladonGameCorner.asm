@@ -74,7 +74,7 @@ CeladonGameCornerFisherScript:
 	end
 
 .coinname
-	db "COIN@"
+	db "Coin@"
 
 .NoCoinCase:
 	writetext CeladonGameCornerFisherNoCoinCaseText
@@ -233,7 +233,7 @@ CeladonGameCornerFisherText2:
 
 CeladonGameCornerFisherNoCoinCaseText:
 	text "Hey, you don't"
-	line "have a COIN CASE."
+	line "have a Coin Case."
 
 	para "How am I supposed"
 	line "to give you any"
@@ -242,12 +242,12 @@ CeladonGameCornerFisherNoCoinCaseText:
 
 CeladonGameCornerFisherFullCoinCaseText:
 if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
+	text "Your Coin Case is"
 	line "full."
 	done
 else
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Hey, your Coin"
+	line "Case is full, kid."
 
 	para "You must be riding"
 	line "a winning streak"
@@ -284,7 +284,7 @@ else
 	text "Hmmm… The odds are"
 	line "surely better for"
 
-	para "PIKACHU's line,"
+	para "Pikachu's line,"
 	line "but… What to do?"
 	done
 endc

@@ -42,10 +42,10 @@ MenuData_0x24f34:
 	dbw BANK(MenuData_0x24f34), 0
 
 Strings24f3d:
-	db "FIGHT@"
+	db "Fight@"
 	db "<PKMN>@"
-	db "BAG@"
-	db "RUN@"
+	db "Bag@"
+	db "Run@"
 
 MenuHeader_0x24f4e:
 	db MENU_BACKUP_TILES ; flags
@@ -61,7 +61,7 @@ MenuData_0x24f56:
 	dba Function24f7c
 
 Strings24f5f:
-	db "サファりボール×　　@" ; "SAFARI BALL×  @"
+	db "サファりボール×　　@" ; "Safari BALL×  @"
 	db "エサをなげる@" ; "THROW BAIT"
 	db "いしをなげる@" ; "THROW Rock"
 	db "にげる@" ; "RUN"
@@ -87,10 +87,10 @@ MenuData_0x24f91:
 	dba Function24fb2
 
 Strings24f9a:
-	db "FIGHT@"
+	db "Fight@"
 	db "<PKMN>@"
-	db "PARKBALL×  @"
-	db "RUN@"
+	db "ParkBall×  @"
+	db "Run@"
 
 Function24fb2:
 	hlcoord 13, 16

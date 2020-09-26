@@ -58,7 +58,7 @@ CeladonMansion1FMeowthText:
 	done
 
 CeladonMansion1FClefairyText:
-	text "CLEFAIRY: Clef"
+	text "Clefairy: Clef"
 	line "cleff!"
 	done
 

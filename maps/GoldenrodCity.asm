@@ -429,7 +429,7 @@ GoldenrodCityRocket6Text:
 
 GoldenrodCityStationSignText:
 	text "Goldenrod City"
-	line "STATION"
+	line "Station"
 	done
 
 GoldenrodCityRadioTowerSignText:
@@ -482,12 +482,12 @@ GoldenrodCityNameRaterSignText:
 	done
 
 GoldenrodCityUndergroundSignNorthText:
-	text "UNDERGROUND"
+	text "Underground"
 	line "ENTRANCE"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
-	text "UNDERGROUND"
+	text "Underground"
 	line "ENTRANCE"
 	done
 

@@ -92,7 +92,7 @@ BlaineIntroText:
 	cont "a Badge."
 
 	para "Ha! You'd better"
-	line "have BURN HEAL!"
+	line "have Burn Heal!"
 	done
 
 BlaineWinLossText:

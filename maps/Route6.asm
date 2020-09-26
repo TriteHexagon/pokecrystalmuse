@@ -45,7 +45,7 @@ Route6PokefanMText:
 	done
 
 Route6UndergroundPathSignText:
-	text "UNDERGROUND PATH"
+	text "Underground Path"
 
 	para "Cerulean City -"
 	line "Vermilion City"

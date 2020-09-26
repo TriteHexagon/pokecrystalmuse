@@ -109,7 +109,7 @@ OakOpenMtSilverText:
 	line "excellent!"
 
 	para "You collected the"
-	line "Badges of GYMS in"
+	line "Badges of Gyms in"
 	cont "Kanto. Well done!"
 
 	para "I was right in my"

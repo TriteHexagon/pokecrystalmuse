@@ -868,7 +868,7 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The FARFETCH'D"
+	para "The Farfetch'd"
 	line "that CUTS trees"
 
 	para "for charcoal took"
@@ -898,11 +898,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "Farfetch'd: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! My Farfetch'd!"
 
 	para "You found it for"
 	line "us, kid?"

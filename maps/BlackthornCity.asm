@@ -266,8 +266,8 @@ SantosNotSaturdayText:
 
 BlackthornCooltrainerF2Text:
 	text "Wow, you came"
-	line "through the ICE"
-	cont "PATH?"
+	line "through the Ice"
+	cont "Path?"
 
 	para "You must be a real"
 	line "hotshot trainer!"

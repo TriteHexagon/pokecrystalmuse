@@ -192,12 +192,12 @@ FalknerTMRoostText:
 
 FalknerFightDoneText:
 	text "There are #mon"
-	line "GYMS in cities and"
+	line "Gyms in cities and"
 	cont "towns ahead."
 
 	para "You should test"
 	line "your skills at"
-	cont "these GYMS."
+	cont "these Gyms."
 
 	para "I'm going to train"
 	line "harder to become"

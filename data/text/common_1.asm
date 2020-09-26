@@ -138,7 +138,7 @@ _FourZerosInvalidText::
 	done
 
 _EnterPasscodeText::
-	text "Enter the CARD"
+	text "Enter the Card"
 	next "Folder PASSCODE."
 	done
 
@@ -330,7 +330,7 @@ _LookTownMapText::
 
 _LookPikachuPosterText::
 	text "It's a poster of a"
-	line "cute PIKACHU."
+	line "cute Pikachu."
 	done
 
 _LookClefairyPosterText::
@@ -1371,7 +1371,7 @@ _NoCoinsText::
 
 _NoCoinCaseText::
 	text "You don't have a"
-	line "COIN CASE."
+	line "Coin Case."
 	prompt
 
 _NPCTradeCableText::

@@ -226,7 +226,7 @@ FakeDirectorTextAfter:
 	text "We stashed the"
 	line "real Director in"
 
-	para "the UNDERGROUND"
+	para "the Underground"
 	line "WAREHOUSE."
 
 	para "It's at the far"
@@ -278,7 +278,7 @@ RadioTower5FRocketBossBeforeText:
 	para "We intend to take"
 	line "over this Radio"
 
-	para "STATION and an-"
+	para "Station and an-"
 	line "nounce our come-"
 	cont "back."
 

@@ -166,9 +166,9 @@ TeacherText_CrunchCrunch:
 
 TeacherText_NoCoinCase:
 	text "Nobody here will"
-	line "give you a COIN"
+	line "give you a Coin"
 
-	para "CASE. You should"
+	para "Case. You should"
 	line "look in Johto."
 	done
 
