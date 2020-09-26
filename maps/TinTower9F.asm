@@ -11,7 +11,7 @@ TinTower9FHPUp:
 
 TinTower9FUnusedHoOhText:
 ; unused
-	text "HO-OH: Shaoooh!"
+	text "Ho-Oh: Shaoooh!"
 	done
 
 TinTower9FUnusedLugiaText:

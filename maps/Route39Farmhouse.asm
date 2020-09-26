@@ -98,7 +98,7 @@ FarmerMText_SickCow:
 	line "givin' me milk"
 	cont "n'more."
 
-	para "This here FARM's"
+	para "This here Farm's"
 	line "got famous milk."
 
 	para "Most everyone"
@@ -113,7 +113,7 @@ FarmerMText_SickCow:
 
 FarmerMText_BuyMilk:
 	text "How'd you like my"
-	line "MOOMOO MILK?"
+	line "Moomoo Milk?"
 
 	para "It's my pride and"
 	line "joy, there."
@@ -165,8 +165,8 @@ FarmerFText_HealedMiltank:
 	text "You fixed our"
 	line "MILTANK, hon. Now"
 
-	para "it gives MOOMOO"
-	line "MILK again."
+	para "it gives Moomoo"
+	line "Milk again."
 
 	para "Here's somethin'"
 	line "fer your trouble."

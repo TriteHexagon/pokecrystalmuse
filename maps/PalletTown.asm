@@ -55,7 +55,7 @@ PalletTownSignText:
 	done
 
 RedsHouseSignText:
-	text "RED'S House"
+	text "RED's House"
 	done
 
 OaksLabSignText:
@@ -64,7 +64,7 @@ OaksLabSignText:
 	done
 
 BluesHouseSignText:
-	text "Blue'S House"
+	text "Blue's House"
 	done
 
 PalletTown_MapEvents:

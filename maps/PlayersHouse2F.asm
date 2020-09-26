@@ -217,7 +217,7 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "Prof.Oak'S #mon"
+	text "Prof.Oak's #mon"
 	line "TALK! Please tune"
 	cont "in next time!"
 	done

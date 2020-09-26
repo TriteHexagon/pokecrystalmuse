@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "Map CARD@"
 
 .No:
 	writetext GuideGentNoText
@@ -410,7 +410,7 @@ GuideGentGiftText:
 
 GotMapCardText:
 	text "<PLAYER>'s #Gear"
-	line "now has a MAP!"
+	line "now has a Map!"
 	done
 
 GuideGentPokegearText:
@@ -488,7 +488,7 @@ CherrygroveTeacherText_NoMapCard:
 	line "the old man by the"
 	cont "#mon Center?"
 
-	para "He'll put a MAP of"
+	para "He'll put a Map of"
 	line "Johto on your"
 	cont "#Gear."
 	done
@@ -541,7 +541,7 @@ CherrygroveCitySignText:
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S House"
+	text "GUIDE GENT's House"
 	done
 
 CherrygroveCity_MapEvents:

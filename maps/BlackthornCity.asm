@@ -225,11 +225,11 @@ BlackthornYoungsterText:
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "Santos: …"
 
 	para "It's Saturday…"
 
-	para "I'm SANTOS of"
+	para "I'm Santos of"
 	line "Saturday…"
 	done
 
@@ -238,7 +238,7 @@ SantosGivesGiftText:
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "Santos: …"
 
 	para "SPELL TAG…"
 
@@ -250,7 +250,7 @@ SantosGaveGiftText:
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "Santos: …"
 
 	para "See you again on"
 	line "another Saturday…"
@@ -260,7 +260,7 @@ SantosSaturdayText:
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
+	text "Santos: Today's"
 	line "not Saturday…"
 	done
 
@@ -290,7 +290,7 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE DELETER'S"
+	text "MOVE DELETER's"
 	line "House"
 	done
 

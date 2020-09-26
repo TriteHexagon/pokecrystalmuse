@@ -91,7 +91,7 @@ CeladonPokecenter1FPharmacistText:
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "Eusine: Hi!"
 
 	para "I'm back visiting"
 	line "my hometown."
@@ -109,7 +109,7 @@ EusineLeavesCeladonText:
 
 	para "rainbow-colored"
 	line "#mon appearing"
-	cont "at TIN TOWER."
+	cont "at Bell Tower."
 
 	para "I've just had my"
 	line "party healed, so"
@@ -128,8 +128,8 @@ NoBeastsText:
 	para "Have you caught"
 	line "the legendary"
 
-	para "#mon RAIKOU and"
-	line "ENTEI?"
+	para "#mon Raikou and"
+	line "Entei?"
 
 	para "<……><……><……>"
 

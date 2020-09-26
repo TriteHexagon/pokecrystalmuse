@@ -64,14 +64,14 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
+	db   "Dark Cave leads"
 	next "to another road@"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "Kenya@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "Randy@"
 
 	db 0 ; filler
 
@@ -100,7 +100,7 @@ Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
 	cont "a favor?"
 
 	para "Can you take this"
-	line "#mon with MAIL"
+	line "#mon with Mail"
 	cont "to my friend?"
 
 	para "He's on Route 31."

@@ -205,7 +205,7 @@ Text_HereTeacherIAm:
 VioletCityLassText:
 	text "Ghosts are rumored"
 	line "to appear in"
-	cont "SPROUT TOWER."
+	cont "SPROUT Tower."
 
 	para "They said Normal-"
 	line "type #mon moves"
@@ -265,15 +265,15 @@ VioletGymSignText:
 	done
 
 SproutTowerSignText:
-	text "SPROUT TOWER"
+	text "SPROUT Tower"
 
 	para "Experience the"
 	line "Way of #mon"
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARL'S #mon"
-	line "ACADEMY"
+	text "Earl's #mon"
+	line "Academy"
 	done
 
 VioletCity_MapEvents:

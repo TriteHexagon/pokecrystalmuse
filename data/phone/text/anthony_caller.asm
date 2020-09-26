@@ -126,7 +126,7 @@ AnthonyHurryText:
 	text "Hello? What? Where"
 	line "is DUNSPARCE?"
 
-	para "DARK CAVE! Hurry!"
+	para "Dark Cave! Hurry!"
 
 	para "I know I've said"
 	line "it before, but"

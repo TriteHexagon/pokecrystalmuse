@@ -277,20 +277,20 @@ CianwoodCityUnusedText:
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
+	text "Eusine: Yo,"
 	line "<PLAYER>."
 
 	para "Wasn't that"
-	line "SUICUNE just now?"
+	line "Suicune just now?"
 
 	para "I only caught a"
 	line "quick glimpse, but"
 
 	para "I thought I saw"
-	line "SUICUNE running on"
+	line "Suicune running on"
 	cont "the waves."
 
-	para "SUICUNE is beau-"
+	para "Suicune is beau-"
 	line "tiful and grand."
 
 	para "And it races"
@@ -302,13 +302,13 @@ EusineSuicuneText:
 	para "It's wonderful…"
 
 	para "I want to see"
-	line "SUICUNE up close…"
+	line "Suicune up close…"
 
 	para "I've decided."
 
 	para "I'll battle you as"
 	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	cont "Suicune's respect!"
 
 	para "Come on, <PLAYER>."
 	line "Let's battle now!"
@@ -330,7 +330,7 @@ EusineAfterText:
 
 	para "I'm going to keep"
 	line "searching for"
-	cont "SUICUNE."
+	cont "Suicune."
 
 	para "I'm sure we'll see"
 	line "each other again."

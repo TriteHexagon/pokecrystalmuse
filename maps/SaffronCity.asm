@@ -249,11 +249,11 @@ FightingDojoSignText:
 
 SilphCoSignText:
 	text "SILPH CO."
-	line "OFFICE BUILDING"
+	line "Office Building"
 	done
 
 MrPsychicsHouseSignText:
-	text "Mr.PSYCHIC'S"
+	text "Mr.Psychic's"
 	line "House"
 	done
 

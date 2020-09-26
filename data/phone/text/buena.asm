@@ -1,5 +1,5 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, this is BUENA…"
+	text "Hi, this is Buena…"
 
 	para "Oh! Good morning,"
 	line "<PLAY_G>!"
@@ -9,15 +9,15 @@ BuenaPhoneMorningAnswerText:
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, this is BUENA…"
+	text "Hi, this is Buena…"
 	line "Oh! Hi, <PLAY_G>!"
 
 	para "Do you tune into"
-	line "BUENA's show?"
+	line "Buena's show?"
 	done
 
 BuenaPhoneMidnightAnswerText:
-	text "This is BUENA."
+	text "This is Buena."
 	line "I can't come to"
 
 	para "the phone right"
@@ -26,7 +26,7 @@ BuenaPhoneMidnightAnswerText:
 	para "If you want to"
 	line "chat, tune into"
 
-	para "BUENA's PASSWORD"
+	para "Buena's Password"
 	line "on the radio and"
 
 	para "give me a call"
@@ -34,7 +34,7 @@ BuenaPhoneMidnightAnswerText:
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, this is BUENA…"
+	text "Hi, this is Buena…"
 	line "Oh! Hi, <PLAY_G>!"
 
 	para "I just got off"
@@ -46,7 +46,7 @@ BuenaPhoneNiteAnswerText:
 
 BuenaPhoneMorningText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hi, it's Buena!"
 
 	para "I got up early, so"
 	line "I decided to call!"
@@ -54,7 +54,7 @@ BuenaPhoneMorningText:
 
 BuenaPhoneDayText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hi, it's Buena!"
 
 	para "I needed someone"
 	line "to chat with!"
@@ -62,7 +62,7 @@ BuenaPhoneDayText:
 
 BuenaPhoneMidnightText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hi, it's Buena!"
 
 	para "I'm just on my"
 	line "break."
@@ -70,7 +70,7 @@ BuenaPhoneMidnightText:
 
 BuenaPhoneNiteText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Hi, it's Buena!"
 
 	para "I couldn't sleep,"
 	line "so I called you."
@@ -226,7 +226,7 @@ BuenaPhoneGotAColdText:
 
 	para "I'll catch you on"
 	line "the fly. This has"
-	cont "been BUENA!"
+	cont "been Buena!"
 	done
 
 BuenaPhoneRadioCardQuestionsText:
@@ -391,7 +391,7 @@ BuenaPhoneCompanyVacationText:
 	text "Guess what? All of"
 	line "us from theRadio"
 
-	para "TOWER are going on"
+	para "Tower are going on"
 	line "a company vacation"
 
 	para "to the Radio Tower"
@@ -401,7 +401,7 @@ BuenaPhoneCompanyVacationText:
 	line "vacation on a trip"
 
 	para "to anotherRadio"
-	line "TOWER?"
+	line "Tower?"
 
 	para "I'd much rather go"
 	line "to the beach!"
@@ -519,7 +519,7 @@ BuenaPhoneCoopedUpInRadioTowerAnswerText:
 	para "When you're cooped"
 	line "up in theRadio"
 
-	para "TOWER as much as I"
+	para "Tower as much as I"
 	line "am, you lose touch"
 
 	para "with the outside."

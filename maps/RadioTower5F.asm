@@ -345,7 +345,7 @@ RadioTower5FDirectorDescribeClearBellText:
 
 	para "So we replaced it"
 	line "with our Radio"
-	cont "TOWER."
+	cont "Tower."
 
 	para "We dug up that"
 	line "bell during"
@@ -362,7 +362,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "That bell has some"
 	line "connection to the"
 
-	para "TIN TOWER in"
+	para "Bell Tower in"
 	line "Ecruteak City…"
 
 	para "Ah!"
@@ -374,7 +374,7 @@ RadioTower5FDirectorDescribeClearBellText:
 
 	para "Apparently, some-"
 	line "thing is going on"
-	cont "at the TIN TOWER."
+	cont "at the Bell Tower."
 
 	para "I have no idea"
 	line "what is happening,"
@@ -383,7 +383,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "into it."
 
 	para "OK, I better go to"
-	line "my OFFICE."
+	line "my Office."
 	done
 
 RadioTower5FDirectorText:
@@ -394,7 +394,7 @@ RadioTower5FDirectorText:
 	line "#mon."
 
 	para "I built this Radio"
-	line "TOWER so I could"
+	line "Tower so I could"
 
 	para "express my love"
 	line "of #mon."
@@ -410,8 +410,8 @@ BenText:
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5F Director'S"
-	line "   OFFICE"
+	text "5F Director's"
+	line "   Office"
 	done
 
 RadioTower5FStudio1SignText:

@@ -62,7 +62,7 @@ CeladonDeptStore2FDirectoryText:
 	text "Top Grade Items"
 	line "for Trainers!"
 
-	para "2F: TRAINER'S"
+	para "2F: TRAINER's"
 	line "    MARKET"
 	done
 

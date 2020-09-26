@@ -126,7 +126,7 @@ MoomooScript:
 	end
 
 Route39BarnTwinMoomooIsSickText:
-	text "MOOMOO is sick…"
+	text "Moomoo is sick…"
 
 	para "She needs lots of"
 	line "Berries."
@@ -134,7 +134,7 @@ Route39BarnTwinMoomooIsSickText:
 
 Route39BarnTwinWereFeedingMoomooText:
 	text "We're feeding"
-	line "MOOMOO!"
+	line "Moomoo!"
 	done
 
 MoomooWeakMooText:

@@ -294,7 +294,7 @@ MeetMonicaText:
 	text "Monica: Glad to"
 	line "meet you. I'm"
 
-	para "MONICA of Monday."
+	para "Monica of Monday."
 	done
 
 MonicaGivesGiftText:

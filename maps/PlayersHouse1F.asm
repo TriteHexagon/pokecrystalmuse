@@ -224,14 +224,14 @@ ElmsLookingForYouText:
 	para "Oh! I almost for-"
 	line "got! Your #mon"
 
-	para "GEAR is back from"
+	para "Gear is back from"
 	line "the repair shop."
 
 	para "Here you go!"
 	done
 
 MomGivesPokegearText:
-	text "#mon GEAR, or"
+	text "#mon Gear, or"
 	line "just #Gear."
 
 	para "It's essential if"

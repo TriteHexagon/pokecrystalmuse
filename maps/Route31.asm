@@ -241,7 +241,7 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "DARK CAVE leads"
+	db   "Dark Cave leads"
 	next "to another road@"
 
 Route31YoungsterScript:
@@ -266,7 +266,7 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "DARK CAVE…"
+	text "Dark CAVE…"
 
 	para "If #mon could"
 	line "light it up, I'd"
@@ -328,7 +328,7 @@ Text_Route31HandOverMailMon:
 Text_Route31ReadingMail:
 	text "Let's see…"
 
-	para "…DARK CAVE leads"
+	para "…Dark Cave leads"
 	line "to another road…"
 
 	para "That's good to"
@@ -391,8 +391,8 @@ Text_Route31CantTakeLastMon:
 
 Route31YoungsterText:
 	text "I found a good"
-	line "#mon in DARK"
-	cont "CAVE."
+	line "#mon in Dark"
+	cont "Cave."
 
 	para "I'm going to raise"
 	line "it to take on"
@@ -410,7 +410,7 @@ Route31SignText:
 	done
 
 DarkCaveSignText:
-	text "DARK CAVE"
+	text "Dark Cave"
 	done
 
 Route31_MapEvents:

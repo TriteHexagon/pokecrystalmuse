@@ -10,7 +10,7 @@ IrwinRocketTakeoverRumorText:
 	line "heard?"
 
 	para "Goldenrod's Radio"
-	line "TOWER has been"
+	line "Tower has been"
 
 	para "taken over by Team"
 	line "Rocket!"

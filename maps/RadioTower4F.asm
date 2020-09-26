@@ -117,7 +117,7 @@ RadioTower4FDJMaryText:
 	line "I have to suffer"
 	cont "through this?"
 
-	para "MEOWTH, help me!"
+	para "Meowth, help me!"
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
@@ -140,12 +140,12 @@ RadioTower4FDJMaryText_After:
 	text "Mary: Please tune"
 	line "into me on Prof."
 
-	para "Oak'S #mon Talk"
+	para "Oak's #mon Talk"
 	line "show."
 	done
 
 RadioTowerMeowthText:
-	text "MEOWTH: Meowth…"
+	text "Meowth: Meow…"
 	done
 
 GruntM10SeenText:

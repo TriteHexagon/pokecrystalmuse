@@ -150,7 +150,7 @@ MovementData_0x980cc:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
+	text "Bell Tower is off"
 	line "limits to anyone"
 
 	para "without Ecruteak"
@@ -161,7 +161,7 @@ EcruteakTinTowerEntranceSageText:
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
+	text "Bell Tower is off"
 	line "limits to anyone"
 
 	para "without Ecruteak"
@@ -185,7 +185,7 @@ EcruteakTinTowerEntranceSageText_NoClearBell:
 	para "…What soothes the"
 	line "soul…"
 
-	para "The WISE TRIO say"
+	para "The Wise Trio say"
 	line "things that are so"
 
 	para "very difficult to"
@@ -205,7 +205,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	para "Ah!"
 
 	para "The sound of that"
-	line "CLEAR BELL!"
+	line "Clear Bell!"
 
 	para "It… It's sublime!"
 
@@ -221,7 +221,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 
 	para "You may be able to"
 	line "make it through"
-	cont "TIN TOWER."
+	cont "Bell Tower."
 
 	para "Please, do go on."
 	done
@@ -239,13 +239,13 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 
 	para "You may be able to"
 	line "make it through"
-	cont "TIN TOWER."
+	cont "Bell Tower."
 
 	para "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER"
+	text "The Bell Tower"
 	line "ahead is a nine-"
 
 	para "tier tower of"
@@ -257,7 +257,7 @@ EcruteakTinTowerEntranceWanderingSageText:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The TIN TOWER"
+	text "The Bell Tower"
 	line "shook! A #mon"
 
 	para "must have returned"

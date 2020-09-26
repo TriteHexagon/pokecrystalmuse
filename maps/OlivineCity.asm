@@ -226,7 +226,7 @@ OlivineCitySailor1Text:
 OlivineCityStandingYoungsterPokegearText:
 	text "That thing you"
 	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
+	cont "Gear, right? Wow,"
 	cont "that's cool."
 	done
 

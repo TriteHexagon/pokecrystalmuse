@@ -38,7 +38,7 @@ CeladonDeptStore4FYoungsterText:
 	line "place where you"
 
 	para "can buy LOVELY"
-	line "MAIL."
+	line "Mail."
 	done
 
 CeladonDeptStore4FDirectoryText:

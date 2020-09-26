@@ -96,18 +96,18 @@ SafariZoneOfficeSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "SAFARI ZONE OFFICE"
+	para "SAFARI ZONE Office"
 	line "is closed until"
 	cont "further notice."
 	done
 
 WardensHomeSignText:
 	text "SAFARI ZONE"
-	line "WARDEN'S HOME"
+	line "Warden's Home"
 	done
 
 SafariZoneClosedSignText:
-	text "The WARDEN is"
+	text "The Warden is"
 	line "traveling abroad."
 
 	para "Therefore, the"

@@ -546,7 +546,7 @@ UnknownText_0x61cef:
 	cont "TRADE CORNER!"
 
 	para "I make a PIDGEY"
-	line "hold MAIL, then"
+	line "hold Mail, then"
 
 	para "put it up for"
 	line "trade for another"
@@ -559,7 +559,7 @@ UnknownText_0x61cef:
 	line "sorts of people!"
 
 	para "I call it PIDGEY"
-	line "MAIL!"
+	line "Mail!"
 
 	para "If it becomes"
 	line "popular, I might"
@@ -758,7 +758,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 	para "Oh! Do you happen"
 	line "to have something"
-	cont "named EON MAIL?"
+	cont "named EON Mail?"
 
 	para "My daughter is"
 	line "after one."
@@ -769,7 +769,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
 	text "Give away an EON"
-	line "MAIL?"
+	line "Mail?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:

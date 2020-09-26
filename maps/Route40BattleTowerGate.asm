@@ -21,7 +21,7 @@ Route40BattleTowerGateTwinScript:
 UnknownText_0x9f66f:
 	text "Did you come to"
 	line "see the BATTLE"
-	cont "TOWER too?"
+	cont "Tower too?"
 
 	para "But I guess you"
 	line "can't go in yet."

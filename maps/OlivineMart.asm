@@ -34,7 +34,7 @@ OlivineMartLassText:
 	cont "overseas."
 
 	para "It carried some"
-	line "MAIL from him."
+	line "Mail from him."
 
 	para "Want to know what"
 	line "it says?"

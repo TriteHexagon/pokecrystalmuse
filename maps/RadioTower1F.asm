@@ -456,8 +456,8 @@ RadioTower1FDirectoryText:
 	para "3F PERSONNEL"
 	line "4F PRODUCTION"
 
-	para "5F Director'S"
-	line "   OFFICE"
+	para "5F Director's"
+	line "   Office"
 	done
 
 RadioTower1FLuckyChannelSignText:

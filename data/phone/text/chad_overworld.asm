@@ -35,7 +35,7 @@ ChadAskNumber2Text:
 
 ChadNumberAcceptedText:
 	text "You must listen to"
-	line "Prof.Oak'S #mon"
+	line "Prof.Oak's #mon"
 	cont "TALK, right?"
 	done
 

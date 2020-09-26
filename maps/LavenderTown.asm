@@ -49,7 +49,7 @@ LavenderTownPokefanMText:
 	line "building, eh?"
 
 	para "It's Kanto's Radio"
-	line "TOWER."
+	line "Tower."
 	done
 
 LavenderTownTeacherText:

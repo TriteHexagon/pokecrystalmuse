@@ -69,7 +69,7 @@ SproutTower1FSage1Text:
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
+	text "SPROUT Tower was"
 	line "built long ago"
 
 	para "as a place for"

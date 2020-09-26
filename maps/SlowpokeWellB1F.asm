@@ -302,7 +302,7 @@ SlowpokeWellB1FSlowpokeWithMailText:
 
 SlowpokeWellB1FSlowpokeMailText:
 	text "<PLAYER> read the"
-	line "MAIL."
+	line "Mail."
 
 	para "Be good and look"
 	line "after the house"

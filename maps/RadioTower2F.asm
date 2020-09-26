@@ -470,7 +470,7 @@ GruntF2AfterBattleText:
 
 RadioTower2FBuenaShowIntroductionText:
 	text "Buena: Hi! I'm"
-	line "BUENA!"
+	line "Buena!"
 
 	para "Do you know about"
 	line "a radio program"
@@ -653,7 +653,7 @@ RadioTower2FBuenaOfferNumberAgainText:
 
 RadioTower2FRegisteredBuenasNumberText:
 	text "<PLAYER> registered"
-	line "BUENA's number."
+	line "Buena's number."
 	done
 
 RadioTower2FBuenaCallMeText:
@@ -697,7 +697,7 @@ RadioTower2FSalesSignText:
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "Prof.Oak'S #mon"
+	text "Prof.Oak's #mon"
 	line "TALK"
 
 	para "The Hottest Show"

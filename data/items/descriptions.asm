@@ -963,10 +963,10 @@ SurfMailDesc:
 
 LiteBlueMailDesc:
 	db   "DRATINI-print"
-	next "MAIL. (HOLD)@"
+	next "Mail. (HOLD)@"
 
 PortraitMailDesc:
-	db   "MAIL featuring the"
+	db   "Mail featuring the"
 	next "holder's likeness.@"
 
 LovelyMailDesc:

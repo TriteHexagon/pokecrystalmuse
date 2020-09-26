@@ -100,7 +100,7 @@ SaffronPokecenter1FFisherReturnedMachinePartText:
 
 SaffronPokecenter1FYoungsterText:
 	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	line "Office and the"
 
 	para "Magnet Train STA-"
 	line "TION--they're the"

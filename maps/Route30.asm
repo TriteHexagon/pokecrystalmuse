@@ -370,12 +370,12 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon'S House"
+	text "Mr.#mon's House"
 	line "STRAIGHT ahead!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon'S House"
+	text "Mr.#mon's House"
 	done
 
 Route30TrainerTipsText:

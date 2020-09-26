@@ -37,7 +37,7 @@ VermilionPokecenter1FBugCatcherScript:
 VermilionPokecenter1FFishingGuruText:
 	text "A sleeping #mon"
 	line "is lying in front"
-	cont "of DIGLETT'S CAVE."
+	cont "of Diglett's Cave."
 
 	para "It's a fantastic"
 	line "opportunity to get"
@@ -51,7 +51,7 @@ VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
 	line "sleeping #mon"
 
 	para "lying in front of"
-	line "DIGLETT'S CAVE."
+	line "Diglett's Cave."
 
 	para "But it seems to"
 	line "have disappeared."

@@ -298,14 +298,14 @@ Route42Sign1Text:
 MtMortarSign1Text:
 	text "MT.MORTAR"
 
-	para "WATERFALL CAVE"
+	para "WATERFALL Cave"
 	line "INSIDE"
 	done
 
 MtMortarSign2Text:
 	text "MT.MORTAR"
 
-	para "WATERFALL CAVE"
+	para "WATERFALL Cave"
 	line "INSIDE"
 	done
 

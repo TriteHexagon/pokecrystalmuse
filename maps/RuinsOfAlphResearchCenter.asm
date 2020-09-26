@@ -378,7 +378,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "It's a photo of"
 	line "the RESEARCH"
 
-	para "Center'S founder,"
+	para "Center's founder,"
 	line "Prof.SILKTREE."
 	done
 

@@ -174,7 +174,7 @@ PsychicGregAfterBattleText:
 MeetSunnyText:
 	text "Sunny: Hi!"
 
-	para "I'm SUNNY of Sun-"
+	para "I'm Sunny of Sun-"
 	line "day, meaning it's"
 	cont "Sunday today!"
 	done
@@ -209,7 +209,7 @@ SunnyGaveGiftText:
 	para "moves should hold"
 	line "it."
 
-	para "My sis MONICA said"
+	para "My sis Monica said"
 	line "it powers up"
 	cont "electric moves!"
 	done
@@ -217,9 +217,9 @@ SunnyGaveGiftText:
 SunnySundayText:
 	text "Sunny: My sisters"
 	line "and brothers are"
-	cont "MONICA, TUSCANY,"
-	cont "WESLEY, ARTHUR,"
-	cont "FRIEDA and SANTOS."
+	cont "Monica, Tuscany,"
+	cont "Wesley, Arthur,"
+	cont "Frieda and Santos."
 
 	para "They're all older"
 	line "than me!"

@@ -115,7 +115,7 @@ NamingScreen:
 	ret
 
 .NicknameStrings:
-	db "'S@"
+	db "'s@"
 	db "Nickname?@"
 
 .Player:
@@ -154,7 +154,7 @@ NamingScreen:
 	ret
 
 .MomNameString:
-	db "Mother'S Name?@"
+	db "Mother's Name?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX

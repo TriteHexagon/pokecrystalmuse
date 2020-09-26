@@ -412,7 +412,7 @@ AzaleaTownSignText:
 	done
 
 KurtsHouseSignText:
-	text "Kurt'S House"
+	text "Kurt's House"
 	done
 
 AzaleaGymSignText:

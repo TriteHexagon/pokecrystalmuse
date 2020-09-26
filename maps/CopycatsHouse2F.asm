@@ -345,7 +345,7 @@ CopycatsDodrioText1:
 
 CopycatsDodrioText2:
 	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
+	line "THE WALL, WHO's"
 
 	para "THE FAIREST ONE OF"
 	line "ALL?"

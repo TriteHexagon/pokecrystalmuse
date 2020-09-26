@@ -162,7 +162,7 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "EARL, I am!"
+	text "Earl, I am!"
 
 	para "Wonderful are"
 	line "#mon, yes!"

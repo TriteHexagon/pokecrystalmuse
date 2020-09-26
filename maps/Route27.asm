@@ -387,7 +387,7 @@ Route27FisherText:
 	cont "Kanto."
 
 	para "Check your #-"
-	line "GEAR MAP and see."
+	line "Gear Map and see."
 	done
 
 CooltrainermBlakeSeenText:

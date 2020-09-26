@@ -295,7 +295,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my MEOWTH at"
+	text "I met my Meowth at"
 	line "night, right here"
 	cont "on Route 39."
 
@@ -320,7 +320,7 @@ Route39SignText:
 	done
 
 MoomooFarmSignText:
-	text "MOOMOO FARM"
+	text "Moomoo Farm"
 
 	para "Enjoy Our Fresh"
 	line "and Tasty Milk"
@@ -329,7 +329,7 @@ MoomooFarmSignText:
 Route39TrainerTipsText:
 	text "Trainer Tips"
 
-	para "Use HEADBUTT on"
+	para "Use Headbutt on"
 	line "trees to shake"
 	cont "#mon out."
 
@@ -337,7 +337,7 @@ Route39TrainerTipsText:
 	line "#mon drop out"
 	cont "of trees."
 
-	para "Use HEADBUTT on"
+	para "Use Headbutt on"
 	line "any tree you see!"
 	done
 

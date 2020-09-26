@@ -97,7 +97,7 @@ UnusedMissingDaughterText:
 
 	para "No… She couldn't"
 	line "have gone to the"
-	cont "BURNED TOWER."
+	cont "Burned Tower."
 
 	para "I told her not to"
 	line "go near it…"
@@ -225,7 +225,7 @@ EcruteakCitySignText:
 	done
 
 TinTowerSignText:
-	text "TIN TOWER"
+	text "Bell Tower"
 
 	para "A legendary #-"
 	line "mon is said to"
@@ -247,7 +247,7 @@ EcruteakDanceTheaterSignText:
 	done
 
 BurnedTowerSignText:
-	text "BURNED TOWER"
+	text "Burned Tower"
 
 	para "It was destroyed"
 	line "by a mysterious"

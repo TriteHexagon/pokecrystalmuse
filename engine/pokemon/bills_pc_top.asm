@@ -83,8 +83,8 @@ _BillsPC:
 	db "Withdraw <PK><MN>@"
 	db "Deposit <PK><MN>@"
 	db "Change Box@"
-	db "MOVE <PK><MN> W/O MAIL@"
-	db "SEE YA!@"
+	db "Move <PK><MN> W/O Mail@"
+	db "See Ya!@"
 
 .Jumptable:
 	dw BillsPC_WithdrawMenu

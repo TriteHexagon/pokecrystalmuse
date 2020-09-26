@@ -118,11 +118,11 @@ LizFalknerGossipText:
 LizEarlGossipText:
 	text "Listen, listen!"
 
-	para "Do you know EARL,"
+	para "Do you know Earl,"
 	line "the teacher who"
 
 	para "runs the #mon"
-	line "ACADEMY in Violet?"
+	line "Academy in Violet?"
 
 	para "I saw him doing"
 	line "pirouettes while"
@@ -155,10 +155,10 @@ LizMooMooMilkGossipText:
 	text "Listen, listen!"
 
 	para "Do you know about"
-	line "MOOMOO MILK?"
+	line "Moomoo Milk?"
 
 	para "You can buy it at"
-	line "MOOMOO FARM."
+	line "Moomoo Farm."
 
 	para "It's supposed to"
 	line "be good for health"

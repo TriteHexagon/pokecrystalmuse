@@ -30,7 +30,7 @@ FuchsiaMartFisherText:
 
 FuchsiaMartCooltrainerFText:
 	text "The SAFARI ZONE"
-	line "WARDEN's grand-"
+	line "Warden's grand-"
 	cont "daughter lives in"
 	cont "town."
 	done

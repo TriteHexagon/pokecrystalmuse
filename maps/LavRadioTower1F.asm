@@ -104,7 +104,7 @@ LavRadioTower1FSuperNerd1Text:
 	line "hard at work here"
 
 	para "in the Radio"
-	line "TOWER."
+	line "Tower."
 
 	para "They must be doing"
 	line "their best to put"
@@ -199,8 +199,8 @@ LavRadioTower1FDirectoryText:
 	para "3F PERSONNEL"
 	line "4F PRODUCTION"
 
-	para "5F Director'S"
-	line "   OFFICE"
+	para "5F Director's"
+	line "   Office"
 	done
 
 LavRadioTower1FPokeFluteSignText:

@@ -234,7 +234,7 @@ PokecomCenterAdminOfficeMobileComputer2Text_DontUsePhone:
 
 PokecomCenterAdminOfficeMobileComputer3Text:
 	text "The ADMINISTRATION"
-	line "OFFICE received an"
+	line "Office received an"
 	cont "e-mail. It says…"
 
 	para "<……> <……> <……>"

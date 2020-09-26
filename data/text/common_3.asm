@@ -740,13 +740,13 @@ _MainMenuTimeUnknownText::
 ; unreferenced mobile
 _DeleteSavedLoginPasswordText::
 	text "Delete the saved"
-	line "LOG-IN PASSWORD?"
+	line "LOG-IN Password?"
 	done
 
 ; unreferenced mobile
 _DeletedTheLoginPasswordText::
 	text "Deleted the LOG-IN"
-	line "PASSWORD."
+	line "Password."
 	done
 
 ; unreferenced mobile

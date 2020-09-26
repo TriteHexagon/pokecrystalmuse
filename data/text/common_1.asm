@@ -325,7 +325,7 @@ _AlreadySetUpText::
 	prompt
 
 _LookTownMapText::
-	text "It's the Town MAP."
+	text "It's the Town Map."
 	done
 
 _LookPikachuPosterText::
@@ -510,7 +510,7 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "Mary: Prof.Oak'S"
+	line "Mary: Prof.Oak's"
 	done
 
 _OPT_IntroText2::
@@ -1021,7 +1021,7 @@ _RocketRadioText10::
 
 _BuenaRadioText1::
 	text_start
-	line "Buena: BUENA here!"
+	line "Buena: Buena here!"
 	done
 
 _BuenaRadioText2::
@@ -1093,7 +1093,7 @@ _BuenaRadioMidnightText7::
 
 _BuenaRadioMidnightText8::
 	text_start
-	line "you by DJ BUENA!"
+	line "you by DJ Buena!"
 	done
 
 _BuenaRadioMidnightText9::
