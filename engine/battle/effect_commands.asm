@@ -1265,11 +1265,11 @@ BattleCommand_Stab:
 	pop de
 	pop hl
 
-	push de
-	push bc
-	farcall DoBadgeTypeBoosts
-	pop bc
-	pop de
+	; push de
+	; push bc
+	; farcall DoBadgeTypeBoosts
+	; pop bc
+	; pop de
 
 	ld a, [wCurType]
 	cp b
