@@ -425,12 +425,17 @@ Text_MoveReminderIntro:
 	text "Me? I'm the"
 	line "Move Reminder."
 
-	para "I'll make your"
-	line "#mon remember"
-
-	para "a move if you'll"
-	line "trade me a"
-	cont "Gold Leaf."
+	para "I know all the" 
+	line "moves that #mon" 
+	
+	para "learn - all of"
+	line "them. I can make"
+	
+	para "your #mon"
+	line "remember a move if"
+	
+	para "you'll trade me a"
+	line "Gold Leaf."
 	done
 
 Text_MoveReminderPrompt:
