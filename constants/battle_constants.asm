@@ -47,6 +47,7 @@ NUM_LEVEL_STATS EQU const_value
 	const MOVE_EFFECT ; 1
 	const MOVE_POWER  ; 2
 	const MOVE_TYPE   ; 3
+	;const MOVE_CATEGORY ;???
 	const MOVE_ACC    ; 4
 	const MOVE_PP     ; 5
 	const MOVE_CHANCE ; 6

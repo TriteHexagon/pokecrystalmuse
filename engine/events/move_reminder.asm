@@ -8,7 +8,7 @@ MoveReminder:
 
 	ld a, GOLD_LEAF
 	ld [wCurItem], a
-	ld hl, NumItems
+	ld hl, wNumItems
 	call CheckItem
 	jp nc, .no_gold_leaf
 
@@ -61,7 +61,7 @@ MoveReminder:
 	ld [wItemQuantityChangeBuffer], a
 	ld a, -1
 	ld [wCurItemQuantity], a
-	ld hl, NumItems
+	ld hl, wNumItems
 	call TossItem
 
 	ld de, SFX_TRANSACTION
@@ -99,7 +99,7 @@ MoveReminder:
 GetRemindableMoves:
 ; Get moves remindable by CurPartyMon
 ; Returns z if no moves can be reminded.
-	EXPORT EvosAttacksPointers, EvosAttacks
+	EXPORT EvosAttacksPointers
 	ld hl, wd002
 	xor a
 	ld [hli], a
@@ -114,7 +114,7 @@ GetRemindableMoves:
 	ld a, MON_LEVEL
 	call GetPartyParamLocation
 	ld a, [hl]
-	ld [CurPartyLevel], a
+	ld [wCurPartyLevel], a
 
 	ld b, 0
 	ld de, wd002 + 1
@@ -132,22 +132,22 @@ endr
 	ld a, BANK(EvosAttacksPointers)
 	call GetFarHalfword
 .skip_evos
-	ld a, BANK(EvosAttacks)
+	ld a, BANK("Evolutions and Attacks")
 	call GetFarByte
 	inc hl
 	and a
 	jr nz, .skip_evos
 
 .loop_moves
-	ld a, BANK(EvosAttacks)
+	ld a, BANK("Evolutions and Attacks")
 	call GetFarByte
 	inc hl
 	and a
 	jr z, .done
 	ld c, a
-	ld a, [CurPartyLevel]
+	ld a, [wCurPartyLevel]
 	cp c
-	ld a, BANK(EvosAttacks)
+	ld a, BANK("Evolutions and Attacks")
 	call GetFarByte
 	inc hl
 	jr c, .loop_moves
@@ -267,141 +267,147 @@ ChooseMoveToLearn:
 	ret
 
 .PrintDetails
-	ld hl, wStringBuffer1
-	ld bc, wStringBuffer2 - wStringBuffer1
-	ld a, " "
-	call ByteFill
-	ld a, [wMenuSelection]
-	cp $ff
-	ret z
-	push de
-	dec a
+; 	ld hl, wStringBuffer1
+; 	ld bc, wStringBuffer2 - wStringBuffer1
+; 	ld a, " "
+; 	call ByteFill
+; 	ld a, [wMenuSelection]
+; 	cp $ff
+; 	ret z
+; 	push de
+; 	dec a
     
-	ld bc, MOVE_LENGTH
-	ld hl, Moves + MOVE_TYPE
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	ld [wd265], a
-	; bc = a * 4
-	ld c, a
-	add a
-	add a
-	ld b, 0
-	ld hl, .Types
-    ld c, a
-	ld hl, .Classes
-	add hl, bc
-	ld d, h
-	ld e, l
+; 	;Places Class
+; 	ld bc, MOVE_LENGTH
+; 	ld hl, Moves + MOVE_TYPE ;-not the right constant!
+; 	call AddNTimes
+; 	ld a, BANK(Moves)
+; 	call GetFarByte
+; 	;ld [wd265], a
+; 	; bc = a * 4
+; 	ld c, a
+; 	add a
+; 	add a
+; 	ld b, 0
+;     ld c, a
+; 	ld hl, .Classes
+; 	add hl, bc
+; 	ld d, h
+; 	ld e, l
 
-	ld hl, wStringBuffer1
-	ld bc, 3
-	call PlaceString
-	ld hl, wStringBuffer1 + 3
-	ld [hl], "/"
+; 	;Places /
+; 	ld hl, wStringBuffer1
+; 	ld bc, 3
+; 	call PlaceString
+; 	ld hl, wStringBuffer1 + 3
+; 	ld [hl], "/"
 
-	ld a, [wMenuSelection]
-	dec a
-	ld bc, MOVE_LENGTH
-	ld hl, Moves + MOVE_TYPE
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-    ld [wd265], a
-	; bc = a * 4
-	ld c, a
-	add a
-	add a
-	ld b, 0
-	ld c, a
-	ld hl, .Types
-	add hl, bc
-	ld d, h
-	ld e, l
-    ld hl, wStringBuffer1 + 4
-	ld bc, 3
-	call PlaceString
-	ld hl, wStringBuffer1 + 4 + 3
-	ld [hl], "/"
+; 	;Places Type
+; 	ld a, [wMenuSelection]
+; 	dec a
+; 	ld bc, MOVE_LENGTH
+; 	ld hl, Moves + MOVE_TYPE
+; 	call AddNTimes
+; 	ld a, BANK(Moves)
+; 	call GetFarByte
+;     ld [wd265], a
+; 	; bc = a * 4
+; 	ld c, a
+; 	add a
+; 	add a
+; 	ld b, 0
+; 	ld c, a
+; 	ld hl, .Types
+; 	add hl, bc
+; 	ld d, h
+; 	ld e, l
 
-	ld a, [wMenuSelection]
-	dec a
-    ld bc, MOVE_LENGTH
-	ld hl, Moves + MOVE_POWER
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	ld hl, wStringBuffer1 + 8
-	and a
-	jr z, .no_power
-	ld [wBuffer1], a
-	ld de, wBuffer1
-	lb bc, 1, 3
-	call PrintNum
-	jr .got_power
-.no_power
-	ld de, .ThreeDashes
-	ld bc, 3
+; 	;Places second /
+;     ld hl, wStringBuffer1 + 4
+; 	ld bc, 3
+; 	call PlaceString
+; 	ld hl, wStringBuffer1 + 4 + 3
+; 	ld [hl], "/"
 
-	call PlaceString
-.got_power
-	ld hl, wStringBuffer1 + 8 + 3
-	ld [hl], "/"
+; 	;Places Power
+; 	ld a, [wMenuSelection]
+; 	dec a
+;     ld bc, MOVE_LENGTH
+; 	ld hl, Moves + MOVE_POWER
+; 	call AddNTimes
+; 	ld a, BANK(Moves)
+; 	call GetFarByte
+; 	ld hl, wStringBuffer1 + 8
+; 	and a
+; 	jr z, .no_power
+; 	ld [wBuffer1], a
+; 	ld de, wBuffer1
+; 	lb bc, 1, 3
+; 	call PrintNum
+; 	jr .got_power
+; .no_power
+; 	ld de, .ThreeDashes
+; 	ld bc, 3
 
-	ld a, [wMenuSelection]
-	dec a
+; 	call PlaceString
+; .got_power
+; 	;Places third /
+; 	ld hl, wStringBuffer1 + 8 + 3
+; 	ld [hl], "/"
 
-	ld bc, MOVE_LENGTH
-	ld hl, Moves + MOVE_PP
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	ld [wBuffer1], a
-	ld hl, wStringBuffer1 + 12
-	ld de, wBuffer1
-	lb bc, 1, 2
-	call PrintNum
-	ld hl, wStringBuffer1 + 12 + 2
-	ld [hl], "@"
+; 	ld a, [wMenuSelection]
+; 	dec a
 
-	ld hl, SCREEN_WIDTH - 6
-	pop de
-	add hl, de
-	push de
-	ld de, wStringBuffer1
-	call PlaceString
-	pop de
+; 	ld bc, MOVE_LENGTH
+; 	ld hl, Moves + MOVE_PP
+; 	call AddNTimes
+; 	ld a, BANK(Moves)
+; 	call GetFarByte
+; 	ld [wBuffer1], a
+; 	ld hl, wStringBuffer1 + 12
+; 	ld de, wBuffer1
+; 	lb bc, 1, 2
+; 	call PrintNum
+; 	ld hl, wStringBuffer1 + 12 + 2
+; 	ld [hl], "@"
+
+; 	ld hl, SCREEN_WIDTH - 6
+; 	pop de
+; 	add hl, de
+; 	push de
+; 	ld de, wStringBuffer1
+; 	call PlaceString
+; 	pop de
 	ret
 
-.Types
-	db "Nrm@"
-	db "Fgt@"
-	db "Fly@"
-	db "Psn@"
-	db "Grn@"
-	db "Roc@"
-	db "Bug@"
-	db "Gho@"
-	db "Stl@"
-	db "Fir@"
-	db "Wtr@"
-	db "Grs@"
-	db "Ele@"
-	db "Psy@"
-	db "Ice@"
-	db "Drg@"
-	db "Drk@"
-	db "Fai@"
-	db "???@"
+; .Types
+; 	db "Nrm@"
+; 	db "Fgt@"
+; 	db "Fly@"
+; 	db "Psn@"
+; 	db "Grn@"
+; 	db "Roc@"
+; 	db "Bug@"
+; 	db "Gho@"
+; 	db "Stl@"
+; 	db "Fir@"
+; 	db "Wtr@"
+; 	db "Grs@"
+; 	db "Ele@"
+; 	db "Psy@"
+; 	db "Ice@"
+; 	db "Drg@"
+; 	db "Drk@"
+; 	db "Fry@"
+; 	db "???@"
 
-.Classes
-	db "Phy@"
-	db "Spc@"
-	db "Sta@"
+; .Classes
+; 	db "Phy@"
+; 	db "Spc@"
+; 	db "Sta@"
 
-.ThreeDashes
-	db "---@"
+; .ThreeDashes
+; 	db "---@"
 
 .PrintMoveDesc
 	push de
@@ -416,37 +422,62 @@ ChooseMoveToLearn:
 	ret
 
 Text_MoveReminderIntro:
-	text_jump MoveReminderIntroText
-	db "@"
+	text "Me? I'm the"
+	line "Move Reminder."
+
+	para "I'll make your"
+	line "#mon remember"
+
+	para "a move if you'll"
+	line "trade me a"
+	cont "Gold Leaf."
+	done
 
 Text_MoveReminderPrompt:
-	text_jump MoveReminderPromptText
-	db "@"
+	text "Do you want me to"
+	line "teach one of your"
+	cont "#mon a move?"
+	done
 
 Text_MoveReminderWhichMon:
-	text_jump MoveReminderWhichMonText
-	db "@"
+	text "Which #mon"
+	line "needs tutoring?"
+	done
 
 Text_MoveReminderWhichMove:
-	text_jump MoveReminderWhichMoveText
-	db "@"
-
-Text_MoveReminderCancel:
-	text_jump MoveReminderCancelText
-	db "@"
-
-Text_MoveReminderEgg:
-	text_jump MoveReminderEggText
-	db "@"
+	text "Which move should"
+	line "it remember?"
+	done
 
 Text_MoveReminderNoGoldLeaf:
-	text_jump MoveReminderNoGoldLeafText
-	db "@"
+Text_MoveReminderCancel:
+	text "If your #mon"
+	line "needs to learn a"
+
+	para "move, come back"
+	line "with a Gold Leaf."
+	done
+
+Text_MoveReminderEgg:
+	text "Huh? That's just"
+	line "an Egg."
+	done
 
 Text_MoveReminderNoMon:
-	text_jump MoveReminderNoMonText
-	db "@"
+	text "Huh? That's not"
+	line "a #mon."
+	done
 
 Text_MoveReminderNoMoves:
-	text_jump MoveReminderNoMovesText
-	db "@"
+	text "Sorry… There isn't"
+	line "any move I can"
+
+	para "make that #mon"
+	line "remember."
+	done
+
+; MoveReminderSorryText:: ;unused
+; 	text "I can't do it"
+; 	line "yet, though."
+; 	cont "Sorry."
+; 	done
