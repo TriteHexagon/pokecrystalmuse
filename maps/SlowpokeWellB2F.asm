@@ -32,14 +32,14 @@ SlowpokeWellB2FTMVenoshock:
 
 SlowpokeWellB2FGymGuyText:
 	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
+	line "Slowpoke's moment"
 	cont "of evolution."
 
 	para "Through observa-"
 	line "tion, I made a new"
 	cont "discovery."
 
-	para "A SLOWPOKE with a"
+	para "A Slowpoke with a"
 	line "KING'S ROCK often"
 
 	para "gets bitten by a"
@@ -52,7 +52,7 @@ SlowpokeWellB2FGymGuyText:
 
 SlowpokeWellB2FGymGuyText_GotKingsRock:
 	text "I'm going to be"
-	line "like SLOWPOKE."
+	line "like Slowpoke."
 
 	para "I'll wait patient-"
 	line "ly, so I can see"

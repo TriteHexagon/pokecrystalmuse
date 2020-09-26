@@ -202,7 +202,7 @@ CeruleanCityCooltrainerFText3:
 CeruleanCityFisherText:
 	text "I'm a huge fan of"
 	line "Cerulean Gym's"
-	cont "MISTY."
+	cont "Misty."
 	done
 
 CeruleanCityFisherRocketTipText:
@@ -236,7 +236,7 @@ CeruleanCitySignText:
 CeruleanGymSignText:
 	text "Cerulean City"
 	line "#mon Gym"
-	cont "Leader: MISTY"
+	cont "Leader: Misty"
 
 	para "The Tomboyish"
 	line "Mermaid"

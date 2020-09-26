@@ -206,7 +206,7 @@ IndigoPlateauPokecenter1FCooltrainerMText:
 	line "League, you'll get"
 
 	para "tested by the"
-	line "ELITE FOUR."
+	line "Elite Four."
 
 	para "You have to beat"
 	line "them all. If you"

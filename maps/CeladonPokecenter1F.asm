@@ -71,7 +71,7 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
+	text "Erika is a master"
 	line "of grass #mon."
 
 	para "She'll make you"

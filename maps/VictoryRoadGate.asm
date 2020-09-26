@@ -88,7 +88,7 @@ VictoryRoadGateRightBlackBeltText:
 	text "Off to the #mon"
 	line "League, are you?"
 
-	para "The ELITE FOUR are"
+	para "The Elite Four are"
 	line "so strong it's"
 
 	para "scary, and they're"

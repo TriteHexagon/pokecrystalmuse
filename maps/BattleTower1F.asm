@@ -415,7 +415,7 @@ Text_BattleTowerIntroduction_1:
 	para "To interrupt a"
 	line "session, you must"
 
-	para "SAVE. If not, you"
+	para "Save. If not, you"
 	line "won't be able to"
 
 	para "resume your ROOM"
@@ -451,7 +451,7 @@ Text_BattleTowerIntroduction_2:
 	para "To interrupt a"
 	line "session, you must"
 
-	para "SAVE. If not, you"
+	para "Save. If not, you"
 	line "won't be able to"
 
 	para "resume your ROOM"
@@ -614,7 +614,7 @@ Text_BattleTowerRules:
 
 Text_BattleTower_LeftWithoutSaving:
 	text "Excuse me!"
-	line "You didn't SAVE"
+	line "You didn't Save"
 
 	para "before exiting"
 	line "the BATTLE ROOM."
@@ -641,7 +641,7 @@ Text_NextUpOpponentNo:
 
 Text_SaveBeforeConnecting_Mobile:
 	text "Your session will"
-	line "be SAVED before"
+	line "be Saved before"
 
 	para "connecting with"
 	line "the Center."
@@ -656,13 +656,13 @@ Text_SaveBeforeEnteringBattleRoom:
 	done
 
 Text_SaveAndEndTheSession:
-	text "SAVE and end the"
+	text "Save and end the"
 	line "session?"
 	done
 
 Text_SaveBeforeReentry:
 	text "Your record will"
-	line "be SAVED before"
+	line "be Saved before"
 
 	para "you go back into"
 	line "the previous ROOM."

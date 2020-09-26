@@ -266,7 +266,7 @@ RadioTower1FLuckyNumberManPerfectMatchText:
 	line "prize winner!"
 
 	para "You have won a"
-	line "MASTER BALL!"
+	line "MASTER Ball!"
 	done
 
 RadioTower1FLuckyNumberManOkayMatchText:

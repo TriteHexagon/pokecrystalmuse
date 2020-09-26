@@ -160,7 +160,7 @@ GoldenrodDeptStore5FAlreadyGotTMText:
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "Mystery GIFT."
 
 	para "With just a"
 	line "little beep, you"
@@ -168,7 +168,7 @@ GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "The MYSTERY GIFT"
+	text "The Mystery GIFT"
 	line "option requires a"
 	cont "Game Boy Color."
 	done

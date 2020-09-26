@@ -178,7 +178,7 @@ LtSurgeFightDoneText:
 
 GentlemanGregorySeenText:
 	text "You're here to"
-	line "defeat LT.SURGE?"
+	line "defeat Lt.Surge?"
 
 	para "Not if I can help"
 	line "it!"
@@ -186,7 +186,7 @@ GentlemanGregorySeenText:
 
 GentlemanGregoryBeatenText:
 	text "Sorry I failed"
-	line "you, LT.SURGE,"
+	line "you, Lt.Surge,"
 	cont "sir!"
 	done
 
@@ -199,7 +199,7 @@ GentlemanGregoryAfterBattleText:
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
+	text "Lt.Surge recog-"
 	line "nized my potential"
 
 	para "with electric"
@@ -237,7 +237,7 @@ JugglerHortonAfterBattleText:
 	line "fortable about"
 
 	para "beating me…"
-	line "LT.SURGE is tough."
+	line "Lt.Surge is tough."
 	done
 
 VermilionGymGuyText:
@@ -247,7 +247,7 @@ VermilionGymGuyText:
 	para "You lucked out"
 	line "this time."
 
-	para "LT.SURGE is very"
+	para "Lt.Surge is very"
 	line "cautious. He has"
 
 	para "traps set all over"
@@ -259,7 +259,7 @@ VermilionGymGuyText:
 
 	para "You'll have no"
 	line "problem getting to"
-	cont "LT.SURGE."
+	cont "Lt.Surge."
 	done
 
 VermilionGymGuyWinText:

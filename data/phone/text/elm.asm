@@ -12,7 +12,7 @@ ElmPhoneHealYourMonText:
 ElmPhoneSawMrPokemonText:
 	text "Hello, <PLAY_G>?"
 
-	para "Did you meet MR."
+	para "Did you meet Mr."
 	line "#mon? Great!"
 	cont "Come back safely!"
 	done
@@ -32,10 +32,10 @@ ElmPhoneCheckingTheEggText:
 	text "Hello, <PLAY_G>?"
 
 	para "We're checking the"
-	line "EGG now. It does"
+	line "Egg now. It does"
 
 	para "appear to be a"
-	line "#mon EGG."
+	line "#mon Egg."
 	done
 
 ElmPhoneAssistantText:
@@ -51,7 +51,7 @@ ElmPhoneAssistantText:
 ElmPhoneHowIsTheEggText:
 	text "Hello, <PLAY_G>?"
 
-	para "How's the EGG? Has"
+	para "How's the Egg? Has"
 	line "anything changed?"
 
 	para "If anything hap-"
@@ -60,7 +60,7 @@ ElmPhoneHowIsTheEggText:
 
 ElmPhoneEggHatchedText:
 	text "Hello, <PLAY_G>?"
-	line "How is the EGG?"
+	line "How is the Egg?"
 
 	para "What? It hatched?"
 	line "Wow! What kind of"
@@ -77,7 +77,7 @@ ElmPhoneDiscoveredHatchTimeText:
 	line "discovery."
 
 	para "The time it takes"
-	line "for an EGG to"
+	line "for an Egg to"
 
 	para "hatch depends on"
 	line "the #mon."
@@ -148,7 +148,7 @@ ElmPhoneEggAssistantText:
 	line "discovered some-"
 
 	para "thing about the"
-	line "EGG!"
+	line "Egg!"
 
 	para "My assistant is at"
 	line "the #mon Center"

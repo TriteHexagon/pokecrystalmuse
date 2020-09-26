@@ -471,7 +471,7 @@ endr
 	ret
 
 BT_ChrisName:
-	db "CHRIS@"
+	db "Chris@"
 
 Function17042c:
 	ld hl, w3_d202TrainerData
@@ -1298,7 +1298,7 @@ endr
 	ret
 
 String_MysteryJP:
-	db "なぞナゾ@@" ; MYSTERY
+	db "なぞナゾ@@" ; Mystery
 
 Function1709aa: ; BattleTowerAction $0f
 	ldh a, [rSVBK]

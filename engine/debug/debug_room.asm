@@ -89,11 +89,11 @@ _DebugRoom:
 ; entries correspond to DEBUGROOMMENUITEM_* constants
 	db "SP CLEAR@"
 	db "WIN WORK CLR@"
-	db "#mon GET!@"
+	db "#mon Get!@"
 	db "#dex COMP@"
 	db "TIMER RESET@"
 	db "DECORATE ALL@"
-	db "ITEM GET!@"
+	db "ITEM Get!@"
 	db "RTC EDIT@"
 	db "NEXT@"
 	db "GB ID SET@"
@@ -106,7 +106,7 @@ _DebugRoom:
 	db "TEL DEBUG@"
 	db "SUM RECALC@"
 	db "RAM FLAG CLR@"
-	db "CHANGE SEX@"
+	db "Change SEX@"
 	db "BT BUG POKE@"
 
 .Jumptable:
@@ -1225,7 +1225,7 @@ DebugRoom_SavePokemon:
 	done
 
 .BoxIsFullText:
-	text "BOX IS FULL!"
+	text "Box IS FULL!"
 	done
 
 DebugRoom_PrintPokemonName:
@@ -1352,7 +1352,7 @@ DebugRoom_BoxStructStrings:
 .NoUse0:    db "NO USE[0]@"
 .NoUse1:    db "NO USE[1]@"
 .Level:     db "LEVEL@"
-.SendBox:   db "SEND BOX@"
+.SendBox:   db "SEND Box@"
 
 DebugRoom_BoxAddresses:
 	dba sBox1

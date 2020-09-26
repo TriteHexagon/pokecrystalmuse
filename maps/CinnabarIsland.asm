@@ -46,7 +46,7 @@ CinnabarIslandBlueText:
 	line "to see that you're"
 	cont "a trainer…"
 
-	para "My name's BLUE."
+	para "My name's Blue."
 
 	para "I was once the"
 	line "Champion, although"
@@ -115,7 +115,7 @@ CinnabarIslandGymSignText:
 	line "relocated to SEA-"
 	cont "FOAM ISLANDS."
 
-	para "BLAINE"
+	para "Blaine"
 	done
 
 CinnabarIslandSignText:

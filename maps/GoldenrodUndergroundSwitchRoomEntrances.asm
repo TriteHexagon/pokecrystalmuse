@@ -704,7 +704,7 @@ UndergroundSilverAfterText:
 	text "…I don't under-"
 	line "stand…"
 
-	para "Is what that LANCE"
+	para "Is what that Lance"
 	line "guy said true?"
 
 	para "That I don't treat"
@@ -744,7 +744,7 @@ UndergroundSilverLossText:
 	line "Rocket history."
 
 	para "And I'm going to"
-	line "grind that LANCE"
+	line "grind that Lance"
 	cont "under my heels."
 	done
 
@@ -847,7 +847,7 @@ BurglarEddieBeatenText:
 
 BurglarEddieAfterBattleText:
 	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	line "House?"
 
 	para "What do you want"
 	line "to go there for?"

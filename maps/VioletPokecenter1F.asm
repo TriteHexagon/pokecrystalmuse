@@ -53,7 +53,7 @@ VioletPokecenter1F_ElmsAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "Egg@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -107,14 +107,14 @@ VioletPokecenterElmsAideFavorText:
 	text "<PLAY_G>, long"
 	line "time, no see."
 
-	para "PROF.ELM asked me"
+	para "Prof.Elm asked me"
 	line "to find you."
 
 	para "He has another"
 	line "favor to ask."
 
 	para "Would you take the"
-	line "#mon EGG?"
+	line "#mon Egg?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
@@ -122,7 +122,7 @@ VioletPokecenterElmsAideGiveEggText:
 	line "a #mon will not"
 
 	para "hatch until it"
-	line "grows in the EGG."
+	line "grows in the Egg."
 
 	para "It also has to be"
 	line "with other active"
@@ -132,8 +132,8 @@ VioletPokecenterElmsAideGiveEggText:
 	line "the only person"
 	cont "we can rely on."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
+	para "Please call Prof."
+	line "Elm when that Egg"
 	cont "hatches!"
 	done
 
@@ -144,17 +144,17 @@ VioletCityElmsAideFullPartyText:
 
 	para "I'll wait here"
 	line "while you make"
-	cont "room for the EGG."
+	cont "room for the Egg."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
+	text "B-but… Prof.Elm"
 	line "asked for you…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
 	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	line "take the Egg?"
 	done
 
 ; unused
@@ -183,7 +183,7 @@ VioletPokecenterMobileAdapterText:
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
+	text "A guy named Bill"
 	line "made the #mon"
 	cont "PC storage system."
 	done

@@ -4959,7 +4959,7 @@ Unknown_1120f5:
 Unknown_112102:
 	db "TOP 00000 0\r\n", 0
 Unknown_112110:
-	db "GET ", 0
+	db "Get ", 0
 Unknown_112115:
 	db " HTTP/1.0\r\n", 0
 Unknown_112121:

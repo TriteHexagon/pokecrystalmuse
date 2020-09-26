@@ -370,7 +370,7 @@ GuideGentMartText:
 	text "This is a #mon"
 	line "MART."
 
-	para "They sell BALLS"
+	para "They sell Balls"
 	line "for catching wild"
 
 	para "#mon and other"
@@ -500,7 +500,7 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#mon's house"
+	text "Mr.#mon's house"
 	line "is still farther"
 	cont "up ahead."
 	done
@@ -541,7 +541,7 @@ CherrygroveCitySignText:
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "GUIDE GENT'S House"
 	done
 
 CherrygroveCity_MapEvents:

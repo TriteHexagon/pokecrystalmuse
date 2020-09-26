@@ -375,7 +375,7 @@ TwinsLeaandpia1BeatenText:
 
 TwinsLeaandpia1AfterBattleText:
 	text "It was like having"
-	line "to battle LANCE."
+	line "to battle Lance."
 	done
 
 TwinsLeaandpia2SeenText:

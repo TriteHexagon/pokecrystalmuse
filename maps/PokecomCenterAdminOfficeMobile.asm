@@ -178,7 +178,7 @@ PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter:
 	text "To use the TRADE"
 	line "CORNER or read the"
 
-	para "#mon NEWS, you"
+	para "#mon News, you"
 	line "need to phone the"
 	cont "MOBILE Center."
 

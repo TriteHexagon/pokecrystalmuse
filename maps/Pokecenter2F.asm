@@ -1007,7 +1007,7 @@ Text_BrokeStadiumRules:
 	line "please bring six"
 
 	para "different #mon,"
-	line "excluding EGGS."
+	line "excluding Eggs."
 
 	para "The six #mon"
 	line "must be different."

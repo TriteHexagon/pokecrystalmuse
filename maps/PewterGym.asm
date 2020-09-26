@@ -77,13 +77,13 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
+	text "Brock: Wow, it's"
 	line "not often that we"
 
 	para "get a challenger"
 	line "from Johto."
 
-	para "I'm BROCK, the"
+	para "I'm Brock, the"
 	line "Pewter Gym Leader."
 
 	para "I'm an expert on"
@@ -102,7 +102,7 @@ BrockIntroText:
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
+	text "Brock: Your #-"
 	line "MON's powerful at-"
 	cont "tacks overcame my"
 	cont "Rock-hard defense…"
@@ -120,7 +120,7 @@ ReceivedBoulderBadgeText:
 	done
 
 BrockExplainTMText:
-	text "BROCK: <PLAY_G>,"
+	text "Brock: <PLAY_G>,"
 	line "thanks. I enjoyed"
 
 	para "battling you, even"
@@ -137,7 +137,7 @@ BrockExplainTMText:
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
+	text "Brock: The world"
 	line "is huge. There are"
 
 	para "still many strong"

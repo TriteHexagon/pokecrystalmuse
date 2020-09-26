@@ -258,7 +258,7 @@ CianwoodCityPokefanMText:
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the Gym"
+	text "Chuck, the Gym"
 	line "Leader, spars with"
 
 	para "his fighting #-"
@@ -349,7 +349,7 @@ CianwoodGymSignText:
 	text "Cianwood City"
 	line "#mon Gym"
 
-	para "Leader: CHUCK"
+	para "Leader: Chuck"
 
 	para "His Roaring Fists"
 	line "Do the Talking"

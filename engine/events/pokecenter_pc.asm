@@ -62,8 +62,8 @@ PokemonCenterPC:
 	dw TurnOffPC,    .String_TurnOff
 
 .String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "BILL's PC@"
-.String_OaksPC:     db "PROF.OAK's PC@"
+.String_BillsPC:    db "Bill's PC@"
+.String_OaksPC:     db "Prof.Oak's PC@"
 .String_HallOfFame: db "HALL OF FAME@"
 .String_TurnOff:    db "TURN OFF@"
 
@@ -281,10 +281,10 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "WITHDRAW ITEM@"
-.DepositItem:  db "DEPOSIT ITEM@"
+.WithdrawItem: db "Withdraw ITEM@"
+.DepositItem:  db "Deposit ITEM@"
 .TossItem:     db "TOSS ITEM@"
-.MailBox:      db "MAIL BOX@"
+.MailBox:      db "MAIL Box@"
 .Decoration:   db "DECORATION@"
 .TurnOff:      db "TURN OFF@"
 .LogOff:       db "LOG OFF@"

@@ -292,7 +292,7 @@ BugCatcherWade1AfterText:
 
 	para "If you catch one,"
 	line "it'll go to your"
-	cont "BOX automatically."
+	cont "Box automatically."
 	done
 
 Text_Route31SleepyMan:

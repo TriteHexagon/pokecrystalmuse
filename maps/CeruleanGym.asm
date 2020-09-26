@@ -238,17 +238,17 @@ CeruleanGymGruntByeText:
 CeruleanGymNote1Text:
 	text "Sorry, I'll be out"
 	line "for a while."
-	cont "MISTY, Gym Leader"
+	cont "Misty, Gym Leader"
 	done
 
 CeruleanGymNote2Text:
-	text "Since MISTY's out,"
+	text "Since Misty's out,"
 	line "we'll be away too."
 	cont "Gym TRAINERS"
 	done
 
 MistyIntroText:
-	text "MISTY: I was ex-"
+	text "Misty: I was ex-"
 	line "pecting you, you"
 	cont "pest!"
 
@@ -264,7 +264,7 @@ MistyIntroText:
 	done
 
 MistyWinLossText:
-	text "MISTY: You really"
+	text "Misty: You really"
 	line "are good…"
 
 	para "I'll admit that"
@@ -280,7 +280,7 @@ ReceivedCascadeBadgeText:
 	done
 
 MistyExplainTMText:
-	para "MISTY: Here is"
+	para "Misty: Here is"
 	line "another memento"
 
 	para "from this battle."
@@ -294,7 +294,7 @@ MistyExplainTMText:
 	cont "burn your foes."
 
 MistyFightDoneText:
-	text "MISTY: Are there"
+	text "Misty: Are there"
 	line "many strong train-"
 	cont "ers in Johto? Like"
 	cont "you, I mean."
@@ -337,7 +337,7 @@ SwimmerfBrianaAfterBattleText:
 	text "Don't be too smug"
 	line "about beating me."
 
-	para "MISTY will destroy"
+	para "Misty will destroy"
 	line "you if you get"
 	cont "complacent."
 	done
@@ -354,7 +354,7 @@ SwimmermParkerBeatenText:
 	done
 
 SwimmermParkerAfterBattleText:
-	text "MISTY has gotten"
+	text "Misty has gotten"
 	line "much better in the"
 	cont "past few years."
 
@@ -367,7 +367,7 @@ CeruleanGymGuyText:
 	text "Yo! CHAMP in"
 	line "making!"
 
-	para "Since MISTY was"
+	para "Since Misty was"
 	line "away, I went out"
 
 	para "for some fun too."

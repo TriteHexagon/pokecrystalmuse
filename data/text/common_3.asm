@@ -207,7 +207,7 @@ _SaveFileCorruptedText::
 
 _ChangeBoxSaveText::
 	text "When you change a"
-	line "#mon BOX, data"
+	line "#mon Box, data"
 	cont "will be saved. OK?"
 	done
 
@@ -347,7 +347,7 @@ _SeerNoLocationText::
 _SeerEggText::
 	text "Hey!"
 
-	para "That's an EGG!"
+	para "That's an Egg!"
 
 	para "You can't say that"
 	line "you've met it yet…"
@@ -1150,7 +1150,7 @@ _NeedAtLeastThreeMonText::
 	done
 
 _EggDoesNotQualifyText::
-	text "Sorry, an EGG"
+	text "Sorry, an Egg"
 	line "doesn't qualify."
 
 	para ""
@@ -1185,14 +1185,14 @@ _TheMonMustNotHoldTheSameItemsText::
 
 _YouCantTakeAnEggText::
 	text "You can't take an"
-	line "EGG!"
+	line "Egg!"
 
 	para ""
 	done
 
 _BallDodgedText::
 	text "It dodged the"
-	line "thrown BALL!"
+	line "thrown Ball!"
 
 	para "This #mon"
 	line "can't be caught!"
@@ -1242,7 +1242,7 @@ _WaitButtonText::
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
 	text " was"
-	line "sent to BILL's PC."
+	line "sent to Bill's PC."
 	prompt
 
 _NewDexDataText::
@@ -1362,11 +1362,11 @@ _ItemLooksBitterText::
 
 _ItemCantUseOnEggText::
 	text "That can't be used"
-	line "on an EGG."
+	line "on an Egg."
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
@@ -1383,7 +1383,7 @@ _ItemWontHaveEffectText::
 
 _BallBlockedText::
 	text "The trainer"
-	line "blocked the BALL!"
+	line "blocked the Ball!"
 	prompt
 
 _BallDontBeAThiefText::
@@ -1403,7 +1403,7 @@ _ItemCantGetOnText::
 	prompt
 
 _BallBoxFullText::
-	text "The #mon BOX"
+	text "The #mon Box"
 	line "is full. That"
 	cont "can't be used now."
 	prompt
@@ -1456,7 +1456,7 @@ _DeleterForgotMoveText::
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
+	text "An Egg doesn't"
 	line "know any moves!"
 	done
 

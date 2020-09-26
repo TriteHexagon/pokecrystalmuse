@@ -236,7 +236,7 @@ MovementData_0x19f000:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Why"
+	text "Misty: Aww! Why"
 	line "did you have to"
 
 	para "show up and bug us"
@@ -264,7 +264,7 @@ Route25MistyDateText:
 	para "I'll be happy to"
 	line "take you on."
 
-	para "I'm MISTY, the"
+	para "I'm Misty, the"
 	line "Gym Leader in"
 	cont "Cerulean."
 	done
@@ -420,11 +420,11 @@ CooltrainermKevinAfterBattleText:
 
 BillsHouseSignText:
 	text "SEA COTTAGE"
-	line "BILL'S HOUSE"
+	line "Bill'S House"
 	done
 
 ; unused
-	text "BILL'S HOUSE"
+	text "Bill'S House"
 	done
 
 Route25_MapEvents:

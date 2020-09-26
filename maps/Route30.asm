@@ -335,7 +335,7 @@ BugCatcherDonBeatenText:
 
 BugCatcherDonAfterText:
 	text "I ran out of #"
-	line "BALLS while I was"
+	line "Balls while I was"
 	cont "catching #mon."
 
 	para "I should've bought"
@@ -343,7 +343,7 @@ BugCatcherDonAfterText:
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#mon's"
+	text "Mr.#mon's"
 	line "house? It's a bit"
 	cont "farther ahead."
 	done
@@ -370,12 +370,12 @@ Route30SignText:
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#mon'S HOUSE"
+	text "Mr.#mon'S House"
 	line "STRAIGHT ahead!"
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#mon'S HOUSE"
+	text "Mr.#mon'S House"
 	done
 
 Route30TrainerTipsText:
@@ -384,7 +384,7 @@ Route30TrainerTipsText:
 	para "No stealing other"
 	line "people's #mon!"
 
-	para "# BALLS are to"
+	para "#Balls are to"
 	line "be thrown only at"
 	cont "wild #mon!"
 	done

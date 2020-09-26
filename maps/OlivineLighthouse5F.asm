@@ -46,7 +46,7 @@ OlivineLighthouse5FHiddenHyperPotion:
 
 SailorErnestSeenText:
 	text "I wanted to battle"
-	line "JASMINE, but she's"
+	line "Jasmine, but she's"
 
 	para "not up to it now."
 	line "So, how about you?"

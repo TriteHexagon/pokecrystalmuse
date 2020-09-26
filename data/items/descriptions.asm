@@ -257,11 +257,11 @@ ItemDescriptions:
 	dw TeruSama33Desc
 
 MasterBallDesc:
-	db   "The best BALL. It"
+	db   "The best Ball. It"
 	next "never misses.@"
 
 UltraBallDesc:
-	db   "A BALL with a high"
+	db   "A Ball with a high"
 	next "rate of success.@"
 
 BrightpowderDesc:
@@ -269,7 +269,7 @@ BrightpowderDesc:
 	next "accuracy. (HOLD)@"
 
 GreatBallDesc:
-	db   "A BALL with a de-"
+	db   "A Ball with a de-"
 	next "cent success rate.@"
 
 PokeBallDesc:
@@ -368,12 +368,12 @@ IronDesc:
 	next "one #mon.@"
 
 CarbosDesc:
-	db   "Raises SPEED of"
+	db   "Raises Speed of"
 	next "one #mon.@"
 
 LuckyPunchDesc:
 	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	next "ratio of Chansey.@"
 
 CalciumDesc:
 	db   "Raises Sp. Atk of"
@@ -393,7 +393,7 @@ LeafStoneDesc:
 
 MetalPowderDesc:
 	db   "Raises Defense of"
-	next "DITTO. (HOLD)@"
+	next "Ditto. (HOLD)@"
 
 NuggetDesc:
 	db   "Made of pure gold."
@@ -527,7 +527,7 @@ SSTicketDesc:
 	next "S.S.Aqua.@"
 
 MysteryEggDesc:
-	db   "An EGG obtained"
+	db   "An Egg obtained"
 	next "from Mr.#mon.@"
 
 ClearBellDesc:
@@ -707,7 +707,7 @@ RageCandyBarDesc:
 
 GSBallDesc:
 	db   "The mysterious"
-	next "BALL.@"
+	next "Ball.@"
 
 BlueCardDesc:
 	db   "Card to save"
@@ -726,7 +726,7 @@ FocusBandDesc:
 	next "ing. (HOLD)@"
 
 NetBallDesc:
-	db   "A BALL for Water-"
+	db   "A Ball for Water-"
 	next "and Bug-types.@"
 
 EnergyPowderDesc:
@@ -785,15 +785,15 @@ PassDesc:
 	next "Magnet Train.@"
 
 DuskBallDesc:
-	db   "A BALL for night-"
+	db   "A Ball for night-"
 	next "time and caves.@"
 
 QuickBallDesc:
-	db   "A BALL for the"
+	db   "A Ball for the"
 	next "first turn.@"
 
 RepeatBall:
-	db   "A BALL for a"
+	db   "A Ball for a"
 	next "caught species.@"
 
 CharcoalDesc:
@@ -866,7 +866,7 @@ SacredAshDesc:
 	next "fainted #mon.@"
 
 HeavyBallDesc:
-	db   "A BALL for catch-"
+	db   "A Ball for catch-"
 	next "ing heavy #mon.@"
 
 FlowerMailDesc:
@@ -874,15 +874,15 @@ FlowerMailDesc:
 	next "(HOLD)@"
 
 LevelBallDesc:
-	db   "A BALL for lower-"
+	db   "A Ball for lower-"
 	next "level #mon.@"
 
 LureBallDesc:
-	db   "A BALL for #mon"
+	db   "A Ball for #mon"
 	next "hooked by a Rod.@"
 
 FastBallDesc:
-	db   "A BALL for catch-"
+	db   "A Ball for catch-"
 	next "ing fast #mon.@"
 
 TeruSama21Desc:
@@ -893,11 +893,11 @@ LightBallDesc:
 	next "orb. (HOLD)@"
 
 FriendBallDesc:
-	db   "A BALL that makes"
+	db   "A Ball that makes"
 	next "#mon friendly.@"
 
 MoonBallDesc:
-	db   "A BALL for MOON"
+	db   "A Ball for MOON"
 	next "STONE evolvers.@"
 
 LoveBallDesc:
@@ -944,7 +944,7 @@ TeruSama23Desc:
 
 ParkBallDesc:
 	db   "The Bug-Catching"
-	next "Contest BALL.@"
+	next "Contest Ball.@"
 
 RainbowWingDesc:
 	db   "A mystical feather"

@@ -35,7 +35,7 @@ CeruleanMart_CooltrainerMText:
 	done
 
 CeruleanMart_CooltrainerFText:
-	text "MISTY is about the"
+	text "Misty is about the"
 	line "only person in"
 
 	para "town who can beat"

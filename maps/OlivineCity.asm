@@ -264,7 +264,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "Olivine City"
 	line "#mon Gym"
-	cont "Leader: JASMINE"
+	cont "Leader: Jasmine"
 
 	para "The Steel-Clad"
 	line "Defense Girl"

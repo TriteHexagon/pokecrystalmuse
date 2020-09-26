@@ -79,7 +79,7 @@ GoldenrodDeptStore4FDirectoryText:
 	text "Let Us Pump Up"
 	line "Your #mon!"
 
-	para "4F MEDICINE BOX"
+	para "4F MEDICINE Box"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

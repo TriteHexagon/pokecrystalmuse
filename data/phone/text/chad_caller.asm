@@ -15,7 +15,7 @@ ChadObservingWildText:
 	line "become a #mon"
 
 	para "researcher like"
-	line "PROF.OAK soon."
+	line "Prof.Oak soon."
 	done
 
 ChadDefeatedMonText:
@@ -70,9 +70,9 @@ ChadHangUpText:
 	done
 
 ChadBlueGossipText:
-	text "Do you know BLUE?"
+	text "Do you know Blue?"
 
-	para "He's PROF.OAK's"
+	para "He's Prof.Oak's"
 	line "grandson and a"
 
 	para "former #mon"
@@ -83,7 +83,7 @@ ChadBlueGossipText:
 	done
 
 ChadDaisyGossipText:
-	text "PROF.OAK has a"
+	text "Prof.Oak has a"
 	line "granddaughter"
 	cont "named DAISY."
 
@@ -96,18 +96,18 @@ ChadDaisyGossipText:
 
 ChadProfElmGossipText:
 	text "Everyone's talking"
-	line "about PROF.ELM."
+	line "about Prof.Elm."
 
 	para "He used to be an"
 	line "assistant to the"
-	cont "great PROF.OAK!"
+	cont "great Prof.Oak!"
 
 	para "That is so cool!"
 	line "I envy him!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "PROF.OAK's dream"
+	text "Prof.Oak's dream"
 	line "is to compile a"
 
 	para "comprehensive"
@@ -119,10 +119,10 @@ ChadProfOaksDreamGossipText:
 	done
 
 ChadKurtGossipText:
-	text "Do you know KURT,"
-	line "the BALL creator?"
+	text "Do you know Kurt,"
+	line "the Ball creator?"
 
-	para "He and PROF.OAK go"
+	para "He and Prof.Oak go"
 	line "back a long way."
 
 	para "I guess great"
@@ -138,7 +138,7 @@ ChadLeagueGossipText:
 	para "trainers who wish"
 	line "to become CHAMP."
 
-	para "PROF.OAK acts as"
+	para "Prof.Oak acts as"
 	line "an advisor to the"
 
 	para "#mon League's"
@@ -149,7 +149,7 @@ ChadLeagueGossipText:
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF.OAK'S #mon"
+	text "Prof.Oak'S #mon"
 	line "TALK is a popular"
 	cont "radio show, right?"
 
@@ -168,7 +168,7 @@ ChadPokemonTalkGossipText:
 	done
 
 ChadProfOakTrainerGossipText:
-	text "PROF.OAK used to"
+	text "Prof.Oak used to"
 	line "be a trainer a"
 	cont "long time ago."
 
@@ -186,7 +186,7 @@ ChadProfOakTrainerGossipText:
 	done
 
 ChadDaisyTeaGossipText:
-	text "PROF.OAK has a"
+	text "Prof.Oak has a"
 	line "granddaughter"
 	cont "named DAISY."
 
@@ -200,12 +200,12 @@ ChadDaisyTeaGossipText:
 	line "join her for tea"
 
 	para "and chat about"
-	line "PROF.OAK."
+	line "Prof.Oak."
 	done
 
 ChadProfOakTravelingGossipText:
 	text "Did you know?"
-	line "PROF.OAK traveled"
+	line "Prof.Oak traveled"
 
 	para "all over the world"
 	line "when he was young."
@@ -225,7 +225,7 @@ ChadProfOakTravelingGossipText:
 
 ChadGoingToStudyHardText:
 	text "I'm going to study"
-	line "hard so PROF.OAK"
+	line "hard so Prof.Oak"
 
 	para "will make me his"
 	line "assistant!"

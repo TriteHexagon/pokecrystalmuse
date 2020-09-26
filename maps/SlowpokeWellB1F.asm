@@ -143,7 +143,7 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
+	text "Kurt: Hey there,"
 	line "<PLAYER>!"
 
 	para "The guard up top"
@@ -152,7 +152,7 @@ SlowpokeWellB1FKurtText:
 
 	para "But then I took a"
 	line "tumble down the"
-	cont "WELL."
+	cont "Well."
 
 	para "I slammed down"
 	line "hard on my back,"
@@ -173,7 +173,7 @@ SlowpokeWellB1FKurtText:
 	done
 
 KurtLeaveSlowpokeWellText:
-	text "KURT: Way to go,"
+	text "Kurt: Way to go,"
 	line "<PLAYER>!"
 
 	para "Team Rocket has"
@@ -209,7 +209,7 @@ GruntM29AfterBattleText:
 	text "Sure, we've been"
 	line "hacking the tails"
 
-	para "off SLOWPOKE and"
+	para "off Slowpoke and"
 	line "selling them."
 
 	para "Everything we do"
@@ -293,8 +293,8 @@ GruntF1AfterBattleText:
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "A Slowpoke with"
+	line "its Tail cut off…"
 
 	para "Huh? It has Mail."
 	line "Read it?"
@@ -308,14 +308,14 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "after the house"
 
 	para "with Grandpa and"
-	line "SLOWPOKE."
+	line "Slowpoke."
 
 	para "Love, Dad"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
-	line "its TAIL cut off…"
+	text "A Slowpoke with"
+	line "its Tail cut off…"
 	done
 
 SlowpokeWellB1F_MapEvents:

@@ -222,7 +222,7 @@ PsychicNathanAfterBattleText:
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
+	text "Mystery STONE"
 	line "PANEL CHAMBER"
 	done
 

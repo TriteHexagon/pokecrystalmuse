@@ -59,12 +59,12 @@ FuchsiaCityYoungsterText:
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGA's daughter"
+	text "Koga's daughter"
 	line "succeeded him as"
 
 	para "the Gym Leader"
 	line "after he joined"
-	cont "the ELITE FOUR."
+	cont "the Elite Four."
 	done
 
 FuchsiaCityTeacherText:
@@ -86,7 +86,7 @@ FuchsiaCitySignText:
 FuchsiaGymSignText:
 	text "Fuchsia City"
 	line "#mon Gym"
-	cont "Leader: JANINE"
+	cont "Leader: Janine"
 
 	para "The Poisonous"
 	line "Ninja Master"

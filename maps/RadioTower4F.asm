@@ -113,7 +113,7 @@ RadioTower4FFisherText:
 	done
 
 RadioTower4FDJMaryText:
-	text "MARY: Why? Why do"
+	text "Mary: Why? Why do"
 	line "I have to suffer"
 	cont "through this?"
 
@@ -121,7 +121,7 @@ RadioTower4FDJMaryText:
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "MARY: Oh! You're"
+	text "Mary: Oh! You're"
 	line "my little savior!"
 
 	para "Will you take this"
@@ -129,7 +129,7 @@ RadioTower4FDJMaryText_ClearedRockets:
 	done
 
 RadioTower4FDJMaryText_GiveSilkScarf:
-	text "MARY: It's just"
+	text "Mary: It's just"
 	line "right for #mon"
 
 	para "that know Normal-"
@@ -137,10 +137,10 @@ RadioTower4FDJMaryText_GiveSilkScarf:
 	done
 
 RadioTower4FDJMaryText_After:
-	text "MARY: Please tune"
-	line "into me on PROF."
+	text "Mary: Please tune"
+	line "into me on Prof."
 
-	para "OAK'S #mon Talk"
+	para "Oak'S #mon Talk"
 	line "show."
 	done
 

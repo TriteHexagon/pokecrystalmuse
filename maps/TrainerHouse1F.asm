@@ -36,7 +36,7 @@ TrainerHouseIllegibleBook:
 
 TrainerHouse1FReceptionistText:
 	text "Welcome to TRAINER"
-	line "HOUSE, the newest"
+	line "House, the newest"
 
 	para "and most happening"
 	line "place in Viridian."

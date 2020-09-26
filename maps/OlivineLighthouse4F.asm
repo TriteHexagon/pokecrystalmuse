@@ -30,7 +30,7 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMINE must be"
+	text "Jasmine must be"
 	line "worried sick about"
 	cont "the #mon here."
 
@@ -52,7 +52,7 @@ SailorKentAfterBattleText:
 	done
 
 LassConnie1SeenText:
-	text "JASMINE is this"
+	text "Jasmine is this"
 	line "city's Gym Leader."
 
 	para "I mean to bring"
@@ -75,7 +75,7 @@ LassConnie1AfterBattleText:
 	para "I'll pray for the"
 	line "#mon here, so"
 
-	para "JASMINE can come"
+	para "Jasmine can come"
 	line "back to the Gym."
 	done
 

@@ -489,7 +489,7 @@ GruntM28AfterBattleText:
 	line "the boss's room…"
 
 	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	line "RATICATE Tail."
 	done
 
 ScientistRossSeenText:

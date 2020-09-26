@@ -198,7 +198,7 @@ StartMenu_PrintBugContestStatus:
 .CAUGHT:
 	db "CAUGHT@"
 .Balls_EN:
-	db "BALLS:@"
+	db "Balls:@"
 .None:
 	db "None@"
 .LEVEL:

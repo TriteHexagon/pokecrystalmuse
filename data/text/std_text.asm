@@ -290,8 +290,8 @@ ContestResults_PartyFullText:
 	text "Your party's full,"
 	line "so the #mon was"
 
-	para "sent to your BOX"
-	line "in BILL's PC."
+	para "sent to your Box"
+	line "in Bill's PC."
 	done
 
 GymStatue_CityGymText:

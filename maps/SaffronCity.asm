@@ -206,7 +206,7 @@ SaffronCityYoungster2Text:
 	text "There's a place"
 	line "called TRAINER"
 
-	para "HOUSE in Viridian"
+	para "House in Viridian"
 	line "where trainers"
 
 	para "gather from all"
@@ -236,7 +236,7 @@ SaffronCitySignText:
 SaffronGymSignText:
 	text "Saffron City"
 	line "#mon Gym"
-	cont "Leader: SABRINA"
+	cont "Leader: Sabrina"
 
 	para "The Master of"
 	line "Psychic #mon!"
@@ -253,8 +253,8 @@ SilphCoSignText:
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "Mr.PSYCHIC'S"
+	line "House"
 	done
 
 SaffronCityMagnetTrainStationSignText:

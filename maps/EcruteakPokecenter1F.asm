@@ -96,7 +96,7 @@ EcruteakPokecenter1FPlayerMovement1:
 	step_end
 
 EcruteakPokecenter1F_BillText1:
-	text "Hi, I'm BILL. And"
+	text "Hi, I'm Bill. And"
 	line "who are you?"
 
 	para "Hmm, <PLAYER>, huh?"
@@ -184,7 +184,7 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, the Gym"
+	text "Morty, the Gym"
 	line "Leader, is soooo"
 	cont "cool."
 

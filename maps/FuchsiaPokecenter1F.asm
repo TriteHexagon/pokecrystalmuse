@@ -63,7 +63,7 @@ FuchsiaPokecenter1FCooltrainerMText:
 	line "brand new kind of"
 	cont "#dex."
 
-	para "Did PROF.OAK give"
+	para "Did Prof.Oak give"
 	line "that to you?"
 	done
 
@@ -77,7 +77,7 @@ FuchsiaPokecenter1FCooltrainerFText:
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText1:
-	text "I'm JANINE! Hocus-"
+	text "I'm Janine! Hocus-"
 	line "pocus… Poof!"
 	done
 

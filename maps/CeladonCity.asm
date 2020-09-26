@@ -201,7 +201,7 @@ CeladonCitySignText:
 CeladonGymSignText:
 	text "Celadon City"
 	line "#mon Gym"
-	cont "Leader: ERIKA"
+	cont "Leader: Erika"
 
 	para "The Nature-Loving"
 	line "Princess"

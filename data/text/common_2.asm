@@ -1042,7 +1042,7 @@ _LuckyNumberMatchPCText::
 	para "of @"
 	text_ram wStringBuffer1
 	text " in"
-	line "your PC BOX."
+	line "your PC Box."
 	prompt
 
 _CaughtAskNicknameText::
@@ -1136,7 +1136,7 @@ _PokecenterPlayersPCText::
 	prompt
 
 _PokecenterOaksPCText::
-	text "PROF.OAK's PC"
+	text "Prof.Oak's PC"
 	line "accessed."
 
 	para "#dex Rating"
@@ -1165,7 +1165,7 @@ _OakPCText3::
 	text_ram wStringBuffer4
 	text " #mon owned"
 
-	para "PROF.OAK's"
+	para "Prof.Oak's"
 	line "Rating:"
 	done
 
@@ -1177,7 +1177,7 @@ _OakRating01::
 _OakRating02::
 	text "Good. I see you"
 	line "understand how to"
-	cont "use # BALLS."
+	cont "use #Balls."
 	done
 
 _OakRating03::
@@ -1249,8 +1249,8 @@ _OakRating11::
 	done
 
 _OakRating12::
-	text "Have you met KURT?"
-	line "His custom BALLS"
+	text "Have you met Kurt?"
+	line "His custom Balls"
 	cont "should help."
 	done
 
@@ -1309,15 +1309,15 @@ _OakRating19::
 	done
 
 _OakPCText4::
-	text "The link to PROF."
-	line "OAK's PC closed."
+	text "The link to Prof."
+	line "Oak's PC closed."
 	done
 
 _TrainerRankingExplanationText:: ; unreferenced
 	text "Triple-theme"
 	line "trainer ranking!"
 
-	para "The SAVE file you"
+	para "The Save file you"
 	line "just sent might"
 	cont "make the rankings!"
 
@@ -1496,10 +1496,10 @@ _OakText1::
 	para "Welcome to the"
 	line "world of #mon!"
 
-	para "My name is OAK."
+	para "My name is Oak."
 
 	para "People call me the"
-	line "#mon PROF."
+	line "#mon Prof."
 	prompt
 
 _OakText2::

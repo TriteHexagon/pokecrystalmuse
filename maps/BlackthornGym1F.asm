@@ -157,7 +157,7 @@ ClairIntroText:
 	line "against even the"
 
 	para "#mon League's"
-	line "ELITE FOUR."
+	line "Elite Four."
 
 	para "Do you still want"
 	line "to take me on?"
@@ -300,7 +300,7 @@ CooltrainermPaulBeatenText:
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "LANCE told you"
+	text "Lance told you"
 	line "that he'd like to"
 
 	para "see you again?"

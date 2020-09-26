@@ -86,8 +86,8 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "I am Karen of the"
+	line "Elite Four."
 
 	para "You're <PLAYER>?"
 	line "How amusing."

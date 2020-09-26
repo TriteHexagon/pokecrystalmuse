@@ -107,7 +107,7 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
+	text "Bill: Hi, <PLAYER>!"
 	line "Do us a favor and"
 	cont "take this EEVEE."
 
@@ -127,7 +127,7 @@ BillTakeThisEeveeText:
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew you'd"
+	text "Bill: I knew you'd"
 	line "come through!"
 
 	para "Way to go! You're"
@@ -146,7 +146,7 @@ ReceivedEeveeText:
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
+	text "Bill: Prof.Elm"
 	line "claims EEVEE may"
 
 	para "evolve in new and"
@@ -165,7 +165,7 @@ BillNoEeveeText:
 	done
 
 BillPopWontWorkText:
-	text "BILL: My pop, he"
+	text "Bill: My pop, he"
 	line "won't work. All he"
 
 	para "does is goof off"
@@ -178,7 +178,7 @@ BillPopWontWorkText:
 BillsMomText_BeforeEcruteak:
 	text "Oh, you collect"
 	line "#mon? My son"
-	cont "BILL is an expert."
+	cont "Bill is an expert."
 
 	para "He just got called"
 	line "to the #mon"
@@ -198,7 +198,7 @@ BillsMomText_AfterEcruteak:
 	line "once known as a"
 
 	para "#MANIAC."
-	line "BILL must have"
+	line "Bill must have"
 
 	para "taken after his"
 	line "father."
@@ -214,7 +214,7 @@ BillsSisterUsefulNumberText:
 
 RecordedBillsNumberText:
 	text "<PLAYER> recorded"
-	line "BILL's number."
+	line "Bill's number."
 	done
 
 BillsSisterRefusedNumberText:
@@ -223,7 +223,7 @@ BillsSisterRefusedNumberText:
 	cont "storage system."
 
 	para "I was going to"
-	line "give you BILL's"
+	line "give you Bill's"
 	cont "number…"
 	done
 
@@ -234,7 +234,7 @@ BillsSisterPhoneFullText:
 
 BillsSisterStorageSystemText:
 	text "My big brother"
-	line "BILL made the PC"
+	line "Bill made the PC"
 
 	para "#mon storage"
 	line "system."

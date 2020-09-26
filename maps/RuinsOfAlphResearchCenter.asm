@@ -379,7 +379,7 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	line "the RESEARCH"
 
 	para "Center'S founder,"
-	line "PROF.SILKTREE."
+	line "Prof.SILKTREE."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

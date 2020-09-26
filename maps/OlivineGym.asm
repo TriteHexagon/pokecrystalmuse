@@ -103,7 +103,7 @@ Jasmine_SteelTypeIntro:
 	para "allow me to intro-"
 	line "duce myself."
 
-	para "I am JASMINE, a"
+	para "I am Jasmine, a"
 	line "Gym Leader. I use"
 	cont "the Steel-type."
 
@@ -153,7 +153,7 @@ Text_ReceivedTM09:
 Jasmine_IronTailSpeech:
 	text "…You could use"
 	line "that TM to teach"
-	cont "IRON TAIL."
+	cont "IRON Tail."
 	done
 
 Jasmine_GoodLuck:
@@ -163,7 +163,7 @@ Jasmine_GoodLuck:
 	done
 
 OlivineGymGuyText:
-	text "JASMINE uses the"
+	text "Jasmine uses the"
 	line "newly discovered"
 	cont "Steel-type."
 
@@ -183,7 +183,7 @@ OlivineGymGuyWinText:
 	done
 
 OlivineGymGuyPreText:
-	text "JASMINE, the Gym"
+	text "Jasmine, the Gym"
 	line "Leader, is at the"
 	cont "LIGHTHOUSE."
 

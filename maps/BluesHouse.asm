@@ -64,7 +64,7 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "DAISY: Hi! My kid"
+	text "Daisy: Hi! My kid"
 	line "brother is the Gym"
 
 	para "Leader in Viridian"
@@ -78,7 +78,7 @@ DaisyHelloText:
 	done
 
 DaisyOfferGroomingText:
-	text "DAISY: Hi! Good"
+	text "Daisy: Hi! Good"
 	line "timing. I'm about"
 	cont "to have some tea."
 
@@ -93,12 +93,12 @@ DaisyOfferGroomingText:
 	done
 
 DaisyWhichMonText:
-	text "DAISY: Which one"
+	text "Daisy: Which one"
 	line "should I groom?"
 	done
 
 DaisyAlrightText:
-	text "DAISY: OK, I'll"
+	text "Daisy: OK, I'll"
 	line "get it looking"
 	cont "nice in no time."
 	done
@@ -110,7 +110,7 @@ GroomedMonLooksContentText:
 	done
 
 DaisyAllDoneText:
-	text "DAISY: There you"
+	text "Daisy: There you"
 	line "go! All done."
 
 	para "See? Doesn't it"
@@ -121,7 +121,7 @@ DaisyAllDoneText:
 	done
 
 DaisyAlreadyGroomedText:
-	text "DAISY: I always"
+	text "Daisy: I always"
 	line "have tea around"
 
 	para "this time. Come"
@@ -129,7 +129,7 @@ DaisyAlreadyGroomedText:
 	done
 
 DaisyRefusedText:
-	text "DAISY: You don't"
+	text "Daisy: You don't"
 	line "want to have one"
 
 	para "groomed? OK, we'll"
@@ -137,9 +137,9 @@ DaisyRefusedText:
 	done
 
 DaisyCantGroomEggText:
-	text "DAISY: Oh, sorry."
+	text "Daisy: Oh, sorry."
 	line "I honestly can't"
-	cont "groom an EGG."
+	cont "groom an Egg."
 	done
 
 BluesHouse_MapEvents:

@@ -148,7 +148,7 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
+	text "I'm Bugsy!"
 	line "I never lose when"
 
 	para "it comes to bug"
@@ -274,7 +274,7 @@ BugCatcherAlAfterBattleText:
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "SLOWPOKE? Whew,"
+	line "Slowpoke? Whew,"
 	cont "you're mighty!"
 
 	para "But my grown-up"
@@ -328,7 +328,7 @@ TwinsAmyandmay2AfterBattleText:
 AzaleaGymGuyText:
 	text "Yo, challenger!"
 
-	para "BUGSY's young, but"
+	para "Bugsy's young, but"
 	line "his knowledge of"
 
 	para "bug #mon is for"

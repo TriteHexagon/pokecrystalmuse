@@ -38,21 +38,21 @@ AzaleaPokecenter1FGentlemanText:
 
 ; AzaleaPokecenter1FUnusedText:
 ; ; unreferenced
-; 	text "This BILL guy"
+; 	text "This Bill guy"
 ; 	line "created the system"
 
 ; 	para "for storing"
 ; 	line "#mon in a PC."
 
-; 	para "BILL's PC can"
+; 	para "Bill's PC can"
 ; 	line "store up to 20"
-; 	cont "#mon per BOX."
+; 	cont "#mon per Box."
 ; 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "BILL's PC can"
+	text "Bill's PC can"
 	line "store up to 20"
-	cont "#mon per BOX."
+	cont "#mon per Box."
 	done
 
 AzaleaPokecenter1FPokefanFText:
@@ -68,7 +68,7 @@ AzaleaPokecenter1FPokefanFText:
 	para "Then you can catch"
 	line "#mon with it."
 
-	para "Before # BALLS"
+	para "Before #Balls"
 	line "were invented,"
 
 	para "everyone used"

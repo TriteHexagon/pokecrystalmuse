@@ -15,7 +15,7 @@ Route38EcruteakGateOfficerText:
 
 	para "New Bark Town?"
 
-	para "PROF.ELM lives"
+	para "Prof.Elm lives"
 	line "over there, right?"
 
 	para "You've come a long"

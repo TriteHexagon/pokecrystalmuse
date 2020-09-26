@@ -510,7 +510,7 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "Mary: Prof.Oak'S"
 	done
 
 _OPT_IntroText2::
@@ -525,7 +525,7 @@ _OPT_IntroText3::
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "Oak: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
@@ -545,7 +545,7 @@ _OPT_OakText3::
 
 _OPT_MaryText1::
 	text_start
-	line "MARY: @"
+	line "Mary: @"
 	text_ram wStringBuffer1
 	text "'s"
 	done
@@ -1189,7 +1189,7 @@ _CompatibilityShouldTheyBreedText:: ; unreferenced
 	done
 
 _ThereIsNoEggText:: ; unreferenced
-	text "There is no EGG."
+	text "There is no Egg."
 	line ""
 	prompt
 
@@ -1227,7 +1227,7 @@ _DoesntConcernABoyText:: ; unreferenced
 	done
 
 _TheBoxIsFullText:: ; unreferenced
-	text "The BOX is full!"
+	text "The Box is full!"
 	done
 
 ; Mobile Adapter
@@ -1681,14 +1681,14 @@ _DayCareManIntroText::
 _DayCareManOddEggText::
 	text "I'm the DAY-CARE"
 	line "MAN. Do you know"
-	cont "about EGGS?"
+	cont "about Eggs?"
 
 	para "I was raising"
 	line "#mon with my"
 	cont "wife, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an Egg!"
 
 	para "How incredible is"
 	line "that?"
@@ -1708,14 +1708,14 @@ _DayCareLadyIntroText::
 _DayCareLadyOddEggText::
 	text "I'm the DAY-CARE"
 	line "LADY. Do you know"
-	cont "about EGGS?"
+	cont "about Eggs?"
 
 	para "My husband and I"
 	line "were raising some"
 	cont "#mon, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an Egg!"
 
 	para "How incredible"
 	line "could that be?"
@@ -1736,7 +1736,7 @@ _OnlyOneMonText::
 
 _CantAcceptEggText::
 	text "Sorry, but I can't"
-	line "accept an EGG."
+	line "accept an Egg."
 	prompt
 
 _RemoveMailText::
@@ -1845,7 +1845,7 @@ _FoundAnEggText::
 	line "we surprised!"
 
 	para "Your #mon had"
-	line "an EGG!"
+	line "an Egg!"
 
 	para "We don't know how"
 	line "it got there, but"
@@ -1856,7 +1856,7 @@ _FoundAnEggText::
 
 _ReceivedEggText::
 	text "<PLAYER> received"
-	line "the EGG!"
+	line "the Egg!"
 	done
 
 _TakeGoodCareOfEggText::

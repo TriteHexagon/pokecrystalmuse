@@ -44,13 +44,13 @@ MrFujisHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MrFujisHouseSuperNerdText:
-	text "MR.FUJI does live"
+	text "Mr.FUJI does live"
 	line "here, but he's not"
 
 	para "home now."
 
 	para "He should be at"
-	line "the SOUL HOUSE."
+	line "the SOUL House."
 	done
 
 MrFujisHouseLassText:

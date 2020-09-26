@@ -1099,6 +1099,7 @@ KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
 AlakazamEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, NASTY_PLOT
 	db 1, TELEPORT
 	db 1, FLASH
 	db 15, CONFUSION ;evolution move
@@ -1110,7 +1111,6 @@ AlakazamEvosAttacks:
 	db 33, NIGHT_SHADE
 	db 38, MIRROR_COAT
 	db 41, PSYCHIC_M
-	;db 46, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:
@@ -1470,6 +1470,8 @@ SeelEvosAttacks:
 
 DewgongEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, FAKE_OUT
+	db 1, SMART_STRIKE
 	db 1, HEADBUTT
 	db 4, GROWL
 	db 8, ENCORE
@@ -1483,7 +1485,6 @@ DewgongEvosAttacks:
 	db 38, ICE_BEAM
 	db 46, SAFEGUARD
 	db 48, DOUBLE_EDGE
-;FAKE_OUT-SMART_STRIKE
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:

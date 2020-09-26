@@ -439,7 +439,7 @@ PokefanfGeorgiaAfterBattleText:
 
 SupernerdShawnSeenText:
 	text "What kinds of #"
-	line "BALLS do you have"
+	line "Balls do you have"
 	cont "with you?"
 	done
 
@@ -450,7 +450,7 @@ SupernerdShawnBeatenText:
 
 SupernerdShawnAfterBattleText:
 	text "You should use the"
-	line "right BALLS to fit"
+	line "right Balls to fit"
 	cont "the situation."
 	done
 

@@ -128,7 +128,7 @@ WhirlIslandsName:    db "Whirl¯Islands@"
 MtMortarName:        db "Mt. Mortar@"
 DragonsDenName:      db "Dragon's¯Den@"
 IcePathName:         db "Ice Path@"
-NotApplicableName:   db "N/A@" ; "オバケやしき" ("HAUNTED HOUSE") in Japanese
+NotApplicableName:   db "N/A@" ; "オバケやしき" ("HAUNTED House") in Japanese
 PalletTownName:      db "Pallet Town@"
 ViridianCityName:    db "Viridian¯City@"
 PewterCityName:      db "Pewter City@"

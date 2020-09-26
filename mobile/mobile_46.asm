@@ -5422,12 +5422,12 @@ Function11a9f4:
 	ret
 
 Text_SaveFileWillBeSent:
-	text "SAVE FILE will be"
+	text "Save FILE will be"
 	line "sent."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Sent SAVE FILE."
+	text "Sent Save FILE."
 	line "Reading NEWS…"
 	done
 
@@ -5436,20 +5436,20 @@ Text_ReadingNews:
 	done
 
 Text_ReceivedNews:
-	text "Received NEWS!"
+	text "Received News!"
 	done
 
 Text_QuitReadingNews:
-	text "Quit reading NEWS?"
+	text "Quit reading News?"
 	done
 
 Text_CanceledSendingSaveFile:
 	text "Canceled sending"
-	line "SAVE FILE."
+	line "Save FILE."
 	done
 
 Text_ReceivedOddEgg:
-	text "ODD EGG"
+	text "Odd Egg"
 	line "was received!"
 	done
 

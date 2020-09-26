@@ -146,7 +146,7 @@ ViridianGymStatue:
 	jumpstd GymStatue2Script
 
 LeaderBlueBeforeText:
-	text "BLUE: Yo! Finally"
+	text "Blue: Yo! Finally"
 	line "got here, huh?"
 
 	para "I wasn't in the"
@@ -179,7 +179,7 @@ LeaderBlueBeforeText:
 	done
 
 LeaderBlueWinText:
-	text "BLUE: What?"
+	text "Blue: What?"
 
 	para "How the heck did I"
 	line "lose to you?"
@@ -197,7 +197,7 @@ Text_ReceivedEarthBadge:
 	done
 
 LeaderBlueAfterText:
-	text "BLUE: …"
+	text "Blue: …"
 
 	para "All right, I was"
 	line "wrong. You're the"
@@ -264,7 +264,7 @@ LeaderBlue_HyperBeamSpeech:
 	done
 
 LeaderBlueEpilogueText:
-	text "BLUE: Listen, you."
+	text "Blue: Listen, you."
 
 	para "You'd better not"
 	line "lose until I beat"

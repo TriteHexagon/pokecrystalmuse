@@ -147,8 +147,8 @@ HikerDanielBeatenText:
 
 HikerDanielAfterBattleText:
 	text "I was conned into"
-	line "buying a SLOWPOKE-"
-	cont "TAIL."
+	line "buying a Slowpoke-"
+	cont "Tail."
 
 	para "I feel sorry for"
 	line "the poor #mon."

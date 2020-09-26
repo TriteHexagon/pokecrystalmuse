@@ -164,7 +164,7 @@ ChuckIntroText1:
 	done
 
 ChuckIntroText2:
-	text "CHUCK: Urggh!"
+	text "Chuck: Urggh!"
 	line "…"
 
 	para "Oooarrgh!"

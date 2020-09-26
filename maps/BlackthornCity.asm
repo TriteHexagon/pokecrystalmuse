@@ -145,7 +145,7 @@ BlackthornCityMartSign:
 Text_ClairIsOut:
 	text "I am sorry."
 
-	para "CLAIR, our Gym"
+	para "Clair, our Gym"
 	line "Leader, entered"
 
 	para "the Dragon's Den"
@@ -157,7 +157,7 @@ Text_ClairIsOut:
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our Gym"
+	text "Clair, our Gym"
 	line "Leader, is waiting"
 	cont "for you."
 
@@ -170,7 +170,7 @@ Text_ClairIsIn:
 
 Text_ClairIsBeaten:
 	text "You defeated"
-	line "CLAIR?"
+	line "Clair?"
 
 	para "That's amazing!"
 
@@ -178,7 +178,7 @@ Text_ClairIsBeaten:
 	line "of her losing to"
 
 	para "anyone other than"
-	line "LANCE."
+	line "Lance."
 	done
 
 BlackthornGrampsRefusesEntryText:
@@ -291,7 +291,7 @@ BlackthornGymSignText:
 
 MoveDeletersHouseSignText:
 	text "MOVE DELETER'S"
-	line "HOUSE"
+	line "House"
 	done
 
 DragonDensSignText:

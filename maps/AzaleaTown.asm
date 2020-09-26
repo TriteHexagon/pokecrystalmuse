@@ -326,7 +326,7 @@ AzaleaTownRocket2Text:
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
+	text "The Slowpoke have"
 	line "disappeared from"
 	cont "town…"
 
@@ -336,7 +336,7 @@ AzaleaTownGrampsTextBefore:
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
+	text "The Slowpoke have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -348,8 +348,8 @@ AzaleaTownGrampsTextAfter:
 
 AzaleaTownTeacherText:
 	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	line "get Kurt to make"
+	cont "some Balls?"
 
 	para "A lot of people do"
 	line "just that."
@@ -372,7 +372,7 @@ AzaleaTownYoungsterText:
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "Slowpoke: …"
 
 	para "<……> <……> <……>"
 	done
@@ -394,7 +394,7 @@ AzaleaTownKurtText1:
 
 AzaleaTownKurtText2:
 	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	line "your GS Ball back!"
 	done
 
 AzaleaTownKurtText3:
@@ -412,13 +412,13 @@ AzaleaTownSignText:
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "Kurt'S House"
 	done
 
 AzaleaGymSignText:
 	text "Azalea Town"
 	line "#mon Gym"
-	cont "Leader: BUGSY"
+	cont "Leader: Bugsy"
 
 	para "The Walking"
 	line "Bug #mon"
@@ -426,24 +426,24 @@ AzaleaGymSignText:
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "Slowpoke Well"
 
 	para "Also known as the"
-	line "RAINMAKER WELL."
+	line "RAINMAKER Well."
 
 	para "Locals believe"
-	line "that a SLOWPOKE's"
+	line "that a Slowpoke's"
 	cont "yawn summons rain."
 
 	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	line "a Slowpoke's yawn"
 
 	para "ended a drought"
 	line "400 years ago."
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "Charcoal Kiln"
 	done
 
 AzaleaTownIlexForestSignText:

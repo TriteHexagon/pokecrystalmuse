@@ -407,7 +407,7 @@ FisherMarvinBeatenText:
 	done
 
 FisherMarvinAfterBattleText:
-	text "KURT's LURE BALL"
+	text "Kurt's Lure Ball"
 	line "is the best for"
 
 	para "catching hooked"
@@ -415,7 +415,7 @@ FisherMarvinAfterBattleText:
 
 	para "It's much more"
 	line "effective than a"
-	cont "ULTRA BALL."
+	cont "Ultra Ball."
 	done
 
 CamperSpencerSeenText:

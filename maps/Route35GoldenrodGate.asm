@@ -189,7 +189,7 @@ Route35GoldenrodGateFisherText:
 	line "world."
 
 	para "Three years ago,"
-	line "PROF.OAK said that"
+	line "Prof.Oak said that"
 
 	para "there were 150"
 	line "different kinds."

@@ -49,7 +49,7 @@ PlayersNeighborsDaughterText:
 	line "evolved #mon."
 
 	para "I was amazed by"
-	line "PROF.ELM's find-"
+	line "Prof.Elm's find-"
 	cont "ings."
 
 	para "He's so famous for"
@@ -67,8 +67,8 @@ PlayersNeighborText:
 	text "My daughter is"
 	line "adamant about"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "becoming Prof."
+	line "Elm's assistant."
 
 	para "She really loves"
 	line "#mon!"
@@ -77,7 +77,7 @@ PlayersNeighborText:
 	done
 
 PlayerNeighborRadioText1:
-	text "PROF.OAK'S #mon"
+	text "Prof.Oak'S #mon"
 	line "TALK! Please tune"
 	cont "in next time!"
 	done

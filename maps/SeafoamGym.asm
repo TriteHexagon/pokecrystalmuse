@@ -68,7 +68,7 @@ SeafoamGymGuyScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "Blaine: Waaah!"
 
 	para "My Gym in Cinnabar"
 	line "burned down."
@@ -96,7 +96,7 @@ BlaineIntroText:
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
+	text "Blaine: Awesome."
 	line "I've burned out…"
 
 	para "You've earned"
@@ -112,7 +112,7 @@ ReceivedVolcanoBadgeText:
 	done
 
 BlaineExplainTMText:
-	text "BLAINE: It's"
+	text "Blaine: It's"
 	line "called Fire Blast."
 
 	para "It's the strongest"
@@ -123,7 +123,7 @@ BlaineExplainTMText:
 	cont "burning out too!"
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
+	text "Blaine: I did lose"
 	line "this time, but I'm"
 
 	para "going to win the"
@@ -137,7 +137,7 @@ BlaineAfterBattleText:
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
+	text "Blaine: My fire"
 	line "#mon will be"
 
 	para "even stronger."

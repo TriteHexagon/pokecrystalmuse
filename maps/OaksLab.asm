@@ -78,7 +78,7 @@ OaksLabPC:
 	jumptext OaksLabPCText
 
 OakWelcomeKantoText:
-	text "OAK: Ah, <PLAY_G>!"
+	text "Oak: Ah, <PLAY_G>!"
 	line "It's good of you"
 
 	para "to come all this"
@@ -105,7 +105,7 @@ OakLabGoodbyeText:
 	done
 
 OakOpenMtSilverText:
-	text "OAK: Wow! That's"
+	text "Oak: Wow! That's"
 	line "excellent!"
 
 	para "You collected the"
@@ -146,7 +146,7 @@ OakOpenMtSilverText:
 	done
 
 OakNoKantoBadgesText:
-	text "OAK: Hmm? You're"
+	text "Oak: Hmm? You're"
 	line "not collecting"
 	cont "Kanto Gym Badges?"
 
@@ -162,7 +162,7 @@ OakNoKantoBadgesText:
 	done
 
 OakYesKantoBadgesText:
-	text "OAK: Ah, you're"
+	text "Oak: Ah, you're"
 	line "collecting Kanto"
 	cont "Gym Badges."
 
@@ -204,7 +204,7 @@ OaksAssistant2Text:
 
 OaksAssistant3Text:
 	text "Don't tell anyone,"
-	line "but PROF.OAK'S"
+	line "but Prof.Oak'S"
 
 	para "#mon Talk isn't"
 	line "a live broadcast."
@@ -216,7 +216,7 @@ OaksLabPoster1Text:
 	done
 
 OaksLabPoster2Text:
-	text "The SAVE option is"
+	text "The Save option is"
 	line "on the MENU."
 
 	para "Use it in a timely"
@@ -234,7 +234,7 @@ OaksLabPCText:
 
 	para "…"
 
-	para "PROF.OAK, how is"
+	para "Prof.Oak, how is"
 	line "your research"
 	cont "coming along?"
 
@@ -250,7 +250,7 @@ OaksLabPCText:
 	para "I'm delighted to"
 	line "hear that."
 
-	para "ELM in New Bark"
+	para "Elm in New Bark"
 	line "Town 8-)"
 	done
 

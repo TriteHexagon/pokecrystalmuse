@@ -147,7 +147,7 @@ PokemaniacCalvinAfterBattleText:
 
 	para "I might even be-"
 	line "come famous like"
-	cont "PROF.ELM."
+	cont "Prof.Elm."
 	done
 
 UnionCaveB1F_MapEvents:

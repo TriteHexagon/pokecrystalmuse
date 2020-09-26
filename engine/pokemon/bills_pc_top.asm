@@ -80,9 +80,9 @@ _BillsPC:
 	dw .strings
 
 .strings
-	db "WITHDRAW <PK><MN>@"
-	db "DEPOSIT <PK><MN>@"
-	db "CHANGE BOX@"
+	db "Withdraw <PK><MN>@"
+	db "Deposit <PK><MN>@"
+	db "Change Box@"
 	db "MOVE <PK><MN> W/O MAIL@"
 	db "SEE YA!@"
 
@@ -95,9 +95,9 @@ _BillsPC:
 
 .items
 	db 5 ; # items
-	db 0 ; WITHDRAW
-	db 1 ; DEPOSIT
-	db 2 ; CHANGE BOX
+	db 0 ; Withdraw
+	db 1 ; Deposit
+	db 2 ; Change Box
 	db 3 ; MOVE PKMN
 	db 4 ; SEE YA!
 	db -1

@@ -23,7 +23,7 @@ IrwinPlainBadgeGossipText:
 	text "<PLAY_G>, I heard!"
 
 	para "You defeated that"
-	line "WHITNEY?"
+	line "Whitney?"
 
 	para "It makes me proud"
 	line "to be your friend!"
@@ -203,7 +203,7 @@ IrwinCalledRightAwayText:
 IrwinFogBadgeGossipText:
 	text "I saw, I heard!"
 
-	para "You beat MORTY of"
+	para "You beat Morty of"
 	line "Ecruteak Gym!"
 
 	para "Th-that's just"

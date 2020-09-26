@@ -119,9 +119,9 @@ JackEarthquakeTriviaText:
 	text "Did you know…?"
 
 	para "If your opponent"
-	line "uses DIG, your"
+	line "uses Dig, your"
 
-	para "EARTHQUAKE becomes"
+	para "Earthquake becomes"
 	line "more powerful."
 	done
 
@@ -129,9 +129,9 @@ JackMagnitudeTriviaText:
 	text "Did you know…?"
 
 	para "If your opponent"
-	line "uses DIG, your"
+	line "uses Dig, your"
 
-	para "MAGNITUDE becomes"
+	para "Magnitute becomes"
 	line "more powerful."
 	done
 
@@ -142,7 +142,7 @@ JackSandstormTriviaText:
 	line "and steel types"
 
 	para "can't be hurt by"
-	line "SANDSTORM."
+	line "Sandstorm."
 	done
 
 JackSunnyDayTriviaText:

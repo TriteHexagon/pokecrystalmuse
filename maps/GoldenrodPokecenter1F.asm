@@ -252,7 +252,7 @@ UnknownText_0x61375:
 
 UnknownText_0x613a9:
 	text "Sorry. We can't"
-	line "accept an EGG."
+	line "accept an Egg."
 	done
 
 UnknownText_0x613c8:
@@ -358,7 +358,7 @@ UnknownText_0x616b4:
 	done
 
 UnknownText_0x616fb:
-	text "We'll SAVE before"
+	text "We'll Save before"
 	line "connecting to the"
 	cont "Center."
 	done
@@ -377,7 +377,7 @@ UnknownText_0x6176f:
 	text "Oh!"
 
 	para "I see you have an"
-	line "EGG TICKET!"
+	line "Egg TICKET!"
 
 	para "It's a coupon that"
 	line "special people can"
@@ -403,7 +403,7 @@ UnknownText_0x617d2:
 	line "may take time."
 
 	para "However, an ODD"
-	line "EGG is available"
+	line "Egg is available"
 	cont "just for you."
 
 	para "It will be sent to"
@@ -413,7 +413,7 @@ UnknownText_0x617d2:
 	line "of the rooms in"
 
 	para "the Center."
-	line "An ODD EGG will be"
+	line "An ODD Egg will be"
 
 	para "sent from the"
 	line "chosen room."
@@ -429,7 +429,7 @@ UnknownText_0x61936:
 	line "waiting."
 
 	para "We received your"
-	line "ODD EGG."
+	line "ODD Egg."
 
 	para "Here it is!"
 
@@ -440,14 +440,14 @@ UnknownText_0x61936:
 UnknownText_0x61996:
 	text "I'm awfully sorry."
 
-	para "The EGG TICKET"
+	para "The Egg TICKET"
 	line "exchange service"
 	cont "isn't running now."
 	done
 
 UnknownText_0x619db:
 	text "It's a #mon"
-	line "NEWS MACHINE."
+	line "News MACHINE."
 	done
 
 UnknownText_0x619f5:
@@ -456,19 +456,19 @@ UnknownText_0x619f5:
 	done
 
 UnknownText_0x61a11:
-	text "#mon NEWS is"
+	text "#mon News is"
 	line "news compiled from"
 
-	para "the SAVE files of"
+	para "the Save files of"
 	line "#mon trainers."
 
 	para "When reading the"
-	line "NEWS, your SAVE"
+	line "News, your Save"
 
 	para "file may be sent"
 	line "out."
 
-	para "The SAVE file data"
+	para "The Save file data"
 	line "will contain your"
 
 	para "adventure log and"
@@ -478,39 +478,39 @@ UnknownText_0x61a11:
 	line "will not be sent."
 
 	para "The contents of"
-	line "the NEWS will vary"
+	line "the News will vary"
 
 	para "depending on the"
-	line "SAVE files sent by"
+	line "Save files sent by"
 
 	para "you and the other"
 	line "#mon trainers."
 
 	para "You might even be"
-	line "in the NEWS!"
+	line "in the News!"
 	done
 
 UnknownText_0x61b7c:
 	text "Would you like to"
-	line "get the NEWS?"
+	line "get the News?"
 	done
 
 UnknownText_0x61b9d:
 	text "Reading the latest"
-	line "NEWS… Please wait."
+	line "News… Please wait."
 	done
 
 UnknownText_0x61bc4:
 	text "There is no old"
-	line "NEWS…"
+	line "News…"
 	done
 
 UnknownText_0x61bdb:
-	text "The NEWS data is"
+	text "The News data is"
 	line "corrupted."
 
 	para "Please download"
-	line "the NEWS again."
+	line "the News again."
 	done
 
 UnknownText_0x61c18:
@@ -522,10 +522,10 @@ UnknownText_0x61c18:
 	done
 
 UnknownText_0x61c4b:
-	text "We will SAVE your"
+	text "We will Save your"
 	line "progress before"
 
-	para "starting the NEWS"
+	para "starting the News"
 	line "MACHINE."
 	done
 
@@ -600,7 +600,7 @@ UnknownText_0x61eb2:
 	done
 
 UnknownText_0x61efa:
-	text "What is the NEWS"
+	text "What is the News"
 	line "MACHINE?"
 
 	para "Does it get news"
@@ -635,7 +635,7 @@ UnknownText_0x61fc9:
 
 UnknownText_0x6202c:
 	text "My friend was in"
-	line "the NEWS a while"
+	line "the News a while"
 
 	para "back. I was really"
 	line "surprised!"
@@ -644,19 +644,19 @@ UnknownText_0x6202c:
 UnknownText_0x6206d:
 	text "I get anxious if I"
 	line "don't check out"
-	cont "the latest NEWS!"
+	cont "the latest News!"
 	done
 
 UnknownText_0x620a1:
 	text "If I get in the"
-	line "NEWS and become"
+	line "News and become"
 
 	para "famous, I bet I'll"
 	line "be adored."
 
 	para "I wonder how I"
 	line "could get in the"
-	cont "NEWS?"
+	cont "News?"
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
@@ -719,7 +719,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
 	para "Congratulations!"
 
 	para "As a special deal,"
-	line "a GS BALL has been"
+	line "a GS Ball has been"
 	cont "sent just for you!"
 
 	para "Please accept it!"
@@ -741,12 +741,12 @@ UnknownText_0x62370:
 	line "TRADE CORNER"
 
 	para "Right:"
-	line "#mon NEWS"
+	line "#mon News"
 	done
 
 UnknownText_0x623c7:
 	text "It's a #mon"
-	line "NEWS MACHINE!"
+	line "News MACHINE!"
 
 	para "It's not in"
 	line "operation yet…"

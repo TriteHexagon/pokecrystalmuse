@@ -34,9 +34,9 @@ BrentLostAMonText:
 	line "sighting. But I"
 
 	para "didn't have any"
-	line "# BALLS…"
+	line "#Balls…"
 
-	para "Would BILL laugh"
+	para "Would Bill laugh"
 	line "at my mistakes?"
 	done
 
@@ -65,7 +65,7 @@ BrentHangUpText:
 
 BrentFatherGossipText:
 	text "Did you know…?"
-	line "BILL's father is"
+	line "Bill's father is"
 
 	para "supposed to be a"
 	line "great #MANIAC."
@@ -73,7 +73,7 @@ BrentFatherGossipText:
 
 BrentGrandpaGossipText:
 	text "Did you know…?"
-	line "Apparently BILL's"
+	line "Apparently Bill's"
 
 	para "grandpa isn't a"
 	line "#MANIAC."
@@ -81,13 +81,13 @@ BrentGrandpaGossipText:
 
 BrentGoldenrodGossipText:
 	text "Did you know…?"
-	line "BILL's originally"
+	line "Bill's originally"
 	cont "from Goldenrod."
 	done
 
 BrentRoute25GossipText:
 	text "Did you know…?"
-	line "BILL evidently"
+	line "Bill evidently"
 
 	para "lives on Route 25"
 	line "in Kanto."
@@ -97,13 +97,13 @@ BrentAbraGossipText:
 	text "Did you know…?"
 	line "ABRA was the first"
 
-	para "#mon that BILL"
+	para "#mon that Bill"
 	line "ostensibly caught."
 	done
 
 BrentSisterGossipText:
 	text "Did you know…?"
-	line "BILL's younger"
+	line "Bill's younger"
 
 	para "sister apparently"
 	line "can't wink."
@@ -111,7 +111,7 @@ BrentSisterGossipText:
 
 BrentMilkGossipText:
 	text "Did you know…?"
-	line "BILL supposedly"
+	line "Bill supposedly"
 
 	para "hates milk and"
 	line "can't drink it."
@@ -119,7 +119,7 @@ BrentMilkGossipText:
 
 BrentBattlingGossipText:
 	text "Did you know…?"
-	line "Evidently, BILL"
+	line "Evidently, Bill"
 
 	para "isn't very good at"
 	line "battling."
@@ -127,7 +127,7 @@ BrentBattlingGossipText:
 
 BrentFlowerShopGossipText:
 	text "Did you know…?"
-	line "BILL appears to"
+	line "Bill appears to"
 
 	para "like the lady at"
 	line "the FLOWER SHOP."
@@ -135,7 +135,7 @@ BrentFlowerShopGossipText:
 
 BrentKimonoGirlGossipText:
 	text "Did you know…?"
-	line "BILL's mother is"
+	line "Bill's mother is"
 
 	para "said to have been"
 	line "a KIMONO GIRL."
@@ -143,7 +143,7 @@ BrentKimonoGirlGossipText:
 
 BrentSorryImTooBusyText:
 	text "You wanted to hear"
-	line "about BILL?"
+	line "about Bill?"
 
 	para "Sorry, but I'm too"
 	line "busy for you."

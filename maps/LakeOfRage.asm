@@ -258,7 +258,7 @@ LakeOfRageLanceIntroText:
 	cont "rumors?"
 
 	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
+	line "I'm Lance, a"
 	cont "trainer like you."
 
 	para "I heard some ru-"
@@ -488,7 +488,7 @@ LakeOfRageSignText:
 
 FishingGurusHouseSignText:
 	text "FISHING GURU'S"
-	line "HOUSE"
+	line "House"
 	done
 
 LakeOfRage_MapEvents:

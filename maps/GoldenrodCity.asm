@@ -448,7 +448,7 @@ GoldenrodDeptStoreSignText:
 GoldenrodGymSignText:
 	text "Goldenrod City"
 	line "#mon Gym"
-	cont "Leader: WHITNEY"
+	cont "Leader: Whitney"
 
 	para "The Incredibly"
 	line "Pretty Girl!"

@@ -238,7 +238,7 @@ LanceBattleIntroText:
 	para "the #mon League"
 	line "Champion…"
 
-	para "I, LANCE the drag-"
+	para "I, Lance the drag-"
 	line "on master, accept"
 	cont "your challenge!"
 	done
@@ -281,15 +281,15 @@ LanceBattleAfterText:
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Oh, no!"
+	text "Mary: Oh, no!"
 	line "It's all over!"
 
-	para "PROF.OAK, if you"
+	para "Prof.Oak, if you"
 	line "weren't so slow…"
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
+	text "Prof.Oak: Ah,"
 	line "<PLAY_G>!"
 
 	para "It's been a long"
@@ -322,7 +322,7 @@ LancesRoomOakCongratulationsText:
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Let's inter-"
+	text "Mary: Let's inter-"
 	line "view the brand new"
 	cont "Champion!"
 	done
@@ -337,7 +337,7 @@ LancesRoomNoisyText:
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Oh, wait!"
+	text "Mary: Oh, wait!"
 	line "We haven't done"
 	cont "the interview!"
 	done

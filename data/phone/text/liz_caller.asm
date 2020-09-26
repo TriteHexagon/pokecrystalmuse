@@ -97,7 +97,7 @@ LizFalknerGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "FALKNER of Violet"
+	line "Falkner of Violet"
 
 	para "Gym is cool and"
 	line "handsome?"
@@ -109,7 +109,7 @@ LizFalknerGossipText:
 	line "road, is even more"
 
 	para "cool and handsome"
-	line "than FALKNER."
+	line "than Falkner."
 
 	para "I wish I could"
 	line "meet him!"
@@ -202,7 +202,7 @@ LizWhitneyGossipText:
 	text "Listen, listen!"
 
 	para "Goldenrod Gym's"
-	line "WHITNEY began"
+	line "Whitney began"
 
 	para "battling only a"
 	line "little while ago!"

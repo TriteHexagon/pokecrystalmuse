@@ -234,7 +234,7 @@ BillsPCDepositMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DEPOSIT@"
+	db "Deposit@"
 	db "STATS@"
 	db "RELEASE@"
 	db "CANCEL@"
@@ -487,7 +487,7 @@ BillsPC_Withdraw:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "WITHDRAW@"
+	db "Withdraw@"
 	db "STATS@"
 	db "RELEASE@"
 	db "CANCEL@"
@@ -2221,9 +2221,9 @@ PCString_Bye: db "Bye,@"
 PCString_Stored: db "Stored @"
 PCString_Got: db "Got @"
 PCString_Non: db "Non.@"
-PCString_BoxFull: db "The BOX is full.@"
+PCString_BoxFull: db "The Box is full.@"
 PCString_PartyFull: db "The party's full!@"
-PCString_NoReleasingEGGS: db "No releasing EGGS!@"
+PCString_NoReleasingEGGS: db "No releasing Eggs!@"
 
 _ChangeBox:
 	call LoadStandardMenuHeader
@@ -2494,7 +2494,7 @@ BillsPC_PlaceChooseABoxString:
 	jr BillsPC_PlaceChangeBoxString
 
 .ChooseABox:
-	db "Choose a BOX.@"
+	db "Choose a Box.@"
 
 BillsPC_PlaceWhatsUpString:
 	ld de, .WhatsUp

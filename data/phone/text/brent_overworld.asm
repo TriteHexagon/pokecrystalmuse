@@ -8,14 +8,14 @@ BrentAskNumber1Text:
 	para "But your knowledge"
 	line "is shallow still!"
 
-	para "Do you know BILL?"
+	para "Do you know Bill?"
 	line "He's an incredible"
 
 	para "#MANIAC."
 	line "I revere him."
 
 	para "I'll teach you all"
-	line "I know about BILL,"
+	line "I know about Bill,"
 
 	para "so leave me your"
 	line "phone number."
@@ -23,14 +23,14 @@ BrentAskNumber1Text:
 
 BrentAskNumber2Text:
 	text "I'll teach you all"
-	line "I know about BILL,"
+	line "I know about Bill,"
 
 	para "so leave me your"
 	line "phone number."
 	done
 
 BrentNumberAcceptedText:
-	text "BILL--he's more"
+	text "Bill--he's more"
 	line "than amazing!"
 
 	para "To be a #MANIAC"

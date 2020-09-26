@@ -243,7 +243,7 @@ VermilionCitySignText:
 VermilionGymSignText:
 	text "Vermilion City"
 	line "#mon Gym"
-	cont "Leader: LT.SURGE"
+	cont "Leader: Lt.Surge"
 
 	para "The Lightning"
 	line "American"

@@ -594,7 +594,7 @@ RadioTower2FBuenaPasswordIsHelpText:
 	done
 
 RadioTower2FBuenaCardIsFullText:
-	text "Buena: Your BLUE"
+	text "Buena: Your Blue"
 	line "Card's full."
 
 	para "Trade it in for a"
@@ -615,7 +615,7 @@ RadioTower2FBuenaTuneInAfterSixText:
 RadioTower2FBuenaNoBlueCardText:
 	text "Buena: Oh? You"
 	line "forgot to bring"
-	cont "your BLUE CARD?"
+	cont "your Blue CARD?"
 
 	para "I can't give you"
 	line "points if you"
@@ -624,7 +624,7 @@ RadioTower2FBuenaNoBlueCardText:
 
 RadioTower2FBuenaOfferPhoneNumberText:
 	text "Buena: Oh! Your"
-	line "BLUE Card reached"
+	line "Blue Card reached"
 
 	para "30 points today!"
 	line "That's so wild!"
@@ -686,10 +686,10 @@ RadioTower2FBuenaReceptionistPointsForPrizesText:
 RadioTower2FBuenaReceptionistNoCardText:
 	text "You can't trade in"
 	line "points without"
-	cont "your BLUE CARD."
+	cont "your Blue CARD."
 
 	para "Don't forget your"
-	line "BLUE CARD!"
+	line "Blue CARD!"
 	done
 
 RadioTower2FSalesSignText:
@@ -697,7 +697,7 @@ RadioTower2FSalesSignText:
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #mon"
+	text "Prof.Oak'S #mon"
 	line "TALK"
 
 	para "The Hottest Show"

@@ -93,11 +93,11 @@ KantoRadioStationSignText:
 
 VolunteerPokemonHouseSignText:
 	text "Lavender VOLUNTEER"
-	line "#mon HOUSE"
+	line "#mon House"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "SOUL House"
 
 	para "May the Souls of"
 	line "#mon Rest Easy"
