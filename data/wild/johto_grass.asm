@@ -1039,110 +1039,110 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_ROOM_1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 43, GRAVELER
-	db 44, URSARING
-	db 42, ONIX
-	db 45, MAGMAR
-	db 45, GOLBAT
+	db 63, GRAVELER
+	db 64, URSARING
+	db 62, ONIX
+	db 65, MAGMAR
+	db 65, GOLBAT
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; day
-	db 43, GRAVELER
-	db 44, URSARING
-	db 42, ONIX
-	db 45, MAGMAR
-	db 45, GOLBAT
+	db 63, GRAVELER
+	db 64, URSARING
+	db 62, ONIX
+	db 65, MAGMAR
+	db 65, GOLBAT
 	db 20, LARVITAR
 	db 15, LARVITAR
 	; eve-nite
-	db 43, GRAVELER
-	db 44, GOLBAT
-	db 42, ONIX
-	db 42, GOLBAT
-	db 45, GOLDUCK
-	db 46, GOLBAT
-	db 46, GOLBAT
+	db 63, GRAVELER
+	db 64, GOLBAT
+	db 62, ONIX
+	db 62, GOLBAT
+	db 65, GOLDUCK
+	db 66, GOLBAT
+	db 66, GOLBAT
 
 	map_id SILVER_CAVE_ROOM_2
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 48, GOLBAT
-	db 48, MACHOKE
-	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 67, URSARING
+	db 66, DONPHAN
+	db 68, GOLBAT
+	db 68, MACHOKE
+	db 68, QUAGSIRE
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
-	db 48, GOLBAT
-	db 48, MACHOKE
-	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 67, URSARING
+	db 66, DONPHAN
+	db 68, GOLBAT
+	db 68, MACHOKE
+	db 68, QUAGSIRE
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; eve-nite
-	db 48, GOLBAT
-	db 48, GOLDUCK
-	db 46, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 45, MISDREAVUS
-	db 45, MISDREAVUS
+	db 68, GOLBAT
+	db 68, GOLDUCK
+	db 66, GOLBAT
+	db 66, PARASECT
+	db 68, QUAGSIRE
+	db 65, MISDREAVUS
+	db 65, MISDREAVUS
 
 	map_id SILVER_CAVE_ROOM_3
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 50, URSARING
+	db 71, GOLBAT
+	db 68, ONIX
+	db 68, GRAVELER
+	db 70, URSARING
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 70, STEELIX
 	db 20, PUPITAR
 	; day
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 50, URSARING
+	db 71, GOLBAT
+	db 68, ONIX
+	db 68, GRAVELER
+	db 70, URSARING
 	db 20, LARVITAR
-	db 15, LARVITAR
+	db 70, STEELIX
 	db 20, PUPITAR
 	; eve-nite
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 49, GOLBAT
-	db 45, GOLDUCK
-	db 53, GOLBAT
-	db 53, GOLBAT
+	db 71, GOLBAT
+	db 68, ONIX
+	db 68, GRAVELER
+	db 69, GOLBAT
+	db 65, GOLDUCK
+	db 70, STEELIX
+	db 73, GOLBAT
 
 	map_id SILVER_CAVE_ITEM_ROOMS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 43, TEDDIURSA
+	db 43, PHANPY
+	db 70, GOLBAT
+	db 66, PARASECT
+	db 20, LARVITAR
+	db 15, LARVITAR
+	db 20, PUPITAR
 	; day
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 43, TEDDIURSA
+	db 43, PHANPY
+	db 70, GOLBAT
+	db 66, PARASECT
+	db 20, LARVITAR
+	db 15, LARVITAR
+	db 20, PUPITAR
 	; eve-nite
-	db 45, MISDREAVUS
-	db 48, GOLBAT
-	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 65, MISDREAVUS
+	db 68, GOLBAT
+	db 70, GOLBAT
+	db 64, PARASECT
+	db 66, PARASECT
+	db 68, PARASECT
+	db 70, PARASECT
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/eve-nite
@@ -1633,28 +1633,28 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 41, TANGELA
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 61, URSARING
+	db 61, DONPHAN
+	db 64, RAPIDASH
+	db 62, ARBOK
+	db 61, TANGELA
+	db 63, DODRIO
+	db 63, DODRIO
 	; day
-	db 41, TANGELA
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
-	; eve-nite
-	db 41, TANGELA
-	db 42, POLIWHIRL
-	db 42, GOLBAT
-	db 44, POLIWHIRL
-	db 40, GOLBAT
-	db 44, GOLBAT
-	db 44, GOLBAT
+	db 61, URSARING
+	db 61, DONPHAN
+	db 64, RAPIDASH
+	db 62, ARBOK
+	db 61, TANGELA
+	db 63, DODRIO
+	db 63, DODRIO
+	; nite
+	db 61, TANGELA
+	db 62, POLIWHIRL
+	db 60, GOLBAT
+	db 64, POLIWHIRL
+	db 62, GOLBAT
+	db 63, SNEASEL
+	db 64, SNEASEL
 
 	db -1 ; end

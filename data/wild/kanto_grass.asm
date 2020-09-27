@@ -788,28 +788,28 @@ KantoGrassWildMons:
 	map_id ROUTE_28
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, RAPIDASH
-	db 42, ARBOK
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 60, URSARING
+	db 60, DONPHAN
+	db 61, RAPIDASH
+	db 62, ARBOK
+	db 59, TANGELA
+	db 63, DODRIO
+	db 63, DODRIO
 	; day
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, RAPIDASH
-	db 42, ARBOK
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 60, URSARING
+	db 60, DONPHAN
+	db 61, RAPIDASH
+	db 62, ARBOK
+	db 59, TANGELA
+	db 63, DODRIO
+	db 63, DODRIO
 	; nite
-	db 39, TANGELA
-	db 40, POLIWHIRL
-	db 40, GOLBAT
-	db 40, POLIWHIRL
-	db 42, GOLBAT
-	db 42, GOLBAT
-	db 42, GOLBAT
+	db 59, TANGELA
+	db 60, POLIWHIRL
+	db 60, GOLBAT
+	db 60, POLIWHIRL
+	db 62, GOLBAT
+	db 61, SNEASEL
+	db 62, SNEASEL
 
 	db -1 ; end

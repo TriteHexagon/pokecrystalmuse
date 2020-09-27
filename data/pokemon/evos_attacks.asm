@@ -602,11 +602,11 @@ ClefairyEvosAttacks:
 
 ClefableEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SOFTBOILED
 	db 1, SING
 	db 1, DOUBLESLAP
 	db 1, MOONLIGHT
 	db 1, METRONOME ;evolution move
-;SOFTBOILED
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -4455,7 +4455,8 @@ TyranitarEvosAttacks:
 	db 0 ; no more level-up moves
 
 LugiaEvosAttacks:
-	db 0 ; no more evolutions
+	db 0 ; no more evolutionsº
+	db 1, DRAGON_RUSH
     db 1, WHIRLWIND
 	db 9, GUST
 	db 15, SKY_ATTACK ;was Dragon Rush for some reason
