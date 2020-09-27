@@ -41,7 +41,7 @@ SaffronPokecenter1FYoungsterScript:
 
 SaffronPokecenter1FTeacherText:
 	text "What are Johto's"
-	line "#mon CENTERS"
+	line "#mon Centers"
 	cont "like?"
 
 	para "…Oh, I see. So"
@@ -57,7 +57,7 @@ SaffronPokecenter1FTeacherText:
 
 SaffronPokecenter1FTeacherMobileText:
 	text "What are Johto's"
-	line "#mon CENTERS"
+	line "#mon Centers"
 	cont "like?"
 
 	para "…Oh, I see."
@@ -69,7 +69,7 @@ SaffronPokecenter1FTeacherMobileText:
 	para "Then I'll get my"
 	line "friend in Johto to"
 
-	para "catch a MARILL and"
+	para "catch a Marill and"
 	line "trade it to me!"
 	done
 

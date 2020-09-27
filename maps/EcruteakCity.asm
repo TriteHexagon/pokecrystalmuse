@@ -122,7 +122,7 @@ EcruteakCityGramps2Text:
 	line "Have you learned"
 
 	para "to dance like the"
-	line "KIMONO GIRLS?"
+	line "Kimono Girls?"
 
 	para "If you go to their"
 	line "DANCE THEATER, an"

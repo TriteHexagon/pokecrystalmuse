@@ -380,7 +380,7 @@ FisherRaymondSeenText:
 	line "do, all I catch"
 
 	para "are the same #-"
-	line "MON…"
+	line "mon…"
 	done
 
 FisherRaymondBeatenText:

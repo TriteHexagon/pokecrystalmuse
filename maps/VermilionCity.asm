@@ -164,18 +164,18 @@ VermilionCitySuperNerdText:
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is snoring"
+	text "Snorlax is snoring"
 	line "peacefully…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
 	text "The #Gear was"
 	line "placed near the"
-	cont "sleeping SNORLAX…"
+	cont "sleeping Snorlax…"
 
 	para "…"
 
-	para "SNORLAX woke up!"
+	para "Snorlax woke up!"
 	done
 
 VermilionCityBadgeGuyTrainerText:

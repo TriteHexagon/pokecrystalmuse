@@ -159,7 +159,7 @@ IrwinSnorlaxGossipText:
 	text "I saw, I saw!"
 
 	para "You waking up"
-	line "SNORLAX!"
+	line "Snorlax!"
 
 	para "I was watching you"
 	line "from afar, so I"

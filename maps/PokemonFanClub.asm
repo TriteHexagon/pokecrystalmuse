@@ -221,7 +221,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	para "catch one. So I'm"
 	line "making do with a"
 
-	para "# Doll that I"
+	para "#Doll that I"
 	line "found."
 	done
 
@@ -229,10 +229,10 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Oh, I see now. The"
 	line "girl who lost this"
 
-	para "# Doll is sad…"
+	para "#Doll is sad…"
 
 	para "OK. Could you take"
-	line "this # Doll"
+	line "this #Doll"
 
 	para "back to that poor"
 	line "little girl?"
@@ -246,7 +246,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 
 PokemonFanClubPlayerReceivedDollText:
 	text "<PLAYER> received"
-	line "# Doll."
+	line "#Doll."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:

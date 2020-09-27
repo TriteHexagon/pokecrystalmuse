@@ -222,7 +222,7 @@ CopycatText_Male_2:
 	line "I heard that you"
 
 	para "lost your favorite"
-	line "# Doll."
+	line "#Doll."
 
 	para "<PLAYER>: If I find"
 	line "it, you'll give me"
@@ -251,7 +251,7 @@ CopycatText_Worried:
 CopycatText_GiveDoll:
 	text "Copycat: Yay!"
 	line "That's my Clefairy"
-	cont "# Doll!"
+	cont "#Doll!"
 
 	para "See the tear where"
 	line "the right leg is"
@@ -310,7 +310,7 @@ CopycatText_Female_1:
 CopycatText_Female_2:
 	text "<PLAYER>: Hi. Did"
 	line "you really lose"
-	cont "your # Doll?"
+	cont "your #Doll?"
 
 	para "<PLAYER>: You'll"
 	line "really give me a"
@@ -372,7 +372,7 @@ CopycatsHouse2F_MapEvents:
 
 	db 6 ; object events
 	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Copycat, EVENT_COPYCAT_1
-	object_event  6,  4, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CopycatsDodrio, -1
+	object_event  6,  4, SPRITE_DODRIO, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CopycatsDodrio, -1
 	object_event  6,  1, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CopycatsHouse2FDoll, EVENT_COPYCATS_HOUSE_2F_DOLL
 	object_event  2,  1, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CopycatsHouse2FDoll, -1
 	object_event  7,  1, SPRITE_BIRD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopycatsHouse2FDoll, -1

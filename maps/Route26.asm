@@ -273,9 +273,9 @@ CooltrainermJakeAfterBattleText:
 	line "more training."
 
 	para "I hear that the"
-	line "League's ELITE"
+	line "League's Elite"
 
-	para "FOUR are tougher"
+	para "Four are tougher"
 	line "than Gym Leaders."
 	done
 

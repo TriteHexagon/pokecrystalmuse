@@ -95,7 +95,7 @@ BrentRoute25GossipText:
 
 BrentAbraGossipText:
 	text "Did you know…?"
-	line "ABRA was the first"
+	line "Abra was the first"
 
 	para "#mon that Bill"
 	line "ostensibly caught."

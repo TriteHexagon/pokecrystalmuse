@@ -22,7 +22,7 @@ BeverlyDefeatedMonText:
 
 BeverlyLostAMonText:
 	text "I happened to see"
-	line "a wild MARILL the"
+	line "a wild Marill the"
 
 	para "other day."
 	line "Or so I thought."

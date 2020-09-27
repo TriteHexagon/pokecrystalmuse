@@ -149,7 +149,7 @@ EcruteakPokecenter1F_BillText2:
 	line "CAPSULES will be"
 
 	para "running at all"
-	line "#mon CENTERS."
+	line "#mon Centers."
 
 	para "I have to hurry on"
 	line "back to Goldenrod"

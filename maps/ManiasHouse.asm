@@ -148,7 +148,7 @@ ManiaText_IfHeComesBack:
 
 ManiaText_CanIHaveMyMonBack:
 	text "Hi! How's my #-"
-	line "MON?"
+	line "mon?"
 
 	para "I think I'm safe"
 	line "now, so may I have"

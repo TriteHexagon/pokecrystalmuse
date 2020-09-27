@@ -76,7 +76,7 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
+	text "This Poliwrath is"
 	line "my partner."
 
 	para "I wonder if it'll"
@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "Poliwrath: Croak!"
 	done
 
 CeladonCityTeacher1Text:
@@ -106,13 +106,13 @@ else
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
+	text "Grimer have been"
 	line "appearing lately."
 
 	para "See that pond out"
 	line "in front of the"
 
-	para "house? GRIMER live"
+	para "house? Grimer live"
 	line "there now."
 
 	para "Where did they"
@@ -233,16 +233,16 @@ endc
 CeladonCityTrainerTipsText:
 	text "Trainer Tips"
 
-	para "GUARD SPEC."
+	para "Guard Spec."
 	line "protects #mon"
 
-	para "against SPECIAL"
+	para "against Special"
 	line "attacks such as"
 	cont "fire and water."
 
 	para "Get your items at"
-	line "Celadon DEPT."
-	cont "STORE!"
+	line "Celadon Dept."
+	cont "Store!"
 	done
 
 CeladonCity_MapEvents:
@@ -273,7 +273,7 @@ CeladonCity_MapEvents:
 
 	db 9 ; object events
 	object_event 26, 11, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonCityFisherScript, -1
-	object_event 27, 11, SPRITE_POLIWAG, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonCityPoliwrath, -1
+	object_event 27, 11, SPRITE_POLIWRATH, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonCityPoliwrath, -1
 	object_event 20, 24, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityTeacher1Script, -1
 	object_event 14, 16, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CeladonCityGramps1Script, -1
 	object_event  8, 31, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityGramps2Script, -1

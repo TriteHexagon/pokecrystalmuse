@@ -40,7 +40,7 @@ BlackthornPokecenter1FTwinText:
 	line "move I just had"
 
 	para "to teach my #-"
-	line "MON."
+	line "mon."
 
 	para "So I got the MOVE"
 	line "DELETER to make it"

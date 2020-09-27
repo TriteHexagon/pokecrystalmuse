@@ -545,7 +545,7 @@ UnknownText_0x61cef:
 	line "new thing for the"
 	cont "TRADE CORNER!"
 
-	para "I make a PIDGEY"
+	para "I make a Pidgey"
 	line "hold Mail, then"
 
 	para "put it up for"
@@ -558,7 +558,7 @@ UnknownText_0x61cef:
 	para "be traded with all"
 	line "sorts of people!"
 
-	para "I call it PIDGEY"
+	para "I call it Pidgey"
 	line "Mail!"
 
 	para "If it becomes"
@@ -612,7 +612,7 @@ UnknownText_0x61f48:
 	text "The #Com Center"
 	line "will link with all"
 
-	para "#mon CENTERS in"
+	para "#mon Centers in"
 	line "a wireless net."
 
 	para "That must mean"

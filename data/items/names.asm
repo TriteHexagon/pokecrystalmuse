@@ -35,7 +35,7 @@ ItemNames::
 	db "Leaf Stone@"
 	db "Metal Powder@"
 	db "Nugget@"
-	db "# Doll@"
+	db "#Doll@"
 	db "Full Heal@"
 	db "Revive@"
 	db "Max Revive@"

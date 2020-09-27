@@ -27,8 +27,8 @@ MountMoonSquare_MapScripts:
 .StarManiac:
 	checktime NITE
 	iffalse .DisappearStarManiac
-	checkflag ENGINE_MT_MOON_SQUARE_CLEFAIRY
-	iftrue .DisappearStarManiac
+	readvar VAR_WEEKDAY
+	ifequal MONDAY, .DisappearStarManiac
 	appear MOUNTMOONSQUARE_STAR_MANIAC
 	return
 

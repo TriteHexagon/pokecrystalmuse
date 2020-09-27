@@ -361,7 +361,7 @@ RadioTower2FTeacherText_Rockets:
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
+	text "Jigglypuff:"
 	line "Jiggly…"
 	done
 
@@ -437,7 +437,7 @@ GruntM6BeatenText:
 	done
 
 GruntM6AfterBattleText:
-	text "Our EXECUTIVES are"
+	text "Our Executives are"
 	line "trying to take"
 	cont "this place over."
 

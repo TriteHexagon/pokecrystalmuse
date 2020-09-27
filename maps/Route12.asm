@@ -156,12 +156,12 @@ FisherKyleAfterBattleText:
 Route12SignText:
 	text "Route 12"
 
-	para "NORTH TO Lavender"
+	para "North TO Lavender"
 	line "Town"
 	done
 
 FishingSpotSignText:
-	text "FISHING SPOT"
+	text "Fishing Spot"
 	done
 
 Route12_MapEvents:

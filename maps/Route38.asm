@@ -400,7 +400,7 @@ BeautyValerieBeatenText:
 
 BeautyValerieAfterBattleText:
 	text "When I see #-"
-	line "MON, it seems to"
+	line "mon, it seems to"
 	cont "soothe my nerves."
 	done
 

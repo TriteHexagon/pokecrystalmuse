@@ -262,7 +262,7 @@ CianwoodCityLassText:
 	line "Leader, spars with"
 
 	para "his fighting #-"
-	line "MON."
+	line "mon."
 	done
 
 CianwoodCityUnusedText:

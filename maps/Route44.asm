@@ -443,7 +443,7 @@ CooltrainermAllenSeenText:
 	cont "looking at you."
 
 	para "I'm good at #-"
-	line "MON, and I can see"
+	line "mon, and I can see"
 	cont "that you are too."
 	done
 

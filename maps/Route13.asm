@@ -130,7 +130,7 @@ BirdKeeperPerryAfterBattleText:
 
 BirdKeeperBretSeenText:
 	text "Check out my #-"
-	line "MON. Just look at"
+	line "mon. Just look at"
 
 	para "their coloring and"
 	line "their plumage."

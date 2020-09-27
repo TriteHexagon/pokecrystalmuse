@@ -79,7 +79,7 @@
 	const SPRITE_PHARMACIST ; 4b
 	const SPRITE_MONSTER ; 4c
 	const SPRITE_FAIRY ; 4d
-	const SPRITE_BIRD ; 4e
+	const SPRITE_BIRD ; 4e ;unused
 	const SPRITE_DRAGON ; 4f
 	const SPRITE_BIG_ONIX ; 50
 	const SPRITE_N64 ; 51
@@ -113,43 +113,58 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_GROWLITHE ; 82 ;used in the Overworld
 	const SPRITE_WEEDLE ; 83
 	const SPRITE_SHELLDER ; 84
-	const SPRITE_ODDISH ; 85 ;was used in Overworld
+	const SPRITE_ODDISH ; 85 ;unused, was used in Overworld
 	const SPRITE_GENGAR ; 86
 	const SPRITE_ZUBAT ; 87
 	const SPRITE_MAGIKARP ; 88
 	const SPRITE_SQUIRTLE ; 89
-	const SPRITE_TOGEPI ; 8a
-	const SPRITE_BUTTERFREE ; 8b
-	const SPRITE_DIGLETT ; 8c
+	const SPRITE_TOGEPI ; 8a   ;unused
+	const SPRITE_BUTTERFREE ; 8b  ;unused
+	const SPRITE_DIGLETT ; 8c  ;used in the Overworld
 	const SPRITE_POLIWAG ; 8d
 	const SPRITE_PIKACHU ; 8e
 	const SPRITE_CLEFAIRY ; 8f
 	const SPRITE_CHARMANDER ; 90
-	const SPRITE_JYNX ; 91
+	const SPRITE_ABRA ; 91 ;was Jynx, used in the Overworld
 	const SPRITE_STARMIE ; 92
 	const SPRITE_BULBASAUR ; 93
-	const SPRITE_JIGGLYPUFF ; 94
+	const SPRITE_JIGGLYPUFF ; 94 ;used in the Overworld
 	const SPRITE_GRIMER ; 95
-	const SPRITE_EKANS ; 96
-	const SPRITE_PARAS ; 97
+	const SPRITE_DRATINI ; 96 ;was Dratini, used in the Overworld
+	const SPRITE_PARAS ; 97  ;unused
 	const SPRITE_TENTACOOL ; 98
-	const SPRITE_TAUROS ; 99
+	const SPRITE_MILTANK ; 99 ;was Tauros
 	const SPRITE_MACHOP ; 9a
 	const SPRITE_VOLTORB ; 9b
-	const SPRITE_LAPRAS ; 9c
+	const SPRITE_LAPRAS ; 9c ;used in the Union Cave
 	const SPRITE_RHYDON ; 9d
-	const SPRITE_MOLTRES ; 9e
-	const SPRITE_SNORLAX ; 9f
+	const SPRITE_MOLTRES ; 9e ;unused, was used in Overworld
+	const SPRITE_SNORLAX ; 9f ;UNUSED
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_LUGIA ; a1
 	const SPRITE_HO_OH    ; a2
 	;new sprites
-	const SPRITE_MEOWTH    ;a3
-	const SPRITE_NIDORAN_F ;a4
-	const SPRITE_NIDORINO  ;a5
-	const SPRITE_PERSIAN   ;a6
-	const SPRITE_RATTATA   ;a7
-	const SPRITE_BAYLEEF   ;a8
+	const SPRITE_MEOWTH     ;a3
+	const SPRITE_NIDORAN_F  ;a4
+	const SPRITE_NIDORINO   ;a5
+	const SPRITE_PERSIAN    ;a6
+	const SPRITE_RATTATA    ;a7
+	const SPRITE_BAYLEEF    ;a8
+	const SPRITE_LEDIAN     ;a9
+	const SPRITE_POLIWRATH  ;aa
+	const SPRITE_BLISSEY    ;ab
+	const SPRITE_MACHOKE    ;ac
+	const SPRITE_ELECTRODE  ;ad
+	const SPRITE_KANGASKHAN ;ae
+	const SPRITE_PSYDUCK    ;af
+	const SPRITE_FARFETCH_D ;b0
+	const SPRITE_DODRIO     ;b1
+	const SPRITE_PIDGEY     ;b2
+	const SPRITE_FEAROW     ;b3
+	const SPRITE_MURKROW    ;b4
+	const SPRITE_SPEAROW    ;b5
+	const SPRITE_SLOWBRO    ;b6
+	const SPRITE_AMPHAROS   ;b7
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_next $e0

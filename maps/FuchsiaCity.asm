@@ -51,8 +51,8 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "One of the Elite"
+	line "Four used to be"
 
 	para "the Leader of"
 	line "Fuchsia's Gym."

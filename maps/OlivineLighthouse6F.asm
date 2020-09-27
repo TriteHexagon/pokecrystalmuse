@@ -181,7 +181,7 @@ JasmineCianwoodPharmacyText:
 	line "the sea…"
 
 	para "And I can't leave"
-	line "AMPHY unattended…"
+	line "Amphy unattended…"
 	done
 
 JasmineGetSomeMedicineText:
@@ -193,7 +193,7 @@ JasmineGetSomeMedicineText:
 JasmineCureAmphyText:
 	text "Jasmine: …Will"
 	line "that medicine cure"
-	cont "AMPHY?"
+	cont "Amphy?"
 	done
 
 PlayerHandedSecretpotionText:
@@ -207,7 +207,7 @@ JasmineDontBeOffendedText:
 	line "please don't be"
 	cont "offended…"
 
-	para "…AMPHY will not"
+	para "…Amphy will not"
 	line "take anything from"
 	cont "anyone but me…"
 	done
@@ -215,7 +215,7 @@ JasmineDontBeOffendedText:
 JasmineAmphyHowAreYouFeelingText:
 	text "Jasmine: …"
 
-	para "AMPHY, how are you"
+	para "Amphy, how are you"
 	line "feeling?"
 	done
 
@@ -238,11 +238,11 @@ JasmineISeeText:
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…Amphy, hang on!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
+	text "Amphy: …"
 	line "…Pa… paloo…"
 	done
 
@@ -252,7 +252,7 @@ AmphyBreathingLaboredText:
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
+	text "Amphy: Palu!"
 	line "Palulu!"
 	done
 
@@ -270,5 +270,5 @@ OlivineLighthouse6F_MapEvents:
 
 	db 3 ; object events
 	object_event  8,  8, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseJasmine, EVENT_OLIVINE_LIGHTHOUSE_JASMINE
-	object_event  9,  8, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseAmphy, -1
+	object_event  9,  8, SPRITE_AMPHAROS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseAmphy, -1
 	object_event  3,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OlivineLighthouse6FSuperPotion, EVENT_OLIVINE_LIGHTHOUSE_6F_SUPER_POTION

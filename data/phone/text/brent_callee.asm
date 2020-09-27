@@ -74,6 +74,6 @@ BrentGenericText:
 	line "is so tough, it"
 
 	para "doesn't need to go"
-	line "to #mon CENTERS"
+	line "to #mon Centers"
 	cont "often. Heheh!"
 	done

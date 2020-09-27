@@ -28,13 +28,13 @@ OlivineHouseBetaTeacherText:
 	text "When my #mon"
 	line "got sick, the"
 
-	para "PHARMACIST in"
+	para "Pharmacist in"
 	line "Ecruteak made some"
 	cont "medicine for me."
 	done
 
 OlivineHouseBetaRhydonText:
-	text "RHYDON: Gugooh!"
+	text "Rhydon: Gugooh!"
 	done
 
 OlivineHouseBeta_MapEvents:

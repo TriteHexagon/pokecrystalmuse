@@ -103,7 +103,7 @@ BrockIntroText:
 
 BrockWinLossText:
 	text "Brock: Your #-"
-	line "MON's powerful at-"
+	line "mon's powerful at-"
 	cont "tacks overcame my"
 	cont "Rock-hard defense…"
 
