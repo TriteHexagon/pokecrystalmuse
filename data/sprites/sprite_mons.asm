@@ -35,4 +35,11 @@ SpriteMons:
 	db GYARADOS
 	db LUGIA
 	db HO_OH
-	;new
+	;new 
+	db MEOWTH
+	db NIDORAN_F
+	db NIDORINO
+	db PERSIAN
+	db RATTATA
+	db BAYLEEF
+	

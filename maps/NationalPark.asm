@@ -375,7 +375,7 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "Persian: Fufushaa!"
 	done
 
 NationalParkGameboyKidText:
@@ -411,7 +411,7 @@ SchoolboyJackTradeMonText:
 
 	para "For example…"
 
-	para "There are 50 kinds"
+	para "There are 53 kinds"
 	line "of TMs."
 
 	para "Traded #mon"
