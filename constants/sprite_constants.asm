@@ -110,10 +110,10 @@
 SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; 80
 	const SPRITE_GEODUDE ; 81
-	const SPRITE_GROWLITHE ; 82 ;used in the overworld
+	const SPRITE_GROWLITHE ; 82 ;used in the Overworld
 	const SPRITE_WEEDLE ; 83
 	const SPRITE_SHELLDER ; 84
-	const SPRITE_ODDISH ; 85
+	const SPRITE_ODDISH ; 85 ;was used in Overworld
 	const SPRITE_GENGAR ; 86
 	const SPRITE_ZUBAT ; 87
 	const SPRITE_MAGIKARP ; 88
