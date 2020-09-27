@@ -110,7 +110,7 @@
 SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; 80
 	const SPRITE_GEODUDE ; 81
-	const SPRITE_GROWLITHE ; 82
+	const SPRITE_GROWLITHE ; 82 ;used in the overworld
 	const SPRITE_WEEDLE ; 83
 	const SPRITE_SHELLDER ; 84
 	const SPRITE_ODDISH ; 85
@@ -142,12 +142,14 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_SNORLAX ; 9f
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_LUGIA ; a1
-	const SPRITE_HO_OH ; a2
-	const SPRITE_MEOWTH ;a3
+	const SPRITE_HO_OH    ; a2
+	;new sprites
+	const SPRITE_MEOWTH    ;a3
 	const SPRITE_NIDORAN_F ;a4
 	const SPRITE_NIDORINO  ;a5
 	const SPRITE_PERSIAN   ;a6
 	const SPRITE_RATTATA   ;a7
+	const SPRITE_BAYLEEF   ;a8
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_next $e0

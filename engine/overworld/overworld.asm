@@ -205,12 +205,7 @@ GetMonSprite:
 	jr z, .BreedMon2
 	cp SPRITE_VARS
 	jr nc, .Variable
-	jr .Icon
-
-.Normal:
-	and a
-	ret
-
+;fallthrough to Icon
 .Icon:
 	sub SPRITE_POKEMON
 	ld e, a
@@ -219,6 +214,10 @@ GetMonSprite:
 	add hl, de
 	ld a, [hl]
 	jr .Mon
+
+.Normal:
+	and a
+	ret
 
 .BreedMon1
 	ld a, [wBreedMon1Species]
