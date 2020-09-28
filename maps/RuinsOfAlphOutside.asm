@@ -149,7 +149,7 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 
 RuinsOfAlphOutsideScientistText:
 	text "Hm? That's a #-"
-	line "DEX, isn't it?"
+	line "Dex, isn't it?"
 	cont "May I see it?"
 
 	para "There are so many"
@@ -173,7 +173,7 @@ RuinsOfAlphOutsideScientistText:
 
 	para "I know! Let me up-"
 	line "grade your #-"
-	cont "DEX. Follow me."
+	cont "Dex. Follow me."
 	done
 
 SuperNerdStanSeenText:
@@ -222,21 +222,21 @@ PsychicNathanAfterBattleText:
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "Mystery STONE"
-	line "PANEL CHAMBER"
+	text "Mystery Stone"
+	line "Panel Chamber"
 	done
 
 RuinsOfAlphSignText:
 	text "Ruins of Alph"
-	line "VISITORS WELCOME"
+	line "Visitors Welcome"
 	done
 
 RuinsOfAlphResearchCenterSignText:
 	text "Ruins of Alph"
-	line "RESEARCH Center"
+	line "Research Center"
 
-	para "THE AUTHORITY ON"
-	line "THE Ruins of Alph"
+	para "The Authority on"
+	line "the Ruins of Alph"
 	done
 
 RuinsOfAlphOutsideFisherText1:

@@ -627,7 +627,7 @@ OfficerKeithDaytimeText:
 PokefanmBrandonSeenText:
 	text "I just got my"
 	line "#mon back from"
-	cont "DAY-CARE."
+	cont "Day-Care."
 
 	para "Let's see how much"
 	line "stronger it got!"
@@ -738,7 +738,7 @@ Route34SignText:
 	line "Azalea Town"
 
 	para "Ilex Forest"
-	line "SOMEWHERE BETWEEN"
+	line "Somewhere Between"
 	done
 
 Route34TrainerTipsText:
@@ -754,7 +754,7 @@ Route34TrainerTipsText:
 	done
 
 DayCareSignText:
-	text "DAY-CARE"
+	text "Day-Care"
 
 	para "LET US RAISE YOUR"
 	line "#mon FOR YOU!"

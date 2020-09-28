@@ -125,7 +125,7 @@ CharcoalKilnApprenticeText2:
 	text "I'm sorry--I for-"
 	line "got to thank you."
 
-	para "This is CHARCOAL"
+	para "This is Charcoal"
 	line "that I made."
 
 	para "Fire-type #mon"

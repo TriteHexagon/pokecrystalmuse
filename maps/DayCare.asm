@@ -79,8 +79,8 @@ Text_GrampsLookingForYou:
 	done
 
 Text_DayCareManTalksAboutEggTicket:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "I'm the Day-Care"
+	line "Man."
 
 	para "There's something"
 	line "new in Goldenrod"
@@ -95,15 +95,15 @@ Text_DayCareManTalksAboutEggTicket:
 	line "ODD Egg."
 
 	para "But since we run a"
-	line "DAY-CARE, we don't"
+	line "Day-Care, we don't"
 
 	para "need it. You may"
 	line "as well have it."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "I'm the Day-Care"
+	line "Man."
 
 	para "Do you know about"
 	line "Eggs?"

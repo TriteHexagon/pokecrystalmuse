@@ -78,7 +78,7 @@ PlayersNeighborText:
 
 PlayerNeighborRadioText1:
 	text "Prof.Oak's #mon"
-	line "TALK! Please tune"
+	line "Talk! Please tune"
 	cont "in next time!"
 	done
 

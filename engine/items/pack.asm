@@ -349,10 +349,10 @@ MenuHeader_UsableKeyItem:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 5 ; items
-	db "USE@"
-	db "GIVE@"
-	db "TOSS@"
-	db "SEL@"
+	db "Use@"
+	db "Give@"
+	db "Toss@"
+	db "Sel@"
 	db "QUIT@"
 
 Jumptable_UseGiveTossRegisterQuit:
@@ -371,9 +371,9 @@ MenuHeader_UsableItem:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 4 ; items
-	db "USE@"
-	db "GIVE@"
-	db "TOSS@"
+	db "Use@"
+	db "Give@"
+	db "Toss@"
 	db "QUIT@"
 
 Jumptable_UseGiveTossQuit:
@@ -391,7 +391,7 @@ MenuHeader_UnusableItem:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "USE@"
+	db "Use@"
 	db "QUIT@"
 
 Jumptable_UseQuit:
@@ -407,8 +407,8 @@ MenuHeader_UnusableKeyItem:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-	db "USE@"
-	db "SEL@"
+	db "Use@"
+	db "Sel@"
 	db "QUIT@"
 
 Jumptable_UseRegisterQuit:
@@ -425,9 +425,9 @@ MenuHeader_HoldableKeyItem:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 4 ; items
-	db "GIVE@"
-	db "TOSS@"
-	db "SEL@"
+	db "Give@"
+	db "Toss@"
+	db "Sel@"
 	db "QUIT@"
 
 Jumptable_GiveTossRegisterQuit:
@@ -445,8 +445,8 @@ MenuHeader_HoldableItem:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-	db "GIVE@"
-	db "TOSS@"
+	db "Give@"
+	db "Toss@"
 	db "QUIT@"
 
 Jumptable_GiveTossQuit:
@@ -873,7 +873,7 @@ TMHMSubmenu:
 .UsableMenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "USE@"
+	db "Use@"
 	db "QUIT@"
 
 .UsableJumptable:

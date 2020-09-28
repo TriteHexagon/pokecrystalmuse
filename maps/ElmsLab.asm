@@ -1361,7 +1361,7 @@ ElmsLabTrashcanText:
 	done
 
 ElmsLabPCText:
-	text "Observations ON"
+	text "Observations on"
 	line "#mon evolution"
 
 	para "…It says on the"

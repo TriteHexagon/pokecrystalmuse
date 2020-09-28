@@ -160,10 +160,10 @@ PicnickerEdnaAfterBattleText:
 
 HikerTimSeenText:
 	text "She'll be coming"
-	line "'round MT.SILVER"
+	line "'round Mt.Silver"
 	cont "when she comes…"
 
-	para "MT.SILVER is in"
+	para "Mt.Silver is in"
 	line "Johto, right?"
 	done
 

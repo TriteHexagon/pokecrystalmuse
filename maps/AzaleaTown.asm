@@ -366,8 +366,8 @@ AzaleaTownYoungsterText:
 	para "impossible to get"
 	line "through."
 
-	para "The CHARCOAL MAN's"
-	line "#mon can CUT"
+	para "The Charcoal Man's"
+	line "#mon can Cut"
 	cont "down trees."
 	done
 

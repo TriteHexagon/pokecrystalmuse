@@ -910,7 +910,7 @@ Text_CharcoalMasterIntro:
 	para "Without it, we"
 	line "wouldn't be able"
 
-	para "to CUT trees for"
+	para "to Cut trees for"
 	line "charcoal."
 
 	para "Thanks, kid!"
@@ -923,7 +923,7 @@ Text_CharcoalMasterIntro:
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
+	text "That's the Cut HM."
 	line "Teach that to a"
 
 	para "#mon to clear"

@@ -93,7 +93,7 @@ _DebugRoom:
 	db "#dex COMP@"
 	db "TIMER RESET@"
 	db "DECORATE ALL@"
-	db "ITEM Get!@"
+	db "Item Get!@"
 	db "RTC EDIT@"
 	db "NEXT@"
 	db "GB ID SET@"
@@ -476,7 +476,7 @@ DebugRoom_PrintTelDebug:
 .TelString:
 	db "TEL:@"
 .OffString:
-	db " OFF@"
+	db " Off@"
 .BusyString:
 	db "BUSY@"
 .HardString:
@@ -1100,7 +1100,7 @@ DebugRoomMenu_ItemGet_Page1Values:
 	paged_value wDebugRoomItemID,       1, NUM_POKEMON, MASTER_BALL, .ItemNameString, DebugRoom_PrintItemName, FALSE
 	paged_value wDebugRoomItemQuantity, 1, 99,          1,           .NumberString,   NULL,                    FALSE
 
-.ItemNameString: db "ITEM NAME@"
+.ItemNameString: db "Item NAME@"
 .NumberString:   db "NUMBER@"
 
 DebugRoomMenu_PokemonGet:
@@ -1321,7 +1321,7 @@ DebugRoomMenu_PokemonGet_Page4Values:
 
 DebugRoom_BoxStructStrings:
 .Pokemon:   db "#mon@"
-.Item:      db "ITEM@"
+.Item:      db "Item@"
 .Move1:     db "MOVE 1@"
 .Move2:     db "MOVE 2@"
 .Move3:     db "MOVE 3@"
@@ -1349,8 +1349,8 @@ DebugRoom_BoxStructStrings:
 .PP4:       db "PP 4@"
 .Friend:    db "FRIEND@"
 .Pokerus:   db "#RUS@"
-.NoUse0:    db "NO USE[0]@"
-.NoUse1:    db "NO USE[1]@"
+.NoUse0:    db "NO Use[0]@"
+.NoUse1:    db "NO Use[1]@"
 .Level:     db "LEVEL@"
 .SendBox:   db "SEND Box@"
 

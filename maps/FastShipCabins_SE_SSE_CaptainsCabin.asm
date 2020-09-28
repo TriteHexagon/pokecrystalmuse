@@ -434,7 +434,7 @@ PokefanfGeorgiaBeatenText:
 PokefanfGeorgiaAfterBattleText:
 	text "Oh, yes! I have to"
 	line "get my #mon out"
-	cont "of DAY-CARE!"
+	cont "of Day-Care!"
 	done
 
 SupernerdShawnSeenText:

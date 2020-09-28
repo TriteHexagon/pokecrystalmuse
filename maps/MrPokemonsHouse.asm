@@ -192,7 +192,7 @@ MrPokemonsHouse_GotEggText:
 MrPokemonIntroText3:
 	text "I know a couple"
 	line "who run a #mon"
-	cont "DAY-CARE service."
+	cont "Day-Care service."
 
 	para "They gave me that"
 	line "Egg."

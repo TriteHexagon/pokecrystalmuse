@@ -54,7 +54,7 @@ TrainerHouse1FReceptionistText:
 TrainerHouse1FCooltrainerMText:
 	text "Viridian is the"
 	line "town closest to"
-	cont "INDIGO PLATEAU."
+	cont "Indigo Plateau."
 
 	para "They built this"
 	line "place because so"
@@ -62,8 +62,8 @@ TrainerHouse1FCooltrainerMText:
 	para "many trainers pass"
 	line "through on their"
 
-	para "way up to INDIGO"
-	line "PLATEAU."
+	para "way up to Indigo"
+	line "Plateau."
 	done
 
 TrainerHouse1FCooltrainerFText:

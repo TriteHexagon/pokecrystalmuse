@@ -194,7 +194,7 @@ BugsyText_HiveBadgeSpeech:
 	line "even traded ones."
 
 	para "#mon that know"
-	line "CUT will be able"
+	line "Cut will be able"
 
 	para "to use it outside"
 	line "of battle too."

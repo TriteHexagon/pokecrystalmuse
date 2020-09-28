@@ -878,7 +878,7 @@ GruntM13AfterBattleText:
 
 SwitchRoomText_Switch1:
 	text "It's labeled"
-	line "SWITCH 1."
+	line "Switch 1."
 	done
 
 GruntF3SeenText:
@@ -904,28 +904,28 @@ GruntF3AfterBattleText:
 	done
 
 SwitchRoomText_OffTurnOn:
-	text "It's OFF."
-	line "Turn it ON?"
+	text "It's Off."
+	line "Turn it On?"
 	done
 
 SwitchRoomText_OnTurnOff:
-	text "It's ON."
-	line "Turn it OFF?"
+	text "It's On."
+	line "Turn it Off?"
 	done
 
 SwitchRoomText_Switch2:
 	text "It's labeled"
-	line "SWITCH 2."
+	line "Switch 2."
 	done
 
 SwitchRoomText_Switch3:
 	text "It's labeled"
-	line "SWITCH 3."
+	line "Switch 3."
 	done
 
 SwitchRoomText_Emergency:
 	text "It's labeled"
-	line "EMERGENCY."
+	line "Emergency."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_MapEvents:

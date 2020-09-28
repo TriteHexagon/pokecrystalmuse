@@ -77,7 +77,7 @@ VictoryRoadGateEightBadgesText:
 
 VictoryRoadGateLeftBlackBeltText:
 	text "This way leads to"
-	line "MT.SILVER."
+	line "Mt.Silver."
 
 	para "You'll see scary-"
 	line "strong #mon out"

@@ -23,7 +23,7 @@ BlackthornPokecenter1FCooltrainerMScript:
 
 BlackthornPokecenter1FGentlemanText:
 	text "Deep inside far-"
-	line "off INDIGO PLATEAU"
+	line "off Indigo Plateau"
 
 	para "is the #mon"
 	line "League."

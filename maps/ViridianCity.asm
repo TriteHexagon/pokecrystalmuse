@@ -203,7 +203,7 @@ ViridianCityWelcomeSignText:
 	line "Viridian City,"
 
 	para "THE GATEWAY TO"
-	line "INDIGO PLATEAU"
+	line "Indigo Plateau"
 	done
 
 TrainerHouseSignText:

@@ -386,7 +386,7 @@ GiveTakeItemMenuData:
 .Items:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; # items
-	db "GIVE@"
+	db "Give@"
 	db "TAKE@"
 
 PokemonSwapItemText:
@@ -555,8 +555,8 @@ MonMailAction:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "READ@"
-	db "TAKE@"
+	db "Read@"
+	db "Take@"
 	db "QUIT@"
 
 .MailLoseMessageText:

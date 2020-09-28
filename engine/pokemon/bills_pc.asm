@@ -2484,9 +2484,9 @@ BillsPC_ChangeBoxSubmenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "SWITCH@"
-	db "NAME@"
-	db "PRINT@"
+	db "Switch@"
+	db "Name@"
+	db "Print@"
 	db "QUIT@"
 
 BillsPC_PlaceChooseABoxString:

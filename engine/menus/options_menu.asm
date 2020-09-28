@@ -226,8 +226,8 @@ Options_BattleScene:
 	and a
 	ret
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "On @"
+.Off: db "Off@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -449,8 +449,8 @@ Options_MenuAccount:
 	and a
 	ret
 
-.Off: db "OFF@"
-.On:  db "ON @"
+.Off: db "Off@"
+.On:  db "On @"
 
 Options_Frame:
 	ld hl, wTextboxFrame

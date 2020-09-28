@@ -752,13 +752,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "Item@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "Move@"
 
 LoadBluePage:
 	call .PlaceOTInfo

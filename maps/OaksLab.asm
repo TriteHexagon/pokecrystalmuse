@@ -93,7 +93,7 @@ OakWelcomeKantoText:
 
 OakLabDexCheckText:
 	text "How is your #-"
-	line "DEX coming?"
+	line "Dex coming?"
 
 	para "Let's see…"
 	done
@@ -120,9 +120,9 @@ OakOpenMtSilverText:
 
 	para "arrangements so"
 	line "that you can go to"
-	cont "MT.SILVER."
+	cont "Mt.Silver."
 
-	para "MT.SILVER is a big"
+	para "Mt.Silver is a big"
 	line "mountain that is"
 
 	para "home to many wild"
@@ -138,10 +138,10 @@ OakOpenMtSilverText:
 	line "exception in your"
 	cont "case, <PLAY_G>."
 
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
+	para "Go up to Indigo"
+	line "Plateau. You can"
 
-	para "reach MT.SILVER"
+	para "reach Mt.Silver"
 	line "from there."
 	done
 
@@ -183,8 +183,8 @@ OakYesKantoBadgesText:
 	done
 
 OaksAssistant1Text:
-	text "The PROF's #mon"
-	line "TALK radio program"
+	text "The Prof's #mon"
+	line "Talk radio program"
 
 	para "isn't aired here"
 	line "in Kanto."
@@ -196,7 +196,7 @@ OaksAssistant1Text:
 OaksAssistant2Text:
 	text "Thanks to your"
 	line "work on the #-"
-	cont "DEX, the PROF's"
+	cont "Dex, the Prof's"
 
 	para "research is coming"
 	line "along great."

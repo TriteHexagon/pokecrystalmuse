@@ -1047,16 +1047,56 @@ DecorationDesc_OrnamentOrConsole:
 	ld c, a
 	ld de, wStringBuffer3
 	call GetDecorationName_c_de
-	ld b, BANK(.OrnamentConsoleScript)
-	ld de, .OrnamentConsoleScript
+
+	;a should still hold [wDecoConsole]
+	ld a, [wDecoConsole]
+	cp DECO_FAMICOM
+	jr z, .FamicomPreScript
+	jr .OrnamentPreScript
+
+.FamicomPreScript
+	ld b, BANK(.FamicomScript)
+	ld de, .FamicomScript
 	ret
 
-.OrnamentConsoleScript:
+.OrnamentPreScript
+	ld b, BANK(.OrnamentScript)
+	ld de, .OrnamentScript
+	ret
+
+.OrnamentScript:
 	jumptext .LookAdorableDecoText
+
+.FamicomScript
+	opentext
+	playmusic MUSIC_DARK_CAVE
+	writetext ConsoleTextNES
+	special RestartMapMusic
+	writetext ConsoleTextBetterGetGoing
+	waitbutton
+	closetext
+	end
 
 .LookAdorableDecoText:
 	text_far _LookAdorableDecoText
 	text_end
+
+ConsoleTextNES:
+	text "It's an NES!"
+
+	para "What game is on?…"
+	line "Oh, it seems like"
+
+	para "it's Zelda II!"
+	line "So nostalgic!"
+	done
+
+ConsoleTextBetterGetGoing:
+	text "<……>"
+	line "<……>"
+
+	para "Better get going!"
+	done
 
 DecorationDesc_GiantOrnament:
 	ld b, BANK(.BigDollScript)

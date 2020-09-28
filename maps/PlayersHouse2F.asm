@@ -153,6 +153,7 @@ PlayersHouseBookshelfScript:
 	setevent EVENT_BEAT_BLAINE
 	setevent EVENT_BEAT_BLUE
 	setevent EVENT_BEAT_ELITE_FOUR
+	setevent EVENT_DECO_FAMICOM
 	; fly anywhere
 	setflag ENGINE_FLYPOINT_NEW_BARK
 	setflag ENGINE_FLYPOINT_CHERRYGROVE
@@ -218,7 +219,7 @@ PlayersHousePCScript:
 
 PlayersRadioText1:
 	text "Prof.Oak's #mon"
-	line "TALK! Please tune"
+	line "Talk! Please tune"
 	cont "in next time!"
 	done
 
