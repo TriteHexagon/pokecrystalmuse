@@ -34,7 +34,7 @@ wChannel6:: channel_struct wChannel6
 wChannel7:: channel_struct wChannel7
 wChannel8:: channel_struct wChannel8
 
-	ds 1
+wCurTrackWaveTable:: ds 1
 
 wCurTrackDuty:: db
 wCurTrackVolumeEnvelope:: db

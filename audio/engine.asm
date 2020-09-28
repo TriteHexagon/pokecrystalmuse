@@ -1383,13 +1383,13 @@ MusicCommands:
 	dw Music_ToggleSFX ; sound on/off
 	dw Music_PitchSlide ; pitch slide
 	dw Music_Vibrato ; vibrato
-	dw MusicE2 ; unused
+	dw Music_WaveTable ; NEW! wavetable
 	dw Music_ToggleNoise ; music noise sampling
 	dw Music_ForceStereoPanning ; force stereo panning
 	dw Music_Volume ; volume
 	dw Music_PitchOffset ; pitch offset
-	dw MusicE7 ; unused
-	dw MusicE8 ; unused
+	dw Music_WaveType ; NEW! wavetype
+	dw Music_WaveForm ; NEW! waveform
 	dw Music_TempoRelative ; tempo adjust
 	dw Music_RestartChannel ; restart current channel from header
 	dw Music_NewSong ; new song
@@ -1673,16 +1673,12 @@ MusicF9:
 	ld [wUnusedMusicF9Flag], a
 	ret
 
-MusicE2:
-; seems to have been dummied out
+Music_WaveTable:
+; set the wave table index
 ; params: 1
 	call GetMusicByte
-	ld hl, CHANNEL_FIELD2C
-	add hl, bc
-	ld [hl], a
-	ld hl, CHANNEL_FLAGS2
-	add hl, bc
-	set SOUND_UNKN_0B, [hl]
+	and $f
+	ld [wCurTrackWaveTable], a
 	ret
 
 Music_Vibrato:
@@ -1786,14 +1782,30 @@ Music_PitchOffset:
 	ld [hl], a
 	ret
 
-MusicE7:
-; unused
-; params: 1
-	ld hl, CHANNEL_FLAGS2
-	add hl, bc
-	set SOUND_UNKN_0E, [hl]
+Music_WaveType:
+; wavetype
+; params: 3
+	; wave table
+	call Music_WaveTable
+	; note length
 	call GetMusicByte
-	ld hl, CHANNEL_FIELD29
+	ld hl, CHANNEL_NOTE_LENGTH
+	add hl, bc
+	ld [hl], a
+	; volume_envelope
+	jr Music_WaveForm.volume_envelope
+
+Music_WaveForm:
+; waveform
+; params: 2
+	; wave table
+	call Music_WaveTable
+.volume_envelope:
+	; volume_envelope
+	;	hi: volume
+	;	lo: fade
+	call GetMusicByte
+	ld hl, CHANNEL_VOLUME_ENVELOPE
 	add hl, bc
 	ld [hl], a
 	ret
@@ -1814,18 +1826,6 @@ Music_DutyCyclePattern:
 	; update duty cycle
 	and $c0 ; only uses top 2 bits
 	ld hl, CHANNEL_DUTY_CYCLE
-	add hl, bc
-	ld [hl], a
-	ret
-
-MusicE8:
-; unused
-; params: 1
-	ld hl, CHANNEL_FLAGS2
-	add hl, bc
-	set SOUND_UNKN_0D, [hl]
-	call GetMusicByte
-	ld hl, CHANNEL_FIELD2A
 	add hl, bc
 	ld [hl], a
 	ret
@@ -2319,6 +2319,8 @@ SetLRTracks:
 _PlayMusic::
 ; load music
 	call MusicOff
+	xor a
+	ld [wCurTrackWaveTable], a
 	ld hl, wMusicID
 	ld [hl], e ; song number
 	inc hl

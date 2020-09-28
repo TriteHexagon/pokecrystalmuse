@@ -136,10 +136,10 @@ vibrato: MACRO
 	ENDC
 ENDM
 
-	const unknownmusic0xe2_cmd ; $e2
-unknownmusic0xe2: MACRO
-	db unknownmusic0xe2_cmd
-	db \1 ; unknown
+	const wavetable_cmd
+wavetable: MACRO
+	db wavetable_cmd
+	db \1 ; wavetable
 ENDM
 
 	const toggle_noise_cmd ; $e3
@@ -172,16 +172,19 @@ pitch_offset: MACRO
 	bigdw \1 ; pitch offset
 ENDM
 
-	const unknownmusic0xe7_cmd ; $e7
-unknownmusic0xe7: MACRO
-	db unknownmusic0xe7_cmd
-	db \1 ; unknown
+	const wavetype_cmd
+wavetype: MACRO
+	db wavetype_cmd
+	db \1 ; wavetable
+	db \2 ; note_length
+	db \3 ; intensity
 ENDM
 
-	const unknownmusic0xe8_cmd ; $e8
-unknownmusic0xe8: MACRO
-	db unknownmusic0xe8_cmd
-	db \1 ; unknown
+	const waveform_cmd
+waveform: MACRO
+	db waveform_cmd
+	db \1 ; wavetable
+	db \2 ; intensity
 ENDM
 
 	const tempo_relative_cmd ; $e9
