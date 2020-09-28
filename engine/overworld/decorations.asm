@@ -1048,15 +1048,21 @@ DecorationDesc_OrnamentOrConsole:
 	ld de, wStringBuffer3
 	call GetDecorationName_c_de
 
-	;a should still hold [wDecoConsole]
 	ld a, [wDecoConsole]
 	cp DECO_FAMICOM
 	jr z, .FamicomPreScript
+	cp DECO_SNES
+	jr z, .SNESPreScript
 	jr .OrnamentPreScript
 
 .FamicomPreScript
 	ld b, BANK(.FamicomScript)
 	ld de, .FamicomScript
+	ret
+
+.SNESPreScript
+	ld b, BANK(.SNESScript)
+	ld de, .SNESScript
 	ret
 
 .OrnamentPreScript
@@ -1067,35 +1073,76 @@ DecorationDesc_OrnamentOrConsole:
 .OrnamentScript:
 	jumptext .LookAdorableDecoText
 
+.LookAdorableDecoText:
+	text_far _LookAdorableDecoText
+	text_end
+
 .FamicomScript
 	opentext
-	playmusic MUSIC_DARK_CAVE
-	writetext ConsoleTextNES
+	playmusic MUSIC_BONUS_TEMPLE
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.ZeldaIIText
+	sjump .NES_SNES_Script
+
+.SNESScript
+	opentext
+	random 2
+	ifequal 0, .SuperMetroid
+	ifequal 1, .StarFox
+	;ifequal 2, .F_Zero
+	;ifequal 3, .ChronoTrigger
+	;ifequal 4, .KirbySuperStar
+	;ifequal 5, .Doom
+
+.SuperMetroid
+	playmusic MUSIC_ROUTE_30
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.SuperMetroidText
+	sjump .NES_SNES_Script
+
+.StarFox
+	playmusic MUSIC_CHERRYGROVE_CITY
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.StarFoxText
+	;sjump .NES_SNES_Script
+
+.NES_SNES_Script
+	writetext ConsoleText_NES_SNES
+	waitbutton
+	closetext
+	playmusic MUSIC_NONE
+	playsound SFX_GLASS_TING
+	pause 20
+	opentext
 	special RestartMapMusic
 	writetext ConsoleTextBetterGetGoing
 	waitbutton
 	closetext
 	end
 
-.LookAdorableDecoText:
-	text_far _LookAdorableDecoText
-	text_end
-
-ConsoleTextNES:
-	text "It's an NES!"
-
+ConsoleText_NES_SNES:
+	text "It's an adorable"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
 	para "What game is on?…"
-	line "Oh, it seems like"
 
-	para "it's Zelda II!"
+	line "Oh, looks like it's"
+	para "@"
+	text_ram wStringBuffer4
+	text "!"
 	line "So nostalgic!"
+
+	para "<……>"
+	line "<……>"
 	done
 
-ConsoleTextBetterGetGoing:
-	text "<……>"
-	line "<……>"
+.ZeldaIIText:
+	db "Zelda II@"
+.SuperMetroidText:
+	db "Super Metroid@"
+.StarFoxText:
+	db "Star Fox@"
 
-	para "Better get going!"
+ConsoleTextBetterGetGoing:
+	text "…Better get going!"
 	done
 
 DecorationDesc_GiantOrnament:
