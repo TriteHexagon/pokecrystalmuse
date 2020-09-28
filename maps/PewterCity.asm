@@ -132,8 +132,8 @@ PewterMuseumSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "Pewter MUSEUM OF"
-	line "SCIENCE is closed"
+	para "Pewter Museum of"
+	line "Science is closed"
 	cont "for renovations…"
 	done
 

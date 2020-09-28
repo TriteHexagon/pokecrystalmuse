@@ -208,7 +208,7 @@ LavRadioTower1FPokeFluteSignText:
 	line "with Mellow Sounds"
 
 	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	line "on Channel 20"
 	done
 
 LavRadioTower1FReferenceLibraryText:

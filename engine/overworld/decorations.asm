@@ -878,8 +878,8 @@ MenuHeader_0x26eab:
 MenuData_0x26eb3:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "RIGHT SIDE@"
-	db "LEFT SIDE@"
+	db "Right Side@"
+	db "Left Side@"
 	db "CANCEL@"
 
 PutAwayTheDecoText:

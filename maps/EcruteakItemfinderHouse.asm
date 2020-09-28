@@ -112,7 +112,7 @@ EcruteakItemfinderToEachHisOwnText:
 	done
 
 EcruteakHistoryBookText:
-	text "HISTORY OF"
+	text "History of"
 	line "Ecruteak"
 
 	para "Want to read it?"
@@ -212,10 +212,26 @@ EcruteakRetroMoveTutorScript:
 	takeitem SILVER_LEAF
 	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
+	checkevent EVENT_DECO_FAMICOM
+	iffalse .GiveConsole
+.AfterGiveConsole
 	writetext RetroMoveTutorTeachAnotherMoveText
 	yesorno
 	iffalse RetroMoveTutorRefused
 	sjump .RetroMoveTutorBeginTeachMove
+
+.GiveConsole
+	writetext RetroMoveTutorGiveConsole
+	waitbutton
+	getstring STRING_BUFFER_3, EcruteakRetroMoveTutorScript.Console
+	playsound SFX_EGG
+	writetext RetroMoveTutorPlayerGotConsole
+	promptbutton
+	setevent EVENT_DECO_FAMICOM
+	sjump .AfterGiveConsole
+
+.Console
+	db "NES@"
 
 RetroMoveTutorRefused:
 	writetext RetroMoveTutorRefusedText
@@ -287,6 +303,30 @@ RetroMoveTutorNoSilverLeafText:
 	para "Sorry, but I need"
 	line "one to teach you"
 	cont "a move."
+	done
+
+RetroMoveTutorGiveConsole:
+	text "Hey, I'll tell you"
+	line "what. As a cele-"
+	
+	para "bration of my"
+	line "first pupil, I'll"
+
+	para "give you my favo-"
+	line "rite console!"
+	
+	para "Please take it!"
+	done
+
+RetroMoveTutorPlayerGotConsole:
+	text "<PLAYER> got a"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	para "You should try it"
+	
+	line "next time you"
+	cont "go home!"
 	done
 
 EcruteakItemfinderHouse_MapEvents:

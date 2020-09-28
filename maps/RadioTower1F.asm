@@ -413,7 +413,7 @@ RadioTower1FLassText:
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
+	text "I love Mary, from"
 	line "#mon Talk."
 
 	para "I only know what"
@@ -461,7 +461,7 @@ RadioTower1FDirectoryText:
 	done
 
 RadioTower1FLuckyChannelSignText:
-	text "LUCKY CHANNEL!"
+	text "LUCKY Channel!"
 
 	para "Win with #mon"
 	line "ID numbers!"

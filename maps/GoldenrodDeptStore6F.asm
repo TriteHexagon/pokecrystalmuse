@@ -121,7 +121,7 @@ GoldenrodVendingNoSpaceText:
 
 GoldenrodDeptStore6FLassText:
 	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	line "LUCKY Channel?"
 
 	para "If you want to"
 	line "win, trade #mon"

@@ -193,7 +193,7 @@ MahoganyTownGrampsText:
 MahoganyTownGrampsText_ClearedRocketHideout:
 	text "MAGIKARP have"
 	line "returned to Lake"
-	cont "OF RAGE."
+	cont "of Rage."
 
 	para "That should be"
 	line "good news for the"

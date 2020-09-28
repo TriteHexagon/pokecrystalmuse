@@ -112,10 +112,26 @@ MahoganyRetroMoveTutorScript:
 	takeitem SILVER_LEAF
 	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
+	checkevent EVENT_DECO_N64
+	iffalse .GiveConsole
+.AfterGiveConsole
 	writetext RetroMoveTutorTeachAnotherMoveText
 	yesorno
 	iffalse RetroMoveTutorRefused
 	sjump .RetroMoveTutorBeginTeachMove
+
+.GiveConsole
+	writetext RetroMoveTutorGiveConsole
+	waitbutton
+	getstring STRING_BUFFER_3, MahoganyRetroMoveTutorScript.Console
+	playsound SFX_EGG
+	writetext RetroMoveTutorPlayerGotConsole
+	promptbutton
+	setevent EVENT_DECO_N64
+	sjump .AfterGiveConsole
+
+.Console
+	db "Nintendo 64@"
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:
 	db 0, 0 ; filler

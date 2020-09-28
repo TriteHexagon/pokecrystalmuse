@@ -83,17 +83,17 @@ PlayerNeighborRadioText1:
 	done
 
 PlayerNeighborRadioText2:
-	text "#mon CHANNEL!"
+	text "#mon Channel!"
 	done
 
 PlayerNeighborRadioText3:
-	text "This is DJ MARY,"
+	text "This is DJ Mary,"
 	line "your co-host!"
 	done
 
 PlayerNeighborRadioText4:
 	text "#mon!"
-	line "#mon CHANNEL…"
+	line "#mon Channel…"
 	done
 
 PlayersNeighborsHouse_MapEvents:

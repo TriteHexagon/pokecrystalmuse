@@ -77,10 +77,26 @@ VermilionRetroMoveTutorScript:
 	takeitem SILVER_LEAF
 	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
+	checkevent EVENT_DECO_VIRTUAL_BOY
+	iffalse .GiveConsole
+.AfterGiveConsole
 	writetext RetroMoveTutorTeachAnotherMoveText
 	yesorno
 	iffalse RetroMoveTutorRefused
 	sjump .RetroMoveTutorBeginTeachMove
+
+.GiveConsole
+	writetext RetroMoveTutorGiveConsole
+	waitbutton
+	getstring STRING_BUFFER_3, VermilionRetroMoveTutorScript.Console
+	playsound SFX_EGG
+	writetext RetroMoveTutorPlayerGotConsole
+	promptbutton
+	setevent EVENT_DECO_VIRTUAL_BOY
+	sjump .AfterGiveConsole
+
+.Console
+	db "Virtual Boy@"
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
 	text "I want to go to"

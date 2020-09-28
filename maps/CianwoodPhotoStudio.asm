@@ -98,10 +98,26 @@ CianwoodRetroMoveTutorScript:
 	takeitem SILVER_LEAF
 	writetext RetroMoveTutorAfterTeachingText
 	promptbutton
+	checkevent EVENT_DECO_SNES
+	iffalse .GiveConsole
+.AfterGiveConsole
 	writetext RetroMoveTutorTeachAnotherMoveText
 	yesorno
 	iffalse RetroMoveTutorRefused
 	sjump .RetroMoveTutorBeginTeachMove
+
+.GiveConsole
+	writetext RetroMoveTutorGiveConsole
+	waitbutton
+	getstring STRING_BUFFER_3, CianwoodRetroMoveTutorScript.Console
+	playsound SFX_GET_EGG
+	writetext RetroMoveTutorPlayerGotConsole
+	promptbutton
+	setevent EVENT_DECO_SNES
+	sjump .AfterGiveConsole
+
+.Console
+	db "SNES@"
 
 CianwoodPhotoStudio_MapEvents:
 	db 0, 0 ; filler
