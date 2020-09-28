@@ -150,7 +150,7 @@ ChadLeagueGossipText:
 
 ChadPokemonTalkGossipText:
 	text "Prof.Oak's #mon"
-	line "TALK is a popular"
+	line "Talk is a popular"
 	cont "radio show, right?"
 
 	para "Did you know that"
