@@ -224,7 +224,7 @@ EcruteakRetroMoveTutorScript:
 	writetext RetroMoveTutorGiveConsole
 	waitbutton
 	getstring STRING_BUFFER_3, EcruteakRetroMoveTutorScript.Console
-	playsound SFX_EGG
+	playsound SFX_GET_EGG
 	writetext RetroMoveTutorPlayerGotConsole
 	promptbutton
 	setevent EVENT_DECO_FAMICOM

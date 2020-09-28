@@ -124,7 +124,7 @@ MahoganyRetroMoveTutorScript:
 	writetext RetroMoveTutorGiveConsole
 	waitbutton
 	getstring STRING_BUFFER_3, MahoganyRetroMoveTutorScript.Console
-	playsound SFX_EGG
+	playsound SFX_GET_EGG
 	writetext RetroMoveTutorPlayerGotConsole
 	promptbutton
 	setevent EVENT_DECO_N64

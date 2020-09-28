@@ -89,7 +89,7 @@ VermilionRetroMoveTutorScript:
 	writetext RetroMoveTutorGiveConsole
 	waitbutton
 	getstring STRING_BUFFER_3, VermilionRetroMoveTutorScript.Console
-	playsound SFX_EGG
+	playsound SFX_GET_EGG
 	writetext RetroMoveTutorPlayerGotConsole
 	promptbutton
 	setevent EVENT_DECO_VIRTUAL_BOY
