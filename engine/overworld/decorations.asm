@@ -491,6 +491,8 @@ GetDecorationSprite:
 
 INCLUDE "data/decorations/attributes.asm"
 
+INCLUDE "data/decorations/console_text.asm"
+
 INCLUDE "data/decorations/names.asm"
 
 GetDecoName:
@@ -1053,6 +1055,10 @@ DecorationDesc_OrnamentOrConsole:
 	jr z, .FamicomPreScript
 	cp DECO_SNES
 	jr z, .SNESPreScript
+	cp DECO_N64
+	jr z, .N64PreScript
+	cp DECO_VIRTUAL_BOY
+	jr z, .FuturePreScript
 	jr .OrnamentPreScript
 
 .FamicomPreScript
@@ -1063,6 +1069,16 @@ DecorationDesc_OrnamentOrConsole:
 .SNESPreScript
 	ld b, BANK(.SNESScript)
 	ld de, .SNESScript
+	ret
+
+.N64PreScript
+	ld b, BANK(.N64Script)
+	ld de, .N64Script
+	ret
+
+.FuturePreScript
+	ld b, BANK(.FutureScript)
+	ld de, .FutureScript
 	ret
 
 .OrnamentPreScript
@@ -1085,26 +1101,47 @@ DecorationDesc_OrnamentOrConsole:
 
 .SNESScript
 	opentext
-	random 2
+	random 6
 	ifequal 0, .SuperMetroid
 	ifequal 1, .StarFox
-	;ifequal 2, .F_Zero
-	;ifequal 3, .ChronoTrigger
-	;ifequal 4, .KirbySuperStar
-	;ifequal 5, .Doom
+	ifequal 2, .F_Zero
+	ifequal 3, .ChronoTrigger
+	ifequal 4, .KirbySuperStar
+	ifequal 5, .Doom
 
 .SuperMetroid
-	playmusic MUSIC_ROUTE_30
+	playmusic MUSIC_BONUS_LOWER_NORFAIR
 	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.SuperMetroidText
 	sjump .NES_SNES_Script
 
+.F_Zero
+	playmusic MUSIC_BONUS_BIG_BLUE
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.FZeroText
+	sjump .NES_SNES_Script
+
+.ChronoTrigger
+	playmusic MUSIC_BONUS_MILLENIAL_FAIR
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.ChronoTriggerText
+	sjump .NES_SNES_Script
+
+.KirbySuperStar
+	playmusic MUSIC_BONUS_GOURMET_RACE
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.KirbyText
+	sjump .NES_SNES_Script
+
+.Doom
+	playmusic MUSIC_BONUS_AT_DOOMS_GATE
+	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.DoomText
+	sjump .NES_SNES_Script
+
 .StarFox
-	playmusic MUSIC_CHERRYGROVE_CITY
+	playmusic MUSIC_BONUS_CORNERIA
 	getstring STRING_BUFFER_4, ConsoleText_NES_SNES.StarFoxText
-	;sjump .NES_SNES_Script
+	;fallthrough
 
 .NES_SNES_Script
 	writetext ConsoleText_NES_SNES
+.Generic_Script
 	waitbutton
 	closetext
 	playmusic MUSIC_NONE
@@ -1117,33 +1154,60 @@ DecorationDesc_OrnamentOrConsole:
 	closetext
 	end
 
-ConsoleText_NES_SNES:
-	text "It's an adorable"
-	line "@"
-	text_ram wStringBuffer3
-	text "!"
-	para "What game is on?…"
+.N64Script
+	opentext
+	playmusic MUSIC_BONUS_BOBOMB_BATTLEFIELD
+	getstring STRING_BUFFER_4, ConsoleText_N64.Mario64Text
+	writetext ConsoleText_N64
+	sjump .Generic_Script
 
-	line "Oh, looks like it's"
-	para "@"
-	text_ram wStringBuffer4
-	text "!"
-	line "So nostalgic!"
+.FutureScript
+	opentext
+	writetext ConsoleText_VirtualBoy
+	waitbutton
+	random 6
+	ifequal 0, .Splatoon
+	ifequal 1, .CryptoftheNecrodancer
+	ifequal 2, .AceAttorney1
+	ifequal 3, .AceAttorney2
+	ifequal 4, .AceAttorney3
+	ifequal 5, .SuperMarioSunshine
 
-	para "<……>"
-	line "<……>"
-	done
+.Splatoon
+	playmusic MUSIC_BONUS_CALAMARI_INKANTATION
+	writetext ConsoleText_VirtualBoy.Splatoon
+	sjump .VirtualBoyEndScript
 
-.ZeldaIIText:
-	db "Zelda II@"
-.SuperMetroidText:
-	db "Super Metroid@"
-.StarFoxText:
-	db "Star Fox@"
+.CryptoftheNecrodancer
+	playmusic MUSIC_BONUS_DISCO_DESCENT
+	writetext ConsoleText_VirtualBoy.Necrodancer
+	sjump .VirtualBoyEndScript
 
-ConsoleTextBetterGetGoing:
-	text "…Better get going!"
-	done
+.AceAttorney1
+	playmusic MUSIC_BONUS_MAYA_2001
+	writetext ConsoleText_VirtualBoy.AceAttorney
+	sjump .VirtualBoyEndScript
+
+.AceAttorney2
+	playmusic MUSIC_BONUS_OBJECTION_2001
+	writetext ConsoleText_VirtualBoy.AceAttorney
+	sjump .VirtualBoyEndScript
+
+.AceAttorney3
+	playmusic MUSIC_BONUS_INV_MIDDLE_2002
+	writetext ConsoleText_VirtualBoy.AceAttorney
+	sjump .VirtualBoyEndScript
+
+.SuperMarioSunshine
+	playmusic MUSIC_BONUS_RICCO_HARBOR
+	writetext ConsoleText_VirtualBoy.Sunshine
+	;fallthrough
+
+.VirtualBoyEndScript
+	waitbutton
+	musicfadeout MUSIC_NONE, 8
+	writetext ConsoleText_VirtualBoy.End
+	sjump .Generic_Script
 
 DecorationDesc_GiantOrnament:
 	ld b, BANK(.BigDollScript)

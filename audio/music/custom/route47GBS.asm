@@ -1211,9 +1211,8 @@ Music_Route47GBS_Ch2_Part5:
 	endchannel
 ; ============================================================================================================
 
-; dn 2, 4, 5, 6, 8, 9, 11, 12, 11, 10, 9, 8, 8, 7, 6, 6, 13, 13, 13, 12, 12, 11, 11, 11, 5, 5, 4, 4, 4, 4, 3, 3
 Music_Route47GBS_Ch3:
-	notetype 12, $1F
+	notetype 12, $1A
 	vibrato $12, $2a
 ;Bar 1
 	note __, 8
@@ -1223,51 +1222,51 @@ Music_Route47GBS_Ch3_loop:
 	note F_, 12
 	notetype 12, $26
 	note F_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 14
 	note F_, 12
 	notetype 12, $26
 	note F_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 15
 	octave 2
 	note D_, 12
 	notetype 12, $26
 	note D_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 16
 	octave 1
 	note B_, 12
 	notetype 12, $26
 	note B_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 17
 	note A#, 12
 	notetype 12, $26
 	note A#, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 18
 	note G#, 12
 	notetype 12, $26
 	note G#, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 19
 	note A#, 12
 	notetype 12, $26
 	note A#, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 20
 	octave 2
 	note C_, 12
 	notetype 12, $26
 	note C_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 21
 	octave 1
 	note F_, 12
 	notetype 12, $26
 	note F_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 22
 	octave 2
 	note D_, 8
@@ -1277,35 +1276,35 @@ Music_Route47GBS_Ch3_loop:
 	note B_, 12
 	notetype 12, $26
 	note B_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 24
 	note A#, 12
 	notetype 12, $26
 	note A#, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 25
 	note A_, 12
 	notetype 12, $26
 	note A_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 26
 	octave 2
 	note D_, 12
 	notetype 12, $26
 	note D_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 27
 	octave 1
 	note G_, 12
 	notetype 12, $26
 	note G_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 ;Bar 28
 	octave 2
 	note C_, 12
 	notetype 12, $26
 	note C_, 4
-	notetype 12, $1F
+	notetype 12, $1A
 	loopchannel 0, Music_Route47GBS_Ch3_loop
 
 Music_Route47GBS_Ch3_Part1:

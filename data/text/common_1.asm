@@ -731,7 +731,7 @@ _BenIntroText1::
 
 _BenIntroText2::
 	text_start
-	line "CHANNEL!"
+	line "Channel!"
 	done
 
 _BenIntroText3::

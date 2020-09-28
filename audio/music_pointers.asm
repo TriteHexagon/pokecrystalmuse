@@ -55,7 +55,7 @@ Music:
 	dba Music_ElmsLab
 	dba Music_DarkCave
 	dba Music_Route29
-	dba Route32
+	dba Music_Route32
 	dba Music_SSAqua
 	dba Music_LookYoungster
 	dba Music_LookBeauty
@@ -116,6 +116,21 @@ Music:
 	dba Music_IcePathHGSS
 	dba Music_Route24GBS
 	dba Music_Route47GBS
+;bonus
+	dba Music_Temple
+	dba Music_LowerNorfair
+	dba Music_Corneria
+	dba Music_MillenialFair
+	dba Music_BigBlue
+	dba Music_AtDoomsGate
+	dba Music_GourmetRace
+	dba Music_RiccoHarbor
+	dba Music_DiscoDescent
+	dba Music_BobOmbBattlefield
+	dba Music_CalamariInkantation
+	dba Music_InvestigationMiddle2002
+	dba Music_Objection2001
+	dba Music_TurnaboutSisters2001
 ;night
 	dba Music_NewBarkTownNight
 	dba Music_Route29Night

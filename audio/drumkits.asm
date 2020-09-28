@@ -9,6 +9,8 @@ Drumkits:
 	dw Drumkit1S ;7
 	dw DrumkitSP ;8 - here to fill in the gap
 	dw Drumkit3S ;9
+	dw DrumkitAceAttorney ;10
+	dw DrumkitSNES ;11
 
 Drumkit0:
 	dw Drum00
@@ -150,6 +152,34 @@ Drumkit3S: ; 8
 	dw Snare9_Soft
 	dw Kick2_Soft
 	dw Crash2_Soft
+DrumkitAceAttorney: ; 10
+	dw Drum00
+	dw Kick1   ;C
+	dw Drum29  ;C#
+	dw Snare11 ;D
+	dw Snare14 ;D#
+	dw Snare12 ;E
+	dw Snare9  ;F
+	dw HiHat2  ;F#
+	dw Drum27  ;G 
+	dw Snare13  ;G# ; Redudant? = C#
+	dw Snare6Special ;A Snare6Special
+	dw HiHat3 ;A#
+	dw Snare6 ;B
+DrumkitSNES: ; 11
+	dw Drum00
+	dw Tom  ;C
+	dw Drum29  ;C#
+	dw Snare11 ;D
+	dw Snare4 ;D#
+	dw Snare12 ;E
+	dw Snare9  ;F
+	dw HiHat2  ;F#
+	dw Drum27  ;G 
+	dw Snare5  ;G#
+	dw Snare6Special ;A Snare6Special
+	dw HiHat3 ;A#
+	dw Snare6 ;B
 
 Drum00:
 	noise_note 32, 1, 1, 0
@@ -426,4 +456,13 @@ HiHat2_Soft:
 
 HiHat3_Soft:
 	noise C#,  1, $92, $11
+	endchannel
+
+Snare6Special:
+	noise C#,  3, $a2, $25
+	endchannel
+
+Tom: ; e8f73
+	noise C#,  1, $c2, $6b ;$6b
+	noise C#,  1, $61, $00
 	endchannel
