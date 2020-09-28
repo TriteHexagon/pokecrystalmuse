@@ -842,7 +842,7 @@ Music_ViridianCity_Night_loop: ; f4246
 	callchannel Music_ViridianCity_branch_f42a2
 	note E_, 4
 	vibrato $18, $15
-	intensity $2a
+	intensity $2B
 	callchannel Music_ViridianCity_Ch3_Branch1
 	loopchannel 0, Music_ViridianCity_Night_loop
 

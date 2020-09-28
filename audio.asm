@@ -18,7 +18,6 @@ INCLUDE "audio/music/elmslab.asm"
 INCLUDE "audio/music/darkcave.asm"
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
-INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/vermilioncity.asm"
 INCLUDE "audio/music/titlescreen.asm"
 INCLUDE "audio/music/lookpokemaniac.asm"
@@ -114,6 +113,7 @@ INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
 INCLUDE "audio/music/route1.asm"
+INCLUDE "audio/music/ssaqua.asm"
 ; has space
 
 SECTION "Extra Songs 1", ROMX
@@ -147,7 +147,9 @@ INCLUDE "audio/music/custom/cinnabarislandGBS.asm"
 INCLUDE "audio/music/custom/icepathHGSS.asm"
 INCLUDE "audio/music/custom/route47GBS.asm"
 INCLUDE "audio/music/custom/cinnabarislandFRLG.asm"
-;INCLUDE "audio/music/custom/.asm"
+
+SECTION "Bonus Songs 1", ROMX
+INCLUDE "audio/music/custom/temple.asm"
 
 SECTION "Sound Effects", ROMX
 
