@@ -1,13 +1,7 @@
 	object_const_def ; object_event constants
 	const FIGHTINGDOJO_BLACK_BELT
 	const FIGHTINGDOJO_POKE_BALL
-	const FIGHTINGDOJO_TRAINER_MONDAY
-	const FIGHTINGDOJO_TRAINER_TUESDAY
-	const FIGHTINGDOJO_TRAINER_WEDNESDAY
-	const FIGHTINGDOJO_TRAINER_THURSDAY
-	const FIGHTINGDOJO_TRAINER_FRIDAY
-	const FIGHTINGDOJO_TRAINER_SATURDAY
-	const FIGHTINGDOJO_TRAINER_SUNDAY
+	const FIGHTINGDOJO_TRAINER
 
 FightingDojo_MapScripts:
 	db 0 ; scene scripts
@@ -16,19 +10,14 @@ FightingDojo_MapScripts:
 	callback MAPCALLBACK_OBJECTS, .DojoTrainerAppear
 
 .DojoTrainerAppear:
-	disappear FIGHTINGDOJO_TRAINER_MONDAY
-	disappear FIGHTINGDOJO_TRAINER_TUESDAY
-	disappear FIGHTINGDOJO_TRAINER_WEDNESDAY
-	disappear FIGHTINGDOJO_TRAINER_THURSDAY
-	disappear FIGHTINGDOJO_TRAINER_FRIDAY
-	disappear FIGHTINGDOJO_TRAINER_SATURDAY
-	disappear FIGHTINGDOJO_TRAINER_SUNDAY
-
+	disappear FIGHTINGDOJO_TRAINER
 	checkevent EVENT_BEAT_BLUE
- 	iffalse .DisappearAllTrainers
+ 	iffalse .DisappearTrainer
+	appear FIGHTINGDOJO_TRAINER
 
 	checkflag ENGINE_TIME_CAPSULE
 	iffalse .AlreadyClearedEvents
+
 	clearevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	clearevent EVENT_BEAT_DOJO_DAY_TRAINER
 	clearevent EVENT_BEAT_DOJO_NIGHT_TRAINER
@@ -44,22 +33,21 @@ FightingDojo_MapScripts:
 	ifequal SATURDAY,  .AppearSaturdayTrainer
 	;don't check for Sunday
 	sjump .AppearSundayTrainer
-.DisappearAllTrainers
+.DisappearTrainer
  	return
 
 ;Monday
 .AppearMondayTrainer
-	appear FIGHTINGDOJO_TRAINER_MONDAY
 ;checks Weekday
  	checktime MORN
- 	iftrue .FalknerAppears
+ 	iftrue .PryceAppears
 	checktime DAY
  	iftrue .JanineAppears
 	;don't check for NITE
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CLAIR
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_OAK
 	sjump .DayEnd
-.FalknerAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_FALKNER
+.PryceAppears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_PRYCE
 	sjump .DayEnd
 .JanineAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_JANINE
@@ -67,18 +55,16 @@ FightingDojo_MapScripts:
 
 ;Tuesday
 .AppearTuesdayTrainer
-	appear FIGHTINGDOJO_TRAINER_TUESDAY
 ;checks Weekday
  	checktime MORN
- 	iftrue .PryceAppears
+ 	iftrue .SomeoneAppears
 	checktime DAY
  	iftrue .BlaineAppears
 	;don't check for NITE
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_MORTY
 	sjump .DayEnd
-.PryceAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_PRYCE
-	loadtrainer PRYCE, PRYCE1
+.SomeoneAppears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
 	sjump .DayEnd
 .BlaineAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_BLAINE
@@ -86,14 +72,13 @@ FightingDojo_MapScripts:
 	
 ;Wednesday
 .AppearWednesdayTrainer
-	appear FIGHTINGDOJO_TRAINER_WEDNESDAY
 ;checks Weekday
  	checktime MORN
  	iftrue .MistyAppears
 	checktime DAY
  	iftrue .JasmineAppears
 	;don't check for NITE
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CHUCK
 	sjump .DayEnd
 .MistyAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_MISTY
@@ -104,17 +89,16 @@ FightingDojo_MapScripts:
 	
 ;Thursday
 .AppearThursdayTrainer
-	appear FIGHTINGDOJO_TRAINER_THURSDAY
 ;checks Weekday
  	checktime MORN
- 	iftrue .ErikaAppears
+ 	iftrue .Someone2Appears
 	checktime DAY
  	iftrue .BugsyAppears
 	;don't check for NITE
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_LASS
 	sjump .DayEnd
-.ErikaAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_ERIKA
+.Someone2Appears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
 	sjump .DayEnd
 .BugsyAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_BUGSY
@@ -122,35 +106,33 @@ FightingDojo_MapScripts:
 	
 ;Friday
 .AppearFridayTrainer
-	appear FIGHTINGDOJO_TRAINER_FRIDAY
 ;checks Weekday
  	checktime MORN
  	iftrue .LtSurgeAppears
 	checktime DAY
- 	iftrue .BrockAppears
+ 	iftrue .EusineAppears
 	;don't check for NITE
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CHUCK
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CLAIR
 	sjump .DayEnd
 .LtSurgeAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_SURGE
 	sjump .DayEnd
-.BrockAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_BROCK
+.EusineAppears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_ROCKER
 	sjump .DayEnd
 
 ;Saturday
 .AppearSaturdayTrainer
-	appear FIGHTINGDOJO_TRAINER_SATURDAY
 ;checks Weekday
  	checktime MORN
- 	iftrue .SomeoneAppears
+ 	iftrue .FalknerAppears
 	checktime DAY
  	iftrue .WhitneyAppears
 	;don't check for NITE
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_SABRINA
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_BROCK
 	sjump .DayEnd
-.SomeoneAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
+.FalknerAppears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_FALKNER
 	sjump .DayEnd
 .WhitneyAppears
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_WHITNEY
@@ -158,24 +140,32 @@ FightingDojo_MapScripts:
 
 ;Sunday
 .AppearSundayTrainer
-	appear FIGHTINGDOJO_TRAINER_SUNDAY
 ;checks Weekday
  	checktime MORN
- 	iftrue .EusineAppears
+ 	iftrue .ErikaAppears
 	checktime DAY
- 	iftrue .Someone2Appears
+ 	iftrue .SabrinaAppears
 	;don't check for NITE
 	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_BLUE
 	sjump .DayEnd
-.EusineAppears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_ROCKER
+.ErikaAppears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_ERIKA
 	sjump .DayEnd
-.Someone2Appears
-	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_CAL
+.SabrinaAppears
+	variablesprite SPRITE_FIGHTING_DOJO_TRAINER, SPRITE_SABRINA
 .DayEnd
 	special LoadUsedSpritesGFX
  	return
 
+DojoTrainerScript:
+	readvar VAR_WEEKDAY
+ 	ifequal MONDAY,    DojoTrainerMondayScript
+	ifequal SUNDAY,    DojoTrainerSundayScript
+	ifequal WEDNESDAY, DojoTrainerWednesdayScript
+	ifequal THURSDAY,  DojoTrainerThursdayScript
+	ifequal FRIDAY,    DojoTrainerFridayScript
+	ifequal SATURDAY,  DojoTrainerSaturdayScript
+;don't check for Tuesday
 ;Tuesday
 DojoTrainerTuesdayScript:
 	faceplayer
@@ -189,18 +179,18 @@ DojoTrainerTuesdayScript:
 .MorningScript
 	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	iftrue .AlreadyBattledMorn
-	writetext DojoPryceIntroText
+	writetext DojoCalIntroText
 	waitbutton
 	closetext
-	winlosstext DojoPryceWinLossText, 0
-	loadtrainer PRYCE, PRYCE2
+	winlosstext DojoCalWinLossText, 0
+	loadtrainer CAL, CAL4
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	opentext
 .AlreadyBattledMorn
-	writetext DojoPryceDefeatText
-	sjump .FinishScript
+	writetext DojoCalDefeatText
+	sjump FinishScript
 
 .DayScript
 	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
@@ -216,7 +206,7 @@ DojoTrainerTuesdayScript:
 	opentext
 .AlreadyBattledDay
 	writetext DojoBlaineDefeatText
-	sjump .FinishScript
+	sjump FinishScript
 
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
@@ -232,11 +222,7 @@ DojoTrainerTuesdayScript:
 	opentext
 .AlreadyBattledNight
 	writetext DojoMortyDefeatText
-
-.FinishScript:
-	waitbutton
-	closetext
-	end
+	sjump FinishScript
 
 ;Wednesday
 DojoTrainerWednesdayScript:
@@ -262,7 +248,7 @@ DojoTrainerWednesdayScript:
 	opentext
 .AlreadyBattledMorn
 	writetext DojoMistyDefeatText
-	sjump .FinishScript
+	sjump FinishScript
 
 .DayScript
 	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
@@ -278,27 +264,23 @@ DojoTrainerWednesdayScript:
 	opentext
 .AlreadyBattledDay
 	writetext DojoJasmineDefeatText
-	sjump .FinishScript
+	sjump FinishScript
 
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	iftrue .AlreadyBattledNight
-	writetext DojoCalIntroText
+	writetext DojoChuckIntroText
 	waitbutton
 	closetext
-	winlosstext DojoCalWinLossText, 0
-	loadtrainer CAL, CAL4
+	winlosstext DojoChuckWinLossText, 0
+	loadtrainer CHUCK, CHUCK2
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	opentext
 .AlreadyBattledNight
-	writetext DojoCalDefeatText
-
-.FinishScript:
-	waitbutton
-	closetext
-	end
+	writetext DojoChuckDefeatText
+	sjump FinishScript
 
 ;Thursday
 DojoTrainerThursdayScript:
@@ -313,18 +295,18 @@ DojoTrainerThursdayScript:
 	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	iftrue .AlreadyBattledMorn
 	opentext
-	writetext DojoErikaIntroText
+	writetext DojoCalIntroText
 	waitbutton
 	closetext
-	winlosstext DojoErikaWinLossText, 0
-	loadtrainer ERIKA, ERIKA2
+	winlosstext DojoCalWinLossText, 0
+	loadtrainer CAL, CAL4
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	opentext
 .AlreadyBattledMorn
-	writetext DojoErikaDefeatText
-	sjump .FinishScript
+	writetext DojoCalDefeatText
+	sjump FinishScript
 
 .DayScript
 	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
@@ -341,7 +323,7 @@ DojoTrainerThursdayScript:
 	opentext
 .AlreadyBattledDay
 	writetext DojoBugsyDefeatText
-	sjump .FinishScript
+	sjump FinishScript
 
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
@@ -362,11 +344,7 @@ DojoTrainerThursdayScript:
 	opentext
 .AlreadyBattledNight
 	writetext DojoGreenDefeatText
-
-.FinishScript:
-	waitbutton
-	closetext
-	end
+	sjump FinishScript
 
 ;Friday
 DojoTrainerFridayScript:
@@ -392,119 +370,11 @@ DojoTrainerFridayScript:
 	opentext
 .AlreadyBattledMorn
 	writetext DojoSurgeDefeatText
-	sjump .FinishScript
+	sjump FinishScript
 
 .DayScript
 	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
 	iftrue .AlreadyBattledDay
-	writetext DojoBrockIntroText
-	waitbutton
-	closetext
-	winlosstext DojoBrockWinLossText, 0
-	loadtrainer BROCK, BROCK2
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_DOJO_DAY_TRAINER
-	opentext
-.AlreadyBattledDay
-	writetext DojoBrockDefeatText
-	sjump .FinishScript
-
-.NightScript
-	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
-	iftrue .AlreadyBattledNight
-	writetext DojoChuckIntroText
-	waitbutton
-	closetext
-	winlosstext DojoChuckWinLossText, 0
-	loadtrainer CHUCK, CHUCK2
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
-	opentext
-.AlreadyBattledNight
-	writetext DojoChuckDefeatText
-
-.FinishScript:
-	waitbutton
-	closetext
-	end
-
-;Saturday
-DojoTrainerSaturdayScript:
-    faceplayer
-	opentext
-	checktime MORN
-	iftrue, .MorningScript
-	checktime DAY
-	iftrue, .DayScript
-	sjump .NightScript
-
-.MorningScript
-	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
-	iftrue .AlreadyBattledMorn
-	writetext DojoCalIntroText
-	waitbutton
-	closetext
-	winlosstext DojoCalWinLossText, 0
-	loadtrainer CAL, CAL4
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
-	opentext
-.AlreadyBattledMorn
-	writetext DojoCalDefeatText
-	sjump .FinishScript
-
-.DayScript
-	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
-	iftrue .AlreadyBattledDay
-	writetext DojoWhitneyIntroText
-	waitbutton
-	closetext
-	winlosstext DojoWhitneyWinLossText, 0
-	loadtrainer WHITNEY, WHITNEY2
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_DOJO_DAY_TRAINER
-	opentext
-.AlreadyBattledDay
-	writetext DojoWhitneyDefeatText
-	sjump .FinishScript
-
-.NightScript
-	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
-	iftrue .AlreadyBattledNight
-	writetext DojoSabrinaIntroText
-	waitbutton
-	closetext
-	winlosstext DojoSabrinaWinLossText, 0
-	loadtrainer SABRINA, SABRINA2
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
-	opentext
-.AlreadyBattledNight
-	writetext DojoSabrinaDefeatText
-
-.FinishScript:
-	waitbutton
-	closetext
-	end
-
-;Sunday
-DojoTrainerSundayScript:
-    faceplayer
-	opentext
-	checktime MORN
-	iftrue, .MorningScript
-	checktime DAY
-	iftrue, .DayScript
-	sjump .NightScript
-
-.MorningScript
-	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
-	iftrue .AlreadyBattledMorn
 	writetext DojoEusineIntroText
 	waitbutton
 	closetext
@@ -512,51 +382,31 @@ DojoTrainerSundayScript:
 	loadtrainer EUSINE, EUSINE2
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
-	opentext
-.AlreadyBattledMorn
-	writetext DojoEusineDefeatText
-	sjump .FinishScript
-
-.DayScript
-	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
-	iftrue .AlreadyBattledDay
-	writetext DojoOakIntroText
-	waitbutton
-	closetext
-	winlosstext DojoOakWinLossText, 0
-	loadtrainer POKEMON_PROF, OAK_DOJO
-	startbattle
-	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_DAY_TRAINER
 	opentext
 .AlreadyBattledDay
-	writetext DojoOakDefeatText
-	sjump .FinishScript
+	writetext DojoEusineDefeatText
+	sjump FinishScript
 
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	iftrue .AlreadyBattledNight
-	writetext DojoBlueIntroText
+	writetext DojoClairIntroText
 	waitbutton
 	closetext
-	winlosstext DojoBlueWinLossText, 0
-	loadtrainer BLUE, BLUE2
+	winlosstext DojoClairWinLossText, 0
+	loadtrainer CLAIR, CLAIR2
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	opentext
 .AlreadyBattledNight
-	writetext DojoBlueDefeatText
+	writetext DojoClairDefeatText
+	sjump FinishScript
 
-.FinishScript:
-	waitbutton
-	closetext
-	end
-
-;Monday
-DojoTrainerMondayScript:
-	faceplayer
+;Saturday
+DojoTrainerSaturdayScript:
+    faceplayer
 	opentext
 	checktime MORN
 	iftrue, .MorningScript
@@ -578,7 +428,123 @@ DojoTrainerMondayScript:
 	opentext
 .AlreadyBattledMorn
 	writetext DojoFalknerDefeatText
-	sjump .FinishScript
+	sjump FinishScript
+
+.DayScript
+	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
+	iftrue .AlreadyBattledDay
+	writetext DojoWhitneyIntroText
+	waitbutton
+	closetext
+	winlosstext DojoWhitneyWinLossText, 0
+	loadtrainer WHITNEY, WHITNEY2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_DOJO_DAY_TRAINER
+	opentext
+.AlreadyBattledDay
+	writetext DojoWhitneyDefeatText
+	sjump FinishScript
+
+.NightScript
+	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
+	iftrue .AlreadyBattledNight
+	writetext DojoBrockIntroText
+	waitbutton
+	closetext
+	winlosstext DojoBrockWinLossText, 0
+	loadtrainer BROCK, BROCK2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
+	opentext
+.AlreadyBattledNight
+	writetext DojoBrockDefeatText
+	sjump FinishScript
+
+;Sunday
+DojoTrainerSundayScript:
+    faceplayer
+	opentext
+	checktime MORN
+	iftrue, .MorningScript
+	checktime DAY
+	iftrue, .DayScript
+	sjump .NightScript
+
+.MorningScript
+	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
+	iftrue .AlreadyBattledMorn
+	writetext DojoErikaIntroText
+	waitbutton
+	closetext
+	winlosstext DojoErikaWinLossText, 0
+	loadtrainer ERIKA, ERIKA2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
+	opentext
+.AlreadyBattledMorn
+	writetext DojoErikaDefeatText
+	sjump FinishScript
+
+.DayScript
+	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
+	iftrue .AlreadyBattledDay
+	writetext DojoSabrinaIntroText
+	waitbutton
+	closetext
+	winlosstext DojoSabrinaWinLossText, 0
+	loadtrainer SABRINA, SABRINA2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_DOJO_DAY_TRAINER
+	opentext
+.AlreadyBattledDay
+	writetext DojoSabrinaDefeatText
+	sjump FinishScript
+
+.NightScript
+	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
+	iftrue .AlreadyBattledNight
+	writetext DojoBlueIntroText
+	waitbutton
+	closetext
+	winlosstext DojoBlueWinLossText, 0
+	loadtrainer BLUE, BLUE2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
+	opentext
+.AlreadyBattledNight
+	writetext DojoBlueDefeatText
+	sjump FinishScript
+
+;Monday
+DojoTrainerMondayScript:
+	faceplayer
+	opentext
+	checktime MORN
+	iftrue, .MorningScript
+	checktime DAY
+	iftrue, .DayScript
+	sjump .NightScript
+
+.MorningScript
+	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
+	iftrue .AlreadyBattledMorn
+	writetext DojoPryceIntroText
+	waitbutton
+	closetext
+	winlosstext DojoPryceWinLossText, 0
+	loadtrainer PRYCE, PRYCE2
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
+	opentext
+.AlreadyBattledMorn
+	writetext DojoPryceDefeatText
+	sjump FinishScript
 
 .DayScript
 	checkevent EVENT_BEAT_DOJO_DAY_TRAINER
@@ -594,25 +560,25 @@ DojoTrainerMondayScript:
 	opentext
 .AlreadyBattledDay
 	writetext DojoJanineDefeatText
-	sjump .FinishScript
+	sjump FinishScript
 
 .NightScript
 	checkevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	iftrue .AlreadyBattledNight
-	writetext DojoClairIntroText
+	writetext DojoOakIntroText
 	waitbutton
 	closetext
-	winlosstext DojoClairWinLossText, 0
-	loadtrainer CLAIR, CLAIR2
+	winlosstext DojoOakWinLossText, 0
+	loadtrainer POKEMON_PROF, OAK_DOJO
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
 	opentext
 .AlreadyBattledNight
-	writetext DojoClairDefeatText
+	writetext DojoOakDefeatText
 	
 	;fallthrough
-.FinishScript:
+FinishScript:
 	waitbutton
 	closetext
 	end
@@ -632,8 +598,8 @@ FightingDojoFocusBand:
 FightingDojoBlackBeltText:
 	text "Hello!"
 
-	para "KARATE KING, the"
-	line "FIGHTING DOJO's"
+	para "Karate King, the"
+	line "Fighting Dojo's"
 
 	para "master, is in a"
 	line "cave in Johto for"
@@ -1180,14 +1146,8 @@ FightingDojo_MapEvents:
 	bg_event  4,  0, BGEVENT_READ, FightingDojoSign1
 	bg_event  5,  0, BGEVENT_READ, FightingDojoSign2
 
-	db 9 ; object events
+	db 3 ; object events
 	object_event  3,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FightingDojoBlackBelt, -1
 	object_event  3,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, FightingDojoFocusBand, EVENT_PICKED_UP_FOCUS_BAND
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DojoTrainerMondayScript, EVENT_APPEAR_DOJO_MONDAY_TRAINER
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, DojoTrainerTuesdayScript, EVENT_APPEAR_DOJO_TUESDAY_TRAINER
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, DojoTrainerWednesdayScript, EVENT_APPEAR_DOJO_WEDNESDAY_TRAINER
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, DojoTrainerThursdayScript, EVENT_APPEAR_DOJO_THURSDAY_TRAINER
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, DojoTrainerFridayScript, EVENT_APPEAR_DOJO_FRIDAY_TRAINER
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, DojoTrainerSaturdayScript, EVENT_APPEAR_DOJO_SATURDAY_TRAINER
-	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DojoTrainerSundayScript, EVENT_APPEAR_DOJO_SUNDAY_TRAINER
+	object_event  6,  4, SPRITE_FIGHTING_DOJO_TRAINER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DojoTrainerScript, EVENT_APPEAR_DOJO_TRAINER
 
