@@ -244,7 +244,7 @@ SaffronGymSignText:
 
 FightingDojoSignText:
 	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	line "Fighting Dojo"
 	done
 
 SilphCoSignText:

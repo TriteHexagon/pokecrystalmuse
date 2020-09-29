@@ -253,7 +253,7 @@ MediumDorisAfterBattleText:
 	done
 
 PsychicJaredSeenText:
-	text "The FIGHTING DOJO"
+	text "The Fighting Dojo"
 	line "next door was once"
 	cont "this city's Gym."
 	done
@@ -263,10 +263,10 @@ PsychicJaredBeatenText:
 	done
 
 PsychicJaredAfterBattleText:
-	text "KARATE KING, the"
+	text "Karate King, the"
 	line "master of the"
 
-	para "FIGHTING DOJO, was"
+	para "Fighting Dojo, was"
 	line "just destroyed by"
 	cont "Sabrina."
 	done

@@ -368,7 +368,7 @@ BlackbeltWaiBeatenText:
 
 BlackbeltWaiAfterBattleText:
 	text "I couldn't find"
-	line "the KARATE KING in"
+	line "the Karate King in"
 	cont "Johto."
 
 	para "He's supposed to"
