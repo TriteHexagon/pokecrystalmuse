@@ -32,7 +32,7 @@ MAX_HOUR  EQU 24 ; 12 AM
 
 ; significant money values
 START_MONEY EQU 3000
-MOM_MONEY   EQU 1000 ;hmmm
+MOM_MONEY   EQU 2301 ;avoid messing with the 2nd item list
 MAX_MONEY   EQU 999999
 MAX_COINS   EQU 9999
 

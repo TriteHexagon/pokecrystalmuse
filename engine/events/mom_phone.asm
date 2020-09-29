@@ -58,7 +58,7 @@ MomTriesToBuySomething::
 CheckBalance_MomItem2:
 	ld a, [wWhichMomItem]
 	cp NUM_MOM_ITEMS_2
-	jr nc, .nope
+	jr nc, .check_have_2300
 	call GetItemFromMom
 	ld a, [hli]
 	ldh [hMoneyTemp], a
@@ -89,7 +89,9 @@ CheckBalance_MomItem2:
 	ld de, wMomItemTriggerBalance
 	ld bc, wMomsMoney
 	farcall CompareMoney
-	jr z, .exact
+	jr c, .more_than
+	jr z, .more_than ;failsafe
+	;jr z, .exact
 	jr nc, .less_than
 	call .AddMoney
 	jr .loop
@@ -98,7 +100,8 @@ CheckBalance_MomItem2:
 	xor a
 	ret
 
-.exact
+.more_than
+;.exact
 	call .AddMoney
 	ld a, NUM_MOM_ITEMS_1
 	call RandomRange
