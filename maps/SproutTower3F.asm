@@ -237,12 +237,12 @@ SageLiTakeThisFlashText:
 	para "no problem using"
 	line "this move."
 
-	para "Take this FLASH"
+	para "Take this Flash"
 	line "HM."
 	done
 
 SageLiFlashExplanationText:
-	text "FLASH illuminates"
+	text "Flash illuminates"
 	line "even the darkest"
 	cont "of all places."
 

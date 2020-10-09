@@ -133,15 +133,11 @@ Jasmine_BetterTrainer:
 
 Text_ReceivedMineralBadge:
 	text "<PLAYER> received"
-	line "MINERALBADGE."
+	line "Mineral Badge."
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
-	line "raises #mon's"
-	cont "DEFENSE."
-
-	para "…Um… Please take"
+	text "…Um… Please take"
 	line "this too…"
 	done
 
@@ -153,7 +149,7 @@ Text_ReceivedTM09:
 Jasmine_IronTailSpeech:
 	text "…You could use"
 	line "that TM to teach"
-	cont "IRON Tail."
+	cont "Iron Tail."
 	done
 
 Jasmine_GoodLuck:

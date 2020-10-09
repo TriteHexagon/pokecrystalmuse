@@ -116,7 +116,7 @@ BrockWinLossText:
 
 ReceivedBoulderBadgeText:
 	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	line "Boulder Badge."
 	done
 
 BrockExplainTMText:
@@ -145,8 +145,8 @@ BrockFightDoneText:
 
 	para "Just wait and see."
 	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	cont "come a lot"
+	cont "stronger too."
 	done
 
 CamperJerrySeenText:
@@ -155,7 +155,7 @@ CamperJerrySeenText:
 	cont "type #mon."
 
 	para "The Rock-type has"
-	line "high DEFENSE."
+	line "high Defense."
 
 	para "Battles could end"
 	line "up going a long"
@@ -181,7 +181,7 @@ CamperJerryAfterBattleText:
 	done
 
 PewterGymGuyText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making! You're"
 
 	para "really rocking."
@@ -198,7 +198,7 @@ PewterGymGuyText:
 	done
 
 PewterGymGuyWinText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making! That Gym"
 
 	para "didn't give you"

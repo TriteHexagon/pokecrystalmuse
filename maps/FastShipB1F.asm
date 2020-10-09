@@ -381,7 +381,7 @@ SailorKennethSeenText:
 
 	para "But I'm training"
 	line "#mon, so I can"
-	cont "become the CHAMP!"
+	cont "become the Champ!"
 	done
 
 SailorKennethBeatenText:

@@ -156,12 +156,12 @@ SabrinaWinLossText:
 
 	para "OK, you win. You"
 	line "earned yourself"
-	cont "MarshBadge."
+	cont "Marsh Badge."
 	done
 
 ReceivedMarshBadgeText:
 	text "<PLAYER> received"
-	line "MarshBadge."
+	line "Marsh Badge."
 	done
 
 SabrinaMarshBadgeText:
@@ -272,7 +272,7 @@ PsychicJaredAfterBattleText:
 	done
 
 SaffronGymGuyText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "A trainer as"

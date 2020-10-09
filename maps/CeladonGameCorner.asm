@@ -256,7 +256,7 @@ else
 endc
 
 CeladonGymGuyText:
-	text "Hey! CHAMP in"
+	text "Hey! Champ in"
 	line "making!"
 
 	para "Are you playing"

@@ -244,13 +244,16 @@ CeruleanGymNote1Text:
 CeruleanGymNote2Text:
 	text "Since Misty's out,"
 	line "we'll be away too."
-	cont "Gym TRAINERS"
+	cont "Gym Trainers"
 	done
 
 MistyIntroText:
 	text "Misty: I was ex-"
 	line "pecting you, you"
 	cont "pest!"
+
+	para "You really had me"
+	line "boiling back then!"
 
 	para "You may have a"
 	line "lot of Johto Gym"
@@ -261,6 +264,10 @@ MistyIntroText:
 
 	para "My Water-type"
 	line "#mon are tough!"
+
+	para "You'll be in hot"
+	line "water during this"
+	cont "battle!"
 	done
 
 MistyWinLossText:
@@ -271,12 +278,12 @@ MistyWinLossText:
 	line "you are skilled…"
 
 	para "Here you go. It's"
-	line "CASCADEBADGE."
+	line "Cascade Badge."
 	done
 
 ReceivedCascadeBadgeText:
 	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	line "Cascade Badge."
 	done
 
 MistyExplainTMText:
@@ -292,6 +299,13 @@ MistyExplainTMText:
 	para "It's a powerful"
 	line "attack that may"
 	cont "burn your foes."
+
+	para "It's the perfect"
+	line "move for a red-hot"
+	
+	para "battle like we"
+	line "just had!"
+	done
 
 MistyFightDoneText:
 	text "Misty: Are there"
@@ -364,7 +378,7 @@ SwimmermParkerAfterBattleText:
 	done
 
 CeruleanGymGuyText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "Since Misty was"

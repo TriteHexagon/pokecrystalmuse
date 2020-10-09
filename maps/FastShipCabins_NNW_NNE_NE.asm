@@ -150,7 +150,7 @@ CooltrainermSeanAfterBattleText:
 
 CooltrainerfCarolSeenText:
 	text "I'm training to"
-	line "become the CHAMP!"
+	line "become the Champ!"
 	done
 
 CooltrainerfCarolBeatenText:

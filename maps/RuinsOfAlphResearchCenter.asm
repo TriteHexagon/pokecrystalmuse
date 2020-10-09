@@ -125,7 +125,19 @@ RuinsOfAlphResearchCenterScientist2Script:
 	end
 
 .GotAllUnown:
+	checkevent EVENT_DECO_UNOWN_DOLL
+	iftrue .GivenDoll
+	writetext RuinsOfAlphResearchCenterScientist2Text_GiveUnownDoll
+	waitbutton
+	playsound SFX_GET_EGG
+	writetext RuinsOfAlphResearchCenter_GiveDoll
+	promptbutton
+	writetext RuinsOfAlphResearchCenterScientist2Text_AfterGiveDoll
+	setevent EVENT_DECO_UNOWN_DOLL
+	sjump .endscript
+.GivenDoll
 	writetext RuinsOfAlphResearchCenterScientist2Text_GotAllUnown
+.endscript
 	waitbutton
 	closetext
 	end
@@ -166,10 +178,6 @@ RuinsOfAlphResearchCenterPrinter:
 	special UnownPrinter
 	closetext
 	end
-
-RuinsOfAlphResearchCenterPhoto:
-; unreferenced
-	jumptext RuinsOfAlphResearchCenterProfSilktreePhotoText
 
 RuinsOfAlphResearchCenterBookshelf:
 	jumptext RuinsOfAlphResearchCenterAcademicBooksText
@@ -348,6 +356,45 @@ RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
 	line "deepens…"
 	done
 
+RuinsOfAlphResearchCenterScientist2Text_GiveUnownDoll:
+	text "This was unex-"
+	line "pected, but"
+
+	para "because of your"
+	line "work, the Ruins"
+
+	para "have become some-"
+	line "what of a tourist"
+	cont "attraction…"
+
+	para "I don't like all"
+	line "the noise they"
+
+	para "make, but at least"
+	line "funds have gone"
+
+	para "up. We even had"
+	line "some merchandise"
+
+	para "commissioned for"
+	line "a future tourist"
+	cont "shop."
+
+	para "Here, take a sam-"
+	line "ple as a reward!"
+	done
+
+RuinsOfAlphResearchCenter_GiveDoll:
+	text "<PLAYER> got a"
+	line "Unown Doll!"
+	done
+
+RuinsOfAlphResearchCenterScientist2Text_AfterGiveDoll:
+	text "You should try"
+	line "putting in your"
+	cont "room somewhere."
+	done
+
 RuinsOfAlphResearchCenterComputerText:
 	text "Ruins of Alph"
 
@@ -371,15 +418,6 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 RuinsOfAlphResearchCenterUnownPrinterText:
 	text "Unown may be"
 	line "printed out."
-	done
-
-RuinsOfAlphResearchCenterProfSilktreePhotoText:
-; unused
-	text "It's a photo of"
-	line "the RESEARCH"
-
-	para "Center's founder,"
-	line "Prof.SILKTREE."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

@@ -136,7 +136,7 @@ ChadLeagueGossipText:
 	cont "ing place for all"
 
 	para "trainers who wish"
-	line "to become CHAMP."
+	line "to become Champ."
 
 	para "Prof.Oak acts as"
 	line "an advisor to the"

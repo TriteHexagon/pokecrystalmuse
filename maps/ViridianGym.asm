@@ -175,7 +175,7 @@ LeaderBlueBeforeText:
 	line "now."
 
 	para "Ready, Johto"
-	line "CHAMP?"
+	line "Champ?"
 	done
 
 LeaderBlueWinText:
@@ -188,12 +188,12 @@ LeaderBlueWinText:
 
 	para "Tch, all right…"
 	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	cont "it's Earth Badge."
 	done
 
 Text_ReceivedEarthBadge:
 	text "<PLAYER> received"
-	line "EARTHBADGE."
+	line "Earth Badge."
 	done
 
 LeaderBlueAfterText:
@@ -216,7 +216,6 @@ LeaderBlueAfterText:
 
 	para "help for next the" 
 	line "we battle."
-
 	done
 
 LeaderBlue_HyperBeamSpeech:
@@ -261,6 +260,8 @@ LeaderBlue_HyperBeamSpeech:
 	
 	para "defeat you" 
 	line "next time!"
+
+	para "Smell ya later!"
 	done
 
 LeaderBlueEpilogueText:
@@ -272,7 +273,7 @@ LeaderBlueEpilogueText:
 	done
 
 ViridianGymGuyText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "How's it going?"

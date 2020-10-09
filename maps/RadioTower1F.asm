@@ -345,7 +345,7 @@ RadioTower1FRadioCardWomanQuestion3Text:
 	line "Question 3:"
 
 	para "Does HM01 contain"
-	line "the move FLASH?"
+	line "the move Flash?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:

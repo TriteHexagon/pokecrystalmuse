@@ -46,7 +46,7 @@ FuchsiaGymJanineScript:
 .AfterBattle:
 	checkevent EVENT_GOT_TM43_POISON_JAB
 	iftrue .AfterTM
-	writetext JanineText_ToxicSpeech
+	writetext JanineText_PoisonJanSpeech
 	promptbutton
 	verbosegiveitem TM_POISON_JAB
 	iffalse .AfterTM
@@ -252,16 +252,16 @@ JanineText_ToughOne:
 	line "tough one. You"
 	cont "definitely won…"
 
-	para "Here's SOULBADGE."
+	para "Here's Soul Badge."
 	line "Take it."
 	done
 
 Text_ReceivedSoulBadge:
 	text "<PLAYER> received"
-	line "SOULBADGE."
+	line "Soul Badge."
 	done
 
-JanineText_ToxicSpeech:
+JanineText_PoisonJanSpeech:
 	text "Janine: You're so"
 	line "tough! I have a"
 	cont "special gift!"
@@ -269,8 +269,8 @@ JanineText_ToxicSpeech:
 	para "It's Poison Jab,"
 	line "a powerful attack"
 
-	para "that might inflict"
-	line "poison to the foe."
+	para "that might poison"
+	line "the foe."
 	done
 
 JanineText_ApplyMyself:
@@ -358,7 +358,7 @@ CamperBarryAfterText:
 	done
 
 FuchsiaGymGuyText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "Whoops! Take a"

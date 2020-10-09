@@ -387,7 +387,7 @@ FisherScottSeenText:
 
 	para "I feel like I"
 	line "could boot even"
-	cont "the League CHAMP!"
+	cont "the League Champ!"
 	done
 
 FisherScottBeatenText:

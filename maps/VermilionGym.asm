@@ -106,7 +106,7 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
+	text "Surge: Hey, you"
 	line "little tyke!"
 
 	para "I have to hand it"
@@ -129,11 +129,11 @@ LtSurgeIntroText:
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
+	text "Surge: Arrrgh!"
 	line "You are strong!"
 
 	para "OK, kid. You get"
-	line "ThunderBadge!"
+	line "Thunder Badge!"
 
 	para "Consider it proof"
 	line "that you defeated"
@@ -144,11 +144,11 @@ LtSurgeWinLossText:
 
 ReceivedThunderBadgeText:
 	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	line "Thunder Badge."
 	done
 
 LtSurgeThunderText:
-	text "SURGE: And here's"
+	text "Surge: And here's"
 	line "another prize"
 
 	para "from me. It's TM25"
@@ -168,7 +168,7 @@ LtSurgeThunderText:
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
+	text "Surge: Hey, kid!"
 	line "Still slugging and"
 	cont "chugging away?"
 
@@ -194,7 +194,7 @@ GentlemanGregoryAfterBattleText:
 	text "When I was still"
 	line "in the army, LT."
 
-	para "SURGE saved my"
+	para "Surge saved my"
 	line "life."
 	done
 
@@ -241,7 +241,7 @@ JugglerHortonAfterBattleText:
 	done
 
 VermilionGymGuyText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "You lucked out"

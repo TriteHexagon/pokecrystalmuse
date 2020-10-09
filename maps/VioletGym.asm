@@ -143,24 +143,21 @@ FalknerWinLossText:
 
 	para "It's the official"
 	line "#mon League"
-	cont "ZEPHYRBADGE."
+	cont "Zephyr Badge."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	line "Zephyr Badge."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #mon."
+	text "Zephyr Badge"
+	line "enables #mon"
 
-	para "It also enables"
-	line "#mon to use"
-
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "to use Flash, if"
+	line "they have it,"
+	cont "anytime."
 
 	para "Here--take this"
 	line "too."
@@ -274,7 +271,7 @@ VioletGymGuyWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
 
-	para "be the CHAMP in no"
+	para "be the Champ in no"
 	line "time at all!"
 	done
 

@@ -41,7 +41,7 @@ OlivineCafeStrengthSailorText:
 
 	para "Here, use this"
 	line "and teach them"
-	cont "STRENGTH!"
+	cont "Strength!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:

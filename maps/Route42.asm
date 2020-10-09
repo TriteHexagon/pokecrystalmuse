@@ -236,7 +236,7 @@ FisherTullyBeatenText:
 
 FisherTullyAfterBattleText:
 	text "I want to become"
-	line "the trainer CHAMP"
+	line "the trainer Champ"
 
 	para "using the #mon"
 	line "I caught."
@@ -273,7 +273,7 @@ PokemaniacShaneSeenText:
 
 PokemaniacShaneBeatenText:
 	text "I should have used"
-	line "my MOON STONE…"
+	line "my Moon Stone…"
 	done
 
 PokemaniacShaneAfterBattleText:
@@ -296,17 +296,17 @@ Route42Sign1Text:
 	done
 
 MtMortarSign1Text:
-	text "MT.MORTAR"
+	text "Mt. Mortar"
 
-	para "WATERFALL Cave"
-	line "INSIDE"
+	para "Waterfall Cave"
+	line "Inside"
 	done
 
 MtMortarSign2Text:
-	text "MT.MORTAR"
+	text "Mt. Mortar"
 
-	para "WATERFALL Cave"
-	line "INSIDE"
+	para "Waterfall Cave"
+	line "Inside"
 	done
 
 Route42Sign2Text:

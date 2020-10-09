@@ -179,33 +179,33 @@ BugsyText_ResearchIncomplete:
 
 Text_ReceivedHiveBadge:
 	text "<PLAYER> received"
-	line "HIVEBADGE."
+	line "Hive Badge."
 	done
 
 BugsyText_HiveBadgeSpeech:
 	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "Badge?"
+	line "benefits of Hive"
+	
+	para "Badge? If you have"
+	line "have it, #mon"
 
-	para "If you have it,"
-	line "#mon up to L30"
+	para "up to Lv.30 will"
+	line "obey you, even"
 
-	para "will obey you,"
-	line "even traded ones."
+	para "traded ones."
+	line "#mon that know"
 
-	para "#mon that know"
-	line "Cut will be able"
+	para "Cut will be able"
+	line "to use it outside"
 
-	para "to use it outside"
-	line "of battle too."
-
-	para "Here, I also want"
-	line "you to have this."
+	para "of battle too."
+	line "Here, I also want"
+	cont "you to have this."
 	done
 
 BugsyText_FuryCutterSpeech:
 	text "TM49 contains"
-	line "FURY CUTTER."
+	line "Fury Cutter."
 
 	para "If you don't miss,"
 	line "it gets stronger"

@@ -44,7 +44,7 @@ ViridianPokecenter1FCooltrainerMText:
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
 	text "There are no Gym"
-	line "TRAINERS at the"
+	line "Trainers at the"
 	cont "Viridian Gym."
 
 	para "The Leader claims"

@@ -11,4 +11,5 @@ SunnyDayMoves:
 	db FLARE_BLITZ
 	db FIRE_FANG
 	db SYNTHESIS
+	db SOLARBEAM
 	db -1 ; end

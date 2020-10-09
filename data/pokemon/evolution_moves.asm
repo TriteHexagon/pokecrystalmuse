@@ -139,7 +139,7 @@ EvolutionMoves::
     db NO_MOVE      ;Omanyte
     db PIN_MISSILE  ;Omastar
     db NO_MOVE      ;Kabuto
-    db SWORDS_DANCE ;Kabutops
+    db SLASH        ;Kabutops
     db NO_MOVE      ;Aerodactyl
     db NO_MOVE      ;Snorlax
     db NO_MOVE      ;Articuno
@@ -246,7 +246,7 @@ EvolutionMoves::
     db NO_MOVE      ;Suicune
     db NO_MOVE      ;Larvitar
     db NO_MOVE      ;Pupitar
-    db NO_MOVE      ;Tyranitar
+    db PURSUIT      ;Tyranitar
     db NO_MOVE      ;Lugia
     db NO_MOVE      ;Ho-oh
     db NO_MOVE      ;Celebi

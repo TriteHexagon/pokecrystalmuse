@@ -190,16 +190,16 @@ ChuckLossText:
 
 	para "How about that!"
 	line "You're worthy of"
-	cont "STORMBADGE!"
+	cont "Storm Badge!"
 	done
 
 GetStormBadgeText:
 	text "<PLAYER> received"
-	line "STORMBADGE."
+	line "Storm Badge."
 	done
 
 ChuckExplainBadgeText:
-	text "STORMBADGE makes"
+	text "Storm Badge makes"
 	line "all #mon up to"
 
 	para "L70 obey, even"

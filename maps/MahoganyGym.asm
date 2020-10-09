@@ -194,13 +194,14 @@ PryceText_Impressed:
 
 Text_ReceivedGlacierBadge:
 	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	line "Glacier Badge."
 	done
 
 PryceText_GlacierBadgeSpeech:
 	text "That Badge lets"
-	line "#mon use WHIRL-"
-	para "POOL to get across"
+	line "#mon use Whirl-"
+
+	para "pool to get across"
 	line "real whirlpools."
 
 	para "And this… This is"
@@ -215,8 +216,9 @@ PryceText_BlizzardSpeech:
 	line "that inflicts"
 	cont "great damage."
 
-	para "It demonstrates"
-	line "the harshness of"
+	para "It perfectly"
+	line "demonstrates the"
+	cont "harshness of" 
 	cont "winter."
 	done
 

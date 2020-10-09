@@ -623,18 +623,18 @@ DragonShrineIUnderstandText:
 
 DragonShrineHereRisingBadgeText:
 	text "Here, this is the"
-	line "RisingBadge…"
+	line "Rising Badge…"
 
 	para "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
 	text "<PLAYER> received"
-	line "RisingBadge."
+	line "Rising Badge."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RisingBadge will"
+	text "Rising Badge will"
 	line "enable your"
 
 	para "#mon to use the"

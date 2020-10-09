@@ -153,7 +153,7 @@ PlayersHouseBookshelfScript:
 	setevent EVENT_BEAT_BLAINE
 	setevent EVENT_BEAT_BLUE
 	setevent EVENT_BEAT_ELITE_FOUR
-	;setevent EVENT_DECO_FAMICOM
+	setevent EVENT_DECO_UNOWN_DOLL
 	;setevent EVENT_DECO_SNES
 	;setevent EVENT_DECO_N64
 	;setevent EVENT_DECO_VIRTUAL_BOY

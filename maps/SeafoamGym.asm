@@ -100,19 +100,19 @@ BlaineWinLossText:
 	line "I've burned out…"
 
 	para "You've earned"
-	line "VOLCANOBADGE!"
-
-	para "Here, I will give"
-	line "you this, too."
+	line "Volcano Badge!"
 	done
 
 ReceivedVolcanoBadgeText:
 	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	line "Volcano Badge."
 	done
 
 BlaineExplainTMText:
-	text "Blaine: It's"
+	text "Blaine: Here, I"
+	line "will give you"
+
+	para "this, too. It's"
 	line "called Fire Blast."
 
 	para "It's the strongest"
@@ -121,6 +121,7 @@ BlaineExplainTMText:
 	para "It's sure to leave"
 	line "your opponents"
 	cont "burning out too!"
+	done
 
 BlaineAfterBattleText:
 	text "Blaine: I did lose"

@@ -350,7 +350,7 @@ CooltrainerfLolaAfterBattleText:
 	done
 
 BlackthornGymGuyText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "It's been a long"

@@ -304,7 +304,7 @@ GymStatue_WinningTrainersText:
 	text "Leader: @"
 	text_ram wStringBuffer4
 	text_start
-	para "WINNING TRAINERS:"
+	para "Winning Trainers:"
 	line "<PLAYER>"
 	done
 

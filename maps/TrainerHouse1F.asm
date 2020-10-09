@@ -80,7 +80,7 @@ TrainerHouse1FCooltrainerFText:
 
 TrainerHouse1FYoungsterText:
 	text "I guess you can't"
-	line "become the CHAMP"
+	line "become the Champ"
 
 	para "unless you go all"
 	line "over the place and"

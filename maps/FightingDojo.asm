@@ -395,7 +395,7 @@ DojoTrainerFridayScript:
 	waitbutton
 	closetext
 	winlosstext DojoClairWinLossText, 0
-	loadtrainer CLAIR, CLAIR2
+	loadtrainer RED, RED1
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
