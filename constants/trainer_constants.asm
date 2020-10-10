@@ -149,7 +149,6 @@ KRIS EQU __trainer_class__
 	const KIPP
 	const ALAN1
 	const JOHNNY
-	const DANNY
 	const TOMMY
 	const JOE
 	const CHAD1
@@ -195,7 +194,6 @@ KRIS EQU __trainer_class__
 	const KRISE
 	const CONNIE1
 	const LINDA
-	const LAURA
 	const SHANNON
 	const MICHELLE
 	const DANA1
@@ -585,7 +583,6 @@ KRIS EQU __trainer_class__
 	const LIZ1
 	const GINA1
 	const BROOKE
-	const KIM
 	const CINDY
 	const HOPE
 	const SHARON
@@ -737,6 +734,8 @@ KRIS EQU __trainer_class__
 	const SUE
 	const TIERA
 	const MACY
-	
+	const ANNA
+	const LAURA
+	const KIM
 
 NUM_TRAINER_CLASSES EQU __trainer_class__

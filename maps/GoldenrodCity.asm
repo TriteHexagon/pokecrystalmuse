@@ -483,12 +483,12 @@ GoldenrodCityNameRaterSignText:
 
 GoldenrodCityUndergroundSignNorthText:
 	text "Underground"
-	line "ENTRANCE"
+	line "Entrance"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
 	text "Underground"
-	line "ENTRANCE"
+	line "Entrance"
 	done
 
 GoldenrodCityPokeComCenterSignText:
@@ -499,7 +499,7 @@ GoldenrodCityPokeComCenterSignText:
 
 GoldenrodCityFlowerShopSignText:
 	text "Blooming Beautiful"
-	line "FLOWER SHOP"
+	line "Flower Shop"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:

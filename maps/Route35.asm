@@ -115,13 +115,13 @@ TrainerPicnickerBrooke:
 	closetext
 	end
 
-TrainerPicnickerKim:
-	trainer PICNICKER, KIM, EVENT_BEAT_PICNICKER_KIM, PicnickerKimSeenText, PicnickerKimBeatenText, 0, .Script
+TrainerSchoolgirlKim:
+	trainer SCHOOLGIRL, KIM, EVENT_BEAT_SCHOOLGIRL_KIM, SchoolgirlKimSeenText, SchoolgirlKimBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext PicnickerKimAfterBattleText
+	writetext SchoolgirlKimAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -326,17 +326,17 @@ PicnickerBrookeAfterBattleText:
 	cont "my boyfriend."
 	done
 
-PicnickerKimSeenText:
+SchoolgirlKimSeenText:
 	text "Are you going to"
 	line "the Gym? Me too!"
 	done
 
-PicnickerKimBeatenText:
+SchoolgirlKimBeatenText:
 	text "Oh. I couldn't"
 	line "win…"
 	done
 
-PicnickerKimAfterBattleText:
+SchoolgirlKimAfterBattleText:
 	text "The Gym Badges are"
 	line "pretty. I collect"
 	cont "them."
@@ -478,7 +478,7 @@ Route35_MapEvents:
 	object_event  4, 19, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerCamperIvan, -1
 	object_event  8, 20, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperElliot, -1
 	object_event  7, 20, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerPicnickerBrooke, -1
-	object_event 10, 26, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerPicnickerKim, -1
+	object_event 10, 26, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerSchoolgirlKim, -1
 	object_event 14, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerBirdKeeperBryan, -1
 	object_event  2, 10, SPRITE_FISHER, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerFirebreatherWalt, -1
 	object_event 16,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 2, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherArnie, -1

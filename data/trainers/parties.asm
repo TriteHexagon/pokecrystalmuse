@@ -562,24 +562,24 @@ YoungsterGroup:
 
 	; YOUNGSTER (9)
 	db "Warren@", TRAINERTYPE_NORMAL
-	db 35, FEAROW
+	db 45, FEAROW
 	db -1 ; end
 
 	; YOUNGSTER (10)
 	db "Jimmy@", TRAINERTYPE_NORMAL
-	db 33, RATICATE
-	db 33, ARBOK
+	db 43, RATICATE
+	db 43, ARBOK
 	db -1 ; end
 
 	; YOUNGSTER (11)
 	db "Owen@", TRAINERTYPE_NORMAL
-	db 35, GROWLITHE
+	db 45, GROWLITHE
 	db -1 ; end
 
 	; YOUNGSTER (12)
 	db "Jason@", TRAINERTYPE_NORMAL
-	db 33, SANDSLASH
-	db 33, CROBAT
+	db 43, SANDSLASH
+	db 43, CROBAT
 	db -1 ; end
 
 	; YOUNGSTER (13)
@@ -601,10 +601,10 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (2)
 	db "Kipp@", TRAINERTYPE_NORMAL
-	db 27, VOLTORB
-	db 27, MAGNEMITE
-	db 31, VOLTORB
-	db 31, MAGNETON
+	db 37, VOLTORB
+	db 37, MAGNEMITE
+	db 41, ELECTRODE
+	db 41, MAGNETON
 	db -1 ; end
 
 	; SCHOOLBOY (3)
@@ -614,28 +614,21 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (4)
 	db "Johnny@", TRAINERTYPE_NORMAL
-	db 29, BELLSPROUT
-	db 31, WEEPINBELL
-	db 33, VICTREEBEL
-	db -1 ; end
-
-	; SCHOOLBOY (5)
-	db "Danny@", TRAINERTYPE_NORMAL
-	db 31, JYNX
-	db 31, ELECTABUZZ
-	db 31, MAGMAR
+	db 39, BELLSPROUT
+	db 41, WEEPINBELL
+	db 43, VICTREEBEL
 	db -1 ; end
 
 	; SCHOOLBOY (6)
 	db "Tommy@", TRAINERTYPE_NORMAL
-	db 32, XATU
-	db 34, ALAKAZAM
+	db 42, XATU
+	db 44, ALAKAZAM
 	db -1 ; end
 
 	; SCHOOLBOY (8)
 	db "Joe@", TRAINERTYPE_NORMAL
-	db 33, TANGELA
-	db 33, VAPOREON
+	db 43, TANGELA
+	db 43, VAPOREON
 	db -1 ; end
 
 	; SCHOOLBOY (10)
@@ -729,26 +722,6 @@ SchoolboyGroup:
 	db 38, MAGNETON,   THUNDER, THUNDER_WAVE, LOCK_ON, SWIFT
 	db -1 ; end
 
-SchoolGirlGroup:
-	; SCHOOLGIRL (1)
-	db "Sue@", TRAINERTYPE_NORMAL
-	db 27, PARAS
-	db 27, PARAS
-	db 27, POLIWHIRL
-	db 35, DITTO
-	db -1 ; end
-
-	; SCHOOLGIRL (12)
-	db "Tiera@", TRAINERTYPE_NORMAL ;was schoolboy Ricky
-	db 52, AIPOM
-	db 52, DITTO
-	db -1 ; end
-
-	; SCHOOLBOY (7)
-	db "Macy@", TRAINERTYPE_NORMAL
-	db 35, ODDISH
-	db -1 ; end
-
 BirdKeeperGroup:
 	; BIRD_KEEPER (1)
 	db "Rod@", TRAINERTYPE_NORMAL
@@ -798,26 +771,27 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (8)
 	db "Hank@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
-	db 34, PIDGEOT
+	db 22, PIDGEY
+	db 34, PIDGEOTTO
+	db 46, PIDGEOT
 	db -1 ; end
 
 	; BIRD_KEEPER (9)
 	db "Roy@", TRAINERTYPE_NORMAL
-	db 29, FEAROW
-	db 35, FEAROW
+	db 39, FEAROW
+	db 45, FEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (10)
 	db "Boris@", TRAINERTYPE_NORMAL
-	db 30, DODUO
-	db 28, DODUO
-	db 32, DODRIO
+	db 40, DODUO
+	db 38, DODUO
+	db 42, DODRIO
 	db -1 ; end
 
 	; BIRD_KEEPER (11)
 	db "Bob@", TRAINERTYPE_NORMAL
-	db 34, NOCTOWL
+	db 44, NOCTOWL
 	db -1 ; end
 
 	; BIRD_KEEPER (12)
@@ -840,13 +814,13 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (15)
 	db "Perry@", TRAINERTYPE_NORMAL
-	db 34, FARFETCH_D
+	db 44, FARFETCH_D
 	db -1 ; end
 
 	; BIRD_KEEPER (16)
 	db "Bret@", TRAINERTYPE_NORMAL
-	db 32, PIDGEOTTO
-	db 32, FEAROW
+	db 42, PIDGEOTTO
+	db 42, FEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (17)
@@ -908,18 +882,11 @@ LassGroup:
 	db 44, VENUSAUR
 	db -1 ; end
 
-	; LASS (7)
-	db "Laura@", TRAINERTYPE_NORMAL
-	db 28, GLOOM
-	db 31, PIDGEOTTO
-	db 31, BELLOSSOM
-	db -1 ; end
-
 	; LASS (8)
 	db "Shannon@", TRAINERTYPE_NORMAL
-	db 29, PARAS
-	db 29, PARAS
-	db 32, PARASECT
+	db 39, PARAS
+	db 39, PARAS
+	db 42, PARASECT
 	db -1 ; end
 
 	; LASS (9)
@@ -937,8 +904,8 @@ LassGroup:
 
 	; LASS (11)
 	db "Ellen@", TRAINERTYPE_NORMAL
-	db 30, WIGGLYTUFF
-	db 34, GRANBULL
+	db 40, WIGGLYTUFF
+	db 44, GRANBULL
 	db -1 ; end
 
 	; LASS (12)
@@ -1112,9 +1079,10 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (17)
 	db "Kevin@", TRAINERTYPE_NORMAL
-	db 38, RHYHORN
-	db 35, CHARMELEON
-	db 35, WARTORTLE
+	db 48, RHYHORN
+	db 45, CHARMELEON
+	db 45, WARTORTLE
+	db 45, IVYSAUR
 	db -1 ; end
 
 	; COOLTRAINERM (18)
@@ -1233,8 +1201,8 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (14)
 	db "Quinn@", TRAINERTYPE_NORMAL
-	db 38, IVYSAUR
-	db 38, STARMIE
+	db 48, IVYSAUR
+	db 48, STARMIE
 	db -1 ; end
 
 	; COOLTRAINERF (15)
@@ -1652,7 +1620,7 @@ GruntMGroup:
 
 	; GRUNTM (31)
 	db "Grunt@", TRAINERTYPE_NORMAL
-	db 30, GOLBAT
+	db 40, GOLBAT
 	db -1 ; end
 
 GentlemanGroup:
@@ -1715,13 +1683,13 @@ SkierGroup:
 TeacherGroup:
 	; TEACHER (1)
 	db "Colette@", TRAINERTYPE_NORMAL
-	db 36, CLEFAIRY
+	db 46, CLEFAIRY
 	db -1 ; end
 
 	; TEACHER (2)
 	db "Hillary@", TRAINERTYPE_NORMAL
-	db 32, AIPOM
-	db 36, CUBONE
+	db 42, AIPOM
+	db 46, CUBONE
 	db -1 ; end
 
 	; TEACHER (3)
@@ -1755,15 +1723,15 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (2)
 	db "Rob@", TRAINERTYPE_NORMAL
-	db 32, BEEDRILL
-	db 32, BUTTERFREE
+	db 42, BEEDRILL
+	db 42, BUTTERFREE
 	db -1 ; end
 
 	; BUG_CATCHER (3)
 	db "Ed@", TRAINERTYPE_NORMAL
-	db 30, BEEDRILL
-	db 30, BEEDRILL
-	db 30, BEEDRILL
+	db 40, BEEDRILL
+	db 40, BEEDRILL
+	db 40, BEEDRILL
 	db -1 ; end
 
 	; BUG_CATCHER (4)
@@ -1823,7 +1791,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (12)
 	db "Doug@", TRAINERTYPE_NORMAL
-	db 34, ARIADOS
+	db 44, ARIADOS
 	db -1 ; end
 
 	; BUG_CATCHER (13)
@@ -1884,14 +1852,14 @@ FisherGroup:
 
 	; FISHER (3)
 	db "Arnold@", TRAINERTYPE_NORMAL
-	db 34, TENTACRUEL
+	db 44, TENTACRUEL
 	db -1 ; end
 
 	; FISHER (4)
 	db "Kyle@", TRAINERTYPE_NORMAL
-	db 28, SEAKING
-	db 31, POLIWHIRL
-	db 31, SEAKING
+	db 38, SEAKING
+	db 41, POLIWHIRL
+	db 41, SEAKING
 	db -1 ; end
 
 	; FISHER (5)
@@ -1949,23 +1917,23 @@ FisherGroup:
 
 	; FISHER (13)
 	db "Martin@", TRAINERTYPE_NORMAL
-	db 32, REMORAID
-	db 32, REMORAID
+	db 42, REMORAID
+	db 42, REMORAID
 	db -1 ; end
 
 	; FISHER (14)
 	db "Stephen@", TRAINERTYPE_NORMAL
-	db 25, MAGIKARP
-	db 25, MAGIKARP
-	db 31, QWILFISH
-	db 31, TENTACRUEL
+	db 35, MAGIKARP
+	db 35, MAGIKARP
+	db 41, QWILFISH
+	db 41, TENTACRUEL
 	db -1 ; end
 
 	; FISHER (15)
 	db "Barney@", TRAINERTYPE_NORMAL
-	db 30, GYARADOS
-	db 30, GYARADOS
-	db 30, GYARADOS
+	db 40, GYARADOS
+	db 40, GYARADOS
+	db 40, GYARADOS
 	db -1 ; end
 
 	; FISHER (16)
@@ -2035,8 +2003,8 @@ FisherGroup:
 SwimmerMGroup:
 	; SWIMMERM (1)
 	db "Harold@", TRAINERTYPE_NORMAL
-	db 32, REMORAID
-	db 30, SEADRA
+	db 42, REMORAID
+	db 40, SEADRA
 	db -1 ; end
 
 	; SWIMMERM (2)
@@ -2121,16 +2089,16 @@ SwimmerMGroup:
 
 	; SWIMMERM (14)
 	db "Jerome@", TRAINERTYPE_NORMAL
-	db 26, SEADRA
-	db 28, TENTACOOL
-	db 30, TENTACRUEL
-	db 28, GOLDEEN
+	db 36, SEADRA
+	db 38, TENTACOOL
+	db 40, TENTACRUEL
+	db 38, GOLDEEN
 	db -1 ; end
 
 	; SWIMMERM (15)
 	db "Tucker@", TRAINERTYPE_NORMAL
 	db 30, SHELLDER
-	db 34, CLOYSTER
+	db 44, CLOYSTER
 	db -1 ; end
 
 	; SWIMMERM (16)
@@ -2141,15 +2109,15 @@ SwimmerMGroup:
 	db -1 ; end
 
 	; SWIMMERM (17)
-	db "Cameron@", TRAINERTYPE_NORMAL
-	db 34, MARILL
+	db "Cameron@", TRAINERTYPE_ITEM
+	db 44, AZUMARILL, BUBBLE_BUOY
 	db -1 ; end
 
 	; SWIMMERM (18)
 	db "Seth@", TRAINERTYPE_NORMAL
-	db 29, QUAGSIRE
-	db 29, OCTILLERY
-	db 32, QUAGSIRE
+	db 39, QUAGSIRE
+	db 39, OCTILLERY
+	db 42, QUAGSIRE
 	db -1 ; end
 
 	; SWIMMERM (19)
@@ -2237,7 +2205,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (12)
 	db "Dawn@", TRAINERTYPE_NORMAL
-	db 34, SEAKING
+	db 44, SEAKING
 	db -1 ; end
 
 	; SWIMMERF (13)
@@ -2247,15 +2215,15 @@ SwimmerFGroup:
 
 	; SWIMMERF (14)
 	db "Nicole@", TRAINERTYPE_NORMAL
-	db 29, MARILL
-	db 29, MARILL
-	db 32, LAPRAS
+	db 39, MARILL
+	db 39, MARILL
+	db 42, LAPRAS
 	db -1 ; end
 
 	; SWIMMERF (15)
 	db "Lori@", TRAINERTYPE_NORMAL
-	db 32, STARMIE
-	db 32, STARMIE
+	db 42, STARMIE
+	db 42, STARMIE
 	db -1 ; end
 
 	; SWIMMERF (16)
@@ -2265,10 +2233,10 @@ SwimmerFGroup:
 
 	; SWIMMERF (17)
 	db "Nikki@", TRAINERTYPE_NORMAL
-	db 28, SEEL
-	db 28, SEEL
-	db 28, SEEL
-	db 28, DEWGONG
+	db 38, SEEL
+	db 38, SEEL
+	db 38, SEEL
+	db 42, DEWGONG
 	db -1 ; end
 
 	; SWIMMERF (18)
@@ -2396,19 +2364,19 @@ SuperNerdGroup:
 	; SUPER_NERD (6)
 	db "Sam@", TRAINERTYPE_NORMAL
 	db 34, GRIMER
-	db 34, MUK
+	db 44, MUK
 	db -1 ; end
 
 	; SUPER_NERD (7)
 	db "Tom@", TRAINERTYPE_NORMAL
-	db 32, MAGNEMITE
-	db 32, MAGNEMITE
-	db 32, MAGNEMITE
+	db 42, MAGNEMITE
+	db 42, MAGNEMITE
+	db 42, MAGNETON
 	db -1 ; end
 
 	; SUPER_NERD (8)
 	db "Pat@", TRAINERTYPE_NORMAL
-	db 36, PORYGON
+	db 46, PORYGON
 	db -1 ; end
 
 	; SUPER_NERD (9)
@@ -2607,9 +2575,9 @@ HikerGroup:
 
 	; HIKER (13)
 	db "Tim@", TRAINERTYPE_NORMAL
-	db 31, GRAVELER
-	db 31, GRAVELER
-	db 31, GRAVELER
+	db 41, GRAVELER
+	db 41, GRAVELER
+	db 41, GOLEM
 	db -1 ; end
 
 	; HIKER (14)
@@ -2620,21 +2588,21 @@ HikerGroup:
 
 	; HIKER (15)
 	db "Sidney@", TRAINERTYPE_NORMAL
-	db 34, DUGTRIO
-	db 32, ONIX
+	db 44, DUGTRIO
+	db 42, ONIX
 	db -1 ; end
 
 	; HIKER (16)
 	db "Kenny@", TRAINERTYPE_NORMAL
-	db 27, SANDSLASH
-	db 29, GRAVELER
-	db 31, GOLEM
-	db 29, GRAVELER
+	db 37, SANDSLASH
+	db 39, GRAVELER
+	db 41, GOLEM
+	db 39, GRAVELER
 	db -1 ; end
 
 	; HIKER (17)
 	db "Jim@", TRAINERTYPE_NORMAL
-	db 35, MACHAMP
+	db 45, MACHAMP
 	db -1 ; end
 
 	; HIKER (18)
@@ -2686,46 +2654,46 @@ BikerGroup:
 
 	; BIKER (3)
 	db "Dwayne@", TRAINERTYPE_NORMAL
-	db 27, KOFFING
-	db 28, KOFFING
-	db 29, KOFFING
-	db 30, KOFFING
+	db 37, KOFFING
+	db 38, KOFFING
+	db 39, KOFFING
+	db 40, KOFFING
 	db -1 ; end
 
 	; BIKER (4)
 	db "Harris@", TRAINERTYPE_NORMAL
-	db 34, FLAREON
+	db 44, FLAREON
 	db -1 ; end
 
 	; BIKER (5)
 	db "Zeke@", TRAINERTYPE_NORMAL
-	db 32, KOFFING
-	db 32, KOFFING
+	db 42, WEEZING
+	db 42, WEEZING
 	db -1 ; end
 
 	; BIKER (6)
 	db "Charles@", TRAINERTYPE_NORMAL
-	db 30, KOFFING
-	db 30, CHARMELEON
-	db 30, WEEZING
+	db 40, KOFFING
+	db 40, CHARMELEON
+	db 40, WEEZING
 	db -1 ; end
 
 	; BIKER (7)
 	db "Riley@", TRAINERTYPE_NORMAL
-	db 34, WEEZING
+	db 44, WEEZING
 	db -1 ; end
 
 	; BIKER (8)
 	db "Joel@", TRAINERTYPE_NORMAL
-	db 32, MAGMAR
-	db 32, MAGMAR
+	db 42, MAGMAR
+	db 42, MAGMAR
 	db -1 ; end
 
 	; BIKER (9)
 	db "Glenn@", TRAINERTYPE_NORMAL
-	db 28, KOFFING
-	db 30, MAGMAR
-	db 32, WEEZING
+	db 38, KOFFING
+	db 40, MAGMAR
+	db 42, WEEZING
 	db -1 ; end
 
 BlaineGroup:
@@ -2770,9 +2738,9 @@ BurglarGroup:
 FirebreatherGroup:
 	; FIREBREATHER (1)
 	db "Otis@", TRAINERTYPE_NORMAL
-	db 29, MAGMAR
-	db 32, WEEZING
-	db 29, MAGMAR
+	db 39, MAGMAR
+	db 42, WEEZING
+	db 39, MAGMAR
 	db -1 ; end
 
 	; FIREBREATHER (2)
@@ -2789,8 +2757,8 @@ FirebreatherGroup:
 
 	; FIREBREATHER (4)
 	db "Burt@", TRAINERTYPE_NORMAL
-	db 32, KOFFING
-	db 32, SLUGMA
+	db 42, WEEZING
+	db 42, MAGCARGO
 	db -1 ; end
 
 	; FIREBREATHER (5)
@@ -2975,14 +2943,14 @@ PsychicGroup:
 
 	; PSYCHIC_T (3)
 	db "Herman@", TRAINERTYPE_NORMAL
-	db 30, EXEGGCUTE
-	db 30, EXEGGCUTE
-	db 30, EXEGGUTOR
+	db 40, EXEGGCUTE
+	db 40, EXEGGCUTE
+	db 40, EXEGGUTOR
 	db -1 ; end
 
 	; PSYCHIC_T (4)
 	db "Fidel@", TRAINERTYPE_NORMAL
-	db 34, XATU
+	db 44, XATU
 	db -1 ; end
 
 	; PSYCHIC_T (5)
@@ -3052,11 +3020,6 @@ PicnickerGroup:
 	db 16, PIKACHU,    THUNDERSHOCK, GROWL, QUICK_ATTACK, DOUBLE_TEAM
 	db -1 ; end
 
-	; PICNICKER (4)
-	db "Kim@", TRAINERTYPE_NORMAL
-	db 15, VULPIX
-	db -1 ; end
-
 	; PICNICKER (5)
 	db "Cindy@", TRAINERTYPE_NORMAL
 	db 46, NIDOQUEEN
@@ -3064,13 +3027,13 @@ PicnickerGroup:
 
 	; PICNICKER (6)
 	db "Hope@", TRAINERTYPE_NORMAL
-	db 34, FLAAFFY
+	db 44, FLAAFFY
 	db -1 ; end
 
 	; PICNICKER (7)
 	db "Sharon@", TRAINERTYPE_NORMAL
-	db 31, FURRET
-	db 33, RAPIDASH
+	db 41, FURRET
+	db 43, RAPIDASH
 	db -1 ; end
 
 	; PICNICKER (8)
@@ -3106,14 +3069,14 @@ PicnickerGroup:
 
 	; PICNICKER (13)
 	db "Heidi@", TRAINERTYPE_NORMAL
-	db 32, SKIPLOOM
-	db 32, SKIPLOOM
+	db 42, SKIPLOOM
+	db 42, SKIPLOOM
 	db -1 ; end
 
 	; PICNICKER (14)
 	db "Edna@", TRAINERTYPE_NORMAL
-	db 30, NIDORINA
-	db 34, RAICHU
+	db 40, NIDORINA
+	db 44, RAICHU
 	db -1 ; end
 
 	; PICNICKER (15)
@@ -3220,20 +3183,20 @@ CamperGroup:
 
 	; CAMPER (6)
 	db "Lloyd@", TRAINERTYPE_NORMAL
-	db 34, NIDOKING
+	db 44, NIDOKING
 	db -1 ; end
 
 	; CAMPER (7)
 	db "Dean@", TRAINERTYPE_NORMAL
-	db 33, GOLDUCK
-	db 31, SANDSLASH
+	db 43, GOLDUCK
+	db 41, SANDSLASH
 	db -1 ; end
 
 	; CAMPER (8)
 	db "Sid@", TRAINERTYPE_NORMAL
-	db 32, DUGTRIO
-	db 29, PRIMEAPE
-	db 29, POLIWRATH
+	db 42, DUGTRIO
+	db 39, PRIMEAPE
+	db 39, POLIWRATH
 	db -1 ; end
 
 	; CAMPER (9)
@@ -3511,29 +3474,29 @@ PokefanMGroup:
 
 	; POKEFANM (3)
 	db "Robert@", TRAINERTYPE_ITEM
-	db 33, QUAGSIRE,   ORAN_BERRY
+	db 43, QUAGSIRE,   ORAN_BERRY
 	db -1 ; end
 
 	; POKEFANM (4)
 	db "Joshua@", TRAINERTYPE_ITEM
-	db 23, PIKACHU,    ORAN_BERRY
-	db 23, PIKACHU,    ORAN_BERRY
-	db 23, PIKACHU,    ORAN_BERRY
-	db 23, PIKACHU,    ORAN_BERRY
-	db 23, PIKACHU,    ORAN_BERRY
-	db 23, PIKACHU,    ORAN_BERRY
+	db 33, PIKACHU,    ORAN_BERRY
+	db 33, PIKACHU,    ORAN_BERRY
+	db 33, PIKACHU,    ORAN_BERRY
+	db 33, PIKACHU,    ORAN_BERRY
+	db 33, PIKACHU,    ORAN_BERRY
+	db 33, PIKACHU,    LIGHT_BALL
 	db -1 ; end
 
 	; POKEFANM (5)
 	db "Carter@", TRAINERTYPE_ITEM
-	db 29, BULBASAUR,  ORAN_BERRY
-	db 29, CHARMANDER, ORAN_BERRY
-	db 29, SQUIRTLE,   ORAN_BERRY
+	db 39, BULBASAUR,  ORAN_BERRY
+	db 39, CHARMANDER, ORAN_BERRY
+	db 39, SQUIRTLE,   ORAN_BERRY
 	db -1 ; end
 
 	; POKEFANM (6)
 	db "Trevor@", TRAINERTYPE_ITEM
-	db 33, PSYDUCK,    ORAN_BERRY
+	db 43, PSYDUCK,    ORAN_BERRY
 	db -1 ; end
 
 	; POKEFANM (7)
@@ -3565,19 +3528,20 @@ PokefanMGroup:
 
 	; POKEFANM (12)
 	db "Alex@", TRAINERTYPE_ITEM
-	db 29, NIDOKING,   ORAN_BERRY
-	db 29, SLOWKING,   ORAN_BERRY
-	db 29, SEAKING,    ORAN_BERRY
+	db 39, NIDOKING,   ORAN_BERRY
+	db 39, SLOWKING,   ORAN_BERRY
+	db 39, SEAKING,    ORAN_BERRY
+	db 58, MAGIKARP,   NO_ITEM
 	db -1 ; end
 
 	; POKEFANM (13)
 	db "Rex@", TRAINERTYPE_ITEM
-	db 35, PHANPY,     ORAN_BERRY
+	db 45, PHANPY,     ORAN_BERRY
 	db -1 ; end
 
 	; POKEFANM (14)
 	db "Allan@", TRAINERTYPE_ITEM
-	db 35, TEDDIURSA,  ORAN_BERRY
+	db 45, TEDDIURSA,  ORAN_BERRY
 	db -1 ; end
 
 KimonoGirlGroup:
@@ -3801,5 +3765,44 @@ MysticalmanGroup:
 	db 72, JUMPLUFF,  GIGA_DRAIN, TRANSFORM, TRANSFORM, TRANSFORM
 	db 73, PIKACHU,   TRANSFORM, TRANSFORM, TRANSFORM, TRANSFORM
 	db 74, ALAKAZAM,  TRANSFORM, TRANSFORM, TRANSFORM, TRANSFORM
+	db -1 ; end
+
+SchoolGirlGroup:
+	; SCHOOLGIRL (1)
+	db "Sue@", TRAINERTYPE_NORMAL ;was Schoolboy Billy
+	db 37, PARAS
+	db 37, PARAS
+	db 37, POLIWHIRL
+	db 45, DITTO
+	db -1 ; end
+
+	; SCHOOLGIRL (2)
+	db "Tiera@", TRAINERTYPE_NORMAL ;was Schoolboy Ricky
+	db 52, AIPOM
+	db 52, DITTO
+	db -1 ; end
+
+	; SCHOOLGIRL (3)
+	db "Macy@", TRAINERTYPE_NORMAL ;was Schoolboy Dudley
+	db 45, GLOOM
+	db -1 ; end
+
+	; SCHOOLGIRL (4)
+	db "Anna@", TRAINERTYPE_NORMAL
+	db 41, JYNX
+	db 41, ELECTABUZZ
+	db 41, MAGMAR
+	db -1 ; end
+
+	; SCHOOLGIRL (5)
+	db "Laura@", TRAINERTYPE_NORMAL
+	db 38, GLOOM
+	db 41, PIDGEOTTO
+	db 41, BELLOSSOM
+	db -1 ; end
+
+	; SCHOOLGIRL (6)
+	db "Kim@", TRAINERTYPE_NORMAL
+	db 15, VULPIX
 	db -1 ; end
 	
