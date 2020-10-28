@@ -33,11 +33,16 @@ HallOfFame_MapScripts:
 	setevent EVENT_BEAT_ELITE_FOUR
 	setevent EVENT_TELEPORT_GUY
 	setevent EVENT_RIVAL_SPROUT_TOWER
+	setevent EVENT_DECO_SILVER_TROPHY
 	clearevent EVENT_RED_IN_MT_SILVER
 	setevent EVENT_OLIVINE_PORT_SPRITES_BEFORE_HALL_OF_FAME
 	clearevent EVENT_OLIVINE_PORT_SPRITES_AFTER_HALL_OF_FAME
 	setmapscene SPROUT_TOWER_3F, SCENE_FINISHED
 	special HealParty
+	checkevent EVENT_BEAT_BLUE ;rematch
+	iffalse .FirstTimeBeat
+	setevent EVENT_DECO_GOLD_TROPHY
+.FirstTimeBeat
 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
 	iftrue .SkipPhoneCall
 	specialphonecall SPECIALCALL_SSTICKET
