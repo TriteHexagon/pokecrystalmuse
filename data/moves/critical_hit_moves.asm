@@ -8,4 +8,5 @@ CriticalHitMoves:
 	db STONE_EDGE
 	db AEROBLAST
 	db CROSS_CHOP
+	db DRILL_PECK
 	db -1

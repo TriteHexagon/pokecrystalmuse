@@ -299,9 +299,6 @@ PidgeottoEvosAttacks:
 PidgeotEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, MUD_SLAP
-	db 1, GUST
-	db 1, QUICK_ATTACK
 	db 3, MUD_SLAP
 	db 5, GUST
 	db 9, QUICK_ATTACK
@@ -495,6 +492,9 @@ SandslashEvosAttacks:
 NidoranFEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
+	db 1, MOONLIGHT
 	db 1, GROWL
 	db 1, SCRATCH
 	db 3, TAIL_WHIP
@@ -511,6 +511,9 @@ NidoranFEvosAttacks:
 NidorinaEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
+	db 1, MOONLIGHT
 	db 1, GROWL
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
@@ -528,6 +531,9 @@ NidorinaEvosAttacks:
 
 NidoqueenEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
+	db 1, MOONLIGHT
 	db 1, SCRATCH
 	db 1, DOUBLE_KICK
 	db 1, TAIL_WHIP
@@ -540,6 +546,9 @@ NidoqueenEvosAttacks:
 NidoranMEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
+	db 1, MORNING_SUN
 	db 1, LEER
 	db 1, PECK
 	db 3, FOCUS_ENERGY
@@ -556,6 +565,9 @@ NidoranMEvosAttacks:
 NidorinoEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
+	db 1, MORNING_SUN
 	db 1, LEER
 	db 1, PECK
 	db 1, FOCUS_ENERGY
@@ -573,6 +585,9 @@ NidorinoEvosAttacks:
 
 NidokingEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
+	db 1, MORNING_SUN
 	db 1, PECK
 	db 1, FOCUS_ENERGY
 	db 1, POISON_STING
@@ -1440,8 +1455,6 @@ DodrioEvosAttacks:
 	db 1, SUPERSONIC
 	db 1, PECK
 	db 1, GROWL
-	db 1, QUICK_ATTACK
-	db 1, WORK_UP
 	db 5, QUICK_ATTACK
 	db 8, WORK_UP
 	db 12, FURY_ATTACK
@@ -1709,6 +1722,8 @@ VoltorbEvosAttacks:
 
 ElectrodeEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, RAPID_SPIN
+	db 1, CONVERSION
 	db 1, TACKLE
 	db 5, THUNDER_WAVE
 	db 8, SPARK
@@ -1722,7 +1737,6 @@ ElectrodeEvosAttacks:
 	db 35, CONFUSE_RAY
 	db 40, THUNDERBOLT
 	db 45, MIRROR_COAT
-;RAPID_SPIN FLASH CONVERSION
 	db 0 ; no more level-up moves
 
 ExeggcuteEvosAttacks:
@@ -2251,7 +2265,7 @@ GyaradosEvosAttacks:
 	db 21, LEER
 	db 24, DRAGONBREATH
 	db 27, ICE_FANG
-	db 30, DRAGON_RUSH ;replace Aqua Tail - temporary?
+	db 30, DRAGON_RUSH ;replace Aqua Tail
 	db 33, SCARY_FACE
 	db 36, DRAGON_RAGE
 	db 39, CRUNCH
@@ -3017,6 +3031,7 @@ AriadosEvosAttacks:
 ChinchouEvosAttacks:
 	db EVOLVE_LEVEL, 27, LANTURN
 	db 0 ; no more evolutions
+	db 1, HEAL_BELL
 	db 1, WATER_GUN
 	db 1, SUPERSONIC
 	db 6, THUNDER_WAVE
@@ -3037,6 +3052,7 @@ ChinchouEvosAttacks:
 
 LanturnEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, HEAL_BELL
 	db 1, WATER_GUN
 	db 1, SUPERSONIC
 	db 6, THUNDER_WAVE
@@ -3340,7 +3356,6 @@ SkiploomEvosAttacks:
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
 	db 1, SPLASH
-	db 1, TAIL_WHIP
 	db 4, SYNTHESIS
 	db 6, TAIL_WHIP
 	db 8, TACKLE
@@ -3454,7 +3469,7 @@ YanmaEvosAttacks:
 	db 49, AIR_SLASH ;was U Turn
 	db 54, OUTRAGE ;was AIR_SLASH
 	db 57, BUG_BUZZ
-	db 62, DRAGON_DANCE ;new!
+	db 62, QUIVER_DANCE ;new!
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:
@@ -3589,6 +3604,10 @@ UnownEvosAttacks:
 
 WobbuffetEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, CHARM
+	db 1, ENCORE
+	db 1, SPLASH
+	db 1, AMNESIA
 	db 1, COUNTER
 	db 1, MIRROR_COAT
 	db 1, SAFEGUARD
@@ -4146,6 +4165,7 @@ PhanpyEvosAttacks:
 
 DonphanEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, ICE_SHARD
 	db 1, GROWL
 	db 1, DEFENSE_CURL
 	db 6, RAPID_SPIN
@@ -4305,7 +4325,7 @@ MiltankEvosAttacks:
     db 35, CHARM ; was Captivate
     db 41, PLAY_ROUGH ;was Gyro Ball
     db 48, HEAL_BELL
-    db 50, DIZZY_PUNCH ;was Wake-Up Slap
+    db 52, DIZZY_PUNCH ;was Wake-Up Slap
 	db 0 ; no more level-up moves
 
 ; BlisseyEvosAttacks: ;not done

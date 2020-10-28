@@ -333,6 +333,7 @@ KRIS EQU __trainer_class__
 	const GREGORY
 	const VIRGIL
 	const ALFRED
+	const GIOVANNI
 
 	trainerclass SKIER ; 21
 	const ROXANNE

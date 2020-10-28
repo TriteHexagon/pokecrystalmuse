@@ -759,7 +759,7 @@ RocketBaseLanceMonMasterText:
 	para "The journey to be-"
 	line "coming the #mon"
 
-	para "MASTER is long and"
+	para "Master is long and"
 	line "difficult."
 
 	para "Knowing that, will"

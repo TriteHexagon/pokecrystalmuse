@@ -471,7 +471,7 @@ DragonShrineMustIInformLanceText:
 	cont "skill and spirit!"
 
 	para "Admit defeat and"
-	line "confer the RISING-"
+	line "confer the Rising-"
 	cont "Badge!"
 
 	para "…Or must I inform"
@@ -479,7 +479,7 @@ DragonShrineMustIInformLanceText:
 	done
 
 DragonShrineElderScoldsClairText:
-	text "CLAIR…"
+	text "Clair…"
 
 	para "Reflect upon what"
 	line "it is that you"
@@ -574,7 +574,7 @@ DragonShrineElder2Text:
 	line "some time since a"
 
 	para "trainer has gained"
-	line "our MASTER's rare"
+	line "our Master's rare"
 	cont "approval."
 
 	para "In fact, not since"
@@ -586,7 +586,7 @@ DragonShrineElder3Text:
 	line "Master Lance?"
 
 	para "He looks so much"
-	line "like our MASTER"
+	line "like our Master"
 	cont "did in his youth."
 
 	para "It's in their"

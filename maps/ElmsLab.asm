@@ -1159,7 +1159,7 @@ ElmGiveMasterBallText1:
 	done
 
 ElmGiveMasterBallText2:
-	text "The MASTER Ball is"
+	text "The Master Ball is"
 	line "the best!"
 
 	para "It's the ultimate"

@@ -1,6 +1,6 @@
 	db DUNSPARCE ; 206
 
-	db 100,  80,  70,  45,  80,  65
+	db 100,  70,  80,  45,  65,  80
 	evs  1,   0,   0,   0,   0,   0
  	;   hp  atk  def  spd  sat  sdf
 

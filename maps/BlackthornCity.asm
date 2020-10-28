@@ -192,7 +192,7 @@ BlackthornGrampsRefusesEntryText:
 BlackthornGrampsGrantsEntryText:
 	text "If Clair allows"
 	line "it, her grand-"
-	cont "father--our MASTER"
+	cont "father--our Master"
 	cont "--will also."
 
 	para "You may enter."

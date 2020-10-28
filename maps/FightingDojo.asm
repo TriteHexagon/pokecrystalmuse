@@ -295,17 +295,17 @@ DojoTrainerThursdayScript:
 	checkevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	iftrue .AlreadyBattledMorn
 	opentext
-	writetext DojoCalIntroText
+	writetext DojoGiovanniIntroText
 	waitbutton
 	closetext
-	winlosstext DojoCalWinLossText, 0
-	loadtrainer CAL, CAL4
+	winlosstext DojoGiovanniWinLossText, 0
+	loadtrainer GENTLEMAN, GIOVANNI
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_MORNING_TRAINER
 	opentext
 .AlreadyBattledMorn
-	writetext DojoCalDefeatText
+	writetext DojoGiovanniDefeatText
 	sjump FinishScript
 
 .DayScript
@@ -395,7 +395,7 @@ DojoTrainerFridayScript:
 	waitbutton
 	closetext
 	winlosstext DojoClairWinLossText, 0
-	loadtrainer RED, RED1
+	loadtrainer CLAIR, CLAIR2
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_DOJO_NIGHT_TRAINER
@@ -621,6 +621,23 @@ DojoCalIntroText:
 	text "Let's battle!"
 	done
 
+DojoGiovanniIntroText:
+	text "…What's a kid"
+	line "doing here?"
+
+	para "Don't tell me"
+	line "you're the one"
+
+	para "who… Never mind."
+	line "If you're here, it"
+
+	para "must be to battle."
+	line "Well then, I hope"
+
+	para "you can keep me"
+	line "entertained."
+	done
+
 DojoOakIntroText:
 	text "Oak: Ah, <PLAYER>!"
 	line "My grandson told"
@@ -816,6 +833,12 @@ DojoCalWinLossText:
 	text "You win… THANKS!"
 	done
 
+DojoGiovanniWinLossText:
+	text "Huh, I can see why"
+	line "Team Rocket were"
+	cont "defeated…"
+	done	
+
 DojoOakWinLossText:
 	text "Marvelous! You"
 	line "truly are a"
@@ -933,6 +956,15 @@ DojoFalknerWinLossText:
 ;Defeat Text
 DojoCalDefeatText:
 	text "Fine--next time!"
+	done
+
+DojoGiovanniDefeatText:
+	text "You are truly"
+	line "powerful, kid."
+
+	para "I hope you'll"
+	line "entertain me"
+	cont "another day."
 	done
 
 DojoOakDefeatText:

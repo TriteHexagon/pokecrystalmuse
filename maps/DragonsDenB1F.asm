@@ -331,7 +331,7 @@ CooltrainermDarinAfterBattleText:
 	text "The SHRINE ahead"
 	line "is home to the"
 
-	para "MASTER of our"
+	para "Master of our"
 	line "Dragon-user clan."
 
 	para "You're not allowed"
@@ -351,7 +351,7 @@ CooltrainerfCaraAfterBattleText:
 	text "Soon I'm going to"
 	line "get permission"
 
-	para "from our MASTER to"
+	para "from our Master to"
 	line "use dragons."
 
 	para "When I do, I'm"
@@ -360,7 +360,7 @@ CooltrainerfCaraAfterBattleText:
 	para "admirable dragon"
 	line "trainer and gain"
 
-	para "our MASTER's"
+	para "our Master's"
 	line "approval."
 	done
 
@@ -389,7 +389,7 @@ TwinsLeaandpia2BeatenText:
 TwinsLeaandpia2AfterBattleText:
 	text "We'll tell on you."
 
-	para "MASTER will be"
+	para "Master will be"
 	line "angry with you."
 	done
 
