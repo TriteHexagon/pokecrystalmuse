@@ -2914,7 +2914,6 @@ FurretEvosAttacks:
 HoothootEvosAttacks:
 	db EVOLVE_LEVEL, 20, NOCTOWL
 	db 0 ; no more evolutions
-	db 1, NIGHT_SHADE
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, FORESIGHT

@@ -17,26 +17,26 @@ FishingDudesHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "DUDE, the elder of"
-	cont "the FISHING BROS."
+	text "I am the Fishing"
+	line "Dude, the elder of"
+	cont "the Fishing Bros."
 
 	para "Have you met the"
-	line "FISHING GURU at"
+	line "Fishing Guru at"
 	cont "Lake of Rage?"
 
 	para "He dreams about"
 	line "seeing the world's"
-	cont "greatest MAGIKARP."
+	cont "greatest Magikarp."
 
 	para "If you don't mind,"
 	line "could you show him"
 
-	para "any MAGIKARP you"
+	para "any Magikarp you"
 	line "catch?"
 
 	para "Who knows, you may"
-	line "catch the MAGIKARP"
+	line "catch the Magikarp"
 	cont "of his dreams."
 	done
 

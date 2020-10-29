@@ -34,7 +34,7 @@ Moves:
     move SAND_ATTACK,   EFFECT_ACCURACY_DOWN,       0, GROUND,        STATUS,   100, 15,   0
     move HEADBUTT,      EFFECT_FLINCH_HIT,         70, NORMAL,        PHYSICAL, 100, 15,  30
     move FURY_ATTACK,   EFFECT_MULTI_HIT,          15, NORMAL,        PHYSICAL,  85, 20,   0
-    move TACKLE,        EFFECT_NORMAL_HIT,         35, NORMAL,        PHYSICAL,  95, 35,   0
+    move TACKLE,        EFFECT_NORMAL_HIT,         35, NORMAL,        PHYSICAL, 100, 35,   0
     move BODY_SLAM,     EFFECT_PARALYZE_HIT,       85, NORMAL,        PHYSICAL, 100, 15,  30
     move WRAP,          EFFECT_TRAP_TARGET,        15, NORMAL,        PHYSICAL,  90, 20,   0 ;altered
     move TAKE_DOWN,     EFFECT_RECOIL_HIT,         90, NORMAL,        PHYSICAL,  85, 20,   0

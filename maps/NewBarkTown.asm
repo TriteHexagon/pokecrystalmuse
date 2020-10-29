@@ -251,7 +251,7 @@ NewBarkTownRivalText1:
 
 	para "So this is the"
 	line "famous Elm #mon"
-	cont "LAB…"
+	cont "Lab…"
 	done
 
 NewBarkTownRivalText2:
@@ -272,7 +272,7 @@ NewBarkTownPlayersHouseSignText:
 	done
 
 NewBarkTownElmsLabSignText:
-	text "Elm #mon LAB"
+	text "Elm #mon Lab"
 	done
 
 NewBarkTownElmsHouseSignText:

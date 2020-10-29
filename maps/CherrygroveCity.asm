@@ -368,7 +368,7 @@ GuideGentPokecenterText:
 
 GuideGentMartText:
 	text "This is a #mon"
-	line "MART."
+	line "Mart."
 
 	para "They sell Balls"
 	line "for catching wild"
@@ -416,7 +416,7 @@ GotMapCardText:
 GuideGentPokegearText:
 	text "#Gear becomes"
 	line "more useful as you"
-	cont "add CARDS."
+	cont "add Cards."
 
 	para "I wish you luck on"
 	line "your journey!"
@@ -434,7 +434,7 @@ CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
 	para "You got a #mon"
-	line "at the LAB."
+	line "at the Lab."
 
 	para "What a waste."
 	line "A wimp like you."

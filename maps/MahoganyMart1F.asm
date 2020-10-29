@@ -175,7 +175,7 @@ MahoganyMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "MAGIKARP are just"
+	para "Magikarp are just"
 	line "worthless, but"
 
 	para "Gyarados are big"

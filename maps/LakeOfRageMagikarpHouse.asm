@@ -112,7 +112,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "It used to be that"
 	line "you could catch"
 
-	para "lively MAGIKARP"
+	para "lively Magikarp"
 	line "there, but…"
 
 	para "I don't understand"
@@ -131,13 +131,13 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	text "Lake of Rage is"
 	line "back to normal."
 
-	para "The MAGIKARP have"
+	para "The Magikarp have"
 	line "returned."
 
 	para "I may yet realize"
 	line "my dream of see-"
 	cont "ing the world's"
-	cont "largest MAGIKARP."
+	cont "largest Magikarp."
 
 	para "Do you have a Rod?"
 	line "Please help me if"
@@ -146,7 +146,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
 	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	line "Magikarp! Let's"
 
 	para "see how big that"
 	line "baby is."

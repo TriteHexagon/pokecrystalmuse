@@ -191,7 +191,7 @@ MahoganyTownGrampsText:
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
+	text "Magikarp have"
 	line "returned to Lake"
 	cont "of Rage."
 

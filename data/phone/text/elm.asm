@@ -192,7 +192,7 @@ ElmPhoneGiftText:
 	line "here for you."
 
 	para "Could you swing by"
-	line "my LAB?"
+	line "my Lab?"
 
 	para "See you later!"
 	done
@@ -205,7 +205,7 @@ ElmPhoneGotAholdOfSomethingNeatText:
 	para "I got ahold of"
 	line "something neat."
 
-	para "Swing by my LAB"
+	para "Swing by my Lab"
 	line "and pick it up!"
 
 	para "See you later!"

@@ -189,7 +189,7 @@ Binoculars2Text:
 
 Binoculars3Text:
 	text "A FISHER caught a"
-	line "lot of MAGIKARP…"
+	line "lot of Magikarp…"
 
 	para "They're SPLASHing"
 	line "at the same time!"

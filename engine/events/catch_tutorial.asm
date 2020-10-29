@@ -75,7 +75,7 @@ CatchTutorial::
 	ret
 
 .Dude:
-	db "DUDE@"
+	db "<PK><MN>Dude@"
 
 .AutoInput:
 	db NO_INPUT, $ff ; end

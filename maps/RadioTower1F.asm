@@ -337,7 +337,7 @@ RadioTower1FRadioCardWomanQuestion2Text:
 
 	para "You can't buy a"
 	line "Oran Berry at"
-	cont "a MART."
+	cont "a Mart."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:

@@ -247,7 +247,7 @@ LakeOfRageLanceForcedToEvolveText:
 	line "of Gyarados but"
 	cont "nothing else…"
 
-	para "So the MAGIKARP"
+	para "So the Magikarp"
 	line "are being forced"
 	cont "to evolve…"
 	done
@@ -284,7 +284,7 @@ LakeOfRageLanceRadioSignalText:
 	text "Lance: Excellent!"
 
 	para "It seems that the"
-	line "Lake's MAGIKARP"
+	line "Lake's Magikarp"
 
 	para "are being forced"
 	line "to evolve."
@@ -487,7 +487,7 @@ LakeOfRageSignText:
 	done
 
 FishingGurusHouseSignText:
-	text "FISHING GURU's"
+	text "Fishing Guru's"
 	line "House"
 	done
 

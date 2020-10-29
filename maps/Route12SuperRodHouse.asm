@@ -37,8 +37,8 @@ SuperRodHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 OfferSuperRodText:
-	text "I'm the FISHING"
-	line "GURU's younger"
+	text "I'm the Fishing"
+	line "Guru's younger"
 	cont "brother."
 
 	para "I can see that you"

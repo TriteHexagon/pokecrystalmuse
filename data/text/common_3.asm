@@ -801,7 +801,7 @@ _MobileCardFolderIntro2Text::
 	line "entered your phone"
 
 	para "number, you can"
-	line "trade CARDS with"
+	line "trade Cards with"
 	cont "your friends."
 
 	para ""
@@ -839,7 +839,7 @@ _MobileCardFolderAskDeleteText::
 	text "If the Card Folder"
 	line "is deleted, all"
 
-	para "its CARDS and the"
+	para "its Cards and the"
 	line "PASSCODE will also"
 	cont "be deleted."
 
