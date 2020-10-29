@@ -207,7 +207,6 @@ CaterpieEvosAttacks:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SCARY_FACE
 	db 0 ; no more level-up moves
 
 MetapodEvosAttacks:
@@ -238,7 +237,6 @@ WeedleEvosAttacks:
 	db EVOLVE_LEVEL, 7, KAKUNA
 	db 0 ; no more evolutions
 	db 1, POISON_STING
-	db 1, SCARY_FACE
 	db 0 ; no more level-up moves
 
 KakunaEvosAttacks:
@@ -2872,7 +2870,6 @@ FeraligatrEvosAttacks:
 SentretEvosAttacks:
 	db EVOLVE_LEVEL, 15, FURRET
 	db 0 ; no more evolutions
-	db 1, DIZZY_PUNCH
 	db 1, SCRATCH
 	db 1, FORESIGHT
 	db 4, DEFENSE_CURL
@@ -2892,6 +2889,7 @@ SentretEvosAttacks:
 
 FurretEvosAttacks:
 	db 0 ; no more evolutions
+	;db 1, DIZZY_PUNCH
 	db 1, SCRATCH
 	db 1, FORESIGHT
 	db 4, DEFENSE_CURL

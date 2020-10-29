@@ -3962,7 +3962,7 @@ TryToRunAwayFromBattle:
 	ld de, SFX_RUN
 	call WaitPlaySFX
 	pop de
-	call WaitSFX
+	;call WaitSFX - sound plays while the text box is writing
 	ld hl, BattleText_GotAwaySafely
 	call StdBattleTextbox
 	call WaitSFX
