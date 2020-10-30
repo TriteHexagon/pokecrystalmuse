@@ -20,7 +20,7 @@ BugContestantPointers:
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	dbw KAKUNA,     300
+	dbw SCYTHER,    357
 	dbw METAPOD,    285
 	dbw CATERPIE,   226
 
@@ -32,7 +32,7 @@ BugContestant_BugCatcherEd:
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
-	dbw SCYTHER,    357
+	dbw KAKUNA,     300
 	dbw BUTTERFREE, 349
 	dbw PINSIR,     368
 

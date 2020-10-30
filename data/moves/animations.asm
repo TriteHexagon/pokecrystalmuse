@@ -272,7 +272,7 @@ BattleAnimations::
 	dw BattleAnim_Par
 	dw BattleAnim_InLove
 	dw BattleAnim_InSandstorm
-	;dw BattleAnim_InNightmare
+	dw BattleAnim_InNightmare
 	dw BattleAnim_InWhirlpool
 	dw BattleAnim_Miss
 	dw BattleAnim_EnemyDamage
@@ -585,7 +585,7 @@ BattleAnim_InSandstorm:
 	anim_wait 8
 	anim_ret
 
-; BattleAnim_InNightmare:
+BattleAnim_InNightmare:
 ; 	anim_1gfx ANIM_GFX_ANGELS
 ; 	anim_sound 0, 0, SFX_BUBBLEBEAMX
 ; 	anim_obj ANIM_OBJ_IN_NIGHTMARE, 68, 80, $0

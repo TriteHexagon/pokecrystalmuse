@@ -20,7 +20,7 @@ IlexForestAzaleaGateOfficerText:
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The FOREST is"
+	text "The Forest is"
 	line "watched over by"
 	cont "its protector."
 

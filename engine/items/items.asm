@@ -62,6 +62,7 @@ _TossItem::
 	dw .KeyItem
 	dw .Ball
 	dw .TMHM
+	dw .Berry
 
 .Ball:
 	ld hl, wNumBalls

@@ -338,8 +338,8 @@ String1dc559:
 String1dc55d:
 	db   "Attack"
 	next "Defense"
-	next "Spcl.Atk"
-	next "Spcl.Def"
+	next "Sp.Atk"
+	next "Sp.Def"
 	next "Speed"
 	db   "@"
 

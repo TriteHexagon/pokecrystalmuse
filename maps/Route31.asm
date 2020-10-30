@@ -266,7 +266,7 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "Dark CAVE…"
+	text "Dark Cave…"
 
 	para "If #mon could"
 	line "light it up, I'd"
@@ -396,7 +396,7 @@ Route31YoungsterText:
 
 	para "I'm going to raise"
 	line "it to take on"
-	cont "FALKNER."
+	cont "Falkner."
 
 	para "He's the leader of"
 	line "Violet City's Gym."

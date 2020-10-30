@@ -57,7 +57,7 @@ AzaleaPokecenter1FFishingGuruText:
 
 AzaleaPokecenter1FPokefanFText:
 	text "Do you know about"
-	line "APRICORNS?"
+	line "Apricorns?"
 
 	para "Crack one open,"
 	line "hollow it out and"
@@ -72,7 +72,7 @@ AzaleaPokecenter1FPokefanFText:
 	line "were invented,"
 
 	para "everyone used"
-	line "APRICORNS."
+	line "Apricorns."
 	done
 
 AzaleaPokecenter1F_MapEvents:

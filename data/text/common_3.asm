@@ -476,7 +476,7 @@ _MartFinalPriceText::
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
+	text "(s)"
 	line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -505,7 +505,7 @@ _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
+	text "(s)"
 	line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -588,7 +588,7 @@ _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
+	text "(s)"
 	line "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
@@ -672,7 +672,7 @@ _MartBoughtText::
 	text " for"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "(s)."
 	done
 
 _SlotsBetHowManyCoinsText::

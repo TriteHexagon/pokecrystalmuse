@@ -29,7 +29,7 @@ TrainerGruntM29:
 	end
 
 TrainerGruntM1:
-	trainer GRUNTM, EXEC_PROTON_1, EVENT_BEAT_EXEC_PROTON_1, GruntM1SeenText, GruntM1BeatenText, 0, .Script
+	trainer EXECUTIVEM, EXEC_PROTON_1, EVENT_BEAT_EXEC_PROTON_1, GruntM1SeenText, GruntM1BeatenText, 0, .Script
 
 .Script:
 	opentext
@@ -222,7 +222,8 @@ GruntM29AfterBattleText:
 	done
 
 GruntM1SeenText:
-	text "What do you want?"
+	text "Proton: What do"
+	cont "you want?"
 
 	para "If you interrupt"
 	line "our work, don't"
@@ -236,9 +237,10 @@ GruntM1BeatenText:
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, Team Rocket"
-	line "was broken up"
-	cont "three years ago."
+	text "Proton: Yeah, Team"
+	line "Rocket was broken"
+	cont "up three years"
+	cont "ago."
 
 	para "But we continued"
 	line "our activities"

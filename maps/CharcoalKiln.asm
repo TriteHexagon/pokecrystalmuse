@@ -93,7 +93,7 @@ CharcoalKilnBossText2:
 	text "The Slowpoke have"
 	line "returned…"
 
-	para "But my APPRENTICE"
+	para "But my Apprentice"
 	line "hasn't come back"
 	cont "from Ilex Forest."
 
@@ -106,7 +106,7 @@ CharcoalKilnBossText3:
 	line "Team Rocket and"
 
 	para "went to ILEX"
-	line "FOREST alone?"
+	line "Forest alone?"
 
 	para "That takes guts!"
 	line "I like that. Come"

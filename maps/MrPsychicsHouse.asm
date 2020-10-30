@@ -42,7 +42,7 @@ MrPsychicText2:
 	text "TM29 is Psychic."
 
 	para "It may lower the"
-	line "target's SP.DEF."
+	line "target's Sp.Def."
 	done
 
 MrPsychicsHouse_MapEvents:

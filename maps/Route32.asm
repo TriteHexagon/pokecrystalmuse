@@ -544,7 +544,7 @@ Route32CooltrainerMText_AideIsWaiting:
 Route32CooltrainerMText_UnusedSproutTower:
 ; unused
 	text "Have you gone to"
-	line "SPROUT Tower?"
+	line "Sprout Tower?"
 
 	para "If you ever visit"
 	line "Violet City, "
@@ -554,7 +554,7 @@ Route32CooltrainerMText_UnusedSproutTower:
 
 	para "That's basic for"
 	line "trainers. Go to"
-	cont "SPROUT Tower!"
+	cont "Sprout Tower!"
 	done
 
 Route32CooltrainerMText_VioletGym:

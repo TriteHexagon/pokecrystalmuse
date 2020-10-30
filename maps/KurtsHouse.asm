@@ -510,7 +510,7 @@ KurtsHouseKurtHonoredToMakeBallsText:
 
 KurtsHouseKurtBallsFromApricornsText:
 	text "Kurt: I make Balls"
-	line "from APRICORNS."
+	line "from Apricorns."
 
 	para "Collect them from"
 	line "trees and bring"

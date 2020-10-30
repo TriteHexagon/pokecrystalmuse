@@ -66,7 +66,7 @@ SageEdmondBeatenText:
 
 SageEdmondAfterBattleText:
 	text "I tried to copy"
-	line "BELLSPROUT's"
+	line "Bellsprout's"
 
 	para "gentle movements"
 	line "for battle…"

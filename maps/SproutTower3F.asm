@@ -152,7 +152,7 @@ MovementData_0x184a24:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "ELDER: You are in-"
+	text "Elder: You are in-"
 	line "deed skilled as a"
 	cont "trainer."
 
@@ -177,7 +177,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	line "…Humph!"
 
 	para "He claims to be"
-	line "the ELDER but"
+	line "the Elder but"
 	cont "he's weak."
 
 	para "It stands to"
@@ -200,14 +200,14 @@ SproutTowerRivalOnlyCareAboutStrongText:
 
 SproutTowerRivalUsedEscapeRopeText:
 	text "<RIVAL> used an"
-	line "ESCAPE ROPE!"
+	line "Escape Rope!"
 	done
 
 SageLiSeenText:
 	text "So good of you to"
 	line "come here!"
 
-	para "SPROUT Tower is a"
+	para "Sprout Tower is a"
 	line "place of training."
 
 	para "People and #mon"
@@ -295,11 +295,11 @@ SageTroyBeatenText:
 
 SageTroyAfterBattleText:
 	text "It is not far to"
-	line "the ELDER."
+	line "the Elder."
 	done
 
 SageNealSeenText:
-	text "The ELDER's HM"
+	text "The Elder's HM"
 	line "lights even pitch-"
 	cont "black darkness."
 	done
@@ -317,7 +317,7 @@ SageNealAfterBattleText:
 SproutTower3FPaintingText:
 	text "It's a powerful"
 	line "painting of a"
-	cont "BELLSPROUT."
+	cont "Bellsprout."
 	done
 
 SproutTower3FStatueText:

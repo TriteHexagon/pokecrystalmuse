@@ -178,9 +178,9 @@ FalknerTMRoostText:
 	line "Roost."
 
 	para "It lets Flying-"
-	line "type #mon heal up"
+	line "type #mon heal"
 
-	para "to 50% of their"
+	para "up to 50% of their"
 	line "HP. It's a great"
 
 	para "resource in a"

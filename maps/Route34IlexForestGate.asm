@@ -126,7 +126,7 @@ Route34IlexForestGateLassText:
 	cont "the protector?"
 
 	para "It watches over"
-	line "the FOREST from"
+	line "the Forest from"
 	cont "across time."
 
 	para "I think that it"

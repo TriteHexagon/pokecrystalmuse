@@ -692,7 +692,6 @@ WigglytuffEvosAttacks:
 ZubatEvosAttacks:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0 ; no more evolutions
-	db 1, FLAIL
 	db 1, ABSORB
 	db 5, SUPERSONIC
 	db 10, BITE
@@ -1058,9 +1057,6 @@ ArcanineEvosAttacks:
 PoliwagEvosAttacks:
 	db EVOLVE_LEVEL, 25, POLIWHIRL
 	db 0 ; no more evolutions
-	db 1, GROWTH
-	db 1, LOVELY_KISS
-	db 1, SWEET_KISS
 	db 1, WATER_GUN
 	db 7, HYPNOSIS
 	db 11, SWIFT
@@ -1078,6 +1074,9 @@ PoliwhirlEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
 	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
+	db 1, GROWTH
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
 	db 1, WATER_GUN
 	db 1, HYPNOSIS
 	db 7, HYPNOSIS
@@ -1171,8 +1170,6 @@ MachampEvosAttacks:
 BellsproutEvosAttacks:
 	db EVOLVE_LEVEL, 21, WEEPINBELL
 	db 0 ; no more evolutions
-	db 1, LOVELY_KISS
-	db 1, SWEET_KISS
 	db 1, VINE_WHIP
 	db 4, GROWTH
 	db 8, WRAP
@@ -1189,6 +1186,8 @@ BellsproutEvosAttacks:
 WeepinbellEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, VICTREEBEL
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
 	db 1, VINE_WHIP
 	db 1, GROWTH
 	db 1, WRAP
@@ -1206,6 +1205,8 @@ WeepinbellEvosAttacks:
 
 VictreebelEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LOVELY_KISS
+	db 1, SWEET_KISS
 	db 1, VINE_WHIP
 	db 1, SLEEP_POWDER
 	db 1, SWEET_SCENT
@@ -3797,7 +3798,6 @@ SnubbullEvosAttacks:
 	db 1, LOVELY_KISS
 	db 1, POUND ;replace Tackle
 	db 1, SCARY_FACE
-	db 1, TAIL_WHIP
 	db 1, CHARM
 	db 7, BITE
 	db 13, LICK
@@ -3815,7 +3815,6 @@ GranbullEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND ;replace Tackle
 	db 1, SCARY_FACE
-	db 1, TAIL_WHIP
 	db 1, CHARM
 	db 7, BITE
 	db 13, LICK

@@ -69,7 +69,7 @@ SproutTower1FSage1Text:
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT Tower was"
+	text "Sprout Tower was"
 	line "built long ago"
 
 	para "as a place for"
@@ -77,7 +77,7 @@ SproutTower1FSage2Text:
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
+	text "A Bellsprout over"
 	line "100 feet tall…"
 
 	para "People say that it"
