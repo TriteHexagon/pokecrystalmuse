@@ -322,10 +322,10 @@ RattataEvosAttacks:
 	db 6, QUICK_ATTACK
 	db 9, FOCUS_ENERGY
 	db 12, BITE
-	db 15, TAKE_DOWN
-	db 18, CRUNCH
-	db 21, SUPER_FANG
-	db 24, FAKE_OUT
+	db 15, FAKE_OUT
+	db 18, SUPER_FANG 
+	db 21, TAKE_DOWN 
+	db 24, CRUNCH
 	db 27, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -339,11 +339,11 @@ RaticateEvosAttacks:
 	db 6, QUICK_ATTACK
 	db 9, FOCUS_ENERGY
 	db 12, BITE
-	db 15, TAKE_DOWN
-	db 18, CRUNCH
+	db 15, FAKE_OUT
+	db 18, SUPER_FANG
 	db 19, SCARY_FACE ;evolution move
-	db 24, SUPER_FANG
-	db 30, FAKE_OUT
+	db 24, TAKE_DOWN
+	db 30, CRUNCH
 	db 35, DOUBLE_EDGE
 	db 40, SWORDS_DANCE
 	db 0 ; no more level-up moves
@@ -695,9 +695,9 @@ ZubatEvosAttacks:
 	db 1, ABSORB
 	db 5, SUPERSONIC
 	db 10, BITE
-	db 13, WING_ATTACK
+	db 13, QUICK_ATTACK 
 	db 17, CONFUSE_RAY
-	db 19, QUICK_ATTACK ;replace Air Cutter
+	db 19, WING_ATTACK ;replace Air Cutter 
 	db 23, SWIFT
 	db 25, POISON_FANG
 	db 29, MEAN_LOOK 
@@ -715,9 +715,9 @@ CrobatEvosAttacks:
 	db 1, ABSORB
 	db 5, SUPERSONIC
 	db 10, BITE
-	db 13, WING_ATTACK
+	db 13, QUICK_ATTACK 
 	db 17, CONFUSE_RAY
-	db 19, QUICK_ATTACK ;replace Air Cutter
+	db 19, WING_ATTACK ;replace Air Cutter
 	db 21, SCREECH ;evolution move
 	db 24, SWIFT
 	db 27, POISON_FANG
@@ -732,7 +732,6 @@ CrobatEvosAttacks:
 OddishEvosAttacks:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0 ; no more evolutions
-	db 1, LEECH_SEED
 	db 1, ABSORB
 	db 1, GROWTH
 	db 5, SWEET_SCENT
@@ -754,6 +753,7 @@ GloomEvosAttacks:
 	db EVOLVE_ITEM, LEAF_STONE, VILEPLUME
 	db EVOLVE_ITEM, SUN_STONE, BELLOSSOM
 	db 0 ; no more evolutions
+	db 1, LEECH_SEED
 	db 1, ABSORB
 	db 1, GROWTH
 	db 5, SWEET_SCENT

@@ -1277,7 +1277,7 @@ _ItemCantUseOnMonText::
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
+	text "The Repel used"
 	line "earlier is still"
 	cont "in effect."
 	prompt

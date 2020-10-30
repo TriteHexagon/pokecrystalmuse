@@ -49,7 +49,7 @@ HiddenPowerGuyText1:
 
 HiddenPowerGuyText2:
 	text "Do you see it? It"
-	line "is HIDDEN POWER!"
+	line "is HIDDEN power!"
 
 	para "It draws out the"
 	line "power of #mon"

@@ -105,7 +105,7 @@ CharcoalKilnBossText3:
 	text "You chased off"
 	line "Team Rocket and"
 
-	para "went to ILEX"
+	para "went to Ilex"
 	line "Forest alone?"
 
 	para "That takes guts!"

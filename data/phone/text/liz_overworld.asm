@@ -23,8 +23,8 @@ LizAskNumber2Text:
 	done
 
 LizNumberAcceptedText:
-	text "I'll telephone you"
-	line "if I hear anything"
+	text "I'll call you if"
+	line "I hear anything"
 	cont "interesting."
 	done
 

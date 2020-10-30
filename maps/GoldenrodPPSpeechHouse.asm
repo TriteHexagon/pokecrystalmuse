@@ -29,7 +29,7 @@ GoldenrodPPSpeechHouseFisherText:
 	para "#mon couldn't"
 	line "make any moves."
 
-	para "The POWER POINTS,"
+	para "The power Points,"
 	line "or PP, of its"
 
 	para "moves were all"

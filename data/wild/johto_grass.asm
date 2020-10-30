@@ -418,29 +418,29 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	db 10, GEODUDE
+	db 10, SANDSHREW
+	db 9,  ZUBAT
+	db 8,  RATTATA
+	db 11, ZUBAT
+	db 10, ONIX
+	db 10, ONIX
 	; day
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	db 10, GEODUDE
+	db 10, SANDSHREW
+	db 9,  ZUBAT
+	db 8,  RATTATA
+	db 11, ZUBAT
+	db 10, ONIX
+	db 10, ONIX
 	; eve-nite
-	db 6, GEODUDE
-	db 6, RATTATA
-	db 5, WOOPER
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	db 10, GEODUDE
+	db 10, SANDSHREW
+	db 9,  WOOPER
+	db 8,  RATTATA
+	db 11, ZUBAT
+	db 10, ONIX
+	db 10, ONIX
 
 	map_id UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
@@ -499,29 +499,29 @@ JohtoGrassWildMons:
 	map_id SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
 	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 9, ZUBAT
+	db 10, ZUBAT
+	db 9, SLOWPOKE
+	db 11, ZUBAT
+	db 11, SLOWPOKE
+	db 12, SLOWPOKE
 	; day
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
 	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 9, ZUBAT
+	db 10, ZUBAT
+	db 9, SLOWPOKE
+	db 11, ZUBAT
+	db 11, SLOWPOKE
+	db 12, SLOWPOKE
 	; eve-nite
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
 	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 9, ZUBAT
+	db 10, ZUBAT
+	db 9, SLOWPOKE
+	db 11, ZUBAT
+	db 11, SLOWPOKE
+	db 12, SLOWPOKE
 
 	map_id SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/eve-nite
@@ -553,29 +553,29 @@ JohtoGrassWildMons:
 	map_id ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, METAPOD
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 9, CATERPIE
+	db 9, WEEDLE
+	db 11, METAPOD
+	db 11, KAKUNA
+	db 11, PIDGEY
+	db 10, PARAS
+	db 10, PARAS
 	; day
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, METAPOD
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 9, CATERPIE
+	db 9, WEEDLE
+	db 11, METAPOD
+	db 11, KAKUNA
+	db 11, PIDGEY
+	db 10, PARAS
+	db 10, PARAS
 	; eve-nite
-	db 5, ODDISH
-	db 5, VENONAT
-	db 7, ODDISH
-	db 7, PSYDUCK
-	db 7, HOOTHOOT
-	db 6, PARAS
-	db 6, PARAS
+	db 9, ODDISH
+	db 9, VENONAT
+	db 11, ODDISH
+	db 11, PSYDUCK
+	db 11, HOOTHOOT
+	db 10, PARAS
+	db 10, PARAS
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
@@ -662,17 +662,17 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/eve-nite
 	; morn
 	db 15, ZUBAT
-	db 17, ZUBAT
+	db 17, MACHOP
 	db 17, GOLBAT
-	db 16, MACHOP
+	db 16, CUBONE
 	db 16, GEODUDE
 	db 18, RATICATE
 	db 18, RATICATE
 	; day
 	db 15, ZUBAT
-	db 17, ZUBAT
+	db 17, MACHOP
 	db 17, GOLBAT
-	db 16, MACHOP
+	db 16, CUBONE
 	db 16, GEODUDE
 	db 18, RATICATE
 	db 18, RATICATE

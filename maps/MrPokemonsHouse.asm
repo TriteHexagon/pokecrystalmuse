@@ -338,7 +338,7 @@ MrPokemonText_GimmeTheScale:
 	line "care to trade it?"
 
 	para "I can offer this"
-	line "EXP.SHARE I got"
+	line "EXP.Share I got"
 	cont "from Prof.Oak."
 	done
 

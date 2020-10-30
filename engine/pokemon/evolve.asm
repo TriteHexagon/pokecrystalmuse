@@ -302,6 +302,8 @@ EvolveAfterBattle_MasterLoop:
 	ld [wTempSpecies], a
 	xor a
 	ld [wMonType], a
+	ld de, MUSIC_CAPTURE
+	call PlayMusic
 	call LearnEvolutionMove
 	call LearnLevelMoves
 	ld a, [wTempSpecies]

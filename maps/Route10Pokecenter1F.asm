@@ -74,7 +74,7 @@ Route10Pokecenter1FCooltrainerFText:
 	para "the roof of a big"
 	line "building."
 
-	para "That's the POWER"
+	para "That's the power"
 	line "PLANT."
 	done
 

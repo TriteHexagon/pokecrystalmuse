@@ -697,23 +697,23 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
-	next "TYPE/@"
+	db   "Status/"
+	next "Type/@"
 
 .OK_str:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "EXP Points@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "Level Up@"
 
 .ToStr:
-	db "TO@"
+	db "To@"
 
 .PkrsStr:
-	db "#RUS@"
+	db "#rus@"
 
 LoadGreenPage:
 	ld de, .Item

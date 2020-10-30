@@ -148,7 +148,7 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "Kanto's POWER"
+	text "Kanto's power"
 	line "PLANT?"
 
 	para "It's near the end"

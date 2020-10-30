@@ -43,7 +43,7 @@ Route6SaffronGuardWelcomeText:
 	para "because there's"
 	line "something wrong"
 
-	para "with the POWER"
+	para "with the power"
 	line "PLANT."
 	done
 

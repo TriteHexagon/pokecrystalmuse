@@ -1311,12 +1311,12 @@ _BugCatchingContestIsOverText::
 	done
 
 _RepelWoreOffText::
-	text "REPEL's effect"
+	text "Repel's effect"
 	line "wore off."
 	done
 
 _UseAnotherRepelText::
-	text "REPEL's effect"
+	text "Repel's effect"
 	line "wore off."
 
 	para "Use another?"

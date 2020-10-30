@@ -387,7 +387,7 @@ GiveTakeItemMenuData:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; # items
 	db "Give@"
-	db "TAKE@"
+	db "Take@"
 
 PokemonSwapItemText:
 	text_far _PokemonSwapItemText

@@ -21,7 +21,7 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "REPEL is a neces-"
+	text "Repel is a neces-"
 	line "sity if you are"
 
 	para "going to explore a"

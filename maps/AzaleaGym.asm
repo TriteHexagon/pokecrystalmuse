@@ -293,34 +293,34 @@ BugCatcherJoshAfterBattleText:
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
+	text "Amy: Hi! Are you"
 	line "challenging the"
 	cont "Leader? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
+	text "Amy & May: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
+	text "Amy: You're"
 	line "really strong!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
+	text "May: You want to"
 	line "see the Leader?"
 	cont "We come first!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
+	text "Amy & May: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
+	text "May: Our bug #-"
 	line "mon lost! Oh, what"
 	cont "a shame."
 	done

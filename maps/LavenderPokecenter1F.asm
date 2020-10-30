@@ -73,7 +73,7 @@ LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
 	para "He said they're"
 	line "back on the air"
 
-	para "because the POWER"
+	para "because the power"
 	line "PLANT is running"
 	cont "smoothly again."
 	done
