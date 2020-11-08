@@ -2032,8 +2032,7 @@ HorseaEvosAttacks:
 	db 1, WATER_GUN
 	db 5, SMOKESCREEN
 	db 9, LEER
-	db 13, WATER_GUN
-	db 17, DRAGONBREATH ;replace Twister
+	db 15, DRAGONBREATH ;replace Twister
 	db 21, WATER_PULSE ;replace BubbleBeam
 	db 26, FOCUS_ENERGY
 	db 31, OCTAZOOKA ;replace Brine
@@ -2051,8 +2050,7 @@ KingdraEvosAttacks:
 	db 1, WATER_GUN
 	db 5, SMOKESCREEN
 	db 9, LEER
-	db 13, WATER_GUN
-	db 17, DRAGONBREATH ;replace Twister
+	db 15, DRAGONBREATH ;replace Twister
 	db 21, WATER_PULSE ;replace BubbleBeam
 	db 26, FOCUS_ENERGY
 	db 31, OCTAZOOKA ;replace Brine
