@@ -119,7 +119,7 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 
 	para "You'll be OK,"
 	line "then. Here's the"
-	cont "SQUIRTBOTTLE!"
+	cont "SquirtBottle!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:

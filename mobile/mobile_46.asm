@@ -5460,7 +5460,7 @@ Text_RegisteringRecord:
 
 Text_BattleRoomVisitLimit:
 	text "One visit per day"
-	line "per BATTLE ROOM!"
+	line "per Battle Room!"
 	done
 
 Text_PartyMonTopsThisLevel:
@@ -5471,15 +5471,15 @@ Text_PartyMonTopsThisLevel:
 Text_UberRestriction:
 	text_ram wcd49
 	text " may go"
-	line "only to BATTLE"
+	line "only to Battle"
 
 	para "ROOMS that are"
 	line "Lv.70 or higher."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Cancel your Battle"
+	line "Room challenge?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
@@ -5498,22 +5498,22 @@ Text_WhatLevelDoYouWantToChallenge:
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
+	text "Check Battle Room"
 	line "list by max level?"
 	done
 
 Text_EnterWhichBattleRoom:
 	text "Enter which"
-	line "BATTLE ROOM?"
+	line "Battle Room?"
 	done
 
 Text_WhichBattleRoom:
-	text "Which BATTLE ROOM?"
+	text "Which Battle Room?"
 	done
 
 Text_ThisBattleRoomPleaseWait:
 	text_ram wStringBuffer3
-	text "'s ROOM"
+	text "'s Room"
 	line "@"
 	text_ram wStringBuffer4
 	text "?"

@@ -188,7 +188,6 @@ KRIS EQU __trainer_class__
 	const VANCE3
 
 	trainerclass LASS ; 19
-	const CARRIE
 	const BRIDGET
 	const ALICE
 	const KRISE
@@ -277,6 +276,8 @@ KRIS EQU __trainer_class__
 	const THERESA
 	const VALERIE
 	const OLIVIA
+	const CALLIE
+	const KASS
 
 	trainerclass POKEMANIAC ; 1e
 	const LARRY
@@ -738,5 +739,6 @@ KRIS EQU __trainer_class__
 	const ANNA
 	const LAURA
 	const KIM
+	const CARRIE
 
 NUM_TRAINER_CLASSES EQU __trainer_class__

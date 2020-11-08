@@ -175,7 +175,7 @@ PokemaniacEthanBeatenText:
 
 PokemaniacEthanAfterBattleText:
 	text "LILY's nice, but"
-	line "MARY's the best!"
+	line "Mary's the best!"
 
 	para "I want to check"
 	line "out Johto's radio"

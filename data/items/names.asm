@@ -98,8 +98,8 @@ ItemNames::
 	db "WHT Apricorn@"
 	db "Blackbelt@"
 	db "BLK Apricorn@"
-	db "Link Cable@" ;unused
-	db "Pnk Apricorn@"
+	db "Link Cable@"
+	db "PNK Apricorn@"
 	db "Blackglasses@"
 	db "SlowpokeTail@"
 	db "Silk Scarf@"

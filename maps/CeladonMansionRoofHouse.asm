@@ -54,7 +54,7 @@ CeladonMansionRoofHousePharmacistStoryText:
 	line "there was a little"
 
 	para "boy who was given"
-	line "a new BICYCLE…"
+	line "a new Bicycle…"
 
 	para "He wanted to try"
 	line "it right away…"

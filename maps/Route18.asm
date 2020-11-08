@@ -62,7 +62,7 @@ BirdKeeperBobBeatenText:
 
 BirdKeeperBobAfterBattleText:
 	text "If you don't have"
-	line "a BICYCLE, you're"
+	line "a Bicycle, you're"
 
 	para "not allowed to use"
 	line "the shortcut."

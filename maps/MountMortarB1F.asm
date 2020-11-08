@@ -76,7 +76,7 @@ MountMortarB1FKiyoIntroText:
 	text "Hey!"
 
 	para "I am the KARATE"
-	line "KING!"
+	line "King!"
 
 	para "I train alone here"
 	line "in the dark!"

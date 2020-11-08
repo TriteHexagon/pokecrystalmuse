@@ -1491,7 +1491,7 @@ Function28926:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "Stats     Trade@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -1942,7 +1942,7 @@ Function28ea3:
 	jp InitTradeMenuDisplay
 
 String28eab:
-	db   "TRADE"
+	db   "Trade"
 	next "CANCEL@"
 
 LinkAskTradeForText:

@@ -124,7 +124,7 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "Vermilion PORT is"
+	text "Vermilion Port is"
 	line "Kanto's seaside"
 	cont "gateway."
 
@@ -250,7 +250,7 @@ VermilionGymSignText:
 	done
 
 PokemonFanClubSignText:
-	text "#mon FAN CLUB"
+	text "#mon Fan Club"
 
 	para "All #mon Fans"
 	line "Welcome!"
@@ -261,8 +261,8 @@ VermilionCityDiglettsCaveSignText:
 	done
 
 VermilionCityPortSignText:
-	text "Vermilion PORT"
-	line "ENTRANCE"
+	text "Vermilion Port"
+	line "Entrance"
 	done
 
 VermilionCity_MapEvents:

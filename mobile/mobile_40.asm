@@ -2010,7 +2010,7 @@ Function100d67:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3
 	db "いれかえる@"  ; TRADE
-	db "つよさをみる@" ; STATS
+	db "つよさをみる@" ; Stats
 	db "キャンセル@"  ; CANCEL
 
 Function100da5:
@@ -5674,7 +5674,7 @@ Function1027eb:
 	ret
 
 .Stats_Trade:
-	db "STATS     TRADE@"
+	db "Stats     TRADE@"
 
 Function102814:
 	ld a, [wMenuCursorY]

@@ -36,7 +36,7 @@ IrwinJasmineReturnedGossipText:
 	para "You saved that"
 	line "#mon at the"
 
-	para "LIGHTHOUSE, didn't"
+	para "Lighthouse, didn't"
 	line "you?"
 
 	para "<PLAY_G>, I wish"

@@ -151,7 +151,7 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 UnknownText_0x61072:
 	text "Hello! Welcome to"
 	line "#Com Center"
-	cont "TRADE CORNER."
+	cont "Trade Corner."
 
 	para "You can trade"
 	line "#mon with other"
@@ -391,7 +391,7 @@ UnknownText_0x617d2:
 	line "quick briefing."
 
 	para "Trades held at the"
-	line "TRADE CORNER are"
+	line "Trade Corner are"
 
 	para "between two"
 	line "trainers who don't"
@@ -402,7 +402,7 @@ UnknownText_0x617d2:
 	para "As a result, it"
 	line "may take time."
 
-	para "However, an ODD"
+	para "However, an Odd"
 	line "Egg is available"
 	cont "just for you."
 
@@ -413,7 +413,7 @@ UnknownText_0x617d2:
 	line "of the rooms in"
 
 	para "the Center."
-	line "An ODD Egg will be"
+	line "An Odd Egg will be"
 
 	para "sent from the"
 	line "chosen room."
@@ -543,7 +543,7 @@ UnknownText_0x61c89:
 UnknownText_0x61cef:
 	text "I thought up a fun"
 	line "new thing for the"
-	cont "TRADE CORNER!"
+	cont "Trade Corner!"
 
 	para "I make a Pidgey"
 	line "hold Mail, then"
@@ -660,7 +660,7 @@ UnknownText_0x620a1:
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
+	text "The Colosseum"
 	line "upstairs is for"
 	cont "link battles."
 
@@ -738,7 +738,7 @@ UnknownText_0x62370:
 	line "ADMINISTRATION"
 
 	para "Center:"
-	line "TRADE CORNER"
+	line "Trade Corner"
 
 	para "Right:"
 	line "#mon News"
@@ -758,7 +758,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 	para "Oh! Do you happen"
 	line "to have something"
-	cont "named EON Mail?"
+	cont "named Eon Mail?"
 
 	para "My daughter is"
 	line "after one."
@@ -768,7 +768,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
+	text "Give away an Eon"
 	line "Mail?"
 	done
 
@@ -797,7 +797,7 @@ GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
 	text "<PLAYER> gave away"
-	line "the EON Mail."
+	line "the Eon Mail."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

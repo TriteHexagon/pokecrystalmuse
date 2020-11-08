@@ -198,7 +198,7 @@ GoldenrodDeptStore5FDirectoryText:
 	text "Customize Your"
 	line "#mon"
 
-	para "5F TM CORNER"
+	para "5F TM Corner"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

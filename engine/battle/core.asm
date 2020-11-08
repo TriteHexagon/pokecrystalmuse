@@ -5192,7 +5192,7 @@ BattleMenuPKMN_Loop:
 	ld a, [wMenuCursorY]
 	cp $1 ; SWITCH
 	jp z, TryPlayerSwitch
-	cp $2 ; STATS
+	cp $2 ; Stats
 	jr z, .Stats
 	cp $3 ; CANCEL
 	jr z, .Cancel
@@ -8589,11 +8589,11 @@ DisplayLinkBattleResult:
 	ret
 
 .YouWin:
-	db "YOU WIN@"
+	db "You Win@"
 .YouLose:
-	db "YOU LOSE@"
+	db "You Lose@"
 .Draw:
-	db "  DRAW@"
+	db "  Draw@"
 
 .Mobile_InvalidBattle:
 	hlcoord 6, 8
@@ -8605,7 +8605,7 @@ DisplayLinkBattleResult:
 	ret
 
 .InvalidBattle:
-	db "INVALID BATTLE@"
+	db "Invalid Battle@"
 
 IsMobileBattle2:
 	ld a, [wLinkMode]

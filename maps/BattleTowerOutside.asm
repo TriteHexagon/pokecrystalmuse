@@ -32,7 +32,7 @@ BattleTowerOutsideSign:
 
 BattleTowerOutsideYoungsterText_NotYetOpen:
 ; unreferenced
-	text "Wow, the BATTLE"
+	text "Wow, the Battle"
 	line "Tower is huge! My"
 
 	para "neck is tired from"
@@ -41,7 +41,7 @@ BattleTowerOutsideYoungsterText_NotYetOpen:
 
 BattleTowerOutsideYoungsterText_Mobile:
 ; unreferenced
-	text "Wow, the BATTLE"
+	text "Wow, the Battle"
 	line "Tower is huge!"
 
 	para "Since there are a"
@@ -55,7 +55,7 @@ BattleTowerOutsideYoungsterText_Mobile:
 	done
 
 BattleTowerOutsideYoungsterText:
-	text "Wow, the BATTLE"
+	text "Wow, the Battle"
 	line "Tower is huge!"
 
 	para "There must be many"

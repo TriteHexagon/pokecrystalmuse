@@ -25,7 +25,6 @@ MomItems_1:
 	momitem      0,   800, MOM_ITEM, QUICK_BALL
 	momitem      0,   800, MOM_ITEM, REPEAT_BALL
 	momitem      0,  2300, MOM_ITEM, SILVER_LEAF
-	momitem      0,  2300, MOM_ITEM, SILVER_LEAF
 .End
 
 ;momitem  00,  4950, MOM_DOLL, DECO__DOLL

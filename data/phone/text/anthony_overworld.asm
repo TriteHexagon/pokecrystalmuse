@@ -1,6 +1,6 @@
 AnthonyAskNumber1Text:
 	text "By the way, I'm a"
-	line "HIKER, so I often"
+	line "Hiker, so I often"
 
 	para "go to mountains"
 	line "and caves."

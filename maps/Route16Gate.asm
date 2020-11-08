@@ -55,7 +55,7 @@ Route16GateCannotPassText:
 	line "on the CYCLING"
 
 	para "ROAD without a"
-	line "BICYCLE."
+	line "Bicycle."
 	done
 
 Route16Gate_MapEvents:

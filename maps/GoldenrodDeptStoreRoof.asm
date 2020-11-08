@@ -157,7 +157,7 @@ GoldenrodDeptStoreRoofBugCatcherText:
 	line "chips are down…"
 
 	para "So I came to buy"
-	line "some FULL Heal."
+	line "some Full Heal."
 
 	para "I wonder if"
 	line "there's any left?"

@@ -11,7 +11,7 @@ _HeyItsFruitText::
 	done
 
 _ObtainedFruitText::
-	text "Obtained"
+	text "Obtained some"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
@@ -520,7 +520,7 @@ _OPT_IntroText2::
 
 _OPT_IntroText3::
 	text_start
-	line "With me, MARY!"
+	line "With me, Mary!"
 	done
 
 _OPT_OakText1::
@@ -780,7 +780,7 @@ _BenFernText3B::
 
 _LC_Text1::
 	text_start
-	line "REED: Yeehaw! How"
+	line "Reed: Yeehaw! How"
 	done
 
 _LC_Text2::
@@ -805,7 +805,7 @@ _LC_Text5::
 
 _LC_Text6::
 	text_start
-	line "LUCKY NUMBER SHOW!"
+	line "Lucky NUMBER SHOW!"
 	done
 
 _LC_Text7::

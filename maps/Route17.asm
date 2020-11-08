@@ -81,7 +81,7 @@ BikerRileyAfterBattleText:
 
 BikerJoelSeenText:
 	text "Wow. That's a cool"
-	line "BICYCLE!"
+	line "Bicycle!"
 	done
 
 BikerJoelBeatenText:

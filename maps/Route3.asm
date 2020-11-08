@@ -124,7 +124,7 @@ FirebreatherBurtAfterBattleText:
 	done
 
 Route3MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "Mt.Moon SQUARE"
 
 	para "Just go up the"
 	line "stairs."

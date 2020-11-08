@@ -100,7 +100,7 @@ _DebugRoom:
 	db "BTL REC CLR@"
 	db "#dex CLR@"
 	db "HALT CHK CLR@"
-	db "BATTLE SKIP@"
+	db "Battle SKIP@"
 	db "HOF CLEAR@"
 	db "ROM CHECKSUM@"
 	db "TEL DEBUG@"
@@ -1225,7 +1225,7 @@ DebugRoom_SavePokemon:
 	done
 
 .BoxIsFullText:
-	text "Box IS FULL!"
+	text "Box IS Full!"
 	done
 
 DebugRoom_PrintPokemonName:

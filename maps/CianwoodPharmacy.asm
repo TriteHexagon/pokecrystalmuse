@@ -47,7 +47,7 @@ PharmacistGiveSecretpotionText:
 
 	para "…"
 
-	para "The LIGHTHOUSE"
+	para "The Lighthouse"
 	line "#mon is in"
 	cont "trouble?"
 

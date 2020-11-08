@@ -91,7 +91,7 @@ PicnickerHopeBeatenText:
 
 PicnickerHopeAfterBattleText:
 	text "I heard Clefairy"
-	line "appear at MT.MOON."
+	line "appear at Mt.Moon."
 
 	para "But where could"
 	line "they be?"
@@ -112,7 +112,7 @@ PicnickerSharonAfterBattleText:
 	done
 
 MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "Mt.Moon SQUARE"
 
 	para "Just go up the"
 	line "stairs."

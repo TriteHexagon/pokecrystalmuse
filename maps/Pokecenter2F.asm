@@ -799,7 +799,7 @@ Pokecenter2FMovementData_ReceptionistStepsRightLooksLeft_2:
 
 Text_BattleReceptionistMobile:
 	text "Would you like to"
-	line "battle over a GAME"
+	line "battle over a Game"
 
 	para "LINK cable or by"
 	line "mobile phone?"
@@ -807,7 +807,7 @@ Text_BattleReceptionistMobile:
 
 Text_TradeReceptionistMobile:
 	text "Would you like to"
-	line "trade over a GAME"
+	line "trade over a Game"
 
 	para "LINK cable or by"
 	line "mobile phone?"
@@ -815,12 +815,12 @@ Text_TradeReceptionistMobile:
 
 Text_ThisWayToMobileRoom:
 	text "This way to the"
-	line "MOBILE ROOM."
+	line "Mobile Room."
 	done
 
 Text_BattleReceptionistIntro:
 	text "Welcome to CABLE"
-	line "CLUB COLOSSEUM."
+	line "Club Colosseum."
 
 	para "You may battle a"
 	line "friend here."
@@ -831,7 +831,7 @@ Text_BattleReceptionistIntro:
 
 Text_TradeReceptionistIntro:
 	text "Welcome to CABLE"
-	line "TRADE Center."
+	line "Trade Center."
 
 	para "You may trade your"
 	line "#mon here with"
@@ -843,7 +843,7 @@ Text_TradeReceptionistIntro:
 
 Text_TimeCapsuleReceptionistIntro:
 	text "Welcome to CABLE"
-	line "CLUB TIME CAPSULE."
+	line "Club Time Capsule."
 
 	para "You can travel to"
 	line "the past and trade"
@@ -937,19 +937,19 @@ Text_RejectMonWithMail:
 
 Text_TimeCapsuleClosed:
 	text "I'm sorry--the"
-	line "TIME CAPSULE is"
+	line "Time Capsule is"
 	cont "being adjusted."
 	done
 
 Text_TradeRoomClosed:
 	text "I'm sorry--the"
-	line "TRADE MACHINE is"
+	line "Trade MACHINE is"
 	cont "being adjusted."
 	done
 
 Text_BattleRoomClosed:
 	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
+	line "Battle MACHINE is"
 	cont "being adjusted."
 	done
 

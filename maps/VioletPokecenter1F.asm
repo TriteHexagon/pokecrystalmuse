@@ -176,7 +176,7 @@ VioletPokecenterMobileAdapterText:
 	cont "over a link."
 
 	para "If you connect a"
-	line "MOBILE ADAPTER,"
+	line "Mobile ADAPTER,"
 
 	para "you can link with"
 	line "a friend far away."

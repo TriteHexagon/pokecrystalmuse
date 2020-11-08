@@ -223,7 +223,7 @@ RadioTower1FReceptionistNoToursText:
 
 RadioTower1FLuckyNumberManAskToPlayText:
 	text "Hi, are you here"
-	line "for the LUCKY NUM-"
+	line "for the Lucky NUM-"
 	cont "BER SHOW?"
 
 	para "Want me to check"
@@ -254,7 +254,7 @@ RadioTower1FLuckyNumberManDotDotDotText:
 RadioTower1FLuckyNumberManComeAgainText:
 	text "Please come back"
 	line "next week for the"
-	cont "next LUCKY NUMBER."
+	cont "next Lucky NUMBER."
 	done
 
 RadioTower1FLuckyNumberManPerfectMatchText:
@@ -364,10 +364,10 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do Goldenrod GAME"
-	line "CORNER's slots"
+	para "Do Goldenrod Game"
+	line "Corner's slots"
 
-	para "have CHARMANDER"
+	para "have Charmander"
 	line "on their reels?"
 	done
 
@@ -461,7 +461,7 @@ RadioTower1FDirectoryText:
 	done
 
 RadioTower1FLuckyChannelSignText:
-	text "LUCKY Channel!"
+	text "Lucky Channel!"
 
 	para "Win with #mon"
 	line "ID numbers!"

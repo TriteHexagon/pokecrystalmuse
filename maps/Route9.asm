@@ -85,7 +85,7 @@ Route9HiddenEther:
 
 CamperDeanSeenText:
 	text "I came to explore"
-	line "ROCK Tunnel."
+	line "Rock Tunnel."
 	done
 
 CamperDeanBeatenText:

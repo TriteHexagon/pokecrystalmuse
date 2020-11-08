@@ -50,7 +50,7 @@ GoldenrodDeptStore3FDirectoryText:
 	text "For Victory"
 	line "Seekers"
 
-	para "3F BATTLE"
+	para "3F Battle"
 	line "   COLLECTION"
 	done
 

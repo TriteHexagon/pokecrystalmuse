@@ -13,7 +13,7 @@ ENDM
 Moves:
 ; entries correspond to constants/move_constants.asm
     move POUND,         EFFECT_NORMAL_HIT,         40, FAIRY,         PHYSICAL, 100, 35,   0 ;altered
-    move DOUBLESLAP,    EFFECT_MULTI_HIT,          15, FAIRY,         PHYSICAL,  85, 10,   0 ;altered
+    move DOUBLESLAP,    EFFECT_DOUBLE_HIT,         25, FAIRY,         PHYSICAL,  85, 10,   0 ;altered
     move COMET_PUNCH,   EFFECT_MULTI_HIT,          18, FIGHTING,      PHYSICAL,  85, 15,   0 ;altered
     move PAY_DAY,       EFFECT_PAY_DAY,            40, NORMAL,        PHYSICAL, 100, 20,   0
     move FIRE_PUNCH,    EFFECT_BURN_HIT,           75, FIRE,          PHYSICAL, 100, 15,  10

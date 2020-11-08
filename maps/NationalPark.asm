@@ -444,7 +444,7 @@ PokefanmWilliamSeenText:
 	cont "dislike us."
 
 	para "That's what being"
-	line "a FAN is about."
+	line "a Fan is about."
 	done
 
 PokefanmWilliamBeatenText:

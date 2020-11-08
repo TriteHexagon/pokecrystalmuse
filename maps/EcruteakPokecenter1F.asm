@@ -107,13 +107,13 @@ EcruteakPokecenter1F_BillText1:
 EcruteakPokecenter1F_BillText2:
 	text "I just finished"
 	line "adjustments on my"
-	cont "TIME CAPSULE."
+	cont "Time Capsule."
 
 	para "You know that"
 	line "#mon can be"
 	cont "traded, right?"
 
-	para "My TIME CAPSULE"
+	para "My Time Capsule"
 	line "was developed to"
 
 	para "enable trades with"
@@ -139,14 +139,14 @@ EcruteakPokecenter1F_BillText2:
 	line "sending new moves"
 
 	para "or new #mon in"
-	line "the TIME CAPSULE."
+	line "the Time Capsule."
 
 	para "Don't you worry."
 	line "I'm done with the"
 	cont "adjustments."
 
-	para "Tomorrow, TIME"
-	line "CAPSULES will be"
+	para "Tomorrow, Time"
+	line "Capsules will be"
 
 	para "running at all"
 	line "#mon Centers."

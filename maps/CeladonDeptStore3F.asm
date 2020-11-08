@@ -84,12 +84,12 @@ CeladonDeptStore3FGameboyKid2Text:
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The TM SHOP sells"
+	text "The TM Shop sells"
 	line "some rare moves."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "3F: TM SHOP"
+	text "3F: TM Shop"
 
 	para "Make Your #mon"
 	line "Stronger!"

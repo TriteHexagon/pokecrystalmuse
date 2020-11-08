@@ -113,7 +113,7 @@ _TitleScreen:
 
 ; Draw copyright text
 	hlbgcoord 2, 0, vBGMap1
-	lb bc, 1, 25 ;13
+	lb bc, 1, 16 ;13
 	ld d, $c ;c
 	ld e, $1A
 	call DrawTitleGraphic

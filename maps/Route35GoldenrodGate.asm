@@ -172,7 +172,7 @@ Route35GoldenrodGatePokefanFText:
 	line "wild when someone"
 
 	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	line "SquirtBottle."
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:

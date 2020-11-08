@@ -79,9 +79,9 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
+	db "Fresh Water  ¥200@"
+	db "Soda Pop     ¥300@"
+	db "Lemonade     ¥350@"
 	db "CANCEL@"
 
 GoldenrodDeptStore6FLassScript:
@@ -121,7 +121,7 @@ GoldenrodVendingNoSpaceText:
 
 GoldenrodDeptStore6FLassText:
 	text "Do you listen to"
-	line "LUCKY Channel?"
+	line "Lucky Channel?"
 
 	para "If you want to"
 	line "win, trade #mon"

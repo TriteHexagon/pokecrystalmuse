@@ -342,7 +342,7 @@ PokemaniacBenAfterBattleText:
 	line "like besides"
 	cont "#mon?"
 
-	para "MARY on the radio."
+	para "Mary on the radio."
 	line "I bet she's cute!"
 	done
 

@@ -120,7 +120,7 @@ PokemonNames::
     db "Seaking@@@"
     db "Staryu@@@@"
     db "Starmie@@@"
-    db "Mr.mime@@@"
+    db "Mr.Mime@@@"
     db "Scyther@@@"
     db "Jynx@@@@@@"
     db "Electabuzz"

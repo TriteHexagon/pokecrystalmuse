@@ -95,7 +95,7 @@ OlivineGymStatue:
 Jasmine_SteelTypeIntro:
 	text "…Thank you for"
 	line "your help at the"
-	cont "LIGHTHOUSE…"
+	cont "Lighthouse…"
 
 	para "But this is dif-"
 	line "ferent. Please"
@@ -181,7 +181,7 @@ OlivineGymGuyWinText:
 OlivineGymGuyPreText:
 	text "Jasmine, the Gym"
 	line "Leader, is at the"
-	cont "LIGHTHOUSE."
+	cont "Lighthouse."
 
 	para "She's been tending"
 	line "to a sick #mon."

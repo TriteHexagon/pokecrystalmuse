@@ -182,7 +182,7 @@ OlivineCityRivalText:
 	line "care of a sick"
 
 	para "#mon at the"
-	line "LIGHTHOUSE."
+	line "Lighthouse."
 
 	para "Humph! Boo-hoo!"
 	line "Just let sick"
@@ -194,7 +194,7 @@ OlivineCityRivalText:
 
 	para "Why don't you go"
 	line "train at the"
-	cont "LIGHTHOUSE?"
+	cont "Lighthouse?"
 
 	para "Who knows. It may"
 	line "make you a bit"
@@ -213,7 +213,7 @@ OlivineCitySailor1Text:
 	line "more treacherous!"
 
 	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	line "of the Lighthouse"
 
 	para "to guide it, no"
 	line "ship can sail."
@@ -253,7 +253,7 @@ OlivineCitySignText:
 	done
 
 OlivineCityPortSignText:
-	text "Olivine PORT"
+	text "Olivine Port"
 	line "Fast Ship PIER"
 	done
 
@@ -267,9 +267,9 @@ OlivineGymSignText:
 	done
 
 OlivineLighthouseSignText:
-	text "Olivine LIGHTHOUSE"
+	text "Olivine Lighthouse"
 	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	cont "Glitter Lighthouse"
 	done
 
 OlivineCityBattleTowerSignText:

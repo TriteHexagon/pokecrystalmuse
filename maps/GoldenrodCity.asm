@@ -55,7 +55,11 @@ MoveTutorScript:
 	ifequal HAVE_LESS, .NotEnoughMoney
 	writetext GoldenrodCityMoveTutorWhichMoveShouldITeachText
 	readvar VAR_WEEKDAY
- 	ifequal MONDAY | WEDNESDAY | FRIDAY | SUNDAY, .TeachPunches
+	ifequal MONDAY,    .TeachPunches
+	ifequal WEDNESDAY, .TeachPunches
+	ifequal FRIDAY,    .TeachPunches
+	ifequal SUNDAY,    .TeachPunches
+ 	;ifequal MONDAY | WEDNESDAY | FRIDAY | SUNDAY, .TeachPunches
 ;TeachFangs
 	loadmenu .MoveMenuHeaderFangs
 	verticalmenu
@@ -306,7 +310,7 @@ GoldenrodCityPokefanMText:
 
 GoldenrodCityYoungster1Text:
 	text "I know there's a"
-	line "new BIKE SHOP, but"
+	line "new Bike Shop, but"
 
 	para "I can't find it"
 	line "anywhere."
@@ -464,7 +468,7 @@ GoldenrodCitySignText:
 GoldenrodCityBikeShopSignText:
 	text "The World is a"
 	line "Cycle Path!"
-	cont "BIKE SHOP"
+	cont "Bike Shop"
 	done
 
 GoldenrodCityGameCornerSignText:

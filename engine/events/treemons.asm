@@ -41,7 +41,7 @@ RockMonEncounter:
 	; 40% chance of an encounter
 	ld a, 10
 	call RandomRange
-	cp 4
+	cp 3
 	jr nc, .no_battle
 
 	call SelectTreeMon

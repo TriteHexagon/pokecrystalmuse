@@ -125,7 +125,7 @@ EcruteakCityGramps2Text:
 	line "Kimono Girls?"
 
 	para "If you go to their"
-	line "DANCE THEATER, an"
+	line "Dance Theater, an"
 
 	para "odd old man will"
 	line "give you something"
@@ -134,9 +134,9 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "I'm going to prac-"
-	line "tice at the DANCE"
+	line "tice at the Dance"
 
-	para "THEATER. Care to"
+	para "Theater. Care to"
 	line "join me?"
 	done
 
@@ -159,7 +159,7 @@ EcruteakCityLass2Text_ReleasedBeasts:
 EcruteakCityFisherText:
 	text "I heard a rumor"
 	line "about Olivine"
-	cont "LIGHTHOUSE."
+	cont "Lighthouse."
 
 	para "The #mon that"
 	line "serves as the"
@@ -171,7 +171,7 @@ EcruteakCityFisherText:
 
 EcruteakCityFisherText_JasmineReturned:
 	text "The #mon at"
-	line "Olivine LIGHTHOUSE"
+	line "Olivine Lighthouse"
 	cont "has been cured."
 
 	para "Boats can safely"
@@ -242,8 +242,8 @@ EcruteakGymSignText:
 	done
 
 EcruteakDanceTheaterSignText:
-	text "Ecruteak DANCE"
-	line "THEATER"
+	text "Ecruteak Dance"
+	line "Theater"
 	done
 
 BurnedTowerSignText:

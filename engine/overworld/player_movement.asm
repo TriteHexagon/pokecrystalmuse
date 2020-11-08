@@ -335,7 +335,7 @@ DoPlayerMovement::
 	and a
 	jr nz, .ExitWater
 
-	ld a, STEP_WALK
+	ld a, STEP_BIKE;
 	call .DoStep
 	scf
 	ret
@@ -343,7 +343,7 @@ DoPlayerMovement::
 .ExitWater:
 	call .GetOutOfWater
 	call PlayMapMusic
-	ld a, STEP_WALK
+	ld a, STEP_BIKE
 	call .DoStep
 	ld a, PLAYERMOVEMENT_EXIT_WATER
 	scf

@@ -109,7 +109,7 @@ CianwoodPokecenter1FUnusedText2:
 	text "I've been battling"
 	line "my pal in Violet"
 
-	para "using a MOBILE"
+	para "using a Mobile"
 	line "ADAPTER link."
 
 	para "I'm down 5-7"

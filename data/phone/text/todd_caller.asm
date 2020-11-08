@@ -61,8 +61,8 @@ ToddDepartmentStoreBargainSaleText:
 	line "one we've all been"
 	cont "waiting for!"
 
-	para "Goldenrod DEPT."
-	line "STORE's bargain"
+	para "Goldenrod Dept."
+	line "Store's bargain"
 	cont "sale is on now!"
 
 	para "Want it cheap?"
@@ -104,9 +104,9 @@ ToddLookingForwardToBattleText:
 
 ToddHaveYouGoneToDepartmentStoreText:
 	text "Haven't you gone"
-	line "to Goldenrod DEPT."
+	line "to Goldenrod Dept."
 
-	para "STORE? I've scoped"
+	para "Store? I've scoped"
 	line "it out already!"
 
 	para "They had some real"

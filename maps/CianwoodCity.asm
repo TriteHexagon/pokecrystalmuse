@@ -253,7 +253,7 @@ CianwoodCityPokefanMText:
 	line "something."
 
 	para "Your #mon could"
-	line "use ROCK SMASH to"
+	line "use Rock Smash to"
 	cont "break them."
 	done
 
@@ -360,7 +360,7 @@ CianwoodPharmacySignText:
 	line "Tradition"
 
 	para "Cianwood City"
-	line "PHARMACY"
+	line "Pharmacy"
 
 	para "We Await Your"
 	line "Medicinal Queries"

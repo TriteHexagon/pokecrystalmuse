@@ -2985,9 +2985,9 @@ LedianEvosAttacks:
 	db 12, REFLECT
 	db 13, SAFEGUARD
 	db 15, MACH_PUNCH
-	db 17, DIZZY_PUNCH ;evolution move
+	db 17, COMET_PUNCH ;evolution move
 	db 20, ROCK_SMASH ;replace Silver Wind
-	db 24, COMET_PUNCH
+	db 24, DIZZY_PUNCH
 	db 29, BATON_PASS
 	db 33, AGILITY
 	db 38, BUG_BUZZ

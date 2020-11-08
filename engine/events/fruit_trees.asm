@@ -14,6 +14,18 @@ FruitTreeScript::
 
 .fruit
 	writetext HeyItsFruitText
+	random 3
+	ifequal 0, .Give1Item
+	ifequal 1, .Give2Item
+	;fallthrough if random = 2
+	readmem wCurFruit
+	giveitem ITEM_FROM_MEM
+	iffalse .packisfull
+.Give2Item
+	readmem wCurFruit
+	giveitem ITEM_FROM_MEM
+	iffalse .packisfull
+.Give1Item
 	readmem wCurFruit
 	giveitem ITEM_FROM_MEM
 	iffalse .packisfull

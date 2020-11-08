@@ -2,7 +2,7 @@
 	dw 20, 795
 
 	db   "Every time it ya-"
-	next "wns, SHELLDER"
+	next "wns, Shellder"
 	next "injects more poi-"
 
 	page "son into it. The"

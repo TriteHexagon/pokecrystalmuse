@@ -85,14 +85,14 @@ Text_DayCareManTalksAboutEggTicket:
 	para "There's something"
 	line "new in Goldenrod"
 
-	para "called the TRADE"
-	line "CORNER."
+	para "called the Trade"
+	line "Corner."
 
 	para "I was given an Egg"
 	line "TICKET that can be"
 
 	para "traded in for a"
-	line "ODD Egg."
+	line "Odd Egg."
 
 	para "But since we run a"
 	line "Day-Care, we don't"
@@ -131,7 +131,7 @@ DayCareText_ComeAgain:
 
 DayCareText_GotOddEgg:
 	text "<PLAYER> received"
-	line "ODD Egg!"
+	line "Odd Egg!"
 	done
 
 DayCareText_DescribeOddEgg:

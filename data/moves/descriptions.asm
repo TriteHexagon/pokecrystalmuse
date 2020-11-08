@@ -1168,11 +1168,11 @@ RoostDescription:
 
 HexDescription:
 	db   "Doubles power if"
-	next "foe is poisoned.@"
+	next "foe is unhealthy.@"
 
 FakeOutDescription:
-	db   "Test"
-	next "Test@"
+	db   "Always flinches if"
+	next "use on first turn.@"
 
 ShadowSneakDescription:
 	db   "Lets the user get"
@@ -1228,7 +1228,7 @@ PoisonFangDescription:
 
 VenoshockDescription:
 	db   "Doubles power if"
-	next "foe is unhealthy.@"
+	next "foe is poisoned.@"
 
 GunkShotDescription:
 	db   "An attack that may"

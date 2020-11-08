@@ -10,7 +10,7 @@ VictoryRoadEntranceSignText:
 	text "#mon League"
 
 	para "VICTORY ROAD"
-	line "ENTRANCE"
+	line "Entrance"
 	done
 
 Route22_MapEvents:

@@ -222,7 +222,7 @@ CeruleanCityYoungsterText1:
 CeruleanCityYoungsterText2:
 	text "Ayuh?"
 
-	para "My ITEMFINDER is"
+	para "My Itemfinder is"
 	line "responding…"
 	done
 
@@ -246,7 +246,7 @@ CeruleanBikeShopSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "The BIKE SHOP has"
+	para "The Bike Shop has"
 	line "moved to Goldenrod"
 	cont "City in Johto…"
 	done

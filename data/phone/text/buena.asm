@@ -145,9 +145,9 @@ BuenaPhoneLuckyNumberShowText:
 	line "Have you ever won"
 
 	para "a prize on the"
-	line "LUCKY NUMBER SHOW?"
+	line "Lucky NUMBER SHOW?"
 
-	para "REED moans that"
+	para "Reed moans that"
 	line "he's never won, so"
 
 	para "he vows to keep"
@@ -167,7 +167,7 @@ BuenaPhoneStressedFromWorkText:
 	para "ate a ton of junk"
 	line "food!"
 
-	para "MARY and I have"
+	para "Mary and I have"
 	line "this deal about"
 	cont "losing weight…"
 
@@ -179,9 +179,9 @@ BuenaPhoneStressedFromWorkText:
 	para "This has to be a"
 	line "total secret!"
 
-	para "MARY weighs…"
+	para "Mary weighs…"
 
-	para "Aiyee! M-MARY!"
+	para "Aiyee! M-Mary!"
 
 	para "Uh… Um… I… Sorry,"
 	line "wrong number!"
@@ -262,7 +262,7 @@ BuenaPhonePikachuFanClubText:
 	para "it was uh… whew…"
 	line "overwhelming."
 
-	para "FAN CLUB people"
+	para "Fan Club people"
 	line "came in out in"
 
 	para "droves, shouting"
@@ -366,13 +366,13 @@ BuenaPhoneStarterPokemonText:
 	para "Did you know that"
 	line "the first #mon"
 
-	para "MARY caught was a"
+	para "Mary caught was a"
 	line "DROWZEE?"
 
 	para "Isn't that so out"
 	line "of character?"
 
-	para "But MARY's DROWZEE"
+	para "But Mary's DROWZEE"
 	line "kept making her"
 
 	para "fall asleep on the"
@@ -447,13 +447,13 @@ BuenaPhoneBenAndFernText:
 
 BuenaPhoneGoingShoppingText:
 	text "I'm going shopping"
-	line "with MARY and LILY"
+	line "with Mary and LILY"
 	cont "soon."
 
 	para "It'll be great if"
-	line "Goldenrod DEPT."
+	line "Goldenrod Dept."
 
-	para "STORE has a sale"
+	para "Store has a sale"
 	line "on when we go…"
 
 	para "<PLAY_G>, maybe we"
@@ -464,9 +464,9 @@ BuenaPhoneGoingShoppingText:
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
 	text "I'm thinking of"
-	line "going to the GAME"
+	line "going to the Game"
 
-	para "CORNER tomorrow."
+	para "Corner tomorrow."
 	line "It's been a while."
 
 if DEF(_CRYSTAL_AU)

@@ -2,7 +2,7 @@
 	dw 16, 785
 
 	db   "An attached"
-	next "SHELLDER won't let"
+	next "Shellder won't let"
 	next "go because of the"
 
 	page "tasty flavor that"

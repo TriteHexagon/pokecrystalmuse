@@ -586,11 +586,11 @@ BattleAnim_InSandstorm:
 	anim_ret
 
 BattleAnim_InNightmare:
-; 	anim_1gfx ANIM_GFX_ANGELS
-; 	anim_sound 0, 0, SFX_BUBBLEBEAMX
-; 	anim_obj ANIM_OBJ_IN_NIGHTMARE, 68, 80, $0
-; 	anim_wait 40
-; 	anim_ret
+	anim_1gfx ANIM_GFX_ANGELS
+	anim_sound 0, 0, SFX_BUBBLEBEAMX
+	anim_obj ANIM_OBJ_IN_NIGHTMARE, 68, 80, $0
+	anim_wait 40
+	anim_ret
 
 BattleAnim_InWhirlpool:
 	anim_1gfx ANIM_GFX_WIND

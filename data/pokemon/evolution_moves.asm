@@ -164,7 +164,7 @@ EvolutionMoves::
     db NO_MOVE      ;Hoothoot
     db NIGHT_SHADE  ;Noctowl
     db NO_MOVE      ;Ledyba
-    db DIZZY_PUNCH  ;Ledian
+    db COMET_PUNCH  ;Ledian
     db NO_MOVE      ;Spinarak
     db SWORDS_DANCE ;Ariados
     db NO_MOVE      ;Crobat

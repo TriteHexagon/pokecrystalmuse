@@ -306,7 +306,7 @@ Route35NationalParkGateOfficer1WellHoldYourMonText:
 Route35NationalParkGatePlayersMonLeftWithHelperText:
 	text "<PLAYER>'s #mon"
 	line "were left with the"
-	cont "CONTEST HELPER."
+	cont "Contest Helper."
 	done
 
 Route35NationalParkGateOfficer1ChooseMonAndComeBackText:

@@ -106,7 +106,7 @@ PokecomCenterAdminOfficeMobileComputer3:
 
 PokecomCenterAdminOfficeMobileScientist1Text:
 	text "#Com Center and"
-	line "MOBILE Center were"
+	line "Mobile Center were"
 
 	para "built to satisfy"
 	line "demands for trades"
@@ -146,7 +146,7 @@ PokecomCenterAdminOfficeMobileScientist3Text:
 
 PokecomCenterAdminOfficeMobileComputer1Text:
 	text "It's a notice"
-	line "about where MOBILE"
+	line "about where Mobile"
 
 	para "ADAPTERS are to be"
 	line "used…"
@@ -154,7 +154,7 @@ PokecomCenterAdminOfficeMobileComputer1Text:
 
 PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub:
 	text "There's a #Com"
-	line "CLUB upstairs in"
+	line "Club upstairs in"
 
 	para "any #mon"
 	line "Center."
@@ -164,26 +164,26 @@ PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub:
 
 	para "with a friend far"
 	line "away by using a"
-	cont "MOBILE ADAPTER."
+	cont "Mobile ADAPTER."
 
 	para "To link up, your"
 	line "friend must have"
 
 	para "the same kind of"
-	line "MOBILE ADAPTER as"
+	line "Mobile ADAPTER as"
 	cont "you."
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter:
-	text "To use the TRADE"
-	line "CORNER or read the"
+	text "To use the Trade"
+	line "Corner or read the"
 
 	para "#mon News, you"
 	line "need to phone the"
-	cont "MOBILE Center."
+	cont "Mobile Center."
 
 	para "You must register"
-	line "at the MOBILE"
+	line "at the Mobile"
 
 	para "Center before"
 	line "connecting there."
@@ -199,7 +199,7 @@ PokecomCenterAdminOfficeMobileComputer2Text_UsePhone:
 	text "Please ensure that"
 	line "your phone and"
 
-	para "MOBILE ADAPTER are"
+	para "Mobile ADAPTER are"
 	line "properly linked."
 
 	para "Please make sure"

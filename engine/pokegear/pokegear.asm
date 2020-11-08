@@ -1250,8 +1250,8 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
+	db   "Call"
+	next "Delete"
 	next "CANCEL"
 	db   "@"
 
@@ -1263,7 +1263,7 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
+	db   "Call"
 	next "CANCEL"
 	db   "@"
 

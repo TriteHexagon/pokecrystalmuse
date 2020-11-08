@@ -159,11 +159,11 @@ ChadPokemonTalkGossipText:
 	para "turn down the show"
 	line "at first?"
 
-	para "But MARY's energy"
+	para "But Mary's energy"
 	line "and persistence"
 	cont "wore him down."
 
-	para "So we have MARY to"
+	para "So we have Mary to"
 	line "thank for it!"
 	done
 

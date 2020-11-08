@@ -64,12 +64,12 @@ GoldenrodDeptStore1FDirectoryText:
 	para "2F TRAINER's"
 	line "   MARKET"
 
-	para "3F BATTLE"
+	para "3F Battle"
 	line "   COLLECTION"
 
 	para "4F MEDICINE Box"
 
-	para "5F TM CORNER"
+	para "5F TM Corner"
 
 	para "6F TRANQUIL SQUARE"
 

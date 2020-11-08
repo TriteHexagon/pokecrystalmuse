@@ -120,8 +120,8 @@ PokemonFanClubBraggingSign:
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
 	text "I'm the CHAIRMAN"
-	line "of the #mon FAN"
-	cont "CLUB."
+	line "of the #mon Fan"
+	cont "Club."
 
 	para "I've raised over"
 	line "150 #mon."

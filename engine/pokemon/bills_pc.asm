@@ -235,8 +235,8 @@ BillsPCDepositMenuHeader:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Deposit@"
-	db "STATS@"
-	db "RELEASE@"
+	db "Stats@"
+	db "Release@"
 	db "CANCEL@"
 
 BillsPCClearThreeBoxes: ; unreferenced
@@ -488,8 +488,8 @@ BillsPC_Withdraw:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Withdraw@"
-	db "STATS@"
-	db "RELEASE@"
+	db "Stats@"
+	db "Release@"
 	db "CANCEL@"
 
 _MovePKMNWithoutMail:
@@ -698,7 +698,7 @@ _MovePKMNWithoutMail:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
 	db "MOVE@"
-	db "STATS@"
+	db "Stats@"
 	db "CANCEL@"
 
 .PrepInsertCursor:

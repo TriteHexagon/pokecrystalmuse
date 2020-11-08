@@ -174,7 +174,7 @@ JasmineCianwoodPharmacyText:
 	para "…I understand"
 	line "that there is a"
 
-	para "wonderful PHARMACY"
+	para "wonderful Pharmacy"
 	line "in Cianwood…"
 
 	para "But that's across"

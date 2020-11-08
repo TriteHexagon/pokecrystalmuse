@@ -925,7 +925,7 @@ Route32SignText:
 
 Route32RuinsSignText:
 	text "Ruins of Alph"
-	line "EAST ENTRANCE"
+	line "EAST Entrance"
 	done
 
 Route32UnionCaveSignText:

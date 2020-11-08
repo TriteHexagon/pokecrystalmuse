@@ -84,17 +84,19 @@ CheckForHiddenItems:
 
 RockItemEncounter:
 	ld hl, .RockItems
+	;ld a, 200
 	call Random
 .loop
-	sub [hl]
-	jr c, .ok
+	cp [hl]
+	;sub [hl] ;subtracts hl from a (a from 0-255)
+	jr c, .ok ;if it carries , a > hl, continue
 rept 2
 	inc hl
 endr
 	jr .loop
 .ok
 	ld a, [hli]
-	cp $ff
+	cp -1
 	ld a, NO_ITEM
 	jr z, .done
 	ld a, [hli]
@@ -103,26 +105,26 @@ endr
 	ret
 	
 .RockItems:
-	db 1, MAX_REVIVE
-	db 1, THICK_CLUB
-	db 2, NUGGET
-	db 1, BIG_NUGGET
-	db 2, STAR_PIECE
-	db 6, STARDUST
-	db 8, PEARL
-	db 4, BIG_PEARL
-	db 8, ETHER
-	db 10, REVIVE
-	db 10, HARD_STONE
-	db 15, SOFT_SAND
-	db 1, NO_ITEM
+	db 5, MAX_REVIVE
+	db 13, THICK_CLUB
+	db 18, NUGGET
+	db 21, BIG_NUGGET
+	db 29, STAR_PIECE
+	db 49, STARDUST
+	db 69, PEARL
+	db 82, BIG_PEARL
+	db 102, ETHER
+	db 128, REVIVE
+	db 154, HARD_STONE
+	db 167, SOFT_SAND
 	db -1
 
 TreeItemEncounter:
 	ld hl, .TreeItems
 	call Random
 .loop
-	sub [hl]
+	cp [hl]
+	;sub [hl]
 	jr c, .ok
 rept 2
 	inc hl
@@ -130,7 +132,7 @@ endr
 	jr .loop
 .ok
 	ld a, [hli]
-	cp $ff
+	cp -1
 	ld a, NO_ITEM
 	jr z, .done
 	ld a, [hli]
@@ -139,9 +141,8 @@ endr
 	ret
 	
 .TreeItems:
-	db 1, GOLD_LEAF
-	db 2, SILVER_LEAF
-	db 2, BIG_MUSHROOM
-	db 3, TINYMUSHROOM
-	db 1, NO_ITEM
+	db 8,  GOLD_LEAF
+	db 28, SILVER_LEAF
+	db 54, BIG_MUSHROOM
+	db 92, TINYMUSHROOM
 	db -1

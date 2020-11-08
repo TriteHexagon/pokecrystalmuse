@@ -36,7 +36,7 @@ GoldenrodGymWhitneyScript:
 	setscene SCENE_GOLDENRODGYM_WHITNEY_STOPS_CRYING
 	setevent EVENT_BEAT_BEAUTY_VICTORIA
 	setevent EVENT_BEAT_BEAUTY_SAMANTHA
-	setevent EVENT_BEAT_LASS_CARRIE
+	setevent EVENT_BEAT_SCHOOLGIRL_CARRIE
 	setevent EVENT_BEAT_LASS_BRIDGET
 .FightDone:
 	opentext
@@ -90,13 +90,13 @@ GoldenrodGymActivateRockets:
 .RadioTowerRockets:
 	jumpstd RadioTowerRocketsScript
 
-TrainerLassCarrie:
-	trainer LASS, CARRIE, EVENT_BEAT_LASS_CARRIE, LassCarrieSeenText, LassCarrieBeatenText, 0, .Script
+TrainerSchoolGirlCarrie:
+	trainer SCHOOLGIRL, CARRIE, EVENT_BEAT_SCHOOLGIRL_CARRIE, SchoolGirlCarrieSeenText, SchoolGirlCarrieBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext LassCarrieAfterBattleText
+	writetext SchoolGirlCarrieAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -245,7 +245,7 @@ WhitneyPlainBadgeText:
 	done
 
 WhitneyAttractText:
-	text "It's ATTRACT!"
+	text "It's Attract!"
 	line "It makes full use"
 
 	para "of a #mon's"
@@ -264,7 +264,7 @@ WhitneyGoodCryText:
 	line "again! Bye-bye!"
 	done
 
-LassCarrieSeenText:
+SchoolGirlCarrieSeenText:
 	text "Don't let my"
 	line "#mon's cute"
 
@@ -272,12 +272,12 @@ LassCarrieSeenText:
 	line "They can whip you!"
 	done
 
-LassCarrieBeatenText:
+SchoolGirlCarrieBeatenText:
 	text "Darn… I thought"
 	line "you were weak…"
 	done
 
-LassCarrieAfterBattleText:
+SchoolGirlCarrieAfterBattleText:
 	text "Do my #mon"
 	line "think I'm cute?"
 	done
@@ -389,7 +389,7 @@ GoldenrodGym_MapEvents:
 
 	db 6 ; object events
 	object_event  8,  3, SPRITE_WHITNEY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodGymWhitneyScript, -1
-	object_event  9, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerLassCarrie, -1
+	object_event  9, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerSchoolGirlCarrie, -1
 	object_event  9,  6, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerLassBridget, -1
 	object_event  0,  2, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBeautyVictoria, -1
 	object_event 19,  5, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBeautySamantha, -1

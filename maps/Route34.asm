@@ -567,9 +567,9 @@ CamperTodd1BeatenText:
 
 CamperTodd1AfterText:
 	text "Maybe I should"
-	line "take one to a DAY-"
+	line "take one to a Day-"
 
-	para "CARE. Or maybe use"
+	para "Care. Or maybe use"
 	line "some items…"
 	done
 

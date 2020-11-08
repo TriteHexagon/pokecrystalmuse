@@ -74,7 +74,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	writetext SudowoodoAttackedText
 	waitbutton
 	closetext
-	loadwildmon SUDOWOODO, 20
+	loadwildmon SUDOWOODO, 25
 	startbattle
 	setevent EVENT_FOUGHT_SUDOWOODO
 	ifequal DRAW, DidntCatchSudowoodo
@@ -407,26 +407,26 @@ Route36SuicuneMovement:
 
 UseSquirtbottleText:
 	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	line "Use SquirtBottle?"
 	done
 
 UsedSquirtbottleText:
 	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	line "SquirtBottle."
 	done
 
 SudowoodoAttackedText:
 	text "The weird tree"
 	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	cont "SquirtBottle!"
 
 	para "The weird tree"
 	line "attacked!"
 	done
 
 FloriaText1:
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	text "I'm the Flower"
+	line "Shop's Floria!"
 
 	para "Listen, listen!"
 
@@ -634,7 +634,7 @@ Route36SignText:
 
 RuinsOfAlphNorthSignText:
 	text "Ruins of Alph"
-	line "NORTH ENTRANCE"
+	line "NORTH Entrance"
 	done
 
 Route36TrainerTips1Text:

@@ -351,17 +351,17 @@ Text_BattleTowerWelcomesYou:
 	line "welcomes you!"
 
 	para "I could show you"
-	line "to a BATTLE ROOM."
+	line "to a Battle Room."
 	done
 
 Text_WantToGoIntoABattleRoom:
 	text "Want to go into a"
-	line "BATTLE ROOM?"
+	line "Battle Room?"
 	done
 
 Text_RightThisWayToYourBattleRoom:
 	text "Right this way to"
-	line "your BATTLE ROOM."
+	line "your Battle Room."
 	done
 
 Text_BattleTowerIntroduction_1:
@@ -376,23 +376,23 @@ Text_BattleTowerIntroduction_1:
 	line "hold battles in"
 
 	para "specially designed"
-	line "BATTLE ROOMS."
+	line "Battle ROOMS."
 
 	para "There are many"
-	line "BATTLE ROOMS in"
+	line "Battle ROOMS in"
 	cont "the Battle Tower."
 
-	para "Each ROOM holds"
+	para "Each Room holds"
 	line "seven trainers."
 
 	para "If you defeat the"
-	line "seven in a ROOM,"
+	line "seven in a Room,"
 
 	para "and you have a"
 	line "good record, you"
 
 	para "could become the"
-	line "ROOM's Leader."
+	line "Room's Leader."
 
 	para "All Leaders will"
 	line "be recorded in the"
@@ -403,14 +403,14 @@ Text_BattleTowerIntroduction_1:
 	para "You may challenge"
 	line "in up to five"
 
-	para "BATTLE ROOMS each"
+	para "Battle ROOMS each"
 	line "day."
 
 	para "However, you may"
 	line "battle only once a"
 
 	para "day in any given"
-	line "ROOM."
+	line "Room."
 
 	para "To interrupt a"
 	line "session, you must"
@@ -418,7 +418,7 @@ Text_BattleTowerIntroduction_1:
 	para "Save. If not, you"
 	line "won't be able to"
 
-	para "resume your ROOM"
+	para "resume your Room"
 	line "challenge."
 
 	para ""
@@ -436,13 +436,13 @@ Text_BattleTowerIntroduction_2:
 	line "hold battles in"
 
 	para "specially designed"
-	line "BATTLE ROOMS."
+	line "Battle ROOMS."
 
 	para "There are many"
-	line "BATTLE ROOMS in"
+	line "Battle ROOMS in"
 	cont "the Battle Tower."
 
-	para "Each ROOM holds"
+	para "Each Room holds"
 	line "seven trainers."
 
 	para "Beat them all, and"
@@ -454,7 +454,7 @@ Text_BattleTowerIntroduction_2:
 	para "Save. If not, you"
 	line "won't be able to"
 
-	para "resume your ROOM"
+	para "resume your Room"
 	line "challenge."
 
 	para ""
@@ -497,7 +497,7 @@ Text_BeatenAllTheTrainers_Mobile:
 	line "results, you may"
 
 	para "be chosen as a"
-	line "ROOM Leader."
+	line "Room Leader."
 
 	para ""
 	done
@@ -566,7 +566,7 @@ Text_CantBeRegistered:
 	text "Your record from"
 	line "the previous"
 
-	para "BATTLE ROOM can't"
+	para "Battle Room can't"
 	line "be registered. OK?"
 	done
 
@@ -574,7 +574,7 @@ Text_CantBeRegistered_PreviousRecordDeleted:
 	text "Your record from"
 	line "the previous"
 
-	para "BATTLE ROOM can't"
+	para "Battle Room can't"
 	line "be registered."
 
 	para "Also, the existing"
@@ -617,7 +617,7 @@ Text_BattleTower_LeftWithoutSaving:
 	line "You didn't Save"
 
 	para "before exiting"
-	line "the BATTLE ROOM."
+	line "the Battle Room."
 
 	para "I'm awfully sorry,"
 	line "but your challenge"
@@ -649,7 +649,7 @@ Text_SaveBeforeConnecting_Mobile:
 
 Text_SaveBeforeEnteringBattleRoom:
 	text "Before entering"
-	line "the BATTLE ROOM,"
+	line "the Battle Room,"
 
 	para "your progress will"
 	line "be saved."
@@ -665,12 +665,12 @@ Text_SaveBeforeReentry:
 	line "be Saved before"
 
 	para "you go back into"
-	line "the previous ROOM."
+	line "the previous Room."
 	done
 
 Text_CancelYourBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Cancel your Battle"
+	line "Room challenge?"
 	done
 
 Text_RegisterRecordOnFile_Mobile:
@@ -686,13 +686,13 @@ Text_WeveBeenWaitingForYou:
 	text "We've been waiting"
 	line "for you. This way"
 
-	para "to a BATTLE ROOM,"
+	para "to a Battle Room,"
 	line "please."
 	done
 
 Text_FiveDayBattleLimit_Mobile:
 	text "You may enter only"
-	line "five BATTLE ROOMS"
+	line "five Battle ROOMS"
 	cont "each day."
 
 	para "Please come back"
@@ -741,10 +741,10 @@ Text_AMonLevelExceeds:
 Text_MayNotEnterABattleRoomUnderL70:
 	text_ram wcd49
 	text " may not"
-	line "enter a BATTLE"
-	cont "ROOM under L70."
+	line "enter a Battle"
+	cont "Room under L70."
 
-	para "This BATTLE ROOM"
+	para "This Battle Room"
 	line "is for L@"
 	text_decimal wScriptVar, 1, 3
 	text "."
@@ -760,7 +760,7 @@ Text_BattleTowerYoungster:
 
 Text_BattleTowerCooltrainerF:
 	text "There are lots of"
-	line "BATTLE ROOMS, but"
+	line "Battle ROOMS, but"
 
 	para "I'm going to win"
 	line "them all!"

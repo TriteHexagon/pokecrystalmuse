@@ -294,12 +294,12 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 .Dex_PlayTime:
 	db   "#dex"
-	next "PLAY TIME@"
+	next "Play Time@"
 
 	db "@" ; unused
 
 .Badges:
-	db "  BADGES▶@"
+	db "  Badges▶@"
 
 .StatusTilemap:
 	db $29, $2a, $2b, $2c, $2d, -1

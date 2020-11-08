@@ -77,11 +77,11 @@ RooftopSale:
 	ld de, RooftopSaleMart1
 	ld hl, wStatusFlags
 	bit STATUSFLAGS_HALL_OF_FAME_F, [hl]
-	jr z, .ok
+	jr z, .beforeHoF
 	ld b, BANK(RooftopSaleMart2)
 	ld de, RooftopSaleMart2
 
-.ok
+.beforeHoF
 	call LoadMartPointer
 	call ReadMart
 	call LoadStandardMenuHeader

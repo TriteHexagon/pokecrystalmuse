@@ -25,8 +25,8 @@ CeladonDeptStore1FElevatorButton:
 
 CeladonDeptStore1FReceptionistText:
 	text "Hello! Welcome to"
-	line "Celadon DEPT."
-	cont "STORE!"
+	line "Celadon Dept."
+	cont "Store!"
 
 	para "The directory is"
 	line "on the wall."
@@ -61,11 +61,11 @@ CeladonDeptStore1FDirectoryText:
 	para "2F: TRAINER's"
 	line "    MARKET"
 
-	para "3F: TM SHOP"
+	para "3F: TM Shop"
 
 	para "4F: WISEMAN GIFTS"
 
-	para "5F: DRUG STORE"
+	para "5F: Drug Store"
 
 	para "6F: ROOFTOP"
 	line "    SQUARE"

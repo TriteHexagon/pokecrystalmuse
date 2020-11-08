@@ -62,8 +62,8 @@ LizBattleRematchText:
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Hi, Tania. How are"
+	line "you? This is Liz."
 
 	para "I'm fine, but I'm"
 	line "bored silly!"

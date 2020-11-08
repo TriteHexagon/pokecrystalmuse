@@ -130,7 +130,7 @@ BrentFlowerShopGossipText:
 	line "Bill appears to"
 
 	para "like the lady at"
-	line "the FLOWER SHOP."
+	line "the Flower Shop."
 	done
 
 BrentKimonoGirlGossipText:

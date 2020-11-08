@@ -47,7 +47,7 @@ SailorKentAfterBattleText:
 	text "Speaking of sick,"
 	line "I've heard there's"
 
-	para "a good PHARMACY in"
+	para "a good Pharmacy in"
 	line "Cianwood."
 	done
 

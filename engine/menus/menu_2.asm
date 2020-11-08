@@ -196,13 +196,13 @@ StartMenu_PrintBugContestStatus:
 .Balls_JP:
 	db "ボール　　　こ@"
 .CAUGHT:
-	db "CAUGHT@"
+	db "CAUGHT:@"
 .Balls_EN:
 	db "Balls:@"
 .None:
 	db "None@"
 .LEVEL:
-	db "LEVEL@"
+	db "LEVEL:@"
 
 FindApricornsInBag:
 ; Checks the bag for Apricorns.

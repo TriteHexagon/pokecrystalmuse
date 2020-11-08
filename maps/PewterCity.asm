@@ -77,7 +77,7 @@ PewterCityCooltrainerFText:
 PewterCityBugCatcherText:
 	text "At night, Clefairy"
 	line "come out to play"
-	cont "at MT.MOON."
+	cont "at Mt.Moon."
 
 	para "But not every"
 	line "night."
@@ -141,7 +141,7 @@ PewterCityMtMoonGiftShopSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "MT.MOON GIFT SHOP"
+	para "Mt.Moon GIFT Shop"
 	line "NOW OPEN!"
 	done
 
