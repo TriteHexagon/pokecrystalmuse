@@ -1,5 +1,6 @@
 	object_const_def ; object_event constants
 	const GOLDENRODNAMERATER_NAME_RATER
+	const GOLDENRODMOVEDELETERS
 
 GoldenrodNameRater_MapScripts:
 	db 0 ; scene scripts
@@ -10,6 +11,14 @@ GoldenrodNameRater:
 	faceplayer
 	opentext
 	special NameRater
+	waitbutton
+	closetext
+	end
+
+GoldenrodMoveDeleterScript:
+	faceplayer
+	opentext
+	special MoveDeletion
 	waitbutton
 	closetext
 	end
@@ -36,5 +45,6 @@ GoldenrodNameRater_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, GoldenrodNameRaterBookshelf
 	bg_event  7,  1, BGEVENT_READ, GoldenrodNameRaterRadio
 
-	db 1 ; object events
+	db 2 ; object events
+	object_event  5,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodMoveDeleterScript, -1
 	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_DOWN, 2, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodNameRater, -1

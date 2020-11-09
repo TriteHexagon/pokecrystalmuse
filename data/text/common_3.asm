@@ -1472,7 +1472,7 @@ _DeleterAskWhichMoveText::
 
 _DeleterIntroText::
 	text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER."
+	line "the Move Deleter."
 
 	para "I can make #mon"
 	line "forget moves."

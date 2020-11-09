@@ -240,7 +240,7 @@ SantosGivesGiftText:
 SantosGaveGiftText:
 	text "Santos: …"
 
-	para "SPELL TAG…"
+	para "Spell Tag…"
 
 	para "Ghost-type moves"
 	line "get stronger…"
@@ -290,8 +290,9 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE DELETER's"
-	line "House"
+	text "Move Deleter and"
+	line "Move Relearner's" 
+	cont "House"
 	done
 
 DragonDensSignText:
@@ -303,7 +304,7 @@ BlackthornCityTrainerTipsText:
 	text "Trainer Tips"
 
 	para "A #mon holding"
-	line "a LUM_BERRY"
+	line "a Lum Berry"
 
 	para "will cure itself"
 	line "of any status"
