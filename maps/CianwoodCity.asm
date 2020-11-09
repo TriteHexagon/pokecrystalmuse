@@ -191,12 +191,12 @@ ChucksWifeEasierToFlyText:
 	line "easier if your"
 
 	para "#mon knew how"
-	line "to FLY…"
+	line "to Fly…"
 	done
 
 ChucksWifeBeatChuckText:
 	text "But you can't use"
-	line "FLY without this"
+	line "Fly without this"
 	cont "city's Gym Badge."
 
 	para "If you beat the"
@@ -216,11 +216,11 @@ ChucksWifeGiveHMText:
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
+	text "Teach Fly to your"
 	line "#mon."
 
 	para "You will be able"
-	line "to FLY instantly"
+	line "to Fly instantly"
 
 	para "to anywhere you "
 	line "have visited."
@@ -237,7 +237,7 @@ ChucksWifeChubbyText:
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
+	text "If you use Fly,"
 	line "you can get back"
 
 	para "to Olivine in-"

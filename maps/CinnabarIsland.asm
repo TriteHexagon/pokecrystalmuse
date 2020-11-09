@@ -112,8 +112,8 @@ CinnabarIslandGymSignText:
 	line "here…"
 
 	para "Cinnabar Gym has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	line "relocated to Sea-"
+	cont "foam Islands."
 
 	para "Blaine"
 	done

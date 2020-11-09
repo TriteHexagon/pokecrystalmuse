@@ -206,7 +206,7 @@ ChuckExplainBadgeText:
 	line "traded ones."
 
 	para "It also lets your"
-	line "#mon use FLY"
+	line "#mon use Fly"
 
 	para "when you're not in"
 	line "a battle."
@@ -216,14 +216,14 @@ ChuckExplainBadgeText:
 	done
 
 ChuckExplainTMText:
-	text "That is DYNAMIC-"
-	line "PUNCH."
+	text "That is Bulk Up."
+	line "It's a move to"
 
-	para "It doesn't always"
-	line "hit, but when it"
+	para "strengthen your"
+	line "#mon's body,"
 
-	para "does, it causes"
-	line "confusion!"
+	para "upping their ATK"
+	line "and DEF."
 	done
 
 ChuckAfterText:

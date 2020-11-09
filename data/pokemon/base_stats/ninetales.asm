@@ -4,7 +4,7 @@
 	evs  0,   0,   0,   1,   0,   1
  	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, GHOST ; type
+	db GHOST, FIRE ; type
 	db 75 ; catch rate
 	db 178 ; base exp
 	db ASPEAR_BERRY, SPELL_TAG ; items

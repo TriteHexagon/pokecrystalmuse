@@ -283,7 +283,7 @@ RadioTower5FRocketBossBeforeText:
 	cont "back."
 
 	para "That should bring"
-	line "our boss GIOVANNI"
+	line "our boss Giovanni"
 
 	para "back from his solo"
 	line "training."
@@ -299,7 +299,7 @@ RadioTower5FRocketBossBeforeText:
 
 RadioTower5FRocketBossWinText:
 	text "No! Forgive me,"
-	line "GIOVANNI!"
+	line "Giovanni!"
 	done
 
 RadioTower5FRocketBossAfterText:
@@ -311,7 +311,7 @@ RadioTower5FRocketBossAfterText:
 	para "I wasn't up to the"
 	line "task after all."
 
-	para "Like GIOVANNI did"
+	para "Like Giovanni did"
 	line "before me, I will"
 
 	para "disband Team"

@@ -221,7 +221,7 @@ SwimmermKirkAfterBattleText:
 SwimmermMathewSeenText:
 	text "Are you seeking"
 	line "the secrets of"
-	cont "WHIRL ISLANDS?"
+	cont "Whirl Islands?"
 	done
 
 SwimmermMathewBeatenText:
@@ -231,7 +231,7 @@ SwimmermMathewBeatenText:
 
 SwimmermMathewAfterBattleText:
 	text "A secret about"
-	line "WHIRL ISLANDS…"
+	line "Whirl Islands…"
 
 	para "It's pitch-black"
 	line "inside!"
@@ -239,7 +239,7 @@ SwimmermMathewAfterBattleText:
 
 SwimmerfKayleeSeenText:
 	text "I'm on my way to"
-	line "WHIRL ISLANDS."
+	line "Whirl Islands."
 
 	para "I'm going explor-"
 	line "ing with friends."
@@ -254,7 +254,7 @@ SwimmerfKayleeAfterBattleText:
 	text "There's supposed"
 	line "to be a big #-"
 	cont "mon deep beneath"
-	cont "WHIRL ISLANDS."
+	cont "Whirl Islands."
 
 	para "I wonder what it"
 	line "could be?"
@@ -317,11 +317,11 @@ SwimmerfKaraBeatenText:
 SwimmerfKaraAfterBattleText:
 	text "I heard roars from"
 	line "deep inside the"
-	cont "ISLANDS."
+	cont "Islands."
 	done
 
 SwimmerfWendySeenText:
-	text "At night, STARYU"
+	text "At night, Staryu"
 	line "gather near the"
 	cont "water's surface."
 	done
@@ -332,7 +332,7 @@ SwimmerfWendyBeatenText:
 
 SwimmerfWendyAfterBattleText:
 	text "The clusters of"
-	line "STARYU light up"
+	line "Staryu light up"
 	cont "at the same time."
 
 	para "It's so beautiful,"

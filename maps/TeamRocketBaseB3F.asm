@@ -388,7 +388,7 @@ ExecutiveM4BeforeText:
 	line "This is the office"
 
 	para "of our leader,"
-	line "GIOVANNI."
+	line "Giovanni."
 
 	para "Since disbanding"
 	line "Team Rocket three"
@@ -414,7 +414,7 @@ ExecutiveM4BeatenText:
 	text "I… I couldn't do a"
 	line "thing…"
 
-	para "GIOVANNI, please"
+	para "Giovanni, please"
 	line "forgive me…"
 	done
 
@@ -427,10 +427,10 @@ ExecutiveM4AfterText:
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
+	text "Murkrow: The"
 	line "password is…"
 
-	para "HAIL GIOVANNI."
+	para "Hail Giovanni."
 	done
 
 GruntF5SeenText:

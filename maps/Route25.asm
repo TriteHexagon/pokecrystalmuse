@@ -419,7 +419,7 @@ CooltrainermKevinAfterBattleText:
 	done
 
 BillsHouseSignText:
-	text "SEA COTTAGE"
+	text "Sea Cottage"
 	line "Bill's House"
 	done
 

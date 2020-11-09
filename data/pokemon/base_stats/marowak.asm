@@ -4,7 +4,7 @@
 	evs  0,   0,   2,   0,   0,   0
  	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, GHOST ; type
+	db GHOST, GROUND ; type
 	db 75 ; catch rate
 	db 124 ; base exp
 	db NO_ITEM, THICK_CLUB ; items

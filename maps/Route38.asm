@@ -336,7 +336,7 @@ BirdKeeperTobyAfterBattleText:
 	line "Cianwood City to"
 
 	para "teach my #mon"
-	line "how to FLY."
+	line "how to Fly."
 	done
 
 SchoolboyChad1SeenText:

@@ -198,7 +198,7 @@ JasmineCureAmphyText:
 
 PlayerHandedSecretpotionText:
 	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
+	line "SecretPotion to"
 	cont "Jasmine."
 	done
 

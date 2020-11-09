@@ -85,7 +85,7 @@ BirdKeeperRoyAfterBattleText:
 	text "You have #mon"
 	line "that know the HM"
 
-	para "move FLY, don't"
+	para "move Fly, don't"
 	line "you? I envy you."
 	done
 

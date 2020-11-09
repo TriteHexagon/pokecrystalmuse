@@ -221,7 +221,7 @@ TrainerGruntM19:
 
 RocketElectrode1:
 	cry ELECTRODE
-	loadwildmon ELECTRODE, 23
+	loadwildmon ELECTRODE, 30
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE1
@@ -239,7 +239,7 @@ RocketElectrode1:
 
 RocketElectrode2:
 	cry ELECTRODE
-	loadwildmon ELECTRODE, 23
+	loadwildmon ELECTRODE, 30
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE2
@@ -257,7 +257,7 @@ RocketElectrode2:
 
 RocketElectrode3:
 	cry ELECTRODE
-	loadwildmon ELECTRODE, 23
+	loadwildmon ELECTRODE, 30
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE3
@@ -598,7 +598,7 @@ RocketBaseBossDontMeddleText:
 	para "As the interim"
 	line "boss in place of"
 
-	para "GIOVANNI, I'll"
+	para "Giovanni, I'll"
 	line "show you how wrong"
 
 	para "it is to meddle"
@@ -615,7 +615,7 @@ RocketBaseBossWinText:
 	line "join Team Rocket,"
 
 	para "you could become"
-	line "an EXECUTIVE."
+	line "an Executive."
 	done
 
 RocketBaseBossRetreatText:
@@ -685,7 +685,7 @@ RockerBaseLanceElectrodeFaintText:
 	para "We have no choice."
 	line "We have to make"
 
-	para "all the ELECTRODE"
+	para "all the Electrode"
 	line "faint."
 
 	para "That should stop"
@@ -737,7 +737,7 @@ RocketBaseReceivedHM06Text: ; unused
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "That's WHIRLPOOL."
+	text "That's Whirlpool."
 	line "Teach it to a"
 
 	para "#mon to get"
@@ -818,7 +818,7 @@ GruntM17BeatenText:
 
 GruntM17AfterBattleText:
 	text "Heh, I'm just a"
-	line "GRUNT."
+	line "Grunt."
 
 	para "I don't know the"
 	line "password. Too bad"

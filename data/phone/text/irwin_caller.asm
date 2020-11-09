@@ -148,11 +148,11 @@ IrwinTrainPassGossipText:
 	para "zip back anytime!"
 	line "That's reassuring!"
 
-	para "What? You can FLY"
+	para "What? You can Fly"
 	line "back anytime?"
 
 	para "What do you mean"
-	line "by FLY?"
+	line "by Fly?"
 	done
 
 IrwinSnorlaxGossipText:

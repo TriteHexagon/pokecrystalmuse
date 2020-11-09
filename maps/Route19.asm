@@ -220,14 +220,14 @@ Route19SignText:
 	text "Route 19"
 
 	para "Fuchsia City -"
-	line "SEAFOAM ISLANDS"
+	line "SEAFOAM Islands"
 	done
 
 CarefulSwimmingSignText:
 	text "Please be careful"
 	line "if you are swim-"
 	cont "ming to SEAFOAM"
-	cont "ISLANDS."
+	cont "Islands."
 
 	para "Fuchsia Police"
 	done
