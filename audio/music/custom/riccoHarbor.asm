@@ -723,8 +723,8 @@ Music_RiccoHarbor_Ch2_Bar50:
 ; ============================================================================================================
 
 Music_RiccoHarbor_Ch3:
-	;wavetype 2, 12, $11
-	notetype 6, $1D
+	;wavetype 3, 12, $11
+	notetype 6, $1B
 	tone $0002
 ;Bar 1
 	note __, 16

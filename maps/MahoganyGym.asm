@@ -212,8 +212,8 @@ PryceText_BlizzardSpeech:
 	text "That TM contains"
 	line "Blizzard."
 
-	para "It's powerful move" 
-	line "that inflicts"
+	para "It's a powerful" 
+	line "move that inflicts"
 	cont "great damage."
 
 	para "It perfectly"

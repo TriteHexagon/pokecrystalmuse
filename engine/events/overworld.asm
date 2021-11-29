@@ -1297,6 +1297,8 @@ TryHeadbuttOW::
 	call CheckPartyMove
 	jr c, .no
 
+	;have a check for a specific badge? or talking to the guy on Ilex Forest?
+
 	ld a, BANK(AskHeadbuttScript)
 	ld hl, AskHeadbuttScript
 	call CallScript

@@ -145,7 +145,7 @@ BuenaPhoneLuckyNumberShowText:
 	line "Have you ever won"
 
 	para "a prize on the"
-	line "Lucky NUMBER SHOW?"
+	line "Lucky Number Show?"
 
 	para "Reed moans that"
 	line "he's never won, so"

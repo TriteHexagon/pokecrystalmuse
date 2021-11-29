@@ -1486,7 +1486,7 @@ _MayRegisterItemText::
 	line "Bag may be"
 
 	para "registered for use"
-	line "on SELECT Button."
+	line "on Select Button."
 	done
 
 _OakText1::

@@ -95,7 +95,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	line "actually a crater"
 
 	para "made by rampaging"
-	line "GYARADOS."
+	line "Gyarados."
 
 	para "The crater filled"
 	line "up with rainwater"

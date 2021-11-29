@@ -35,7 +35,7 @@ RedsHouse1FBookshelf:
 RedsMomText1:
 	text "Hi!"
 
-	para "RED's been away"
+	para "Red's been away"
 	line "for a long time."
 
 	para "He hasn't called"
@@ -54,7 +54,7 @@ RedsMomText1:
 	done
 
 RedsMomText2:
-	text "I worry about RED"
+	text "I worry about Red"
 	line "getting hurt or"
 
 	para "sick, but he's a"

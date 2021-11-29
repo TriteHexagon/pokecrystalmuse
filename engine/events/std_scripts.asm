@@ -400,19 +400,19 @@ BugContestResults_CleanUp:
 
 BugContestResults_FirstPlace:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-	getitemname STRING_BUFFER_4, GOLD_LEAF
-	farwritetext ContestResults_PlayerWonAPrizeText
-	waitbutton
-	verbosegiveitem GOLD_LEAF
-	iffalse BugContestResults_NoRoomForGoldLeaf
-	sjump BugContestResults_ReturnAfterWinnersPrize
-
-BugContestResults_SecondPlace:
 	getitemname STRING_BUFFER_4, SUN_STONE
 	farwritetext ContestResults_PlayerWonAPrizeText
 	waitbutton
 	verbosegiveitem SUN_STONE
 	iffalse BugContestResults_NoRoomForSunStone
+	sjump BugContestResults_ReturnAfterWinnersPrize
+
+BugContestResults_SecondPlace:
+	getitemname STRING_BUFFER_4, GOLD_LEAF
+	farwritetext ContestResults_PlayerWonAPrizeText
+	waitbutton
+	verbosegiveitem GOLD_LEAF
+	iffalse BugContestResults_NoRoomForGoldLeaf
 	sjump BugContestResults_ReturnAfterWinnersPrize
 
 BugContestResults_ThirdPlace:

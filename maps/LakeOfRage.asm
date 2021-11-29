@@ -84,7 +84,7 @@ RedGyarados:
 	pause 15
 	cry GYARADOS
 	closetext
-	loadwildmon GYARADOS, 30
+	loadwildmon GYARADOS, 35
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
 	startbattle
 	ifequal LOSE, .NotBeaten
@@ -311,12 +311,12 @@ LakeOfRageLanceAskHelpText:
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GYARADOS: Gyashaa!"
+	text "Gyarados: Gyashaa!"
 	done
 
 LakeOfRageGotRedScaleText:
 	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	line "Red Scale."
 	done
 
 LakeOfRageGrampsText:
@@ -334,7 +334,7 @@ LakeOfRageGrampsText_ClearedRocketHideout:
 LakeOfRageSuperNerdText:
 	text "I heard this lake"
 	line "was made by ram-"
-	cont "paging GYARADOS."
+	cont "paging Gyarados."
 
 	para "I wonder if there"
 	line "is any connection"
@@ -437,7 +437,7 @@ CooltrainerfLoisBeatenText:
 CooltrainerfLoisAfterBattleText:
 	text "Come to think of"
 	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	cont "pink Butterfree."
 	done
 
 MeetWesleyText:

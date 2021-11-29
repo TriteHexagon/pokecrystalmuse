@@ -10,7 +10,7 @@ Music_Temple_Ch1:
 	tempo 131
 	volume $77
 	dutycycle $2
-	tone $0001
+	;tone $0001
 	vibrato $01, $53
 	stereopanning $ff
 	notetype $c, $c7
@@ -231,7 +231,6 @@ Music_Temple_Ch1_D:
 	loopchannel 2, Music_Temple_Ch1_D
 	endchannel
 ; ============================================================================================================
-
 Music_Temple_Ch2: 
 	dutycycle $1
 	stereopanning $ff
@@ -457,7 +456,7 @@ Music_Temple_Ch2_C:
 	note F#, 2
 	endchannel
 
-Music_Temple_Ch2_D1:
+Music_Temple_Ch2_D1
 	octave 2
 	note G_, 1
 	note A#, 1
@@ -472,7 +471,7 @@ Music_Temple_Ch2_D1:
 	loopchannel 4, Music_Temple_Ch2_D1
 	endchannel
 
-Music_Temple_Ch2_D2:
+Music_Temple_Ch2_D2
 	octave 2
 	note G#, 1
 	octave 3
@@ -488,7 +487,7 @@ Music_Temple_Ch2_D2:
 	loopchannel 4, Music_Temple_Ch2_D2
 	endchannel
 
-Music_Temple_Ch2_D3:
+Music_Temple_Ch2_D3
 	octave 2
 	note G_, 1
 	note B_, 1
@@ -506,7 +505,7 @@ Music_Temple_Ch2_D3:
 Music_Temple_Ch3:
 	;tone $0001
 	stereopanning $ff
-	notetype $c, $1E
+	notetype $c, $1C
 
 ;INTRO
 	octave 2
@@ -519,7 +518,7 @@ Music_Temple_Ch3:
 	note __, 4
 	
 ;Bar2:
- 	notetype 8, $1E
+ 	notetype 8, $1C
 	note A#, 3
 	note A#, 3
 	note A#, 3
@@ -839,7 +838,7 @@ Music_Temple_Ch4_branch_1:
 	loopchannel 8, Music_Temple_Ch4_branch_1
 	endchannel
 
-Music_Temple_Ch4_branch_B2:
+Music_Temple_Ch4_branch_B2
 	;Bar 11-18
 	notetype 8
 	
@@ -871,7 +870,8 @@ Music_Temple_Ch4_branch_B1:
 	note D_, 2
 	note __, 1
 	note D_, 2
-	note __, 16
+	note __, 4
+	note __, 12
 	note __, 12
 	loopchannel 3, Music_Temple_Ch4_branch_B1
 	endchannel
@@ -892,16 +892,31 @@ Music_Temple_Ch4_C1:
 Music_Temple_Ch4_C2:
 ;Bar33-34:
 	note D_, 3
-	note __, 16
-	note __, 5
-	loopchannel 2, Music_Temple_Ch4_C2
+	note __, 15
+	note __, 6
+	
+	note D_, 3
+	note __, 15
+	note __, 6
 	endchannel
 
 Music_Temple_Ch4_D:
 ;Bar 35-42
-rept 8
 	note D_, 2
 	note __, 1
-endr
+	note D_, 2
+	note __, 1
+	note D_, 2
+	note __, 1
+	note D_, 2
+	note __, 1
+	note D_, 2
+	note __, 1
+	note D_, 2
+	note __, 1
+	note D_, 2
+	note __, 1
+	note D_, 2
+	note __, 1
 	loopchannel 16, Music_Temple_Ch4_D
 	endchannel

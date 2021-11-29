@@ -571,7 +571,7 @@ Music_Objection2001_Ch1_Bar15_16:
 ; ============================================================================================================
 Music_Objection2001_Ch3:
 	stereopanning $ff
-	wavetype 1, 12, $35
+	wavetype 2, 12, $35
 	tone $0002
 	vibrato $00, $14
 
@@ -675,7 +675,7 @@ Music_Objection2001_Ch3_Bar18:
 Music_Objection2001_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise 10
+	togglenoise 13
 
 ;Ch4_Bar1:
 	note __, 16

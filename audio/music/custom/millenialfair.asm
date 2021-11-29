@@ -679,7 +679,7 @@ Music_MillenialFair_Ch2_Bar35:
 ; ============================================================================================================
 
 Music_MillenialFair_Ch3:
-	wavetype 1, 12, $21
+	wavetype 2, 12, $21
 	stereopanning $ff
 	vibrato $10, $24
 ;Bar 1
@@ -704,7 +704,7 @@ Music_MillenialFair_Ch3_master:
 	note __, 16
 ;Bar 7
 	octave 5
-	wavetype 2, 6, $16
+	wavetype 3, 6, $16
 	note G#, 1
 	note A_, 5
 	notetype 12, $16
@@ -741,7 +741,7 @@ Music_MillenialFair_Ch3_master:
 	note C#, 2
 ;Bar 13
 	octave 5
-	wavetype 1, 6, $17
+	wavetype 2, 6, $17
 	note G#, 1
 	note A_, 5
 	notetype 12, $17
@@ -889,7 +889,7 @@ Music_MillenialFair_Ch3_master:
 ;Bar 38
 	note B_, 1
 	note __, 1
-	wavetype 2, 3, $26
+	wavetype 3, 3, $26
 	note F#, 1
 	note G_, 3
 	notetype 12, $26

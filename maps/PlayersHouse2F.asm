@@ -80,6 +80,7 @@ PlayersHouseRadioScript:
 	closetext
 	end
 
+;debug!
 PlayersHouseBookshelfScript:
 	opentext
 	writetext DebugTest

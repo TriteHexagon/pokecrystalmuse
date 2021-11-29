@@ -846,7 +846,7 @@ BurglarEddieBeatenText:
 	done
 
 BurglarEddieAfterBattleText:
-	text "Underground WARE-"
+	text "Underground Ware-"
 	line "House?"
 
 	para "What do you want"

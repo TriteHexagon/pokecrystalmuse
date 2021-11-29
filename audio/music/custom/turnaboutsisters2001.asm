@@ -475,10 +475,10 @@ Music_TurnaboutSisters2001_Ch2_master:
 	note G#, 2
 	note __, 14
 
-rept 5
+Music_TurnaboutSisters2001_Ch2_Silence:
 ;Bar28:
 	note __, 16
-endr
+	loopchannel 5, Music_TurnaboutSisters2001_Ch2_Silence
 ;Bar33:
 	octave 4
 	loopchannel 0, Music_TurnaboutSisters2001_Ch2_master
@@ -528,7 +528,7 @@ Music_TurnaboutSisters2001_Ch2_Bar2:
 ; ============================================================================================================
 Music_TurnaboutSisters2001_Ch3:
 	stereopanning $ff
-	wavetype 1, 12, $24
+	wavetype 2, 12, $24
 	vibrato $16, $14
 
 Music_TurnaboutSisters2001_Ch3_master:
@@ -806,7 +806,7 @@ Music_TurnaboutSisters2001_Ch3_Bar11:
 Music_TurnaboutSisters2001_Ch4:
 	notetype 12
 	stereopanning $ff
-	togglenoise 10
+	togglenoise 13
 
 Music_TurnaboutSisters2001_Ch4_master:
 ;Bar1:
