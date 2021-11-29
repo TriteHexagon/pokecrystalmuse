@@ -122,6 +122,7 @@ Music:
 	dba Music_IcirrusCity
 	dba Music_HearthomeCityDay
 	dba Music_Route10
+	dba Music_Route201
 ;bonus
 	dba Music_Temple
 	dba Music_LowerNorfair
@@ -163,3 +164,4 @@ Music:
 	dba Music_Route24GBSNight
 	dba Music_Route47GBSNight
 	dba Music_HearthomeCityNight
+	dba Music_Route201Night

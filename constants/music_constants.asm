@@ -123,6 +123,7 @@
 	const MUSIC_ICIRRUS_CITY
 	const MUSIC_HEARTHOME_CITY
 	const MUSIC_ROUTE_10
+	const MUSIC_ROUTE_201
 ;bonus
 ;const MUSIC_BONUS_
 	const MUSIC_BONUS_TEMPLE
@@ -165,6 +166,7 @@
 	const MUSIC_ROUTE_24_NIGHT
 	const MUSIC_ROUTE_47_NIGHT
 	const MUSIC_HEARTHOME_CITY_NIGHT
+	const MUSIC_ROUTE_201_NIGHT
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc
