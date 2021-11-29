@@ -367,7 +367,7 @@ TuscanyGivesGiftText:
 	line "duction, please"
 
 	para "accept this gift,"
-	line "a Pink Bow."
+	line "a Polkadot Bow."
 	done
 
 TuscanyGaveGiftText:

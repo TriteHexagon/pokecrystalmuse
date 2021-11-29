@@ -227,11 +227,11 @@ FakeDirectorTextAfter:
 	line "real Director in"
 
 	para "the Underground"
-	line "WAREHOUSE."
+	line "Warehouse."
 
 	para "It's at the far"
-	line "end of the UNDER-"
-	cont "GROUND."
+	line "end of the Under-"
+	cont "ground."
 
 	para "But I doubt you'll"
 	line "get that far."
@@ -239,7 +239,7 @@ FakeDirectorTextAfter:
 
 Executivef1SeenText:
 	text "Remember me from"
-	line "the HIDEOUT in"
+	line "the Hideout in"
 	cont "Mahogany Town?"
 
 	para "I lost then, but I"

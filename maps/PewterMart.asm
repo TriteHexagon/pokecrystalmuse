@@ -22,7 +22,7 @@ PewterMartSuperNerdScript:
 
 PewterMartYoungsterText:
 	text "Hi! Check out my"
-	line "GYARADOS!"
+	line "Gyarados!"
 
 	para "I raised it from a"
 	line "Magikarp. I can't"

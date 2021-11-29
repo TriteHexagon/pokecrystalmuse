@@ -223,8 +223,8 @@ RadioTower1FReceptionistNoToursText:
 
 RadioTower1FLuckyNumberManAskToPlayText:
 	text "Hi, are you here"
-	line "for the Lucky NUM-"
-	cont "BER SHOW?"
+	line "for the Lucky Num-"
+	cont "ber Show?"
 
 	para "Want me to check"
 	line "the ID numbers of"
@@ -254,7 +254,7 @@ RadioTower1FLuckyNumberManDotDotDotText:
 RadioTower1FLuckyNumberManComeAgainText:
 	text "Please come back"
 	line "next week for the"
-	cont "next Lucky NUMBER."
+	cont "next Lucky Number."
 	done
 
 RadioTower1FLuckyNumberManPerfectMatchText:

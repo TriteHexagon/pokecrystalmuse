@@ -41,16 +41,29 @@ PlayBattleMusic:
 	call DelayFrame
 	call MaxVolume
 
-	ld a, [wBattleType]
-	cp BATTLETYPE_SUICUNE
-	ld de, MUSIC_SUICUNE_BATTLE
-	jp z, .done
-	cp BATTLETYPE_ROAMING
-	jp z, .done
+	; ld a, [wBattleType]
+	; cp BATTLETYPE_SUICUNE
+	; ld de, MUSIC_SUICUNE_BATTLE
+	; jp z, .done
+	; cp BATTLETYPE_ROAMING
+	; jp z, .done
+
+	ld a, [wTempEnemyMonSpecies]
+	ld c, a
+	ld hl, MusicBySpecies
+	call MusicByComparisonLoop
+	jp c, .done
+	; cp HO_OH
+	; ld de, MUSIC_HO_HO_BATTLE
+	; jp z, .done
+	; cp LUGIA
+	; ld de, MUSIC_LUGIA_BATTLE
+	; jp z, .done
 
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
 	and a
+	;is there a trainer class?
 	jp nz, .trainermusic
 
 	farcall RegionCheck
@@ -75,23 +88,27 @@ PlayBattleMusic:
 	jr .done
 
 .trainermusic
-	ld de, MUSIC_CHAMPION_BATTLE
-	cp CHAMPION
-	jr z, .done
-	cp RED
-	jr z, .done
+	ld c, a
+	ld hl, MusicByTrainerClass
+	call MusicByComparisonLoop
+	jp c, .done
+	; ld de, MUSIC_CHAMPION_BATTLE
+	; cp CHAMPION
+	; jr z, .done
+	; cp RED
+	; jr z, .done
 
-	ld de, MUSIC_ROCKET_BATTLE
-	cp GRUNTM
-	jr z, .done
-	cp GRUNTF
-	jr z, .done
-	cp EXECUTIVEM
-	jr z, .done
-	cp EXEC_ARIANA
-	jr z, .done
-	cp SCIENTIST
-	jr z, .done
+	; ld de, MUSIC_ROCKET_BATTLE
+	; cp GRUNTM
+	; jr z, .done
+	; cp GRUNTF
+	; jr z, .done
+	; cp EXECUTIVEM
+	; jr z, .done
+	; cp EXEC_ARIANA
+	; jr z, .done
+	; cp SCIENTIST
+	; jr z, .done
 
 	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE
 	farcall IsKantoGymLeader
@@ -107,18 +124,18 @@ PlayBattleMusic:
 	farcall IsGymLeader
 	jr c, .done
 
-	ld de, MUSIC_RIVAL_BATTLE
-	ld a, [wOtherTrainerClass]
-	cp RIVAL1
-	jr z, .done
-	cp RIVAL2
-	jr nz, .othertrainer
+	; ld de, MUSIC_RIVAL_BATTLE
+	; ld a, [wOtherTrainerClass]
+	; cp RIVAL1
+	; jr z, .done
+	; cp RIVAL2
+	; jr nz, .othertrainer
 
-	ld a, [wOtherTrainerID]
-	cp RIVAL2_2_CHIKORITA ; Rival in Indigo Plateau
-	jr c, .done
-	ld de, MUSIC_CHAMPION_BATTLE
-	jr .done
+	; ld a, [wOtherTrainerID]
+	; cp RIVAL2_2_CHIKORITA ; Rival in Indigo Plateau
+	; jr c, .done
+	; ld de, MUSIC_CHAMPION_BATTLE
+	; jr .done
 
 .othertrainer
 	ld a, [wLinkMode]
@@ -193,4 +210,38 @@ ClearBattleRAM:
 	xor a ; LOW(vBGMap0)
 	ld [hli], a
 	ld [hl], HIGH(vBGMap0)
+	ret
+
+MusicBySpecies:
+	db HO_OH,   MUSIC_HO_HO_BATTLE
+	db LUGIA,   MUSIC_LUGIA_BATTLE
+	db SUICUNE, MUSIC_SUICUNE_BATTLE
+	db RAIKOU,  MUSIC_SUICUNE_BATTLE
+	db ENTEI,   MUSIC_SUICUNE_BATTLE
+	db -1 ; end
+
+MusicByTrainerClass:
+	db RED,         MUSIC_CHAMPION_BATTLE
+	db CHAMPION,    MUSIC_CHAMPION_BATTLE
+	db GRUNTM,      MUSIC_ROCKET_BATTLE
+	db GRUNTF,      MUSIC_ROCKET_BATTLE
+	db EXECUTIVEM,  MUSIC_ROCKET_BATTLE
+	db EXEC_ARIANA, MUSIC_ROCKET_BATTLE
+	db SCIENTIST,   MUSIC_ROCKET_BATTLE
+	db RIVAL1,      MUSIC_RIVAL_BATTLE
+	db RIVAL2,      MUSIC_RIVAL_BATTLE
+	db -1 ; end
+
+MusicByComparisonLoop:
+; c -> contains the constant to be compared (map, species, trainer class, etc)
+; hl -> pointer to array with the constants to be compared against in first column and the music in the second column
+	ld a, [hli]
+    cp -1
+    ret z
+    cp c
+    ld a, [hli]
+    jr nz, MusicByComparisonLoop
+	ld e, a
+	ld d, 0
+	scf
 	ret

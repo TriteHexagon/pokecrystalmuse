@@ -728,30 +728,25 @@ INCLUDE "gfx/overworld/trainer_battle_dark.pal"
 
 .loadpokeballgfx
 	ld a, [wOtherTrainerClass]
+	ld de, TeamRocketTransition
+	cp GRUNTM
+	ret z
+	cp GRUNTF
+	ret z
+	cp EXECUTIVEM
+	ret z
+	cp EXEC_ARIANA
+	ret z
+	cp SCIENTIST
+	ret z
+	; leave this for later
+	; ld de, ChuckTransition
+	; cp CHUCK
+	; ret z
 	ld de, PokeBallTransition
 	ret
 
-PokeBallTransition:
-; 16x16 overlay of a Poke Ball
-pusho
-opt b.X ; . = 0, X = 1
-	bigdw %......XXXX......
-	bigdw %....XXXXXXXX....
-	bigdw %..XXXX....XXXX..
-	bigdw %..XX........XX..
-	bigdw %.XX..........XX.
-	bigdw %.XX...XXXX...XX.
-	bigdw %XX...XX..XX...XX
-	bigdw %XXXXXX....XXXXXX
-	bigdw %XXXXXX....XXXXXX
-	bigdw %XX...XX..XX...XX
-	bigdw %.XX...XXXX...XX.
-	bigdw %.XX..........XX.
-	bigdw %..XX........XX..
-	bigdw %..XXXX....XXXX..
-	bigdw %....XXXXXXXX....
-	bigdw %......XXXX......
-popo
+INCLUDE "engine/battle/battle_transition_overlays.asm"
 
 WipeLYOverrides:
 	ldh a, [rSVBK]

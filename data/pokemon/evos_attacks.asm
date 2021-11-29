@@ -351,7 +351,6 @@ RaticateEvosAttacks:
 SpearowEvosAttacks:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0 ; no more evolutions
-	db 1, DRAGON_RAGE ;replace SonicBoom
 	db 1, PECK
 	db 1, GROWL
 	db 4, LEER
@@ -743,8 +742,8 @@ OddishEvosAttacks:
 	; evo
 	db 23, MOONLIGHT ;moved up
 	db 27, GIGA_DRAIN ;moved up
-	db 31, MOONBLAST ;replace wtv
-	db 35, TOXIC
+	db 31, TOXIC 
+	db 35, MOONBLAST ;replace wtv
 	db 39, PETAL_DANCE
 	db 43, DOUBLE_EDGE ;replace Natural Gift, etc
 	db 0 ; no more level-up moves
@@ -764,8 +763,8 @@ GloomEvosAttacks:
 	db 19, RAZOR_LEAF ;replace Mega Drain
 	db 24, MOONLIGHT ;moved up
 	db 29, GIGA_DRAIN ;moved up
-	db 34, MOONBLAST ;replace wtv
-	db 39, TOXIC
+	db 34, TOXIC
+	db 39, MOONBLAST ;replace wtv
 	db 44, PETAL_DANCE
 	db 49, DOUBLE_EDGE ;replace Natural Gift, etc
 	db 0 ; no more level-up moves
@@ -3280,7 +3279,7 @@ AmpharosEvosAttacks:
 	db 29, DRAGONBREATH ;evolution move
 	;evo
 	db 35, POWER_GEM
-	db 40, THUNDERBOLT ;replace Discharge
+	db 39, THUNDERBOLT ;replace Discharge
 	db 43, DRAGON_PULSE ;inserted
 	db 46, SIGNAL_BEAM ;moved up
 	db 51, LIGHT_SCREEN ;moved up
@@ -3378,7 +3377,6 @@ HoppipEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, AGILITY
 	db 1, SPLASH
-	db 1, TAIL_WHIP
 	db 4, SYNTHESIS
 	db 6, TAIL_WHIP
 	db 8, TACKLE

@@ -702,7 +702,7 @@ Music_BigBlue_Ch2_Bar20:
 ; ============================================================================================================
 
 Music_BigBlue_Ch3:
-	wavetype 1, 12, $12
+	wavetype 2, 12, $12
 	vibrato $12, $24
 ;Bar 1
 	octave 5
@@ -780,7 +780,7 @@ Music_BigBlue_Ch3:
 	note F_, 9
 	octave 5
 ;Bar 9
-	wavetype 2, 12, $13
+	wavetype 3, 12, $13
 	note F_, 3
 	note D#, 2
 	note C#, 1
@@ -815,7 +815,7 @@ Music_BigBlue_Ch3:
 ;Bar 12
 	note D#, 16
 ;Bar 13
-	wavetype 1, 12, $12
+	wavetype 2, 12, $12
 	vibrato $00, $44
 	octave 4
 	note C#, 2
@@ -860,7 +860,7 @@ Music_BigBlue_Ch3:
 	notetype 12, $12
 	note G#, 1
 ;Bar 17
-	wavetable 2
+	wavetype 3, 12, $12
 	octave 4
 	note A#, 16
 ;Bar 18
@@ -950,7 +950,7 @@ Music_BigBlue_Ch3:
 ; ============================================================================================================
 
 Music_BigBlue_Ch4:
-	togglenoise 11
+	togglenoise 14
 	notetype 12
 Music_BigBlue_Ch4_loop:
 ;Bar 1

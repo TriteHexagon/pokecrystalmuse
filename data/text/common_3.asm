@@ -828,7 +828,7 @@ _MobileCardFolderIntro4Text::
 	line "your collection of"
 
 	para "CardS, you must"
-	line "set a PASSCODE for"
+	line "set a Passcode for"
 	cont "your Card Folder."
 
 	para ""
@@ -840,7 +840,7 @@ _MobileCardFolderAskDeleteText::
 	line "is deleted, all"
 
 	para "its Cards and the"
-	line "PASSCODE will also"
+	line "Passcode will also"
 	cont "be deleted."
 
 	para "Beware--a deleted"

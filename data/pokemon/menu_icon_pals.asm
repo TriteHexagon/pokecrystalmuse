@@ -82,7 +82,7 @@ MonMenuIconPals:
 	icon_pals RED, BLUE ; PONYTA
 	icon_pals RED, BLUE ; RAPIDASH
 	icon_pals PINK, PURPLE ; SLOWPOKE
-	icon_pals PINK, PURPLE ; SLOWBRO
+	icon_pals PURPLE, PINK ; SLOWBRO
 	icon_pals GRAY, BROWN ; MAGNEMITE
 	icon_pals GRAY, BROWN ; MAGNETON
 	icon_pals BROWN, GREEN ; FARFETCH_D
@@ -132,7 +132,7 @@ MonMenuIconPals:
 	icon_pals BROWN, BLUE ; PINSIR
 	icon_pals BROWN, RED ; TAUROS
 	icon_pals RED, BROWN ; MAGIKARP
-	icon_pals BLUE, BROWN ; GYARADOS
+	icon_pals BLUE, RED ; GYARADOS
 	icon_pals BLUE, RED ; LAPRAS
 	icon_pals PURPLE, BLUE ; DITTO
 	icon_pals BROWN, GRAY ; EEVEE

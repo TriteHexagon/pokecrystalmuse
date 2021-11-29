@@ -308,7 +308,7 @@ Music_InvestigationMiddle2002_Ch2_Bar15:
 ; ============================================================================================================
 
 Music_InvestigationMiddle2002_Ch3:
-	wavetype 1, 12, $1A
+	wavetype 2, 12, $1A
 	vibrato $12, $24
 	tone $0002
 
@@ -437,11 +437,10 @@ Music_InvestigationMiddle2002_Ch3_Bar19:
 ; ============================================================================================================
 
 Music_InvestigationMiddle2002_Ch4:
-	togglenoise 10
+	togglenoise 13
 	notetype 12
 Music_InvestigationMiddle2002_Ch4_master:
 ;Bar 1
-rept 3
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar1
 ;Bar 2
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar2
@@ -449,7 +448,22 @@ rept 3
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar1
 ;Bar 4
 	callchannel Music_InvestigationMiddle2002_Ch4_Bar4
-endr
+;Bar 5
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar1
+;Bar 6
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar2
+;Bar 7
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar1
+;Bar 8
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar4
+;Bar 9
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar1
+;Bar 10
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar2
+;Bar 11
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar1
+;Bar 12
+	callchannel Music_InvestigationMiddle2002_Ch4_Bar4
 ;Bar 13
 	note C_, 2
 	note C_, 2

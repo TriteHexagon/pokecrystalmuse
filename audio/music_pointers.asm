@@ -116,6 +116,11 @@ Music:
 	dba Music_IcePathHGSS
 	dba Music_Route24GBS
 	dba Music_Route47GBS
+	dba Music_LugiaBattleHGSS
+	dba Music_HoOhBattleHGSS
+	dba Music_CasteliaSewers
+	dba Music_IcirrusCity
+	dba Music_HearthomeCityDay
 ;bonus
 	dba Music_Temple
 	dba Music_LowerNorfair
@@ -156,3 +161,4 @@ Music:
 	dba Music_CeruleanCityGBSNight
 	dba Music_Route24GBSNight
 	dba Music_Route47GBSNight
+	dba Music_HearthomeCityNight

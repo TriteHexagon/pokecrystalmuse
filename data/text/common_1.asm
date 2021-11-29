@@ -121,7 +121,7 @@ _PasscodesNotSameText::
 	done
 
 _PasscodeSetText::
-	text "Your PASSCODE has"
+	text "Your Passcode has"
 	line "been set."
 
 	para "Enter this number"
@@ -139,12 +139,12 @@ _FourZerosInvalidText::
 
 _EnterPasscodeText::
 	text "Enter the Card"
-	next "Folder PASSCODE."
+	next "Folder Passcode."
 	done
 
 _IncorrectPasscodeText::
 	text "Incorrect"
-	line "PASSCODE!"
+	line "Passcode!"
 
 	para ""
 	done
@@ -805,7 +805,7 @@ _LC_Text5::
 
 _LC_Text6::
 	text_start
-	line "Lucky NUMBER SHOW!"
+	line "Lucky Number Show!"
 	done
 
 _LC_Text7::
@@ -850,7 +850,7 @@ _LC_DragText2::
 
 _PnP_Text1::
 	text_start
-	line "PLACES AND PEOPLE!"
+	line "Places and People!"
 	done
 
 _PnP_Text2::
@@ -860,7 +860,7 @@ _PnP_Text2::
 
 _PnP_Text3::
 	text_start
-	line "me, DJ LILY!"
+	line "me, DJ Lily!"
 	done
 
 _PnP_Text4::
@@ -1292,7 +1292,7 @@ UnknownText_0x1bd286::
 
 _ObtainedTheVoltorbBadgeText:: ; unreferenced
 	text "Obtained the"
-	line "VOLTORBBADGE!"
+	line "VoltorbBadge!"
 	done
 
 _AskFloorElevatorText::
@@ -1300,13 +1300,13 @@ _AskFloorElevatorText::
 	done
 
 _BugCatchingContestTimeUpText::
-	text "ANNOUNCER: BEEEP!"
+	text "Announcer: BEEEP!"
 
 	para "Time's up!"
 	done
 
 _BugCatchingContestIsOverText::
-	text "ANNOUNCER: The"
+	text "Announcer: The"
 	line "Contest is over!"
 	done
 
@@ -1349,8 +1349,8 @@ _JustSawSomeRareMonText::
 	prompt
 
 _SavingRecordText::
-	text "SAVING RECORD…"
-	line "DON'T TURN OFF!"
+	text "Saving Record…"
+	line "Don't turn off!"
 	done
 
 _ReceiveItemText::

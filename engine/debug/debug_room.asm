@@ -1101,7 +1101,7 @@ DebugRoomMenu_ItemGet_Page1Values:
 	paged_value wDebugRoomItemQuantity, 1, 99,          1,           .NumberString,   NULL,                    FALSE
 
 .ItemNameString: db "Item NAME@"
-.NumberString:   db "NUMBER@"
+.NumberString:   db "Number@"
 
 DebugRoomMenu_PokemonGet:
 	ld hl, .PagedValuesHeader

@@ -1137,7 +1137,7 @@ Music_DiscoDescent_Ch2_Bar48:
 ; ============================================================================================================
 
 Music_DiscoDescent_Ch3:
-	wavetype 2, 12, $11
+	wavetype 3, 12, $11
 	tone $0001
 ;Bar 2
 	octave 4
@@ -1168,7 +1168,7 @@ Music_DiscoDescent_Ch3:
 	callchannel Music_DiscoDescent_Ch1_Type1
 	note A_, 1
 	note A_, 1
-	wavetype 1, 12, $11
+	wavetype 2, 12, $11
 	note __, 16
 	note __, 16
 	note __, 16
@@ -1200,7 +1200,7 @@ Music_DiscoDescent_Ch3_Bar10_11:
 	note __, 16
 	note __, 16
 ;Bar 16
-	wavetype 1, 12, $10
+	wavetype 2, 12, $10
 	note E_, 1
 	note C_, 1
 	octave 3
@@ -1244,7 +1244,7 @@ Music_DiscoDescent_Ch3_Bar10_11:
 	octave 5
 	note A_, 1
 ;Bar 18
-	wavetype 1, 12, $12
+	wavetype 2, 12, $12
 	note __, 6
 	octave 3
 	note A_, 2
@@ -1385,7 +1385,7 @@ Music_DiscoDescent_Ch3_Bar10_11:
 	note A_, 1
 ;Bar 34
 	vibrato $08, $24
-	wavetype 2, 12, $10
+	wavetype 3, 12, $10
 	octave 2
 	note G_, 5 
 	note __, 2
@@ -1608,7 +1608,7 @@ Music_DiscoDescent_Ch3_Bar58_65:
 	note A_, 1
 	note B_, 8
 ;Bar 70
-	wavetype 2, 12, $11
+	wavetype 3, 12, $11
 	octave 3
 Music_DiscoDescent_Ch3_loop1:
 	note __, 2

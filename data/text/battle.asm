@@ -110,7 +110,7 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "was hit by FUTURE"
+	line "was hit by Future"
 	cont "Sight!"
 	prompt
 

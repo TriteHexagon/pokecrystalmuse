@@ -269,7 +269,7 @@ SageMasaAfterBattleText:
 	line "was said to make"
 
 	para "its roost atop the"
-	line "BRASS Tower."
+	line "Gong Tower."
 
 	para "However…"
 
@@ -277,7 +277,7 @@ SageMasaAfterBattleText:
 	line "ago, a lightning"
 
 	para "bolt struck one of"
-	line "the TOWERS."
+	line "the Towers."
 
 	para "It was engulfed in"
 	line "flames that raged"

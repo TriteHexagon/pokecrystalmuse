@@ -220,11 +220,11 @@ RadioTower3FCooltrainerFitsLinkCableText:
 	text "It's a Link Cable."
 	line "I got it from"
 
-	para "Silph Co. on a trip"
-	line "to Saffron City"
+	para "Silph Co. on a"
+	line "trip to Saffron"
 
-	para "in Kanto. It"
-	line "allows certain"
+	para "City in Kanto."
+	line "It allows certain"
 
 	para "#mon to evolve"
 	line "without needing"
@@ -318,13 +318,13 @@ ScientistMarcAfterBattleText:
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the Card KEY"
+	text "It's the Card Key"
 	line "slot."
 	done
 
 InsertedTheCardKeyText:
 	text "<PLAYER> inserted"
-	line "the Card KEY."
+	line "the Card Key."
 	done
 
 RadioTower3FPersonnelSignText:

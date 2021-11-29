@@ -327,7 +327,7 @@ MrPokemonsHouse_OakText2:
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? That SCALE!"
+	text "Hm? That Scale!"
 	line "What's that?"
 	cont "A red Gyarados?"
 

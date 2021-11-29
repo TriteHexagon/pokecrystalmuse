@@ -141,12 +141,17 @@ INCLUDE "audio/music/custom/pkmncenternight.asm"
 INCLUDE "audio/music/custom/friendlyshop.asm"
 INCLUDE "audio/music/custom/route24GBS.asm"
 INCLUDE "audio/music/custom/ceruleanCityGBS.asm"
+INCLUDE "audio/music/custom/icirruscity.asm"
+INCLUDE "audio/music/custom/hearthomecity.asm"
 
 SECTION "Custom Songs 2", ROMX
 INCLUDE "audio/music/custom/cinnabarislandGBS.asm"
 INCLUDE "audio/music/custom/icepathHGSS.asm"
 INCLUDE "audio/music/custom/route47GBS.asm"
 INCLUDE "audio/music/custom/cinnabarislandFRLG.asm"
+INCLUDE "audio/music/custom/casteliaSewers.asm"
+INCLUDE "audio/music/custom/hoohbattle.asm"
+INCLUDE "audio/music/custom/lugiabattle.asm"
 
 ;INCLUDE "audio/music/custom/.asm"
 SECTION "Bonus Songs 1", ROMX
