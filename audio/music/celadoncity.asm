@@ -10,7 +10,7 @@ Music_CeladonCity_Ch1: ; f4364
 	tone $0001
 Music_CeladonCity_branch_f436c: ; f436c
 	stereopanning $f
-	notetype $c, $a6
+	notetype 12, $a6
 	octave 3
 	note A_, 7
 	intensity $a1
@@ -148,7 +148,7 @@ Music_CeladonCity_Ch2: ; f4406
 	vibrato $12, $34
 	dutycycle $2
 	stereopanning $f0
-	notetype $c, $b7
+	notetype 12, $b7
 	octave 4
 	note D_, 1
 	note C#, 1
@@ -275,7 +275,7 @@ Music_CeladonCity_branch_f4474: ; f4474
 Music_CeladonCity_Ch3: ; f4492
 	vibrato $12, $24
 Music_CeladonCity_branch_f4495: ; f4495
-	notetype $c, $25
+	notetype 12, $25
 	octave 3
 	note A_, 2
 	note __, 2
@@ -357,7 +357,7 @@ Music_CeladonCity_Night_Ch1: ; f4364
 Music_CeladonCity_Night_Ch3: ; f4492
 	vibrato $12, $24
 Music_CeladonCity_Night_branch_f4495: ; f4495
-	notetype $c, $24
+	notetype 12, $24
 	octave 3
 	note A_, 2
 	note __, 2

@@ -143,6 +143,7 @@ INCLUDE "audio/music/custom/route24GBS.asm"
 INCLUDE "audio/music/custom/ceruleanCityGBS.asm"
 INCLUDE "audio/music/custom/icirruscity.asm"
 INCLUDE "audio/music/custom/hearthomecity.asm"
+INCLUDE "audio/music/custom/route10.asm"
 
 SECTION "Custom Songs 2", ROMX
 INCLUDE "audio/music/custom/cinnabarislandGBS.asm"

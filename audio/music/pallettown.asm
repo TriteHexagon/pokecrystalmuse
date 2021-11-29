@@ -20,7 +20,7 @@ Music_PalletTown_Ch1_loop: ; f4b22
 
 Music_PalletTown_Ch1_Part1:
 	dutycycle $2
-	notetype $c, $78
+	notetype 12, $78
 	octave 3
 	note B_, 12
 	note A_, 1
@@ -136,7 +136,7 @@ Music_PalletTown_Ch2: ; f4ba1
 	dutycycle $2
 	stereopanning $f0
 Music_PalletTown_branch_f4ba8: ; f4ba8
-	notetype $c, $88
+	notetype 12, $88
 	octave 1
 	note G_, 2
 	note B_, 2
@@ -259,7 +259,7 @@ Music_PalletTown_branch_f4be5: ; f4be5
 
 Music_PalletTown_Ch3: ; f4c2a
 	vibrato $14, $24
-	notetype $c, $10
+	notetype 12, $10
 Music_PalletTown_branch_f4c2d: ; f4c2d
 	octave 6
 	note D_, 2
@@ -398,6 +398,6 @@ Music_PalletTownNight_Ch2: ; f4ba1
 
 Music_PalletTownNight_Ch3: ; f4c2a
 	vibrato $14, $14
-	notetype $c, $12
+	notetype 12, $12
 	callchannel Music_PalletTown_branch_f4c2d
 	endchannel

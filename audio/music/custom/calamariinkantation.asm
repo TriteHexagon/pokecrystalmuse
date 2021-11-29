@@ -13,7 +13,7 @@ Music_CalamariInkantation_Ch1:
 	volume $66
 	dutycycle $0
 	stereopanning $ff
-	notetype $c, $b6
+	notetype 12, $b6
 	sound_duty 0, 0, 1, 1
 
 ;Bar1:

@@ -11,7 +11,7 @@ Music_Route3_Ch1: ; ec2d6
 Music_Route3_Entry:
 	stereopanning $f
 	volume $77
-	notetype $c, $91
+	notetype 12, $91
 	note __, 10
 	vibrato $14, $6
 	octave 3
@@ -284,7 +284,7 @@ Music_Route3_Ch2_Intro:
 	dutycycle $2
 	vibrato $6, $3
 	stereopanning $f0
-	notetype $c, $5e
+	notetype 12, $5e
 	octave 4
 	note E_, 1
 	note G_, 1
@@ -356,7 +356,7 @@ Music_Route3_Ch2_Part2:
 Music_Route3_Ch3: ; ec45b
 	stereopanning $ff
 	vibrato $6, $3
-	notetype $c, $13
+	notetype 12, $13
 	octave 3
 	note B_, 1
 	octave 4
@@ -487,10 +487,10 @@ Music_Route3_Ch3_Intro:
 
 Music_Route3_Ch4: ; ec4eb
 	togglenoise $4
-	notetype $c
+	notetype 12
 	note __, 10
 Music_Route3_branch_ec4f0: ; ec4f0
-	notetype $c
+	notetype 12
 	note D_, 2
 	note D_, 4
 	note D_, 1
@@ -547,7 +547,7 @@ Music_Route3_Night_Ch2_loop:
 Music_Route3_Night_Ch3: ; ec45b
 	stereopanning $ff
 	vibrato $6, $3
-	notetype $c, $10
+	notetype 12, $10
 	octave 3
 	note B_, 1
 	octave 4
@@ -563,6 +563,6 @@ Music_Route3_Night_Ch3: ; ec45b
 
 Music_Route3_Night_Ch4: ; ec4eb
 	togglenoise $4
-	notetype $c
+	notetype 12
 	note __, 10
 	callchannel Music_Route3_branch_ec4f0

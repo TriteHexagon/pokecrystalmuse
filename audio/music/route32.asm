@@ -12,7 +12,7 @@ Music_Route32_Ch1: ; e94f5
 	tone $0001
 	vibrato $10, $15
 	stereopanning $f
-	notetype $c, $b3
+	notetype 12, $b3
 	octave 3
 	note C_, 4
 	note C_, 6
@@ -169,7 +169,7 @@ Music_Route32_Ch2: ; e95af
 	dutycycle $3
 	vibrato $10, $36
 	stereopanning $f0
-	notetype $c, $c2
+	notetype 12, $c2
 	octave 3
 	note F_, 2
 	note C_, 1
@@ -314,7 +314,7 @@ Music_Route32_branch_e95ce: ; e95ce
 ; e966b
 
 Music_Route32_Ch3: ; e966b
-	notetype $c, $25
+	notetype 12, $25
 	octave 3
 	note F_, 1
 	note __, 3
@@ -472,7 +472,7 @@ Music_Route32_branch_e9684: ; e9684
 
 Music_Route32_Ch4: ; e9709
 	togglenoise $1
-	notetype $c
+	notetype 12
 	callchannel Music_Route32_branch_e9734
 	callchannel Music_Route32_branch_e9741
 Music_Route32_branch_e9713: ; e9713
@@ -523,7 +523,7 @@ Music_Route32_branch_e9741: ; e9741
 	note A#, 1
 	note A_, 1
 	note A_, 1
-	notetype $c
+	notetype 12
 	endchannel
 ; e974f
 
@@ -541,7 +541,7 @@ Music_Route34Night_Ch1:
 	tone $0001
 	vibrato $10, $15
 	stereopanning $f
-	notetype $c, $b3
+	notetype 12, $b3
 	octave 3
 	note C_, 4
 	note C_, 6
@@ -563,7 +563,7 @@ Music_Route34Night_Ch2:
 	dutycycle $2
 	vibrato $10, $26
 	stereopanning $f0
-	notetype $c, $c2
+	notetype 12, $c2
 	octave 3
 	note F_, 2
 	note C_, 1
@@ -587,7 +587,7 @@ Music_Route34Night_Ch2:
 
 ; ============================================================================================================
 Music_Route34Night_Ch3:
-	notetype $c, $23
+	notetype 12, $23
 	octave 3
 	note F_, 1
 	note __, 3
@@ -616,7 +616,7 @@ Music_Route34Night_Ch3:
 ; ============================================================================================================
 Music_Route34Night_Ch4:
 	togglenoise $7
-	notetype $c
+	notetype 12
 	callchannel Music_Route32_branch_e9734
 	callchannel Music_Route32_branch_e9741
 

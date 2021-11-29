@@ -12,7 +12,7 @@ Music_IcePathHGSS_Ch1:
 	volume $77
 	dutycycle $1
 	stereopanning $ff
-	notetype $c, $a7
+	notetype 12, $a7
 	;vibrato $00, $14
 	tone $0002
 

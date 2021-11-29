@@ -10,7 +10,7 @@ Music_AzaleaTown_Ch1: ; f57f4
 	volume $77
 	dutycycle $2
 	stereopanning $f
-	notetype $c, $a1
+	notetype 12, $a1
 	note __, 2
 Music_AzaleaTown_branch_f5801: ; f5801
 	intensity $a1
@@ -114,7 +114,7 @@ Music_AzaleaTown_branch_f5816: ; f5816
 	octave 2
 	note G#, 4
 	note __, 8
-	notetype $c, $2f
+	notetype 12, $2f
 	octave 3
 	note G#, 14
 	note __, 2
@@ -122,7 +122,7 @@ Music_AzaleaTown_branch_f5816: ; f5816
 ; f588c
 
 Music_AzaleaTown_branch_f588c: ; f588c
-	notetype $c, $a1
+	notetype 12, $a1
 	octave 4
 	note F_, 2
 	intensity $61
@@ -274,7 +274,7 @@ Music_AzaleaTown_branch_f59c7: ; f59c7
 	note F_, 2
 	note __, 1
 	note C_, 1
-	notetype $c, $a8
+	notetype 12, $a8
 	vibrato $0, $0
 	note C#, 8
 	intensity $a7
@@ -302,7 +302,7 @@ Music_AzaleaTown_branch_f59c7: ; f59c7
 	notetype $6, $b4
 	note __, 1
 	note D_, 1
-	notetype $c, $b7
+	notetype 12, $b7
 	note D#, 12
 	intensity $b4
 	endchannel
@@ -312,7 +312,7 @@ Music_AzaleaTown_Ch2_Intro:
 	vibrato $12, $23
 	dutycycle $2
 	stereopanning $f0
-	notetype $c, $62
+	notetype 12, $62
 	note __, 1
 	octave 4
 	note D_, 1
@@ -422,7 +422,7 @@ Music_AzaleaTown_Ch2_Part2:
 	note __, 4
 	octave 5
 	note C_, 4
-	notetype $c, $b7
+	notetype 12, $b7
 	octave 4
 	note G#, 12
 	note D#, 4
@@ -438,7 +438,7 @@ Music_AzaleaTown_Ch2_Part2:
 Music_AzaleaTown_Ch3: ; f5a08
 	stereopanning $ff
 	vibrato $6, $26
-	notetype $c, $25
+	notetype 12, $25
 
 	callchannel Music_AzaleaTown_Ch3_Intro
 Music_AzaleaTown_branch_f5a24: ; f5a24
@@ -674,7 +674,7 @@ Music_AzaleaTown_Ch3_Type2:
 
 Music_AzaleaTown_Ch4: ; f5ae5
 	togglenoise $3
-	notetype $c
+	notetype 12
 	note F_, 2
 Music_AzaleaTown_branch_f5aea: ; f5aea
 	note D#, 2
@@ -717,7 +717,7 @@ Music_AzaleaTownNight_Ch1:
 	dutycycle $2
 	stereopanning $f
 	;pitchoffset 1, A_
-	notetype $c, $a1
+	notetype 12, $a1
 	note __, 2
 
 	callchannel Music_AzaleaTown_branch_f5801
@@ -748,7 +748,7 @@ Music_AzaleaTownNight_Ch3:
 	stereopanning $ff
 	;pitchoffset 1, A_
 	vibrato $6, $16
-	notetype $c, $24
+	notetype 12, $24
 
 	callchannel Music_AzaleaTown_Ch3_Intro
 Music_AzaleaTownNight_branch_f5a24: ; f5a24
@@ -804,7 +804,7 @@ Music_AzaleaTownNight_branch_f5acf: ; f5acf
 ; ============================================================================================================
 Music_AzaleaTownNight_Ch4:
 	togglenoise $9
-	notetype $c
+	notetype 12
 	note __, 2
 	callchannel Music_AzaleaTown_branch_f5aea
 	

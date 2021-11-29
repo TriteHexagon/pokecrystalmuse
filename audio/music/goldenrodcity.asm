@@ -9,7 +9,7 @@ Music_GoldenrodCity_Ch1: ; eb45f
 	stereopanning $f
 	tempo 176
 	volume $77
-	notetype $c, $97
+	notetype 12, $97
 	note __, 16
 	note __, 16
 	note __, 16
@@ -180,7 +180,7 @@ Music_GoldenrodCity_Ch2: ; eb519
 	stereopanning $f0
 	vibrato $12, $23
 	dutycycle $2
-	notetype $c, $97
+	notetype 12, $97
 Music_GoldenrodCity_branch_eb523: ; eb523
 	intensity $97
 	callchannel Music_GoldenrodCity_branch_eb555
@@ -274,7 +274,7 @@ Music_GoldenrodCity_branch_eb572: ; eb572
 Music_GoldenrodCity_Ch3: ; eb584
 	stereopanning $ff
 	vibrato $8, $23
-	notetype $c, $25
+	notetype 12, $25
 Music_GoldenrodCity_branch_eb58c: ; eb58c
 	callchannel Music_GoldenrodCity_branch_eb5aa
 	callchannel Music_GoldenrodCity_branch_eb5aa
@@ -397,7 +397,7 @@ Music_GoldenrodCity_branch_eb5d2: ; eb5d2
 
 Music_GoldenrodCity_Ch4: ; eb606
 	togglenoise $3
-	notetype $c
+	notetype 12
 	note __, 16
 	note __, 16
 	note __, 16
@@ -498,7 +498,7 @@ Music_GoldenrodCityNight_Ch1:
 	stereopanning $f
 	tempo 187
 	volume $77
-	notetype $c, $97
+	notetype 12, $97
 	note __, 16
 	note __, 16
 	note __, 16
@@ -552,7 +552,7 @@ Music_GoldenrodCityNight_Ch2:
 	stereopanning $f0
 	vibrato $12, $13
 	dutycycle $2
-	notetype $c, $97
+	notetype 12, $97
 Music_GoldenrodCityNight_branch_eb523: ; eb523
 	intensity $97
 	callchannel Music_GoldenrodCity_branch_eb555
@@ -594,14 +594,14 @@ Music_GoldenrodCityNight_branch_eb523: ; eb523
 Music_GoldenrodCityNight_Ch3:
 	stereopanning $ff
 	vibrato $8, $13
-	notetype $c, $24
+	notetype 12, $24
 	
 	loopchannel 0, Music_GoldenrodCity_branch_eb58c
 	
 ; ============================================================================================================
 Music_GoldenrodCityNight_Ch4:
 	togglenoise $9
-	notetype $c
+	notetype 12
 	note __, 16
 	note __, 16
 	note __, 16

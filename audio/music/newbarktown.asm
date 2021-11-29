@@ -9,7 +9,7 @@ Music_NewBarkTown_Ch1: ; eb2dd
 	volume $77
 	stereopanning $f
 	vibrato $12, $23
-	notetype $c, $87
+	notetype 12, $87
 	note __, 4
 Music_NewBarkTown_branch_eb2eb: ; eb2eb
 	dutycycle $0
@@ -269,14 +269,14 @@ Music_NewBarkTown_branch_eb3f2: ; eb3f2
 	note B_, 12
 	note A_, 12
 	note G_, 8
-	notetype $c, $97
+	notetype 12, $97
 	note E_, 16
 	endchannel
 ; eb400
 
 Music_NewBarkTown_Ch3: ; eb400
 	stereopanning $f0
-	notetype $c, $10
+	notetype 12, $10
 	octave 5
 	note D_, 2
 	note E_, 2
@@ -366,7 +366,7 @@ Music_NewBarkTownNight_Ch1:
 	volume $77
 	stereopanning $f
 	vibrato $12, $22
-	notetype $c, $87
+	notetype 12, $87
 	note __, 4
 
 Music_NewBarkTownNight_main:
@@ -410,7 +410,7 @@ Music_NewBarkTownNight_Ch2:
 
 Music_NewBarkTownNight_Ch3: ; eb400
 	stereopanning $f0
-	notetype $c, $12
+	notetype 12, $12
 	octave 5
 	note D_, 2
 	note E_, 2

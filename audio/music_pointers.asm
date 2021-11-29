@@ -121,6 +121,7 @@ Music:
 	dba Music_CasteliaSewers
 	dba Music_IcirrusCity
 	dba Music_HearthomeCityDay
+	dba Music_Route10
 ;bonus
 	dba Music_Temple
 	dba Music_LowerNorfair

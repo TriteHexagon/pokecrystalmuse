@@ -10,7 +10,7 @@ Music_VioletCity_Ch1: ; f000c
 	volume $77
 	vibrato $12, $25
 	dutycycle $2
-	notetype $c, $95
+	notetype 12, $95
 	note __, 16
 
 	callchannel Music_VioletCity_Ch1_Intro
@@ -169,7 +169,7 @@ Music_VioletCity_Ch1_Part_1: ; f0056
 	note D#, 4
 	note F#, 2
 	note __, 2
-	notetype $c, $95
+	notetype 12, $95
 	note __, 8
 	octave 4
 	note F_, 3
@@ -179,7 +179,7 @@ Music_VioletCity_Ch1_Part_1: ; f0056
 	note B_, 1
 	octave 5
 	note D#, 8
-	notetype $c, $93
+	notetype 12, $93
 	dutycycle $2
 	note __, 16
 	notetype $6, $91
@@ -220,7 +220,7 @@ Music_VioletCity_Ch1_Part_2:
 	octave 3
 	note B_, 1
 	note A_, 3
-	notetype $c, $84
+	notetype 12, $84
 	note F#, 1
 	note __, 1
 	note F#, 2
@@ -243,7 +243,7 @@ Music_VioletCity_Ch1_Part_2:
 	note E_, 1
 	note D_, 1
 	note C#, 3
-	notetype $c, $84
+	notetype 12, $84
 	octave 3
 	note B_, 1
 	note __, 1
@@ -318,7 +318,7 @@ Music_VioletCity_Ch1_Part_2:
 Music_VioletCity_Ch2: ; f0162
 	vibrato $12, $24
 	dutycycle $2
-	notetype $c, $c7
+	notetype 12, $c7
 	note __, 16
 
 	callchannel Music_VioletCity_Ch2_Intro
@@ -473,7 +473,7 @@ Music_VioletCity_Ch2_Part_2:
 	note E_, 1
 	note D_, 1
 	note C#, 3
-	notetype $c, $a7
+	notetype 12, $a7
 	octave 3
 	note B_, 1
 	note __, 1
@@ -500,7 +500,7 @@ Music_VioletCity_Ch2_Part_2:
 	octave 4
 	note B_, 1
 	note A_, 3
-	notetype $c, $a7
+	notetype 12, $a7
 	note G_, 1
 	note __, 1
 	note F#, 2
@@ -544,7 +544,7 @@ Music_VioletCity_Ch2_Part_3:
 ; f0247
 
 Music_VioletCity_Ch3: ; f0247
-	notetype $c, $25
+	notetype 12, $25
 	note __, 16
 	
 	callchannel Music_VioletCity_Ch3_Intro
@@ -552,7 +552,7 @@ Music_VioletCity_Ch3: ; f0247
 
 Music_VioletCity_Ch3_Master:
 
-	notetype $c, $25
+	notetype 12, $25
 	callchannel Music_VioletCity_Ch3_Part_1
 	notetype $6, $25
 	callchannel Music_VioletCity_Ch3_Part_2
@@ -772,7 +772,7 @@ Music_VioletCity_branch_f0311: ; f0311
 
 Music_VioletCity_Ch4: ; f031e
 	togglenoise $3
-	notetype $c
+	notetype 12
 	note D#, 2
 	note D_, 2
 	note D#, 1
@@ -854,7 +854,7 @@ Music_VioletCityNight_Ch1:
 	volume $77
 	vibrato $12, $15
 	dutycycle $2
-	notetype $c, $95
+	notetype 12, $95
 	
 	callchannel Music_VioletCity_Ch1_Intro
 	callchannel Music_VioletCityNight_Ch1_Master
@@ -872,7 +872,7 @@ Music_VioletCityNight_Ch1_Master:
 Music_VioletCityNight_Ch2:
 	vibrato $12, $14
 	dutycycle $2
-	notetype $c, $c7
+	notetype 12, $c7
 	
 	callchannel Music_VioletCity_Ch2_Intro
 	callchannel Music_VioletCityNight_Ch2_Master
@@ -890,14 +890,14 @@ Music_VioletCityNight_Ch2_Master:
 
 ; ============================================================================================================
 Music_VioletCityNight_Ch3:
-	notetype $c, $24
+	notetype 12, $24
 
 	callchannel Music_VioletCity_Ch3_Intro
 	callchannel Music_VioletCityNight_Ch3_Master
 
 Music_VioletCityNight_Ch3_Master:
 
-	notetype $c, $24
+	notetype 12, $24
 	callchannel Music_VioletCity_Ch3_Part_1
 	notetype $6, $24
 	callchannel Music_VioletCity_Ch3_Part_2
@@ -911,7 +911,7 @@ Music_VioletCityNight_Ch3_Master:
 ; ============================================================================================================
 Music_VioletCityNight_Ch4:
 	togglenoise $9
-	notetype $c
+	notetype 12
 
 	loopchannel 0, Music_VioletCityNight_Ch4_Intro
 	

@@ -11,7 +11,7 @@ Music_HoOhBattleHGSS:
 Music_HoOhBattleHGSS_Ch1:
 	tempo $6a
 	dutycycle $3
-	notetype $c, $c2
+	notetype 12, $c2
 	octave 3
 	note B_, 1
 	note A#, 1
@@ -242,7 +242,7 @@ Music_HoOhBattleHGSS_Ch1_L:
 	octave 5
 	note D_, 2
 	note D#, 2
-	notetype $c, $b7
+	notetype 12, $b7
 	note E_, 1
 	note F_, 1
 	note E_, 12
@@ -499,7 +499,7 @@ Music_HoOhBattleHGSS_Ch1_L:
 
 Music_HoOhBattleHGSS_Ch2:
 	dutycycle $3
-	notetype $c, $c2
+	notetype 12, $c2
 	octave 4
 	note E_, 1
 	note D#, 1
@@ -914,7 +914,7 @@ Music_HoOhBattleHGSS_Ch2_L:
 	loopchannel 0, Music_HoOhBattleHGSS_Ch2_L
 
 Music_HoOhBattleHGSS_Ch3:
-	notetype $c, $16
+	notetype 12, $16
 	octave 2
 	note E_, 16
 	note D_, 8

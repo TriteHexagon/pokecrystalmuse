@@ -10,7 +10,7 @@ Music_Route1_Ch1: ; ec00a
 	volume $77
 	vibrato $16, $11
 	dutycycle $3
-	notetype $c, $83
+	notetype 12, $83
 	callchannel Music_Route1_Ch1_Intro
 Music_Route1_branch_ec04a: ; ec04a
 	intensity $83
@@ -105,7 +105,7 @@ Music_Route1_branch_ec04a: ; ec04a
 	note A_, 1
 	note B_, 1
 	note A_, 1
-	notetype $c, $83
+	notetype 12, $83
 	note G_, 1
 	note E_, 1
 	note F#, 2
@@ -212,7 +212,7 @@ Music_Route1_Ch2: ; ec0eb
 	vibrato $12, $22
 Music_Route1_Ch2_Start:
 	dutycycle $2
-	notetype $c, $92
+	notetype 12, $92
 	octave 4
 	note F#, 1
 	note G_, 1
@@ -288,7 +288,7 @@ Music_Route1_branch_ec112: ; ec112
 	note C#, 1
 	note D_, 1
 	note C#, 1
-	notetype $c, $92
+	notetype 12, $92
 	octave 3
 	note B_, 1
 	octave 4
@@ -311,7 +311,7 @@ Music_Route1_branch_ec112: ; ec112
 	note C#, 1
 	note D_, 1
 	note C#, 1
-	notetype $c, $92
+	notetype 12, $92
 	octave 4
 	note B_, 1
 	octave 5
@@ -387,7 +387,7 @@ Music_Route1_branch_ec1aa: ; ec1aa
 Music_Route1_Ch3: ; ec1b8
 	stereopanning $ff
 	vibrato $10, $23
-	notetype $c, $25
+	notetype 12, $25
 Music_Route1_Ch3_Start:
 	note __, 2
 	octave 3
@@ -666,7 +666,7 @@ Music_Route1Night_Ch1: ; ec00a
 	volume $77
 	vibrato $16, $11
 	dutycycle $2
-	notetype $c, $83
+	notetype 12, $83
 	callchannel Music_Route1_Ch1_Intro
 	callchannel Music_Route1_branch_ec04a
 
@@ -678,5 +678,5 @@ Music_Route1Night_Ch2:
 Music_Route1Night_Ch3:
 	stereopanning $ff
 	vibrato $10, $13
-	notetype $c, $13
+	notetype 12, $13
 	callchannel Music_Route1_Ch3_Start

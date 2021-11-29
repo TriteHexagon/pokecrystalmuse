@@ -131,7 +131,7 @@ Music_EcruteakCity_branch_ef3d0: ; ef3d0
 	endchannel
 
 Music_EcruteakCity_Ch1_Part1:
-	notetype $c, $57
+	notetype 12, $57
 	note __, 10
 	octave 4
 	note C_, 6
@@ -299,7 +299,7 @@ Music_EcruteakCity_Ch2_Part1:
 	octave 5
 	note E_, 1
 	note F_, 9
-	notetype $c, $77
+	notetype 12, $77
 	note __, 10
 	note D_, 2
 	note C_, 2
@@ -442,7 +442,7 @@ Music_EcruteakCity_Ch2_Part3:
 	note C_, 4
 	note D_, 4
 	note D#, 4
-	notetype $c, $83
+	notetype 12, $83
 	note E_, 16
 	intensity $80
 	note D_, 4
@@ -490,7 +490,7 @@ Music_EcruteakCity_Ch2_Part3:
 	note A_, 4
 	octave 4
 	note C_, 4
-	notetype $c, $87
+	notetype 12, $87
 	note F_, 10
 	note G_, 2
 	note F_, 2
@@ -509,7 +509,7 @@ Music_EcruteakCity_Ch3: ; ef4e1
 	stereopanning $ff
 Music_EcruteakCity_branch_ef4e3: ; ef4e3
 	vibrato $12, $25
-	notetype $c, $25
+	notetype 12, $25
 	callchannel Music_EcruteakCity_Ch3_Part1
 	callchannel Music_EcruteakCity_branch_ef569
 	notetype $6, $25
@@ -524,7 +524,7 @@ Music_EcruteakCity_branch_ef4e3: ; ef4e3
 	note G_, 8
 	note E_, 8
 	note C#, 8
-	notetype $c, $25
+	notetype 12, $25
 	callchannel Music_EcruteakCity_branch_ef569
 	notetype $6, $25
 	note __, 1
@@ -762,7 +762,7 @@ Music_EcruteakCityNight_Ch3: ; ef4e1
 	stereopanning $ff
 Music_EcruteakCityNight_Ch3_loop: ; ef4e3
 	vibrato $12, $15
-	notetype $c, $24
+	notetype 12, $24
 	callchannel Music_EcruteakCity_Ch3_Part1
 	callchannel Music_EcruteakCity_branch_ef569
 	notetype $6, $24
@@ -777,7 +777,7 @@ Music_EcruteakCityNight_Ch3_loop: ; ef4e3
 	note G_, 8
 	note E_, 8
 	note C#, 8
-	notetype $c, $24
+	notetype 12, $24
 	callchannel Music_EcruteakCity_branch_ef569
 	notetype $6, $24
 	note __, 1

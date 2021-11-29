@@ -12,7 +12,7 @@ Music_Objection2001_Ch1:
 	volume $77
 	dutycycle $2
 	stereopanning $ff
-	notetype $c, $b3
+	notetype 12, $b3
 	vibrato $12, $14
 
 	octave 3

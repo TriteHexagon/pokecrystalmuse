@@ -10,7 +10,7 @@ Music_LavenderTown_Ch1: ; ef739
 	stereopanning $f
 	vibrato $6, $24
 	dutycycle $0
-	notetype $c, $b3
+	notetype 12, $b3
 rept 4
 	note __, 16
 endr
@@ -372,7 +372,7 @@ Music_LavenderTown_branch_ef915: ; ef915
 ; ef932
 
 Music_LavenderTown_branch_ef8a0: ; ef8a0
-	notetype $c, $a3
+	notetype 12, $a3
 	octave 5
 	note C_, 2
 	intensity $63
@@ -394,7 +394,7 @@ Music_LavenderTown_branch_ef8a0: ; ef8a0
 
 Music_LavenderTown_Ch3: ; ef932
 	vibrato $12, $24
-	notetype $c, $13
+	notetype 12, $13
 	stereopanning $f0
 	note __, 16
 	note __, 16
@@ -421,7 +421,7 @@ Music_LavenderTown_branch_ef941: ; ef941
 	note E_, 2
 	note F_, 2
 	note E_, 2
-	notetype $c, $24
+	notetype 12, $24
 	callchannel Music_LavenderTown_Ch3_Part3
 	loopchannel 0, Music_LavenderTown_branch_ef941
 ; ef9bc
@@ -530,7 +530,7 @@ Music_LavenderTownNight_Ch1: ; ef739
 	stereopanning $f
 	vibrato $6, $14
 	dutycycle $1
-	notetype $c, $b3
+	notetype 12, $b3
 rept 4
 	note __, 16
 endr
@@ -563,7 +563,7 @@ Music_LavenderTownNight_Ch2: ; ef899
 
 Music_LavenderTownNight_Ch3: ; ef932
 	vibrato $12, $14
-	notetype $c, $11
+	notetype 12, $11
 	stereopanning $f0
 	note __, 16
 	note __, 16
@@ -590,6 +590,6 @@ Music_LavenderTownNight_Ch3_loop: ; ef941
 	note E_, 2
 	note F_, 2
 	note E_, 2
-	notetype $c, $12
+	notetype 12, $12
 	callchannel Music_LavenderTown_Ch3_Part3
 	loopchannel 0, Music_LavenderTownNight_Ch3_loop

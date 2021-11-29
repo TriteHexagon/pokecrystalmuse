@@ -12,7 +12,7 @@ Music_Route42_Ch1: ; ee6d1
 	tone $0002
 	vibrato $8, $22
 	stereopanning $f0
-	notetype $c, $b4
+	notetype 12, $b4
 	octave 3
 	note D_, 6
 	note D_, 10
@@ -36,7 +36,7 @@ Music_Route42_branch_ee6e9: ; ee6e9
 	note D_, 4
 	note G_, 4
 	note B_, 4
-	notetype $c, $b4
+	notetype 12, $b4
 	note D_, 3
 	note F#, 1
 	intensity $b7
@@ -54,7 +54,7 @@ Music_Route42_branch_ee6e9: ; ee6e9
 	note A_, 4
 	notetype $8, $b7
 	note A_, 12
-	notetype $c, $b7
+	notetype 12, $b7
 	octave 3
 	note C_, 12
 	intensity $b4
@@ -99,7 +99,7 @@ Music_Route42_Ch2: ; ee749
 	dutycycle $3
 	vibrato $20, $44
 	stereopanning $ff
-	notetype $c, $90
+	notetype 12, $90
 	octave 3
 	note G_, 8
 	intensity $97
@@ -121,7 +121,7 @@ Music_Route42_branch_ee75e: ; ee75e
 	note C_, 4
 	octave 4
 	note B_, 4
-	notetype $c, $c7
+	notetype 12, $c7
 	note G_, 12
 	note B_, 4
 	note A_, 3
@@ -136,7 +136,7 @@ Music_Route42_branch_ee75e: ; ee75e
 	note F#, 4
 	note E_, 4
 	note C_, 15
-	notetype $c, $c3
+	notetype 12, $c3
 	octave 4
 	note C_, 1
 	note E_, 1
@@ -180,14 +180,14 @@ Music_Route42_branch_ee75e: ; ee75e
 	note F#, 16
 	note D_, 4
 	note F#, 4
-	notetype $c, $c7
+	notetype 12, $c7
 	note A_, 16
 	loopchannel 0, Music_Route42_branch_ee75e
 ; ee7c1
 
 Music_Route42_Ch3: ; ee7c1
 	stereopanning $f
-	notetype $c, $16
+	notetype 12, $16
 	octave 3
 	note G_, 4
 	note __, 2
@@ -302,7 +302,7 @@ Music_Route42_branch_ee7d0: ; ee7d0
 Music_Route42_Ch4: ; ee835
 	stereopanning $f0
 	togglenoise $3
-	notetype $c
+	notetype 12
 Music_Route42_branch_ee83b: ; ee83b
 	note D_, 2
 	note D_, 1
@@ -342,7 +342,7 @@ Music_Route42Night_Ch1:
 	tone $0002
 	vibrato $8, $21
 	stereopanning $f0
-	notetype $c, $b4
+	notetype 12, $b4
 	octave 3
 	note D_, 6
 	note D_, 10
@@ -356,7 +356,7 @@ Music_Route42Night_Ch2:
 	dutycycle $2
 	vibrato $20, $43
 	stereopanning $ff
-	notetype $c, $90
+	notetype 12, $90
 	octave 3
 	note G_, 8
 	intensity $97
@@ -370,7 +370,7 @@ Music_Route42Night_Ch2:
 ; ============================================================================================================
 Music_Route42Night_Ch3:
 	stereopanning $f
-	notetype $c, $10
+	notetype 12, $10
 	octave 3
 	note G_, 4
 	note __, 2
@@ -386,5 +386,5 @@ Music_Route42Night_Ch3:
 Music_Route42Night_Ch4:
 	stereopanning $f0
 	togglenoise $9
-	notetype $c
+	notetype 12
 	loopchannel 0, Music_Route42_branch_ee83b

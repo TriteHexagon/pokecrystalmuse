@@ -142,7 +142,6 @@ Music_Route10_Ch1_master:
 	octave 2
 	note G_, 6
 	loopchannel 0, Music_Route10_Ch1_master
-	endchannel
 
 Music_Route10_Ch1_Bar5:
 ;Ch1_Bar5:
@@ -285,7 +284,7 @@ Music_Route10_Ch1_Bar21:
 Music_Route10_Ch2:
 	dutycycle $1
 	stereopanning $ff
-	notetype $c, $68
+	notetype 12, $68
 	tone $0001
 	;vibrato $12, $14
 	octave 3

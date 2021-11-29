@@ -303,7 +303,7 @@ Music_TurnaboutSisters2001_Ch2:
 	;vibrato $12, $14
 
 Music_TurnaboutSisters2001_Ch2_master:
-	notetype $c, $d7
+	notetype 12, $d7
 ;Bar1
 	callchannel Music_TurnaboutSisters2001_Ch2_Bar1
 ;Bar2:
