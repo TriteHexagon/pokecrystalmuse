@@ -123,6 +123,10 @@ Music:
 	dba Music_HearthomeCityDay
 	dba Music_Route10
 	dba Music_Route201
+	dba Music_Route203Day
+	dba Music_Route205Day
+	dba Music_Route210Day
+	dba Music_Route225Day
 ;bonus
 	dba Music_Temple
 	dba Music_LowerNorfair
@@ -132,10 +136,8 @@ Music:
 	dba Music_AtDoomsGate
 	dba Music_GourmetRace
 	dba Music_RiccoHarbor
-	dba Music_DiscoDescent
 	dba Music_BobOmbBattlefield
 	dba Music_CalamariInkantation
-	dba Music_InvestigationMiddle2002
 	dba Music_Objection2001
 	dba Music_TurnaboutSisters2001
 ;night
@@ -165,3 +167,7 @@ Music:
 	dba Music_Route47GBSNight
 	dba Music_HearthomeCityNight
 	dba Music_Route201Night
+	dba Music_Route203Night
+	dba Music_Route205Night
+	dba Music_Route210Night
+	dba Music_Route225Night

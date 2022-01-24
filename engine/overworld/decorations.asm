@@ -1167,20 +1167,13 @@ DecorationDesc_OrnamentOrConsole:
 	waitbutton
 	random 6
 	ifequal 0, .Splatoon
-	ifequal 1, .CryptoftheNecrodancer
-	ifequal 2, .AceAttorney1
-	ifequal 3, .AceAttorney2
-	ifequal 4, .AceAttorney3
-	ifequal 5, .SuperMarioSunshine
+	ifequal 1, .AceAttorney1
+	ifequal 2, .AceAttorney2
+	ifequal 3, .SuperMarioSunshine
 
 .Splatoon
 	playmusic MUSIC_BONUS_CALAMARI_INKANTATION
 	writetext ConsoleText_VirtualBoy.Splatoon
-	sjump .VirtualBoyEndScript
-
-.CryptoftheNecrodancer
-	playmusic MUSIC_BONUS_DISCO_DESCENT
-	writetext ConsoleText_VirtualBoy.Necrodancer
 	sjump .VirtualBoyEndScript
 
 .AceAttorney1
@@ -1193,10 +1186,6 @@ DecorationDesc_OrnamentOrConsole:
 	writetext ConsoleText_VirtualBoy.AceAttorney
 	sjump .VirtualBoyEndScript
 
-.AceAttorney3
-	playmusic MUSIC_BONUS_INV_MIDDLE_2002
-	writetext ConsoleText_VirtualBoy.AceAttorney
-	sjump .VirtualBoyEndScript
 
 .SuperMarioSunshine
 	playmusic MUSIC_BONUS_RICCO_HARBOR

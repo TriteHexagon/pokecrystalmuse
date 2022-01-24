@@ -1618,7 +1618,7 @@ JohtoGrassWildMons:
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, RATTATA
+	db 2, JIGGLYPUFF
 	db 2, RATTATA
 	db 2, RATTATA
 	; eve-nite

@@ -141,10 +141,6 @@ INCLUDE "audio/music/custom/pkmncenternight.asm"
 INCLUDE "audio/music/custom/friendlyshop.asm"
 INCLUDE "audio/music/custom/route24GBS.asm"
 INCLUDE "audio/music/custom/ceruleanCityGBS.asm"
-INCLUDE "audio/music/custom/icirruscity.asm"
-INCLUDE "audio/music/custom/hearthomecity.asm"
-INCLUDE "audio/music/custom/route10.asm"
-INCLUDE "audio/music/custom/route201.asm"
 
 SECTION "Custom Songs 2", ROMX
 INCLUDE "audio/music/custom/cinnabarislandGBS.asm"
@@ -152,8 +148,22 @@ INCLUDE "audio/music/custom/icepathHGSS.asm"
 INCLUDE "audio/music/custom/route47GBS.asm"
 INCLUDE "audio/music/custom/cinnabarislandFRLG.asm"
 INCLUDE "audio/music/custom/casteliaSewers.asm"
+
+SECTION "Custom Songs 3", ROMX
 INCLUDE "audio/music/custom/hoohbattle.asm"
 INCLUDE "audio/music/custom/lugiabattle.asm"
+INCLUDE "audio/music/custom/route225.asm"
+INCLUDE "audio/music/custom/route205.asm"
+
+SECTION "Custom Songs 4", ROMX
+INCLUDE "audio/music/custom/icirruscity.asm"
+INCLUDE "audio/music/custom/route10.asm"
+INCLUDE "audio/music/custom/route201.asm"
+INCLUDE "audio/music/custom/route210.asm"
+
+SECTION "Custom Songs 5", ROMX
+INCLUDE "audio/music/custom/hearthomecity.asm"
+INCLUDE "audio/music/custom/route203.asm"
 
 ;INCLUDE "audio/music/custom/.asm"
 SECTION "Bonus Songs 1", ROMX
@@ -164,15 +174,13 @@ INCLUDE "audio/music/custom/millenialfair.asm"
 INCLUDE "audio/music/custom/bigblue.asm"
 INCLUDE "audio/music/custom/bobombBattlefield.asm"
 INCLUDE "audio/music/custom/calamariinkantation.asm"
-INCLUDE "audio/music/custom/discoDescent.asm"
-INCLUDE "audio/music/custom/gourmetrace.asm"
-INCLUDE "audio/music/custom/riccoHarbor.asm"
 
 SECTION "Bonus Songs 2", ROMX
 INCLUDE "audio/music/custom/atdoomsgate.asm"
-INCLUDE "audio/music/custom/investigationmiddle2002.asm"
 INCLUDE "audio/music/custom/objection2001.asm"
 INCLUDE "audio/music/custom/turnaboutsisters2001.asm"
+INCLUDE "audio/music/custom/gourmetrace.asm"
+INCLUDE "audio/music/custom/riccoHarbor.asm"
 
 SECTION "Sound Effects", ROMX
 

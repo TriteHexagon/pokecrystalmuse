@@ -30,4 +30,8 @@ ENDM
     night_music MUSIC_ROUTE_47,         MUSIC_ROUTE_47_NIGHT
     night_music MUSIC_HEARTHOME_CITY,   MUSIC_HEARTHOME_CITY_NIGHT
     night_music MUSIC_ROUTE_201,        MUSIC_ROUTE_201_NIGHT
+    night_music MUSIC_ROUTE_203,        MUSIC_ROUTE_203_NIGHT
+    night_music MUSIC_ROUTE_205,        MUSIC_ROUTE_205_NIGHT
+    night_music MUSIC_ROUTE_210,        MUSIC_ROUTE_210_NIGHT
+    night_music MUSIC_ROUTE_225,        MUSIC_ROUTE_225_NIGHT
 	db -1 ; end
