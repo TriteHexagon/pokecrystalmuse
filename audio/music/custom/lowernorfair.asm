@@ -525,13 +525,14 @@ Music_LowerNorfair_Ch2_Bar33:
 ; ============================================================================================================
 Music_LowerNorfair_Ch3:
 	stereopanning $ff
-	notetype 12, $1E
+	notetype 12, $1C
 	tone $0001
 	vibrato $16, $13
 
 Music_LowerNorfair_Ch3_master:
 ;INTRO
 	callchannel Music_LowerNorfair_Ch3_Intro
+	intensity $1C
 ;PART A
 ;Bar9 - 16:
 	callchannel Music_LowerNorfair_Ch3_PartA
@@ -596,11 +597,15 @@ Music_LowerNorfair_Ch3_PartE_2:
 
 Music_LowerNorfair_Ch3_Intro:
 ;Bar3:
+	intensity $1C
 	octave 3
 	note G_, 16
 ;Bar4:
+	intensity $1C
 	note G#, 4
-	note __, 12
+	;intensity $2C
+	;note G#, 1
+	note __, 12 ;11
 	loopchannel 3, Music_LowerNorfair_Ch3_Intro
 	endchannel
 

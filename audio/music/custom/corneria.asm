@@ -723,7 +723,7 @@ Music_Corneria_Ch1_2_Intro: ;26
 ; ============================================================================================================
 
 Music_Corneria_Ch3:
-	notetype 3, $1D
+	notetype 3, $1B
 	tone $0002
 ;Bar 1
 	octave 2
@@ -749,7 +749,7 @@ Music_Corneria_Ch3:
 	callchannel Music_Corneria_Ch3_8A_
 ;Bar 10
 	callchannel Music_Corneria_Ch3_8D_
-	notetype 3, $1D
+	notetype 3, $1B
 	note G_, 3
     note __, 1
 	note G_, 3
@@ -838,49 +838,49 @@ Music_Corneria_Ch3:
 	loopchannel 0, Music_Corneria_Ch3
 
 Music_Corneria_Ch3_16G_:
-	notetype 3, $1D
+	notetype 3, $1B
 	note G_, 3
 	note __, 1
 	loopchannel 16, Music_Corneria_Ch3_16G_
 	endchannel
 
 Music_Corneria_Ch3_8Ds:
-	notetype 3, $1D
+	notetype 3, $1B
 	note D#, 3
 	note __, 1
 	loopchannel 8, Music_Corneria_Ch3_8Ds
 	endchannel
 
 Music_Corneria_Ch3_8D_:
-	notetype 3, $1D
+	notetype 3, $1B
 	note D_, 3
 	note __, 1
 	loopchannel 8, Music_Corneria_Ch3_8D_
 	endchannel
 
 Music_Corneria_Ch3_8G_:
-	notetype 3, $1D
+	notetype 3, $1B
 	note G_, 3
 	note __, 1
 	loopchannel 8, Music_Corneria_Ch3_8G_
 	endchannel
 
 Music_Corneria_Ch3_7G_:
-	notetype 3, $1D
+	notetype 3, $1B
 	note G_, 3
 	note __, 1
 	loopchannel 7, Music_Corneria_Ch3_7G_
 	endchannel
 	
 Music_Corneria_Ch3_8A_:
-	notetype 3, $1D
+	notetype 3, $1B
 	note A_, 3
 	note __, 1
 	loopchannel 8, Music_Corneria_Ch3_8A_
 	endchannel
 
 Music_Corneria_Ch3_Bar4:
-	notetype 3, $1D
+	notetype 3, $1B
 	note G_, 3
 	note __, 1
 	note F_, 3
@@ -1018,16 +1018,28 @@ Music_Corneria_Ch3_Type4:
 ; ============================================================================================================
 
 Music_Corneria_Ch4:
-	togglenoise 11
+	togglenoise 14
 	notetype 12
 
 Music_Corneria_Ch4_loop:
 	callchannel Music_Corneria_Ch4_Bar21
 	notetype 12
 ;Bar 3
-rept 8
 	callchannel Music_Corneria_Ch4_Bar1
-endr
+;Bar 4
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 5
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 6
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 7
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 8
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 9
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 10
+	callchannel Music_Corneria_Ch4_Bar1
 ;Bar 11
 	note C_, 1
 	note B_, 1
@@ -1045,9 +1057,19 @@ endr
 	note C_, 1
 	note B_, 2
 ;Bar 12
-rept 7
 	callchannel Music_Corneria_Ch4_Bar1
-endr
+;Bar 13
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 14
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 15
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 16
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 17
+	callchannel Music_Corneria_Ch4_Bar1
+;Bar 18
+	callchannel Music_Corneria_Ch4_Bar1
 	note B_, 1
 ;Bar 19
 	note B_, 1

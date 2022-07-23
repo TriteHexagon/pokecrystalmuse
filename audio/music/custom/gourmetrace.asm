@@ -943,7 +943,7 @@ Music_GourmetRace_Ch2_Bar36:
 ; ============================================================================================================
 Music_GourmetRace_Ch3:
 	stereopanning $ff
-	notetype 12, $1D
+	notetype 12, $1B
 	;vibrato $16, $14
 	
 Music_GourmetRace_Ch3_master:

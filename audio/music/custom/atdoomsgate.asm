@@ -182,7 +182,7 @@ Music_AtDoomsGate_Ch2_Bass1:
 ; ============================================================================================================
 
 Music_AtDoomsGate_Ch3:
-	notetype 12, $1F
+	notetype 12, $1D
 	vibrato $00, $44
 ;Bar 1
 	pitchoffset 1, C_
@@ -399,7 +399,7 @@ Music_AtDoomsGate_Ch3_Bar48:
 ; ============================================================================================================
 
 Music_AtDoomsGate_Ch4:
-	togglenoise 10
+	togglenoise 13
 	notetype 12
 Music_AtDoomsGate_Ch4_loop:
 ;Bar 1

@@ -988,7 +988,7 @@ Music_MillenialFair_Ch3_SevenDs:
 ; ============================================================================================================
 
 Music_MillenialFair_Ch4:
-	togglenoise 3
+	togglenoise $3
 	notetype 12
 ;Bar 1
 	callchannel Music_MillenialFair_Ch4_intro1
