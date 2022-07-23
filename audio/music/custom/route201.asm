@@ -289,7 +289,6 @@ Music_Route201_Ch2_Main:
 ;Bar 3
 	intensity $47
 	note G_, 1
-Music_Route201_Ch2_Miniloop1:
 	intensity $97
 	note F_, 1
 	intensity $47
@@ -298,7 +297,14 @@ Music_Route201_Ch2_Miniloop1:
 	note E_, 1
 	intensity $47
 	note E_, 1
-	loopchannel 2, Music_Route201_Ch2_Miniloop1
+	intensity $97
+	note F_, 1
+	intensity $47
+	note F_, 1
+	intensity $97
+	note E_, 1
+	intensity $47
+	note E_, 1
 	intensity $97
 	note C_, 1
 	intensity $47

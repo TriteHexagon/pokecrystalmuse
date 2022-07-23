@@ -141,6 +141,9 @@ INCLUDE "audio/music/custom/pkmncenternight.asm"
 INCLUDE "audio/music/custom/friendlyshop.asm"
 INCLUDE "audio/music/custom/route24GBS.asm"
 INCLUDE "audio/music/custom/ceruleanCityGBS.asm"
+INCLUDE "audio/music/custom/icirruscity.asm"
+INCLUDE "audio/music/custom/hearthomecity.asm"
+INCLUDE "audio/music/custom/gateonPort.asm"
 
 SECTION "Custom Songs 2", ROMX
 INCLUDE "audio/music/custom/cinnabarislandGBS.asm"
@@ -156,13 +159,9 @@ INCLUDE "audio/music/custom/route225.asm"
 INCLUDE "audio/music/custom/route205.asm"
 
 SECTION "Custom Songs 4", ROMX
-INCLUDE "audio/music/custom/icirruscity.asm"
 INCLUDE "audio/music/custom/route10.asm"
 INCLUDE "audio/music/custom/route201.asm"
 INCLUDE "audio/music/custom/route210.asm"
-
-SECTION "Custom Songs 5", ROMX
-INCLUDE "audio/music/custom/hearthomecity.asm"
 INCLUDE "audio/music/custom/route203.asm"
 
 ;INCLUDE "audio/music/custom/.asm"
