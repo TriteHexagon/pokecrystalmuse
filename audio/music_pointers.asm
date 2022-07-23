@@ -139,7 +139,6 @@ Music:
 	dba Music_BobOmbBattlefield
 	dba Music_CalamariInkantation
 	dba Music_Objection2001
-	dba Music_TurnaboutSisters2001
 ;night
 	dba Music_NewBarkTownNight
 	dba Music_Route29Night

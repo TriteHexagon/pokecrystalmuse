@@ -178,7 +178,6 @@ INCLUDE "audio/music/custom/calamariinkantation.asm"
 SECTION "Bonus Songs 2", ROMX
 INCLUDE "audio/music/custom/atdoomsgate.asm"
 INCLUDE "audio/music/custom/objection2001.asm"
-INCLUDE "audio/music/custom/turnaboutsisters2001.asm"
 INCLUDE "audio/music/custom/gourmetrace.asm"
 INCLUDE "audio/music/custom/riccoHarbor.asm"
 

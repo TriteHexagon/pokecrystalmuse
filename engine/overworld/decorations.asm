@@ -1165,27 +1165,20 @@ DecorationDesc_OrnamentOrConsole:
 	opentext
 	writetext ConsoleText_VirtualBoy
 	waitbutton
-	random 6
+	random 3
 	ifequal 0, .Splatoon
-	ifequal 1, .AceAttorney1
-	ifequal 2, .AceAttorney2
-	ifequal 3, .SuperMarioSunshine
+	ifequal 1, .AceAttorney2
+	ifequal 2, .SuperMarioSunshine
 
 .Splatoon
 	playmusic MUSIC_BONUS_CALAMARI_INKANTATION
 	writetext ConsoleText_VirtualBoy.Splatoon
 	sjump .VirtualBoyEndScript
 
-.AceAttorney1
-	playmusic MUSIC_BONUS_MAYA_2001
-	writetext ConsoleText_VirtualBoy.AceAttorney
-	sjump .VirtualBoyEndScript
-
 .AceAttorney2
 	playmusic MUSIC_BONUS_OBJECTION_2001
 	writetext ConsoleText_VirtualBoy.AceAttorney
 	sjump .VirtualBoyEndScript
-
 
 .SuperMarioSunshine
 	playmusic MUSIC_BONUS_RICCO_HARBOR
