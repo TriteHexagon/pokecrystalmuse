@@ -122,6 +122,8 @@ Music:
 	dba Music_IcirrusCity
 	dba Music_HearthomeCityDay
 	dba Music_Route10
+	dba Music_Route210Day
+	dba Music_Route225Day
 	dba Music_GateonPort
 ;bonus
 	dba Music_Temple

@@ -1167,7 +1167,7 @@ DecorationDesc_OrnamentOrConsole:
 	waitbutton
 	random 3
 	ifequal 0, .Splatoon
-	ifequal 1, .AceAttorney2
+	ifequal 1, .AceAttorney
 	ifequal 2, .SuperMarioSunshine
 
 .Splatoon
@@ -1175,7 +1175,7 @@ DecorationDesc_OrnamentOrConsole:
 	writetext ConsoleText_VirtualBoy.Splatoon
 	sjump .VirtualBoyEndScript
 
-.AceAttorney2
+.AceAttorney
 	playmusic MUSIC_BONUS_OBJECTION_2001
 	writetext ConsoleText_VirtualBoy.AceAttorney
 	sjump .VirtualBoyEndScript
