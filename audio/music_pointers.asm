@@ -125,6 +125,8 @@ Music:
 	dba Music_Route210Day
 	dba Music_Route225Day
 	dba Music_GateonPort
+	dba Music_Route203Day
+	dba Music_Route205Day
 ;bonus
 	dba Music_Temple
 	dba Music_LowerNorfair
@@ -163,3 +165,7 @@ Music:
 	dba Music_Route24GBSNight
 	dba Music_Route47GBSNight
 	dba Music_HearthomeCityNight
+	dba Music_Route210Night
+	dba Music_Route225Night
+	dba Music_Route203Night
+	dba Music_Route205Night

@@ -368,14 +368,14 @@ CianwoodPharmacySignText:
 
 CianwoodPhotoStudioSignText:
 	text "Cianwood City"
-	line "PHOTO STUDIO"
+	line "Photo Studio"
 
 	para "Take a Snapshot as"
 	line "a Keepsake!"
 	done
 
 CianwoodPokeSeerSignText:
-	text "THE # SEER"
+	text "The # Seer"
 	line "ahead"
 	done
 

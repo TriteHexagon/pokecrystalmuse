@@ -333,9 +333,9 @@ ENDM
 	add_mt THUNDER_FANG  ;Goldenrod
 	add_mt ICE_FANG      ;Goldenrod
 	add_mt HEADBUTT      ;Ilex Forest
-	add_mt DEFENSE_CURL  ;Ecruteak
+	add_mt DEFENSE_CURL  ;Vermilion City Tutor
 	add_mt DRAGONBREATH  ;Cianwood
-	add_mt CURSE         ;
+	add_mt CURSE         ;Ecruteak
 	add_mt ICY_WIND      ;Cianwood
 	add_mt ROAR          ;Cianwood
 	add_mt ENDURE        ;Mahogany
@@ -345,17 +345,17 @@ ENDM
 	add_mt ICE_PUNCH     ;Goldenrod
 	add_mt THUNDERPUNCH  ;Goldenrod
 	add_mt ROLLOUT       ;Ecruteak
-	add_mt MUD_SLAP      ;
+	add_mt MUD_SLAP      ;Vermilion City Tutor
 	add_mt DOUBLE_TEAM   ;Mahogany
-	add_mt DREAM_EATER   ;
-	add_mt ROCK_SLIDE    ;???
-	add_mt ZEN_HEADBUTT  ;???
+	add_mt DREAM_EATER   ;Vermilion City Tutor
+	add_mt ROCK_SLIDE    ;Dark Cave tutor
+	add_mt ZEN_HEADBUTT  ;Route 26 tutor
 	add_mt SEED_BOMB     ;Route 26 - Gold
 	add_mt DRILL_RUN     ;Route 26 - Gold
 	add_mt SIGNAL_BEAM   ;Route 26 - Silver
 	add_mt DRAIN_PUNCH   ;Route 26 - Silver
-	add_mt SWORDS_DANCE
-	add_mt SUBSTITUTE
+	add_mt SWORDS_DANCE  ;Route 26 - Gold
+	add_mt SUBSTITUTE    ;Route 26 - Silver
 NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 NUM_TM_HM_TUTOR EQU __tmhm_value__ - 1

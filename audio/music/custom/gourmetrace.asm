@@ -424,39 +424,9 @@ Music_GourmetRace_Ch2_master:
 	note __, 4
 ;Bar3:
 	notetype 12, $97
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar3
 ;Bar4
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar3
 ;Bar5
 	octave 2
 	note F_, 2
@@ -475,56 +445,11 @@ Music_GourmetRace_Ch2_master:
 	octave 3
 	note C_, 2
 ;Bar6
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar3
 ;Bar7
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar3
 ;Bar8
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar3
 ;Bar9
 	octave 2
 	note C_, 2
@@ -543,118 +468,21 @@ Music_GourmetRace_Ch2_master:
 	octave 3
 	note D_, 2
 ;Bar10
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar3
 ;Bar11
 	dutycycle $0
 	vibrato $12, $41
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar11
 ;Bar12
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar11
 ;Bar13
-	octave 1
-	note F_, 2
-	octave 2
-	note G#, 2
-	note C_, 2
-	note G#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note G#, 2
-	note C_, 2
-	note G#, 2
+	callchannel Music_GourmetRace_Ch2_Bar13
 ;Bar14
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar11
 ;Bar15
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar11
 ;Bar16
-	octave 1
-	note F_, 2
-	octave 2
-	note G#, 2
-	note C_, 2
-	note G#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note G#, 2
-	note C_, 2
-	note G#, 2
+	callchannel Music_GourmetRace_Ch2_Bar13
 ;Bar17
 	octave 1
 	note G_, 2
@@ -673,22 +501,7 @@ Music_GourmetRace_Ch2_master:
 	octave 3
 	note D_, 2
 ;Bar18
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note C_, 2
-	octave 3
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note D#, 2
+	callchannel Music_GourmetRace_Ch2_Bar11
 ;Bar19
 	callchannel Music_GourmetRace_Ch2_Bar19
 ;Bar20
@@ -940,6 +753,59 @@ Music_GourmetRace_Ch2_Bar36:
 	intensity $97
 	endchannel
 
+Music_GourmetRace_Ch2_Bar3:
+	octave 2;
+	note C_, 2
+	octave 3
+	note D#, 2
+	octave 1
+	note G_, 2
+	octave 3
+	note D#, 2
+	octave 2
+	note C_, 2
+	octave 3
+	note D#, 2
+	octave 1
+	note G_, 2
+	octave 3
+	note D#, 2
+	endchannel
+
+Music_GourmetRace_Ch2_Bar11:
+	octave 1;
+	note C_, 2
+	octave 3
+	note D#, 2
+	octave 1
+	note G_, 2
+	octave 3
+	note D#, 2
+	octave 1
+	note C_, 2
+	octave 3
+	note D#, 2
+	octave 1
+	note G_, 2
+	octave 3
+	note D#, 2
+	endchannel
+
+Music_GourmetRace_Ch2_Bar13:
+	octave 1;
+	note F_, 2
+	octave 2
+	note G#, 2
+	note C_, 2
+	note G#, 2
+	octave 1
+	note F_, 2
+	octave 2
+	note G#, 2
+	note C_, 2
+	note G#, 2
+	endchannel
+
 ; ============================================================================================================
 Music_GourmetRace_Ch3:
 	stereopanning $ff
@@ -1049,80 +915,15 @@ Music_GourmetRace_Ch3_master:
 	octave 1
 	note A#, 4
 ;Bar35
-	note D#, 2
-	octave 2
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 2
-	note D#, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 2
-	note D#, 2
+	callchannel Music_GourmetRace_Ch3_Bar35
 ;Bar36:
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	note F_, 2
-	note A#, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note A#, 2
+	callchannel Music_GourmetRace_Ch3_Bar36
 ;Bar37
-	note C_, 2
-	octave 3
-	note C_, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note C_, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note C_, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note C_, 2
+	callchannel Music_GourmetRace_Ch3_Bar37
 ;Bar38
-	octave 1
-	note G_, 2
-	octave 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	octave 1
-	note G_, 2
-	octave 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
+	callchannel Music_GourmetRace_Ch3_Bar38
 ;Bar39:
-	octave 1
-	note F_, 2
-	octave 2
-	note F_, 2
-	note C_, 2
-	note F_, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note A#, 2
+	callchannel Music_GourmetRace_Ch3_Bar39
 ;Bar40
 	octave 1
 	note D#, 2
@@ -1158,96 +959,18 @@ Music_GourmetRace_Ch3_master:
 	octave 2
 	note B_, 2
 ;Bar42
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	note F_, 2
-	note A#, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note A#, 2
+	callchannel Music_GourmetRace_Ch3_Bar36
 ;Bar43
 	octave 1
-	note D#, 2
-	octave 2
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 2
-	note D#, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note D#, 2
-	octave 1
-	note G_, 2
-	octave 2
-	note D#, 2
+	callchannel Music_GourmetRace_Ch3_Bar35
 ;Bar44
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	note F_, 2
-	note A#, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note A#, 2
+	callchannel Music_GourmetRace_Ch3_Bar36
 ;Bar45
-	note C_, 2
-	octave 3
-	note C_, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note C_, 2
-	octave 2
-	note C_, 2
-	octave 3
-	note C_, 2
-	octave 1
-	note G_, 2
-	octave 3
-	note C_, 2
+	callchannel Music_GourmetRace_Ch3_Bar37
 ;Bar46
-	octave 1
-	note G_, 2
-	octave 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
-	octave 1
-	note G_, 2
-	octave 2
-	note G_, 2
-	note D_, 2
-	note G_, 2
+	callchannel Music_GourmetRace_Ch3_Bar38
 ;Bar47
-	octave 1
-	note F_, 2
-	octave 2
-	note F_, 2
-	note C_, 2
-	note F_, 2
-	octave 1
-	note A#, 2
-	octave 2
-	note A#, 2
-	octave 1
-	note F_, 2
-	octave 2
-	note A#, 2
+	callchannel Music_GourmetRace_Ch3_Bar39
 ;Bar48
 	octave 1
 	note D#, 2
@@ -1303,7 +1026,6 @@ Music_GourmetRace_Ch3_Bar3:
 	note C_, 4
 	octave 1
 	note G_, 4
-
 	endchannel
 
 Music_GourmetRace_Ch3_Bar19:
@@ -1352,6 +1074,91 @@ Music_GourmetRace_Ch3_Bar19:
 	note G_, 4
 	octave 2
 	note G_, 4
+	endchannel
+
+Music_GourmetRace_Ch3_Bar35:
+	note D#, 2;
+	octave 2
+	note D#, 2
+	octave 1
+	note G_, 2
+	octave 2
+	note D#, 2
+	octave 1
+	note A#, 2
+	octave 2
+	note D#, 2
+	octave 1
+	note G_, 2
+	octave 2
+	note D#, 2
+	endchannel
+
+Music_GourmetRace_Ch3_Bar36:
+	octave 1;
+	note A#, 2
+	octave 2
+	note A#, 2
+	note F_, 2
+	note A#, 2
+	octave 1
+	note A#, 2
+	octave 2
+	note A#, 2
+	octave 1
+	note F_, 2
+	octave 2
+	note A#, 2
+	endchannel
+
+Music_GourmetRace_Ch3_Bar37:
+	note C_, 2;
+	octave 3
+	note C_, 2
+	octave 1
+	note G_, 2
+	octave 3
+	note C_, 2
+	octave 2
+	note C_, 2
+	octave 3
+	note C_, 2
+	octave 1
+	note G_, 2
+	octave 3
+	note C_, 2
+	endchannel
+
+Music_GourmetRace_Ch3_Bar38:
+	octave 1;
+	note G_, 2
+	octave 2
+	note G_, 2
+	note D_, 2
+	note G_, 2
+	octave 1
+	note G_, 2
+	octave 2
+	note G_, 2
+	note D_, 2
+	note G_, 2
+	endchannel
+
+Music_GourmetRace_Ch3_Bar39:
+	octave 1;
+	note F_, 2
+	octave 2
+	note F_, 2
+	note C_, 2
+	note F_, 2
+	octave 1
+	note A#, 2
+	octave 2
+	note A#, 2
+	octave 1
+	note F_, 2
+	octave 2
+	note A#, 2
 	endchannel
 ; ============================================================================================================
 Music_GourmetRace_Ch4:

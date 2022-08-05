@@ -149,8 +149,8 @@ RageCandyBarMerchantTryOneText:
 	para "Since you're new,"
 	line "you should try a"
 
-	para "yummy RAGECANDY-"
-	line "BAR!"
+	para "yummy RageCandy-"
+	line "Bar!"
 
 	para "Right now, it can"
 	line "be yours for just"

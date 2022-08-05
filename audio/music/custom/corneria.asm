@@ -1018,7 +1018,7 @@ Music_Corneria_Ch3_Type4:
 ; ============================================================================================================
 
 Music_Corneria_Ch4:
-	togglenoise 14
+	togglenoise 11
 	notetype 12
 
 Music_Corneria_Ch4_loop:

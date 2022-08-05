@@ -126,6 +126,8 @@
 	const MUSIC_ROUTE_210
 	const MUSIC_ROUTE_225
 	const MUSIC_GATEON_PORT
+	const MUSIC_ROUTE_203
+	const MUSIC_ROUTE_205
 ;bonus
 ;const MUSIC_BONUS_
 	const MUSIC_BONUS_TEMPLE
@@ -167,6 +169,8 @@
 	const MUSIC_HEARTHOME_CITY_NIGHT
 	const MUSIC_ROUTE_210_NIGHT
 	const MUSIC_ROUTE_225_NIGHT
+	const MUSIC_ROUTE_203_NIGHT
+	const MUSIC_ROUTE_205_NIGHT
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc

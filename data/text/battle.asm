@@ -632,7 +632,7 @@ TookDownWithItText:
 ;unused
 RageBuildingText:
 	text "<USER>'s"
-	line "RAGE is building!"
+	line "Rage is building!"
 	prompt
 
 GotAnEncoreText:

@@ -156,8 +156,8 @@ SwimmerfDawnAfterBattleText:
 	text "It's a quick swim"
 	line "between Fuchsia"
 
-	para "and SEAFOAM IS-"
-	line "LANDS…"
+	para "and Seafoam Is-"
+	line "lands…"
 
 	para "Sheesh, some big"
 	line "man my boyfriend"
@@ -220,13 +220,13 @@ Route19SignText:
 	text "Route 19"
 
 	para "Fuchsia City -"
-	line "SEAFOAM Islands"
+	line "Seafoam Islands"
 	done
 
 CarefulSwimmingSignText:
 	text "Please be careful"
 	line "if you are swim-"
-	cont "ming to SEAFOAM"
+	cont "ming to Seafoam"
 	cont "Islands."
 
 	para "Fuchsia Police"

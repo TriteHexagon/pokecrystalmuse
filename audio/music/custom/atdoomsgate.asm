@@ -399,7 +399,7 @@ Music_AtDoomsGate_Ch3_Bar48:
 ; ============================================================================================================
 
 Music_AtDoomsGate_Ch4:
-	togglenoise 13
+	togglenoise 10
 	notetype 12
 Music_AtDoomsGate_Ch4_loop:
 ;Bar 1

@@ -950,7 +950,7 @@ Music_BigBlue_Ch3:
 ; ============================================================================================================
 
 Music_BigBlue_Ch4:
-	togglenoise 14
+	togglenoise 11
 	notetype 12
 Music_BigBlue_Ch4_loop:
 ;Bar 1

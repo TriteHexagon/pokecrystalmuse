@@ -22,7 +22,7 @@ CinnabarPokecenter1FCooltrainerFText:
 	line "Blaine apparently"
 
 	para "lives alone in the"
-	line "SEAFOAM Islands"
+	line "Seafoam Islands"
 	cont "cave…"
 	done
 
