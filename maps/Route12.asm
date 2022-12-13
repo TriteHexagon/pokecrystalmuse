@@ -146,7 +146,7 @@ FisherKyleAfterBattleText:
 	line "on the Rod when"
 
 	para "you hook a #-"
-	line "MON…"
+	line "mon…"
 
 	para "That's the best"
 	line "feeling ever for"

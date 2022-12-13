@@ -1309,29 +1309,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite
 	; morn
-	db 6, RATTATA
-	db 6, SPEAROW
-	db 6, GEODUDE
-	db 6, HOPPIP
-	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 9, RATTATA
+	db 9, SPEAROW
+	db 9, GEODUDE
+	db 9, HOPPIP
+	db 11, EKANS
+	db 11, HOPPIP
+	db 11, HOPPIP
 	; day
-	db 6, RATTATA
-	db 6, SPEAROW
-	db 6, GEODUDE
-	db 6, HOPPIP
-	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 9, RATTATA
+	db 9, SPEAROW
+	db 9, GEODUDE
+	db 9, HOPPIP
+	db 11, EKANS
+	db 11, HOPPIP
+	db 11, HOPPIP
 	; eve-nite
-	db 6, RATTATA
-	db 6, ZUBAT
-	db 6, GEODUDE
-	db 6, ZUBAT
-	db 7, RATTATA
-	db 7, RATTATA
-	db 7, RATTATA
+	db 9, RATTATA
+	db 9, ZUBAT
+	db 9, GEODUDE
+	db 9, ZUBAT
+	db 11, RATTATA
+	db 11, RATTATA
+	db 11, RATTATA
 
 	map_id ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/eve-nite

@@ -160,8 +160,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic TOGEPI
+	cry TOGEPI
 	waitbutton
 	closepokepic
 	opentext
@@ -173,17 +173,47 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CYNDAQUIL
+	getmonname STRING_BUFFER_3, TOGEPI
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CYNDAQUIL, 5, ORAN_BERRY
+	givepoke TOGEPI, 5, ORAN_BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
 	applymovement PLAYER, AfterCyndaquilMovement
 	sjump ElmDirectionsScript
+
+; CyndaquilPokeBallScript:
+; 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+; 	iftrue LookAtElmPokeBallScript
+; 	turnobject ELMSLAB_ELM, DOWN
+; 	refreshscreen
+; 	pokepic CYNDAQUIL
+; 	cry CYNDAQUIL
+; 	waitbutton
+; 	closepokepic
+; 	opentext
+; 	writetext TakeCyndaquilText
+; 	yesorno
+; 	iffalse DidntChooseStarterScript
+; 	disappear ELMSLAB_POKE_BALL1
+; 	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+; 	writetext ChoseStarterText
+; 	promptbutton
+; 	waitsfx
+; 	getmonname STRING_BUFFER_3, CYNDAQUIL
+; 	writetext ReceivedStarterText
+; 	playsound SFX_CAUGHT_MON
+; 	waitsfx
+; 	promptbutton
+; 	givepoke CYNDAQUIL, 5, ORAN_BERRY
+; 	closetext
+; 	readvar VAR_FACING
+; 	ifequal RIGHT, ElmDirectionsScript
+; 	applymovement PLAYER, AfterCyndaquilMovement
+; 	sjump ElmDirectionsScript
 
 TotodilePokeBallScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

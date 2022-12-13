@@ -584,8 +584,8 @@ YoungsterGroup:
 
 	; YOUNGSTER (3)
 	db "Albert@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
-	db  8, ZUBAT
+	db  7, RATTATA
+	db  9, ZUBAT
 	db -1 ; end
 
 	; YOUNGSTER (4)
@@ -595,16 +595,16 @@ YoungsterGroup:
 
 	; YOUNGSTER (5)
 	db "Samuel@", TRAINERTYPE_NORMAL
-	db 10, RATTATA
-	db 13, SANDSHREW
-	db 11, SPEAROW
-	db 11, SPEAROW
+	db 12, RATTATA
+	db 15, SANDSHREW
+	db 13, SPEAROW
+	db 13, SPEAROW
 	db -1 ; end
 
 	; YOUNGSTER (6)
 	db "Ian@", TRAINERTYPE_NORMAL
-	db 13, MANKEY
-	db 15, DIGLETT
+	db 14, MANKEY
+	db 16, DIGLETT
 	db -1 ; end
 
 	; YOUNGSTER (7)
@@ -1318,7 +1318,7 @@ CooltrainerFGroup:
 BeautyGroup:
 	; BEAUTY (1)
 	db "Victoria@", TRAINERTYPE_NORMAL
-	db 11, SENTRET
+	db 12, SENTRET
 	db 14, SENTRET
 	db 18, FURRET
 	db -1 ; end
@@ -1425,7 +1425,7 @@ BeautyGroup:
 PokemaniacGroup:
 	; POKEMANIAC (1)
 	db "Larry@", TRAINERTYPE_NORMAL
-	db 10, SLOWPOKE
+	db 12, SLOWPOKE
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -1822,9 +1822,8 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (5)
 	db "Benny@", TRAINERTYPE_NORMAL
-	db 10, WEEDLE
-	db 12, KAKUNA
-	db 14, BEEDRILL
+	db 13, PARAS
+	db 13, PARAS ;new mon
 	db -1 ; end
 
 	; BUG_CATCHER (6)
@@ -1836,8 +1835,9 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (7)
 	db "Josh@", TRAINERTYPE_NORMAL
-	db 13, PARAS
-	db 13, PARAS ;new mon
+	db 10, WEEDLE
+	db 12, KAKUNA
+	db 14, BEEDRILL
 	db -1 ; end
 
 	; BUG_CATCHER (8)
@@ -2579,9 +2579,9 @@ HikerGroup:
 
 	; HIKER (2)
 	db "Russell@", TRAINERTYPE_NORMAL
-	db  4, GEODUDE
 	db  6, GEODUDE
 	db  8, GEODUDE
+	db  10, GEODUDE
 	db -1 ; end
 
 	; HIKER (3)
@@ -2686,7 +2686,7 @@ HikerGroup:
 
 	; HIKER (18)
 	db "Daniel@", TRAINERTYPE_NORMAL
-	db 11, ONIX
+	db 12, ONIX
 	db -1 ; end
 
 	; HIKER (19)
@@ -3010,8 +3010,8 @@ ExecutiveMGroup:
 
 	; PROTON (1)
 	db "Proton@", TRAINERTYPE_MOVES
-	db 10, ZUBAT,   ABSORB, SUPERSONIC, BITE, NO_MOVE
-	db 14, KOFFING, ROLLOUT, ACID, SMOKESCREEN, POISON_GAS
+	db 12, ZUBAT,   ABSORB, SUPERSONIC, BITE, NO_MOVE
+	db 15, KOFFING, ROLLOUT, ACID, SMOKESCREEN, POISON_GAS
 	db -1 ; end
 
 PsychicGroup:

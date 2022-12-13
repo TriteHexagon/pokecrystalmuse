@@ -223,7 +223,7 @@ GruntM29AfterBattleText:
 
 GruntM1SeenText:
 	text "Proton: What do"
-	cont "you want?"
+	line "you want?"
 
 	para "If you interrupt"
 	line "our work, don't"

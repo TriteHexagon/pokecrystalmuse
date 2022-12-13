@@ -3146,11 +3146,10 @@ IgglybuffEvosAttacks:
 TogepiEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
-	db 1, GROWL
 	db 1, CHARM
 	db 5, METRONOME
 	db 9, SWEET_KISS
-	db 13, FORESIGHT
+	db 12, FORESIGHT
 	db 14, FAIRY_WIND
 	db 17, ENCORE
 	db 21, DRAINING_KISS
@@ -3167,11 +3166,10 @@ TogeticEvosAttacks:
 	db 1, AIR_SLASH ;evolution move
 	db 1, SMART_STRIKE
 	db 1, NASTY_PLOT
-	db 1, GROWL
 	db 1, CHARM
 	db 5, METRONOME
 	db 9, SWEET_KISS
-	db 13, FORESIGHT
+	db 12, FORESIGHT
 	db 14, FAIRY_WIND
 	db 17, ENCORE
 	db 21, DRAINING_KISS

@@ -121,7 +121,7 @@ PokemaniacLarrySeenText:
 
 PokemaniacLarryBeatenText:
 	text "Ugh. My poor #-"
-	line "MON…"
+	line "mon…"
 	done
 
 PokemaniacLarryAfterBattleText:
